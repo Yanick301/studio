@@ -8,7 +8,7 @@ export type Product = {
   imageHint: string;
   width: number;
   height: number;
-  category: 'clothing' | 'accessories';
+  category: 'clothing' | 'accessories' | 'shoes';
   gender: 'men' | 'women' | 'unisex';
   isTrending: boolean;
   details?: string;
@@ -24,4 +24,9 @@ export type Testimonial = {
 export type CartItem = {
   product: Product;
   quantity: number;
+};
+
+export type FaqItem = {
+  question: string;
+  answer: string;
 };
