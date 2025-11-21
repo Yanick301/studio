@@ -1,3 +1,6 @@
+'use client';
+
+import { useState } from 'react';
 import { Button } from "@/components/ui/button"
 import {
   Card,
@@ -10,8 +13,78 @@ import {
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import Link from "next/link"
+import { useForm } from 'react-hook-form';
+import { zodResolver } from '@hookform/resolvers/zod';
+import { z } from 'zod';
+import { useAuth, useFirestore } from '@/firebase';
+import { createUserWithEmailAndPassword } from 'firebase/auth';
+import { doc, setDoc } from 'firebase/firestore';
+import { useRouter } from 'next/navigation';
+import { useToast } from '@/hooks/use-toast';
+import { Loader2 } from 'lucide-react';
+import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
+
+const signupSchema = z.object({
+  fullName: z.string().min(2, { message: "Der vollständige Name ist erforderlich." }),
+  email: z.string().email({ message: "Ungültige E-Mail-Adresse." }),
+  password: z.string().min(6, { message: "Das Passwort muss mindestens 6 Zeichen lang sein." }),
+});
+
+type SignupFormValues = z.infer<typeof signupSchema>;
+
 
 export function SignupForm() {
+  const [isLoading, setIsLoading] = useState(false);
+  const [error, setError] = useState<string | null>(null);
+  const auth = useAuth();
+  const firestore = useFirestore();
+  const router = useRouter();
+  const { toast } = useToast();
+
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+  } = useForm<SignupFormValues>({
+    resolver: zodResolver(signupSchema),
+  });
+
+  const onSubmit = async (data: SignupFormValues) => {
+    setIsLoading(true);
+    setError(null);
+    try {
+      const userCredential = await createUserWithEmailAndPassword(auth, data.email, data.password);
+      const user = userCredential.user;
+      
+      const [firstName, ...lastName] = data.fullName.split(' ');
+
+      // Create a user document in Firestore
+      await setDoc(doc(firestore, "users", user.uid), {
+        id: user.uid,
+        firstName: firstName || '',
+        lastName: lastName.join(' '),
+        email: user.email,
+        registrationDate: new Date().toISOString(),
+      });
+
+      toast({
+        title: "Konto erfolgreich erstellt",
+        description: "Willkommen bei EZENTIALS!",
+      });
+      router.push('/account/profile');
+
+    } catch (error: any) {
+        if (error.code === 'auth/email-already-in-use') {
+            setError('Diese E-Mail-Adresse wird bereits verwendet.');
+        } else {
+            setError('Bei der Erstellung des Kontos ist ein Fehler aufgetreten.');
+        }
+        console.error(error);
+    } finally {
+      setIsLoading(false);
+    }
+  };
+
   return (
     <Card className="w-full max-w-sm">
       <CardHeader>
@@ -20,29 +93,43 @@ export function SignupForm() {
           Erstellen Sie ein Konto, um ein personalisiertes Erlebnis zu genießen.
         </CardDescription>
       </CardHeader>
-      <CardContent className="grid gap-4">
-        <div className="grid gap-2">
-          <Label htmlFor="full-name">Vollständiger Name</Label>
-          <Input id="full-name" placeholder="Vorname Nachname" required />
-        </div>
-        <div className="grid gap-2">
-          <Label htmlFor="email">Email</Label>
-          <Input id="email" type="email" placeholder="m@example.com" required />
-        </div>
-        <div className="grid gap-2">
-          <Label htmlFor="password">Passwort</Label>
-          <Input id="password" type="password" required />
-        </div>
-      </CardContent>
-      <CardFooter className="flex flex-col items-start">
-        <Button className="w-full">Konto erstellen</Button>
-        <div className="mt-4 text-center text-sm w-full">
-          Haben Sie bereits ein Konto?{" "}
-          <Link href="/login" className="underline font-semibold">
-            Anmelden
-          </Link>
-        </div>
-      </CardFooter>
+      <form onSubmit={handleSubmit(onSubmit)}>
+        <CardContent className="grid gap-4">
+          {error && (
+            <Alert variant="destructive">
+              <AlertTitle>Fehler bei der Registrierung</AlertTitle>
+              <AlertDescription>{error}</AlertDescription>
+            </Alert>
+          )}
+          <div className="grid gap-2">
+            <Label htmlFor="full-name">Vollständiger Name</Label>
+            <Input id="full-name" placeholder="Vorname Nachname" {...register('fullName')} />
+            {errors.fullName && <p className="text-sm text-destructive">{errors.fullName.message}</p>}
+          </div>
+          <div className="grid gap-2">
+            <Label htmlFor="email">Email</Label>
+            <Input id="email" type="email" placeholder="m@example.com" {...register('email')} />
+            {errors.email && <p className="text-sm text-destructive">{errors.email.message}</p>}
+          </div>
+          <div className="grid gap-2">
+            <Label htmlFor="password">Passwort</Label>
+            <Input id="password" type="password" {...register('password')} />
+            {errors.password && <p className="text-sm text-destructive">{errors.password.message}</p>}
+          </div>
+        </CardContent>
+        <CardFooter className="flex flex-col items-start">
+          <Button className="w-full" disabled={isLoading}>
+            {isLoading && <Loader2 className="mr-2 h-4 w-4 animate-spin" />}
+            Konto erstellen
+          </Button>
+          <div className="mt-4 text-center text-sm w-full">
+            Haben Sie bereits ein Konto?{" "}
+            <Link href="/login" className="underline font-semibold">
+              Anmelden
+            </Link>
+          </div>
+        </CardFooter>
+      </form>
     </Card>
   )
 }
