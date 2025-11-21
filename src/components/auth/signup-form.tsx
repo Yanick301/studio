@@ -16,24 +16,26 @@ import Link from "next/link"
 import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { z } from 'zod';
-import { useAuth, useFirestore } from '@/firebase';
+import { useAuth, useFirestore, setDocumentNonBlocking } from '@/firebase';
 import { createUserWithEmailAndPassword } from 'firebase/auth';
-import { doc, setDoc } from 'firebase/firestore';
+import { doc } from 'firebase/firestore';
 import { useRouter } from 'next/navigation';
 import { useToast } from '@/hooks/use-toast';
 import { Loader2 } from 'lucide-react';
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
+import { useTranslation } from '@/hooks/use-translation';
 
 const signupSchema = z.object({
-  fullName: z.string().min(2, { message: "Der vollständige Name ist erforderlich." }),
-  email: z.string().email({ message: "Ungültige E-Mail-Adresse." }),
-  password: z.string().min(6, { message: "Das Passwort muss mindestens 6 Zeichen lang sein." }),
+  fullName: z.string().min(2, { message: "Le nom complet est requis." }),
+  email: z.string().email({ message: "Adresse e-mail invalide." }),
+  password: z.string().min(6, { message: "Le mot de passe doit contenir au moins 6 caractères." }),
 });
 
 type SignupFormValues = z.infer<typeof signupSchema>;
 
 
 export function SignupForm() {
+  const { t } = useTranslation();
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const auth = useAuth();
@@ -58,26 +60,27 @@ export function SignupForm() {
       
       const [firstName, ...lastName] = data.fullName.split(' ');
 
-      // Create a user document in Firestore
-      await setDoc(doc(firestore, "users", user.uid), {
+      // Create a user document in Firestore using the non-blocking helper
+      const userDocRef = doc(firestore, "users", user.uid);
+      setDocumentNonBlocking(userDocRef, {
         id: user.uid,
         firstName: firstName || '',
         lastName: lastName.join(' '),
         email: user.email,
         registrationDate: new Date().toISOString(),
-      });
+      }, { merge: false });
 
       toast({
-        title: "Konto erfolgreich erstellt",
-        description: "Willkommen bei EZENTIALS!",
+        title: "Compte créé avec succès",
+        description: "Bienvenue chez EZENTIALS!",
       });
       router.push('/account/profile');
 
     } catch (error: any) {
         if (error.code === 'auth/email-already-in-use') {
-            setError('Diese E-Mail-Adresse wird bereits verwendet.');
+            setError("Cette adresse e-mail est déjà utilisée.");
         } else {
-            setError('Bei der Erstellung des Kontos ist ein Fehler aufgetreten.');
+            setError("Une erreur s'est produite lors de la création du compte.");
         }
         console.error(error);
     } finally {
@@ -88,22 +91,22 @@ export function SignupForm() {
   return (
     <Card className="w-full max-w-sm">
       <CardHeader>
-        <CardTitle className="text-2xl">Registrieren</CardTitle>
+        <CardTitle className="text-2xl">{t('signup_form.title')}</CardTitle>
         <CardDescription>
-          Erstellen Sie ein Konto, um ein personalisiertes Erlebnis zu genießen.
+          {t('signup_form.description')}
         </CardDescription>
       </CardHeader>
       <form onSubmit={handleSubmit(onSubmit)}>
         <CardContent className="grid gap-4">
           {error && (
             <Alert variant="destructive">
-              <AlertTitle>Fehler bei der Registrierung</AlertTitle>
+              <AlertTitle>{t('signup_form.error_title')}</AlertTitle>
               <AlertDescription>{error}</AlertDescription>
             </Alert>
           )}
           <div className="grid gap-2">
-            <Label htmlFor="full-name">Vollständiger Name</Label>
-            <Input id="full-name" placeholder="Vorname Nachname" {...register('fullName')} />
+            <Label htmlFor="full-name">{t('signup_form.full_name')}</Label>
+            <Input id="full-name" placeholder={t('signup_form.full_name_placeholder')} {...register('fullName')} />
             {errors.fullName && <p className="text-sm text-destructive">{errors.fullName.message}</p>}
           </div>
           <div className="grid gap-2">
@@ -112,7 +115,7 @@ export function SignupForm() {
             {errors.email && <p className="text-sm text-destructive">{errors.email.message}</p>}
           </div>
           <div className="grid gap-2">
-            <Label htmlFor="password">Passwort</Label>
+            <Label htmlFor="password">{t('signup_form.password')}</Label>
             <Input id="password" type="password" {...register('password')} />
             {errors.password && <p className="text-sm text-destructive">{errors.password.message}</p>}
           </div>
@@ -120,12 +123,12 @@ export function SignupForm() {
         <CardFooter className="flex flex-col items-start">
           <Button className="w-full" disabled={isLoading}>
             {isLoading && <Loader2 className="mr-2 h-4 w-4 animate-spin" />}
-            Konto erstellen
+            {t('signup_form.submit_button')}
           </Button>
           <div className="mt-4 text-center text-sm w-full">
-            Haben Sie bereits ein Konto?{" "}
+            {t('signup_form.already_have_account')}{" "}
             <Link href="/login" className="underline font-semibold">
-              Anmelden
+              {t('signup_form.login_link')}
             </Link>
           </div>
         </CardFooter>

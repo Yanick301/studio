@@ -15,8 +15,10 @@ import { useUser } from "@/firebase";
 import { getAuth, signOut } from "firebase/auth";
 import { useRouter } from "next/navigation";
 import { Loader2, LogOut, User as UserIcon } from "lucide-react";
+import { useTranslation } from "@/hooks/use-translation";
 
 export function UserNav() {
+  const { t } = useTranslation();
   const { user, isUserLoading } = useUser();
   const router = useRouter();
 
@@ -45,7 +47,7 @@ export function UserNav() {
             <DropdownMenuContent className="w-56" align="end" forceMount>
                 <DropdownMenuLabel className="font-normal">
                     <div className="flex flex-col space-y-1">
-                        <p className="text-sm font-medium leading-none">{user.displayName || 'Mein Konto'}</p>
+                        <p className="text-sm font-medium leading-none">{user.displayName || t('user_nav.my_account')}</p>
                         <p className="text-xs leading-none text-muted-foreground">
                             {user.email}
                         </p>
@@ -55,13 +57,13 @@ export function UserNav() {
                 <DropdownMenuItem asChild>
                     <Link href="/account/profile">
                         <UserIcon className="mr-2 h-4 w-4" />
-                        <span>Profil</span>
+                        <span>{t('user_nav.profile')}</span>
                     </Link>
                 </DropdownMenuItem>
                 <DropdownMenuSeparator />
                 <DropdownMenuItem onClick={handleLogout}>
                     <LogOut className="mr-2 h-4 w-4" />
-                    <span>Abmelden</span>
+                    <span>{t('user_nav.logout')}</span>
                 </DropdownMenuItem>
             </DropdownMenuContent>
         </DropdownMenu>
@@ -71,10 +73,10 @@ export function UserNav() {
   return (
     <div className="flex items-center gap-1 md:gap-2">
       <Button asChild variant="ghost" className="text-sm px-2 sm:px-4">
-          <Link href="/login">Anmelden</Link>
+          <Link href="/login">{t('user_nav.login')}</Link>
       </Button>
       <Button asChild className="text-sm hidden sm:inline-flex">
-          <Link href="/signup">Registrieren</Link>
+          <Link href="/signup">{t('user_nav.signup')}</Link>
       </Button>
     </div>
   );

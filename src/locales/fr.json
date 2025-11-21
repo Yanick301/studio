@@ -218,6 +218,34 @@
       "review_submitted_desc": "Merci d'avoir partagé votre expérience."
     }
   },
+   "login_form": {
+    "title": "Connexion",
+    "description": "Entrez votre email ci-dessous pour vous connecter à votre compte.",
+    "error_title": "Erreur de connexion",
+    "password": "Mot de passe",
+    "submit_button": "Se connecter",
+    "forgot_password": "Mot de passe oublié ?",
+    "no_account": "Vous n'avez pas de compte ?",
+    "signup_link": "S'inscrire"
+  },
+  "signup_form": {
+    "title": "S'inscrire",
+    "description": "Créez un compte pour profiter d'une expérience personnalisée.",
+    "error_title": "Erreur d'inscription",
+    "full_name": "Nom complet",
+    "full_name_placeholder": "Prénom Nom",
+    "password": "Mot de passe",
+    "submit_button": "Créer un compte",
+    "already_have_account": "Vous avez déjà un compte ?",
+    "login_link": "Se connecter"
+  },
+  "user_nav": {
+    "my_account": "Mon compte",
+    "profile": "Profil",
+    "logout": "Se déconnecter",
+    "login": "Connexion",
+    "signup": "S'inscrire"
+  },
   "products": {
     "monarque_blazer": {
       "name": "Veste croisée en laine vierge 'Monarque'",

@@ -16,26 +16,29 @@ import Link from "next/link"
 import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { z } from 'zod';
-import { useAuth } from '@/firebase';
-import { signInWithEmailAndPassword } from 'firebase/auth';
+import { useAuth, initiateEmailSignIn } from '@/firebase';
 import { useRouter } from 'next/navigation';
 import { useToast } from '@/hooks/use-toast';
 import { Loader2 } from 'lucide-react';
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
+import { useUser } from '@/firebase';
+import { useTranslation } from '@/hooks/use-translation';
 
 const loginSchema = z.object({
-  email: z.string().email({ message: "Ungültige E-Mail-Adresse." }),
-  password: z.string().min(6, { message: "Das Passwort muss mindestens 6 Zeichen lang sein." }),
+  email: z.string().email({ message: "Adresse e-mail invalide." }),
+  password: z.string().min(1, { message: "Le mot de passe est requis." }),
 });
 
 type LoginFormValues = z.infer<typeof loginSchema>;
 
 export function LoginForm() {
+  const { t } = useTranslation();
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const auth = useAuth();
   const router = useRouter();
   const { toast } = useToast();
+  const { user, isUserLoading } = useUser();
 
   const {
     register,
@@ -45,37 +48,29 @@ export function LoginForm() {
     resolver: zodResolver(loginSchema),
   });
 
-  const onSubmit = async (data: LoginFormValues) => {
+  const onSubmit = (data: LoginFormValues) => {
     setIsLoading(true);
     setError(null);
-    try {
-      await signInWithEmailAndPassword(auth, data.email, data.password);
-      toast({
-        title: "Erfolgreich angemeldet",
-        description: "Willkommen zurück bei EZENTIALS.",
-      });
-      router.push('/account/profile');
-    } catch (error: any) {
-      setError("Anmeldedaten sind ungültig. Bitte versuchen Sie es erneut.");
-      console.error(error);
-    } finally {
-      setIsLoading(false);
-    }
+    initiateEmailSignIn(auth, data.email, data.password);
   };
+  
+  if (user && !isUserLoading) {
+    router.push('/account/profile');
+  }
 
   return (
     <Card className="w-full max-w-sm">
       <CardHeader>
-        <CardTitle className="text-2xl">Anmelden</CardTitle>
+        <CardTitle className="text-2xl">{t('login_form.title')}</CardTitle>
         <CardDescription>
-          Geben Sie unten Ihre E-Mail-Adresse ein, um sich bei Ihrem Konto anzumelden.
+          {t('login_form.description')}
         </CardDescription>
       </CardHeader>
       <form onSubmit={handleSubmit(onSubmit)}>
         <CardContent className="grid gap-4">
           {error && (
             <Alert variant="destructive">
-              <AlertTitle>Fehler bei der Anmeldung</AlertTitle>
+              <AlertTitle>{t('login_form.error_title')}</AlertTitle>
               <AlertDescription>{error}</AlertDescription>
             </Alert>
           )}
@@ -85,25 +80,25 @@ export function LoginForm() {
             {errors.email && <p className="text-sm text-destructive">{errors.email.message}</p>}
           </div>
           <div className="grid gap-2">
-            <Label htmlFor="password">Passwort</Label>
+            <Label htmlFor="password">{t('login_form.password')}</Label>
             <Input id="password" type="password" {...register('password')} />
             {errors.password && <p className="text-sm text-destructive">{errors.password.message}</p>}
           </div>
         </CardContent>
         <CardFooter className="flex flex-col items-start gap-4">
-          <Button className="w-full" disabled={isLoading}>
-            {isLoading && <Loader2 className="mr-2 h-4 w-4 animate-spin" />}
-            Anmelden
+          <Button className="w-full" disabled={isLoading || isUserLoading}>
+            {(isLoading || isUserLoading) && <Loader2 className="mr-2 h-4 w-4 animate-spin" />}
+            {t('login_form.submit_button')}
           </Button>
           <div className="text-sm w-full text-center">
             <Link href="#" className="underline text-sm text-muted-foreground hover:text-foreground">
-              Passwort vergessen?
+              {t('login_form.forgot_password')}
             </Link>
           </div>
           <div className="mt-2 text-center text-sm w-full">
-            Sie haben noch kein Konto?{" "}
+            {t('login_form.no_account')}{" "}
             <Link href="/signup" className="underline font-semibold">
-              Registrieren
+              {t('login_form.signup_link')}
             </Link>
           </div>
         </CardFooter>
