@@ -25,7 +25,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative w-full h-[70vh] md:h-[90vh] bg-black">
         <Image
-          src="https://images.unsplash.com/photo-1594385233933-25cb35ea6f3f?q=80&w=1974&auto=format&fit=crop"
+          src="/homepage/hero-background.jpg"
           alt={t('hero.alt')}
           fill
           style={{ objectFit: 'cover' }}
@@ -70,7 +70,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Atelier Tailoring */}
             <Link href="/men" className="relative group h-[500px] overflow-hidden rounded-lg shadow-lg">
-                <Image src="https://images.unsplash.com/photo-1521341057461-65ab6747022e?q=80&w=1965&auto=format&fit=crop" alt={t('home.maison_menu.tailoring.title')} fill style={{objectFit:"cover"}} className="transition-transform duration-500 group-hover:scale-105" data-ai-hint="man white t-shirt"/>
+                <Image src="/homepage/maison-tailoring.jpg" alt={t('home.maison_menu.tailoring.title')} fill style={{objectFit:"cover"}} className="transition-transform duration-500 group-hover:scale-105" data-ai-hint="man white t-shirt"/>
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex flex-col justify-end p-8 text-white">
                     <p className="text-sm uppercase tracking-widest">{t('home.maison_menu.tailoring.subtitle')}</p>
                     <h3 className="text-3xl font-headline mt-2">{t('home.maison_menu.tailoring.title')}</h3>
@@ -82,7 +82,7 @@ export default function Home() {
             </Link>
              {/* Couture & Soirée */}
             <Link href="/women" className="relative group h-[500px] overflow-hidden rounded-lg shadow-lg">
-                <Image src="https://images.unsplash.com/photo-1541480601022-2308c0f0248d?q=80&w=1974&auto=format&fit=crop" alt={t('home.maison_menu.couture.title')} fill style={{objectFit:"cover"}} className="transition-transform duration-500 group-hover:scale-105" data-ai-hint="woman fashion pose"/>
+                <Image src="/homepage/maison-couture.jpg" alt={t('home.maison_menu.couture.title')} fill style={{objectFit:"cover"}} className="transition-transform duration-500 group-hover:scale-105" data-ai-hint="woman fashion pose"/>
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex flex-col justify-end p-8 text-white">
                     <p className="text-sm uppercase tracking-widest">{t('home.maison_menu.couture.subtitle')}</p>
                     <h3 className="text-3xl font-headline mt-2">{t('home.maison_menu.couture.title')}</h3>
@@ -94,7 +94,7 @@ export default function Home() {
             </Link>
              {/* Salon Accessoires */}
             <Link href="/accessories" className="relative group h-[500px] overflow-hidden rounded-lg shadow-lg">
-                <Image src="https://images.unsplash.com/photo-1620625634522-800c73a83324?q=80&w=1974&auto=format&fit=crop" alt={t('home.maison_menu.accessories.title')} fill style={{objectFit:"cover"}} className="transition-transform duration-500 group-hover:scale-105" data-ai-hint="luxury watch"/>
+                <Image src="/homepage/maison-accessories.jpg" alt={t('home.maison_menu.accessories.title')} fill style={{objectFit:"cover"}} className="transition-transform duration-500 group-hover:scale-105" data-ai-hint="luxury watch"/>
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex flex-col justify-end p-8 text-white">
                     <p className="text-sm uppercase tracking-widest">{t('home.maison_menu.accessories.subtitle')}</p>
                     <h3 className="text-3xl font-headline mt-2">{t('home.maison_menu.accessories.title')}</h3>
