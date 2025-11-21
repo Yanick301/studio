@@ -15,8 +15,8 @@ import { Textarea } from '@/components/ui/textarea';
 import { Label } from '@/components/ui/label';
 import { Input } from '@/components/ui/input';
 import { useTranslation } from '@/hooks/use-translation';
-import { useUser, useFirestore, useCollection, useMemoFirebase } from '@/firebase';
-import { collection, addDoc, deleteDoc, where, getDocs, doc } from 'firebase/firestore';
+import { useUser, useFirestore, useCollection, useMemoFirebase, addDocumentNonBlocking, deleteDocumentNonBlocking } from '@/firebase';
+import { collection, query, where, getDocs, doc } from 'firebase/firestore';
 import { useCart } from '@/contexts/cart-context';
 import { Review } from '@/lib/definitions';
 
@@ -43,42 +43,46 @@ export default function ProductDetailPage({ params }: { params: { slug: string }
   const [favoriteId, setFavoriteId] = useState<string | null>(null);
   const [isFavoriteLoading, setIsFavoriteLoading] = useState(true);
   
-  const favoritesCollection = useMemoFirebase(() => {
+  const favoritesCollectionRef = useMemoFirebase(() => {
     if (!firestore || !user) return null;
     return collection(firestore, `users/${user.uid}/favorites`);
   }, [firestore, user]);
 
-  const favoritesQuery = useMemoFirebase(() => {
-      if (!favoritesCollection || !product) return null;
-      return where("productId", "==", product.id);
-  }, [favoritesCollection, product]);
-
   useEffect(() => {
-    if (!user || !favoritesCollection) {
-      setIsFavoriteLoading(false);
-      return;
+    if (!user || !firestore || !product) {
+        setIsFavoriteLoading(false);
+        return;
     }
-    const checkFavorite = async () => {
-      setIsFavoriteLoading(true);
-      if (!product) return;
-      const q = where("productId", "==", product.id);
-      const querySnapshot = await getDocs(collection(firestore, `users/${user.uid}/favorites`));
-      const foundFavorite = querySnapshot.docs.find(d => d.data().productId === product.id);
 
-      if (foundFavorite) {
-        setIsFavorite(true);
-        setFavoriteId(foundFavorite.id);
-      } else {
-        setIsFavorite(false);
-        setFavoriteId(null);
-      }
-      setIsFavoriteLoading(false);
+    const checkFavoriteStatus = async () => {
+        setIsFavoriteLoading(true);
+        const q = query(collection(firestore, `users/${user.uid}/favorites`), where("productId", "==", product.id));
+        
+        try {
+            const querySnapshot = await getDocs(q);
+            if (!querySnapshot.empty) {
+                const favDoc = querySnapshot.docs[0];
+                setIsFavorite(true);
+                setFavoriteId(favDoc.id);
+            } else {
+                setIsFavorite(false);
+                setFavoriteId(null);
+            }
+        } catch (error) {
+            console.error("Error checking favorite status:", error);
+            setIsFavorite(false);
+            setFavoriteId(null);
+        } finally {
+            setIsFavoriteLoading(false);
+        }
     };
-    checkFavorite();
+
+    checkFavoriteStatus();
   }, [user, firestore, product]);
 
+
   const handleFavoriteClick = async () => {
-    if (!user || !product || !firestore) {
+    if (!user || !product || !favoritesCollectionRef) {
       toast({
         variant: "destructive",
         title: "Veuillez vous connecter",
@@ -87,11 +91,11 @@ export default function ProductDetailPage({ params }: { params: { slug: string }
       return;
     }
     setIsFavoriteLoading(true);
-    const favsCollectionRef = collection(firestore, `users/${user.uid}/favorites`);
 
     if (isFavorite && favoriteId) {
       // Remove from favorites
-      await deleteDoc(doc(favsCollectionRef, favoriteId));
+      const docRef = doc(favoritesCollectionRef, favoriteId);
+      deleteDocumentNonBlocking(docRef);
       setIsFavorite(false);
       setFavoriteId(null);
       toast({
@@ -105,14 +109,21 @@ export default function ProductDetailPage({ params }: { params: { slug: string }
         productId: product.id,
         addedDate: new Date().toISOString(),
       };
-      const docRef = await addDoc(favsCollectionRef, newFav);
-      setIsFavorite(true);
-      setFavoriteId(docRef.id);
+      // addDocumentNonBlocking returns a promise with the doc ref
+      addDocumentNonBlocking(favoritesCollectionRef, newFav).then(docRef => {
+        if(docRef) {
+          setIsFavorite(true);
+          setFavoriteId(docRef.id);
+        }
+      });
+      
       toast({
         title: t('product_page.toast.favorite_added_title'),
         description: `${productName} ${t('product_page.toast.favorite_added_desc')}`,
       });
     }
+    // Note: We don't wait for the async operation to finish to update the UI
+    // The loading state is primarily for the initial check. Toggling can feel instant.
     setIsFavoriteLoading(false);
   };
   // -- End of Favorite Logic --
