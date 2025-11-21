@@ -117,7 +117,26 @@
   "checkout_page": {
     "title": "Paiement",
     "description": "Finalisez votre commande en toute sécurité.",
-    "coming_soon": "Le processus de paiement est en cours de construction."
+    "coming_soon": "Le processus de paiement est en cours de construction.",
+    "shipping_address": "Adresse de livraison",
+    "full_name": "Nom complet",
+    "full_name_placeholder": "Jean Dupont",
+    "address": "Adresse",
+    "address_placeholder": "123 Rue Principale",
+    "city": "Ville",
+    "zip_code": "Code postal",
+    "country": "Pays",
+    "payment_details": "Détails de paiement",
+    "card_number": "Numéro de carte",
+    "expiry_date": "Date d'expiration",
+    "cvc": "CVC",
+    "order_summary": "Résumé de la commande",
+    "subtotal": "Sous-total",
+    "shipping": "Livraison",
+    "free": "Gratuite",
+    "total": "Total",
+    "pay_now": "Payer maintenant en toute sécurité",
+    "secure_payment": "Paiement sécurisé avec Stripe."
   },
   "favorites_page": {
     "title": "Mes Favoris",
@@ -259,6 +278,11 @@
       "name": "Escarpins cuir verni talon 9 cm 'Éclipse'",
       "description": "Une silhouette élancée et un style affirmé. Ces escarpins en cuir verni noir sont dotés d'un talon de 9 cm parfaitement équilibré pour un confort surprenant.",
       "details": "Cuir de veau verni. Talon 9 cm. Doublure et semelle intérieure en cuir."
+    },
+    "souverain_oxfords": {
+      "name": "Richelieu cousu main cuir patiné 'Souverain'",
+      "description": "Un chef-d'œuvre de la chaussure. Cousu Goodyear et patiné à la main, chaque richelieu 'Souverain' est unique.",
+      "details": "Cousu Goodyear. Cuir patiné à la main. Semelle en cuir."
     }
   }
 }

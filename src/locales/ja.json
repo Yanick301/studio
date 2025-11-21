@@ -117,7 +117,26 @@
   "checkout_page": {
     "title": "チェックアウト",
     "description": "ご注文を安全に完了してください。",
-    "coming_soon": "チェックアウト処理は現在構築中です。"
+    "coming_soon": "チェックアウト処理は現在構築中です。",
+    "shipping_address": "配送先住所",
+    "full_name": "氏名",
+    "full_name_placeholder": "山田太郎",
+    "address": "住所",
+    "address_placeholder": "東京都千代田区1-1-1",
+    "city": "市区町村",
+    "zip_code": "郵便番号",
+    "country": "国",
+    "payment_details": "支払詳細",
+    "card_number": "カード番号",
+    "expiry_date": "有効期限",
+    "cvc": "CVC",
+    "order_summary": "注文概要",
+    "subtotal": "小計",
+    "shipping": "送料",
+    "free": "無料",
+    "total": "合計",
+    "pay_now": "今すぐ安全に支払う",
+    "secure_payment": "Stripeによる安全な支払い。"
   },
   "favorites_page": {
     "title": "お気に入り",
@@ -259,6 +278,11 @@
       "name": "「エクリプス」パテントレザーパンプス 9cmヒール",
       "description": "スレンダーなシルエットと主張のあるスタイル。このブラックパテントレザーパンプスは、完璧にバランスの取れた9cmヒールで驚くほどの快適さを提供します。",
       "details": "パテントカーフスキンレザー。9cmヒール。レザーの裏地とインソール。"
+    },
+    "souverain_oxfords": {
+      "name": "「スーヴェラン」手縫いパティーヌレザーオックスフォード",
+      "description": "靴作りの傑作。グッドイヤーウェルト製法で手作業でパティーヌを施した「スーヴェラン」オックスフォードは、一足一足がユニークです。",
+      "details": "グッドイヤーウェルト製法。手作業によるパティーヌレザー。レザーソール。"
     }
   }
 }

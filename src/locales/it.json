@@ -117,7 +117,26 @@
   "checkout_page": {
     "title": "Pagamento",
     "description": "Completa il tuo ordine in modo sicuro.",
-    "coming_soon": "La procedura di pagamento è in fase di costruzione."
+    "coming_soon": "La procedura di pagamento è in fase di costruzione.",
+    "shipping_address": "Indirizzo di spedizione",
+    "full_name": "Nome e cognome",
+    "full_name_placeholder": "Mario Rossi",
+    "address": "Indirizzo",
+    "address_placeholder": "Via Roma 123",
+    "city": "Città",
+    "zip_code": "Codice Postale",
+    "country": "Paese",
+    "payment_details": "Dettagli di pagamento",
+    "card_number": "Numero di carta",
+    "expiry_date": "Data di scadenza",
+    "cvc": "CVC",
+    "order_summary": "Riepilogo ordine",
+    "subtotal": "Subtotale",
+    "shipping": "Spedizione",
+    "free": "Gratuita",
+    "total": "Totale",
+    "pay_now": "Paga ora in modo sicuro",
+    "secure_payment": "Pagamento sicuro con Stripe."
   },
   "favorites_page": {
     "title": "I Miei Preferiti",
@@ -259,6 +278,11 @@
       "name": "Décolleté in vernice con tacco 9 cm 'Éclipse'",
       "description": "Una silhouette slanciata e uno stile deciso. Queste décolleté in vernice nera presentano un tacco di 9 cm perfettamente bilanciato per un comfort sorprendente.",
       "details": "Pelle di vitello verniciata. Tacco 9 cm. Fodera e soletta in pelle."
+    },
+    "souverain_oxfords": {
+      "name": "Oxford in pelle patinata cucite a mano 'Souverain'",
+      "description": "Un capolavoro della calzatura. Goodyear-welted e patinato a mano, ogni oxford 'Souverain' è unico.",
+      "details": "Goodyear-welted. Pelle patinata a mano. Suola in cuoio."
     }
   }
 }

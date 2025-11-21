@@ -117,7 +117,26 @@
   "checkout_page": {
     "title": "Kasse",
     "description": "Schließen Sie Ihre Bestellung sicher ab.",
-    "coming_soon": "Der Bezahlvorgang wird derzeit erstellt."
+    "coming_soon": "Der Bezahlvorgang wird derzeit erstellt.",
+    "shipping_address": "Lieferadresse",
+    "full_name": "Vollständiger Name",
+    "full_name_placeholder": "Max Mustermann",
+    "address": "Adresse",
+    "address_placeholder": "Musterstraße 123",
+    "city": "Stadt",
+    "zip_code": "Postleitzahl",
+    "country": "Land",
+    "payment_details": "Zahlungsdetails",
+    "card_number": "Kartennummer",
+    "expiry_date": "Ablaufdatum",
+    "cvc": "CVC",
+    "order_summary": "Bestellübersicht",
+    "subtotal": "Zwischensumme",
+    "shipping": "Versand",
+    "free": "Kostenlos",
+    "total": "Gesamt",
+    "pay_now": "Jetzt sicher bezahlen",
+    "secure_payment": "Sichere Zahlung mit Stripe."
   },
   "favorites_page": {
     "title": "Meine Favoriten",
@@ -259,6 +278,11 @@
       "name": "Pumps aus Lackleder mit 9 cm Absatz 'Éclipse'",
       "description": "Eine schlanke Silhouette und ein selbstbewusster Stil. Diese Pumps aus schwarzem Lackleder haben einen perfekt ausbalancierten 9-cm-Absatz für überraschenden Komfort.",
       "details": "Lackiertes Kalbsleder. 9 cm Absatz. Futter und Innensohle aus Leder."
+    },
+    "souverain_oxfords": {
+      "name": "Handgenähte Oxfords aus patiniertem Leder 'Souverain'",
+      "description": "Ein Meisterwerk der Schuhmacherkunst. Goodyear-genäht und von Hand patiniert, ist jeder 'Souverain' Oxford ein Unikat.",
+      "details": "Goodyear-genäht. Von Hand patiniertes Leder. Ledersohle."
     }
   }
 }

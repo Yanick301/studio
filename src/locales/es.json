@@ -117,7 +117,26 @@
   "checkout_page": {
     "title": "Pagar",
     "description": "Complete su pedido de forma segura.",
-    "coming_soon": "El proceso de pago está en construcción."
+    "coming_soon": "El proceso de pago está en construcción.",
+    "shipping_address": "Dirección de envío",
+    "full_name": "Nombre completo",
+    "full_name_placeholder": "Juan Pérez",
+    "address": "Dirección",
+    "address_placeholder": "Calle Principal 123",
+    "city": "Ciudad",
+    "zip_code": "Código postal",
+    "country": "País",
+    "payment_details": "Detalles de pago",
+    "card_number": "Número de tarjeta",
+    "expiry_date": "Fecha de caducidad",
+    "cvc": "CVC",
+    "order_summary": "Resumen del pedido",
+    "subtotal": "Subtotal",
+    "shipping": "Envío",
+    "free": "Gratis",
+    "total": "Total",
+    "pay_now": "Pagar ahora de forma segura",
+    "secure_payment": "Pago seguro con Stripe."
   },
   "favorites_page": {
     "title": "Mis Favoritos",
@@ -259,6 +278,11 @@
       "name": "Zapatos de salón de charol con tacón de 9 cm 'Éclipse'",
       "description": "Una silueta esbelta y un estilo decidido. Estos zapatos de salón de charol negro cuentan con un tacón de 9 cm perfectamente equilibrado para una comodidad sorprendente.",
       "details": "Piel de becerro barnizada. Tacón de 9 cm. Forro y plantilla de cuero."
+    },
+    "souverain_oxfords": {
+      "name": "Zapatos Oxford de cuero patinado cosidos a mano 'Souverain'",
+      "description": "Una obra maestra de la zapatería. Con cosido Goodyear y patinado a mano, cada zapato Oxford 'Souverain' es único.",
+      "details": "Cosido Goodyear. Cuero patinado a mano. Suela de cuero."
     }
   }
 }

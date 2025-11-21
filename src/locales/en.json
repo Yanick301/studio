@@ -117,7 +117,26 @@
   "checkout_page": {
     "title": "Checkout",
     "description": "Complete your order securely.",
-    "coming_soon": "The checkout process is currently under construction."
+    "coming_soon": "The checkout process is currently under construction.",
+    "shipping_address": "Shipping Address",
+    "full_name": "Full Name",
+    "full_name_placeholder": "John Doe",
+    "address": "Address",
+    "address_placeholder": "123 Main Street",
+    "city": "City",
+    "zip_code": "ZIP Code",
+    "country": "Country",
+    "payment_details": "Payment Details",
+    "card_number": "Card Number",
+    "expiry_date": "Expiry Date",
+    "cvc": "CVC",
+    "order_summary": "Order Summary",
+    "subtotal": "Subtotal",
+    "shipping": "Shipping",
+    "free": "Free",
+    "total": "Total",
+    "pay_now": "Pay Securely Now",
+    "secure_payment": "Secure payment with Stripe."
   },
   "favorites_page": {
     "title": "My Favorites",
@@ -259,6 +278,11 @@
       "name": "Patent Leather Pumps 9cm Heel 'Éclipse'",
       "description": "A slender silhouette and an assertive style. These black patent leather pumps feature a perfectly balanced 9 cm heel for surprising comfort.",
       "details": "Patent calfskin leather. 9 cm heel. Leather lining and insole."
+    },
+    "souverain_oxfords": {
+      "name": "Hand-stitched Patinated Leather Oxfords 'Souverain'",
+      "description": "A masterpiece of shoemaking. Goodyear-welted and hand-patinated, each 'Souverain' oxford is unique.",
+      "details": "Goodyear-welted. Hand-patinated leather. Leather sole."
     }
   }
 }
