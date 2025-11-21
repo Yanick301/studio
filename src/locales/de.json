@@ -269,6 +269,78 @@
     "results_title": "Unsere Vorschläge für Sie",
     "browsing_history_example": "Angesehene Artikel: 'Elegantes Abendkleid' (Kleidung, Damen), 'Leinenhemd' (Kleidung, Herren), 'Lederhandtasche' (Accessoires, Damen). Der Benutzer scheint an eleganten und klassischen Stilen interessiert zu sein."
   },
+  "privacy_policy": {
+    "title": "Datenschutzrichtlinie",
+    "last_updated": "Zuletzt aktualisiert: 24. Mai 2024",
+    "introduction": {
+      "title": "Einführung",
+      "content": "Willkommen bei EZENTIALS. Wir respektieren Ihre Privatsphäre und verpflichten uns, Ihre persönlichen Daten zu schützen. Diese Datenschutzrichtlinie informiert Sie darüber, wie wir Ihre persönlichen Daten verwalten, wenn Sie unsere Website besuchen."
+    },
+    "data_collected": {
+      "title": "Von uns erfasste Daten",
+      "content": "Wir können verschiedene Arten von persönlichen Daten über Sie erfassen, verwenden, speichern und übertragen, einschließlich Identitätsdaten, Kontaktdaten, Finanzdaten, Transaktionsdaten, technische Daten, Profildaten und Nutzungsdaten."
+    },
+    "data_usage": {
+      "title": "Wie wir Ihre Daten verwenden",
+      "content": "Wir verwenden Ihre persönlichen Daten, um Ihnen unsere Dienste bereitzustellen und zu verbessern, Ihre Bestellungen zu bearbeiten, Ihr Konto zu verwalten, unsere Website zu personalisieren und mit Ihnen zu kommunizieren."
+    },
+    "data_sharing": {
+      "title": "Weitergabe von Daten",
+      "content": "Wir können Ihre persönlichen Daten zu bestimmten Zwecken an Dritte weitergeben, z. B. an Zahlungsdienstleister und Lieferpartner. Wir geben Ihre Daten nicht zu Marketingzwecken an Dritte weiter, ohne Ihre ausdrückliche Zustimmung."
+    },
+    "cookies": {
+      "title": "Cookies",
+      "content": "Unsere Website verwendet Cookies, um Sie von anderen Benutzern unserer Website zu unterscheiden. Dies hilft uns, Ihnen beim Surfen auf unserer Website eine gute Erfahrung zu bieten und ermöglicht uns auch, unsere Website zu verbessern."
+    },
+    "security": {
+      "title": "Datensicherheit",
+      "content": "Wir haben angemessene Sicherheitsmaßnahmen getroffen, um zu verhindern, dass Ihre persönlichen Daten versehentlich verloren gehen, verwendet oder auf unbefugte Weise abgerufen, geändert oder offengelegt werden."
+    },
+    "user_rights": {
+      "title": "Ihre gesetzlichen Rechte",
+      "content": "Unter bestimmten Umständen haben Sie datenschutzrechtliche Rechte in Bezug auf Ihre persönlichen Daten, einschließlich des Rechts auf Zugang, Berichtigung, Löschung, Einschränkung der Verarbeitung, Widerspruch gegen die Verarbeitung und Datenübertragbarkeit."
+    },
+    "contact": {
+      "title": "Kontaktieren Sie uns",
+      "content": "Wenn Sie Fragen zu dieser Datenschutzrichtlinie haben, kontaktieren Sie uns bitte unter privacy@ezentials.com."
+    }
+  },
+  "terms_of_service": {
+    "title": "Nutzungsbedingungen",
+    "last_updated": "Zuletzt aktualisiert: 24. Mai 2024",
+    "agreement": {
+      "title": "Zustimmung zu den Bedingungen",
+      "content": "Durch den Zugriff auf oder die Nutzung unseres Dienstes erklären Sie sich damit einverstanden, an diese Bedingungen gebunden zu sein. Wenn Sie mit einem Teil der Bedingungen nicht einverstanden sind, dürfen Sie nicht auf den Dienst zugreifen."
+    },
+    "accounts": {
+      "title": "Konten",
+      "content": "Wenn Sie ein Konto bei uns erstellen, müssen Sie uns jederzeit genaue, vollständige und aktuelle Informationen zur Verfügung stellen. Ein Verstoß gegen diese Bestimmung stellt einen Verstoß gegen die Bedingungen dar, der zur sofortigen Kündigung Ihres Kontos bei unserem Dienst führen kann."
+    },
+    "products": {
+      "title": "Produkte",
+      "content": "Wir bemühen uns, die Farben und Bilder unserer Produkte, die im Geschäft erscheinen, so genau wie möglich darzustellen. Wir können nicht garantieren, dass die Anzeige einer Farbe auf Ihrem Computermonitor korrekt ist. Alle Produktbeschreibungen oder Produktpreise können jederzeit ohne Vorankündigung nach unserem alleinigen Ermessen geändert werden."
+    },
+    "payments": {
+      "title": "Zahlungen",
+      "content": "Wir behalten uns das Recht vor, jede Bestellung, die Sie bei uns aufgeben, abzulehnen. Wir können nach unserem alleinigen Ermessen die pro Person, pro Haushalt oder pro Bestellung gekauften Mengen begrenzen oder stornieren. Im Falle einer Änderung oder Stornierung einer Bestellung können wir versuchen, Sie zu benachrichtigen, indem wir Sie über die zum Zeitpunkt der Bestellung angegebene E-Mail-Adresse und/oder Rechnungsadresse/Telefonnummer kontaktieren."
+    },
+    "intellectual_property": {
+      "title": "Geistiges Eigentum",
+      "content": "Der Dienst und sein ursprünglicher Inhalt, seine Merkmale und seine Funktionalität sind und bleiben das ausschließliche Eigentum von EZENTIALS und seinen Lizenzgebern. Der Dienst ist durch Urheber-, Marken- und andere Gesetze sowohl des Landes als auch ausländischer Länder geschützt."
+    },
+    "limitation_of_liability": {
+      "title": "Haftungsbeschränkung",
+      "content": "In keinem Fall haften EZENTIALS oder seine Direktoren, Mitarbeiter, Partner, Vertreter, Lieferanten oder verbundenen Unternehmen für indirekte, zufällige, besondere, Folge- oder Strafschäden, einschließlich, aber nicht beschränkt auf entgangenen Gewinn, Daten, Nutzung, Goodwill oder andere immaterielle Verluste."
+    },
+    "governing_law": {
+      "title": "Geltendes Recht",
+      "content": "Diese Bedingungen unterliegen den Gesetzen des Landes und werden in Übereinstimmung mit diesen ausgelegt, ohne Rücksicht auf seine Kollisionsnormen."
+    },
+    "contact": {
+      "title": "Kontaktieren Sie uns",
+      "content": "Wenn Sie Fragen zu diesen Bedingungen haben, kontaktieren Sie uns bitte unter legal@ezentials.com."
+    }
+  },
   "products": {
     "monarque_blazer": {
       "name": "Zweireihiger Blazer aus Schurwolle 'Monarque'",

@@ -33,7 +33,7 @@ export function Footer() {
           <div>
             <h3 className="font-semibold mb-4">{t('footer.help')}</h3>
             <ul className="space-y-3">
-              <li><Link href="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors">{t('footer.contact')}</Link></li>
+              <li><Link href="/faq" className="text-sm text-muted-foreground hover:text-foreground transition-colors">{t('footer.contact')}</Link></li>
               <li><Link href="/account/orders" className="text-sm text-muted-foreground hover:text-foreground transition-colors">{t('footer.order_tracking')}</Link></li>
               <li><Link href="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors">{t('footer.returns')}</Link></li>
               <li><Link href="/faq" className="text-sm text-muted-foreground hover:text-foreground transition-colors">{t('footer.faq')}</Link></li>
@@ -42,8 +42,8 @@ export function Footer() {
           <div>
             <h3 className="font-semibold mb-4">{t('footer.legal')}</h3>
             <ul className="space-y-3">
-              <li><Link href="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors">{t('footer.terms')}</Link></li>
-              <li><Link href="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors">{t('footer.privacy')}</Link></li>
+              <li><Link href="/terms" className="text-sm text-muted-foreground hover:text-foreground transition-colors">{t('footer.terms')}</Link></li>
+              <li><Link href="/privacy" className="text-sm text-muted-foreground hover:text-foreground transition-colors">{t('footer.privacy')}</Link></li>
             </ul>
           </div>
         </div>

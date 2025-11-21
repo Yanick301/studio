@@ -269,6 +269,78 @@
     "results_title": "Nos Suggestions Pour Vous",
     "browsing_history_example": "Articles consultés : 'Robe de Soirée Élégante' (Vêtements, Femme), 'Chemise en Lin' (Vêtements, Homme), 'Sac à Main en Cuir' (Accessoires, Femme). L'utilisateur semble intéressé par les styles élégants et classiques."
   },
+  "privacy_policy": {
+    "title": "Politique de Confidentialité",
+    "last_updated": "Dernière mise à jour : 24 mai 2024",
+    "introduction": {
+      "title": "Introduction",
+      "content": "Bienvenue chez EZENTIALS. Nous respectons votre vie privée et nous nous engageons à protéger vos données personnelles. Cette politique de confidentialité vous informera sur la manière dont nous traitons vos données personnelles lorsque vous visitez notre site web."
+    },
+    "data_collected": {
+      "title": "Données que nous collectons",
+      "content": "Nous pouvons collecter, utiliser, stocker et transférer différents types de données personnelles vous concernant, que nous avons regroupées comme suit : Données d'Identité, Données de Contact, Données Financières, Données de Transaction, Données Techniques, Données de Profil et Données d'Utilisation."
+    },
+    "data_usage": {
+      "title": "Comment nous utilisons vos données",
+      "content": "Nous n'utiliserons vos données personnelles que pour fournir et améliorer nos services, traiter vos commandes, gérer votre compte, personnaliser votre expérience sur notre site et communiquer avec vous."
+    },
+    "data_sharing": {
+      "title": "Partage de données",
+      "content": "Nous pouvons partager vos données personnelles avec des tiers à des fins spécifiques, telles que les processeurs de paiement et les partenaires de livraison. Nous ne partageons pas vos données avec des tiers à des fins de marketing sans votre consentement explicite."
+    },
+    "cookies": {
+      "title": "Cookies",
+      "content": "Notre site web utilise des cookies pour vous distinguer des autres utilisateurs de notre site. Cela nous aide à vous offrir une bonne expérience lorsque vous naviguez sur notre site et nous permet également d'améliorer notre site."
+    },
+    "security": {
+      "title": "Sécurité des données",
+      "content": "Nous avons mis en place des mesures de sécurité appropriées pour empêcher que vos données personnelles ne soient accidentellement perdues, utilisées ou consultées de manière non autorisée, modifiées ou divulguées."
+    },
+    "user_rights": {
+      "title": "Vos droits légaux",
+      "content": "Dans certaines circonstances, vous disposez de droits en vertu des lois sur la protection des données concernant vos données personnelles, y compris le droit d'accès, de rectification, de suppression, de restriction du traitement, d'opposition au traitement et de portabilité des données."
+    },
+    "contact": {
+      "title": "Contactez-nous",
+      "content": "Si vous avez des questions concernant cette politique de confidentialité, veuillez nous contacter à privacy@ezentials.com."
+    }
+  },
+  "terms_of_service": {
+    "title": "Conditions d'Utilisation",
+    "last_updated": "Dernière mise à jour : 24 mai 2024",
+    "agreement": {
+      "title": "Accord sur les conditions",
+      "content": "En accédant ou en utilisant notre Service, vous acceptez d'être lié par ces Conditions. Si vous n'êtes pas d'accord avec une partie des conditions, vous ne pouvez pas accéder au Service."
+    },
+    "accounts": {
+      "title": "Comptes",
+      "content": "Lorsque vous créez un compte chez nous, vous devez nous fournir des informations exactes, complètes et à jour à tout moment. Le non-respect de cette obligation constitue une violation des Conditions, qui peut entraîner la résiliation immédiate de votre compte sur notre Service."
+    },
+    "products": {
+      "title": "Produits",
+      "content": "Nous nous sommes efforcés d'afficher aussi précisément que possible les couleurs et les images de nos produits qui apparaissent en magasin. Nous ne pouvons garantir que l'affichage de n'importe quelle couleur sur votre écran d'ordinateur sera exact. Toutes les descriptions de produits ou les prix des produits sont sujets à changement à tout moment sans préavis, à notre seule discrétion."
+    },
+    "payments": {
+      "title": "Paiements",
+      "content": "Nous nous réservons le droit de refuser toute commande que vous passez chez nous. Nous pouvons, à notre seule discrétion, limiter ou annuler les quantités achetées par personne, par foyer ou par commande. Dans le cas où nous apportons une modification ou annulons une commande, nous pouvons tenter de vous en informer en contactant l'adresse e-mail et/ou l'adresse de facturation/numéro de téléphone fournis au moment de la commande."
+    },
+    "intellectual_property": {
+      "title": "Propriété intellectuelle",
+      "content": "Le Service et son contenu original, ses caractéristiques et ses fonctionnalités sont et resteront la propriété exclusive de EZENTIALS et de ses concédants de licence. Le Service est protégé par le droit d'auteur, les marques de commerce et d'autres lois du pays et des pays étrangers."
+    },
+    "limitation_of_liability": {
+      "title": "Limitation de responsabilité",
+      "content": "En aucun cas, EZENTIALS, ni ses administrateurs, employés, partenaires, agents, fournisseurs ou sociétés affiliées, ne seront responsables de tout dommage indirect, accessoire, spécial, consécutif ou punitif, y compris, sans s'y limiter, la perte de profits, de données, d'utilisation, de clientèle ou d'autres pertes immatérielles."
+    },
+    "governing_law": {
+      "title": "Loi applicable",
+      "content": "Ces Conditions seront régies et interprétées conformément aux lois du Pays, sans tenir compte de ses dispositions en matière de conflit de lois."
+    },
+    "contact": {
+      "title": "Contactez-nous",
+      "content": "Si vous avez des questions sur ces Conditions, veuillez nous contacter à legal@ezentials.com."
+    }
+  },
   "products": {
     "monarque_blazer": {
       "name": "Veste croisée en laine vierge 'Monarque'",

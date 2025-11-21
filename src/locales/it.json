@@ -269,6 +269,78 @@
     "results_title": "I Nostri Suggerimenti Per Te",
     "browsing_history_example": "Articoli visualizzati: 'Abito da Sera Elegante' (Abbigliamento, Donna), 'Camicia di Lino' (Abbigliamento, Uomo), 'Borsa in Pelle' (Accessori, Donna). L'utente sembra interessato a stili eleganti e classici."
   },
+  "privacy_policy": {
+    "title": "Informativa sulla Privacy",
+    "last_updated": "Ultimo aggiornamento: 24 maggio 2024",
+    "introduction": {
+      "title": "Introduzione",
+      "content": "Benvenuti in EZENTIALS. Rispettiamo la tua privacy e ci impegniamo a proteggere i tuoi dati personali. Questa informativa sulla privacy ti informerà su come gestiamo i tuoi dati personali quando visiti il nostro sito web."
+    },
+    "data_collected": {
+      "title": "Dati che raccogliamo su di te",
+      "content": "Potremmo raccogliere, utilizzare, archiviare e trasferire diversi tipi di dati personali su di te che abbiamo raggruppato come segue: Dati di identità, Dati di contatto, Dati finanziari, Dati di transazione, Dati tecnici, Dati del profilo e Dati di utilizzo."
+    },
+    "data_usage": {
+      "title": "Come utilizziamo i tuoi dati personali",
+      "content": "Utilizzeremo i tuoi dati personali solo per fornire e migliorare i nostri servizi, elaborare i tuoi ordini, gestire il tuo account, personalizzare la tua esperienza sul nostro sito e per comunicare con te."
+    },
+    "data_sharing": {
+      "title": "Condivisione dei dati",
+      "content": "Potremmo condividere i tuoi dati personali con terze parti per scopi specifici, come processori di pagamento e partner di consegna. Non condividiamo i tuoi dati con terze parti per scopi di marketing senza il tuo esplicito consenso."
+    },
+    "cookies": {
+      "title": "Cookie",
+      "content": "Il nostro sito Web utilizza i cookie per distinguerti dagli altri utenti del nostro sito Web. Questo ci aiuta a fornirti una buona esperienza quando navighi nel nostro sito Web e ci consente anche di migliorare il nostro sito."
+    },
+    "security": {
+      "title": "Sicurezza dei dati",
+      "content": "Abbiamo messo in atto misure di sicurezza appropriate per impedire che i tuoi dati personali vengano accidentalmente persi, utilizzati o consultati in modo non autorizzato, alterati o divulgati."
+    },
+    "user_rights": {
+      "title": "I tuoi diritti legali",
+      "content": "In determinate circostanze, hai diritti ai sensi delle leggi sulla protezione dei dati in relazione ai tuoi dati personali, incluso il diritto di accesso, rettifica, cancellazione, limitazione del trattamento, opposizione al trattamento e portabilità dei dati."
+    },
+    "contact": {
+      "title": "Contattaci",
+      "content": "In caso di domande sulla presente informativa sulla privacy, contattaci all'indirizzo privacy@ezentials.com."
+    }
+  },
+  "terms_of_service": {
+    "title": "Termini di Servizio",
+    "last_updated": "Ultimo aggiornamento: 24 maggio 2024",
+    "agreement": {
+      "title": "Accettazione dei termini",
+      "content": "Accedendo o utilizzando il nostro Servizio, accetti di essere vincolato da questi Termini. Se non sei d'accordo con qualsiasi parte dei termini, non puoi accedere al Servizio."
+    },
+    "accounts": {
+      "title": "Account",
+      "content": "Quando crei un account con noi, devi fornirci informazioni accurate, complete e aggiornate in ogni momento. La mancata osservanza di ciò costituisce una violazione dei Termini, che può comportare la risoluzione immediata del tuo account sul nostro Servizio."
+    },
+    "products": {
+      "title": "Prodotti",
+      "content": "Abbiamo fatto ogni sforzo per visualizzare nel modo più accurato possibile i colori e le immagini dei nostri prodotti che appaiono nel negozio. Non possiamo garantire che la visualizzazione di qualsiasi colore sul monitor del tuo computer sia accurata. Tutte le descrizioni dei prodotti o i prezzi dei prodotti sono soggetti a modifiche in qualsiasi momento senza preavviso, a nostra esclusiva discrezione."
+    },
+    "payments": {
+      "title": "Pagamenti",
+      "content": "Ci riserviamo il diritto di rifiutare qualsiasi ordine effettuato con noi. Possiamo, a nostra esclusiva discrezione, limitare o annullare le quantità acquistate per persona, per nucleo familiare o per ordine. Nel caso in cui apportiamo una modifica o annulliamo un ordine, potremmo tentare di avvisarti contattando l'e-mail e/o l'indirizzo di fatturazione/numero di telefono forniti al momento dell'ordine."
+    },
+    "intellectual_property": {
+      "title": "Proprietà intellettuale",
+      "content": "Il Servizio e il suo contenuto originale, le sue caratteristiche e le sue funzionalità sono e rimarranno di proprietà esclusiva di EZENTIALS e dei suoi licenziatari. Il Servizio è protetto da copyright, marchi di fabbrica e altre leggi sia del Paese che di paesi stranieri."
+    },
+    "limitation_of_liability": {
+      "title": "Limitazione di responsabilità",
+      "content": "In nessun caso EZENTIALS, né i suoi direttori, dipendenti, partner, agenti, fornitori o affiliati, saranno responsabili per eventuali danni indiretti, incidentali, speciali, consequenziali o punitivi, inclusi, a titolo esemplificativo, perdita di profitti, dati, utilizzo, avviamento o altre perdite immateriali."
+    },
+    "governing_law": {
+      "title": "Legge applicabile",
+      "content": "I presenti Termini saranno disciplinati e interpretati in conformità con le leggi del Paese, senza riguardo alle sue disposizioni sui conflitti di legge."
+    },
+    "contact": {
+      "title": "Contattaci",
+      "content": "In caso di domande sui presenti Termini, contattaci all'indirizzo legal@ezentials.com."
+    }
+  },
   "products": {
     "monarque_blazer": {
       "name": "Blazer doppiopetto in lana vergine 'Monarque'",

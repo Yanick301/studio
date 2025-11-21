@@ -269,6 +269,78 @@
     "results_title": "Our Suggestions For You",
     "browsing_history_example": "Viewed items: 'Elegant Evening Gown' (Clothing, Women), 'Linen Shirt' (Clothing, Men), 'Leather Handbag' (Accessories, Women). User appears to be interested in elegant and classic styles."
   },
+  "privacy_policy": {
+    "title": "Privacy Policy",
+    "last_updated": "Last updated: May 24, 2024",
+    "introduction": {
+      "title": "Introduction",
+      "content": "Welcome to EZENTIALS. We respect your privacy and are committed to protecting your personal data. This privacy policy will inform you as to how we look after your personal data when you visit our website."
+    },
+    "data_collected": {
+      "title": "Data We Collect About You",
+      "content": "We may collect, use, store and transfer different kinds of personal data about you which we have grouped together as follows: Identity Data, Contact Data, Financial Data, Transaction Data, Technical Data, Profile Data, and Usage Data."
+    },
+    "data_usage": {
+      "title": "How We Use Your Personal Data",
+      "content": "We will only use your personal data to provide and improve our services, process your orders, manage your account, personalize your experience on our site, and to communicate with you."
+    },
+    "data_sharing": {
+      "title": "Data Sharing",
+      "content": "We may share your personal data with third parties for specific purposes, such as payment processors and delivery partners. We do not share your data with third parties for marketing purposes without your express consent."
+    },
+    "cookies": {
+      "title": "Cookies",
+      "content": "Our website uses cookies to distinguish you from other users of our website. This helps us to provide you with a good experience when you browse our website and also allows us to improve our site."
+    },
+    "security": {
+      "title": "Data Security",
+      "content": "We have put in place appropriate security measures to prevent your personal data from being accidentally lost, used or accessed in an unauthorised way, altered or disclosed."
+    },
+    "user_rights": {
+      "title": "Your Legal Rights",
+      "content": "Under certain circumstances, you have rights under data protection laws in relation to your personal data, including the right to access, correct, erase, restrict processing, object to processing, and data portability."
+    },
+    "contact": {
+      "title": "Contact Us",
+      "content": "If you have any questions about this privacy policy, please contact us at privacy@ezentials.com."
+    }
+  },
+  "terms_of_service": {
+    "title": "Terms of Service",
+    "last_updated": "Last updated: May 24, 2024",
+    "agreement": {
+      "title": "Agreement to Terms",
+      "content": "By accessing or using our Service, you agree to be bound by these Terms. If you disagree with any part of the terms then you may not access the Service."
+    },
+    "accounts": {
+      "title": "Accounts",
+      "content": "When you create an account with us, you must provide us with information that is accurate, complete, and current at all times. Failure to do so constitutes a breach of the Terms, which may result in immediate termination of your account on our Service."
+    },
+    "products": {
+      "title": "Products",
+      "content": "We have made every effort to display as accurately as possible the colors and images of our products that appear at the store. We cannot guarantee that your computer monitor's display of any color will be accurate. All descriptions of products or product pricing are subject to change at any time without notice, at our sole discretion."
+    },
+    "payments": {
+      "title": "Payments",
+      "content": "We reserve the right to refuse any order you place with us. We may, in our sole discretion, limit or cancel quantities purchased per person, per household or per order. In the event that we make a change to or cancel an order, we may attempt to notify you by contacting the e-mail and/or billing address/phone number provided at the time the order was made."
+    },
+    "intellectual_property": {
+      "title": "Intellectual Property",
+      "content": "The Service and its original content, features and functionality are and will remain the exclusive property of EZENTIALS and its licensors. The Service is protected by copyright, trademark, and other laws of both the Country and foreign countries."
+    },
+    "limitation_of_liability": {
+      "title": "Limitation Of Liability",
+      "content": "In no event shall EZENTIALS, nor its directors, employees, partners, agents, suppliers, or affiliates, be liable for any indirect, incidental, special, consequential or punitive damages, including without limitation, loss of profits, data, use, goodwill, or other intangible losses."
+    },
+    "governing_law": {
+      "title": "Governing Law",
+      "content": "These Terms shall be governed and construed in accordance with the laws of the Country, without regard to its conflict of law provisions."
+    },
+    "contact": {
+      "title": "Contact Us",
+      "content": "If you have any questions about these Terms, please contact us at legal@ezentials.com."
+    }
+  },
   "products": {
     "monarque_blazer": {
       "name": "Virgin Wool Double-Breasted Blazer 'Monarque'",
