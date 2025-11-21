@@ -1,14 +1,18 @@
+'use client';
+
 import { Card, CardHeader, CardTitle, CardContent, CardDescription } from "@/components/ui/card";
+import { useTranslation } from "@/hooks/use-translation";
 
 export default function ProfilePage() {
+    const { t } = useTranslation();
     return (
         <Card>
             <CardHeader>
-                <CardTitle>Profil</CardTitle>
-                <CardDescription>Verwalten Sie Ihre Kontoinformationen.</CardDescription>
+                <CardTitle>{t('profile_page.title')}</CardTitle>
+                <CardDescription>{t('profile_page.description')}</CardDescription>
             </CardHeader>
             <CardContent>
-                <p className="text-muted-foreground">Die Profilverwaltung wird in Kürze verfügbar sein.</p>
+                <p className="text-muted-foreground">{t('profile_page.coming_soon')}</p>
             </CardContent>
         </Card>
     );

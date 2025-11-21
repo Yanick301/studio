@@ -1,8 +1,8 @@
 export type Product = {
   id: string;
-  name: string;
+  name: string; // This will be the translation key, e.g., "products.monarque_blazer.name"
   slug: string;
-  description: string;
+  description: string; // This will be the translation key
   price: number;
   imageUrl: string;
   imageHint: string;
@@ -11,7 +11,7 @@ export type Product = {
   category: 'clothing' | 'accessories' | 'shoes';
   gender: 'men' | 'women' | 'unisex';
   isTrending: boolean;
-  details?: string;
+  details?: string; // This will be the translation key
   options?: {
     sizes?: string[];
     colors?: string[];
@@ -31,6 +31,10 @@ export type CartItem = {
 };
 
 export type FaqItem = {
-  question: string;
-  answer: string;
+  question: string; // Translation key
+  answer: string; // Translation key
+};
+
+export type Translations = {
+  [key: string]: string | Translations;
 };

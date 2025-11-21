@@ -1,0 +1,214 @@
+{
+  "nav": {
+    "women": "Donne",
+    "men": "Uomini",
+    "clothing": "Abbigliamento",
+    "accessories": "Accessori",
+    "ai_stylist": "Stilista AI"
+  },
+  "header": {
+    "toggle_menu": "Attiva/disattiva menu",
+    "select_language": "Seleziona lingua",
+    "search": "Cerca",
+    "favorites": "Preferiti",
+    "cart": "Carrello",
+    "login": "Accedi",
+    "signup": "Registrati"
+  },
+  "footer": {
+    "tagline": "Moda elegante per intenditori.",
+    "shop": "Negozio",
+    "help": "Aiuto",
+    "contact": "Contatto",
+    "order_tracking": "Tracciamento ordine",
+    "returns": "Resi",
+    "faq": "FAQ",
+    "legal": "Legale",
+    "terms": "Termini di servizio",
+    "privacy": "Informativa sulla privacy",
+    "rights_reserved": "Tutti i diritti riservati."
+  },
+  "hero": {
+    "title": "Eleganza Ridefinita",
+    "subtitle": "Scopri collezioni esclusive che fondono stile senza tempo con tendenze moderne.",
+    "button": "Scopri la Collezione",
+    "alt": "Modella in abiti di lusso"
+  },
+  "philosophy": {
+    "materials": {
+      "title": "Materiali Nobili",
+      "description": "Selezioniamo solo i tessuti più pregiati, dal cashmere italiano al cotone egiziano, per una sensazione e una durata ineguagliabili."
+    },
+    "craftsmanship": {
+      "title": "Artigianato",
+      "description": "Ogni pezzo è il risultato di un'eccezionale maestria artigianale, dove le tecniche tradizionali incontrano il design moderno per garantire una finitura perfetta."
+    },
+    "exclusivity": {
+      "title": "Esclusività",
+      "description": "Le nostre collezioni limitate e i pezzi esclusivi ti garantiscono uno stile unico che ti distinguerà."
+    }
+  },
+  "home": {
+    "trending_products": "Prodotti di Tendenza",
+    "trending_description": "I pezzi più desiderati della stagione.",
+    "view_all_products": "Vedi Tutti i Prodotti",
+    "new_arrivals": "Nuovi Arrivi",
+    "new_arrivals_description": "Esplora le ultime aggiunte alla nostra collezione.",
+    "testimonials": "Testimonianze",
+    "testimonials_description": "Cosa dicono di noi i nostri clienti."
+  },
+  "categories": {
+    "women": "Donne",
+    "men": "Uomini"
+  },
+  "testimonial": {
+    "lena": {
+      "name": "Lena S.",
+      "quote": "Qualità eccezionale e stile ineguagliabile. EZENTIALS è diventato il mio punto di riferimento per la moda di lusso."
+    },
+    "felix": {
+      "name": "Felix K.",
+      "quote": "Finalmente un negozio che capisce l'eleganza maschile. I tagli sono perfetti e i materiali molto piacevoli."
+    },
+    "hannah": {
+      "name": "Hannah W.",
+      "quote": "Ho ordinato un abito per una serata di gala e ho ricevuto una valanga di complimenti. Anche il servizio clienti è molto reattivo."
+    }
+  },
+  "product_card": {
+    "add": "Aggiungi",
+    "add_to_favorites": "Aggiungi ai preferiti"
+  },
+  "product_grid": {
+    "no_products": "Nessun prodotto trovato."
+  },
+  "search": {
+    "title": "Cerca Prodotti",
+    "placeholder": "Cerca un blazer, un abito...",
+    "no_results": "Nessun risultato trovato per la tua ricerca."
+  },
+  "products_page": {
+    "title": "Tutte le Collezioni",
+    "description": "Sfoglia il nostro catalogo completo di abbigliamento e accessori di lusso."
+  },
+  "women_page": {
+    "title": "Collezione Donna",
+    "description": "Eleganza e raffinatezza per la donna moderna."
+  },
+  "men_page": {
+    "title": "Collezione Uomo",
+    "description": "Stile ed eleganza per l'uomo moderno."
+  },
+  "clothing_page": {
+    "title": "Abbigliamento",
+    "description": "Scopri la nostra selezione di abbigliamento premium."
+  },
+  "accessories_page": {
+    "title": "Accessori",
+    "description": "Il tocco finale per uno stile perfetto."
+  },
+  "cart_page": {
+    "title": "Il Tuo Carrello",
+    "description": "Controlla gli articoli nel tuo carrello prima di procedere al pagamento.",
+    "empty_message": "Il tuo carrello è attualmente vuoto.",
+    "continue_shopping": "Continua lo shopping",
+    "items_placeholder": "Elenco degli articoli del carrello qui..."
+  },
+  "checkout_page": {
+    "title": "Pagamento",
+    "description": "Completa il tuo ordine in modo sicuro.",
+    "coming_soon": "La procedura di pagamento è in fase di costruzione."
+  },
+  "favorites_page": {
+    "title": "I Miei Preferiti",
+    "description": "La tua selezione personale di articoli.",
+    "empty_message": "Non hai articoli nei tuoi preferiti.",
+    "discover_button": "Scopri i Nostri Prodotti"
+  },
+  "orders_page": {
+    "title": "I Miei Ordini",
+    "description": "Controlla lo storico dei tuoi ordini.",
+    "no_orders": "Non hai ancora effettuato ordini."
+  },
+  "profile_page": {
+    "title": "Profilo",
+    "description": "Gestisci le informazioni del tuo account.",
+    "coming_soon": "La gestione del profilo sarà disponibile a breve."
+  },
+  "account_layout": {
+    "title": "Il Mio Account",
+    "profile": "Profilo",
+    "orders": "I Miei Ordini",
+    "favorites": "I Miei Preferiti"
+  },
+  "faq": {
+    "title": "Domande Frequenti",
+    "description": "Trova le risposte alle tue domande più comuni.",
+    "shipping": {
+      "question": "Quali sono le opzioni di spedizione?",
+      "answer": "Offriamo la spedizione standard gratuita (3-5 giorni lavorativi) su tutti gli ordini. La spedizione espressa (1-2 giorni lavorativi) è disponibile a un costo aggiuntivo."
+    },
+    "returns": {
+      "question": "Come posso restituire un articolo?",
+      "answer": "Puoi restituire qualsiasi articolo gratuitamente entro 30 giorni dal ricevimento. Visita il nostro portale dei resi per avviare la procedura."
+    },
+    "sizing": {
+      "question": "Come trovo la mia taglia giusta?",
+      "answer": "Ogni pagina prodotto include una guida alle taglie dettagliata con misure specifiche. Se non sei sicuro, non esitare a contattare il nostro servizio clienti per una consulenza personale."
+    },
+    "care": {
+      "question": "Come mi prendo cura dei miei articoli?",
+      "answer": "Le istruzioni per la cura sono disponibili sull'etichetta di ogni articolo e nella sezione 'Dettagli e Cura' della pagina del prodotto. Per materiali delicati come cashmere o seta, consigliamo il lavaggio a secco professionale."
+    },
+    "contact": {
+      "question": "Come posso contattarvi?",
+      "answer": "Il nostro servizio clienti è disponibile via email all'indirizzo service@ezentials.com o tramite il nostro modulo di contatto. Ci impegniamo a rispondere a tutte le richieste entro 24 ore."
+    }
+  },
+  "product_page": {
+    "reviews_count": "recensioni",
+    "color": "Colore",
+    "select_color": "Seleziona colore",
+    "size": "Taglia",
+    "add_to_cart": "Aggiungi al carrello",
+    "add_to_favorites": "Aggiungi ai preferiti",
+    "favorited": "Nei preferiti",
+    "favorite": "Preferito",
+    "details_care": "Dettagli e Cura",
+    "default_details": "Composizione: 80% Raso, 20% Seta. Lavare solo a mano. Non asciugare in asciugatrice.",
+    "shipping_returns": "Spedizione e Resi",
+    "shipping_details": "Spedizione standard gratuita entro 3-5 giorni lavorativi. Resi gratuiti entro 30 giorni.",
+    "customer_reviews": "Recensioni dei clienti",
+    "what_customers_say": "Cosa dicono i nostri clienti",
+    "cancel_review": "Annulla",
+    "write_review": "Scrivi una recensione",
+    "share_opinion": "Condividi la tua opinione",
+    "your_name": "Il tuo nome",
+    "name_placeholder": "es. Mario Rossi",
+    "your_rating": "La tua valutazione",
+    "your_comment": "Il tuo commento",
+    "comment_placeholder": "Descrivi la tua esperienza...",
+    "submit_review": "Invia recensione",
+    "be_the_first_review": "Sii il primo a lasciare una recensione per questo prodotto!",
+    "toast": {
+      "favorite_added_title": "Aggiunto ai preferiti",
+      "favorite_added_desc": "è stato aggiunto alla tua lista dei preferiti.",
+      "favorite_removed_title": "Rimosso dai preferiti",
+      "favorite_removed_desc": "è stato rimosso dalla tua lista dei preferiti.",
+      "review_submitted_title": "Recensione inviata",
+      "review_submitted_desc": "Grazie per aver condiviso la tua esperienza."
+    }
+  },
+  "products": {
+    "monarque_blazer": {
+      "name": "Blazer doppiopetto in lana vergine \"Monarque\"",
+      "description": "Un blazer doppiopetto di rara eleganza, tagliato in una sontuosa lana vergine italiana da 560g. La sua vestibilità slim e la fodera in seta offrono una silhouette impeccabile e un comfort assoluto.",
+      "details": "Lana vergine italiana 560g, fodera in seta. Vestibilità slim. Lavare solo a secco."
+    },
+    "aquila_suit": {
+      "name": "Abito 3 pezzi in cachemire \"Aquila\"",
+      "description": "L'epitome del lusso. Questo abito a tre pezzi è realizzato in un tessuto misto cachemire al 100%, with cuciture interamente rifinite a mano per una finitura sartoriale.",
+      "details": "Tessuto misto cachemire al 100%. Giacca, gilet e pantaloni inclusi. Cuciture a mano."
+    }
+  }
+}

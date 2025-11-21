@@ -1,0 +1,214 @@
+{
+  "nav": {
+    "women": "レディース",
+    "men": "メンズ",
+    "clothing": "ウェア",
+    "accessories": "アクセサリー",
+    "ai_stylist": "AIスタイリスト"
+  },
+  "header": {
+    "toggle_menu": "メニューを開閉",
+    "select_language": "言語を選択",
+    "search": "検索",
+    "favorites": "お気に入り",
+    "cart": "カート",
+    "login": "ログイン",
+    "signup": "会員登録"
+  },
+  "footer": {
+    "tagline": "本物志向の方へ、エレガントなファッションを。",
+    "shop": "ショップ",
+    "help": "ヘルプ",
+    "contact": "お問い合わせ",
+    "order_tracking": "注文追跡",
+    "returns": "返品",
+    "faq": "よくある質問",
+    "legal": "法務",
+    "terms": "利用規約",
+    "privacy": "プライバシーポリシー",
+    "rights_reserved": "All rights reserved."
+  },
+  "hero": {
+    "title": "再定義されたエレガンス",
+    "subtitle": "時代を超えたスタイルとモダンなトレンドが融合した、特別なコレクションをご覧ください。",
+    "button": "コレクションを見る",
+    "alt": "高級な服を着たモデル"
+  },
+  "philosophy": {
+    "materials": {
+      "title": "高貴な素材",
+      "description": "イタリアのカシミアからエジプト綿まで、最高の生地のみを選び抜き、比類のない肌触りと耐久性を実現しています。"
+    },
+    "craftsmanship": {
+      "title": "職人技",
+      "description": "伝統的な技術とモダンなデザインが出会い、完璧な仕上がりを保証する、卓越した職人技の結晶です。"
+    },
+    "exclusivity": {
+      "title": "限定性",
+      "description": "限定コレクションと特別なアイテムが、あなたを際立たせるユニークなスタイルをお約束します。"
+    }
+  },
+  "home": {
+    "trending_products": "トレンド商品",
+    "trending_description": "今シーズン最も人気のアイテム。",
+    "view_all_products": "すべての商品を見る",
+    "new_arrivals": "新着商品",
+    "new_arrivals_description": "コレクションの最新作をご覧ください。",
+    "testimonials": "お客様の声",
+    "testimonials_description": "お客様からのメッセージをご紹介します。"
+  },
+  "categories": {
+    "women": "レディース",
+    "men": "メンズ"
+  },
+  "testimonial": {
+    "lena": {
+      "name": "Lena S.",
+      "quote": "卓越した品質と比類のないスタイル。EZENTIALSは私にとって高級ファッションの頼れる場所になりました。"
+    },
+    "felix": {
+      "name": "Felix K.",
+      "quote": "男性のエレガンスを理解してくれる店にやっと出会えました。裁断は完璧で、素材もとても心地よいです。"
+    },
+    "hannah": {
+      "name": "Hannah W.",
+      "quote": "ガラパーティーのためにドレスを注文しましたが、たくさんの賛辞を受けました。カスタマーサービスも非常に responsive です。"
+    }
+  },
+  "product_card": {
+    "add": "追加",
+    "add_to_favorites": "お気に入りに追加"
+  },
+  "product_grid": {
+    "no_products": "商品が見つかりませんでした。"
+  },
+  "search": {
+    "title": "商品を検索",
+    "placeholder": "ブレザー、ドレスなどを検索...",
+    "no_results": "検索結果が見つかりませんでした。"
+  },
+  "products_page": {
+    "title": "すべてのコレクション",
+    "description": "高級衣料品とアクセサリーの完全なカタログをご覧ください。"
+  },
+  "women_page": {
+    "title": "レディースコレクション",
+    "description": "現代女性のためのエレガンスと洗練。"
+  },
+  "men_page": {
+    "title": "メンズコレクション",
+    "description": "現代紳士のためのスタイルとエレガンス。"
+  },
+  "clothing_page": {
+    "title": "ウェア",
+    "description": "プレミアムな衣料品のセレクションをご覧ください。"
+  },
+  "accessories_page": {
+    "title": "アクセサリー",
+    "description": "完璧なスタイルのための最後の仕上げ。"
+  },
+  "cart_page": {
+    "title": "カート",
+    "description": "チェックアウトに進む前にカート内の商品を確認してください。",
+    "empty_message": "カートは現在空です。",
+    "continue_shopping": "ショッピングを続ける",
+    "items_placeholder": "ここにカート商品のリスト..."
+  },
+  "checkout_page": {
+    "title": "チェックアウト",
+    "description": "ご注文を安全に完了してください。",
+    "coming_soon": "チェックアウト処理は現在構築中です。"
+  },
+  "favorites_page": {
+    "title": "お気に入り",
+    "description": "あなたの個人的なアイテムのセレクション。",
+    "empty_message": "お気に入りに商品がありません。",
+    "discover_button": "商品を探す"
+  },
+  "orders_page": {
+    "title": "ご注文履歴",
+    "description": "ご注文の履歴を確認してください。",
+    "no_orders": "まだ注文がありません。"
+  },
+  "profile_page": {
+    "title": "プロフィール",
+    "description": "アカウント情報を管理します。",
+    "coming_soon": "プロフィール管理は間もなく利用可能になります。"
+  },
+  "account_layout": {
+    "title": "マイアカウント",
+    "profile": "プロフィール",
+    "orders": "ご注文履歴",
+    "favorites": "お気に入り"
+  },
+  "faq": {
+    "title": "よくある質問",
+    "description": "よくある質問への回答をご覧ください。",
+    "shipping": {
+      "question": "配送オプションは何ですか？",
+      "answer": "すべての注文で標準配送（3-5営業日）を無料で提供しています。追加料金で速達配送（1-2営業日）もご利用いただけます。"
+    },
+    "returns": {
+      "question": "商品を返品するにはどうすればよいですか？",
+      "answer": "受領後30日以内であれば、任何商品を無料で返品できます。返品手続きを開始するには、返品ポータルにアクセスしてください。"
+    },
+    "sizing": {
+      "question": "自分の正しいサイズを見つけるにはどうすればよいですか？",
+      "answer": "各商品ページには、具体的な寸法が記載された詳細なサイズガイドが含まれています。ご不明な場合は、お気軽にカスタマーサービスにお問い合わせください。"
+    },
+    "care": {
+      "question": "商品の手入れ方法は？",
+      "answer": "お手入れ方法は、各商品のラベルと商品ページの「詳細とお手入れ」セクションに記載されています。カシミアやシルクなどのデリケートな素材については、専門のドライクリーニングをお勧めします。"
+    },
+    "contact": {
+      "question": "どうすれば連絡できますか？",
+      "answer": "カスタマーサービスチームは、service@ezentials.com のメールまたはお問い合わせフォームからご連絡いただけます。すべてのお問い合わせに24時間以内に回答するよう努めています。"
+    }
+  },
+  "product_page": {
+    "reviews_count": "件のレビュー",
+    "color": "カラー",
+    "select_color": "カラーを選択",
+    "size": "サイズ",
+    "add_to_cart": "カートに追加",
+    "add_to_favorites": "お気に入りに追加",
+    "favorited": "お気に入り済み",
+    "favorite": "お気に入り",
+    "details_care": "詳細とお手入れ",
+    "default_details": "構成：サテン80％、シルク20％。手洗いのみ。タンブル乾燥不可。",
+    "shipping_returns": "配送と返品",
+    "shipping_details": "3-5営業日以内に無料標準配送。30日以内の無料返品。",
+    "customer_reviews": "お客様のレビュー",
+    "what_customers_say": "お客様の声",
+    "cancel_review": "キャンセル",
+    "write_review": "レビューを書く",
+    "share_opinion": "ご意見をお聞かせください",
+    "your_name": "お名前",
+    "name_placeholder": "例：山田太郎",
+    "your_rating": "評価",
+    "your_comment": "コメント",
+    "comment_placeholder": "ご体験を記述してください...",
+    "submit_review": "レビューを送信",
+    "be_the_first_review": "この商品に最初のレビューを残してください！",
+    "toast": {
+      "favorite_added_title": "お気に入りに追加しました",
+      "favorite_added_desc": "がお気に入りリストに追加されました。",
+      "favorite_removed_title": "お気に入りから削除しました",
+      "favorite_removed_desc": "がお気に入りリストから削除されました。",
+      "review_submitted_title": "レビューが送信されました",
+      "review_submitted_desc": "ご意見を共有していただきありがとうございます。"
+    }
+  },
+  "products": {
+    "monarque_blazer": {
+      "name": "「モナーク」ヴァージンウール ダブルブレストブレザー",
+      "description": "希少なエレガンスを誇るダブルブレストブレザー。贅沢な560gのイタリア製ヴァージンウールを使用。スリムフィットとシルクの裏地が、非の打ちどころのないシルエットと究極の快適さを提供します。",
+      "details": "イタリア製ヴァージンウール560g、シルクライニング。スリムフィット。ドライクリーニングのみ。"
+    },
+    "aquila_suit": {
+      "name": "「アクィラ」3ピース カシミアスーツ",
+      "description": "ラグジュアリーの真髄。この3ピーススーツは、100%ブレンドカシミア生地で作られ、縫い目はすべて手作業で仕上げられ、クチュールのような仕上がりです。",
+      "details": "100%ブレンドカシミア生地。ジャケット、ベスト、トラウザーが含まれます。手縫いの縫い目。"
+    }
+  }
+}

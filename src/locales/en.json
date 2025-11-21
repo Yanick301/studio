@@ -1,0 +1,214 @@
+{
+  "nav": {
+    "women": "Women",
+    "men": "Men",
+    "clothing": "Clothing",
+    "accessories": "Accessories",
+    "ai_stylist": "AI Stylist"
+  },
+  "header": {
+    "toggle_menu": "Toggle menu",
+    "select_language": "Select language",
+    "search": "Search",
+    "favorites": "Favorites",
+    "cart": "Cart",
+    "login": "Log In",
+    "signup": "Sign Up"
+  },
+  "footer": {
+    "tagline": "Elegant fashion for connoisseurs.",
+    "shop": "Shop",
+    "help": "Help",
+    "contact": "Contact",
+    "order_tracking": "Order Tracking",
+    "returns": "Returns",
+    "faq": "FAQ",
+    "legal": "Legal",
+    "terms": "Terms of Service",
+    "privacy": "Privacy Policy",
+    "rights_reserved": "All rights reserved."
+  },
+  "hero": {
+    "title": "Elegance Redefined",
+    "subtitle": "Discover exclusive collections that blend timeless style with modern trends.",
+    "button": "Discover the Collection",
+    "alt": "Model in luxurious clothing"
+  },
+  "philosophy": {
+    "materials": {
+      "title": "Noble Materials",
+      "description": "We select only the finest fabrics, from Italian cashmere to Egyptian cotton, for an unparalleled feel and durability."
+    },
+    "craftsmanship": {
+      "title": "Craftsmanship",
+      "description": "Each piece is the result of exceptional craftsmanship, where traditional techniques meet modern design to ensure a perfect finish."
+    },
+    "exclusivity": {
+      "title": "Exclusivity",
+      "description": "Our limited collections and exclusive pieces guarantee you a unique style that sets you apart."
+    }
+  },
+  "home": {
+    "trending_products": "Trending Products",
+    "trending_description": "The most coveted pieces of the season.",
+    "view_all_products": "View All Products",
+    "new_arrivals": "New Arrivals",
+    "new_arrivals_description": "Explore the latest additions to our collection.",
+    "testimonials": "Testimonials",
+    "testimonials_description": "What our customers say about us."
+  },
+  "categories": {
+    "women": "Women",
+    "men": "Men"
+  },
+  "testimonial": {
+    "lena": {
+      "name": "Lena S.",
+      "quote": "Exceptional quality and unparalleled style. EZENTIALS has become my go-to for luxury fashion."
+    },
+    "felix": {
+      "name": "Felix K.",
+      "quote": "Finally, a shop that understands masculine elegance. The cuts are perfect and the materials are very pleasant."
+    },
+    "hannah": {
+      "name": "Hannah W.",
+      "quote": "I ordered a dress for a gala and received a flood of compliments. The customer service is also very responsive."
+    }
+  },
+  "product_card": {
+    "add": "Add",
+    "add_to_favorites": "Add to favorites"
+  },
+  "product_grid": {
+    "no_products": "No products found."
+  },
+  "search": {
+    "title": "Search Products",
+    "placeholder": "Search for a blazer, a dress...",
+    "no_results": "No results found for your search."
+  },
+  "products_page": {
+    "title": "All Collections",
+    "description": "Browse our complete catalog of luxury clothing and accessories."
+  },
+  "women_page": {
+    "title": "Women's Collection",
+    "description": "Elegance and sophistication for the modern woman."
+  },
+  "men_page": {
+    "title": "Men's Collection",
+    "description": "Style and elegance for the modern man."
+  },
+  "clothing_page": {
+    "title": "Clothing",
+    "description": "Discover our selection of premium clothing."
+  },
+  "accessories_page": {
+    "title": "Accessories",
+    "description": "The final touch for a perfect style."
+  },
+  "cart_page": {
+    "title": "Your Cart",
+    "description": "Review the items in your cart before proceeding to checkout.",
+    "empty_message": "Your cart is currently empty.",
+    "continue_shopping": "Continue Shopping",
+    "items_placeholder": "List of cart items here..."
+  },
+  "checkout_page": {
+    "title": "Checkout",
+    "description": "Complete your order securely.",
+    "coming_soon": "The checkout process is currently under construction."
+  },
+  "favorites_page": {
+    "title": "My Favorites",
+    "description": "Your personal selection of items.",
+    "empty_message": "You have no items in your favorites.",
+    "discover_button": "Discover Our Products"
+  },
+  "orders_page": {
+    "title": "My Orders",
+    "description": "Check the history of your orders.",
+    "no_orders": "You have not placed any orders yet."
+  },
+  "profile_page": {
+    "title": "Profile",
+    "description": "Manage your account information.",
+    "coming_soon": "Profile management will be available soon."
+  },
+  "account_layout": {
+    "title": "My Account",
+    "profile": "Profile",
+    "orders": "My Orders",
+    "favorites": "My Favorites"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "description": "Find answers to your most common questions.",
+    "shipping": {
+      "question": "What are the shipping options?",
+      "answer": "We offer free standard shipping (3-5 business days) on all orders. Express shipping (1-2 business days) is available for an additional fee."
+    },
+    "returns": {
+      "question": "How can I return an item?",
+      "answer": "You can return any item free of charge within 30 days of receipt. Please visit our returns portal to start the process."
+    },
+    "sizing": {
+      "question": "How do I find my right size?",
+      "answer": "Each product page includes a detailed size guide with specific measurements. If you are unsure, do not hesitate to contact our customer service for a personal consultation."
+    },
+    "care": {
+      "question": "How do I care for my items?",
+      "answer": "Care instructions are available on the label of each item and in the 'Details & Care' section on the product page. For delicate materials like cashmere or silk, we recommend professional dry cleaning."
+    },
+    "contact": {
+      "question": "How can I contact you?",
+      "answer": "Our customer service team is available by email at service@ezentials.com or through our contact form. We strive to respond to all inquiries within 24 hours."
+    }
+  },
+  "product_page": {
+    "reviews_count": "reviews",
+    "color": "Color",
+    "select_color": "Select color",
+    "size": "Size",
+    "add_to_cart": "Add to Cart",
+    "add_to_favorites": "Add to favorites",
+    "favorited": "Favorited",
+    "favorite": "Favorite",
+    "details_care": "Details & Care",
+    "default_details": "Composition: 80% Satin, 20% Silk. Hand wash only. Do not tumble dry.",
+    "shipping_returns": "Shipping & Returns",
+    "shipping_details": "Free standard shipping within 3-5 business days. Free returns within 30 days.",
+    "customer_reviews": "Customer Reviews",
+    "what_customers_say": "What our customers say",
+    "cancel_review": "Cancel",
+    "write_review": "Write a review",
+    "share_opinion": "Share your opinion",
+    "your_name": "Your name",
+    "name_placeholder": "e.g., John Doe",
+    "your_rating": "Your rating",
+    "your_comment": "Your comment",
+    "comment_placeholder": "Describe your experience...",
+    "submit_review": "Submit review",
+    "be_the_first_review": "Be the first to leave a review for this product!",
+    "toast": {
+      "favorite_added_title": "Added to favorites",
+      "favorite_added_desc": "has been added to your favorites list.",
+      "favorite_removed_title": "Removed from favorites",
+      "favorite_removed_desc": "has been removed from your favorites list.",
+      "review_submitted_title": "Review submitted",
+      "review_submitted_desc": "Thank you for sharing your experience."
+    }
+  },
+  "products": {
+    "monarque_blazer": {
+      "name": "Virgin Wool Double-Breasted Blazer \"Monarque\"",
+      "description": "A double-breasted blazer of rare elegance, cut from a sumptuous 560g Italian virgin wool. Its slim fit and silk lining offer an impeccable silhouette and absolute comfort.",
+      "details": "Italian virgin wool 560g, silk lining. Slim fit. Dry clean only."
+    },
+    "aquila_suit": {
+      "name": "3-Piece Cashmere Suit \"Aquila\"",
+      "description": "The epitome of luxury. This three-piece suit is crafted from a 100% blended cashmere fabric, with seams entirely hand-finished for a couture finish.",
+      "details": "100% blended cashmere fabric. Jacket, vest, and trousers included. Hand-stitched seams."
+    }
+  }
+}
