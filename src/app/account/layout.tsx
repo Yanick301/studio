@@ -5,8 +5,8 @@ import { Heart, Package, User } from 'lucide-react';
 
 const accountNavLinks = [
     { href: '/account/profile', label: 'Profil', icon: User },
-    { href: '/account/orders', label: 'Mes Commandes', icon: Package },
-    { href: '/account/favorites', label: 'Mes Favoris', icon: Heart },
+    { href: '/account/orders', label: 'Meine Bestellungen', icon: Package },
+    { href: '/account/favorites', label: 'Meine Favoriten', icon: Heart },
 ];
 
 export default function AccountLayout({ children }: { children: ReactNode }) {
@@ -14,7 +14,7 @@ export default function AccountLayout({ children }: { children: ReactNode }) {
         <div className="container py-12 md:py-16">
             <div className="grid md:grid-cols-[240px_1fr] gap-8 lg:gap-12">
                 <aside className="md:sticky top-24 h-fit">
-                    <h2 className="text-2xl font-bold mb-4">Mon Compte</h2>
+                    <h2 className="text-2xl font-bold mb-4">Mein Konto</h2>
                     <nav className="flex flex-col gap-2">
                         {accountNavLinks.map(link => {
                             const Icon = link.icon;

@@ -6,8 +6,8 @@ export default function MenPage() {
     const menProducts = products.filter(p => p.gender === 'men' || p.gender === 'unisex');
     return (
         <ShopPageLayout
-            title="Collection Homme"
-            description="Style et sophistication pour l'homme moderne."
+            title="Herrenkollektion"
+            description="Stil und Eleganz für den modernen Mann."
         >
             <ProductGrid products={menProducts} />
         </ShopPageLayout>

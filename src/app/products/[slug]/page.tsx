@@ -42,7 +42,7 @@ export default function ProductDetailPage({ params }: { params: { slug: string }
             <div className="flex items-center">
                 {[...Array(5)].map((_, i) => <Star key={i} className={`w-5 h-5 ${i < 4 ? 'text-accent fill-accent' : 'text-muted-foreground'}`}/>)}
             </div>
-            <span className="text-sm text-muted-foreground">(12 avis)</span>
+            <span className="text-sm text-muted-foreground">(12 Bewertungen)</span>
           </div>
           <p className="text-3xl font-bold text-primary mt-4">{product.price.toFixed(2)} €</p>
           <p className="mt-4 text-muted-foreground leading-relaxed">{product.description}</p>
@@ -51,24 +51,24 @@ export default function ProductDetailPage({ params }: { params: { slug: string }
 
           <div className="flex flex-col sm:flex-row gap-4">
             <Button size="lg" className="w-full sm:w-auto flex-grow">
-              <ShoppingCart className="mr-2 h-5 w-5" /> Ajouter au panier
+              <ShoppingCart className="mr-2 h-5 w-5" /> In den Warenkorb
             </Button>
-            <Button variant="outline" size="lg" className="w-full sm:w-auto" aria-label="Ajouter aux favoris">
-              <Heart className="mr-2 h-5 w-5" /> Favoris
+            <Button variant="outline" size="lg" className="w-full sm:w-auto" aria-label="Zu Favoriten hinzufügen">
+              <Heart className="mr-2 h-5 w-5" /> Favoriten
             </Button>
           </div>
 
           <Accordion type="single" collapsible className="w-full mt-8">
             <AccordionItem value="item-1">
-              <AccordionTrigger className="font-semibold">Détails & Entretien</AccordionTrigger>
+              <AccordionTrigger className="font-semibold">Details & Pflege</AccordionTrigger>
               <AccordionContent>
-                <p className="text-muted-foreground">Composition: 80% Satin, 20% Soie. Lavage à la main uniquement. Ne pas sécher en machine.</p>
+                <p className="text-muted-foreground">{product.details || 'Zusammensetzung: 80% Satin, 20% Seide. Nur Handwäsche. Nicht im Trockner trocknen.'}</p>
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-2">
-              <AccordionTrigger className="font-semibold">Livraison & Retours</AccordionTrigger>
+              <AccordionTrigger className="font-semibold">Versand & Rückgabe</AccordionTrigger>
               <AccordionContent>
-                <p className="text-muted-foreground">Livraison standard offerte sous 3-5 jours ouvrés. Retours gratuits sous 30 jours.</p>
+                <p className="text-muted-foreground">Kostenloser Standardversand innerhalb von 3-5 Werktagen. Kostenlose Rücksendung innerhalb von 30 Tagen.</p>
               </AccordionContent>
             </AccordionItem>
           </Accordion>
@@ -76,11 +76,11 @@ export default function ProductDetailPage({ params }: { params: { slug: string }
       </div>
       
       <div className="mt-16 md:mt-24">
-        <h2 className="text-2xl font-bold mb-6">Avis des clients</h2>
+        <h2 className="text-2xl font-bold mb-6">Kundenbewertungen</h2>
         <div className="border rounded-lg p-8 text-center bg-card">
-            <h3 className="font-semibold">Pas encore d'avis</h3>
-            <p className="text-muted-foreground mt-2">Soyez le premier à laisser un avis sur ce produit !</p>
-            <Button variant="outline" className="mt-4">Laisser un avis</Button>
+            <h3 className="font-semibold">Noch keine Bewertungen</h3>
+            <p className="text-muted-foreground mt-2">Seien Sie der Erste, der eine Bewertung für dieses Produkt hinterlässt!</p>
+            <Button variant="outline" className="mt-4">Bewertung abgeben</Button>
         </div>
       </div>
     </div>

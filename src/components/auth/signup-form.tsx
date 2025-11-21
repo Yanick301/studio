@@ -15,31 +15,31 @@ export function SignupForm() {
   return (
     <Card className="w-full max-w-sm">
       <CardHeader>
-        <CardTitle className="text-2xl">Inscription</CardTitle>
+        <CardTitle className="text-2xl">Registrieren</CardTitle>
         <CardDescription>
-          Créez un compte pour profiter d'une expérience personnalisée.
+          Erstellen Sie ein Konto, um ein personalisiertes Erlebnis zu genießen.
         </CardDescription>
       </CardHeader>
       <CardContent className="grid gap-4">
         <div className="grid gap-2">
-          <Label htmlFor="full-name">Nom complet</Label>
-          <Input id="full-name" placeholder="Prénom Nom" required />
+          <Label htmlFor="full-name">Vollständiger Name</Label>
+          <Input id="full-name" placeholder="Vorname Nachname" required />
         </div>
         <div className="grid gap-2">
           <Label htmlFor="email">Email</Label>
-          <Input id="email" type="email" placeholder="m@exemple.com" required />
+          <Input id="email" type="email" placeholder="m@example.com" required />
         </div>
         <div className="grid gap-2">
-          <Label htmlFor="password">Mot de passe</Label>
+          <Label htmlFor="password">Passwort</Label>
           <Input id="password" type="password" required />
         </div>
       </CardContent>
       <CardFooter className="flex flex-col items-start">
-        <Button className="w-full">Créer un compte</Button>
+        <Button className="w-full">Konto erstellen</Button>
         <div className="mt-4 text-center text-sm w-full">
-          Vous avez déjà un compte?{" "}
+          Haben Sie bereits ein Konto?{" "}
           <Link href="/login" className="underline font-semibold">
-            Se connecter
+            Anmelden
           </Link>
         </div>
       </CardFooter>

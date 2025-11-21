@@ -15,7 +15,7 @@ export default function RecommendationsPage() {
     const [isLoading, setIsLoading] = useState(false);
     const [error, setError] = useState<string | null>(null);
 
-    const browsingHistory = "Viewed items: 'Robe de Soirée Élégante' (clothing, women), 'Chemise en Lin' (clothing, men), 'Sac à Main en Cuir' (accessories, women). User seems interested in elegant and classic styles.";
+    const browsingHistory = "Angesehene Artikel: 'Elegantes Abendkleid' (Kleidung, Damen), 'Leinenhemd' (Kleidung, Herren), 'Lederhandtasche' (Accessoires, Damen). Der Benutzer scheint an eleganten und klassischen Stilen interessiert zu sein.";
 
     const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault();
@@ -30,7 +30,7 @@ export default function RecommendationsPage() {
             });
             setRecommendations(result.recommendations);
         } catch (err) {
-            setError('Une erreur est survenue lors de la génération des recommandations.');
+            setError('Beim Generieren der Empfehlungen ist ein Fehler aufgetreten.');
             console.error(err);
         } finally {
             setIsLoading(false);
@@ -42,16 +42,16 @@ export default function RecommendationsPage() {
             <Card className="max-w-3xl mx-auto shadow-lg">
                 <CardHeader className="text-center">
                     <Wand2 className="mx-auto h-12 w-12 text-accent" />
-                    <CardTitle className="text-3xl mt-4">Votre Styliste Personnel AI</CardTitle>
-                    <CardDescription className="max-w-md mx-auto pt-2">Décrivez votre style et nous vous proposerons une sélection sur mesure, inspirée par votre navigation.</CardDescription>
+                    <CardTitle className="text-3xl mt-4">Ihr Persönlicher KI-Stylist</CardTitle>
+                    <CardDescription className="max-w-md mx-auto pt-2">Beschreiben Sie Ihren Stil und wir stellen Ihnen eine maßgeschneiderte Auswahl zusammen, inspiriert von Ihrem Surfverhalten.</CardDescription>
                 </CardHeader>
                 <CardContent>
                     <form onSubmit={handleSubmit} className="grid gap-6">
                         <div className="grid gap-2">
-                            <Label htmlFor="style-preferences" className="font-semibold">Quels sont vos styles et envies du moment?</Label>
+                            <Label htmlFor="style-preferences" className="font-semibold">Was sind Ihre aktuellen Stilvorlieben und Wünsche?</Label>
                             <Textarea
                                 id="style-preferences"
-                                placeholder="Ex: J'aime le style minimaliste, les couleurs neutres, et les matières naturelles comme le lin et le coton. Je cherche une tenue pour un mariage en été..."
+                                placeholder="z.B. Ich mag einen minimalistischen Stil, neutrale Farben und natürliche Materialien wie Leinen und Baumwolle. Ich suche ein Outfit für eine Sommerhochzeit..."
                                 value={stylePreferences}
                                 onChange={(e) => setStylePreferences(e.target.value)}
                                 rows={5}
@@ -61,7 +61,7 @@ export default function RecommendationsPage() {
                         </div>
                         <Button type="submit" disabled={isLoading} size="lg">
                             {isLoading ? <Loader2 className="mr-2 h-4 w-4 animate-spin" /> : null}
-                            Obtenir mes recommandations
+                            Meine Empfehlungen erhalten
                         </Button>
                     </form>
                 </CardContent>
@@ -69,14 +69,14 @@ export default function RecommendationsPage() {
                 <CardFooter className="flex flex-col p-6">
                     {error && (
                          <Alert variant="destructive" className="w-full">
-                            <AlertTitle>Erreur</AlertTitle>
+                            <AlertTitle>Fehler</AlertTitle>
                             <AlertDescription>{error}</AlertDescription>
                         </Alert>
                     )}
 
                     {recommendations.length > 0 && (
                         <div className="w-full rounded-lg border bg-background p-6">
-                            <h3 className="font-headline text-2xl mb-4 text-center">Nos suggestions pour vous</h3>
+                            <h3 className="font-headline text-2xl mb-4 text-center">Unsere Vorschläge für Sie</h3>
                             <ul className="list-disc pl-5 space-y-3 text-muted-foreground">
                                 {recommendations.map((rec, index) => (
                                     <li key={index}>{rec}</li>

@@ -5,8 +5,8 @@ import { ShopPageLayout } from "@/components/products/shop-page-layout";
 export default function ProductsPage() {
     return (
         <ShopPageLayout
-            title="Toute la collection"
-            description="Parcourez notre catalogue complet de vêtements et accessoires de luxe."
+            title="Alle Kollektionen"
+            description="Durchsuchen Sie unseren kompletten Katalog luxuriöser Kleidung und Accessoires."
         >
             <ProductGrid products={products} />
         </ShopPageLayout>

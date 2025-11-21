@@ -7,10 +7,10 @@ export function UserNav() {
   return (
     <div className="flex items-center gap-1 md:gap-2">
       <Button asChild variant="ghost" className="text-sm px-2 sm:px-4">
-          <Link href="/login">Connexion</Link>
+          <Link href="/login">Anmelden</Link>
       </Button>
       <Button asChild className="text-sm hidden sm:inline-flex">
-          <Link href="/signup">Inscription</Link>
+          <Link href="/signup">Registrieren</Link>
       </Button>
     </div>
   );

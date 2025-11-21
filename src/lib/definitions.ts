@@ -11,6 +11,7 @@ export type Product = {
   category: 'clothing' | 'accessories';
   gender: 'men' | 'women' | 'unisex';
   isTrending: boolean;
+  details?: string;
 };
 
 export type Testimonial = {

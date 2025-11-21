@@ -7,19 +7,19 @@ export default function FavoritesPage() {
     return (
         <Card>
             <CardHeader>
-                <CardTitle>Mes Favoris</CardTitle>
-                <CardDescription>Votre sélection personnelle d'articles.</CardDescription>
+                <CardTitle>Meine Favoriten</CardTitle>
+                <CardDescription>Ihre persönliche Auswahl an Artikeln.</CardDescription>
             </CardHeader>
             <CardContent>
                 {favoritesIsEmpty ? (
                     <div className="text-center border-2 border-dashed rounded-lg p-12">
-                        <p className="text-muted-foreground mb-4 text-lg">Vous n'avez aucun article en favori.</p>
+                        <p className="text-muted-foreground mb-4 text-lg">Sie haben keine Artikel in Ihren Favoriten.</p>
                         <Button asChild>
-                            <Link href="/products">Découvrir nos produits</Link>
+                            <Link href="/products">Unsere Produkte entdecken</Link>
                         </Button>
                     </div>
                 ) : (
-                    <p>Liste de favoris ici...</p>
+                    <p>Liste der Favoriten hier...</p>
                 )}
             </CardContent>
         </Card>

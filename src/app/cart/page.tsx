@@ -8,20 +8,20 @@ export default function CartPage() {
 
     return (
         <ShopPageLayout
-            title="Votre Panier"
-            description="Vérifiez les articles dans votre panier avant de passer à la caisse."
+            title="Ihr Warenkorb"
+            description="Überprüfen Sie die Artikel in Ihrem Warenkorb, bevor Sie zur Kasse gehen."
         >
             {cartIsEmpty ? (
                 <div className="text-center border-2 border-dashed rounded-lg p-12">
-                    <p className="text-muted-foreground mb-4 text-lg">Votre panier est actuellement vide.</p>
+                    <p className="text-muted-foreground mb-4 text-lg">Ihr Warenkorb ist derzeit leer.</p>
                     <Button asChild>
-                        <Link href="/products">Continuer mes achats</Link>
+                        <Link href="/products">Weiter einkaufen</Link>
                     </Button>
                 </div>
             ) : (
                 <div>
                     {/* Placeholder for cart items list and summary */}
-                    <p>Liste des articles du panier ici...</p>
+                    <p>Liste der Warenkorbartikel hier...</p>
                 </div>
             )}
         </ShopPageLayout>

@@ -6,8 +6,8 @@ export default function ClothingPage() {
     const clothingProducts = products.filter(p => p.category === 'clothing');
     return (
         <ShopPageLayout
-            title="Vêtements"
-            description="Découvrez notre sélection de vêtements haut de gamme."
+            title="Kleidung"
+            description="Entdecken Sie unsere Auswahl an Premium-Kleidung."
         >
             <ProductGrid products={clothingProducts} />
         </ShopPageLayout>

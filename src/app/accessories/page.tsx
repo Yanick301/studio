@@ -7,7 +7,7 @@ export default function AccessoriesPage() {
     return (
         <ShopPageLayout
             title="Accessoires"
-            description="La touche finale pour un style parfait."
+            description="Der letzte Schliff für einen perfekten Stil."
         >
             <ProductGrid products={accessoryProducts} />
         </ShopPageLayout>

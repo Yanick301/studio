@@ -29,9 +29,9 @@ export function ProductCard({ product }: ProductCardProps) {
         <p className="text-lg font-bold text-primary mt-1">{product.price.toFixed(2)} €</p>
         <div className="mt-4 flex gap-2">
           <Button size="sm" className="w-full">
-            <ShoppingCart className="mr-2 h-4 w-4" /> Ajouter
+            <ShoppingCart className="mr-2 h-4 w-4" /> Hinzufügen
           </Button>
-          <Button variant="outline" size="icon" aria-label="Ajouter aux favoris">
+          <Button variant="outline" size="icon" aria-label="Zu Favoriten hinzufügen">
             <Heart className="h-4 w-4" />
           </Button>
         </div>

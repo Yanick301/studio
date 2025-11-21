@@ -2,19 +2,25 @@ import Link from 'next/link';
 import { Logo } from '@/components/global/logo';
 import { UserNav } from '@/components/global/user-nav';
 import { Button } from '@/components/ui/button';
-import { Heart, Menu, Search, ShoppingCart } from 'lucide-react';
+import { Heart, Menu, Search, ShoppingCart, Languages } from 'lucide-react';
 import {
   Sheet,
   SheetContent,
   SheetTrigger,
 } from "@/components/ui/sheet";
+import {
+    DropdownMenu,
+    DropdownMenuContent,
+    DropdownMenuItem,
+    DropdownMenuTrigger,
+  } from "@/components/ui/dropdown-menu"
 
 const navLinks = [
-  { href: '/women', label: 'Femme' },
-  { href: '/men', label: 'Homme' },
-  { href: '/clothing', label: 'Vêtements' },
+  { href: '/women', label: 'Damen' },
+  { href: '/men', label: 'Herren' },
+  { href: '/clothing', label: 'Kleidung' },
   { href: '/accessories', label: 'Accessoires' },
-  { href: '/recommendations', label: 'Styliste AI' },
+  { href: '/recommendations', label: 'KI-Stylist' },
 ];
 
 export function Header() {
@@ -30,7 +36,7 @@ export function Header() {
             <SheetTrigger asChild>
               <Button variant="ghost" size="icon">
                 <Menu className="h-6 w-6" />
-                <span className="sr-only">Toggle Menu</span>
+                <span className="sr-only">Menü umschalten</span>
               </Button>
             </SheetTrigger>
             <SheetContent side="left" className="w-[300px] sm:w-[400px]">
@@ -69,15 +75,30 @@ export function Header() {
         </nav>
 
         <div className="flex items-center justify-end space-x-1 md:space-x-2">
-          <Button variant="ghost" size="icon" aria-label="Search">
+            <DropdownMenu>
+                <DropdownMenuTrigger asChild>
+                    <Button variant="ghost" size="icon" aria-label="Sprache auswählen">
+                        <Languages className="h-5 w-5" />
+                    </Button>
+                </DropdownMenuTrigger>
+                <DropdownMenuContent align="end">
+                    <DropdownMenuItem>Deutsch</DropdownMenuItem>
+                    <DropdownMenuItem>English</DropdownMenuItem>
+                    <DropdownMenuItem>Français</DropdownMenuItem>
+                    <DropdownMenuItem>Español</DropdownMenuItem>
+                    <DropdownMenuItem>Italiano</DropdownMenuItem>
+                    <DropdownMenuItem>日本語</DropdownMenuItem>
+                </DropdownMenuContent>
+            </DropdownMenu>
+          <Button variant="ghost" size="icon" aria-label="Suche">
             <Search className="h-5 w-5" />
           </Button>
-          <Button asChild variant="ghost" size="icon" aria-label="Favorites">
+          <Button asChild variant="ghost" size="icon" aria-label="Favoriten">
             <Link href="/account/favorites">
               <Heart className="h-5 w-5" />
             </Link>
           </Button>
-          <Button asChild variant="ghost" size="icon" aria-label="Shopping Cart">
+          <Button asChild variant="ghost" size="icon" aria-label="Warenkorb">
              <Link href="/cart">
                 <ShoppingCart className="h-5 w-5" />
              </Link>

@@ -6,20 +6,20 @@ export const products: Product[] = data.placeholderImages;
 export const testimonials: Testimonial[] = [
   {
     id: "1",
-    name: "Chloé L.",
-    quote: "Une qualité exceptionnelle et un style incomparable. Éclat Boutique est devenue ma référence pour la mode de luxe.",
-    avatar: "https://i.pravatar.cc/150?u=chloe"
+    name: "Lena S.",
+    quote: "Außergewöhnliche Qualität und ein unvergleichlicher Stil. EZENTIALS ist meine erste Anlaufstelle für Luxusmode geworden.",
+    avatar: "https://i.pravatar.cc/150?u=lena"
   },
   {
     id: "2",
-    name: "Alexandre M.",
-    quote: "Enfin une boutique qui comprend l'élégance masculine. Les coupes sont parfaites et les matières très agréables.",
-    avatar: "https://i.pravatar.cc/150?u=alexandre"
+    name: "Felix K.",
+    quote: "Endlich ein Shop, der männliche Eleganz versteht. Die Schnitte sind perfekt und die Materialien sehr angenehm.",
+    avatar: "https://i.pravatar.cc/150?u=felix"
   },
   {
     id: "3",
-    name: "Sophie D.",
-    quote: "J'ai commandé une robe pour un gala et j'ai reçu une pluie de compliments. Le service client est également très réactif.",
-    avatar: "https://i.pravatar.cc/150?u=sophie"
+    name: "Hannah W.",
+    quote: "Ich habe ein Kleid für eine Gala bestellt und eine Flut von Komplimenten erhalten. Auch der Kundenservice ist sehr reaktionsschnell.",
+    avatar: "https://i.pravatar.cc/150?u=hannah"
   }
 ];
