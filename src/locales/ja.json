@@ -61,7 +61,28 @@
     "new_arrivals": "新着商品",
     "new_arrivals_description": "コレクションの最新作をご覧ください。",
     "testimonials": "お客様の声",
-    "testimonials_description": "お客様からのメッセージをご紹介します。"
+    "testimonials_description": "お客様からのメッセージをご紹介します。",
+    "maison_menu": {
+      "title": "メゾンメニュー",
+      "tailoring": {
+        "subtitle": "サルトリアルプレシジョン",
+        "title": "アトリエテーラリング",
+        "description": "構築的なスーツとサルトリアルの精度。",
+        "cta": "メンズを見る"
+      },
+      "couture": {
+        "subtitle": "メゾンルミエール",
+        "title": "クチュール＆ソワレ",
+        "description": "流れるようなドレス、輝くシルク、現代的なクチュール。",
+        "cta": "レディースを見る"
+      },
+      "accessories": {
+        "subtitle": "ギャラリーセレクション",
+        "title": "サロンアクセサリー",
+        "description": "アイコニックなバッグ、シグネチャー香水、モダンなジュエリー。",
+        "cta": "アクセサリーを見る"
+      }
+    }
   },
   "categories": {
     "women": "レディース",
@@ -775,5 +796,4 @@
     }
   }
 }
-
     

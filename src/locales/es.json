@@ -61,7 +61,28 @@
     "new_arrivals": "Novedades",
     "new_arrivals_description": "Explore las últimas incorporaciones a nuestra colección.",
     "testimonials": "Testimonios",
-    "testimonials_description": "Lo que nuestros clientes dicen de nosotros."
+    "testimonials_description": "Lo que nuestros clientes dicen de nosotros.",
+    "maison_menu": {
+      "title": "Menú Maison",
+      "tailoring": {
+        "subtitle": "Precisión Sartorial",
+        "title": "Atelier Tailoring",
+        "description": "Trajes arquitectónicos y precisión sartorial.",
+        "cta": "Explorar Hombres"
+      },
+      "couture": {
+        "subtitle": "Maison Lumière",
+        "title": "Couture & Soirée",
+        "description": "Vestidos fluidos, sedas luminosas y alta costura contemporánea.",
+        "cta": "Explorar Mujeres"
+      },
+      "accessories": {
+        "subtitle": "Galería Selección",
+        "title": "Salón de Accesorios",
+        "description": "Bolsos icónicos, perfumes de autor y joyas modernas.",
+        "cta": "Explorar Accesorios"
+      }
+    }
   },
   "categories": {
     "women": "Mujeres",
@@ -775,5 +796,4 @@
     }
   }
 }
-
     

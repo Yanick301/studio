@@ -60,6 +60,73 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+      {/* Maison Categories Section */}
+      <section className="py-16 md:py-24 bg-background">
+        <div className="container">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold font-headline">{t('home.maison_menu.title')}</h2>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {/* Atelier Tailoring */}
+            <Link href="/men" className="relative group h-[500px] overflow-hidden rounded-lg shadow-lg">
+                <Image src="https://images.unsplash.com/photo-1521341057461-65ab6747022e?q=80&w=1965&auto=format&fit=crop" alt={t('home.maison_menu.tailoring.title')} fill style={{objectFit:"cover"}} className="transition-transform duration-500 group-hover:scale-105" data-ai-hint="man white t-shirt"/>
+                <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex flex-col justify-end p-8 text-white">
+                    <p className="text-sm uppercase tracking-widest">{t('home.maison_menu.tailoring.subtitle')}</p>
+                    <h3 className="text-3xl font-headline mt-2">{t('home.maison_menu.tailoring.title')}</h3>
+                    <p className="mt-2 text-white/90 max-w-xs">{t('home.maison_menu.tailoring.description')}</p>
+                    <div className="mt-4 font-semibold flex items-center group-hover:underline">
+                      {t('home.maison_menu.tailoring.cta')} <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+                    </div>
+                </div>
+            </Link>
+             {/* Couture & Soirée */}
+            <Link href="/women" className="relative group h-[500px] overflow-hidden rounded-lg shadow-lg">
+                <Image src="https://images.unsplash.com/photo-1541480601022-2308c0f0248d?q=80&w=1974&auto=format&fit=crop" alt={t('home.maison_menu.couture.title')} fill style={{objectFit:"cover"}} className="transition-transform duration-500 group-hover:scale-105" data-ai-hint="woman fashion pose"/>
+                <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex flex-col justify-end p-8 text-white">
+                    <p className="text-sm uppercase tracking-widest">{t('home.maison_menu.couture.subtitle')}</p>
+                    <h3 className="text-3xl font-headline mt-2">{t('home.maison_menu.couture.title')}</h3>
+                    <p className="mt-2 text-white/90 max-w-xs">{t('home.maison_menu.couture.description')}</p>
+                    <div className="mt-4 font-semibold flex items-center group-hover:underline">
+                      {t('home.maison_menu.couture.cta')} <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+                    </div>
+                </div>
+            </Link>
+             {/* Salon Accessoires */}
+            <Link href="/accessories" className="relative group h-[500px] overflow-hidden rounded-lg shadow-lg">
+                <Image src="https://images.unsplash.com/photo-1620625634522-800c73a83324?q=80&w=1974&auto=format&fit=crop" alt={t('home.maison_menu.accessories.title')} fill style={{objectFit:"cover"}} className="transition-transform duration-500 group-hover:scale-105" data-ai-hint="luxury watch"/>
+                <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex flex-col justify-end p-8 text-white">
+                    <p className="text-sm uppercase tracking-widest">{t('home.maison_menu.accessories.subtitle')}</p>
+                    <h3 className="text-3xl font-headline mt-2">{t('home.maison_menu.accessories.title')}</h3>
+                    <p className="mt-2 text-white/90 max-w-xs">{t('home.maison_menu.accessories.description')}</p>
+                    <div className="mt-4 font-semibold flex items-center group-hover:underline">
+                      {t('home.maison_menu.accessories.cta')} <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+                    </div>
+                </div>
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Trending Products Section */}
+      <section className="py-16 md:py-24 bg-card">
+        <div className="container">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold font-headline">{t('home.trending_products')}</h2>
+            <p className="mt-2 text-muted-foreground text-lg">{t('home.trending_description')}</p>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+            {trendingProducts.map((product) => (
+              <ProductCard key={product.id} product={product} />
+            ))}
+          </div>
+          <div className="text-center mt-12">
+            <Button asChild variant="outline">
+              <Link href="/products">{t('home.view_all_products')} <ArrowRight className="ml-2 h-4 w-4" /></Link>
+            </Button>
+          </div>
+        </div>
+      </section>
       
       {/* Brand Philosophy Section */}
       <section className="py-16 md:py-24 bg-background">
@@ -84,63 +151,8 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Trending Products Section */}
-      <section className="py-16 md:py-24 bg-card">
-        <div className="container">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold font-headline">{t('home.trending_products')}</h2>
-            <p className="mt-2 text-muted-foreground text-lg">{t('home.trending_description')}</p>
-          </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-            {trendingProducts.map((product) => (
-              <ProductCard key={product.id} product={product} />
-            ))}
-          </div>
-          <div className="text-center mt-12">
-            <Button asChild variant="outline">
-              <Link href="/products">{t('home.view_all_products')} <ArrowRight className="ml-2 h-4 w-4" /></Link>
-            </Button>
-          </div>
-        </div>
-      </section>
-
-       {/* Categories Section */}
-      <section className="bg-background">
-        <div className="container-fluid">
-            <div className="grid grid-cols-1 md:grid-cols-2">
-                <Link href="/women" className="relative group h-96 md:h-[600px] overflow-hidden">
-                    <Image src="https://images.unsplash.com/photo-1525541622-628213890526?q=80&w=1974&auto=format&fit=crop" alt={t('categories.women')} fill style={{objectFit:"cover"}} className="transition-transform duration-500 group-hover:scale-105" data-ai-hint="stylish woman"/>
-                    <div className="absolute inset-0 bg-black/40 flex items-center justify-center transition-all duration-300 group-hover:bg-black/50">
-                        <h3 className="text-4xl text-white drop-shadow-lg font-headline">{t('categories.women')}</h3>
-                    </div>
-                </Link>
-                <Link href="/men" className="relative group h-96 md:h-[600px] overflow-hidden">
-                    <Image src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=1974&auto=format&fit=crop" alt={t('categories.men')} fill style={{objectFit:"cover"}} className="transition-transform duration-500 group-hover:scale-105" data-ai-hint="stylish man"/>
-                    <div className="absolute inset-0 bg-black/40 flex items-center justify-center transition-all duration-300 group-hover:bg-black/50">
-                        <h3 className="text-4xl text-white drop-shadow-lg font-headline">{t('categories.men')}</h3>
-                    </div>
-                </Link>
-            </div>
-        </div>
-      </section>
-      
-      {/* New Arrivals Section */}
-      <section className="py-16 md:py-24 bg-card">
-        <div className="container">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold font-headline">{t('home.new_arrivals')}</h2>
-            <p className="mt-2 text-muted-foreground text-lg">{t('home.new_arrivals_description')}</p>
-          </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-            {newProducts.map((product) => (
-              <ProductCard key={product.id} product={product} />
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* Testimonials Section */}
-      <section className="py-16 md:py-24 bg-background">
+      <section className="py-16 md:py-24 bg-card">
         <div className="container">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold font-headline">{t('home.testimonials')}</h2>
@@ -148,7 +160,7 @@ export default function Home() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {testimonials.map((testimonial) => (
-              <Card key={testimonial.id} className="bg-card shadow-lg border-none">
+              <Card key={testimonial.id} className="bg-background shadow-lg border-none">
                 <CardContent className="p-8 flex flex-col items-center text-center">
                   <Avatar className="w-20 h-20 mb-6 border-2 border-primary">
                     <AvatarImage src={testimonial.avatar} alt={t(testimonial.name)} />
@@ -164,3 +176,4 @@ export default function Home() {
       </section>
     </div>
   );
+}
