@@ -12,6 +12,10 @@ export type Product = {
   gender: 'men' | 'women' | 'unisex';
   isTrending: boolean;
   details?: string;
+  options?: {
+    sizes?: string[];
+    colors?: string[];
+  }
 };
 
 export type Testimonial = {

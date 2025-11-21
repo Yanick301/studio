@@ -6,14 +6,28 @@
       "slug": "veste-croisee-laine-vierge-monarque",
       "description": "Une veste croisée d'une élégance rare, taillée dans une somptueuse laine vierge italienne de 560g. Sa coupe slim et sa doublure en soie offrent une silhouette impeccable et un confort absolu.",
       "price": 1250,
-      "imageUrl": "https://images.unsplash.com/photo-1642752054841-23ca828680d1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxtZW4lMjB3b29sJTIwYmxhemVyfGVufDB8fHx8MTc2MzcyODkyM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1623944720662-b50d5369bf47?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtZW4lMjB3b29sJTIwYmxhemVyfGVufDB8fHx8MTc2MzcyODkyM3ww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "men wool blazer",
       "width": 800,
       "height": 1200,
       "category": "clothing",
       "gender": "men",
       "isTrending": true,
-      "details": "Laine vierge italienne 560g, doublure en soie. Coupe slim. Nettoyage à sec uniquement."
+      "details": "Laine vierge italienne 560g, doublure en soie. Coupe slim. Nettoyage à sec uniquement.",
+      "options": {
+        "sizes": [
+          "46",
+          "48",
+          "50",
+          "52",
+          "54"
+        ],
+        "colors": [
+          "#2F3A4C",
+          "#5A4D41",
+          "#1E1E1E"
+        ]
+      }
     },
     {
       "id": "m-2",
@@ -21,14 +35,23 @@
       "slug": "costume-3-pieces-cachemire-aquila",
       "description": "L'incarnation du luxe. Ce costume trois pièces est réalisé dans un tissu 100% cachemire mélangé, avec des coutures entièrement finies à la main pour une finition haute couture.",
       "price": 2900,
-      "imageUrl": "https://images.unsplash.com/photo-1667243142746-deb10f212300?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtZW4lMjBjYXNobWVyZSUyMHN1aXR8ZW58MHx8fHwxNzYzNzI5MzQ0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1658150044898-75fe6da875f9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxtZW4lMjBjYXNobWVyZSUyMHN1aXR8ZW58MHx8fHwxNzYzNzI5MzQ0fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "men cashmere suit",
       "width": 800,
       "height": 1200,
       "category": "clothing",
       "gender": "men",
       "isTrending": false,
-      "details": "Tissu 100% cachemire mélangé. Veste, gilet et pantalon inclus. Coutures faites à la main."
+      "details": "Tissu 100% cachemire mélangé. Veste, gilet et pantalon inclus. Coutures faites à la main.",
+      "options": {
+        "sizes": [
+          "46",
+          "48",
+          "50",
+          "52",
+          "54"
+        ]
+      }
     },
     {
       "id": "m-3",
@@ -36,14 +59,27 @@
       "slug": "chemise-oxford-coton-egyptien-pur",
       "description": "L'essentiel du vestiaire masculin, réinventé. Cette chemise en coton égyptien d'une douceur incomparable est rehaussée par un col milanais et des boutons en nacre véritable.",
       "price": 220,
-      "imageUrl": "https://images.unsplash.com/photo-1761554169700-131bc3f188c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxtZW4lMjBveGZvcmQlMjBzaGlydHxlbnwwfHx8fDE3NjM3MjkzNDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1626107130498-11fe0c449cf4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxtZW4lMjBveGZvcmQlMjBzaGlydHxlbnwwfHx8fDE3NjM3MjkzNDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "men oxford shirt",
       "width": 800,
       "height": 1200,
       "category": "clothing",
       "gender": "men",
       "isTrending": true,
-      "details": "100% coton égyptien. Col milanais. Boutons en nacre. Coupe ajustée."
+      "details": "100% coton égyptien. Col milanais. Boutons en nacre. Coupe ajustée.",
+      "options": {
+        "sizes": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ],
+        "colors": [
+          "#FFFFFF",
+          "#D6EAF8",
+          "#FADADD"
+        ]
+      }
     },
     {
       "id": "m-4",
@@ -51,59 +87,156 @@
       "slug": "manteau-long-cachemire-melange-nord",
       "description": "Affrontez le froid avec une élégance souveraine. Ce manteau long à coupe droite, en cachemire mélangé, dispose d'une isolation légère et d'un fini brossé pour une douceur exquise.",
       "price": 1800,
-      "imageUrl": "https://images.unsplash.com/photo-1741675121344-ccbf10c3c63f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxtZW4lMjBjYXNobWVyZSUyMGNvYXR8ZW58MHx8fHwxNzYzNzI5MzQ0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1666348990135-b2bc0bb51d75?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxtZW4lMjBjYXNobWVyZSUyMGNvYXR8ZW58MHx8fHwxNzYzNzI5MzQ0fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "men cashmere coat",
       "width": 800,
       "height": 1200,
       "category": "clothing",
       "gender": "men",
       "isTrending": true,
-      "details": "Mélange de cachemire et laine. Coupe droite. Isolation légère, fini brossé."
+      "details": "Mélange de cachemire et laine. Coupe droite. Isolation légère, fini brossé.",
+      "options": {
+        "sizes": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ],
+        "colors": [
+          "#343A40",
+          "#A1887F",
+          "#6C757D"
+        ]
+      }
     },
     {
-      "id": "m-5",
-      "name": "Blazer velours côtelé \"Soir\"",
-      "slug": "blazer-velours-cotele-soir",
-      "description": "Une pièce de caractère pour vos soirées. Ce blazer en velours côtelé se distingue par son intérieur en satin et son épaule structurée, pour une allure à la fois chic et décontractée.",
-      "price": 650,
-      "imageUrl": "https://picsum.photos/seed/m-5/800/1200",
-      "imageHint": "men corduroy blazer",
+      "id": "f-1",
+      "name": "Robe longue soie \"Élégance\"",
+      "slug": "robe-longue-soie-elegance",
+      "description": "Une pièce maîtresse de toute garde-robe. Cette robe longue en pure soie présente une coupe fluide et un imprimé exclusif, conçue pour flotter gracieusement à chaque mouvement.",
+      "price": 1100,
+      "imageUrl": "https://images.unsplash.com/photo-1756483510882-55bc1249642d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx3b21lbiUyMHNpbGslMjBkcmVzc3xlbnwwfHx8fDE3NjM3MjkzNDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "women silk dress",
       "width": 800,
       "height": 1200,
       "category": "clothing",
-      "gender": "men",
-      "isTrending": false,
-      "details": "Velours côtelé de coton. Intérieur satin. Épaule structurée."
+      "gender": "women",
+      "isTrending": true,
+      "details": "100% soie. Coupe fluide. Imprimé exclusif. Nettoyage à sec.",
+      "options": {
+        "sizes": [
+          "36",
+          "38",
+          "40",
+          "42"
+        ],
+        "colors": [
+          "#FFC0CB",
+          "#ADD8E6",
+          "#E6E6FA"
+        ]
+      }
     },
     {
-      "id": "m-6",
-      "name": "Pull col roulé en mérinos extrafine \"Silence\"",
-      "slug": "pull-col-roule-merinos-extrafine-silence",
-      "description": "La définition du confort raffiné. Ce pull à col roulé est tricoté à partir de fils de mérinos extrafins peignés, offrant un toucher d'une douceur exceptionnelle.",
-      "price": 240,
-      "imageUrl": "https://picsum.photos/seed/m-6/800/1200",
-      "imageHint": "men merino turtleneck",
+      "id": "f-2",
+      "name": "Tailleur jupe en laine \"Madame\"",
+      "slug": "tailleur-jupe-en-laine-madame",
+      "description": "Incarnez le pouvoir et la féminité. Ce tailleur se compose d'une veste cintrée et d'une jupe crayon, coupées dans une laine fine pour une silhouette impeccable du matin au soir.",
+      "price": 1400,
+      "imageUrl": "https://images.unsplash.com/photo-1689776948163-11fde47d6d4d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx3b21lbiUyMHdvb2wlMjBzdWl0fGVufDB8fHx8MTc2MzcyOTM0NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "women wool suit",
       "width": 800,
       "height": 1200,
       "category": "clothing",
-      "gender": "men",
+      "gender": "women",
       "isTrending": false,
-      "details": "100% laine mérinos extrafine. Fils peignés pour un toucher doux."
+      "details": "Laine fine. Veste cintrée et jupe crayon. Entièrement doublé.",
+      "options": {
+        "sizes": [
+          "36",
+          "38",
+          "40",
+          "42"
+        ]
+      }
     },
     {
-      "id": "m-7",
-      "name": "Pantalon chino tailoring \"Cache\"",
-      "slug": "pantalon-chino-tailoring-cache",
-      "description": "Le pantalon chino, élevé au rang d'art. Sa coupe ajustée et son tissu stretch de luxe assurent un confort et une élégance sans faille tout au long de la journée.",
-      "price": 180,
-      "imageUrl": "https://images.unsplash.com/photo-1608979223338-bb4c889fbd52?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtZW4lMjBjaGlubyUyMHBhbnRzfGVufDB8fHx8MTc2MzcyODkyM3ww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "men chino pants",
+      "id": "f-3",
+      "name": "Blouse en dentelle française \"Rosée\"",
+      "slug": "blouse-en-dentelle-francaise-rosee",
+      "description": "Le romantisme à l'état pur. Cette blouse délicate est confectionnée en dentelle française et ornée de détails brodés à la main, pour une touche de préciosité inégalée.",
+      "price": 280,
+      "imageUrl": "https://images.unsplash.com/photo-1491575509428-5cc7d3e4076b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx3b21lbiUyMGxhY2UlMjBibG91c2V8ZW58MHx8fHwxNzYzNzI5MzQ1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "women lace blouse",
       "width": 800,
       "height": 1200,
       "category": "clothing",
-      "gender": "men",
-      "isTrending": false,
-      "details": "Tissu stretch de luxe. Coupe ajustée. Finitions tailoring."
+      "gender": "women",
+      "isTrending": true,
+      "details": "Dentelle française authentique. Détails brodés à la main. Top en soie inclus.",
+      "options": {
+        "sizes": [
+          "XS",
+          "S",
+          "M",
+          "L"
+        ]
+      }
+    },
+    {
+      "id": "f-4",
+      "name": "Manteau en cachemire double face \"Velours\"",
+      "slug": "manteau-en-cachemire-double-face-velours",
+      "description": "Un cocon de douceur et de luxe. Ce manteau en cachemire double face est d'une légèreté et d'une chaleur incomparables, avec une finition bordée pour une élégance discrète.",
+      "price": 2200,
+      "imageUrl": "https://images.unsplash.com/photo-1739620620741-f7b23ede3149?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx3b21lbiUyMGNhc2htZXJlJTIwY29hdHxlbnwwfHx8fDE3NjM3MjkzNDV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "women cashmere coat",
+      "width": 800,
+      "height": 1200,
+      "category": "clothing",
+      "gender": "women",
+      "isTrending": true,
+      "details": "100% cachemire double face. Non doublé pour plus de légèreté. Finition main.",
+      "options": {
+        "sizes": [
+          "S",
+          "M",
+          "L"
+        ],
+        "colors": [
+          "#F5F5DC",
+          "#D2B48C",
+          "#C0C0C0"
+        ]
+      }
+    },
+    {
+      "id": "f-8",
+      "name": "Robe midi en crêpe \"Sculpt\"",
+      "slug": "robe-midi-en-crepe-sculpt",
+      "description": "Une robe d'une élégance intemporelle. Sa coupe empire et son tissu en crêpe lourd flattent la silhouette, tandis que son zip invisible assure une finition parfaite.",
+      "price": 420,
+      "imageUrl": "https://images.unsplash.com/photo-1704775989614-8435994e4e97?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHx3b21lbiUyMG1pZGklMjBkcmVzc3xlbnwwfHx8fDE3NjM3MjkzNDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "women midi dress",
+      "width": 800,
+      "height": 1200,
+      "category": "clothing",
+      "gender": "women",
+      "isTrending": true,
+      "details": "Crêpe de haute qualité. Coupe empire. Longueur midi. Zip invisible.",
+      "options": {
+        "sizes": [
+          "36",
+          "38",
+          "40",
+          "42"
+        ],
+        "colors": [
+          "#000000",
+          "#B22222",
+          "#4682B4"
+        ]
+      }
     },
     {
       "id": "m-8",
@@ -118,157 +251,16 @@
       "category": "clothing",
       "gender": "men",
       "isTrending": true,
-      "details": "Denim japonais selvedge 14 oz. Rivets en cuivre. Brut, non lavé."
-    },
-    {
-      "id": "m-9",
-      "name": "Parka technique imperméable \"Atlas\"",
-      "slug": "parka-technique-impermeable-atlas",
-      "description": "Alliez style et fonctionnalité avec cette parka technique. Dotée d'une membrane respirante et imperméable, et d'une capuche amovible, elle est prête à affronter les éléments.",
-      "price": 520,
-      "imageUrl": "https://picsum.photos/seed/m-9/800/1200",
-      "imageHint": "men technical parka",
-      "width": 800,
-      "height": 1200,
-      "category": "clothing",
-      "gender": "men",
-      "isTrending": false,
-      "details": "Membrane technique imperméable et respirante. Capuche amovible."
-    },
-    {
-      "id": "m-10",
-      "name": "Veste en cuir d'agneau \"Cuiron\"",
-      "slug": "veste-en-cuir-d-agneau-cuiron",
-      "description": "Une icône intemporelle. Cette veste en cuir d'agneau souple se distingue par sa finition patinée à la main et ses zips YKK de haute qualité, pour un look rock et raffiné.",
-      "price": 1350,
-      "imageUrl": "https://images.unsplash.com/photo-1711477270962-5bd8fd212540?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxtZW4lMjBsZWF0aGVyJTIwamFja2V0fGVufDB8fHx8MTc2MzcyOTM0NHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "men leather jacket",
-      "width": 800,
-      "height": 1200,
-      "category": "clothing",
-      "gender": "men",
-      "isTrending": false,
-      "details": "100% cuir d'agneau. Finition patinée à la main. Zips YKK."
-    },
-    {
-      "id": "f-1",
-      "name": "Robe longue soie \"Élégance\"",
-      "slug": "robe-longue-soie-elegance",
-      "description": "Une pièce maîtresse de toute garde-robe. Cette robe longue en pure soie présente une coupe fluide et un imprimé exclusif, conçue pour flotter gracieusement à chaque mouvement.",
-      "price": 1100,
-      "imageUrl": "https://images.unsplash.com/photo-1756483510840-b0dda5f0dd0f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHx3b21lbiUyMHNpbGslMjBkcmVzc3xlbnwwfHx8fDE3NjM3MjkzNDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "women silk dress",
-      "width": 800,
-      "height": 1200,
-      "category": "clothing",
-      "gender": "women",
-      "isTrending": true,
-      "details": "100% soie. Coupe fluide. Imprimé exclusif. Nettoyage à sec."
-    },
-    {
-      "id": "f-2",
-      "name": "Tailleur jupe en laine \"Madame\"",
-      "slug": "tailleur-jupe-en-laine-madame",
-      "description": "Incarnez le pouvoir et la féminité. Ce tailleur se compose d'une veste cintrée et d'une jupe crayon, coupées dans une laine fine pour une silhouette impeccable du matin au soir.",
-      "price": 1400,
-      "imageUrl": "https://images.unsplash.com/photo-1715408153725-186c6c77fb45?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3b21lbiUyMHdvb2wlMjBzdWl0fGVufDB8fHx8MTc2MzcyOTM0NHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "women wool suit",
-      "width": 800,
-      "height": 1200,
-      "category": "clothing",
-      "gender": "women",
-      "isTrending": false,
-      "details": "Laine fine. Veste cintrée et jupe crayon. Entièrement doublé."
-    },
-    {
-      "id": "f-3",
-      "name": "Blouse en dentelle française \"Rosée\"",
-      "slug": "blouse-en-dentelle-francaise-rosee",
-      "description": "Le romantisme à l'état pur. Cette blouse délicate est confectionnée en dentelle française et ornée de détails brodés à la main, pour une touche de préciosité inégalée.",
-      "price": 280,
-      "imageUrl": "https://images.unsplash.com/photo-1593651790470-2c20d46e45a8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx3b21lbiUyMGxhY2UlMjBibG91c2V8ZW58MHx8fHwxNzYzNzI5MzQ1fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "women lace blouse",
-      "width": 800,
-      "height": 1200,
-      "category": "clothing",
-      "gender": "women",
-      "isTrending": true,
-      "details": "Dentelle française authentique. Détails brodés à la main. Top en soie inclus."
-    },
-    {
-      "id": "f-4",
-      "name": "Manteau en cachemire double face \"Velours\"",
-      "slug": "manteau-en-cachemire-double-face-velours",
-      "description": "Un cocon de douceur et de luxe. Ce manteau en cachemire double face est d'une légèreté et d'une chaleur incomparables, avec une finition bordée pour une élégance discrète.",
-      "price": 2200,
-      "imageUrl": "https://images.unsplash.com/photo-1755483503929-a2eb08de1c7d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx3b21lbiUyMGNhc2htZXJlJTIwY29hdHxlbnwwfHx8fDE3NjM3MjkzNDV8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "women cashmere coat",
-      "width": 800,
-      "height": 1200,
-      "category": "clothing",
-      "gender": "women",
-      "isTrending": true,
-      "details": "100% cachemire double face. Non doublé pour plus de légèreté. Finition main."
-    },
-    {
-      "id": "f-5",
-      "name": "Robe de soirée brodée \"Constellation\"",
-      "slug": "robe-de-soiree-brodee-constellation",
-      "description": "Brillez de mille feux. Cette robe de soirée est une véritable œuvre d'art, entièrement brodée à la main de sequins et de perles couture pour un effet spectaculaire.",
-      "price": 3600,
-      "imageUrl": "https://images.unsplash.com/photo-1703001523704-e6a9d32b3067?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8d29tZW4lMjBldmVuaW5nJTIwZ293bnxlbnwwfHx8fDE3NjM3MjkzNDV8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "women evening gown",
-      "width": 800,
-      "height": 1200,
-      "category": "clothing",
-      "gender": "women",
-      "isTrending": false,
-      "details": "Brodée à la main de sequins et de perles. Doublure en soie. Pièce de couture."
-    },
-    {
-      "id": "f-6",
-      "name": "Top en satin drapé \"Lueur\"",
-      "slug": "top-en-satin-drape-lueur",
-      "description": "Simple mais sophistiqué. Ce top en satin se distingue par son décolleté asymétrique drapé, qui met subtilement en valeur le port de tête et les épaules.",
-      "price": 160,
-      "imageUrl": "https://picsum.photos/seed/f-6/800/1200",
-      "imageHint": "women satin top",
-      "width": 800,
-      "height": 1200,
-      "category": "clothing",
-      "gender": "women",
-      "isTrending": false,
-      "details": "Satin de soie mélangée. Décolleté asymétrique drapé."
-    },
-    {
-      "id": "f-7",
-      "name": "Jeans skinny premium \"Étoile\"",
-      "slug": "jeans-skinny-premium-etoile",
-      "description": "Le jean parfait qui sculpte la silhouette. Conçu dans un denim stretch premium, il épouse les formes sans jamais perdre sa tenue, pour un confort et un style impeccables.",
-      "price": 220,
-      "imageUrl": "https://images.unsplash.com/photo-1665931501377-c77e06e25d9b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8d29tZW4lMjBza2lubnklMjBqZWFuc3xlbnwwfHx8fDE3NjM3MjkzNDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "women skinny jeans",
-      "width": 800,
-      "height": 1200,
-      "category": "clothing",
-      "gender": "women",
-      "isTrending": false,
-      "details": "Denim stretch premium sculptant. Taille mi-haute. Longueur cheville."
-    },
-    {
-      "id": "f-8",
-      "name": "Robe midi en crêpe \"Sculpt\"",
-      "slug": "robe-midi-en-crepe-sculpt",
-      "description": "Une robe d'une élégance intemporelle. Sa coupe empire et son tissu en crêpe lourd flattent la silhouette, tandis que son zip invisible assure une finition parfaite.",
-      "price": 420,
-      "imageUrl": "https://images.unsplash.com/photo-1745750003448-ba149f954428?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx3b21lbiUyMG1pZGklMjBkcmVzc3xlbnwwfHx8fDE3NjM3MjkzNDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "women midi dress",
-      "width": 800,
-      "height": 1200,
-      "category": "clothing",
-      "gender": "women",
-      "isTrending": true,
-      "details": "Crêpe de haute qualité. Coupe empire. Longueur midi. Zip invisible."
+      "details": "Denim japonais selvedge 14 oz. Rivets en cuivre. Brut, non lavé.",
+      "options": {
+        "sizes": [
+          "28",
+          "30",
+          "32",
+          "34",
+          "36"
+        ]
+      }
     },
     {
       "id": "a-1",
@@ -276,29 +268,21 @@
       "slug": "sac-porte-epaule-cuir-graine-ezential",
       "description": "Le compagnon idéal au quotidien. Ce sac en cuir grainé spacieux est doté d'une doublure en microfibre et de multiples poches pour une organisation sans faille.",
       "price": 1450,
-      "imageUrl": "https://images.unsplash.com/photo-1759717760080-6659d0b34e27?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxsZWF0aGVyJTIwc2hvdWxkZXIlMjBiYWd8ZW58MHx8fHwxNzYzNzI5MzQ0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1760624294514-ca40aafe3d96?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxsZWF0aGVyJTIwc2hvdWxkZXIlMjBiYWd8ZW58MHx8fHwxNzYzNzI5MzQ0fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "leather shoulder bag",
       "width": 900,
       "height": 900,
       "category": "accessories",
       "gender": "unisex",
       "isTrending": true,
-      "details": "Cuir de veau grainé. Doublure microfibre. Poche intérieure zippée et deux poches plaquées."
-    },
-    {
-      "id": "s-m-1",
-      "name": "Richelieu cousu main cuir patiné \"Souverain\"",
-      "slug": "richelieu-cousu-main-cuir-patine-souverain",
-      "description": "Le summum de l'élégance masculine. Ces chaussures Richelieu sont cousues Goodyear sur une forme effilée et leur cuir est patiné à la main pour une couleur unique.",
-      "price": 620,
-      "imageUrl": "https://images.unsplash.com/photo-1657036779347-db31ebaad251?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxtZW4lMjBsZWF0aGVyJTIwc2hvZXN8ZW58MHx8fHwxNzYzNzI5MzQ0fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "men leather shoes",
-      "width": 800,
-      "height": 600,
-      "category": "shoes",
-      "gender": "men",
-      "isTrending": false,
-      "details": "Cuir de veau pleine fleur, patiné à la main. Cousu Goodyear. Semelle en cuir."
+      "details": "Cuir de veau grainé. Doublure microfibre. Poche intérieure zippée et deux poches plaquées.",
+      "options": {
+        "colors": [
+          "#000000",
+          "#8B4513",
+          "#F5F5DC"
+        ]
+      }
     },
     {
       "id": "s-f-1",
@@ -306,74 +290,22 @@
       "slug": "escarpins-cuir-verni-talon-9-cm-eclipse",
       "description": "Une silhouette élancée et un style affirmé. Ces escarpins en cuir verni noir sont dotés d'un talon de 9 cm parfaitement équilibré pour un confort surprenant.",
       "price": 420,
-      "imageUrl": "https://images.unsplash.com/photo-1759090889296-1b82083f981d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx3b21lbiUyMGhpZ2glMjBoZWVsc3xlbnwwfHx8fDE3NjM3MjkzNDV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1710072373568-f1de200bcb69?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3b21lbiUyMGhpZ2glMjBoZWVsc3xlbnwwfHx8fDE3NjM3MjkzNDV8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "women high heels",
       "width": 800,
       "height": 600,
       "category": "shoes",
       "gender": "women",
       "isTrending": true,
-      "details": "Cuir de veau verni. Talon 9 cm. Doublure et semelle intérieure en cuir."
-    },
-    {
-      "id": "f-9",
-      "name": "Combinaison pantalon soie \"Noir Chic\"",
-      "slug": "combinaison-pantalon-soie-noir-chic",
-      "description": "Une alternative moderne et sophistiquée à la robe de soirée. Confectionnée en soie lourde, elle présente une taille marquée et des jambes larges pour une allure spectaculaire.",
-      "price": 650,
-      "imageUrl": "https://images.unsplash.com/photo-1678650627062-1e5063550136?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx3b21lbiUyMHNpbGslMjBqdW1wc3VpdHxlbnwwfHx8fDE3NjM3MjkzNDV8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "women silk jumpsuit",
-      "width": 800,
-      "height": 1200,
-      "category": "clothing",
-      "gender": "women",
-      "isTrending": false,
-      "details": "100% Soie. Jambes larges, taille marquée. Poches passepoilées. Fermeture éclair invisible."
-    },
-    {
-      "id": "a-2",
-      "name": "Clutch soirée en satin & perles \"Lumi\"",
-      "slug": "clutch-soiree-satin-perles-lumi",
-      "description": "La touche finale pour vos tenues de soirée. Ce clutch rigide est recouvert de satin et brodé de perles fines, avec un fermoir bijou qui attire la lumière.",
-      "price": 420,
-      "imageUrl": "https://images.unsplash.com/photo-1758817862631-f4a11090a2f6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxldmVuaW5nJTIwY2x1dGNofGVufDB8fHx8MTc2MzY0ODQ4OHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "evening clutch",
-      "width": 600,
-      "height": 400,
-      "category": "accessories",
-      "gender": "women",
-      "isTrending": false,
-      "details": "Satin duchesse, perles de verre. Fermoir en métal plaqué. Chaînette amovible."
-    },
-    {
-      "id": "s-m-2",
-      "name": "Derby cuir grainé \"Élite\"",
-      "slug": "derby-cuir-graine-elite",
-      "description": "Polyvalence et style. Ces derbies en cuir grainé robuste sont aussi à l'aise avec un costume qu'avec un jean. La semelle en gomme assure un confort durable.",
-      "price": 420,
-      "imageUrl": "https://images.unsplash.com/photo-1638299355778-15fdec0d1a9a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtZW4lMjBkZXJieSUyMHNob2VzfGVufDB8fHx8MTc2MzcyOTM0NHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "men derby shoes",
-      "width": 800,
-      "height": 600,
-      "category": "shoes",
-      "gender": "men",
-      "isTrending": true,
-      "details": "Cuir de veau grainé. Doublure intégrale en cuir. Semelle en gomme premium."
-    },
-    {
-      "id": "s-f-2",
-      "name": "Sandales à bride cheville en cuir \"Sérénité\"",
-      "slug": "sandales-bride-cheville-cuir-serenite",
-      "description": "Élégance minimaliste pour les beaux jours. Ces sandales plates en cuir souple disposent d'une fine bride à la cheville ornée d'une boucle bijou discrète.",
-      "price": 320,
-      "imageUrl": "https://images.unsplash.com/photo-1566499003412-4736d6099504?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx3b21lbiUyMGxlYXRoZXIlMjBzYW5kYWxzfGVufDB8fHx8MTc2MzcyOTM0NXww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "women leather sandals",
-      "width": 800,
-      "height": 600,
-      "category": "shoes",
-      "gender": "women",
-      "isTrending": false,
-      "details": "Cuir d'agneau. Boucle en métal doré. Semelle intérieure matelassée."
+      "details": "Cuir de veau verni. Talon 9 cm. Doublure et semelle intérieure en cuir.",
+      "options": {
+        "sizes": [
+          "37",
+          "38",
+          "39",
+          "40"
+        ]
+      }
     }
   ]
 }
