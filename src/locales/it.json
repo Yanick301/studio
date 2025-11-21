@@ -201,14 +201,64 @@
   },
   "products": {
     "monarque_blazer": {
-      "name": "Blazer doppiopetto in lana vergine \"Monarque\"",
+      "name": "Blazer doppiopetto in lana vergine 'Monarque'",
       "description": "Un blazer doppiopetto di rara eleganza, tagliato in una sontuosa lana vergine italiana da 560g. La sua vestibilità slim e la fodera in seta offrono una silhouette impeccabile e un comfort assoluto.",
       "details": "Lana vergine italiana 560g, fodera in seta. Vestibilità slim. Lavare solo a secco."
     },
     "aquila_suit": {
-      "name": "Abito 3 pezzi in cachemire \"Aquila\"",
-      "description": "L'epitome del lusso. Questo abito a tre pezzi è realizzato in un tessuto misto cachemire al 100%, with cuciture interamente rifinite a mano per una finitura sartoriale.",
+      "name": "Abito 3 pezzi in cachemire 'Aquila'",
+      "description": "L'epitome del lusso. Questo abito a tre pezzi è realizzato in un tessuto misto cachemire al 100%, con cuciture interamente rifinite a mano per una finitura sartoriale.",
       "details": "Tessuto misto cachemire al 100%. Giacca, gilet e pantaloni inclusi. Cuciture a mano."
+    },
+    "pur_shirt": {
+      "name": "Camicia Oxford in cotone egiziano 'Pur'",
+      "description": "L'essenziale del guardaroba maschile, reinventato. Questa camicia in cotone egiziano incomparabilmente morbido è arricchita da un colletto alla milanese e bottoni in vera madreperla.",
+      "details": "100% cotone egiziano. Colletto alla milanese. Bottoni in madreperla. Vestibilità slim."
+    },
+    "nord_coat": {
+      "name": "Cappotto lungo in misto cachemire 'Nord'",
+      "description": "Affronta il freddo con sovrana eleganza. Questo cappotto lungo dal taglio dritto in misto cachemire ha un'isolamento leggero e una finitura spazzolata per una morbidezza squisita.",
+      "details": "Misto cachemire e lana. Taglio dritto. Isolamento leggero, finitura spazzolata."
+    },
+    "elegance_dress": {
+      "name": "Abito lungo in seta 'Élégance'",
+      "description": "Un pezzo forte di ogni guardaroba. Questo abito lungo in pura seta presenta un taglio fluido e una stampa esclusiva, progettato per fluttuare con grazia ad ogni movimento.",
+      "details": "100% seta. Taglio fluido. Stampa esclusiva. Lavaggio a secco."
+    },
+    "madame_suit": {
+      "name": "Tailleur con gonna in lana 'Madame'",
+      "description": "Incarna potere e femminilità. Questo tailleur è composto da una giacca sciancrata e una gonna a tubino, tagliati in una lana fine per una silhouette impeccabile da mattina a sera.",
+      "details": "Lana fine. Giacca sciancrata e gonna a tubino. Interamente foderato."
+    },
+    "rosee_blouse": {
+      "name": "Blusa in pizzo francese 'Rosée'",
+      "description": "Puro romanticismo. Questa delicata blusa è realizzata in pizzo francese e adornata con dettagli ricamati a mano, per un tocco di preziosità ineguagliabile.",
+      "details": "Autentico pizzo francese. Dettagli ricamati a mano. Top in seta incluso."
+    },
+    "velours_coat": {
+      "name": "Cappotto in cachemire double-face 'Velours'",
+      "description": "Un bozzolo di morbidezza e lusso. Questo cappotto in cachemire double-face è incomparabilmente leggero e caldo, con una finitura bordata per un'eleganza discreta.",
+      "details": "100% cachemire double-face. Sfoderato per leggerezza. Finitura a mano."
+    },
+    "sculpt_dress": {
+      "name": "Abito midi in crêpe 'Sculpt'",
+      "description": "Un abito di un'eleganza senza tempo. Il suo taglio impero e il tessuto in crêpe pesante valorizzano la figura, mentre la zip invisibile assicura una finitura perfetta.",
+      "details": "Crêpe di alta qualità. Taglio impero. Lunghezza midi. Zip invisibile."
+    },
+    "forge_jeans": {
+      "name": "Jeans Selvedge grezzi 'Forge'",
+      "description": "Un jeans per intenditori. Realizzato in denim selvedge giapponese da 14 once, è progettato per durare e invecchiare magnificamente nel tempo. Rivetti in rame.",
+      "details": "Denim selvedge giapponese da 14 once. Rivetti in rame. Grezzo, non lavato."
+    },
+    "ezential_bag": {
+      "name": "Borsa a spalla in pelle martellata 'Ézential'",
+      "description": "Il compagno ideale per tutti i giorni. Questa spaziosa borsa in pelle martellata è dotata di una fodera in microfibra e di molteplici tasche per un'organizzazione impeccabile.",
+      "details": "Pelle di vitello martellata. Fodera in microfibra. Tasca interna con cerniera e due tasche a toppa."
+    },
+    "eclipse_heels": {
+      "name": "Décolleté in vernice con tacco 9 cm 'Éclipse'",
+      "description": "Una silhouette slanciata e uno stile deciso. Queste décolleté in vernice nera presentano un tacco di 9 cm perfettamente bilanciato per un comfort sorprendente.",
+      "details": "Pelle di vitello verniciata. Tacco 9 cm. Fodera e soletta in pelle."
     }
   }
 }

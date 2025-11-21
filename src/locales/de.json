@@ -201,14 +201,64 @@
   },
   "products": {
     "monarque_blazer": {
-      "name": "Veste croisée en laine vierge \"Monarque\"",
-      "description": "Une veste croisée d'une élégance rare, taillée dans une somptueuse laine vierge italienne de 560g. Sa coupe slim et sa doublure en soie offrent une silhouette impeccable et un confort absolu.",
-      "details": "Laine vierge italienne 560g, doublure en soie. Coupe slim. Nettoyage à sec uniquement."
+      "name": "Zweireihiger Blazer aus Schurwolle 'Monarque'",
+      "description": "Ein zweireihiger Blazer von seltener Eleganz, gefertigt aus einem prächtigen 560g schweren italienischen Schurwollstoff. Sein schmaler Schnitt und das Seidenfutter sorgen für eine makellose Silhouette und absoluten Komfort.",
+      "details": "560g italienische Schurwolle, Seidenfutter. Schmale Passform. Nur chemische Reinigung."
     },
     "aquila_suit": {
-      "name": "Costume 3 pièces en cachemire \"Aquila\"",
-      "description": "L'incarnation du luxe. Ce costume trois pièces est réalisé dans un tissu 100% cachemire mélangé, avec des coutures entièrement finies à la main pour une finition haute couture.",
-      "details": "Tissu 100% cachemire mélangé. Veste, gilet et pantalon inclus. Coutures faites à la main."
+      "name": "3-teiliger Kaschmir-Anzug 'Aquila'",
+      "description": "Die Verkörperung von Luxus. Dieser dreiteilige Anzug ist aus einem 100% Kaschmir-Mischgewebe gefertigt, mit vollständig handgefertigten Nähten für ein Haute-Couture-Finish.",
+      "details": "100% Kaschmir-Mischgewebe. Jacke, Weste und Hose inklusive. Handgenähte Nähte."
+    },
+    "pur_shirt": {
+      "name": "Oxford-Hemd aus ägyptischer Baumwolle 'Pur'",
+      "description": "Das Wesentliche der Herrengarderobe, neu erfunden. Dieses Hemd aus unvergleichlich weicher ägyptischer Baumwolle wird durch einen Mailänder Kragen und echte Perlmuttknöpfe veredelt.",
+      "details": "100% ägyptische Baumwolle. Mailänder Kragen. Perlmuttknöpfe. Schmale Passform."
+    },
+    "nord_coat": {
+      "name": "Langer Mantel aus Kaschmir-Mischgewebe 'Nord'",
+      "description": "Stellen Sie sich der Kälte mit souveräner Eleganz. Dieser lange, gerade geschnittene Mantel aus Kaschmir-Mischgewebe hat eine leichte Isolierung und eine gebürstete Oberfläche für exquisite Weichheit.",
+      "details": "Kaschmir-Woll-Mischung. Gerader Schnitt. Leichte Isolierung, gebürstete Oberfläche."
+    },
+    "elegance_dress": {
+      "name": "Langes Seidenkleid 'Élégance'",
+      "description": "Ein Herzstück jeder Garderobe. Dieses lange Kleid aus reiner Seide hat einen fließenden Schnitt und einen exklusiven Druck, der bei jeder Bewegung anmutig schwebt.",
+      "details": "100% Seide. Fließender Schnitt. Exklusiver Druck. Chemische Reinigung."
+    },
+    "madame_suit": {
+      "name": "Wollkostüm mit Rock 'Madame'",
+      "description": "Verkörpern Sie Kraft und Weiblichkeit. Dieses Kostüm besteht aus einer taillierten Jacke und einem Bleistiftrock, die aus feiner Wolle für eine makellose Silhouette von morgens bis abends geschnitten sind.",
+      "details": "Feine Wolle. Taillierte Jacke und Bleistiftrock. Vollständig gefüttert."
+    },
+    "rosee_blouse": {
+      "name": "Bluse aus französischer Spitze 'Rosée'",
+      "description": "Romantik in ihrer reinsten Form. Diese zarte Bluse ist aus französischer Spitze gefertigt und mit handgestickten Details verziert, für einen Hauch von unvergleichlicher Kostbarkeit.",
+      "details": "Authentische französische Spitze. Handgestickte Details. Inklusive Seidentop."
+    },
+    "velours_coat": {
+      "name": "Doppelseitiger Kaschmirmantel 'Velours'",
+      "description": "Ein Kokon aus Weichheit und Luxus. Dieser doppelseitige Kaschmirmantel ist unvergleichlich leicht und warm, mit einer paspelierten Verarbeitung für eine dezente Eleganz.",
+      "details": "100% doppelseitiger Kaschmir. Ungefüttert für mehr Leichtigkeit. Handgefertigt."
+    },
+    "sculpt_dress": {
+      "name": "Midi-Kleid aus Crêpe 'Sculpt'",
+      "description": "Ein Kleid von zeitloser Eleganz. Sein Empire-Schnitt und der schwere Crêpe-Stoff schmeicheln der Figur, während der unsichtbare Reißverschluss für ein perfektes Finish sorgt.",
+      "details": "Hochwertiger Crêpe. Empire-Schnitt. Midi-Länge. Unsichtbarer Reißverschluss."
+    },
+    "forge_jeans": {
+      "name": "Raw Selvedge Jeans 'Forge'",
+      "description": "Eine Jeans für Kenner. Hergestellt aus 14 oz japanischem Selvedge-Denim, ist sie für die Ewigkeit gemacht und entwickelt mit der Zeit eine wunderschöne Patina. Kupfernieten.",
+      "details": "14 oz japanischer Selvedge-Denim. Kupfernieten. Raw, ungewaschen."
+    },
+    "ezential_bag": {
+      "name": "Schultertasche aus genarbtem Leder 'Ézential'",
+      "description": "Der ideale Begleiter für jeden Tag. Diese geräumige Tasche aus genarbtem Leder verfügt über ein Mikrofaserfutter und mehrere Taschen für eine einwandfreie Organisation.",
+      "details": "Genarbtes Kalbsleder. Mikrofaserfutter. Innentasche mit Reißverschluss und zwei aufgesetzte Taschen."
+    },
+    "eclipse_heels": {
+      "name": "Pumps aus Lackleder mit 9 cm Absatz 'Éclipse'",
+      "description": "Eine schlanke Silhouette und ein selbstbewusster Stil. Diese Pumps aus schwarzem Lackleder haben einen perfekt ausbalancierten 9-cm-Absatz für überraschenden Komfort.",
+      "details": "Lackiertes Kalbsleder. 9 cm Absatz. Futter und Innensohle aus Leder."
     }
   }
 }

@@ -15,18 +15,28 @@ export default function Home() {
   const { t } = useTranslation();
   const trendingProducts = products.filter(p => p.isTrending).slice(0, 4);
   const newProducts = products.slice(4, 8); // Example for new arrivals
+  
+  const brandLogos = [
+    { name: "Versace", path: "/versace.svg" },
+    { name: "Gucci", path: "/gucci.svg" },
+    { name: "Prada", path: "/prada.svg" },
+    { name: "Dior", path: "/dior.svg" },
+    { name: "Chanel", path: "/chanel.svg" },
+    { name: "Balenciaga", path: "/balenciaga.svg" },
+    { name: "Louis Vuitton", path: "/louis-vuitton.svg" },
+  ];
 
   return (
     <div className="flex flex-col">
       {/* Hero Section */}
       <section className="relative w-full h-[70vh] md:h-[90vh] bg-black">
         <Image
-          src="https://picsum.photos/seed/hero-new/1800/1200"
+          src="https://images.unsplash.com/photo-1594385233933-25cb35ea6f3f?q=80&w=1974&auto=format&fit=crop"
           alt={t('hero.alt')}
           fill
           style={{ objectFit: 'cover' }}
           className="opacity-50"
-          data-ai-hint="fashion model"
+          data-ai-hint="fashion models couple"
           priority
         />
         <div className="relative z-10 flex flex-col items-center justify-center h-full text-center text-white px-4">
@@ -42,8 +52,29 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Brand Logos Section */}
+      <div className="bg-card py-8 md:py-12">
+        <div className="container">
+          <div className="relative overflow-hidden">
+            <div className="flex animate-marquee-infinite">
+              {[...brandLogos, ...brandLogos].map((logo, index) => (
+                <div key={index} className="flex-shrink-0 mx-8" style={{ width: '150px' }}>
+                  <Image
+                    src={logo.path}
+                    alt={logo.name}
+                    width={150}
+                    height={40}
+                    className="object-contain"
+                  />
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
+      
       {/* Brand Philosophy Section */}
-      <section className="py-16 md:py-24 bg-card">
+      <section className="py-16 md:py-24 bg-background">
         <div className="container">
           <div className="grid md:grid-cols-3 gap-12 text-center">
             <div className="flex flex-col items-center">
@@ -66,7 +97,7 @@ export default function Home() {
       </section>
 
       {/* Trending Products Section */}
-      <section className="py-16 md:py-24 bg-background">
+      <section className="py-16 md:py-24 bg-card">
         <div className="container">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold font-headline">{t('home.trending_products')}</h2>
@@ -86,17 +117,17 @@ export default function Home() {
       </section>
 
        {/* Categories Section */}
-      <section className="bg-card">
+      <section className="bg-background">
         <div className="container-fluid">
             <div className="grid grid-cols-1 md:grid-cols-2">
                 <Link href="/women" className="relative group h-96 md:h-[600px] overflow-hidden">
-                    <Image src="https://picsum.photos/seed/cat-women/800/1200" alt={t('categories.women')} fill style={{objectFit:"cover"}} className="transition-transform duration-500 group-hover:scale-105" data-ai-hint="stylish woman"/>
+                    <Image src="https://images.unsplash.com/photo-1525541622-628213890526?q=80&w=1974&auto=format&fit=crop" alt={t('categories.women')} fill style={{objectFit:"cover"}} className="transition-transform duration-500 group-hover:scale-105" data-ai-hint="stylish woman"/>
                     <div className="absolute inset-0 bg-black/40 flex items-center justify-center transition-all duration-300 group-hover:bg-black/50">
                         <h3 className="text-4xl text-white drop-shadow-lg font-headline">{t('categories.women')}</h3>
                     </div>
                 </Link>
                 <Link href="/men" className="relative group h-96 md:h-[600px] overflow-hidden">
-                    <Image src="https://picsum.photos/seed/cat-men/800/1200" alt={t('categories.men')} fill style={{objectFit:"cover"}} className="transition-transform duration-500 group-hover:scale-105" data-ai-hint="stylish man"/>
+                    <Image src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=1974&auto=format&fit=crop" alt={t('categories.men')} fill style={{objectFit:"cover"}} className="transition-transform duration-500 group-hover:scale-105" data-ai-hint="stylish man"/>
                     <div className="absolute inset-0 bg-black/40 flex items-center justify-center transition-all duration-300 group-hover:bg-black/50">
                         <h3 className="text-4xl text-white drop-shadow-lg font-headline">{t('categories.men')}</h3>
                     </div>
@@ -106,7 +137,7 @@ export default function Home() {
       </section>
       
       {/* New Arrivals Section */}
-      <section className="py-16 md:py-24 bg-background">
+      <section className="py-16 md:py-24 bg-card">
         <div className="container">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold font-headline">{t('home.new_arrivals')}</h2>
@@ -121,7 +152,7 @@ export default function Home() {
       </section>
 
       {/* Testimonials Section */}
-      <section className="py-16 md:py-24 bg-card">
+      <section className="py-16 md:py-24 bg-background">
         <div className="container">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold font-headline">{t('home.testimonials')}</h2>
@@ -129,7 +160,7 @@ export default function Home() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {testimonials.map((testimonial) => (
-              <Card key={testimonial.id} className="bg-background shadow-lg border-none">
+              <Card key={testimonial.id} className="bg-card shadow-lg border-none">
                 <CardContent className="p-8 flex flex-col items-center text-center">
                   <Avatar className="w-20 h-20 mb-6 border-2 border-primary">
                     <AvatarImage src={testimonial.avatar} alt={t(testimonial.name)} />

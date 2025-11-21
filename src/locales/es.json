@@ -201,14 +201,64 @@
   },
   "products": {
     "monarque_blazer": {
-      "name": "Blazer cruzado de lana virgen \"Monarque\"",
+      "name": "Blazer cruzado de lana virgen 'Monarque'",
       "description": "Un blazer cruzado de rara elegancia, confeccionado en una suntuosa lana virgen italiana de 560 g. Su corte entallado y forro de seda ofrecen una silueta impecable y una comodidad absoluta.",
       "details": "Lana virgen italiana de 560 g, forro de seda. Corte entallado. Limpieza en seco únicamente."
     },
     "aquila_suit": {
-      "name": "Traje de 3 piezas de cachemira \"Aquila\"",
+      "name": "Traje de 3 piezas de cachemira 'Aquila'",
       "description": "La encarnación del lujo. Este traje de tres piezas está confeccionado en un tejido de mezcla de cachemira 100%, con costuras totalmente acabadas a mano para un acabado de alta costura.",
       "details": "Tejido de mezcla de cachemira 100%. Chaqueta, chaleco y pantalón incluidos. Costuras cosidas a mano."
+    },
+    "pur_shirt": {
+      "name": "Camisa Oxford de algodón egipcio 'Pur'",
+      "description": "El básico del armario masculino, reinventado. Esta camisa de algodón egipcio incomparablemente suave se realza con un cuello milanés y botones de nácar auténtico.",
+      "details": "100% algodón egipcio. Cuello milanés. Botones de nácar. Corte entallado."
+    },
+    "nord_coat": {
+      "name": "Abrigo largo de mezcla de cachemira 'Nord'",
+      "description": "Enfréntate al frío con elegancia soberana. Este abrigo largo de corte recto en mezcla de cachemira tiene un ligero aislamiento y un acabado cepillado para una suavidad exquisita.",
+      "details": "Mezcla de cachemira y lana. Corte recto. Aislamiento ligero, acabado cepillado."
+    },
+    "elegance_dress": {
+      "name": "Vestido largo de seda 'Élégance'",
+      "description": "Una pieza central de cualquier armario. Este vestido largo de seda pura presenta un corte fluido y un estampado exclusivo, diseñado para flotar con gracia con cada movimiento.",
+      "details": "100% seda. Corte fluido. Estampado exclusivo. Limpieza en seco."
+    },
+    "madame_suit": {
+      "name": "Traje de falda de lana 'Madame'",
+      "description": "Encarna el poder y la feminidad. Este traje se compone de una chaqueta entallada y una falda lápiz, cortadas en una fina lana para una silueta impecable de la mañana a la noche.",
+      "details": "Lana fina. Chaqueta entallada y falda lápiz. Totalmente forrado."
+    },
+    "rosee_blouse": {
+      "name": "Blusa de encaje francés 'Rosée'",
+      "description": "Puro romanticismo. Esta delicada blusa está confeccionada en encaje francés y adornada con detalles bordados a mano, para un toque de preciosidad inigualable.",
+      "details": "Encaje francés auténtico. Detalles bordados a mano. Top de seda incluido."
+    },
+    "velours_coat": {
+      "name": "Abrigo de cachemira de doble faz 'Velours'",
+      "description": "Un capullo de suavidad y lujo. Este abrigo de cachemira de doble faz es incomparablemente ligero y cálido, con un acabado ribeteado para una elegancia discreta.",
+      "details": "100% cachemira de doble faz. Sin forro para mayor ligereza. Acabado a mano."
+    },
+    "sculpt_dress": {
+      "name": "Vestido midi de crepé 'Sculpt'",
+      "description": "Un vestido de elegancia atemporal. Su corte imperio y su tejido de crepé pesado favorecen la figura, mientras que su cremallera invisible garantiza un acabado perfecto.",
+      "details": "Crepé de alta calidad. Corte imperio. Largo midi. Cremallera invisible."
+    },
+    "forge_jeans": {
+      "name": "Vaqueros Selvedge crudos 'Forge'",
+      "description": "Un vaquero para entendidos. Confeccionado con denim selvedge japonés de 14 oz, está diseñado para durar y envejecer maravillosamente con el tiempo. Remaches de cobre.",
+      "details": "Denim selvedge japonés de 14 oz. Remaches de cobre. Crudo, sin lavar."
+    },
+    "ezential_bag": {
+      "name": "Bolso de hombro de cuero granulado 'Ézential'",
+      "description": "El compañero ideal para el día a día. Este espacioso bolso de cuero granulado cuenta con un forro de microfibra y múltiples bolsillos para una organización impecable.",
+      "details": "Piel de becerro granulada. Forro de microfibra. Bolsillo interior con cremallera y dos bolsillos de parche."
+    },
+    "eclipse_heels": {
+      "name": "Zapatos de salón de charol con tacón de 9 cm 'Éclipse'",
+      "description": "Una silueta esbelta y un estilo decidido. Estos zapatos de salón de charol negro cuentan con un tacón de 9 cm perfectamente equilibrado para una comodidad sorprendente.",
+      "details": "Piel de becerro barnizada. Tacón de 9 cm. Forro y plantilla de cuero."
     }
   }
 }

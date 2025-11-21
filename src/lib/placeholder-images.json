@@ -2,9 +2,9 @@
   "placeholderImages": [
     {
       "id": "m-1",
-      "name": "Veste croisée en laine vierge \"Monarque\"",
+      "name": "products.monarque_blazer.name",
       "slug": "veste-croisee-laine-vierge-monarque",
-      "description": "Une veste croisée d'une élégance rare, taillée dans une somptueuse laine vierge italienne de 560g. Sa coupe slim et sa doublure en soie offrent une silhouette impeccable et un confort absolu.",
+      "description": "products.monarque_blazer.description",
       "price": 1250,
       "imageUrl": "https://images.unsplash.com/photo-1623944720662-b50d5369bf47?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtZW4lMjB3b29sJTIwYmxhemVyfGVufDB8fHx8MTc2MzcyODkyM3ww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "men wool blazer",
@@ -13,7 +13,7 @@
       "category": "clothing",
       "gender": "men",
       "isTrending": true,
-      "details": "Laine vierge italienne 560g, doublure en soie. Coupe slim. Nettoyage à sec uniquement.",
+      "details": "products.monarque_blazer.details",
       "options": {
         "sizes": [
           "46",
@@ -31,9 +31,9 @@
     },
     {
       "id": "m-2",
-      "name": "Costume 3 pièces en cachemire \"Aquila\"",
+      "name": "products.aquila_suit.name",
       "slug": "costume-3-pieces-cachemire-aquila",
-      "description": "L'incarnation du luxe. Ce costume trois pièces est réalisé dans un tissu 100% cachemire mélangé, avec des coutures entièrement finies à la main pour une finition haute couture.",
+      "description": "products.aquila_suit.description",
       "price": 2900,
       "imageUrl": "https://images.unsplash.com/photo-1658150044898-75fe6da875f9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxtZW4lMjBjYXNobWVyZSUyMHN1aXR8ZW58MHx8fHwxNzYzNzI5MzQ0fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "men cashmere suit",
@@ -42,7 +42,7 @@
       "category": "clothing",
       "gender": "men",
       "isTrending": false,
-      "details": "Tissu 100% cachemire mélangé. Veste, gilet et pantalon inclus. Coutures faites à la main.",
+      "details": "products.aquila_suit.details",
       "options": {
         "sizes": [
           "46",
@@ -55,9 +55,9 @@
     },
     {
       "id": "m-3",
-      "name": "Chemise oxford en coton égyptien \"Pur\"",
+      "name": "products.pur_shirt.name",
       "slug": "chemise-oxford-coton-egyptien-pur",
-      "description": "L'essentiel du vestiaire masculin, réinventé. Cette chemise en coton égyptien d'une douceur incomparable est rehaussée par un col milanais et des boutons en nacre véritable.",
+      "description": "products.pur_shirt.description",
       "price": 220,
       "imageUrl": "https://images.unsplash.com/photo-1626107130498-11fe0c449cf4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxtZW4lMjBveGZvcmQlMjBzaGlydHxlbnwwfHx8fDE3NjM3MjkzNDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "men oxford shirt",
@@ -66,7 +66,7 @@
       "category": "clothing",
       "gender": "men",
       "isTrending": true,
-      "details": "100% coton égyptien. Col milanais. Boutons en nacre. Coupe ajustée.",
+      "details": "products.pur_shirt.details",
       "options": {
         "sizes": [
           "S",
@@ -83,9 +83,9 @@
     },
     {
       "id": "m-4",
-      "name": "Manteau long en cachemire mélangé \"Nord\"",
+      "name": "products.nord_coat.name",
       "slug": "manteau-long-cachemire-melange-nord",
-      "description": "Affrontez le froid avec une élégance souveraine. Ce manteau long à coupe droite, en cachemire mélangé, dispose d'une isolation légère et d'un fini brossé pour une douceur exquise.",
+      "description": "products.nord_coat.description",
       "price": 1800,
       "imageUrl": "https://images.unsplash.com/photo-1666348990135-b2bc0bb51d75?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxtZW4lMjBjYXNobWVyZSUyMGNvYXR8ZW58MHx8fHwxNzYzNzI5MzQ0fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "men cashmere coat",
@@ -94,7 +94,7 @@
       "category": "clothing",
       "gender": "men",
       "isTrending": true,
-      "details": "Mélange de cachemire et laine. Coupe droite. Isolation légère, fini brossé.",
+      "details": "products.nord_coat.details",
       "options": {
         "sizes": [
           "S",
@@ -111,9 +111,9 @@
     },
     {
       "id": "f-1",
-      "name": "Robe longue soie \"Élégance\"",
+      "name": "products.elegance_dress.name",
       "slug": "robe-longue-soie-elegance",
-      "description": "Une pièce maîtresse de toute garde-robe. Cette robe longue en pure soie présente une coupe fluide et un imprimé exclusif, conçue pour flotter gracieusement à chaque mouvement.",
+      "description": "products.elegance_dress.description",
       "price": 1100,
       "imageUrl": "https://images.unsplash.com/photo-1756483510882-55bc1249642d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx3b21lbiUyMHNpbGslMjBkcmVzc3xlbnwwfHx8fDE3NjM3MjkzNDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "women silk dress",
@@ -122,7 +122,7 @@
       "category": "clothing",
       "gender": "women",
       "isTrending": true,
-      "details": "100% soie. Coupe fluide. Imprimé exclusif. Nettoyage à sec.",
+      "details": "products.elegance_dress.details",
       "options": {
         "sizes": [
           "36",
@@ -139,9 +139,9 @@
     },
     {
       "id": "f-2",
-      "name": "Tailleur jupe en laine \"Madame\"",
+      "name": "products.madame_suit.name",
       "slug": "tailleur-jupe-en-laine-madame",
-      "description": "Incarnez le pouvoir et la féminité. Ce tailleur se compose d'une veste cintrée et d'une jupe crayon, coupées dans une laine fine pour une silhouette impeccable du matin au soir.",
+      "description": "products.madame_suit.description",
       "price": 1400,
       "imageUrl": "https://images.unsplash.com/photo-1689776948163-11fde47d6d4d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx3b21lbiUyMHdvb2wlMjBzdWl0fGVufDB8fHx8MTc2MzcyOTM0NHww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "women wool suit",
@@ -150,7 +150,7 @@
       "category": "clothing",
       "gender": "women",
       "isTrending": false,
-      "details": "Laine fine. Veste cintrée et jupe crayon. Entièrement doublé.",
+      "details": "products.madame_suit.details",
       "options": {
         "sizes": [
           "36",
@@ -162,9 +162,9 @@
     },
     {
       "id": "f-3",
-      "name": "Blouse en dentelle française \"Rosée\"",
+      "name": "products.rosee_blouse.name",
       "slug": "blouse-en-dentelle-francaise-rosee",
-      "description": "Le romantisme à l'état pur. Cette blouse délicate est confectionnée en dentelle française et ornée de détails brodés à la main, pour une touche de préciosité inégalée.",
+      "description": "products.rosee_blouse.description",
       "price": 280,
       "imageUrl": "https://images.unsplash.com/photo-1491575509428-5cc7d3e4076b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx3b21lbiUyMGxhY2UlMjBibG91c2V8ZW58MHx8fHwxNzYzNzI5MzQ1fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "women lace blouse",
@@ -173,7 +173,7 @@
       "category": "clothing",
       "gender": "women",
       "isTrending": true,
-      "details": "Dentelle française authentique. Détails brodés à la main. Top en soie inclus.",
+      "details": "products.rosee_blouse.details",
       "options": {
         "sizes": [
           "XS",
@@ -185,9 +185,9 @@
     },
     {
       "id": "f-4",
-      "name": "Manteau en cachemire double face \"Velours\"",
+      "name": "products.velours_coat.name",
       "slug": "manteau-en-cachemire-double-face-velours",
-      "description": "Un cocon de douceur et de luxe. Ce manteau en cachemire double face est d'une légèreté et d'une chaleur incomparables, avec une finition bordée pour une élégance discrète.",
+      "description": "products.velours_coat.description",
       "price": 2200,
       "imageUrl": "https://images.unsplash.com/photo-1739620620741-f7b23ede3149?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx3b21lbiUyMGNhc2htZXJlJTIwY29hdHxlbnwwfHx8fDE3NjM3MjkzNDV8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "women cashmere coat",
@@ -196,7 +196,7 @@
       "category": "clothing",
       "gender": "women",
       "isTrending": true,
-      "details": "100% cachemire double face. Non doublé pour plus de légèreté. Finition main.",
+      "details": "products.velours_coat.details",
       "options": {
         "sizes": [
           "S",
@@ -212,9 +212,9 @@
     },
     {
       "id": "f-8",
-      "name": "Robe midi en crêpe \"Sculpt\"",
+      "name": "products.sculpt_dress.name",
       "slug": "robe-midi-en-crepe-sculpt",
-      "description": "Une robe d'une élégance intemporelle. Sa coupe empire et son tissu en crêpe lourd flattent la silhouette, tandis que son zip invisible assure une finition parfaite.",
+      "description": "products.sculpt_dress.description",
       "price": 420,
       "imageUrl": "https://images.unsplash.com/photo-1704775989614-8435994e4e97?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHx3b21lbiUyMG1pZGklMjBkcmVzc3xlbnwwfHx8fDE3NjM3MjkzNDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "women midi dress",
@@ -223,7 +223,7 @@
       "category": "clothing",
       "gender": "women",
       "isTrending": true,
-      "details": "Crêpe de haute qualité. Coupe empire. Longueur midi. Zip invisible.",
+      "details": "products.sculpt_dress.details",
       "options": {
         "sizes": [
           "36",
@@ -240,9 +240,9 @@
     },
     {
       "id": "m-8",
-      "name": "Jeans brut selvedge \"Forge\"",
+      "name": "products.forge_jeans.name",
       "slug": "jeans-brut-selvedge-forge",
-      "description": "Un jean pour les connaisseurs. Fabriqué à partir d'un denim japonais selvedge de 14 oz, il est conçu pour durer et se patiner magnifiquement avec le temps. Rivets en cuivre.",
+      "description": "products.forge_jeans.description",
       "price": 260,
       "imageUrl": "https://picsum.photos/seed/m-8/800/1200",
       "imageHint": "men selvedge denim",
@@ -251,7 +251,7 @@
       "category": "clothing",
       "gender": "men",
       "isTrending": true,
-      "details": "Denim japonais selvedge 14 oz. Rivets en cuivre. Brut, non lavé.",
+      "details": "products.forge_jeans.details",
       "options": {
         "sizes": [
           "28",
@@ -264,9 +264,9 @@
     },
     {
       "id": "a-1",
-      "name": "Sac porté épaule cuir grainé \"Ézential\"",
+      "name": "products.ezential_bag.name",
       "slug": "sac-porte-epaule-cuir-graine-ezential",
-      "description": "Le compagnon idéal au quotidien. Ce sac en cuir grainé spacieux est doté d'une doublure en microfibre et de multiples poches pour une organisation sans faille.",
+      "description": "products.ezential_bag.description",
       "price": 1450,
       "imageUrl": "https://images.unsplash.com/photo-1760624294514-ca40aafe3d96?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxsZWF0aGVyJTIwc2hvdWxkZXIlMjBiYWd8ZW58MHx8fHwxNzYzNzI5MzQ0fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "leather shoulder bag",
@@ -275,7 +275,7 @@
       "category": "accessories",
       "gender": "unisex",
       "isTrending": true,
-      "details": "Cuir de veau grainé. Doublure microfibre. Poche intérieure zippée et deux poches plaquées.",
+      "details": "products.ezential_bag.details",
       "options": {
         "colors": [
           "#000000",
@@ -286,9 +286,9 @@
     },
     {
       "id": "s-f-1",
-      "name": "Escarpins cuir verni talon 9 cm \"Éclipse\"",
+      "name": "products.eclipse_heels.name",
       "slug": "escarpins-cuir-verni-talon-9-cm-eclipse",
-      "description": "Une silhouette élancée et un style affirmé. Ces escarpins en cuir verni noir sont dotés d'un talon de 9 cm parfaitement équilibré pour un confort surprenant.",
+      "description": "products.eclipse_heels.description",
       "price": 420,
       "imageUrl": "https://images.unsplash.com/photo-1710072373568-f1de200bcb69?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3b21lbiUyMGhpZ2glMjBoZWVsc3xlbnwwfHx8fDE3NjM3MjkzNDV8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "women high heels",
@@ -297,7 +297,7 @@
       "category": "shoes",
       "gender": "women",
       "isTrending": true,
-      "details": "Cuir de veau verni. Talon 9 cm. Doublure et semelle intérieure en cuir.",
+      "details": "products.eclipse_heels.details",
       "options": {
         "sizes": [
           "37",

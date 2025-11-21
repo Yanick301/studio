@@ -201,14 +201,64 @@
   },
   "products": {
     "monarque_blazer": {
-      "name": "Virgin Wool Double-Breasted Blazer \"Monarque\"",
+      "name": "Virgin Wool Double-Breasted Blazer 'Monarque'",
       "description": "A double-breasted blazer of rare elegance, cut from a sumptuous 560g Italian virgin wool. Its slim fit and silk lining offer an impeccable silhouette and absolute comfort.",
-      "details": "Italian virgin wool 560g, silk lining. Slim fit. Dry clean only."
+      "details": "560g Italian virgin wool, silk lining. Slim fit. Dry clean only."
     },
     "aquila_suit": {
-      "name": "3-Piece Cashmere Suit \"Aquila\"",
+      "name": "3-Piece Cashmere Suit 'Aquila'",
       "description": "The epitome of luxury. This three-piece suit is crafted from a 100% blended cashmere fabric, with seams entirely hand-finished for a couture finish.",
       "details": "100% blended cashmere fabric. Jacket, vest, and trousers included. Hand-stitched seams."
+    },
+    "pur_shirt": {
+      "name": "Egyptian Cotton Oxford Shirt 'Pur'",
+      "description": "The essential of the men's wardrobe, reinvented. This shirt in incomparably soft Egyptian cotton is enhanced by a Milanese collar and genuine mother-of-pearl buttons.",
+      "details": "100% Egyptian cotton. Milanese collar. Mother-of-pearl buttons. Slim fit."
+    },
+    "nord_coat": {
+      "name": "Long Cashmere Blend Coat 'Nord'",
+      "description": "Face the cold with sovereign elegance. This long, straight-cut coat in a cashmere blend has light insulation and a brushed finish for exquisite softness.",
+      "details": "Cashmere and wool blend. Straight cut. Light insulation, brushed finish."
+    },
+    "elegance_dress": {
+      "name": "Long Silk Dress 'Élégance'",
+      "description": "A centerpiece of any wardrobe. This long dress in pure silk features a fluid cut and an exclusive print, designed to float gracefully with every movement.",
+      "details": "100% silk. Fluid cut. Exclusive print. Dry clean."
+    },
+    "madame_suit": {
+      "name": "Wool Skirt Suit 'Madame'",
+      "description": "Embody power and femininity. This suit consists of a fitted jacket and a pencil skirt, cut from a fine wool for an impeccable silhouette from morning to night.",
+      "details": "Fine wool. Fitted jacket and pencil skirt. Fully lined."
+    },
+    "rosee_blouse": {
+      "name": "French Lace Blouse 'Rosée'",
+      "description": "Pure romance. This delicate blouse is made of French lace and adorned with hand-embroidered details, for a touch of unparalleled preciousness.",
+      "details": "Authentic French lace. Hand-embroidered details. Silk top included."
+    },
+    "velours_coat": {
+      "name": "Double-Faced Cashmere Coat 'Velours'",
+      "description": "A cocoon of softness and luxury. This double-faced cashmere coat is incomparably light and warm, with a piped finish for discreet elegance.",
+      "details": "100% double-faced cashmere. Unlined for lightness. Hand-finished."
+    },
+    "sculpt_dress": {
+      "name": "Crêpe Midi Dress 'Sculpt'",
+      "description": "A dress of timeless elegance. Its empire cut and heavy crêpe fabric flatter the figure, while its invisible zip ensures a perfect finish.",
+      "details": "High-quality crêpe. Empire cut. Midi length. Invisible zip."
+    },
+    "forge_jeans": {
+      "name": "Raw Selvedge Jeans 'Forge'",
+      "description": "A jean for connoisseurs. Made from 14oz Japanese selvedge denim, it's designed to last and patina beautifully over time. Copper rivets.",
+      "details": "14oz Japanese selvedge denim. Copper rivets. Raw, unwashed."
+    },
+    "ezential_bag": {
+      "name": "Grained Leather Shoulder Bag 'Ézential'",
+      "description": "The ideal everyday companion. This spacious grained leather bag features a microfiber lining and multiple pockets for flawless organization.",
+      "details": "Grained calfskin leather. Microfiber lining. Interior zippered pocket and two patch pockets."
+    },
+    "eclipse_heels": {
+      "name": "Patent Leather Pumps 9cm Heel 'Éclipse'",
+      "description": "A slender silhouette and an assertive style. These black patent leather pumps feature a perfectly balanced 9 cm heel for surprising comfort.",
+      "details": "Patent calfskin leather. 9 cm heel. Leather lining and insole."
     }
   }
 }

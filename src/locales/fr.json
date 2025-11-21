@@ -201,14 +201,64 @@
   },
   "products": {
     "monarque_blazer": {
-      "name": "Veste croisée en laine vierge \"Monarque\"",
+      "name": "Veste croisée en laine vierge 'Monarque'",
       "description": "Une veste croisée d'une élégance rare, taillée dans une somptueuse laine vierge italienne de 560g. Sa coupe slim et sa doublure en soie offrent une silhouette impeccable et un confort absolu.",
       "details": "Laine vierge italienne 560g, doublure en soie. Coupe slim. Nettoyage à sec uniquement."
     },
     "aquila_suit": {
-      "name": "Costume 3 pièces en cachemire \"Aquila\"",
+      "name": "Costume 3 pièces en cachemire 'Aquila'",
       "description": "L'incarnation du luxe. Ce costume trois pièces est réalisé dans un tissu 100% cachemire mélangé, avec des coutures entièrement finies à la main pour une finition haute couture.",
       "details": "Tissu 100% cachemire mélangé. Veste, gilet et pantalon inclus. Coutures faites à la main."
+    },
+    "pur_shirt": {
+      "name": "Chemise oxford en coton égyptien 'Pur'",
+      "description": "L'essentiel du vestiaire masculin, réinventé. Cette chemise en coton égyptien d'une douceur incomparable est rehaussée par un col milanais et des boutons en nacre véritable.",
+      "details": "100% coton égyptien. Col milanais. Boutons en nacre. Coupe ajustée."
+    },
+    "nord_coat": {
+      "name": "Manteau long en cachemire mélangé 'Nord'",
+      "description": "Affrontez le froid avec une élégance souveraine. Ce manteau long à coupe droite, en cachemire mélangé, dispose d'une isolation légère et d'un fini brossé pour une douceur exquise.",
+      "details": "Mélange de cachemire et laine. Coupe droite. Isolation légère, fini brossé."
+    },
+    "elegance_dress": {
+      "name": "Robe longue soie 'Élégance'",
+      "description": "Une pièce maîtresse de toute garde-robe. Cette robe longue en pure soie présente une coupe fluide et un imprimé exclusif, conçue pour flotter gracieusement à chaque mouvement.",
+      "details": "100% soie. Coupe fluide. Imprimé exclusif. Nettoyage à sec."
+    },
+    "madame_suit": {
+      "name": "Tailleur jupe en laine 'Madame'",
+      "description": "Incarnez le pouvoir et la féminité. Ce tailleur se compose d'une veste cintrée et d'une jupe crayon, coupées dans une laine fine pour une silhouette impeccable du matin au soir.",
+      "details": "Laine fine. Veste cintrée et jupe crayon. Entièrement doublé."
+    },
+    "rosee_blouse": {
+      "name": "Blouse en dentelle française 'Rosée'",
+      "description": "Le romantisme à l'état pur. Cette blouse délicate est confectionnée en dentelle française et ornée de détails brodés à la main, pour une touche de préciosité inégalée.",
+      "details": "Dentelle française authentique. Détails brodés à la main. Top en soie inclus."
+    },
+    "velours_coat": {
+      "name": "Manteau en cachemire double face 'Velours'",
+      "description": "Un cocon de douceur et de luxe. Ce manteau en cachemire double face est d'une légèreté et d'une chaleur incomparables, avec une finition bordée pour une élégance discrète.",
+      "details": "100% cachemire double face. Non doublé pour plus de légèreté. Finition main."
+    },
+    "sculpt_dress": {
+      "name": "Robe midi en crêpe 'Sculpt'",
+      "description": "Une robe d'une élégance intemporelle. Sa coupe empire et son tissu en crêpe lourd flattent la silhouette, tandis que son zip invisible assure une finition parfaite.",
+      "details": "Crêpe de haute qualité. Coupe empire. Longueur midi. Zip invisible."
+    },
+    "forge_jeans": {
+      "name": "Jeans brut selvedge 'Forge'",
+      "description": "Un jean pour les connaisseurs. Fabriqué à partir d'un denim japonais selvedge de 14 oz, il est conçu pour durer et se patiner magnifiquement avec le temps. Rivets en cuivre.",
+      "details": "Denim japonais selvedge 14 oz. Rivets en cuivre. Brut, non lavé."
+    },
+    "ezential_bag": {
+      "name": "Sac porté épaule cuir grainé 'Ézential'",
+      "description": "Le compagnon idéal au quotidien. Ce sac en cuir grainé spacieux est doté d'une doublure en microfibre et de multiples poches pour une organisation sans faille.",
+      "details": "Cuir de veau grainé. Doublure microfibre. Poche intérieure zippée et deux poches plaquées."
+    },
+    "eclipse_heels": {
+      "name": "Escarpins cuir verni talon 9 cm 'Éclipse'",
+      "description": "Une silhouette élancée et un style affirmé. Ces escarpins en cuir verni noir sont dotés d'un talon de 9 cm parfaitement équilibré pour un confort surprenant.",
+      "details": "Cuir de veau verni. Talon 9 cm. Doublure et semelle intérieure en cuir."
     }
   }
 }
