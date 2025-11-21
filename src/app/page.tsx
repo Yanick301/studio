@@ -16,14 +16,8 @@ export default function Home() {
   const trendingProducts = products.filter(p => p.isTrending).slice(0, 4);
   const newProducts = products.slice(4, 8); // Example for new arrivals
   
-  const brandLogos = [
-    { name: "Versace", path: "/versace.svg" },
-    { name: "Gucci", path: "/gucci.svg" },
-    { name: "Prada", path: "/prada.svg" },
-    { name: "Dior", path: "/dior.svg" },
-    { name: "Chanel", path: "/chanel.svg" },
-    { name: "Balenciaga", path: "/balenciaga.svg" },
-    { name: "Louis Vuitton", path: "/louis-vuitton.svg" },
+  const brandNames = [
+    "Versace", "Gucci", "Prada", "Dior", "Chanel", "Balenciaga", "Louis Vuitton"
   ];
 
   return (
@@ -52,20 +46,14 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Brand Logos Section */}
+      {/* Brand Names Section */}
       <div className="bg-card py-8 md:py-12">
         <div className="container">
-          <div className="relative overflow-hidden">
-            <div className="flex animate-marquee-infinite">
-              {[...brandLogos, ...brandLogos].map((logo, index) => (
-                <div key={index} className="flex-shrink-0 mx-8" style={{ width: '150px' }}>
-                  <Image
-                    src={logo.path}
-                    alt={logo.name}
-                    width={150}
-                    height={40}
-                    className="object-contain"
-                  />
+          <div className="relative overflow-hidden group">
+            <div className="flex animate-marquee-infinite group-hover:[animation-play-state:paused]">
+              {[...brandNames, ...brandNames].map((name, index) => (
+                <div key={index} className="flex-shrink-0 mx-8">
+                  <span className="text-2xl font-headline text-muted-foreground tracking-widest">{name}</span>
                 </div>
               ))}
             </div>
