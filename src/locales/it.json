@@ -112,7 +112,12 @@
     "description": "Controlla gli articoli nel tuo carrello prima di procedere al pagamento.",
     "empty_message": "Il tuo carrello è attualmente vuoto.",
     "continue_shopping": "Continua lo shopping",
-    "items_placeholder": "Elenco degli articoli del carrello qui..."
+    "items_placeholder": "Elenco degli articoli del carrello qui...",
+    "proceed_to_checkout": "Procedi al pagamento",
+    "login_prompt_title": "Ci siamo quasi!",
+    "login_prompt_desc_1": "Per favore",
+    "login_prompt_link": "accedi",
+    "login_prompt_desc_2": "o crea un account per procedere al pagamento."
   },
   "checkout_page": {
     "title": "Pagamento",
@@ -217,6 +222,35 @@
       "review_submitted_title": "Recensione inviata",
       "review_submitted_desc": "Grazie per aver condiviso la tua esperienza."
     }
+  },
+  "login_form": {
+    "title": "Accedi",
+    "description": "Inserisci la tua email qui sotto per accedere al tuo account.",
+    "error_title": "Errore di accesso",
+    "password": "Password",
+    "submit_button": "Accedi",
+    "forgot_password": "Hai dimenticato la password?",
+    "no_account": "Non hai un account?",
+    "signup_link": "Registrati",
+    "password_reset_error_title": "Errore di reimpostazione della password",
+    "password_reset_error_desc": "Inserisci un indirizzo email valido.",
+    "password_reset_success_title": "Email di reimpostazione della password inviata",
+    "password_reset_success_desc": "Controlla la tua casella di posta per ulteriori istruzioni."
+  },
+  "signup_form": {
+    "title": "Registrati",
+    "description": "Crea un account per godere di un'esperienza personalizzata.",
+    "error_title": "Errore di registrazione",
+    "full_name": "Nome e cognome",
+    "full_name_placeholder": "Nome Cognome",
+    "password": "Password",
+    "submit_button": "Crea account",
+    "already_have_account": "Hai già un account?",
+    "login_link": "Accedi",
+    "success_title": "Account creato con successo",
+    "success_description": "È stata inviata un'email di verifica. Controlla la tua casella di posta.",
+    "error_email_in_use": "Questo indirizzo email è già in uso.",
+    "error_generic": "Si è verificato un errore durante la creazione dell'account."
   },
   "user_nav": {
     "my_account": "Il mio account",

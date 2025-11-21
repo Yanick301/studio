@@ -23,6 +23,7 @@ import { Loader2 } from 'lucide-react';
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 import { useUser } from '@/firebase';
 import { useTranslation } from '@/hooks/use-translation';
+import { sendPasswordResetEmail } from 'firebase/auth';
 
 const loginSchema = z.object({
   email: z.string().email({ message: "Adresse e-mail invalide." }),
@@ -44,6 +45,7 @@ export function LoginForm() {
     register,
     handleSubmit,
     formState: { errors },
+    getValues,
   } = useForm<LoginFormValues>({
     resolver: zodResolver(loginSchema),
   });
@@ -54,6 +56,32 @@ export function LoginForm() {
     initiateEmailSignIn(auth, data.email, data.password);
   };
   
+  const handlePasswordReset = async () => {
+    const email = getValues("email");
+    if (!email) {
+      toast({
+        variant: "destructive",
+        title: t('login_form.password_reset_error_title'),
+        description: t('login_form.password_reset_error_desc'),
+      });
+      return;
+    }
+    try {
+      await sendPasswordResetEmail(auth, email);
+      toast({
+        title: t('login_form.password_reset_success_title'),
+        description: t('login_form.password_reset_success_desc'),
+      });
+    } catch (error: any) {
+      console.error("Password reset error:", error);
+      toast({
+        variant: "destructive",
+        title: t('login_form.password_reset_error_title'),
+        description: error.message,
+      });
+    }
+  };
+
   if (user && !isUserLoading) {
     router.push('/account/profile');
   }
@@ -91,9 +119,9 @@ export function LoginForm() {
             {t('login_form.submit_button')}
           </Button>
           <div className="text-sm w-full text-center">
-            <Link href="#" className="underline text-sm text-muted-foreground hover:text-foreground">
+            <button type="button" onClick={handlePasswordReset} className="underline text-sm text-muted-foreground hover:text-foreground">
               {t('login_form.forgot_password')}
-            </Link>
+            </button>
           </div>
           <div className="mt-2 text-center text-sm w-full">
             {t('login_form.no_account')}{" "}

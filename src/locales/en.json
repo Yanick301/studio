@@ -112,7 +112,12 @@
     "description": "Review the items in your cart before proceeding to checkout.",
     "empty_message": "Your cart is currently empty.",
     "continue_shopping": "Continue Shopping",
-    "items_placeholder": "List of cart items here..."
+    "items_placeholder": "List of cart items here...",
+    "proceed_to_checkout": "Proceed to Checkout",
+    "login_prompt_title": "Almost there!",
+    "login_prompt_desc_1": "Please",
+    "login_prompt_link": "log in",
+    "login_prompt_desc_2": "or create an account to proceed to checkout."
   },
   "checkout_page": {
     "title": "Checkout",
@@ -217,6 +222,35 @@
       "review_submitted_title": "Review submitted",
       "review_submitted_desc": "Thank you for sharing your experience."
     }
+  },
+  "login_form": {
+    "title": "Log In",
+    "description": "Enter your email below to log in to your account.",
+    "error_title": "Login Error",
+    "password": "Password",
+    "submit_button": "Log In",
+    "forgot_password": "Forgot your password?",
+    "no_account": "Don't have an account?",
+    "signup_link": "Sign up",
+    "password_reset_error_title": "Password Reset Error",
+    "password_reset_error_desc": "Please enter a valid email address.",
+    "password_reset_success_title": "Password Reset Email Sent",
+    "password_reset_success_desc": "Check your inbox for further instructions."
+  },
+  "signup_form": {
+    "title": "Sign Up",
+    "description": "Create an account to enjoy a personalized experience.",
+    "error_title": "Sign Up Error",
+    "full_name": "Full Name",
+    "full_name_placeholder": "First Last",
+    "password": "Password",
+    "submit_button": "Create Account",
+    "already_have_account": "Already have an account?",
+    "login_link": "Log in",
+    "success_title": "Account created successfully",
+    "success_description": "A verification email has been sent. Please check your inbox.",
+    "error_email_in_use": "This email address is already in use.",
+    "error_generic": "An error occurred while creating the account."
   },
   "user_nav": {
     "my_account": "My Account",

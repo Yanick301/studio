@@ -112,7 +112,12 @@
     "description": "Revisa los artículos de tu cesta antes de pagar.",
     "empty_message": "Tu cesta está vacía.",
     "continue_shopping": "Seguir comprando",
-    "items_placeholder": "Lista de artículos de la cesta aquí..."
+    "items_placeholder": "Lista de artículos de la cesta aquí...",
+    "proceed_to_checkout": "Proceder al pago",
+    "login_prompt_title": "¡Casi listo!",
+    "login_prompt_desc_1": "Por favor",
+    "login_prompt_link": "inicia sesión",
+    "login_prompt_desc_2": "o crea una cuenta para proceder al pago."
   },
   "checkout_page": {
     "title": "Pagar",
@@ -217,6 +222,35 @@
       "review_submitted_title": "Opinión enviada",
       "review_submitted_desc": "Gracias por compartir tu experiencia."
     }
+  },
+  "login_form": {
+    "title": "Iniciar sesión",
+    "description": "Introduce tu correo electrónico a continuación para iniciar sesión en tu cuenta.",
+    "error_title": "Error de inicio de sesión",
+    "password": "Contraseña",
+    "submit_button": "Iniciar sesión",
+    "forgot_password": "¿Has olvidado tu contraseña?",
+    "no_account": "¿No tienes una cuenta?",
+    "signup_link": "Registrarse",
+    "password_reset_error_title": "Error al restablecer la contraseña",
+    "password_reset_error_desc": "Por favor, introduce una dirección de correo electrónico válida.",
+    "password_reset_success_title": "Correo electrónico de restablecimiento de contraseña enviado",
+    "password_reset_success_desc": "Revisa tu bandeja de entrada para más instrucciones."
+  },
+  "signup_form": {
+    "title": "Registrarse",
+    "description": "Crea una cuenta para disfrutar de una experiencia personalizada.",
+    "error_title": "Error de registro",
+    "full_name": "Nombre completo",
+    "full_name_placeholder": "Nombre Apellido",
+    "password": "Contraseña",
+    "submit_button": "Crear cuenta",
+    "already_have_account": "¿Ya tienes una cuenta?",
+    "login_link": "Iniciar sesión",
+    "success_title": "Cuenta creada con éxito",
+    "success_description": "Se ha enviado un correo electrónico de verificación. Por favor, revisa tu bandeja de entrada.",
+    "error_email_in_use": "Esta dirección de correo electrónico ya está en uso.",
+    "error_generic": "Se ha producido un error al crear la cuenta."
   },
   "user_nav": {
     "my_account": "Mi cuenta",

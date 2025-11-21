@@ -17,7 +17,7 @@ import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { z } from 'zod';
 import { useAuth, useFirestore, setDocumentNonBlocking } from '@/firebase';
-import { createUserWithEmailAndPassword } from 'firebase/auth';
+import { createUserWithEmailAndPassword, sendEmailVerification } from 'firebase/auth';
 import { doc } from 'firebase/firestore';
 import { useRouter } from 'next/navigation';
 import { useToast } from '@/hooks/use-toast';
@@ -58,6 +58,9 @@ export function SignupForm() {
       const userCredential = await createUserWithEmailAndPassword(auth, data.email, data.password);
       const user = userCredential.user;
       
+      // Send email verification
+      await sendEmailVerification(user);
+
       const [firstName, ...lastName] = data.fullName.split(' ');
 
       // Create a user document in Firestore using the non-blocking helper
@@ -71,16 +74,16 @@ export function SignupForm() {
       }, { merge: false });
 
       toast({
-        title: "Compte créé avec succès",
-        description: "Bienvenue chez EZENTIALS!",
+        title: t('signup_form.success_title'),
+        description: t('signup_form.success_description'),
       });
-      router.push('/account/profile');
+      router.push('/login');
 
     } catch (error: any) {
         if (error.code === 'auth/email-already-in-use') {
-            setError("Cette adresse e-mail est déjà utilisée.");
+            setError(t('signup_form.error_email_in_use'));
         } else {
-            setError("Une erreur s'est produite lors de la création du compte.");
+            setError(t('signup_form.error_generic'));
         }
         console.error(error);
     } finally {

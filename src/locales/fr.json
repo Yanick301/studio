@@ -112,7 +112,12 @@
     "description": "Vérifiez les articles de votre panier avant de passer à la caisse.",
     "empty_message": "Votre panier est actuellement vide.",
     "continue_shopping": "Continuer les achats",
-    "items_placeholder": "Liste des articles du panier ici..."
+    "items_placeholder": "Liste des articles du panier ici...",
+    "proceed_to_checkout": "Passer à la caisse",
+    "login_prompt_title": "Presque terminé !",
+    "login_prompt_desc_1": "Veuillez vous",
+    "login_prompt_link": "connecter",
+    "login_prompt_desc_2": "ou créer un compte pour passer à la caisse."
   },
   "checkout_page": {
     "title": "Paiement",
@@ -218,7 +223,7 @@
       "review_submitted_desc": "Merci d'avoir partagé votre expérience."
     }
   },
-   "login_form": {
+  "login_form": {
     "title": "Connexion",
     "description": "Entrez votre email ci-dessous pour vous connecter à votre compte.",
     "error_title": "Erreur de connexion",
@@ -226,7 +231,11 @@
     "submit_button": "Se connecter",
     "forgot_password": "Mot de passe oublié ?",
     "no_account": "Vous n'avez pas de compte ?",
-    "signup_link": "S'inscrire"
+    "signup_link": "S'inscrire",
+    "password_reset_error_title": "Erreur de réinitialisation",
+    "password_reset_error_desc": "Veuillez entrer une adresse e-mail valide.",
+    "password_reset_success_title": "E-mail de réinitialisation envoyé",
+    "password_reset_success_desc": "Consultez votre boîte de réception pour les instructions."
   },
   "signup_form": {
     "title": "S'inscrire",
@@ -237,7 +246,11 @@
     "password": "Mot de passe",
     "submit_button": "Créer un compte",
     "already_have_account": "Vous avez déjà un compte ?",
-    "login_link": "Se connecter"
+    "login_link": "Se connecter",
+    "success_title": "Compte créé avec succès",
+    "success_description": "Un e-mail de vérification a été envoyé. Veuillez consulter votre boîte de réception.",
+    "error_email_in_use": "Cette adresse e-mail est déjà utilisée.",
+    "error_generic": "Une erreur s'est produite lors de la création du compte."
   },
   "user_nav": {
     "my_account": "Mon compte",

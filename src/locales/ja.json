@@ -112,7 +112,12 @@
     "description": "チェックアウトに進む前にカート内の商品を確認してください。",
     "empty_message": "カートは現在空です。",
     "continue_shopping": "ショッピングを続ける",
-    "items_placeholder": "ここにカート商品のリスト..."
+    "items_placeholder": "ここにカート商品のリスト...",
+    "proceed_to_checkout": "チェックアウトに進む",
+    "login_prompt_title": "あと少しです！",
+    "login_prompt_desc_1": "チェックアウトに進むには、",
+    "login_prompt_link": "ログイン",
+    "login_prompt_desc_2": "するか、アカウントを作成してください。"
   },
   "checkout_page": {
     "title": "チェックアウト",
@@ -217,6 +222,35 @@
       "review_submitted_title": "レビューが送信されました",
       "review_submitted_desc": "ご意見を共有していただきありがとうございます。"
     }
+  },
+  "login_form": {
+    "title": "ログイン",
+    "description": "アカウントにログインするには、以下にメールアドレスを入力してください。",
+    "error_title": "ログインエラー",
+    "password": "パスワード",
+    "submit_button": "ログイン",
+    "forgot_password": "パスワードをお忘れですか？",
+    "no_account": "アカウントをお持ちでないですか？",
+    "signup_link": "会員登録",
+    "password_reset_error_title": "パスワードリセットエラー",
+    "password_reset_error_desc": "有効なメールアドレスを入力してください。",
+    "password_reset_success_title": "パスワードリセットメールを送信しました",
+    "password_reset_success_desc": "受信トレイで詳細な手順を確認してください。"
+  },
+  "signup_form": {
+    "title": "会員登録",
+    "description": "アカウントを作成して、パーソナライズされた体験をお楽しみください。",
+    "error_title": "登録エラー",
+    "full_name": "氏名",
+    "full_name_placeholder": "姓 名",
+    "password": "パスワード",
+    "submit_button": "アカウントを作成",
+    "already_have_account": "すでにアカウントをお持ちですか？",
+    "login_link": "ログイン",
+    "success_title": "アカウントが正常に作成されました",
+    "success_description": "確認メールが送信されました。受信トレイを確認してください。",
+    "error_email_in_use": "このメールアドレスは既に使用されています。",
+    "error_generic": "アカウントの作成中にエラーが発生しました。"
   },
   "user_nav": {
     "my_account": "マイアカウント",

@@ -112,7 +112,12 @@
     "description": "Überprüfen Sie die Artikel in Ihrem Warenkorb, bevor Sie zur Kasse gehen.",
     "empty_message": "Ihr Warenkorb ist derzeit leer.",
     "continue_shopping": "Weiter einkaufen",
-    "items_placeholder": "Liste der Warenkorbartikel hier..."
+    "items_placeholder": "Liste der Warenkorbartikel hier...",
+    "proceed_to_checkout": "Zur Kasse gehen",
+    "login_prompt_title": "Fast fertig!",
+    "login_prompt_desc_1": "Bitte",
+    "login_prompt_link": "melden Sie sich an",
+    "login_prompt_desc_2": "oder erstellen Sie ein Konto, um zur Kasse zu gehen."
   },
   "checkout_page": {
     "title": "Kasse",
@@ -217,6 +222,35 @@
       "review_submitted_title": "Bewertung abgeschickt",
       "review_submitted_desc": "Danke, dass Sie Ihre Erfahrung geteilt haben."
     }
+  },
+  "login_form": {
+    "title": "Anmelden",
+    "description": "Geben Sie Ihre E-Mail-Adresse ein, um sich bei Ihrem Konto anzumelden.",
+    "error_title": "Anmeldefehler",
+    "password": "Passwort",
+    "submit_button": "Anmelden",
+    "forgot_password": "Passwort vergessen?",
+    "no_account": "Haben Sie kein Konto?",
+    "signup_link": "Registrieren",
+    "password_reset_error_title": "Fehler beim Zurücksetzen des Passworts",
+    "password_reset_error_desc": "Bitte geben Sie eine gültige E-Mail-Adresse an.",
+    "password_reset_success_title": "E-Mail zum Zurücksetzen des Passworts gesendet",
+    "password_reset_success_desc": "Überprüfen Sie Ihren Posteingang für weitere Anweisungen."
+  },
+  "signup_form": {
+    "title": "Registrieren",
+    "description": "Erstellen Sie ein Konto, um ein personalisiertes Erlebnis zu genießen.",
+    "error_title": "Registrierungsfehler",
+    "full_name": "Vollständiger Name",
+    "full_name_placeholder": "Vorname Nachname",
+    "password": "Passwort",
+    "submit_button": "Konto erstellen",
+    "already_have_account": "Haben Sie bereits ein Konto?",
+    "login_link": "Anmelden",
+    "success_title": "Konto erfolgreich erstellt",
+    "success_description": "Eine Bestätigungs-E-Mail wurde gesendet. Bitte überprüfen Sie Ihren Posteingang.",
+    "error_email_in_use": "Diese E-Mail-Adresse wird bereits verwendet.",
+    "error_generic": "Bei der Erstellung des Kontos ist ein Fehler aufgetreten."
   },
   "user_nav": {
     "my_account": "Mein Konto",
