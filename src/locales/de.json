@@ -11,7 +11,12 @@
     "select_language": "Sprache auswählen",
     "search": "Suche",
     "favorites": "Favoriten",
-    "cart": "Warenkorb",
+    "cart": "Warenkorb"
+  },
+  "user_nav": {
+    "my_account": "Mein Konto",
+    "profile": "Profil",
+    "logout": "Abmelden",
     "login": "Anmelden",
     "signup": "Registrieren"
   },
@@ -253,12 +258,16 @@
     "error_email_in_use": "Diese E-Mail-Adresse wird bereits verwendet.",
     "error_generic": "Bei der Erstellung des Kontos ist ein Fehler aufgetreten."
   },
-  "user_nav": {
-    "my_account": "Mein Konto",
-    "profile": "Profil",
-    "logout": "Abmelden",
-    "login": "Anmelden",
-    "signup": "Registrieren"
+  "ai_stylist": {
+    "title": "Ihr persönlicher KI-Stylist",
+    "description": "Beschreiben Sie Ihren Stil und wir stellen Ihnen eine maßgeschneiderte Auswahl zusammen, inspiriert von Ihrem Surfverhalten.",
+    "form_label": "Was sind Ihre aktuellen Stilvorlieben und Wünsche?",
+    "form_placeholder": "z.B. Ich mag einen minimalistischen Stil, neutrale Farben und natürliche Materialien wie Leinen und Baumwolle. Ich suche ein Outfit für eine Sommerhochzeit...",
+    "button_text": "Meine Empfehlungen erhalten",
+    "error_title": "Fehler",
+    "error_message": "Beim Generieren der Empfehlungen ist ein Fehler aufgetreten.",
+    "results_title": "Unsere Vorschläge für Sie",
+    "browsing_history_example": "Angesehene Artikel: 'Elegantes Abendkleid' (Kleidung, Damen), 'Leinenhemd' (Kleidung, Herren), 'Lederhandtasche' (Accessoires, Damen). Der Benutzer scheint an eleganten und klassischen Stilen interessiert zu sein."
   },
   "products": {
     "monarque_blazer": {

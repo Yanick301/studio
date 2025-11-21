@@ -11,7 +11,12 @@
     "select_language": "Sélectionner la langue",
     "search": "Rechercher",
     "favorites": "Favoris",
-    "cart": "Panier",
+    "cart": "Panier"
+  },
+  "user_nav": {
+    "my_account": "Mon compte",
+    "profile": "Profil",
+    "logout": "Se déconnecter",
     "login": "Connexion",
     "signup": "S'inscrire"
   },
@@ -253,12 +258,16 @@
     "error_email_in_use": "Cette adresse e-mail est déjà utilisée.",
     "error_generic": "Une erreur s'est produite lors de la création du compte."
   },
-  "user_nav": {
-    "my_account": "Mon compte",
-    "profile": "Profil",
-    "logout": "Se déconnecter",
-    "login": "Connexion",
-    "signup": "S'inscrire"
+  "ai_stylist": {
+    "title": "Votre Styliste Personnel IA",
+    "description": "Décrivez votre style et nous vous préparerons une sélection sur mesure, inspirée par votre navigation.",
+    "form_label": "Quelles sont vos préférences et envies de style actuelles ?",
+    "form_placeholder": "ex: J'aime un style minimaliste, les couleurs neutres et les matières naturelles comme le lin et le coton. Je cherche une tenue pour un mariage en été...",
+    "button_text": "Obtenir Mes Recommandations",
+    "error_title": "Erreur",
+    "error_message": "Une erreur s'est produite lors de la génération des recommandations.",
+    "results_title": "Nos Suggestions Pour Vous",
+    "browsing_history_example": "Articles consultés : 'Robe de Soirée Élégante' (Vêtements, Femme), 'Chemise en Lin' (Vêtements, Homme), 'Sac à Main en Cuir' (Accessoires, Femme). L'utilisateur semble intéressé par les styles élégants et classiques."
   },
   "products": {
     "monarque_blazer": {

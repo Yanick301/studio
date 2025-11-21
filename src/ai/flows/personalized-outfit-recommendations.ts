@@ -25,10 +25,15 @@ export type PersonalizedOutfitRecommendationsInput = z.infer<
   typeof PersonalizedOutfitRecommendationsInputSchema
 >;
 
+const RecommendedProductSchema = z.object({
+  productName: z.string().describe("The name of the recommended product."),
+  reasoning: z.string().describe("A brief explanation of why this product is recommended for the user."),
+});
+
 const PersonalizedOutfitRecommendationsOutputSchema = z.object({
   recommendations: z
-    .array(z.string())
-    .describe('A list of personalized outfit recommendations.'),
+    .array(RecommendedProductSchema)
+    .describe('A list of personalized outfit recommendations, including the product name and the reasoning.'),
 });
 export type PersonalizedOutfitRecommendationsOutput = z.infer<
   typeof PersonalizedOutfitRecommendationsOutputSchema
@@ -44,14 +49,21 @@ const prompt = ai.definePrompt({
   name: 'personalizedOutfitRecommendationsPrompt',
   input: {schema: PersonalizedOutfitRecommendationsInputSchema},
   output: {schema: PersonalizedOutfitRecommendationsOutputSchema},
-  prompt: `You are a personal stylist providing outfit recommendations based on user preferences and browsing history.
+  prompt: `You are an expert personal stylist for a luxury fashion brand called EZENTIALS.
+Your task is to provide personalized outfit recommendations based on the user's browsing history and their stated style preferences.
 
-  Based on the provided browsing history and style preferences, suggest a list of items for personalized outfit recommendations.
+Analyze the user's browsing history to understand their implicit tastes (e.g., categories, gender, specific items).
+Analyze the user's explicit style preferences for the current request.
 
-  Browsing History: {{{browsingHistory}}}
-  Style Preferences: {{{stylePreferences}}}
+Based on this analysis, suggest a list of specific, compelling products. For each product, provide a short, encouraging reason why it's a great fit for them, connecting it to their history and preferences.
 
-  Recommendations:`,
+User's Browsing History:
+{{{browsingHistory}}}
+
+User's Style Preferences:
+"{{{stylePreferences}}}"
+
+Generate a list of recommended products with your reasoning for each.`,
 });
 
 const personalizedOutfitRecommendationsFlow = ai.defineFlow(

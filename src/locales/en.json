@@ -11,7 +11,12 @@
     "select_language": "Select language",
     "search": "Search",
     "favorites": "Favorites",
-    "cart": "Cart",
+    "cart": "Cart"
+  },
+  "user_nav": {
+    "my_account": "My Account",
+    "profile": "Profile",
+    "logout": "Log Out",
     "login": "Log In",
     "signup": "Sign Up"
   },
@@ -253,12 +258,16 @@
     "error_email_in_use": "This email address is already in use.",
     "error_generic": "An error occurred while creating the account."
   },
-  "user_nav": {
-    "my_account": "My Account",
-    "profile": "Profile",
-    "logout": "Log Out",
-    "login": "Log In",
-    "signup": "Sign Up"
+  "ai_stylist": {
+    "title": "Your Personal AI Stylist",
+    "description": "Describe your style, and we'll curate a custom selection for you, inspired by your browsing habits.",
+    "form_label": "What are your current style preferences and desires?",
+    "form_placeholder": "e.g., I like a minimalist style, neutral colors, and natural materials like linen and cotton. I'm looking for an outfit for a summer wedding...",
+    "button_text": "Get My Recommendations",
+    "error_title": "Error",
+    "error_message": "An error occurred while generating recommendations.",
+    "results_title": "Our Suggestions For You",
+    "browsing_history_example": "Viewed items: 'Elegant Evening Gown' (Clothing, Women), 'Linen Shirt' (Clothing, Men), 'Leather Handbag' (Accessories, Women). User appears to be interested in elegant and classic styles."
   },
   "products": {
     "monarque_blazer": {

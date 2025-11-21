@@ -11,7 +11,12 @@
     "select_language": "Seleziona lingua",
     "search": "Cerca",
     "favorites": "Preferiti",
-    "cart": "Carrello",
+    "cart": "Carrello"
+  },
+  "user_nav": {
+    "my_account": "Il mio account",
+    "profile": "Profilo",
+    "logout": "Esci",
     "login": "Accedi",
     "signup": "Registrati"
   },
@@ -253,12 +258,16 @@
     "error_email_in_use": "Questo indirizzo email è già in uso.",
     "error_generic": "Si è verificato un errore durante la creazione dell'account."
   },
-  "user_nav": {
-    "my_account": "Il mio account",
-    "profile": "Profilo",
-    "logout": "Esci",
-    "login": "Accedi",
-    "signup": "Registrati"
+  "ai_stylist": {
+    "title": "Il Tuo Stilista Personale AI",
+    "description": "Descrivi il tuo stile e noi cureremo una selezione personalizzata per te, ispirata alle tue abitudini di navigazione.",
+    "form_label": "Quali sono le tue attuali preferenze e desideri di stile?",
+    "form_placeholder": "es. Mi piace uno stile minimalista, colori neutri e materiali naturali come lino e cotone. Sto cercando un outfit per un matrimonio estivo...",
+    "button_text": "Ottieni i Miei Consigli",
+    "error_title": "Errore",
+    "error_message": "Si è verificato un errore durante la generazione dei consigli.",
+    "results_title": "I Nostri Suggerimenti Per Te",
+    "browsing_history_example": "Articoli visualizzati: 'Abito da Sera Elegante' (Abbigliamento, Donna), 'Camicia di Lino' (Abbigliamento, Uomo), 'Borsa in Pelle' (Accessori, Donna). L'utente sembra interessato a stili eleganti e classici."
   },
   "products": {
     "monarque_blazer": {

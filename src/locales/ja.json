@@ -11,7 +11,12 @@
     "select_language": "言語を選択",
     "search": "検索",
     "favorites": "お気に入り",
-    "cart": "カート",
+    "cart": "カート"
+  },
+  "user_nav": {
+    "my_account": "マイアカウント",
+    "profile": "プロフィール",
+    "logout": "ログアウト",
     "login": "ログイン",
     "signup": "会員登録"
   },
@@ -253,12 +258,16 @@
     "error_email_in_use": "このメールアドレスは既に使用されています。",
     "error_generic": "アカウントの作成中にエラーが発生しました。"
   },
-  "user_nav": {
-    "my_account": "マイアカウント",
-    "profile": "プロフィール",
-    "logout": "ログアウト",
-    "login": "ログイン",
-    "signup": "会員登録"
+  "ai_stylist": {
+    "title": "あなたのパーソナルAIスタイリスト",
+    "description": "あなたのスタイルを記述すれば、閲覧履歴に基づいてカスタムセレクションをキュレートします。",
+    "form_label": "現在のスタイルの好みや希望は何ですか？",
+    "form_placeholder": "例：ミニマリストスタイル、ニュートラルカラー、リネンやコットンのような天然素材が好きです。夏の結婚式用の服装を探しています...",
+    "button_text": "おすすめを入手する",
+    "error_title": "エラー",
+    "error_message": "おすすめの生成中にエラーが発生しました。",
+    "results_title": "あなたへのおすすめ",
+    "browsing_history_example": "閲覧した商品：「エレガントなイブニングガウン」（衣料品、女性）、「リネンシャツ」（衣料品、男性）、「レザーハンドバッグ」（アクセサリー、女性）。ユーザーはエレガントでクラシックなスタイルに興味があるようです。"
   },
   "products": {
     "monarque_blazer": {
