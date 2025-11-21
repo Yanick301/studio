@@ -7,7 +7,7 @@ import { Button } from '@/components/ui/button';
 import { Heart, ShoppingCart, Star, CheckCircle } from 'lucide-react';
 import { Separator } from '@/components/ui/separator';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
-import { useState } from 'react';
+import { useState, useEffect, useMemo } from 'react';
 import { cn } from '@/lib/utils';
 import { useToast } from '@/hooks/use-toast';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
@@ -15,6 +15,10 @@ import { Textarea } from '@/components/ui/textarea';
 import { Label } from '@/components/ui/label';
 import { Input } from '@/components/ui/input';
 import { useTranslation } from '@/hooks/use-translation';
+import { useUser, useFirestore, useCollection, useMemoFirebase } from '@/firebase';
+import { collection, addDoc, deleteDoc, where, getDocs, doc } from 'firebase/firestore';
+import { useCart } from '@/contexts/cart-context';
+import { Review } from '@/lib/definitions';
 
 // This function can be uncommented if you switch to a static generation approach
 // export async function generateStaticParams() {
@@ -27,13 +31,98 @@ export default function ProductDetailPage({ params }: { params: { slug: string }
   const { t } = useTranslation();
   const product = products.find((p) => p.slug === params.slug);
   const { toast } = useToast();
+  const { user } = useUser();
+  const firestore = useFirestore();
+  const { addToCart } = useCart();
+
   const [selectedSize, setSelectedSize] = useState<string | null>(product?.options?.sizes?.[0] || null);
   const [selectedColor, setSelectedColor] = useState<string | null>(product?.options?.colors?.[0] || null);
+  
+  // -- Favorite Logic --
   const [isFavorite, setIsFavorite] = useState(false);
+  const [favoriteId, setFavoriteId] = useState<string | null>(null);
+  const [isFavoriteLoading, setIsFavoriteLoading] = useState(true);
+  
+  const favoritesCollection = useMemoFirebase(() => {
+    if (!firestore || !user) return null;
+    return collection(firestore, `users/${user.uid}/favorites`);
+  }, [firestore, user]);
 
-  const [reviews, setReviews] = useState([
-    { id: 1, author: "Marie L.", rating: 5, comment: "Qualité exceptionnelle et coupe parfaite. Je recommande vivement !" },
-    { id: 2, author: "Jean D.", rating: 4, comment: "Très beau produit, conforme à la description. La livraison a été rapide." },
+  const favoritesQuery = useMemoFirebase(() => {
+      if (!favoritesCollection || !product) return null;
+      return where("productId", "==", product.id);
+  }, [favoritesCollection, product]);
+
+  useEffect(() => {
+    if (!user || !favoritesCollection) {
+      setIsFavoriteLoading(false);
+      return;
+    }
+    const checkFavorite = async () => {
+      setIsFavoriteLoading(true);
+      if (!product) return;
+      const q = where("productId", "==", product.id);
+      const querySnapshot = await getDocs(collection(firestore, `users/${user.uid}/favorites`));
+      const foundFavorite = querySnapshot.docs.find(d => d.data().productId === product.id);
+
+      if (foundFavorite) {
+        setIsFavorite(true);
+        setFavoriteId(foundFavorite.id);
+      } else {
+        setIsFavorite(false);
+        setFavoriteId(null);
+      }
+      setIsFavoriteLoading(false);
+    };
+    checkFavorite();
+  }, [user, firestore, product]);
+
+  const handleFavoriteClick = async () => {
+    if (!user || !product || !firestore) {
+      toast({
+        variant: "destructive",
+        title: "Veuillez vous connecter",
+        description: "Vous devez être connecté pour gérer vos favoris.",
+      });
+      return;
+    }
+    setIsFavoriteLoading(true);
+    const favsCollectionRef = collection(firestore, `users/${user.uid}/favorites`);
+
+    if (isFavorite && favoriteId) {
+      // Remove from favorites
+      await deleteDoc(doc(favsCollectionRef, favoriteId));
+      setIsFavorite(false);
+      setFavoriteId(null);
+      toast({
+        title: t('product_page.toast.favorite_removed_title'),
+        description: `${productName} ${t('product_page.toast.favorite_removed_desc')}`,
+      });
+    } else {
+      // Add to favorites
+      const newFav = {
+        userId: user.uid,
+        productId: product.id,
+        addedDate: new Date().toISOString(),
+      };
+      const docRef = await addDoc(favsCollectionRef, newFav);
+      setIsFavorite(true);
+      setFavoriteId(docRef.id);
+      toast({
+        title: t('product_page.toast.favorite_added_title'),
+        description: `${productName} ${t('product_page.toast.favorite_added_desc')}`,
+      });
+    }
+    setIsFavoriteLoading(false);
+  };
+  // -- End of Favorite Logic --
+
+
+  const [reviews, setReviews] = useState<Review[]>([
+    { id: '1', author: "Marie L.", rating: 5, comment: "Qualité exceptionnelle et coupe parfaite. Je recommande vivement !" },
+    { id: '2', author: "Jean D.", rating: 4, comment: "Très beau produit, conforme à la description. La livraison a été rapide." },
+    { id: '3', author: "Sophie T.", rating: 5, comment: "Absolument magnifique ! La matière est divine et la couleur est encore plus belle en vrai." },
+    { id: '4', author: "Marc V.", rating: 5, comment: "Un classique intemporel. L'investissement en vaut la peine." },
   ]);
   const [newReview, setNewReview] = useState({ author: '', comment: '', rating: 5 });
   const [showReviewForm, setShowReviewForm] = useState(false);
@@ -47,18 +136,26 @@ export default function ProductDetailPage({ params }: { params: { slug: string }
   const productDescription = t(product.description);
   const productDetails = product.details ? t(product.details) : '';
 
-  const handleFavoriteClick = () => {
-    setIsFavorite(!isFavorite);
-    toast({
-      title: isFavorite ? t('product_page.toast.favorite_removed_title') : t('product_page.toast.favorite_added_title'),
-      description: `${productName} ${isFavorite ? t('product_page.toast.favorite_removed_desc') : t('product_page.toast.favorite_added_desc')}`,
+  const handleAddToCart = () => {
+    if (!product) return;
+    addToCart({
+      ...product,
+      options: {
+        ...product.options,
+        selectedColor: selectedColor,
+        selectedSize: selectedSize
+      }
     });
-  };
+    toast({
+      title: "Article ajouté au panier",
+      description: `${productName} a été ajouté à votre panier.`,
+    });
+  }
 
   const handleReviewSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (newReview.author && newReview.comment) {
-      setReviews(prev => [...prev, { ...newReview, id: Date.now() }]);
+      setReviews(prev => [...prev, { ...newReview, id: Date.now().toString() }]);
       setNewReview({ author: '', comment: '', rating: 5 });
       setShowReviewForm(false);
       toast({
@@ -138,10 +235,10 @@ export default function ProductDetailPage({ params }: { params: { slug: string }
           )}
 
           <div className="flex flex-col sm:flex-row gap-4">
-            <Button size="lg" className="w-full sm:w-auto flex-grow">
+            <Button size="lg" className="w-full sm:w-auto flex-grow" onClick={handleAddToCart}>
               <ShoppingCart className="mr-2 h-5 w-5" /> {t('product_page.add_to_cart')}
             </Button>
-            <Button variant={isFavorite ? "secondary" : "outline"} size="lg" className="w-full sm:w-auto" aria-label={t('product_page.add_to_favorites')} onClick={handleFavoriteClick}>
+            <Button disabled={isFavoriteLoading} variant={isFavorite ? "secondary" : "outline"} size="lg" className="w-full sm:w-auto" aria-label={t('product_page.add_to_favorites')} onClick={handleFavoriteClick}>
               {isFavorite ? <CheckCircle className="mr-2 h-5 w-5 text-green-500"/> : <Heart className="mr-2 h-5 w-5" />}
               {isFavorite ? t('product_page.favorited') : t('product_page.favorite')}
             </Button>

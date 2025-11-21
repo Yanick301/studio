@@ -15,6 +15,8 @@ export type Product = {
   options?: {
     sizes?: string[];
     colors?: string[];
+    selectedSize?: string | null;
+    selectedColor?: string | null;
   }
 };
 
@@ -25,8 +27,7 @@ export type Testimonial = {
   avatar: string;
 };
 
-export type CartItem = {
-  product: Product;
+export type CartItem = Product & {
   quantity: number;
 };
 
@@ -37,4 +38,18 @@ export type FaqItem = {
 
 export type Translations = {
   [key: string]: string | Translations;
+};
+
+export type Favorite = {
+  id: string;
+  userId: string;
+  productId: string;
+  addedDate: string;
+};
+
+export type Review = {
+  id: string;
+  author: string;
+  rating: number;
+  comment: string;
 };

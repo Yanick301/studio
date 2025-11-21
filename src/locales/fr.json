@@ -146,7 +146,8 @@
   "favorites_page": {
     "title": "Mes Favoris",
     "description": "Votre sélection personnelle d'articles.",
-    "empty_message": "Vous n'avez aucun article dans vos favoris.",
+    "empty_title": "Votre liste de souhaits est vide",
+    "empty_message": "Ajoutez les articles que vous aimez pour les sauvegarder ici.",
     "discover_button": "Découvrir nos produits"
   },
   "orders_page": {

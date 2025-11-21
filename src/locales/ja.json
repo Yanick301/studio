@@ -146,7 +146,8 @@
   "favorites_page": {
     "title": "お気に入り",
     "description": "あなたの個人的なアイテムのセレクション。",
-    "empty_message": "お気に入りに商品がありません。",
+    "empty_title": "ウィッシュリストは空です",
+    "empty_message": "お気に入りのアイテムを追加して、ここに保存してください。",
     "discover_button": "商品を探す"
   },
   "orders_page": {
