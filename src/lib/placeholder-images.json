@@ -1,3 +1,116 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "1",
+      "name": "Robe de Soirée Élégante",
+      "slug": "robe-de-soiree-elegante",
+      "description": "Une robe de soirée exquise en satin, parfaite pour les occasions spéciales. Sa coupe empire et son décolleté plongeant subliment la silhouette.",
+      "price": 249.99,
+      "imageUrl": "https://images.unsplash.com/photo-1613424935149-c8efd5c41e91?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxldmVuaW5nJTIwZHJlc3N8ZW58MHx8fHwxNzYzNzI4NDg4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "evening dress",
+      "width": 800,
+      "height": 1200,
+      "category": "clothing",
+      "gender": "women",
+      "isTrending": true
+    },
+    {
+      "id": "2",
+      "name": "Chemise en Lin Premium",
+      "slug": "chemise-en-lin-premium",
+      "description": "Légère et respirante, cette chemise en lin est un indispensable de la garde-robe estivale. Col italien et boutons en nacre.",
+      "price": 129.5,
+      "imageUrl": "https://images.unsplash.com/photo-1591357037205-166318b51afd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxsaW5lbiUyMHNoaXJ0fGVufDB8fHx8MTc2MzY0NDQ4OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "linen shirt",
+      "width": 800,
+      "height": 1200,
+      "category": "clothing",
+      "gender": "men",
+      "isTrending": true
+    },
+    {
+      "id": "3",
+      "name": "Sac à Main 'Aria'",
+      "slug": "sac-a-main-aria",
+      "description": "Un sac à main structuré en cuir de veau italien. Son fermoir doré et sa bandoulière amovible en font un accessoire polyvalent.",
+      "price": 450,
+      "imageUrl": "https://images.unsplash.com/photo-1760624295064-2de890f64524?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxsZWF0aGVyJTIwaGFuZGJhZ3xlbnwwfHx8fDE3NjM2MjgxNTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "leather handbag",
+      "width": 800,
+      "height": 800,
+      "category": "accessories",
+      "gender": "women",
+      "isTrending": true
+    },
+    {
+      "id": "4",
+      "name": "Montre 'Le Chronographe'",
+      "slug": "montre-le-chronographe",
+      "description": "Montre chronographe avec un boîtier en acier inoxydable, un cadran bleu nuit et un bracelet en cuir véritable. Mouvement automatique suisse.",
+      "price": 890,
+      "imageUrl": "https://images.unsplash.com/photo-1657208632331-1f395bda3520?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjbGFzc2ljJTIwd2F0Y2h8ZW58MHx8fHwxNzYzNjQ4MjMxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "classic watch",
+      "width": 800,
+      "height": 800,
+      "category": "accessories",
+      "gender": "men",
+      "isTrending": true
+    },
+    {
+      "id": "5",
+      "name": "Blazer en Laine 'Victor'",
+      "slug": "blazer-en-laine-victor",
+      "description": "Un blazer croisé en laine vierge, taillé pour une silhouette impeccable. Doublure en satin et poches passepoilées.",
+      "price": 399,
+      "imageUrl": "https://images.unsplash.com/photo-1532526674046-5b3f6d7d2ab1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3b29sJTIwYmxhemVyfGVufDB8fHx8MTc2MzY2NDkzNnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "wool blazer",
+      "width": 800,
+      "height": 1200,
+      "category": "clothing",
+      "gender": "men",
+      "isTrending": false
+    },
+    {
+      "id": "6",
+      "name": "Jupe Plissée 'Juliette'",
+      "slug": "jupe-plissee-juliette",
+      "description": "Jupe midi plissée en crêpe léger avec un imprimé floral discret. Taille élastiquée pour un confort optimal.",
+      "price": 159.9,
+      "imageUrl": "https://images.unsplash.com/photo-1763194098397-4e193629e497?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxwbGVhdGVkJTIwc2tpcnR8ZW58MHx8fHwxNzYzNjY0OTM2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "pleated skirt",
+      "width": 800,
+      "height": 1200,
+      "category": "clothing",
+      "gender": "women",
+      "isTrending": false
+    },
+    {
+      "id": "7",
+      "name": "Ceinture en Cuir Tressé",
+      "slug": "ceinture-cuir-tresse",
+      "description": "Ceinture artisanale en cuir tressé avec une boucle en laiton massif. Un classique qui gagne en patine avec le temps.",
+      "price": 89,
+      "imageUrl": "https://images.unsplash.com/photo-1664286074176-5206ee5dc878?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxsZWF0aGVyJTIwYmVsdHxlbnwwfHx8fDE3NjM3MDg5Mjd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "leather belt",
+      "width": 800,
+      "height": 800,
+      "category": "accessories",
+      "gender": "unisex",
+      "isTrending": false
+    },
+    {
+      "id": "8",
+      "name": "Foulard en Soie 'Impression'",
+      "slug": "foulard-soie-impression",
+      "description": "Un carré de soie imprimé d'un motif abstrait exclusif, roulotté à la main. Dimensions: 90x90 cm.",
+      "price": 110,
+      "imageUrl": "https://images.unsplash.com/photo-1707978932202-751b08324daf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzaWxrJTIwc2NhcmZ8ZW58MHx8fHwxNzYzNjcxNDA2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "silk scarf",
+      "width": 800,
+      "height": 800,
+      "category": "accessories",
+      "gender": "women",
+      "isTrending": false
+    }
+  ]
 }
