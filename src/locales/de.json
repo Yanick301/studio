@@ -218,6 +218,13 @@
       "review_submitted_desc": "Danke, dass Sie Ihre Erfahrung geteilt haben."
     }
   },
+  "user_nav": {
+    "my_account": "Mein Konto",
+    "profile": "Profil",
+    "logout": "Abmelden",
+    "login": "Anmelden",
+    "signup": "Registrieren"
+  },
   "products": {
     "monarque_blazer": {
       "name": "Zweireihiger Blazer aus Schurwolle 'Monarque'",

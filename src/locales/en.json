@@ -218,6 +218,13 @@
       "review_submitted_desc": "Thank you for sharing your experience."
     }
   },
+  "user_nav": {
+    "my_account": "My Account",
+    "profile": "Profile",
+    "logout": "Log Out",
+    "login": "Log In",
+    "signup": "Sign Up"
+  },
   "products": {
     "monarque_blazer": {
       "name": "Virgin Wool Double-Breasted Blazer 'Monarque'",

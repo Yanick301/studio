@@ -218,6 +218,13 @@
       "review_submitted_desc": "Grazie per aver condiviso la tua esperienza."
     }
   },
+  "user_nav": {
+    "my_account": "Il mio account",
+    "profile": "Profilo",
+    "logout": "Esci",
+    "login": "Accedi",
+    "signup": "Registrati"
+  },
   "products": {
     "monarque_blazer": {
       "name": "Blazer doppiopetto in lana vergine 'Monarque'",

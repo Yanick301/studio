@@ -218,6 +218,13 @@
       "review_submitted_desc": "Gracias por compartir tu experiencia."
     }
   },
+  "user_nav": {
+    "my_account": "Mi cuenta",
+    "profile": "Perfil",
+    "logout": "Cerrar sesión",
+    "login": "Iniciar sesión",
+    "signup": "Registrarse"
+  },
   "products": {
     "monarque_blazer": {
       "name": "Blazer cruzado de lana virgen 'Monarque'",

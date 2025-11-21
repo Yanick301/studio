@@ -218,6 +218,13 @@
       "review_submitted_desc": "ご意見を共有していただきありがとうございます。"
     }
   },
+  "user_nav": {
+    "my_account": "マイアカウント",
+    "profile": "プロフィール",
+    "logout": "ログアウト",
+    "login": "ログイン",
+    "signup": "会員登録"
+  },
   "products": {
     "monarque_blazer": {
       "name": "「モナーク」ヴァージンウール ダブルブレストブレザー",
