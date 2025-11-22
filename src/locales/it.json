@@ -81,6 +81,12 @@
         "title": "Salone Accessori",
         "description": "Borse iconiche, profumi d'autore e gioielli moderni.",
         "cta": "Esplora Accessori"
+      },
+       "winter": {
+        "subtitle": "Collezione Invernale",
+        "title": "Stagione Invernale",
+        "description": "Cappotti caldi, morbido cashmere e strati eleganti per il freddo.",
+        "cta": "Esplora la Collezione"
       }
     }
   },
@@ -133,6 +139,10 @@
   "accessories_page": {
     "title": "Accessori",
     "description": "Il tocco finale per uno stile perfetto."
+  },
+   "winter_page": {
+    "title": "Collezione Invernale",
+    "description": "Avvolgiti di eleganza con la nostra selezione di cappotti, maglioni e accessori caldi."
   },
   "cart_page": {
     "title": "Il Tuo Carrello",

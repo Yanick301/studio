@@ -81,6 +81,12 @@
         "title": "Salón de Accesorios",
         "description": "Bolsos icónicos, perfumes de autor y joyas modernas.",
         "cta": "Explorar Accesorios"
+      },
+       "winter": {
+        "subtitle": "Colección de Invierno",
+        "title": "Temporada de Invierno",
+        "description": "Abrigos cálidos, cachemira suave y capas elegantes para el frío.",
+        "cta": "Explorar la Colección"
       }
     }
   },
@@ -133,6 +139,10 @@
   "accessories_page": {
     "title": "Accesorios",
     "description": "El toque final para un estilo perfecto."
+  },
+  "winter_page": {
+    "title": "Colección de Invierno",
+    "description": "Envuélvete en elegancia con nuestra selección de abrigos, jerséis y accesorios cálidos."
   },
   "cart_page": {
     "title": "Tu Cesta",
@@ -421,7 +431,7 @@
     },
     "eclipse_heels": {
       "name": "Zapato de Salón 'Vértigo' de Ante 105mm",
-      "description": "La quintaesencia del stiletto. Un arco perfecto y un tacón de 10.5 cm que alarga la pierna hasta el infinito. Realizado en ante de cabrito negro intenso.",
+      "description": "La quintesencia del stiletto. Un arco perfecto y un tacón de 10.5 cm que alarga la pierna hasta el infinito. Realizado en ante de cabrito negro intenso.",
       "details": "100% Ante de cabrito italiano. Tacón de 10.5 cm. Plantilla y suela de cuero."
     },
     "souverain_oxfords": {
@@ -677,7 +687,7 @@
     "etoile_earrings": {
       "name": "Pendientes de Botón 'Diamante Solitario'",
       "description": "Brillo puro. Cada pendiente está engastado con un diamante de 0.25 quilates, montado sobre oro blanco para un brillo máximo. Un clásico atemporal.",
-      "details": "Oro blanco de 18 quilates. Dos diamantes de 0.25ct cada uno, calidad G/VS. Sistema de cierre seguro."
+      "details": "Oro blanco de 18 quilates. Dos diamantes de 0.25ct cada uno, calidad G/VS. Sistema de cierre de seguridad."
     },
     "ocean_necklace": {
       "name": "Collar 'Perla Negra' de Tahití",

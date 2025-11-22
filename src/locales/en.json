@@ -81,6 +81,12 @@
         "title": "Salon Accessories",
         "description": "Iconic bags, signature perfumes, and modern jewels.",
         "cta": "Explore Accessories"
+      },
+      "winter": {
+        "subtitle": "Winter Collection",
+        "title": "Winter Season",
+        "description": "Warm coats, soft cashmere, and elegant layers for the cold.",
+        "cta": "Explore Collection"
       }
     }
   },
@@ -133,6 +139,10 @@
   "accessories_page": {
     "title": "Accessories",
     "description": "The final touch for a perfect style."
+  },
+  "winter_page": {
+    "title": "Winter Collection",
+    "description": "Wrap up in elegance with our selection of coats, sweaters and warm accessories."
   },
   "cart_page": {
     "title": "Your Cart",

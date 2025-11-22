@@ -81,6 +81,12 @@
         "title": "Salon Accessoires",
         "description": "Ikonische Taschen, unverkennbare Düfte und moderne Juwelen.",
         "cta": "Accessoires entdecken"
+      },
+       "winter": {
+        "subtitle": "Winterkollektion",
+        "title": "Wintersaison",
+        "description": "Warme Mäntel, weicher Kaschmir und elegante Schichten für die Kälte.",
+        "cta": "Kollektion entdecken"
       }
     }
   },
@@ -133,6 +139,10 @@
   "accessories_page": {
     "title": "Accessoires",
     "description": "Der letzte Schliff für einen perfekten Stil."
+  },
+  "winter_page": {
+    "title": "Winterkollektion",
+    "description": "Hüllen Sie sich in Eleganz mit unserer Auswahl an Mänteln, Pullovern und warmen Accessoires."
   },
   "cart_page": {
     "title": "Ihr Warenkorb",
@@ -796,5 +806,4 @@
     }
   }
 }
-
     

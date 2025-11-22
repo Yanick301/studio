@@ -14,11 +14,49 @@ import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious
 
 export default function Home() {
   const { t } = useTranslation();
-  const trendingProducts = products.filter(p => p.isTrending).slice(0, 4);
-  const newProducts = products.slice(4, 8); // Example for new arrivals
+  const trendingProducts = products.filter(p => p.isTrending).slice(0, 10);
   
   const brandNames = [
     "Versace", "Gucci", "Prada", "Dior", "Chanel", "Balenciaga", "Louis Vuitton"
+  ];
+
+  const maisonCategories = [
+    {
+      href: "/men",
+      image: "/homepage/maison-tailoring.jpg",
+      imageHint: "man white t-shirt",
+      subtitle: 'home.maison_menu.tailoring.subtitle',
+      title: 'home.maison_menu.tailoring.title',
+      description: 'home.maison_menu.tailoring.description',
+      cta: 'home.maison_menu.tailoring.cta'
+    },
+    {
+      href: "/women",
+      image: "/homepage/maison-couture.jpg",
+      imageHint: "woman fashion pose",
+      subtitle: 'home.maison_menu.couture.subtitle',
+      title: 'home.maison_menu.couture.title',
+      description: 'home.maison_menu.couture.description',
+      cta: 'home.maison_menu.couture.cta'
+    },
+    {
+      href: "/accessories",
+      image: "/homepage/maison-accessories.jpg",
+      imageHint: "luxury watch",
+      subtitle: 'home.maison_menu.accessories.subtitle',
+      title: 'home.maison_menu.accessories.title',
+      description: 'home.maison_menu.accessories.description',
+      cta: 'home.maison_menu.accessories.cta'
+    },
+    {
+      href: "/winter",
+      image: "/homepage/maison-winter.jpg",
+      imageHint: "winter fashion",
+      subtitle: 'home.maison_menu.winter.subtitle',
+      title: 'home.maison_menu.winter.title',
+      description: 'home.maison_menu.winter.description',
+      cta: 'home.maison_menu.winter.cta'
+    }
   ];
 
   return (
@@ -103,44 +141,34 @@ export default function Home() {
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold font-headline">{t('home.maison_menu.title')}</h2>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {/* Atelier Tailoring */}
-            <Link href="/men" className="relative group h-[500px] overflow-hidden rounded-lg shadow-lg">
-                <Image src="/homepage/maison-tailoring.jpg" alt={t('home.maison_menu.tailoring.title')} fill style={{objectFit:"cover"}} className="transition-transform duration-500 group-hover:scale-105" data-ai-hint="man white t-shirt"/>
-                <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex flex-col justify-end p-8 text-white">
-                    <p className="text-sm uppercase tracking-widest">{t('home.maison_menu.tailoring.subtitle')}</p>
-                    <h3 className="text-3xl font-headline mt-2">{t('home.maison_menu.tailoring.title')}</h3>
-                    <p className="mt-2 text-white/90 max-w-xs">{t('home.maison_menu.tailoring.description')}</p>
-                    <div className="mt-4 font-semibold flex items-center group-hover:underline">
-                      {t('home.maison_menu.tailoring.cta')} <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+          <Carousel
+            opts={{
+              align: "start",
+            }}
+            className="w-full"
+          >
+            <CarouselContent>
+              {maisonCategories.map((category, index) => (
+                <CarouselItem key={index} className="sm:basis-1/2 lg:basis-1/3">
+                    <div className="p-1">
+                        <Link href={category.href} className="relative block group h-[500px] overflow-hidden rounded-lg shadow-lg">
+                            <Image src={category.image} alt={t(category.title)} fill style={{objectFit:"cover"}} className="transition-transform duration-500 group-hover:scale-105" data-ai-hint={category.imageHint}/>
+                            <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex flex-col justify-end p-8 text-white">
+                                <p className="text-sm uppercase tracking-widest">{t(category.subtitle)}</p>
+                                <h3 className="text-3xl font-headline mt-2">{t(category.title)}</h3>
+                                <p className="mt-2 text-white/90 max-w-xs">{t(category.description)}</p>
+                                <div className="mt-4 font-semibold flex items-center group-hover:underline">
+                                {t(category.cta)} <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+                                </div>
+                            </div>
+                        </Link>
                     </div>
-                </div>
-            </Link>
-             {/* Couture & Soirée */}
-            <Link href="/women" className="relative group h-[500px] overflow-hidden rounded-lg shadow-lg">
-                <Image src="/homepage/maison-couture.jpg" alt={t('home.maison_menu.couture.title')} fill style={{objectFit:"cover"}} className="transition-transform duration-500 group-hover:scale-105" data-ai-hint="woman fashion pose"/>
-                <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex flex-col justify-end p-8 text-white">
-                    <p className="text-sm uppercase tracking-widest">{t('home.maison_menu.couture.subtitle')}</p>
-                    <h3 className="text-3xl font-headline mt-2">{t('home.maison_menu.couture.title')}</h3>
-                    <p className="mt-2 text-white/90 max-w-xs">{t('home.maison_menu.couture.description')}</p>
-                    <div className="mt-4 font-semibold flex items-center group-hover:underline">
-                      {t('home.maison_menu.couture.cta')} <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
-                    </div>
-                </div>
-            </Link>
-             {/* Salon Accessoires */}
-            <Link href="/accessories" className="relative group h-[500px] overflow-hidden rounded-lg shadow-lg">
-                <Image src="/homepage/maison-accessories.jpg" alt={t('home.maison_menu.accessories.title')} fill style={{objectFit:"cover"}} className="transition-transform duration-500 group-hover:scale-105" data-ai-hint="luxury watch"/>
-                <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex flex-col justify-end p-8 text-white">
-                    <p className="text-sm uppercase tracking-widest">{t('home.maison_menu.accessories.subtitle')}</p>
-                    <h3 className="text-3xl font-headline mt-2">{t('home.maison_menu.accessories.title')}</h3>
-                    <p className="mt-2 text-white/90 max-w-xs">{t('home.maison_menu.accessories.description')}</p>
-                    <div className="mt-4 font-semibold flex items-center group-hover:underline">
-                      {t('home.maison_menu.accessories.cta')} <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
-                    </div>
-                </div>
-            </Link>
-          </div>
+                </CarouselItem>
+              ))}
+            </CarouselContent>
+            <CarouselPrevious className="hidden lg:flex" />
+            <CarouselNext className="hidden lg:flex" />
+          </Carousel>
         </div>
       </section>
       

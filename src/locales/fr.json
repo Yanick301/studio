@@ -81,6 +81,12 @@
         "title": "Salon Accessoires",
         "description": "Sacs iconiques, parfums signature et bijoux modernes.",
         "cta": "Explorer Accessoires"
+      },
+      "winter": {
+        "subtitle": "Collection Hiver",
+        "title": "Saison Hivernale",
+        "description": "Manteaux chauds, cachemires doux et superpositions élégantes pour le froid.",
+        "cta": "Explorer la Collection"
       }
     }
   },
@@ -133,6 +139,10 @@
   "accessories_page": {
     "title": "Accessoires",
     "description": "La touche finale pour un style parfait."
+  },
+  "winter_page": {
+    "title": "Collection Hiver",
+    "description": "Enveloppez-vous d'élégance avec notre sélection de manteaux, pulls et accessoires chauds."
   },
   "cart_page": {
     "title": "Votre Panier",
