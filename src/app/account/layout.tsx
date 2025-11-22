@@ -1,19 +1,48 @@
 'use client';
 
-import { ReactNode } from 'react';
+import { ReactNode, useEffect } from 'react';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
-import { Heart, Package, User } from 'lucide-react';
+import { Heart, Package, User, ShieldAlert } from 'lucide-react';
 import { useTranslation } from '@/hooks/use-translation';
+import { useUser } from '@/firebase';
+import { useRouter } from 'next/navigation';
+import { Alert, AlertTitle, AlertDescription } from '@/components/ui/alert';
 
 export default function AccountLayout({ children }: { children: ReactNode }) {
     const { t } = useTranslation();
-
+    const { user, isUserLoading } = useUser();
+    const router = useRouter();
+    
     const accountNavLinks = [
         { href: '/account/profile', label: t('account_layout.profile'), icon: User },
         { href: '/account/orders', label: t('account_layout.orders'), icon: Package },
         { href: '/account/favorites', label: t('account_layout.favorites'), icon: Heart },
     ];
+
+    useEffect(() => {
+        if (!isUserLoading && !user) {
+            router.push('/login');
+        }
+    }, [isUserLoading, user, router]);
+
+    if (isUserLoading) {
+        return <div className="container py-12 md:py-16 text-center">Chargement...</div>;
+    }
+    
+    if (user && !user.emailVerified) {
+        return (
+             <div className="container py-12 md:py-16 max-w-2xl mx-auto">
+                <Alert variant="destructive">
+                    <ShieldAlert className="h-4 w-4" />
+                    <AlertTitle>{t('account_layout.verification_required_title')}</AlertTitle>
+                    <AlertDescription>
+                        {t('account_layout.verification_required_desc')}
+                    </AlertDescription>
+                </Alert>
+             </div>
+        )
+    }
 
     return (
         <div className="container py-12 md:py-16">

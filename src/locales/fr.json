@@ -190,18 +190,27 @@
   "orders_page": {
     "title": "Mes Commandes",
     "description": "Consultez l'historique de vos commandes.",
-    "no_orders": "Vous n'avez pas encore passé de commande."
+    "no_orders": "Vous n'avez pas encore passé de commande.",
+    "order_id": "Commande",
+    "quantity": "Quantité"
   },
   "profile_page": {
     "title": "Profil",
     "description": "Gérez les informations de votre compte.",
-    "coming_soon": "La gestion du profil sera bientôt disponible."
+    "coming_soon": "La gestion du profil sera bientôt disponible.",
+    "first_name": "Prénom",
+    "last_name": "Nom de famille",
+    "save_button": "Enregistrer les modifications",
+    "update_success_title": "Profil mis à jour",
+    "update_success_desc": "Vos informations ont été enregistrées avec succès."
   },
   "account_layout": {
     "title": "Mon Compte",
     "profile": "Profil",
     "orders": "Mes Commandes",
-    "favorites": "Mes Favoris"
+    "favorites": "Mes Favoris",
+    "verification_required_title": "Vérification de l'email requise",
+    "verification_required_desc": "Veuillez vérifier votre adresse e-mail pour accéder à votre compte. Un lien de vérification a été envoyé à votre boîte de réception."
   },
   "faq": {
     "title": "Foire Aux Questions",
@@ -258,7 +267,9 @@
       "favorite_removed_title": "Retiré des favoris",
       "favorite_removed_desc": "a été retiré de votre liste de favoris.",
       "review_submitted_title": "Avis soumis",
-      "review_submitted_desc": "Merci d'avoir partagé votre expérience."
+      "review_submitted_desc": "Merci d'avoir partagé votre expérience.",
+      "login_for_review_title": "Connexion requise",
+      "login_for_review_desc": "Vous devez être connecté pour laisser un avis."
     }
   },
   "login_form": {

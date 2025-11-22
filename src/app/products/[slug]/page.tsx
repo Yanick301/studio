@@ -15,17 +15,11 @@ import { Textarea } from '@/components/ui/textarea';
 import { Label } from '@/components/ui/label';
 import { Input } from '@/components/ui/input';
 import { useTranslation } from '@/hooks/use-translation';
-import { useUser, useFirestore, useMemoFirebase, addDocumentNonBlocking, deleteDocumentNonBlocking } from '@/firebase';
+import { useUser, useFirestore, useMemoFirebase, setDocumentNonBlocking, deleteDocumentNonBlocking, useCollection } from '@/firebase';
 import { collection, query, where, getDocs, doc } from 'firebase/firestore';
 import { useCart } from '@/contexts/cart-context';
 import { Review } from '@/lib/definitions';
-
-// This function can be uncommented if you switch to a static generation approach
-// export async function generateStaticParams() {
-//   return products.map((product) => ({
-//     slug: product.slug,
-//   }));
-// }
+import { Skeleton } from '@/components/ui/skeleton';
 
 export default function ProductDetailPage({ params }: { params: { slug: string } }) {
   const { t } = useTranslation();
@@ -38,7 +32,6 @@ export default function ProductDetailPage({ params }: { params: { slug: string }
   const [selectedSize, setSelectedSize] = useState<string | null>(product?.options?.sizes?.[0] || null);
   const [selectedColor, setSelectedColor] = useState<string | null>(product?.options?.colors?.[0] || null);
   
-  // -- Favorite Logic --
   const [isFavorite, setIsFavorite] = useState(false);
   const [favoriteId, setFavoriteId] = useState<string | null>(null);
   const [isFavoriteLoading, setIsFavoriteLoading] = useState(true);
@@ -81,7 +74,6 @@ export default function ProductDetailPage({ params }: { params: { slug: string }
     checkFavoriteStatus();
   }, [user, firestore, product, favoritesCollectionRef]);
 
-
   const handleFavoriteClick = async () => {
     if (!user || !product || !favoritesCollectionRef) {
       toast({
@@ -93,7 +85,6 @@ export default function ProductDetailPage({ params }: { params: { slug: string }
     }
 
     if (isFavorite && favoriteId) {
-      // Remove from favorites
       const docRef = doc(favoritesCollectionRef, favoriteId);
       deleteDocumentNonBlocking(docRef);
       setIsFavorite(false);
@@ -103,8 +94,7 @@ export default function ProductDetailPage({ params }: { params: { slug: string }
         description: `${productName} ${t('product_page.toast.favorite_removed_desc')}`,
       });
     } else {
-      // Add to favorites
-      const newFavId = doc(favoritesCollectionRef).id; // Generate ID client-side
+      const newFavId = doc(favoritesCollectionRef).id;
       const newFav = {
         id: newFavId,
         userId: user.uid,
@@ -124,18 +114,16 @@ export default function ProductDetailPage({ params }: { params: { slug: string }
       });
     }
   };
-  // -- End of Favorite Logic --
 
+  const reviewsCollectionRef = useMemoFirebase(() => {
+    if (!firestore || !product) return null;
+    return collection(firestore, `products/${product.id}/reviews`);
+  }, [firestore, product]);
 
-  const [reviews, setReviews] = useState<Review[]>([
-    { id: '1', author: "Marie L.", rating: 5, comment: "Qualité exceptionnelle et coupe parfaite. Je recommande vivement !" },
-    { id: '2', author: "Jean D.", rating: 4, comment: "Très beau produit, conforme à la description. La livraison a été rapide." },
-    { id: '3', author: "Sophie T.", rating: 5, comment: "Absolument magnifique ! La matière est divine et la couleur est encore plus belle en vrai." },
-    { id: '4', author: "Marc V.", rating: 5, comment: "Un classique intemporel. L'investissement en vaut la peine." },
-  ]);
-  const [newReview, setNewReview] = useState({ author: '', comment: '', rating: 5 });
+  const { data: reviews, isLoading: isLoadingReviews } = useCollection<Review>(reviewsCollectionRef);
+
+  const [newReview, setNewReview] = useState({ rating: 5, comment: '' });
   const [showReviewForm, setShowReviewForm] = useState(false);
-
 
   if (!product) {
     notFound();
@@ -159,9 +147,22 @@ export default function ProductDetailPage({ params }: { params: { slug: string }
 
   const handleReviewSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    if (newReview.author && newReview.comment) {
-      setReviews(prev => [...prev, { ...newReview, id: Date.now().toString() }]);
-      setNewReview({ author: '', comment: '', rating: 5 });
+    if (!user || !reviewsCollectionRef) {
+        toast({ variant: 'destructive', title: t('product_page.toast.login_for_review_title') });
+        return;
+    }
+    if (newReview.comment) {
+      const reviewData = {
+          userId: user.uid,
+          author: user.displayName || user.email || 'Anonyme',
+          rating: newReview.rating,
+          comment: newReview.comment,
+          reviewDate: new Date().toISOString(),
+      };
+      const newReviewRef = doc(reviewsCollectionRef);
+      setDocumentNonBlocking(newReviewRef, reviewData, {});
+      
+      setNewReview({ rating: 5, comment: '' });
       setShowReviewForm(false);
       toast({
         title: t('product_page.toast.review_submitted_title'),
@@ -170,6 +171,9 @@ export default function ProductDetailPage({ params }: { params: { slug: string }
     }
   };
 
+  const averageRating = reviews && reviews.length > 0
+    ? reviews.reduce((acc, review) => acc + review.rating, 0) / reviews.length
+    : 0;
 
   return (
     <div className="container mx-auto py-12 md:py-16">
@@ -192,9 +196,9 @@ export default function ProductDetailPage({ params }: { params: { slug: string }
           <h1 className="text-3xl md:text-4xl font-bold">{productName}</h1>
           <div className="flex items-center gap-2 mt-2">
             <div className="flex items-center">
-                {[...Array(5)].map((_, i) => <Star key={i} className={`w-5 h-5 ${i < 4 ? 'text-accent fill-accent' : 'text-muted-foreground'}`}/>)}
+                {[...Array(5)].map((_, i) => <Star key={i} className={`w-5 h-5 ${i < averageRating ? 'text-accent fill-accent' : 'text-muted-foreground'}`}/>)}
             </div>
-            <span className="text-sm text-muted-foreground">({reviews.length} {t('product_page.reviews_count')})</span>
+            <span className="text-sm text-muted-foreground">({reviews?.length || 0} {t('product_page.reviews_count')})</span>
           </div>
           <p className="text-3xl font-bold text-primary mt-4">{product.price.toFixed(2)} €</p>
           <p className="mt-4 text-muted-foreground leading-relaxed">{productDescription}</p>
@@ -283,10 +287,6 @@ export default function ProductDetailPage({ params }: { params: { slug: string }
                          <h3 className="font-semibold text-lg">{t('product_page.share_opinion')}</h3>
                         <div className="grid sm:grid-cols-2 gap-4">
                             <div>
-                                <Label htmlFor="author">{t('product_page.your_name')}</Label>
-                                <Input id="author" value={newReview.author} onChange={e => setNewReview({...newReview, author: e.target.value})} placeholder={t('product_page.name_placeholder')} required/>
-                            </div>
-                            <div>
                                 <Label htmlFor="rating">{t('product_page.your_rating')}</Label>
                                 <div className="flex">
                                     {[...Array(5)].map((_, i) => (
@@ -303,7 +303,12 @@ export default function ProductDetailPage({ params }: { params: { slug: string }
                     </form>
                 )}
 
-                {reviews.length > 0 ? (
+                {isLoadingReviews ? (
+                  <div className="space-y-4">
+                      <Skeleton className="h-20 w-full" />
+                      <Skeleton className="h-20 w-full" />
+                  </div>
+                ) : reviews && reviews.length > 0 ? (
                     reviews.map(review => (
                         <div key={review.id} className="border-t pt-6">
                             <div className="flex items-center mb-2">

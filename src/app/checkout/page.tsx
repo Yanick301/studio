@@ -21,8 +21,10 @@ import {
 import { toast } from '@/hooks/use-toast';
 import { CardElement, useStripe, useElements } from '@stripe/react-stripe-js';
 import { useState } from 'react';
-import { StripeCardElementOptions, PaymentIntent } from '@stripe/stripe-js';
+import { StripeCardElementOptions } from '@stripe/stripe-js';
 import { useRouter } from 'next/navigation';
+import { useUser, useFirestore, addDocumentNonBlocking, setDocumentNonBlocking } from '@/firebase';
+import { collection, doc } from 'firebase/firestore';
 
 const shippingSchema = z.object({
   fullName: z.string().min(2, { message: "Le nom complet est requis." }),
@@ -53,6 +55,8 @@ const cardElementOptions: StripeCardElementOptions = {
 
 export default function CheckoutPage() {
     const { t } = useTranslation();
+    const { user } = useUser();
+    const firestore = useFirestore();
     const { cart, clearCart } = useCart();
     const stripe = useStripe();
     const elements = useElements();
@@ -75,6 +79,44 @@ export default function CheckoutPage() {
     const shipping = 0;
     const total = subtotal + shipping;
 
+    const saveOrder = async () => {
+        if (!user || !firestore || cart.length === 0) return;
+
+        const ordersCollectionRef = collection(firestore, `users/${user.uid}/orders`);
+        const newOrderRef = doc(ordersCollectionRef); // Génère un nouvel ID
+        
+        // Créer le document de commande
+        const orderData = {
+            id: newOrderRef.id,
+            userId: user.uid,
+            orderDate: new Date().toISOString(),
+            status: 'pending',
+            totalAmount: total,
+        };
+
+        setDocumentNonBlocking(newOrderRef, orderData, {});
+
+        // Créer les documents pour chaque article de la commande
+        const itemsCollectionRef = collection(newOrderRef, 'orderItems');
+        cart.forEach(item => {
+            const newItemRef = doc(itemsCollectionRef); // Nouvel ID pour l'article
+            const orderItemData = {
+                id: newItemRef.id,
+                orderId: newOrderRef.id,
+                productId: item.id,
+                name: item.name,
+                imageUrl: item.imageUrl,
+                quantity: item.quantity,
+                price: item.price,
+                options: {
+                    size: item.options?.selectedSize || null,
+                    color: item.options?.selectedColor || null,
+                }
+            };
+            setDocumentNonBlocking(newItemRef, orderItemData, {});
+        });
+    };
+
     const onSubmit: SubmitHandler<ShippingFormValues> = async (data) => {
         if (!stripe || !elements || cart.length === 0) {
           return;
@@ -90,7 +132,6 @@ export default function CheckoutPage() {
              return;
         }
         
-        // 1. Créer le PaymentMethod côté client
         const { error: paymentMethodError, paymentMethod } = await stripe.createPaymentMethod({
             type: 'card',
             card: cardElement,
@@ -111,7 +152,6 @@ export default function CheckoutPage() {
             return;
         }
 
-        // 2. Appeler l'API backend pour créer et confirmer le PaymentIntent
         try {
             const response = await fetch('/api/create-payment-intent', {
                 method: 'POST',
@@ -130,7 +170,6 @@ export default function CheckoutPage() {
                 return;
             }
             
-            // 3. Gérer les actions supplémentaires (ex: 3D Secure)
             if (paymentResult.requiresAction && paymentResult.clientSecret) {
                  toast({
                     title: "Authentification requise",
@@ -151,14 +190,15 @@ export default function CheckoutPage() {
                  }
             }
             
-            // 4. Paiement réussi
+            // Paiement réussi
+            await saveOrder();
+
             toast({
                 title: "Paiement réussi !",
                 description: "Votre commande a été passée avec succès.",
             });
             
             clearCart();
-            // Optionnel : Rediriger vers une page de confirmation
             router.push('/account/orders'); 
 
         } catch (error) {
