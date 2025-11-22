@@ -198,18 +198,27 @@
   "orders_page": {
     "title": "Meine Bestellungen",
     "description": "Überprüfen Sie den Verlauf Ihrer Bestellungen.",
-    "no_orders": "Sie haben noch keine Bestellungen aufgegeben."
+    "no_orders": "Sie haben noch keine Bestellungen aufgegeben.",
+    "order_id": "Bestellung",
+    "quantity": "Menge"
   },
   "profile_page": {
     "title": "Profil",
     "description": "Verwalten Sie Ihre Kontoinformationen.",
-    "coming_soon": "Die Profilverwaltung wird in Kürze verfügbar sein."
+    "coming_soon": "Die Profilverwaltung wird in Kürze verfügbar sein.",
+    "first_name": "Vorname",
+    "last_name": "Nachname",
+    "save_button": "Änderungen speichern",
+    "update_success_title": "Profil aktualisiert",
+    "update_success_desc": "Ihre Informationen wurden erfolgreich gespeichert."
   },
   "account_layout": {
     "title": "Mein Konto",
     "profile": "Profil",
     "orders": "Meine Bestellungen",
-    "favorites": "Meine Favoriten"
+    "favorites": "Meine Favoriten",
+    "verification_required_title": "E-Mail-Verifizierung erforderlich",
+    "verification_required_desc": "Bitte bestätigen Sie Ihre E-Mail-Adresse, um auf Ihr Konto zuzugreifen. Ein Bestätigungslink wurde an Ihren Posteingang gesendet."
   },
   "faq": {
     "title": "Häufig gestellte Fragen",
@@ -281,7 +290,9 @@
       "favorite_removed_title": "Aus Favoriten entfernt",
       "favorite_removed_desc": "wurde aus Ihrer Favoritenliste entfernt.",
       "review_submitted_title": "Bewertung abgeschickt",
-      "review_submitted_desc": "Danke, dass Sie Ihre Erfahrung geteilt haben."
+      "review_submitted_desc": "Danke, dass Sie Ihre Erfahrung geteilt haben.",
+      "login_for_review_title": "Anmeldung erforderlich",
+      "login_for_review_desc": "Sie müssen angemeldet sein, um eine Bewertung abzugeben."
     }
   },
   "login_form": {
@@ -311,7 +322,7 @@
     "already_have_account": "Haben Sie bereits ein Konto?",
     "login_link": "Anmelden",
     "success_title": "Konto erfolgreich erstellt",
-    "success_description": "Eine Bestätigungs-E-Mail wurde gesendet. Bitte überprüfen Sie Ihren Posteingang.",
+    "success_description": "Eine Bestätigungs-E-Mail wurde gesendet. Bitte überprüfen Sie Ihren Posteingang (oder die Terminal-Konsole im Entwicklermodus).",
     "error_email_in_use": "Diese E-Mail-Adresse wird bereits verwendet.",
     "error_generic": "Bei der Erstellung des Kontos ist ein Fehler aufgetreten.",
     "google_signup": "Mit Google anmelden"
@@ -537,134 +548,159 @@
       "description": "Ein modernes Stil-Statement. Dieser von Arbeitskleidung inspirierte Jumpsuit ist aus einem geschmeidigen Woll-Canvas geschnitten für einen Look, der sowohl schick als auch lässig ist.",
       "details": "Leichter Woll-Canvas. Verdeckter Reißverschluss. Passender Gürtel. Mehrere funktionale Taschen."
     },
-    "elegance_dress": {
-      "name": "'Himmlisches' Seidenkreppkleid",
-      "description": "Eine Ode an die Weiblichkeit. Dieses lange Kleid aus reinem Seidenkrepp schwebt bei jedem Schritt. Sein drapierter Ausschnitt und der dezente offene Rücken machen es zu einem unvergesslichen Stück.",
-      "details": "100% Seidenkrepp. Fließender, schräger Schnitt. Seidenfutter. Nur chemische Spezialreinigung."
+    "gucci_silk_dress": {
+      "name": "Gucci Seidenkleid mit Schleifenprint",
+      "description": "Mehrfarbiges Seiden-Midikleid mit Schleifenprint, langen Puffärmeln, Schalkragen und Knopfverschluss hinten. 100 % Seidenstoff, fließender und femininer Schnitt.",
+      "details": "100 % Seidenstoff, fließender Schnitt. Professionelle chemische Reinigung empfohlen."
     },
-    "madame_suit": {
-      "name": "'Signature' Tweed-Kostüm",
-      "description": "Die Verkörperung des Pariser Chics. Eine kurze Jacke und ein gerader Rock aus exklusivem französischen Tweed, veredelt mit schmuckähnlichen Knöpfen.",
-      "details": "Exklusiver französischer Tweed. Kurze Jacke und gerader Rock. Vollständiges Seidensatinfutter. Vergoldete Knöpfe."
+    "dior_blazer_dress": {
+      "name": "Dior Blazer-Kleid aus Woll-Seiden-Gabardine",
+      "description": "Mittellanges Blazer-Kleid aus Woll-Seiden-Gabardine gefertigt. Strukturierter Schnitt, definierte Schultern, taillierter Gürtel. Erweckt einen sehr schicken professionellen Stil.",
+      "details": "Schurwoll- und Seidengabardine. Strukturierter Schnitt. Nur chemische Reinigung."
     },
-    "rosee_blouse": {
-      "name": "'Geheimer Garten' Calais-Spitzenbluse",
-      "description": "Ein Schatz der Zartheit. Gefertigt aus authentischer Calais-Caudry®-Spitze, ist diese hochgeschlossene Bluse ein Meisterwerk französischer Handwerkskunst.",
-      "details": "Authentische Calais-Caudry®-Spitze. Kommt mit passendem Seidentop. Rückenverschluss mit kleinen überzogenen Knöpfen."
+    "dior_poplin_dress": {
+      "name": "Dior Popeline-Kleid aus Baumwolle/Seide mit Gürtel",
+      "description": "Mittellanges Kleid aus leichtem Baumwoll- und Seidenpopeline, taillierter Schnitt, lange Ärmel, klares Design. Perfekter Cocktail aus Komfort und Eleganz.",
+      "details": "Baumwoll- und Seidenpopeline. Abnehmbarer Gürtel. Schonwaschgang."
     },
-    "velours_coat": {
-      "name": "'Umarmung' Suri-Alpaka-Mantel",
-      "description": "Ein Kokon aus luxuriöser Weichheit. Das lange, seidige Haar des Suri-Alpakas verleiht diesem Bademantelmantel außergewöhnliche Wärme und Leichtigkeit. Passender Gürtel.",
-      "details": "100% peruanisches Suri-Alpaka. Ungefüttert, handgenähte Abschlüsse. Bademantelschnitt mit abnehmbarem Gürtel."
+    "dior_oblique_dress": {
+      "name": "Dior Oblique-Muster fließendes Kleid",
+      "description": "Leichtes Denim-Kleid mit Oblique-Muster, fließendem Schnitt, asymmetrischem Kragen, exklusiver Dior-Stoff.",
+      "details": "Exklusiver leichter Dior-Denim. Fließender Schnitt. Chemische Reinigung empfohlen."
     },
-    "constellation_dress": {
-      "name": "'Sternennacht' Abendkleid",
-      "description": "Fangen Sie das Licht ein. Komplett von Hand mit Perlen und Kristallen auf Seidentüll bestickt, ist dieses Abendkleid ein wahres Kunstwerk.",
-      "details": "Handbestickter Seidentüll mit Perlen und Kristallen. Erfordert Hunderte von Arbeitsstunden. Einzelanfertigung auf Bestellung."
+    "dior_shirt_dress": {
+      "name": "Dior schwarzes Popeline-Hemdkleid",
+      "description": "Einfaches Hemdkleid aus Baumwoll- und Seidenpopeline, gerader Schnitt, klassischer Kragen, lange Ärmel, minimalistische Eleganz.",
+      "details": "Baumwoll- und Seidenpopeline. Gerader Schnitt. Kann mit einem Gürtel getragen werden."
     },
-    "lueur_top": {
-      "name": "'Göttlicher Drapé' Seidensatin-Top",
-      "description": "Vergrößerte Einfachheit. Ein schlichtes Top aus schwerem Seidensatin mit einem Wasserfallausschnitt, der mit unendlicher Anmut fällt.",
-      "details": "100% schwerer Seidensatin. Schrägschnitt für einen perfekten Fall. Dünne Träger."
+    "dior_tweed_dress": {
+      "name": "Dior Macrocannage-Tweed-Kleid",
+      "description": "Kurzes Kleid aus grauem Tweed mit Macrocannage-Muster, Woll- und Seidenmischung, gerader Schnitt, strukturierte Silhouette.",
+      "details": "Woll- und Seidentweed. Macrocannage-Muster. Nur chemische Reinigung."
     },
-    "etoile_jeans": {
-      "name": "'Der Pariser' Slim Jeans",
-      "description": "Die perfekte Slim Jeans. Geschnitten aus hochwertigem italienischem Stretch-Denim, formt sie das Bein, ohne einzuengen, für eine schlanke und bequeme Silhouette.",
-      "details": "Italienischer Stretch-Denim. Mittlere Leibhöhe. Dezente handgemachte Waschung."
+    "armani_silk_top": {
+      "name": "Armani Seidentop",
+      "description": "Fließendes Seidentop, dünne Träger, fließender Schnitt, Satin-Finish. Ideal für elegante Tag- und Nachtlooks.",
+      "details": "100 % Seide. Verstellbare dünne Träger. Handwäsche empfohlen."
     },
-    "sculpt_dress": {
-      "name": "'Architektonisches' Technisches Jersey-Kleid",
-      "description": "Eine skulpturale zweite Haut. Dieses Midi-Etuikleid aus italienischem technischem Jersey schmiegt sich an die Figur an und betont sie, ohne jemals einzuengen. Ein modernes und kraftvolles Stück.",
-      "details": "Hochleistungsfähiges italienisches technisches Jersey. Etuikleid-Schnitt, Midi-Länge. Unsichtbarer Reißverschluss hinten."
+    "armani_cotton_shirt": {
+      "name": "Armani ägyptisches Baumwollhemd",
+      "description": "Luxushemd aus ägyptischem Baumwollpopeline, gerader Schnitt, italienischer Kragen, dezente Knöpfe, sauberes Finish.",
+      "details": "100 % ägyptische Baumwolle. Italienischer Kragen. Perlmuttknöpfe."
     },
-    "noir_chic_jumpsuit": {
-      "name": "'St-Germain' Krepp-Jumpsuit",
-      "description": "Die moderne Alternative zum kleinen Schwarzen. Ein tadellos geschnittener Jumpsuit aus schwerem Krepp mit weiten Beinen und definierter Taille.",
-      "details": "Krepp-Satin. Weite Beine. Abnehmbarer Gürtel. Wickelausschnitt."
+    "armani_wool_trousers": {
+      "name": "Giorgio Armani maßgeschneiderte Wollhose",
+      "description": "Maßgeschneiderte Hose aus Schurwolle, Zigarettenschnitt, hohe Taille, scharfe Falten, bequemes Futter.",
+      "details": "100 % Schurwolle. Zigarettenschnitt. Chemische Reinigung."
     },
-    "ballet_skirt": {
-      "name": "'Oper' Sonnenplissee-Tüllrock",
-      "description": "Leichtigkeit und Bewegung. Dieser lange Rock besteht aus mehreren Lagen sonnenplissiertem Tüll, was ein luftiges und poetisches Volumen erzeugt.",
-      "details": "Feiner sonnenplissierter Tüll. Ripsband-Bund. Seidenkrepp-Futter."
+    "gucci_premium_jeans": {
+      "name": "Gucci Premium-Jeans",
+      "description": "Hochwertige Jeans aus Premium-Qualitätsdenim, schmale Passform, charakteristische Logo- oder Stickereidetails, urbaner Luxus-Stil.",
+      "details": "Premium-Qualitätsdenim. Gucci-charakteristische Details. Maschinenwäsche."
     },
-    "seraphine_sweater": {
-      "name": "'Gelassenheit' Lochstrick-Kaschmirpullover",
-      "description": "Ein exquisit feiner Strick. Dieser U-Boot-Ausschnitt-Pullover ist aus ultraleichtem Kaschmir mit zarter Lochstrickerei gefertigt, die die Haut dezent enthüllt.",
-      "details": "100% 2-fädiger Kaschmir. Lochstrick. Leicht lockere Passform."
+    "burberry_wool_coat": {
+      "name": "Burberry langer Wollmantel",
+      "description": "Trenchcoat, der in einen langen Mantel verwandelt wurde, schwere Wolle, sauberes Futter, klassischer Burberry-Schnitt, praktische Taschen.",
+      "details": "Schwere Wolle. Burberry-Check-Futter. Chemische Reinigung."
     },
-    "chic_urbain_jacket": {
-      "name": "'Rive Gauche' Bouclé-Tweed-Jacke",
-      "description": "Ein zeitloses Stück französischen Chics. Gewebt aus einem Woll- und Baumwoll-Bouclé, zeichnet sich diese kurze Jacke durch ihre geflochtenen Borten und Schmuckknöpfe aus.",
-      "details": "Bouclé-Tweed. Vier aufgesetzte Taschen. Handgeflochtene Borten. Seidenfutter."
+    "saint_laurent_leather_jacket": {
+      "name": "Saint Laurent Lammlederjacke",
+      "description": "Bikerjacke aus glattem Lammleder, taillierter Schnitt, Metallreißverschlüsse, breiter Kragen, rockig-schicker Stil.",
+      "details": "100 % Lammleder. Metallreißverschlüsse. Spezialisierte Lederpflege."
     },
-    "veloute_dress": {
-      "name": "'Kutsche' Seidensamt-Kleid",
-      "description": "Für einen spektakulären Auftritt. Dieses lange Kleid aus Devoré-Seidensamt spielt mit Transparenz für einen glamourösen und geheimnisvollen Effekt. Hoher Beinschlitz.",
-      "details": "Devoré-Seidensamt. Teilfutter. Seitenschlitz. Dünne, im Rücken gekreuzte Träger."
+    "cucinelli_cashmere_sweater": {
+      "name": "Brunello Cucinelli Kaschmirpullover",
+      "description": "Ultraweicher Pullover aus hochwertigem Kaschmir, leicht übergroßer Schnitt, luxuriöse Oberflächen, handwerkliche Strickerei.",
+      "details": "100 % Kaschmir. Handwerkliche Strickerei. Handwäsche empfohlen."
     },
-    "poeme_blouse": {
-      "name": "'Impressionistische' Seidentwill-Bluse",
-      "description": "Ein Meisterwerk zum Tragen. Diese Bluse ist mit einem exklusiven Blumenmuster auf einem prächtigen Seidentwill bedruckt, mit einem Lavallière-Kragen zum Binden.",
-      "details": "100% Seidentwill. Exklusiver Druck. Lavallière-Kragen. Geknöpfte Manschetten."
+    "miu_miu_pleated_dress": {
+      "name": "Miu Miu plissiertes Kleid",
+      "description": "Plissiertes Midikleid aus leichtem Stoff, fließender Schnitt, dünne Träger, feminines und jugendliches Design.",
+      "details": "Leichter plissierter Stoff. Dünne Träger. Chemische Reinigung."
     },
-    "palace_coat": {
-      "name": "'Majestätischer' Webpelzmantel",
-      "description": "Hollywood-Glamour. Ein opulenter Mantel aus Webpelz von atemberaubender Qualität und Weichheit. Übergroßes Volumen und ein großer Schalkragen.",
-      "details": "Hochwertiger Webpelz. Übergroßer Schnitt. Unsichtbarer Hakenverschluss. Satinfutter."
+    "chloe_muslin_blouse": {
+      "name": "Chloé Musselin-Bluse",
+      "description": "Seidenmusselin-Bluse, Ballonärmel, Lavallière-Kragen, zarte Transparenz, bohemianisch-romantisch.",
+      "details": "Seidenmusselin. Ballonärmel. Schalkragen."
     },
-    "soutien_briefs": {
-      "name": "'Zweite Haut' Mikrofaser-Body",
-      "description": "Unsichtbare Perfektion. Dieser nahtlose Body aus ultrafeiner Mikrofaser glättet und formt die Silhouette diskret unter den engsten Kleidern.",
-      "details": "Nahtlose technische Mikrofaser. Leichter Formeffekt. Druckknopfverschluss im Schritt."
+    "valentino_embroidered_dress": {
+      "name": "Valentino besticktes Tüllkleid",
+      "description": "Besticktes Tüll-Abendkleid, große Blumen, ausgestellter Schnitt, Tüllschichten, sehr romantisch und Couture.",
+      "details": "Bestickter Tüll. Seidenfutter. Couture-Reinigung."
     },
-    "maison_cardigan": {
-      "name": "'Sonntag' Englischer Rippen-Cardigan",
-      "description": "Der ideale Begleiter für Ihre entspannten Momente. Ein langer, umhüllender Cardigan, gestrickt in einer groben englischen Rippe aus einer Mischung aus Wolle und Alpaka.",
-      "details": "Woll- und Alpakamischung. Englischer Rippenstrick. Ohne Knöpfe. Aufgesetzte Taschen."
+    "burberry_gabardine_trench": {
+      "name": "Burberry Baumwoll-Gabardine-Trenchcoat",
+      "description": "Klassischer Trenchcoat aus Baumwoll-Gabardine, taillierter Gürtel, ikonisches Check-Futter, zeitloser Schnitt.",
+      "details": "Baumwoll-Gabardine. Check-Futter. Chemische Reinigung."
     },
-    "matin_dress": {
-      "name": "'Wochenende' Popeline-Hemdblusenkleid",
-      "description": "Müheloser Chic. Ein perfekt geschnittenes Hemdblusenkleid aus Stretch-Baumwoll-Popeline, das gegürtet werden kann, um die Taille zu betonen, oder gerade getragen für einen lässigeren Look.",
-      "details": "Stretch-Baumwoll-Popeline. Abnehmbarer Gürtel. In den Nähten versteckte Taschen."
+    "bottega_veneta_leather_skirt": {
+      "name": "Bottega Veneta Leder-Midirock",
+      "description": "Midirock aus geschmeidigem Leder, hohe Taille, gerader Schnitt, glattes Finish, moderne Eleganz.",
+      "details": "Geschmeidiges Lammleder. Spezialisierte Lederpflege."
     },
-    "ete_rive_shorts": {
-      "name": "'Saint-Tropez' Herzogin-Satin-Shorts",
-      "description": "Ein Couture-Look für den Sommer. Diese hoch taillierten Bundfalten-Shorts sind aus einem Herzogin-Satin geschnitten, der ihnen außergewöhnlichen Halt und Glanz verleiht.",
-      "details": "Herzogin-Satin. Hohe Taille und Bundfalten. Italienische Taschen. Aufschläge."
+    "prada_silk_jumpsuit": {
+      "name": "Prada Seidenjumpsuit",
+      "description": "Fließender Seidenjumpsuit, dünne Träger, V-Ausschnitt, weite Hosenbeine, unisex-chic.",
+      "details": "100 % Seide. Weites Bein. Chemische Reinigung."
     },
-    "nuit_opera_pyjamas": {
-      "name": "'Träumerei' Seiden- und Spitzen-Pyjama-Set",
-      "description": "Auch die Nacht verdient Eleganz. Ein Cami- und Shorts-Set aus Seidensatin, zart mit Calais-Spitze am Ausschnitt und Saum besetzt.",
-      "details": "Seidensatin und Calais-Spitze. Verstellbare Träger. Shorts mit elastischem Bund."
+    "chanel_tweed_vest": {
+      "name": "Chanel ärmellose Tweed-Weste",
+      "description": "Ärmellose maßgeschneiderte Weste aus Tweed, perlenbesetzte Kanten, aufgesetzte Taschen, beständiger „Chanel“-Chic-Stil.",
+      "details": "Ikonischer Chanel-Tweed. Perlenoberflächen. Couture-Reinigung."
     },
-    "pluie_de_paris_trench": {
-      "name": "'Pariser' Fließender Gabardine-Trenchcoat",
-      "description": "Eine moderne und feminine Version des Trenchcoats. Sein fließender Baumwoll-Gabardine und der geschmeidige Schnitt verleihen ihm einen weniger strengen, zeitgemäßeren Look.",
-      "details": "Baumwoll- und Tencel-Gabardine. Ungefüttert für mehr Fließfähigkeit. Sturmklappe und abnehmbarer Gürtel."
+    "stella_mccartney_wrap_dress": {
+      "name": "Stella McCartney Krepp-Wickelkleid",
+      "description": "Wickelkleid aus fließendem Krepp, Bindegürtel, V-Ausschnitt, schmeichelnder Schnitt, nachhaltiges Design.",
+      "details": "Nachhaltiger fließender Krepp. Bindegürtel. Maschinenwäsche."
     },
-    "executive_dress": {
-      "name": "'Working Girl' Kühles Wollkleid",
-      "description": "Die Uniform der Powerfrau. Dieses Etuikleid ist aus knitterarmer kühler Wolle geschneidert, mit einem U-Boot-Ausschnitt und 3/4-Ärmeln.",
-      "details": "Super 110s kühle Wolle. Taillierter Schnitt. Vollständig gefüttert. Schlitz hinten für Bewegungsfreiheit."
+    "balmain_luxe_sweatshirt": {
+      "name": "Balmain Luxus-Baumwoll-Sweatshirt",
+      "description": "Sweatshirt mit strukturiertem Schnitt, dicke Baumwolle, dezentes Balmain-Logo, Raglanärmel, feiner Rippsaum.",
+      "details": "Dicke Baumwolle. Dezentes Logo. Maschinenwäsche."
     },
-    "sculpture_top": {
-      "name": "'Gala' Seidenfaille-Bustier",
-      "description": "Ein architektonisches Stück. Dieses Bustier ist mit inneren Stäbchen strukturiert und aus einem steifen Seidenfaille geschnitten für eine Haute-Couture-Silhouette.",
-      "details": "Seidenfaille. Innere Struktur mit Stäbchen. Reißverschluss hinten."
+    "valentino_silk_tunic": {
+      "name": "Valentino Wildseidentunika",
+      "description": "Weite Tunika aus Wildseide, 3/4-Ärmel, U-Boot-Ausschnitt, fließender Fall, natürliche Eleganz.",
+      "details": "100 % Wildseide. Weite Passform. Chemische Reinigung."
     },
-    "voyage_parka": {
-      "name": "'Nebel' Technischer Nylon-Regencape",
-      "description": "Eleganz im Regen. Ein weiter und ultraleichter Cape aus japanischem technischem Nylon, der sich in eine kleine Tasche falten lässt. Perfekt für Reisen.",
-      "details": "Wasserdichtes japanisches technisches Nylon. Verschweißte Nähte. Kapuze und weiter Schnitt."
+    "max_mara_wool_shorts": {
+      "name": "Max Mara maßgeschneiderte Wollshorts",
+      "description": "Maßgeschneiderte Shorts aus einer Wollmischung, hohe Taille, vordere Falten, sauberer Saum, perfekt für einen schicken Sommerlook.",
+      "details": "Wollmischung. Hohe Taille. Chemische Reinigung."
     },
-    "aube_dress": {
-      "name": "'Morgenröte' Asymmetrisches Kleid",
-      "description": "Eine Skulptur aus Stoff. Dieses Cocktailkleid aus Krepp spielt mit Drapierungen und einem asymmetrischen One-Shoulder-Schnitt für einen spektakulären und modernen Effekt.",
-      "details": "Krepp-Satin. Asymmetrischer Schnitt. Handdrapiert."
+    "oscar_de_la_renta_bustier_dress": {
+      "name": "Oscar de la Renta besticktes Bustierkleid",
+      "description": "Bustier-Ballkleid, Blumenstickerei, voller Taffrock, glamouröser Couture-Schnitt.",
+      "details": "Taft und Blumenstickerei. Couture-Reinigung."
+    },
+    "givenchy_satin_shirt": {
+      "name": "Givenchy Satinhemd",
+      "description": "Fließendes Satinhemd, lockere Passform, klassischer Kragen, dezente Knöpfe, minimalistisch-chic.",
+      "details": "Fließender Satin. Lockere Passform. Schonwäsche."
+    },
+    "the_row_cashmere_cardigan": {
+      "name": "The Row feiner Kaschmir-Cardigan",
+      "description": "Luxuriöser Kaschmir-Cardigan, sauberer Schnitt, Perlmuttknöpfe, dezentes und sehr hochwertiges Design.",
+      "details": "100 % Kaschmir. Perlmuttknöpfe. Handwäsche."
+    },
+    "valentino_palazzo_pants": {
+      "name": "Valentino Seiden-Palazzohose",
+      "description": "Palazzohose aus leichter Seide, elastischer Bund, fließender Schnitt, für maximalen Komfort und Eleganz.",
+      "details": "Leichte 100 % Seide. Elastischer Bund. Chemische Reinigung."
+    },
+    "balenciaga_silk_jersey_tshirt": {
+      "name": "Balenciaga Luxus-Seidenjersey-T-Shirt",
+      "description": "Übergroßes T-Shirt aus Seidenjersey, Rundhalsausschnitt, kurze Ärmel, fließender Fall, moderner „stiller Luxus“-Stil.",
+      "details": "Seidenjersey. Übergroße Passform. Schonwäsche."
+    },
+    "cucinelli_wool_cape": {
+      "name": "Brunello Cucinelli Woll- & Kaschmir-Cape",
+      "description": "Hochwertiges Cape aus einer Woll- und Kaschmirmischung, weiter Schnitt, unsichtbare Taschen, handwerkliches Finish.",
+      "details": "Woll- und Kaschmirmischung. Handwerkliches Finish. Chemische Reinigung."
     },
     "ezential_bag": {
-      "name": "'Der Alltag' Taurillon-Ledertasche",
-      "description": "Funktionaler Luxus. Diese Schultertasche aus französischem Taurillon-Leder ist ebenso geschmeidig wie langlebig. Ihre zahlreichen Fächer machen sie zum idealen Alltagsbegleiter.",
+      "name": "'Der Daily' Taurillon-Leder-Tasche",
+      "description": "Funktioneller Luxus. Diese Umhängetasche aus französischem Taurillon-Leder ist ebenso geschmeidig wie langlebig. Ihre zahlreichen Fächer machen sie zum idealen täglichen Begleiter.",
       "details": "Französisches Taurillon-Leder. Wildlederfutter. Metallteile mit Palladium-Finish. Verstellbarer Schultergurt."
     },
     "lumi_clutch": {
@@ -673,13 +709,13 @@
       "details": "Messingstruktur. Swarovski-Kristalle. Juwelenschließe. Abnehmbare Kette."
     },
     "carte_prime_holder": {
-      "name": "'Der Minimalist' Epsom-Leder-Kartenetui",
-      "description": "Das Wesentliche, mit Eleganz. Hergestellt aus Epsom-Kalbsleder, bekannt für seine Widerstandsfähigkeit, passt dieses schlanke Kartenetui in jede Tasche.",
+      "name": "'Der Minimalist' Epsom-Leder-Kartenhalter",
+      "description": "Das Wesentliche, mit Eleganz. Hergestellt aus Epsom-Kalbsleder, bekannt für seine Widerstandsfähigkeit, passt dieser schlanke Kartenhalter in jede Tasche.",
       "details": "Epsom-Kalbsleder. Drei Kartenfächer. Mittleres Fach. Handbemalte Kanten."
     },
     "finesse_belt": {
       "name": "'Der Reiz' Eidechsenleder-Gürtel",
-      "description": "Das Detail, das alles verändert. Ein dünner Gürtel aus echtem Eidechsenleder mit einer dezenten Schnalle aus palladiumbeschichtetem Messing. Ein subtiler Luxus.",
+      "description": "Das Detail, das alles verändert. Ein dünner Gürtel aus echtem Eidechsenleder, mit einer dezenten Schnalle aus palladiumbeschichtetem Messing. Ein subtiler Luxus.",
       "details": "Echtes Eidechsenleder. Kalbslederfutter. Schnalle aus Messing mit Palladium-Finish."
     },
     "minit_bag": {
@@ -689,7 +725,7 @@
     },
     "horizon_sunglasses": {
       "name": "'Aviator' Titan- und Gold-Sonnenbrille",
-      "description": "Eine Ikone neu interpretiert. Ultraleichter Rahmen aus japanischem Titan mit 18-karätig vergoldeten Details. Polarisierte Gläser für perfekte Sicht.",
+      "description": "Eine Ikone neu interpretiert. Ultraleichter Rahmen aus japanischem Titan, mit 18-karätig vergoldeten Details. Polarisierte Gläser für perfekte Sicht.",
       "details": "Titanrahmen. 18-karätige Vergoldung. Polarisierte Gläser mit Antireflexbeschichtung."
     },
     "nuit_scarf": {
@@ -844,4 +880,3 @@
     }
   }
 }
-    

@@ -198,18 +198,27 @@
   "orders_page": {
     "title": "My Orders",
     "description": "Check the history of your orders.",
-    "no_orders": "You have not placed any orders yet."
+    "no_orders": "You have not placed any orders yet.",
+    "order_id": "Order",
+    "quantity": "Quantity"
   },
   "profile_page": {
     "title": "Profile",
     "description": "Manage your account information.",
-    "coming_soon": "Profile management will be available soon."
+    "coming_soon": "Profile management will be available soon.",
+    "first_name": "First Name",
+    "last_name": "Last Name",
+    "save_button": "Save Changes",
+    "update_success_title": "Profile Updated",
+    "update_success_desc": "Your information has been saved successfully."
   },
   "account_layout": {
     "title": "My Account",
     "profile": "Profile",
     "orders": "My Orders",
-    "favorites": "My Favorites"
+    "favorites": "My Favorites",
+    "verification_required_title": "Email Verification Required",
+    "verification_required_desc": "Please verify your email address to access your account. A verification link has been sent to your inbox."
   },
   "faq": {
     "title": "Frequently Asked Questions",
@@ -281,7 +290,9 @@
       "favorite_removed_title": "Removed from favorites",
       "favorite_removed_desc": "has been removed from your favorites list.",
       "review_submitted_title": "Review submitted",
-      "review_submitted_desc": "Thank you for sharing your experience."
+      "review_submitted_desc": "Thank you for sharing your experience.",
+      "login_for_review_title": "Login Required",
+      "login_for_review_desc": "You must be logged in to leave a review."
     }
   },
   "login_form": {
@@ -311,9 +322,10 @@
     "already_have_account": "Already have an account?",
     "login_link": "Log in",
     "success_title": "Account created successfully",
-    "success_description": "A verification email has been sent. Please check your inbox.",
+    "success_description": "A verification email has been sent. Please check your inbox (or the terminal console in dev mode).",
     "error_email_in_use": "This email address is already in use.",
-    "error_generic": "An error occurred while creating the account."
+    "error_generic": "An error occurred while creating the account.",
+    "google_signup": "Sign up with Google"
   },
   "ai_stylist": {
     "title": "Your Personal AI Stylist",
@@ -536,130 +548,155 @@
       "description": "A modern style statement. This workwear-inspired jumpsuit is cut from a supple wool canvas for a look that is both chic and casual.",
       "details": "Lightweight wool canvas. Concealed zip fastening. Matching belt. Multiple functional pockets."
     },
-    "elegance_dress": {
-      "name": "'Celestial' Silk Crepe Gown",
-      "description": "An ode to femininity. This long gown in pure silk crepe floats with every step. Its draped neckline and subtle open back make it an unforgettable piece.",
-      "details": "100% Silk Crepe. Fluid, bias cut. Silk lining. Specialist dry clean only."
+    "gucci_silk_dress": {
+      "name": "Gucci Ribbon Print Silk Dress",
+      "description": "Multicolor silk midi dress with ribbon print, long puff sleeves, tie-neck collar, and back button fastening. 100% silk fabric, fluid and feminine cut.",
+      "details": "100% silk fabric, fluid cut. Professional dry clean recommended."
     },
-    "madame_suit": {
-      "name": "'Signature' Tweed Suit",
-      "description": "The epitome of Parisian chic. A short jacket and a straight skirt crafted from an exclusive French tweed, enhanced with jewel-like buttons.",
-      "details": "Exclusive French tweed. Short jacket and straight skirt. Full silk satin lining. Gold-plated buttons."
+    "dior_blazer_dress": {
+      "name": "Dior Wool-Silk Gabardine Blazer Dress",
+      "description": "Mid-length blazer dress crafted in wool-silk gabardine. Structured cut, defined shoulders, belted waist. Evokes a very chic professional style.",
+      "details": "Virgin wool and silk gabardine. Structured cut. Dry clean only."
     },
-    "rosee_blouse": {
-      "name": "'Secret Garden' Calais Lace Blouse",
-      "description": "A treasure of delicacy. Made from authentic Calais-Caudry® lace, this high-necked blouse is a masterpiece of French craftsmanship.",
-      "details": "Authentic Calais-Caudry® Lace. Comes with a matching silk camisole. Back fastening with small covered buttons."
+    "dior_poplin_dress": {
+      "name": "Dior Cotton/Silk Poplin Belted Dress",
+      "description": "Mid-length dress in lightweight cotton and silk poplin, belted cut, long sleeves, clean design. Perfect cocktail of comfort and elegance.",
+      "details": "Cotton and silk poplin. Removable belt. Gentle machine wash."
     },
-    "velours_coat": {
-      "name": "'Embrace' Suri Alpaca Coat",
-      "description": "A cocoon of luxurious softness. The long, silky hair of the Suri alpaca gives this robe coat exceptional warmth and lightness. Matching belt.",
-      "details": "100% Peruvian Suri Alpaca. Unlined, hand-sewn finishes. Robe cut with removable belt."
+    "dior_oblique_dress": {
+      "name": "Dior Oblique Pattern Fluid Dress",
+      "description": "Lightweight denim dress with Oblique pattern, fluid cut, asymmetrical collar, exclusive Dior fabric.",
+      "details": "Exclusive Dior lightweight denim. Fluid cut. Dry clean recommended."
     },
-    "constellation_dress": {
-      "name": "'Starry Night' Evening Gown",
-      "description": "Capture the light. Entirely hand-embroidered with beads and crystals on silk tulle, this evening gown is a true work of art.",
-      "details": "Hand-embroidered silk tulle with beads and crystals. Requires hundreds of hours of work. Made-to-order unique piece."
+    "dior_shirt_dress": {
+      "name": "Dior Black Poplin Shirt Dress",
+      "description": "Simple shirt dress in cotton and silk poplin, straight cut, classic collar, long sleeves, minimalist elegance.",
+      "details": "Cotton and silk poplin. Straight cut. Can be worn with a belt."
     },
-    "lueur_top": {
-      "name": "'Divine Drape' Silk Satin Top",
-      "description": "Simplicity magnified. A simple top in heavy silk satin, with a cowl neck that cascades with infinite grace.",
-      "details": "100% Heavy Silk Satin. Bias cut for a perfect drape. Thin straps."
+    "dior_tweed_dress": {
+      "name": "Dior Macrocannage Tweed Dress",
+      "description": "Short dress in grey tweed with macrocannage pattern, wool and silk blend, straight cut, structured silhouette.",
+      "details": "Wool and silk tweed. Macrocannage pattern. Dry clean only."
     },
-    "etoile_jeans": {
-      "name": "'The Parisian' Slim Jean",
-      "description": "The perfect slim jean. Cut from high-quality Italian stretch denim, it sculpts the leg without constricting, for a slender and comfortable silhouette.",
-      "details": "Italian stretch denim. Mid-rise waist. Subtle hand-made wash."
+    "armani_silk_top": {
+      "name": "Armani Silk Top",
+      "description": "Fluid silk top, thin straps, fluid cut, satin finish. Ideal for elegant day-to-night looks.",
+      "details": "100% silk. Adjustable thin straps. Hand wash recommended."
     },
-    "sculpt_dress": {
-      "name": "'Architectural' Technical Jersey Dress",
-      "description": "A sculptural second skin. This midi sheath dress in Italian technical jersey hugs and enhances the figure without ever constricting. A modern and powerful piece.",
-      "details": "High-performance Italian technical jersey. Sheath cut, midi length. Invisible back zip closure."
+    "armani_cotton_shirt": {
+      "name": "Armani Egyptian Cotton Shirt",
+      "description": "Luxury shirt in Egyptian cotton poplin, straight cut, Italian collar, discreet buttons, clean finish.",
+      "details": "100% Egyptian cotton. Italian collar. Mother-of-pearl buttons."
     },
-    "noir_chic_jumpsuit": {
-      "name": "'St-Germain' Crepe Jumpsuit",
-      "description": "The modern alternative to the little black dress. An impeccably cut jumpsuit in heavy crepe, with wide legs and a defined waist.",
-      "details": "Crepe back satin. Wide legs. Removable belt. Wrap-over neckline."
+    "armani_wool_trousers": {
+      "name": "Giorgio Armani Wool Tailored Trousers",
+      "description": "Tailored trousers in virgin wool, cigarette cut, high waist, sharp pleats, comfortable lining.",
+      "details": "100% virgin wool. Cigarette cut. Dry clean."
     },
-    "ballet_skirt": {
-      "name": "'Opera' Sunray Pleated Tulle Skirt",
-      "description": "Lightness and movement. This long skirt is made from several layers of sunray pleated tulle, creating an airy and poetic volume.",
-      "details": "Fine sunray pleated tulle. Grosgrain waistband. Silk crepe lining."
+    "gucci_premium_jeans": {
+      "name": "Gucci Premium Jeans",
+      "description": "High-end jeans in premium quality denim, slim fit, signature logo or embroidery details, urban-luxe style.",
+      "details": "Premium quality denim. Gucci signature details. Machine wash."
     },
-    "seraphine_sweater": {
-      "name": "'Serenity' Openwork Cashmere Sweater",
-      "description": "An exquisitely fine knit. This boat-neck sweater is made from ultra-light cashmere with delicate openwork, subtly revealing the skin.",
-      "details": "100% 2-ply Cashmere. Openwork knit. Slightly loose fit."
+    "burberry_wool_coat": {
+      "name": "Burberry Long Wool Coat",
+      "description": "Trench coat transformed into a long coat, heavy wool, neat lining, classic Burberry cut, practical pockets.",
+      "details": "Heavy wool. Burberry check lining. Dry clean."
     },
-    "chic_urbain_jacket": {
-      "name": "'Rive Gauche' Bouclé Tweed Jacket",
-      "description": "A timeless piece of French chic. Woven from a wool and cotton bouclé, this short jacket is distinguished by its braided trims and jewel buttons.",
-      "details": "Bouclé tweed. Four patch pockets. Hand-braided trims. Silk lining."
+    "saint_laurent_leather_jacket": {
+      "name": "Saint Laurent Lambskin Leather Jacket",
+      "description": "Biker jacket in smooth lambskin, fitted cut, metal zips, wide collar, rock-chic style.",
+      "details": "100% lambskin. Metal zips. Specialist leather care."
     },
-    "veloute_dress": {
-      "name": "'Carrosse' Silk Velvet Gown",
-      "description": "For a spectacular entrance. This long gown in devoré silk velvet plays with transparency for a glamorous and mysterious effect. High thigh slit.",
-      "details": "Devoré silk velvet. Partial lining. Side slit. Thin criss-cross back straps."
+    "cucinelli_cashmere_sweater": {
+      "name": "Brunello Cucinelli Cashmere Sweater",
+      "description": "Ultra-soft sweater in high-end cashmere, slightly oversized cut, luxurious finishes, artisanal knit.",
+      "details": "100% cashmere. Artisanal knit. Hand wash recommended."
     },
-    "poeme_blouse": {
-      "name": "'Impressionist' Silk Twill Blouse",
-      "description": "A masterpiece to wear. This blouse is printed with an exclusive floral pattern on a sumptuous silk twill, with a lavallière collar to tie.",
-      "details": "100% Silk Twill. Exclusive print. Lavallière collar. Buttoned cuffs."
+    "miu_miu_pleated_dress": {
+      "name": "Miu Miu Pleated Dress",
+      "description": "Pleated midi dress in lightweight fabric, fluid cut, thin straps, feminine and youthful design.",
+      "details": "Lightweight pleated fabric. Thin straps. Dry clean."
     },
-    "palace_coat": {
-      "name": "'Majestic' Faux Fur Coat",
-      "description": "Hollywood glamour. An opulent coat in faux fur of stunning quality and softness. Oversized volume and a large shawl collar.",
-      "details": "High-quality faux fur. Oversized cut. Invisible hook closure. Satin lining."
+    "chloe_muslin_blouse": {
+      "name": "Chloé Muslin Blouse",
+      "description": "Silk muslin blouse, balloon sleeves, lavallière collar, delicate transparency, bohemian romantic.",
+      "details": "Silk muslin. Balloon sleeves. Tie-neck."
     },
-    "soutien_briefs": {
-      "name": "'Second Skin' Microfiber Bodysuit",
-      "description": "Invisible perfection. This seamless bodysuit in ultra-fine microfiber smoothes and sculpts the silhouette discreetly under the most fitted clothes.",
-      "details": "Seamless technical microfiber. Light sculpting effect. Snap fastening at the crotch."
+    "valentino_embroidered_dress": {
+      "name": "Valentino Embroidered Tulle Dress",
+      "description": "Embroidered tulle evening dress, large flowers, flared cut, layers of tulle, very romantic and couture.",
+      "details": "Embroidered tulle. Silk lining. Couture dry clean."
     },
-    "maison_cardigan": {
-      "name": "'Sunday' English Rib Cardigan",
-      "description": "The ideal companion for your moments of relaxation. A long, enveloping cardigan, knitted in a chunky English rib from a blend of wool and alpaca.",
-      "details": "Wool and alpaca blend. English rib knit. No buttons. Patch pockets."
+    "burberry_gabardine_trench": {
+      "name": "Burberry Cotton Gabardine Trench",
+      "description": "Classic trench in cotton gabardine, belted waist, iconic check lining, timeless cut.",
+      "details": "Cotton gabardine. Check lining. Dry clean."
     },
-    "matin_dress": {
-      "name": "'Weekend' Poplin Shirt Dress",
-      "description": "Effortless chic. A perfectly cut shirt dress in stretch cotton poplin, to be belted to define the waist or worn straight for a more relaxed look.",
-      "details": "Stretch cotton poplin. Removable belt. Pockets hidden in the seams."
+    "bottega_veneta_leather_skirt": {
+      "name": "Bottega Veneta Leather Midi Skirt",
+      "description": "Midi skirt in supple leather, high waist, straight cut, smooth finish, modern elegance.",
+      "details": "Supple lambskin. Specialist leather care."
     },
-    "ete_rive_shorts": {
-      "name": "'Saint-Tropez' Duchess Satin Shorts",
-      "description": "A couture look for summer. These high-waisted pleated shorts are cut from a duchess satin that gives them exceptional hold and sheen.",
-      "details": "Duchess satin. High waist and pleats. Italian pockets. Cuffs."
+    "prada_silk_jumpsuit": {
+      "name": "Prada Silk Jumpsuit",
+      "description": "Fluid silk jumpsuit, thin straps, V-neck, wide leg trousers, unisex chic.",
+      "details": "100% silk. Wide leg. Dry clean."
     },
-    "nuit_opera_pyjamas": {
-      "name": "'Reverie' Silk and Lace Pajama Set",
-      "description": "Even the night deserves elegance. A camisole and shorts set in silk satin, delicately inlaid with Calais lace on the neckline and hem.",
-      "details": "Silk satin and Calais lace. Adjustable straps. Shorts with elasticated waist."
+    "chanel_tweed_vest": {
+      "name": "Chanel Tweed Sleeveless Vest",
+      "description": "Sleeveless tailored vest in tweed, pearl-trimmed edges, patch pockets, enduring “Chanel” chic style.",
+      "details": "Iconic Chanel tweed. Pearl finishes. Couture dry clean."
     },
-    "pluie_de_paris_trench": {
-      "name": "'Parisian' Fluid Gabardine Trench",
-      "description": "A modern and feminine version of the trench coat. Its fluid cotton gabardine and supple cut give it a less strict, more contemporary look.",
-      "details": "Cotton and Tencel gabardine. Unlined for more fluidity. Storm flap and removable belt."
+    "stella_mccartney_wrap_dress": {
+      "name": "Stella McCartney Crepe Wrap Dress",
+      "description": "Wrap dress in fluid crepe, tie belt, V-neck, flattering cut, sustainable design.",
+      "details": "Sustainable fluid crepe. Tie belt. Machine wash."
     },
-    "executive_dress": {
-      "name": "'Working Girl' Cool Wool Dress",
-      "description": "The uniform of the power woman. This sheath dress is tailored from crease-resistant cool wool, with a boat neckline and 3/4 sleeves.",
-      "details": "Super 110s cool wool. Fitted cut. Fully lined. Slit at the back for ease of movement."
+    "balmain_luxe_sweatshirt": {
+      "name": "Balmain Luxe Cotton Sweatshirt",
+      "description": "Sweatshirt with a structured cut, thick cotton, discreet Balmain logo, raglan sleeves, fine ribbed hem.",
+      "details": "Thick cotton. Discreet logo. Machine wash."
     },
-    "sculpture_top": {
-      "name": "'Gala' Silk Faille Bustier",
-      "description": "An architectural piece. This bustier is structured with internal boning and cut from a stiff silk faille for a high-fashion silhouette.",
-      "details": "Silk faille. Internal structure with boning. Zip at the back."
+    "valentino_silk_tunic": {
+      "name": "Valentino Wild Silk Tunic",
+      "description": "Ample tunic in wild silk, 3/4 sleeves, boat neck, fluid drape, natural elegance.",
+      "details": "100% wild silk. Ample cut. Dry clean."
     },
-    "voyage_parka": {
-      "name": "'Mist' Technical Nylon Rain Cape",
-      "description": "Elegance in the rain. An ample and ultra-light cape in Japanese technical nylon, which folds into a small pouch. Perfect for travel.",
-      "details": "Waterproof Japanese technical nylon. Taped seams. Hood and ample cut."
+    "max_mara_wool_shorts": {
+      "name": "Max Mara Wool Tailored Shorts",
+      "description": "Tailored shorts in a wool blend, high waist, front pleats, neat hem, perfect for a chic summer look.",
+      "details": "Wool blend. High waist. Dry clean."
     },
-    "aube_dress": {
-      "name": "'Dawn' Asymmetrical Dress",
-      "description": "A sculpture of fabric. This cocktail dress in crepe plays on drapes and an asymmetrical one-shoulder cut for a spectacular and modern effect.",
-      "details": "Crepe back satin. Asymmetrical cut. Hand-draped."
+    "oscar_de_la_renta_bustier_dress": {
+      "name": "Oscar de la Renta Embroidered Bustier Gown",
+      "description": "Bustier ball gown, floral embroidery, full taffeta skirt, glamorous couture cut.",
+      "details": "Taffeta and floral embroidery. Couture dry clean."
+    },
+    "givenchy_satin_shirt": {
+      "name": "Givenchy Satin Shirt",
+      "description": "Fluid satin shirt, relaxed fit, classic collar, discreet buttons, minimalist chic.",
+      "details": "Fluid satin. Relaxed fit. Gentle wash."
+    },
+    "the_row_cashmere_cardigan": {
+      "name": "The Row Fine Cashmere Cardigan",
+      "description": "Luxurious cashmere cardigan, clean cut, mother-of-pearl buttons, discreet and very high-end design.",
+      "details": "100% cashmere. Mother-of-pearl buttons. Hand wash."
+    },
+    "valentino_palazzo_pants": {
+      "name": "Valentino Silk Palazzo Pants",
+      "description": "Palazzo pants in lightweight silk, elastic waist, fluid cut, for maximum comfort and elegance.",
+      "details": "Lightweight 100% silk. Elastic waist. Dry clean."
+    },
+    "balenciaga_silk_jersey_tshirt": {
+      "name": "Balenciaga Luxe Silk Jersey T-shirt",
+      "description": "Oversized t-shirt in silk jersey, round neck, short sleeves, fluid drape, modern “quiet luxury” style.",
+      "details": "Silk jersey. Oversized fit. Gentle wash."
+    },
+    "cucinelli_wool_cape": {
+      "name": "Brunello Cucinelli Wool & Cashmere Cape",
+      "description": "High-end cape in a wool and cashmere blend, ample cut, invisible pockets, artisanal finish.",
+      "details": "Wool and cashmere blend. Artisanal finish. Dry clean."
     },
     "ezential_bag": {
       "name": "'The Daily' Taurillon Leather Bag",
@@ -843,4 +880,3 @@
     }
   }
 }
-    

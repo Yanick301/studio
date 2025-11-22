@@ -53,7 +53,7 @@
       "title": "Exclusividad",
       "description": "Nuestras colecciones limitadas y piezas exclusivas le garantizan un estilo único que le distinguirá."
     }
-  },
+ },
   "home": {
     "trending_products": "Productos de Tendencia",
     "trending_description": "Las piezas más codiciadas de la temporada.",
@@ -198,18 +198,27 @@
   "orders_page": {
     "title": "Mis Pedidos",
     "description": "Comprueba el historial de tus pedidos.",
-    "no_orders": "Todavía no has realizado ningún pedido."
+    "no_orders": "Todavía no has realizado ningún pedido.",
+    "order_id": "Pedido",
+    "quantity": "Cantidad"
   },
   "profile_page": {
     "title": "Perfil",
     "description": "Gestiona la información de tu cuenta.",
-    "coming_soon": "La gestión de perfiles estará disponible en breve."
+    "coming_soon": "La gestión de perfiles estará disponible en breve.",
+    "first_name": "Nombre",
+    "last_name": "Apellido",
+    "save_button": "Guardar cambios",
+    "update_success_title": "Perfil actualizado",
+    "update_success_desc": "Tu información se ha guardado correctamente."
   },
   "account_layout": {
     "title": "Mi Cuenta",
     "profile": "Perfil",
     "orders": "Mis Pedidos",
-    "favorites": "Mis Favoritos"
+    "favorites": "Mis Favoritos",
+    "verification_required_title": "Se requiere verificación por correo electrónico",
+    "verification_required_desc": "Por favor, verifique su dirección de correo electrónico para acceder a su cuenta. Se ha enviado un enlace de verificación a su bandeja de entrada."
   },
   "faq": {
     "title": "Preguntas Frecuentes",
@@ -281,7 +290,9 @@
       "favorite_removed_title": "Eliminado de favoritos",
       "favorite_removed_desc": "se ha eliminado de tu lista de favoritos.",
       "review_submitted_title": "Opinión enviada",
-      "review_submitted_desc": "Gracias por compartir tu experiencia."
+      "review_submitted_desc": "Gracias por compartir tu experiencia.",
+      "login_for_review_title": "Inicio de sesión requerido",
+      "login_for_review_desc": "Debe iniciar sesión para dejar una opinión."
     }
   },
   "login_form": {
@@ -311,9 +322,10 @@
     "already_have_account": "¿Ya tienes una cuenta?",
     "login_link": "Iniciar sesión",
     "success_title": "Cuenta creada con éxito",
-    "success_description": "Se ha enviado un correo electrónico de verificación. Por favor, revisa tu bandeja de entrada.",
+    "success_description": "Se ha enviado un correo electrónico de verificación. Por favor, revisa tu bandeja de entrada (o la consola del terminal en modo de desarrollo).",
     "error_email_in_use": "Esta dirección de correo electrónico ya está en uso.",
-    "error_generic": "Se ha producido un error al crear la cuenta."
+    "error_generic": "Se ha producido un error al crear la cuenta.",
+    "google_signup": "Registrarse con Google"
   },
   "ai_stylist": {
     "title": "Tu Estilista Personal de IA",
@@ -478,7 +490,7 @@
     },
     "nocturne_tuxedo": {
       "name": "Esmoquin 'Gran Noche' de Barathea",
-      "description": "Para momentos inolvidables. Este esmoquin está cortado de una lana barathea tradicional con solapa de satén de seda. La quintaesencia de la elegancia formal.",
+      "description": "Para momentos inolvidables. Este esmoquin está cortado de una lana barathea tradicional con solapa de satén de seda. La quintesencia de la elegancia formal.",
       "details": "Lana barathea. Solapas y ribetes de satén de seda. Pantalón con banda lateral de satén."
     },
     "rivage_shorts": {
@@ -536,130 +548,155 @@
       "description": "Una declaración de estilo moderno. Este mono de inspiración workwear está cortado en una lona de lana flexible para un look a la vez chic y casual.",
       "details": "Lona de lana ligera. Cierre con cremallera oculta. Cinturón a juego. Múltiples bolsillos funcionales."
     },
-    "elegance_dress": {
-      "name": "Vestido 'Celestial' de Crepé de Seda",
-      "description": "Una oda a la feminidad. Este vestido largo de crepé de seda pura flota con cada paso. Su escote drapeado y su sutil espalda descubierta lo convierten en una pieza inolvidable.",
-      "details": "100% Crepé de Seda. Corte fluido al bies. Forro de seda. Limpieza en seco por especialista únicamente."
+    "gucci_silk_dress": {
+      "name": "Vestido de seda con estampado de cinta de Gucci",
+      "description": "Vestido midi de seda multicolor con estampado de cinta, mangas largas abullonadas, cuello con lazo para anudar y cierre de botón en la espalda. Tejido 100% seda, corte fluido y femenino.",
+      "details": "Tejido 100% seda, corte fluido. Se recomienda limpieza en seco profesional."
     },
-    "madame_suit": {
-      "name": "Traje 'Signature' de Tweed",
-      "description": "La personificación del chic parisino. Una chaqueta corta y una falda recta confeccionadas en un exclusivo tweed francés, realzadas con botones joya.",
-      "details": "Tweed francés exclusivo. Chaqueta corta y falda recta. Forro completo de satén de seda. Botones chapados en oro."
+    "dior_blazer_dress": {
+      "name": "Vestido blazer de gabardina de lana y seda de Dior",
+      "description": "Vestido blazer de largo medio confeccionado en gabardina de lana virgen mezclada con seda. Corte estructurado, hombros definidos, cinturón en la cintura. Evoca un estilo profesional muy chic.",
+      "details": "Gabardina de lana virgen y seda. Corte estructurado. Solo limpieza en seco."
     },
-    "rosee_blouse": {
-      "name": "Blusa 'Jardín Secreto' de Encaje de Calais",
-      "description": "Un tesoro de delicadeza. Confeccionada con auténtico encaje de Calais-Caudry®, esta blusa de cuello alto es una obra maestra de la artesanía francesa.",
-      "details": "Auténtico Encaje de Calais-Caudry®. Viene con un top de seda a juego. Cierre trasero con pequeños botones forrados."
+    "dior_poplin_dress": {
+      "name": "Vestido de popelina de algodón/seda con cinturón de Dior",
+      "description": "Vestido de largo medio, tejido ligero de popelina de algodón y seda, corte con cinturón, mangas largas, diseño limpio. Un cóctel perfecto entre comodidad y elegancia.",
+      "details": "Popelina de algodón y seda. Cinturón extraíble. Lavado a máquina suave."
     },
-    "velours_coat": {
-      "name": "Abrigo 'Abrazo' de Alpaca Suri",
-      "description": "Un capullo de lujosa suavidad. El pelo largo y sedoso de la alpaca Suri le da a este abrigo bata una calidez y ligereza excepcionales. Cinturón a juego.",
-      "details": "100% Alpaca Suri peruana. Sin forro, acabados cosidos a mano. Corte bata con cinturón extraíble."
+    "dior_oblique_dress": {
+      "name": "Vestido fluido con motivo Dior Oblique",
+      "description": "Vestido de denim ligero con motivo Oblique, corte fluido, cuello asimétrico, tejido exclusivo de Dior.",
+      "details": "Denim ligero exclusivo de Dior. Corte fluido. Se recomienda limpieza en seco."
     },
-    "constellation_dress": {
-      "name": "Vestido de Noche 'Noche Estrellada'",
-      "description": "Captura la luz. Enteramente bordado a mano con perlas y cristales sobre tul de seda, este vestido de noche es una verdadera obra de arte.",
-      "details": "Tul de seda bordado a mano con perlas y cristales. Requiere cientos de horas de trabajo. Pieza única por encargo."
+    "dior_shirt_dress": {
+      "name": "Vestido camisero de popelina negro de Dior",
+      "description": "Vestido camisero sencillo de popelina de algodón y seda, corte recto, cuello clásico, mangas largas, elegancia minimalista.",
+      "details": "Popelina de algodón y seda. Corte recto. Se puede llevar con cinturón."
     },
-    "lueur_top": {
-      "name": "Top 'Drapeado Divino' de Satén de Seda",
-      "description": "La simplicidad magnificada. Un sencillo top de satén de seda grueso, con un escote barco que cae en cascada con una gracia infinita.",
-      "details": "100% Satén de Seda grueso. Corte al bies para un drapeado perfecto. Tirantes finos."
+    "dior_tweed_dress": {
+      "name": "Vestido de tweed macrocannage de Dior",
+      "description": "Vestido corto de tweed gris con motivo macrocannage, mezcla de lana y seda, corte recto, silueta estructurada.",
+      "details": "Tweed de lana y seda. Motivo macrocannage. Solo limpieza en seco."
     },
-    "etoile_jeans": {
-      "name": "Vaquero Slim 'El Parisino'",
-      "description": "El vaquero slim perfecto. Cortado en denim elástico italiano de alta calidad, esculpe la pierna sin oprimir, para una silueta esbelta y cómoda.",
-      "details": "Denim elástico italiano. Cintura de talle medio. Lavado sutil hecho a mano."
+    "armani_silk_top": {
+      "name": "Top de seda de Armani",
+      "description": "Top de seda fluido, tirantes finos, corte fluido, acabado satinado. Ideal para looks elegantes de día y de noche.",
+      "details": "100% seda. Tirantes finos ajustables. Se recomienda lavar a mano."
     },
-    "sculpt_dress": {
-      "name": "Vestido 'Arquitectónico' de Jersey Técnico",
-      "description": "Una segunda piel escultural. Este vestido tubo midi de jersey técnico italiano abraza y realza la figura sin oprimir nunca. Una pieza moderna y poderosa.",
-      "details": "Jersey técnico italiano de alto rendimiento. Corte tubo, largo midi. Cierre con cremallera invisible en la espalda."
+    "armani_cotton_shirt": {
+      "name": "Camisa de algodón egipcio de Armani",
+      "description": "Camisa de lujo de popelina de algodón egipcio, corte recto, cuello italiano, botones discretos, acabado impecable.",
+      "details": "100% algodón egipcio. Cuello italiano. Botones de nácar."
     },
-    "noir_chic_jumpsuit": {
-      "name": "Mono 'St-Germain' de Crepé",
-      "description": "La alternativa moderna al pequeño vestido negro. Un mono impecablemente cortado en crepé pesado, con perneras anchas y cintura definida.",
-      "details": "Satén crepé. Perneras anchas. Cinturón extraíble. Escote cruzado."
+    "armani_wool_trousers": {
+      "name": "Pantalón de sastre de lana de Giorgio Armani",
+      "description": "Pantalón de sastre de lana virgen, corte pitillo, talle alto, pinzas marcadas, forro cómodo.",
+      "details": "100% lana virgen. Corte pitillo. Limpieza en seco."
     },
-    "ballet_skirt": {
-      "name": "Falda 'Ópera' de Tul Plisado Sol",
-      "description": "Ligereza y movimiento. Esta falda larga está confeccionada con varias capas de tul plisado sol, creando un volumen aéreo y poético.",
-      "details": "Tul fino plisado sol. Cinturilla de grosgrain. Forro de crepé de seda."
+    "gucci_premium_jeans": {
+      "name": "Vaqueros premium de Gucci",
+      "description": "Vaqueros de alta gama de denim de primera calidad, corte slim, detalles característicos con logo o bordado, estilo urbano de lujo.",
+      "details": "Denim de primera calidad. Detalles característicos de Gucci. Lavar a máquina."
     },
-    "seraphine_sweater": {
-      "name": "Jersey 'Serenidad' de Cachemira Calada",
-      "description": "Un punto exquisitamente fino. Este jersey de cuello barco está confeccionado en cachemira ultraligera con un delicado trabajo de calado, que revela sutilmente la piel.",
-      "details": "100% Cachemira de 2 cabos. Punto calado. Corte ligeramente holgado."
+    "burberry_wool_coat": {
+      "name": "Abrigo largo de lana de Burberry",
+      "description": "Gabardina transformada en abrigo largo, lana pesada, forro cuidado, corte clásico de Burberry, bolsillos prácticos.",
+      "details": "Lana pesada. Forro con el estampado de cuadros de Burberry. Limpieza en seco."
     },
-    "chic_urbain_jacket": {
-      "name": "Chaqueta 'Rive Gauche' de Tweed Bouclé",
-      "description": "Un clásico atemporal del chic francés. Tejida en un bouclé de lana y algodón, esta chaqueta corta se distingue por sus ribetes trenzados y sus botones joya.",
-      "details": "Tweed bouclé. Cuatro bolsillos de parche. Ribetes trenzados a mano. Forro de seda."
+    "saint_laurent_leather_jacket": {
+      "name": "Chaqueta de piel de cordero de Saint Laurent",
+      "description": "Chaqueta de motorista de piel de cordero suave, corte ajustado, cremalleras metálicas, cuello ancho, estilo rock-chic.",
+      "details": "100% piel de cordero. Cremalleras metálicas. Cuidado especializado de la piel."
     },
-    "veloute_dress": {
-      "name": "Vestido 'Carruaje' de Terciopelo de Seda",
-      "description": "Para una entrada espectacular. Este vestido largo de terciopelo de seda devoré juega con la transparencia para un efecto glamuroso y misterioso. Abertura alta en el muslo.",
-      "details": "Terciopelo de seda devoré. Forro parcial. Abertura lateral. Tirantes finos cruzados en la espalda."
+    "cucinelli_cashmere_sweater": {
+      "name": "Jersey de cachemira de Brunello Cucinelli",
+      "description": "Jersey ultrasuave de cachemira de alta gama, corte ligeramente oversize, acabados de lujo, punto artesanal.",
+      "details": "100% cachemira. Punto artesanal. Se recomienda lavar a mano."
     },
-    "poeme_blouse": {
-      "name": "Blusa 'Impresionista' de Twill de Seda",
-      "description": "Una obra maestra para llevar puesta. Esta blusa está estampada con un exclusivo motivo floral sobre un suntuoso twill de seda, con un cuello lavallière para anudar.",
-      "details": "100% Twill de Seda. Estampado exclusivo. Cuello lavallière. Puños abotonados."
+    "miu_miu_pleated_dress": {
+      "name": "Vestido plisado de Miu Miu",
+      "description": "Vestido midi plisado de tejido ligero, corte fluido, tirantes finos, diseño femenino y juvenil.",
+      "details": "Tejido ligero plisado. Tirantes finos. Limpieza en seco."
     },
-    "palace_coat": {
-      "name": "Abrigo 'Majestuoso' de Piel Sintética",
-      "description": "Glamour de Hollywood. Un opulento abrigo de piel sintética de una calidad y suavidad asombrosas. Volumen oversize y un gran cuello chal.",
-      "details": "Piel sintética de alta calidad. Corte oversize. Cierre con corchetes invisibles. Forro de satén."
+    "chloe_muslin_blouse": {
+      "name": "Blusa de muselina de Chloé",
+      "description": "Blusa de muselina de seda, mangas abullonadas, cuello lavallière, transparencia delicada, romántico bohemio.",
+      "details": "Muselina de seda. Mangas abullonadas. Cuello para anudar."
     },
-    "soutien_briefs": {
-      "name": "Body 'Segunda Piel' de Microfibra",
-      "description": "La perfección invisible. Este body sin costuras de microfibra ultrafina alisa y esculpe la silueta con discreción bajo las prendas más ajustadas.",
-      "details": "Microfibra técnica sin costuras. Efecto escultor ligero. Cierre con corchetes en la entrepierna."
+    "valentino_embroidered_dress": {
+      "name": "Vestido de tul bordado de Valentino",
+      "description": "Vestido de noche de tul bordado, flores grandes, corte acampanado, capas de tul, muy romántico y de alta costura.",
+      "details": "Tul bordado. Forro de seda. Limpieza en seco de alta costura."
     },
-    "maison_cardigan": {
-      "name": "Cárdigan 'Domingo' de Punto Inglés",
-      "description": "El compañero ideal para tus momentos de relax. Un cárdigan largo y envolvente, tejido en un punto inglés grueso de una mezcla de lana y alpaca.",
-      "details": "Mezcla de lana y alpaca. Punto inglés. Sin botones. Bolsillos de parche."
+    "burberry_gabardine_trench": {
+      "name": "Gabardina de algodón de Burberry",
+      "description": "Gabardina clásica de algodón, cinturón en la cintura, forro con el icónico estampado de cuadros, corte atemporal.",
+      "details": "Gabardina de algodón. Forro con estampado de cuadros. Limpieza en seco."
     },
-    "matin_dress": {
-      "name": "Vestido Camisero 'Fin de Semana' de Popelín",
-      "description": "Chic sin esfuerzo. Un vestido camisero de corte perfecto en popelín de algodón elástico, para ceñir la cintura con un cinturón o llevarlo recto para un look más relajado.",
-      "details": "Popelín de algodón elástico. Cinturón extraíble. Bolsillos ocultos en las costuras."
+    "bottega_veneta_leather_skirt": {
+      "name": "Falda midi de piel de Bottega Veneta",
+      "description": "Falda midi de piel flexible, talle alto, corte recto, acabado liso, elegancia moderna.",
+      "details": "Piel de cordero flexible. Cuidado especializado de la piel."
     },
-    "ete_rive_shorts": {
-      "name": "Shorts 'Saint-Tropez' de Satén Duquesa",
-      "description": "Un look de alta costura para el verano. Estos shorts de cintura alta con pinzas están cortados en un satén duquesa que les da una caída y un brillo excepcionales.",
-      "details": "Satén duquesa. Cintura alta y pinzas. Bolsillos italianos. Vueltas."
+    "prada_silk_jumpsuit": {
+      "name": "Mono de seda de Prada",
+      "description": "Mono de seda fluido, tirantes finos, escote en V, pantalón de pernera ancha, unisex chic.",
+      "details": "100% seda. Pernera ancha. Limpieza en seco."
     },
-    "nuit_opera_pyjamas": {
-      "name": "Conjunto de Pijama 'Ensueño' de Seda y Encaje",
-      "description": "Hasta la noche merece elegancia. Un conjunto de camisola y shorts de satén de seda, delicadamente incrustado con encaje de Calais en el escote y el bajo.",
-      "details": "Satén de seda y encaje de Calais. Tirantes ajustables. Shorts con cintura elástica."
+    "chanel_tweed_vest": {
+      "name": "Chaleco sin mangas de tweed de Chanel",
+      "description": "Chaleco de sastre sin mangas de tweed, bordes con perlas, bolsillos de parche, estilo chic atemporal de Chanel.",
+      "details": "Tweed icónico de Chanel. Acabados con perlas. Limpieza en seco de alta costura."
     },
-    "pluie_de_paris_trench": {
-      "name": "Gabardina 'Parisina' de Gabardina Fluida",
-      "description": "Una versión moderna y femenina de la gabardina. Su gabardina de algodón fluida y su corte flexible le dan un aspecto menos estricto y más contemporáneo.",
-      "details": "Gabardina de algodón y Tencel. Sin forro para mayor fluidez. Solapa de tormenta y cinturón extraíble."
+    "stella_mccartney_wrap_dress": {
+      "name": "Vestido cruzado de crepé de Stella McCartney",
+      "description": "Vestido cruzado de crepé fluido, cinturón para anudar, cuello en V, corte favorecedor, diseño sostenible.",
+      "details": "Crepé fluido sostenible. Cinturón para anudar. Lavar a máquina."
     },
-    "executive_dress": {
-      "name": "Vestido 'Working Girl' de Lana Fría",
-      "description": "El uniforme de la mujer de poder. Este vestido tubo está confeccionado en lana fría resistente a las arrugas, con cuello barco y mangas 3/4.",
-      "details": "Lana fría Super 110s. Corte ajustado. Totalmente forrado. Abertura en la espalda para mayor comodidad."
+    "balmain_luxe_sweatshirt": {
+      "name": "Sudadera de lujo de algodón de Balmain",
+      "description": "Sudadera de corte estructurado, algodón grueso, logo discreto de Balmain, mangas raglán, bajo de canalé fino.",
+      "details": "Algodón grueso. Logo discreto. Lavar a máquina."
     },
-    "sculpture_top": {
-      "name": "Bustier 'Gala' de Falla de Seda",
-      "description": "Una pieza arquitectónica. Este bustier está estructurado con ballenas internas y cortado en una falla de seda rígida para una silueta de alta costura.",
-      "details": "Falla de seda. Estructura interna con ballenas. Cremallera en la espalda."
+    "valentino_silk_tunic": {
+      "name": "Túnica de seda salvaje de Valentino",
+      "description": "Túnica amplia de seda salvaje, mangas 3/4, cuello barco, caída fluida, elegancia natural.",
+      "details": "100% seda salvaje. Corte amplio. Limpieza en seco."
     },
-    "voyage_parka": {
-      "name": "Capa de Lluvia 'Brume' de Nailon Técnico",
-      "description": "Elegancia bajo la lluvia. Una capa amplia y ultraligera de nailon técnico japonés, que se pliega en una pequeña bolsa. Perfecta para viajar.",
-      "details": "Nailon técnico japonés impermeable. Costuras selladas. Capucha y corte amplio."
+    "max_mara_wool_shorts": {
+      "name": "Shorts de sastre de lana de Max Mara",
+      "description": "Shorts de sastre de mezcla de lana, talle alto, pinzas delanteras, bajo cuidado, perfectos para un look chic de verano.",
+      "details": "Mezcla de lana. Talle alto. Limpieza en seco."
     },
-    "aube_dress": {
-      "name": "Vestido Asimétrico 'Aurora'",
-      "description": "Una escultura de tela. Este vestido de cóctel de crepé juega con los drapeados y un corte asimétrico de un solo hombro para un efecto espectacular y moderno.",
-      "details": "Satén crepé. Corte asimétrico. Drapeado a mano."
+    "oscar_de_la_renta_bustier_dress": {
+      "name": "Vestido bustier bordado de Oscar de la Renta",
+      "description": "Vestido de baile bustier, bordados florales, falda amplia de tafetán, corte glamuroso de alta costura.",
+      "details": "Tafetán y bordados florales. Limpieza en seco de alta costura."
+    },
+    "givenchy_satin_shirt": {
+      "name": "Camisa de satén de Givenchy",
+      "description": "Camisa de satén fluida, corte relajado, cuello clásico, botones discretos, chic minimalista.",
+      "details": "Satén fluido. Corte relajado. Lavado delicado."
+    },
+    "the_row_cashmere_cardigan": {
+      "name": "Cárdigan de cachemira fina de The Row",
+      "description": "Cárdigan de cachemira de lujo, corte limpio, botones de nácar, diseño discreto y de muy alta gama.",
+      "details": "100% cachemira. Botones de nácar. Lavar a mano."
+    },
+    "valentino_palazzo_pants": {
+      "name": "Pantalón palazzo de seda de Valentino",
+      "description": "Pantalón palazzo de seda ligera, cintura elástica, corte fluido, para máxima comodidad y elegancia.",
+      "details": "Seda ligera 100%. Cintura elástica. Limpieza en seco."
+    },
+    "balenciaga_silk_jersey_tshirt": {
+      "name": "Camiseta de lujo de punto de seda de Balenciaga",
+      "description": "Camiseta oversize de punto de seda, cuello redondo, mangas cortas, caída fluida, estilo “lujo silencioso” moderno.",
+      "details": "Punto de seda. Corte oversize. Lavado delicado."
+    },
+    "cucinelli_wool_cape": {
+      "name": "Capa de lana y cachemira de Brunello Cucinelli",
+      "description": "Capa de alta gama de mezcla de lana y cachemira, corte amplio, bolsillos invisibles, acabado artesanal.",
+      "details": "Mezcla de lana y cachemira. Acabado artesanal. Limpieza en seco."
     },
     "ezential_bag": {
       "name": "Bolso 'El Diario' de Piel Taurillon",
@@ -843,4 +880,3 @@
     }
   }
 }
-    

@@ -198,18 +198,27 @@
   "orders_page": {
     "title": "I Miei Ordini",
     "description": "Controlla lo storico dei tuoi ordini.",
-    "no_orders": "Non hai ancora effettuato ordini."
+    "no_orders": "Non hai ancora effettuato ordini.",
+    "order_id": "Ordine",
+    "quantity": "Quantità"
   },
   "profile_page": {
     "title": "Profilo",
     "description": "Gestisci le informazioni del tuo account.",
-    "coming_soon": "La gestione del profilo sarà disponibile a breve."
+    "coming_soon": "La gestione del profilo sarà disponibile a breve.",
+    "first_name": "Nome",
+    "last_name": "Cognome",
+    "save_button": "Salva modifiche",
+    "update_success_title": "Profilo aggiornato",
+    "update_success_desc": "Le tue informazioni sono state salvate con successo."
   },
   "account_layout": {
     "title": "Il Mio Account",
     "profile": "Profilo",
     "orders": "I Miei Ordini",
-    "favorites": "I Miei Preferiti"
+    "favorites": "I Miei Preferiti",
+    "verification_required_title": "Verifica email richiesta",
+    "verification_required_desc": "Verifica il tuo indirizzo email per accedere al tuo account. Un link di verifica è stato inviato alla tua casella di posta."
   },
   "faq": {
     "title": "Domande Frequenti",
@@ -281,7 +290,9 @@
       "favorite_removed_title": "Rimosso dai preferiti",
       "favorite_removed_desc": "è stato rimosso dalla tua lista dei preferiti.",
       "review_submitted_title": "Recensione inviata",
-      "review_submitted_desc": "Grazie per aver condiviso la tua esperienza."
+      "review_submitted_desc": "Grazie per aver condiviso la tua esperienza.",
+      "login_for_review_title": "Accesso richiesto",
+      "login_for_review_desc": "Devi aver effettuato l'accesso per lasciare una recensione."
     }
   },
   "login_form": {
@@ -311,9 +322,10 @@
     "already_have_account": "Hai già un account?",
     "login_link": "Accedi",
     "success_title": "Account creato con successo",
-    "success_description": "È stata inviata un'email di verifica. Controlla la tua casella di posta.",
+    "success_description": "È stata inviata un'email di verifica. Controlla la tua casella di posta (o la console del terminale in modalità sviluppatore).",
     "error_email_in_use": "Questo indirizzo email è già in uso.",
-    "error_generic": "Si è verificato un errore durante la creazione dell'account."
+    "error_generic": "Si è verificato un errore durante la creazione dell'account.",
+    "google_signup": "Registrati con Google"
   },
   "ai_stylist": {
     "title": "Il Tuo Stilista Personale AI",
@@ -536,130 +548,155 @@
       "description": "Una dichiarazione di stile moderno. Questa tuta di ispirazione workwear è tagliata in una morbida tela di lana per un look che è sia chic che casual.",
       "details": "Tela di lana leggera. Chiusura con zip nascosta. Cintura abbinata. Molteplici tasche funzionali."
     },
-    "elegance_dress": {
-      "name": "Abito 'Celeste' in Crêpe di Seta",
-      "description": "Un'ode alla femminilità. Questo abito lungo in pura crêpe di seta fluttua ad ogni passo. La sua scollatura drappeggiata e la schiena scoperta discreta lo rendono un pezzo indimenticabile.",
-      "details": "100% Crêpe di Seta. Taglio fluido e sbieco. Fodera in seta. Solo lavaggio a secco specializzato."
+    "gucci_silk_dress": {
+      "name": "Abito di seta con stampa a nastro Gucci",
+      "description": "Abito midi in seta multicolore con stampa a nastro, maniche lunghe a sbuffo, colletto con fiocco e chiusura a bottoni sul retro. Tessuto 100% seta, taglio fluido e femminile.",
+      "details": "Tessuto 100% seta, taglio fluido. Si consiglia il lavaggio a secco professionale."
     },
-    "madame_suit": {
-      "name": "Tailleur 'Signature' in Tweed",
-      "description": "L'epitome dello chic parigino. Una giacca corta e una gonna dritta realizzate in un esclusivo tweed francese, impreziosite da bottoni gioiello.",
-      "details": "Tweed francese esclusivo. Giacca corta e gonna dritta. Fodera completa in raso di seta. Bottoni placcati in oro."
+    "dior_blazer_dress": {
+      "name": "Abito blazer in gabardine di lana e seta Dior",
+      "description": "Abito blazer di media lunghezza realizzato in gabardine di lana vergine e seta. Taglio strutturato, spalle definite, cintura in vita. Evoca uno stile professionale molto chic.",
+      "details": "Gabardine di lana vergine e seta. Taglio strutturato. Solo lavaggio a secco."
     },
-    "rosee_blouse": {
-      "name": "Blusa 'Giardino Segreto' in Pizzo di Calais",
-      "description": "Un tesoro di delicatezza. Realizzata in autentico pizzo di Calais-Caudry®, questa blusa a collo alto è un capolavoro dell'artigianato francese.",
-      "details": "Autentico Pizzo di Calais-Caudry®. Fornita con un top in seta abbinato. Chiusura posteriore con piccoli bottoni ricoperti."
+    "dior_poplin_dress": {
+      "name": "Abito in popeline di cotone/seta con cintura Dior",
+      "description": "Abito di media lunghezza in leggero popeline di cotone e seta, taglio con cintura, maniche lunghe, design pulito. Un cocktail perfetto tra comfort ed eleganza.",
+      "details": "Popeline di cotone e seta. Cintura rimovibile. Lavaggio in lavatrice delicato."
     },
-    "velours_coat": {
-      "name": "Cappotto 'Abbraccio' in Alpaca Suri",
-      "description": "Un bozzolo di lussuosa morbidezza. Il pelo lungo e setoso dell'alpaca Suri conferisce a questo cappotto a vestaglia un calore e una leggerezza eccezionali. Cintura abbinata.",
-      "details": "100% Alpaca Suri peruviana. Sfoderato, finiture cucite a mano. Taglio a vestaglia con cintura rimovibile."
+    "dior_oblique_dress": {
+      "name": "Abito fluido con motivo Dior Oblique",
+      "description": "Abito in denim leggero con motivo Oblique, taglio fluido, collo asimmetrico, tessuto esclusivo Dior.",
+      "details": "Denim leggero esclusivo Dior. Taglio fluido. Si consiglia il lavaggio a secco."
     },
-    "constellation_dress": {
-      "name": "Abito da Sera 'Notte Stellata'",
-      "description": "Cattura la luce. Interamente ricamato a mano con perline e cristalli su tulle di seta, questo abito da sera è una vera opera d'arte.",
-      "details": "Tulle di seta ricamato a mano con perline e cristalli. Richiede centinaia di ore di lavoro. Pezzo unico su ordinazione."
+    "dior_shirt_dress": {
+      "name": "Abito a camicia in popeline nero Dior",
+      "description": "Abito a camicia semplice in popeline di cotone e seta, taglio dritto, colletto classico, maniche lunghe, eleganza minimalista.",
+      "details": "Popeline di cotone e seta. Taglio dritto. Può essere indossato con una cintura."
     },
-    "lueur_top": {
-      "name": "Top 'Drappo Divino' in Raso di Seta",
-      "description": "La simplicità magnificata. Un semplice top in raso di seta pesante, con uno scollo a barchetta che cade a cascata con una grazia infinita.",
-      "details": "100% Raso di Seta pesante. Taglio sbieco per un drappeggio perfetto. Spalline sottili."
+    "dior_tweed_dress": {
+      "name": "Abito in tweed macrocannage Dior",
+      "description": "Abito corto in tweed grigio con motivo macrocannage, misto lana e seta, taglio dritto, silhouette strutturata.",
+      "details": "Tweed di lana e seta. Motivo macrocannage. Solo lavaggio a secco."
     },
-    "etoile_jeans": {
-      "name": "Jeans Slim 'Il Parigino'",
-      "description": "I jeans slim perfetti. Tagliati in denim elasticizzato italiano di alta qualità, scolpiscono la gamba senza comprimere, per una silhouette snella e confortevole.",
-      "details": "Denim elasticizzato italiano. Vita media. Lavaggio discreto fatto a mano."
+    "armani_silk_top": {
+      "name": "Top in seta Armani",
+      "description": "Top in seta fluido, spalline sottili, taglio fluido, finitura satinata. Ideale per look eleganti da giorno e da sera.",
+      "details": "100% seta. Spalline sottili regolabili. Si consiglia il lavaggio a mano."
     },
-    "sculpt_dress": {
-      "name": "Abito 'Architettonico' in Jersey Tecnico",
-      "description": "Una seconda pelle scultorea. Questo abito a tubino midi in jersey tecnico italiano abbraccia ed esalta la figura senza mai costringere. Un pezzo moderno e potente.",
-      "details": "Jersey tecnico italiano ad alte prestazioni. Taglio a tubino, lunghezza midi. Chiusura con zip invisibile sul retro."
+    "armani_cotton_shirt": {
+      "name": "Camicia in cotone egiziano Armani",
+      "description": "Camicia di lusso in popeline di cotone egiziano, taglio dritto, colletto italiano, bottoni discreti, finitura pulita.",
+      "details": "100% cotone egiziano. Colletto italiano. Bottoni in madreperla."
     },
-    "noir_chic_jumpsuit": {
-      "name": "Tuta 'St-Germain' in Crêpe",
-      "description": "L'alternativa moderna al tubino nero. Una tuta impeccabilmente tagliata in crêpe pesante, con gambe larghe e vita definita.",
-      "details": "Crêpe di raso. Gambe larghe. Cintura rimovibile. Scollo a portafoglio."
+    "armani_wool_trousers": {
+      "name": "Pantaloni sartoriali in lana Giorgio Armani",
+      "description": "Pantaloni sartoriali in lana vergine, taglio a sigaretta, vita alta, pieghe nette, fodera confortevole.",
+      "details": "100% lana vergine. Taglio a sigaretta. Lavaggio a secco."
     },
-    "ballet_skirt": {
-      "name": "Gonna 'Opera' in Tulle Plissettato a Sole",
-      "description": "Leggerezza e movimento. Questa gonna lunga è realizzata con diversi strati di tulle plissettato a sole, creando un volume arioso e poetico.",
-      "details": "Tulle fine plissettato a sole. Cintura in gros-grain. Fodera in crêpe di seta."
+    "gucci_premium_jeans": {
+      "name": "Jeans premium Gucci",
+      "description": "Jeans di alta gamma in denim di prima qualità, vestibilità slim, dettagli con logo o ricamo, stile urban-luxe.",
+      "details": "Denim di prima qualità. Dettagli firmati Gucci. Lavaggio in lavatrice."
     },
-    "seraphine_sweater": {
-      "name": "Maglione 'Serenità' in Cashmere Traforato",
-      "description": "Una maglia squisitamente fine. Questo maglione con scollo a barca è realizzato in cashmere ultraleggero con una delicata lavorazione traforata, che rivela sottilmente la pelle.",
-      "details": "100% Cashmere a 2 fili. Maglia traforata. Vestibilità leggermente ampia."
+    "burberry_wool_coat": {
+      "name": "Cappotto lungo in lana Burberry",
+      "description": "Trench trasformato in cappotto lungo, lana pesante, fodera curata, taglio classico Burberry, tasche pratiche.",
+      "details": "Lana pesante. Fodera con motivo a quadri Burberry. Lavaggio a secco."
     },
-    "chic_urbain_jacket": {
-      "name": "Giacca 'Rive Gauche' in Tweed Bouclé",
-      "description": "Un classico senza tempo dello chic francese. Tessuta in un bouclé di lana e cotone, questa giacca corta si distingue per i suoi bordi intrecciati e i bottoni gioiello.",
-      "details": "Tweed bouclé. Quattro tasche applicate. Bordi intrecciati a mano. Fodera in seta."
+    "saint_laurent_leather_jacket": {
+      "name": "Giacca in pelle di agnello Saint Laurent",
+      "description": "Giacca da motociclista in morbida pelle di agnello, taglio aderente, zip metalliche, colletto ampio, stile rock-chic.",
+      "details": "100% pelle di agnello. Zip metalliche. Cura specializzata della pelle."
     },
-    "veloute_dress": {
-      "name": "Abito 'Carrozza' in Velluto di Seta",
-      "description": "Per un ingresso spettacolare. Questo abito lungo in velluto di seta devoré gioca con la trasparenza per un effetto glamour e misterioso. Spacco alto sulla coscia.",
-      "details": "Velluto di seta devoré. Fodera parziale. Spacco laterale. Spalline sottili incrociate sulla schiena."
+    "cucinelli_cashmere_sweater": {
+      "name": "Maglione in cashmere Brunello Cucinelli",
+      "description": "Maglione morbidissimo in cashmere di alta gamma, taglio leggermente oversize, finiture di lusso, maglia artigianale.",
+      "details": "100% cashmere. Maglia artigianale. Si consiglia il lavaggio a mano."
     },
-    "poeme_blouse": {
-      "name": "Camicetta 'Impressionista' in Twill di Seta",
-      "description": "Un capolavoro da indossare. Questa camicetta è stampata con un motivo floreale esclusivo su un sontuoso twill di seta, con un collo a foulard da annodare.",
-      "details": "100% Twill di Seta. Stampa esclusiva. Collo a foulard. Polsini abbottonati."
+    "miu_miu_pleated_dress": {
+      "name": "Abito plissettato Miu Miu",
+      "description": "Abito midi plissettato in tessuto leggero, taglio fluido, spalline sottili, design femminile e giovanile.",
+      "details": "Tessuto leggero plissettato. Spalline sottili. Lavaggio a secco."
     },
-    "palace_coat": {
-      "name": "Cappotto 'Maestoso' in Pelliccia Sintetica",
-      "description": "Glamour hollywoodiano. Un opulento cappotto in pelliccia sintetica di qualità e morbidezza sbalorditive. Volume oversize e un ampio collo a scialle.",
-      "details": "Pelliccia sintetica di alta qualità. Taglio oversize. Chiusura con ganci invisibili. Fodera in raso."
+    "chloe_muslin_blouse": {
+      "name": "Blusa in mussola Chloé",
+      "description": "Blusa in mussola di seta, maniche a palloncino, collo a foulard, trasparenza delicata, romantico bohémien.",
+      "details": "Mussola di seta. Maniche a palloncino. Collo da annodare."
     },
-    "soutien_briefs": {
-      "name": "Body 'Seconda Pelle' in Microfibra",
-      "description": "La perfezione invisibile. Questo body senza cuciture in microfibra ultra fine leviga e modella la silhouette con discrezione sotto i vestiti più aderenti.",
-      "details": "Microfibra tecnica senza cuciture. Effetto modellante leggero. Chiusura con bottoni a pressione sul cavallo."
+    "valentino_embroidered_dress": {
+      "name": "Abito in tulle ricamato Valentino",
+      "description": "Abito da sera in tulle ricamato, fiori grandi, taglio svasato, strati di tulle, molto romantico e sartoriale.",
+      "details": "Tulle ricamato. Fodera in seta. Lavaggio a secco sartoriale."
     },
-    "maison_cardigan": {
-      "name": "Cardigan 'Domenica' a Coste Inglesi",
-      "description": "Il compagno ideale per i tuoi momenti di relax. Un cardigan lungo e avvolgente, lavorato a maglia a coste inglesi grosse in una miscela di lana e alpaca.",
-      "details": "Misto lana e alpaca. Lavorazione a coste inglesi. Senza bottoni. Tasche applicate."
+    "burberry_gabardine_trench": {
+      "name": "Trench in gabardine di cotone Burberry",
+      "description": "Trench classico in gabardine di cotone, cintura in vita, fodera iconica con motivo a quadri, taglio senza tempo.",
+      "details": "Gabardine di cotone. Fodera con motivo a quadri. Lavaggio a secco."
     },
-    "matin_dress": {
-      "name": "Abito a Camicia 'Weekend' in Popeline",
-      "description": "Chic senza sforzo. Un abito a camicia dal taglio perfetto in popeline di cotone elasticizzato, da cinturare per definire la vita o da indossare dritto per un look più rilassato.",
-      "details": "Popeline di cotone elasticizzato. Cintura rimovibile. Tasche nascoste nelle cuciture."
+    "bottega_veneta_leather_skirt": {
+      "name": "Gonna midi in pelle Bottega Veneta",
+      "description": "Gonna midi in morbida pelle, vita alta, taglio dritto, finitura liscia, eleganza moderna.",
+      "details": "Morbida pelle di agnello. Cura specializzata della pelle."
     },
-    "ete_rive_shorts": {
-      "name": "Shorts 'Saint-Tropez' in Raso Duchesse",
-      "description": "Un look sartoriale per l'estate. Questi shorts a vita alta con pieghe sono tagliati in un raso duchesse che conferisce loro una tenuta e una lucentezza eccezionali.",
-      "details": "Raso duchesse. Vita alta e pieghe. Tasche all'italiana. Risvolti."
+    "prada_silk_jumpsuit": {
+      "name": "Tuta in seta Prada",
+      "description": "Tuta in seta fluida, spalline sottili, scollo a V, pantaloni a gamba larga, unisex chic.",
+      "details": "100% seta. Gamba larga. Lavaggio a secco."
     },
-    "nuit_opera_pyjamas": {
-      "name": "Pigiama 'Sogno' in Seta e Pizzo",
-      "description": "Anche la notte merita eleganza. Un completo canotta e shorts in raso di seta, delicatamente intarsiato con pizzo di Calais sullo scollo e sull'orlo.",
-      "details": "Raso di seta e pizzo di Calais. Spalline regolabili. Shorts con elastico in vita."
+    "chanel_tweed_vest": {
+      "name": "Gilet senza maniche in tweed Chanel",
+      "description": "Gilet sartoriale senza maniche in tweed, bordi con perle, tasche applicate, stile chic intramontabile “Chanel”.",
+      "details": "Iconico tweed Chanel. Finiture con perle. Lavaggio a secco sartoriale."
     },
-    "pluie_de_paris_trench": {
-      "name": "Trench 'Parigina' in Gabardine Fluido",
-      "description": "Una versione moderna e femminile del trench. La sua gabardine di cotone fluida e il taglio morbido gli conferiscono un aspetto meno rigoroso e più contemporaneo.",
-      "details": "Gabardine di cotone e Tencel. Sfoderato per una maggiore fluidità. Patta antipioggia e cintura rimovibile."
+    "stella_mccartney_wrap_dress": {
+      "name": "Abito a portafoglio in crêpe Stella McCartney",
+      "description": "Abito a portafoglio in crêpe fluido, cintura da annodare, scollo a V, taglio lusinghiero, design sostenibile.",
+      "details": "Crêpe fluido sostenibile. Cintura da annodare. Lavaggio in lavatrice."
     },
-    "executive_dress": {
-      "name": "Abito 'Working Girl' in Lana Fresca",
-      "description": "L'uniforme della donna di potere. Questo abito a tubino è realizzato in lana fresca antipiega, con scollo a barca e maniche a 3/4.",
-      "details": "Lana fresca Super 110s. Taglio aderente. Interamente foderato. Spacco posteriore per facilitare il movimento."
+    "balmain_luxe_sweatshirt": {
+      "name": "Felpa di lusso in cotone Balmain",
+      "description": "Felpa dal taglio strutturato, cotone spesso, logo Balmain discreto, maniche raglan, orlo a coste sottili.",
+      "details": "Cotone spesso. Logo discreto. Lavaggio in lavatrice."
     },
-    "sculpture_top": {
-      "name": "Bustier 'Gala' in Faille di Seta",
-      "description": "Un pezzo architettonico. Questo bustier è strutturato con stecche interne e tagliato in una rigida faille di seta per una silhouette da alta moda.",
-      "details": "Faille di seta. Struttura interna con stecche. Zip sul retro."
+    "valentino_silk_tunic": {
+      "name": "Tunica in seta selvaggia Valentino",
+      "description": "Tunica ampia in seta selvaggia, maniche a 3/4, scollo a barca, caduta fluida, eleganza naturale.",
+      "details": "100% seta selvaggia. Taglio ampio. Lavaggio a secco."
     },
-    "voyage_parka": {
-      "name": "Mantella da Pioggia 'Nebbia' in Nylon Tecnico",
-      "description": "Eleganza sotto la pioggia. Una mantella ampia e ultraleggera in nylon tecnico giapponese, che si ripiega in una piccola pochette. Perfetta per viaggiare.",
-      "details": "Nylon tecnico giapponese impermeabile. Cuciture termosaldate. Cappuccio e taglio ampio."
+    "max_mara_wool_shorts": {
+      "name": "Shorts sartoriali in lana Max Mara",
+      "description": "Shorts sartoriali in misto lana, vita alta, pieghe frontali, orlo curato, perfetti per un look estivo chic.",
+      "details": "Misto lana. Vita alta. Lavaggio a secco."
     },
-    "aube_dress": {
-      "name": "Abito Asimmetrico 'Aurora'",
-      "description": "Una scultura di tessuto. Questo abito da cocktail in crêpe gioca sui drappeggi e un taglio asimmetrico monospalla per un effetto spettacolare e moderno.",
-      "details": "Crêpe di raso. Taglio asimmetrico. Drappeggio a mano."
+    "oscar_de_la_renta_bustier_dress": {
+      "name": "Abito bustier ricamato Oscar de la Renta",
+      "description": "Abito da ballo bustier, ricami floreali, gonna ampia in taffetà, taglio glamour sartoriale.",
+      "details": "Taffetà e ricami floreali. Lavaggio a secco sartoriale."
+    },
+    "givenchy_satin_shirt": {
+      "name": "Camicia in raso Givenchy",
+      "description": "Camicia in raso fluido, vestibilità comoda, colletto classico, bottoni discreti, chic minimalista.",
+      "details": "Raso fluido. Vestibilità comoda. Lavaggio delicato."
+    },
+    "the_row_cashmere_cardigan": {
+      "name": "Cardigan in cashmere fine The Row",
+      "description": "Cardigan di lusso in cashmere, taglio pulito, bottoni in madreperla, design discreto e di altissima gamma.",
+      "details": "100% cashmere. Bottoni in madreperla. Lavaggio a mano."
+    },
+    "valentino_palazzo_pants": {
+      "name": "Pantaloni palazzo in seta Valentino",
+      "description": "Pantaloni palazzo in seta leggera, vita elasticizzata, taglio fluido, per massimo comfort ed eleganza.",
+      "details": "Seta leggera 100%. Vita elasticizzata. Lavaggio a secco."
+    },
+    "balenciaga_silk_jersey_tshirt": {
+      "name": "T-shirt di lusso in jersey di seta Balenciaga",
+      "description": "T-shirt oversize in jersey di seta, girocollo, maniche corte, caduta fluida, stile “quiet luxury” moderno.",
+      "details": "Jersey di seta. Vestibilità oversize. Lavaggio delicato."
+    },
+    "cucinelli_wool_cape": {
+      "name": "Mantella in lana e cashmere Brunello Cucinelli",
+      "description": "Mantella di alta gamma in misto lana e cashmere, taglio ampio, tasche invisibili, finitura artigianale.",
+      "details": "Misto lana e cashmere. Finitura artigianale. Lavaggio a secco."
     },
     "ezential_bag": {
       "name": "Borsa 'La Quotidiana' in Pelle Taurillon",
@@ -843,4 +880,3 @@
     }
   }
 }
-    
