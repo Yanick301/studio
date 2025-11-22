@@ -373,7 +373,7 @@
     },
     "contact": {
       "title": "Contact Us",
-      "content": "If you have any questions about this privacy policy, please contact us at privacy@ezentials.com."
+      "content": "If you have any questions about this privacy policy, please contact us at ezcentials@gmail.com."
     }
   },
   "terms_of_service": {
@@ -542,150 +542,6 @@
     "cucinelli_wool_cape": {
       "name": "Brunello Cucinelli Wool & Cashmere Cape",
       "description": "High-end cape in a wool and cashmere blend, ample cut, invisible pockets, artisanal finish."
-    },
-    "ezential_bag": {
-      "name": "'The Daily' Taurillon Leather Bag",
-      "description": "Functional luxury. This shoulder bag in French taurillon leather is as supple as it is durable. Its multiple compartments make it the ideal daily partner."
-    },
-    "lumi_clutch": {
-      "name": "'Jewel' Strass-Covered Minaudière",
-      "description": "More than a bag, a jewel. This rigid minaudière is entirely covered with Swarovski crystals, capturing the light with every movement."
-    },
-    "carte_prime_holder": {
-      "name": "'The Minimalist' Epsom Leather Card Holder",
-      "description": "The essential, with elegance. Made from Epsom calfskin, known for its resistance, this slim card holder fits into any pocket."
-    },
-    "finesse_belt": {
-      "name": "'The Allure' Lizard Leather Belt",
-      "description": "The detail that changes everything. A thin belt in genuine lizard leather, with a discreet buckle in palladium-plated brass. A subtle luxury."
-    },
-    "minit_bag": {
-      "name": "'The Charmer' Kid Suede Micro-Bag",
-      "description": "The little bag that has it all. Big enough for the essentials (phone, cards, lipstick), this velvety goat leather bag is the perfect evening accessory."
-    },
-    "horizon_sunglasses": {
-      "name": "'Aviator' Titanium and Gold Sunglasses",
-      "description": "An icon revisited. Ultra-light frame in Japanese titanium, with 18-carat gold-plated details. Polarized lenses for perfect vision."
-    },
-    "nuit_scarf": {
-      "name": "'Sweet Night' Cashmere and Silk Stole",
-      "description": "A scarf of incredible lightness and softness. The blend of cashmere and silk gives it a fluid drape and delicate warmth."
-    },
-    "organize_pouch": {
-      "name": "'The Nomad' Tech Pouch in Leather",
-      "description": "Organize your tech essentials with style. This soft leather pouch is designed to hold your cables, chargers, and other small accessories."
-    },
-    "reflet_jewelry_set": {
-      "name": "'Dewdrop' Topaz Jewelry Set",
-      "description": "A necklace and earrings set of absolute finesse, highlighting pear-cut blue topazes on a white gold setting."
-    },
-    "anchor_bracelet": {
-      "name": "'The Anchor' Braided Leather Bracelet",
-      "description": "A casual men's jewel. This bracelet is made of braided calfskin and a clasp in the shape of a marine anchor in brushed stainless steel."
-    },
-    "etoile_earrings": {
-      "name": "'Solitaire Diamond' Stud Earrings",
-      "description": "Pure sparkle. Each earring is set with a 0.25 carat diamond, mounted on white gold for maximum brilliance. A timeless classic."
-    },
-    "ocean_necklace": {
-      "name": "'Black Pearl' Tahitian Necklace",
-      "description": "The raw, natural beauty of a Tahitian black pearl, simply suspended from a thin rose gold chain. Each pearl is unique."
-    },
-    "sync_watch": {
-      "name": "'Connected Horizon' Automatic Watch",
-      "description": "The best of both worlds. A Swiss automatic movement watch, housed in a titanium case with a discreet, integrated notification module."
-    },
-    "pluie_chic_umbrella": {
-      "name": "'The Gentleman' Maple Wood Umbrella",
-      "description": "Face the rain with panache. A single shaft of maple wood, a wide water-repellent canopy, and a traditional manual opening for this exceptional umbrella."
-    },
-    "travel_safe_wallet": {
-      "name": "'The Globetrotter' Travel Wallet",
-      "description": "Organize your journey. Designed to hold a passport, boarding passes, currencies, and credit cards in an elegant leather format."
-    },
-    "riviera_hat": {
-      "name": "'Côte d'Azur' Panama Straw Hat",
-      "description": "The quintessential summer accessory. Hand-woven in Ecuador, this Panama straw hat protects from the sun with unparalleled elegance. Grosgrain ribbon."
-    },
-    "smart_gloves": {
-      "name": "'Tactile' Peccary Cashmere-Lined Gloves",
-      "description": "Luxury at your fingertips. Made from the very rare peccary leather and lined with cashmere, these gloves are compatible with touch screens."
-    },
-    "ceremony_bowtie": {
-      "name": "'Black Tie' Silk Faille Bow Tie",
-      "description": "The essential accessory for evening wear. This self-tie bow tie is cut from a precious black silk faille."
-    },
-    "coin_purse": {
-      "name": "'The Collector' Clasp Coin Purse",
-      "description": "A retro charm. This soft calfskin coin purse closes with a classic metal clasp. Ideal for your change or your little secrets."
-    },
-    "flora_brooch": {
-      "name": "'Fleur de Lys' Enamel Brooch",
-      "description": "A touch of poetry. This brooch, representing a stylized fleur-de-lis, is made using the plique-à-jour enamel technique, reminiscent of stained glass."
-    },
-    "luxband_headband": {
-      "name": "'Muse' Silk Twill Headband",
-      "description": "A versatile accessory. To be worn in the hair, around the neck, or tied to your bag, this silk twill headband is printed with an exclusive pattern."
-    },
-    "lecteur_glasses": {
-      "name": "'The Intellectual' Reading Glasses",
-      "description": "Read with style. Frame in Italian cellulose acetate, with high-quality lenses treated with anti-reflective and anti-blue light coatings."
-    },
-    "charme_bag_charm": {
-      "name": "'The Grimoire' Bag Charm",
-      "description": "Personalize your bag. This bag charm represents a tiny leather book with brass pages, suspended from a logoed snap hook."
-    },
-    "portfolio_laptop_case": {
-      "name": "'The Minister' Leather Document Holder",
-      "description": "Carry your computer and documents with elegance. This slim document holder in calfskin is lightly padded for optimal protection."
-    },
-    "keygold_keychain": {
-      "name": "'The Guardian' Leather and Brass Keychain",
-      "description": "An everyday object transformed into a jewel. A strap of grained calfskin combined with solid brushed brass pieces."
-    },
-    "eclipse_heels": {
-      "name": "'Vertigo' 105mm Suede Pump",
-      "description": "The quintessential stiletto. A perfect arch and a 10.5 cm heel that endlessly elongates the leg. Made in intense black kid suede."
-    },
-    "serenite_sandals": {
-      "name": "'The Stroll' Flat Leather Sandals",
-      "description": "Minimalist elegance for summer. These flat sandals with thin calfskin straps are the symbol of a casual and timeless chic."
-    },
-    "paris_boots": {
-      "name": "'Rive Gauche' Suede Ankle Boots",
-      "description": "The perfect everyday ankle boot. A comfortable 6 cm block heel, an elegant almond shape, and supple goat suede. Parisian chic."
-    },
-    "diva_mules": {
-      "name": "'Palazzo' Satin and Crystal Mules",
-      "description": "For evenings where anything goes. These pointed-toe satin mules are adorned with a spectacular square crystal buckle."
-    },
-    "street_luxe_derby": {
-      "name": "'Avant-Garde' Platform Derbies",
-      "description": "A classic turned on its head. The traditional derby is mounted on a lugged platform sole in ultra-light micro-rubber, for a bold look."
-    },
-    "souverain_oxfords": {
-      "name": "'The Ambassador' One-Cut Oxford",
-      "description": "Elegance at its peak. This Oxford shoe is crafted from a single piece of calfskin, a technical feat. Hand-patinated in our workshops."
-    },
-    "elite_derby": {
-      "name": "'The Consul' Buckle Derby",
-      "description": "An original alternative to the lace-up derby. This single-buckle model (Monk Strap) in grained calfskin is both formal and full of character."
-    },
-    "club_loafer": {
-      "name": "'The Yachtsman' Suede Loafer",
-      "description": "The ideal companion for sunny weekends. This supple suede loafer is mounted on a rubber-studded sole for unparalleled flexibility and comfort."
-    },
-    "tradition_brogues": {
-      "name": "'Heritage' Full Brogue Oxford",
-      "description": "A pillar of British elegance. This Oxford is distinguished by its decorative perforations ('broguing') all over the shoe. An assertive character."
-    },
-    "citadin_boots": {
-      "name": "'The Urbanite' Chelsea Boot",
-      "description": "Versatility and style. A clean shape, smooth calfskin, and sturdy elastic panels make this Chelsea boot an essential in the men's wardrobe."
-    },
-    "runway_sneakers": {
-      "name": "'The Minimalist' Leather Sneakers",
-      "description": "The clean luxury sneaker. Made in Italy from smooth calfskin, its minimalist silhouette matches any outfit, from a suit to jeans."
     },
     "tom_ford_slim_fit_shirt": {
       "name": "Tom Ford Slim Fit Shirt",
@@ -926,6 +782,126 @@
     "zara_premium_xxl_puffer_coat": {
       "name": "Zara Premium XXL Puffer Coat",
       "description": "Very warm, wide, trendy, accessible budget."
+    },
+    "chrono_luxe_watch": {
+      "name": "Chrono Luxe Black Stainless Steel Watch",
+      "description": "Elegant black stainless steel watch with a precise chronograph dial, scratch-resistant mineral glass, and adjustable bracelet. Professional and durable style."
+    },
+    "hydrosport_watch": {
+      "name": "HydroSport 5 ATM Sport Silicone Watch",
+      "description": "Sports watch with a non-slip silicone strap, 50m water resistance, reinforced screen, and basic functions. Perfect for sports and daily life."
+    },
+    "heritage_watch": {
+      "name": "Heritage Classique Brown Leather Watch",
+      "description": "Timeless model with a genuine brown leather strap, simple and elegant dial, and reliable mechanism. A chic and sober look."
+    },
+    "blue_vision_watch": {
+      "name": "Blue Vision Silver Metal Watch",
+      "description": "Polished silver metal bracelet, deep blue high-visibility dial, quartz mechanism. Very classy for the office."
+    },
+    "urban_tech_watch": {
+      "name": "Urban Tech Digital LED Watch",
+      "description": "Futuristic design, clear LED display, shock-resistant case. Ideal for a modern look."
+    },
+    "executive_elite_watch": {
+      "name": "Executive Elite Rose Gold Dial Watch",
+      "description": "Premium black leather strap, crafted rose gold dial, solid case. Guaranteed high-end look."
+    },
+    "titan_steel_watch": {
+      "name": "Titan Steel Pro Chronograph Watch",
+      "description": "Massive premium-effect watch, precise chronograph, reinforced steel bracelet. Very resistant and luxurious."
+    },
+    "nordic_luxe_beanie": {
+      "name": "Nordic Luxe Black Cable-Knit Wool Beanie",
+      "description": "Premium wool knit beanie, cable-knit pattern, snug fit. Comfortable and stylish."
+    },
+    "winter_essential_beanie": {
+      "name": "Winter Essential Thick Grey Beanie",
+      "description": "Model in thick, insulating knit, perfect for intense cold."
+    },
+    "alpine_soft_scarf": {
+      "name": "Alpine Soft Premium Virgin Wool Scarf",
+      "description": "Long and soft scarf in virgin wool, pleasant on the skin and very warm."
+    },
+    "winter_shield_snood": {
+      "name": "Winter Shield Premium Fleece Snood",
+      "description": "Ultra-soft fleece tube scarf, warms up instantly."
+    },
+    "urban_knit_beanie": {
+      "name": "Urban Knit Streetwear Cuffed Beanie",
+      "description": "Simple and trendy beanie, street cut with a cuff, very comfortable."
+    },
+    "tech_gloves": {
+      "name": "Tech Gloves Thermal Touchscreen Gloves",
+      "description": "Warm gloves compatible with touch screens, soft fleece interior."
+    },
+    "slimfold_wallet": {
+      "name": "SlimFold Premium Genuine Leather Wallet",
+      "description": "Premium leather wallet, multiple compartments, slim and elegant design."
+    },
+    "executive_bag": {
+      "name": "Executive Bag Premium Leather Crossbody Bag",
+      "description": "Compact bag for phone, wallet, and accessories. Robust leather and chic look."
+    },
+    "golden_lady_watch": {
+      "name": "Golden Lady Elegant Gold Watch",
+      "description": "Fine and feminine watch, delicate gold bracelet, and minimalist dial. Very elegant."
+    },
+    "silver_pure_watch": {
+      "name": "Silver Pure Minimalist Silver Watch",
+      "description": "Clean dial, silver Milanese-style bracelet, light and comfortable."
+    },
+    "soft_elegance_watch": {
+      "name": "Soft Elegance Beige Leather Watch",
+      "description": "Premium beige leather strap, clean white dial. Perfect for a natural chic style."
+    },
+    "rose_queen_watch": {
+      "name": "Rose Queen Rose Gold Milanese Mesh Watch",
+      "description": "Trendy watch, fine mesh bracelet, luminous rose gold tone."
+    },
+    "cozy_glam_beanie": {
+      "name": "Cozy Glam Wool Beanie with Faux Fur Pom-Pom",
+      "description": "Soft and warm beanie with a fluffy pom-pom. Very feminine."
+    },
+    "urban_chic_beanie": {
+      "name": "Urban Chic Long Oversized Beanie",
+      "description": "Urban style, long cut, very soft."
+    },
+    "winter_pearl_beanie": {
+      "name": "Winter Pearl Knitted Beanie",
+      "description": "Adorned with small elegant pearls. Chic winter look."
+    },
+    "luxe_soft_scarf": {
+      "name": "Luxe Soft Oversized Faux Fur Scarf",
+      "description": "Very thick, soft, and luxurious. A glamorous accessory."
+    },
+    "warm_plush_scarf": {
+      "name": "Warm Plush Cable-Knit Scarf",
+      "description": "Soft cable-knit texture, guaranteed warmth."
+    },
+    "elegant_wrap_shawl": {
+      "name": "Elegant Wrap Winter Shawl with Pattern",
+      "description": "Long shawl with discreet patterns, perfect for dressy outfits."
+    },
+    "cashmere_touch_scarf": {
+      "name": "Cashmere Touch Printed Cashmere Scarf",
+      "description": "Soft cashmere fabric, sophisticated patterns."
+    },
+    "lady_warm_gloves": {
+      "name": "Lady Warm Fleece-Lined Leather Gloves",
+      "description": "Supple leather gloves with a warm lining."
+    },
+    "mini_glam_handbag": {
+      "name": "Mini Glam Small Chic Handbag",
+      "description": "Small elegant bag, perfect for evening or day."
+    },
+    "shine_drop_earrings": {
+      "name": "Shine Drop Silver Dangle Earrings",
+      "description": "Fine and shiny shape, classy style."
+    },
+    "shine_night_clutch": {
+      "name": "Shine Night Premium Evening Clutch",
+      "description": "Small elegant clutch with a shiny effect."
     }
   }
 }

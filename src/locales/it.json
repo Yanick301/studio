@@ -373,7 +373,7 @@
     },
     "contact": {
       "title": "Contattaci",
-      "content": "In caso di domande sulla presente informativa sulla privacy, contattaci all'indirizzo privacy@ezentials.com."
+      "content": "In caso di domande sulla presente informativa sulla privacy, contattaci all'indirizzo ezcentials@gmail.com."
     }
   },
   "terms_of_service": {
@@ -542,150 +542,6 @@
     "cucinelli_wool_cape": {
       "name": "Mantella in lana e cashmere Brunello Cucinelli",
       "description": "Mantella di alta gamma in misto lana e cashmere, taglio ampio, tasche invisibili, finitura artigianale."
-    },
-    "ezential_bag": {
-      "name": "Borsa 'La Quotidiana' in Pelle Taurillon",
-      "description": "Lusso funzionale. Questa borsa a spalla in pelle taurillon francese è tanto morbida quanto resistente. I suoi molteplici scomparti la rendono la compagna ideale per tutti i giorni."
-    },
-    "lumi_clutch": {
-      "name": "Minaudière 'Gioiello' tempestata di Strass",
-      "description": "Più di una borsa, un gioiello. Questa minaudière rigida è interamente ricoperta di cristalli Swarovski, catturando la luce ad ogni movimento."
-    },
-    "carte_prime_holder": {
-      "name": "Portacarte 'Il Minimalista' in Pelle Epsom",
-      "description": "L'essenziale, con eleganza. Realizzato in pelle di vitello Epsom, nota per la sua resistenza, questo sottile portacarte si adatta a qualsiasi tasca."
-    },
-    "finesse_belt": {
-      "name": "Cintura 'Il Fascino' in Pelle di Lucertola",
-      "description": "Il dettaglio che cambia tutto. Una cintura sottile in vera pelle di lucertola, con una fibbia discreta in ottone placcato palladio. Un lusso discreto."
-    },
-    "minit_bag": {
-      "name": "Micro-Borsa 'L'Ammaliatore' in Camoscio di Capretto",
-      "description": "La piccola borsa che ha tutto. Abbastanza grande per l'essenziale (telefono, carte, rossetto), questa borsa in vellutata pelle di capra è l'accessorio da sera perfetto."
-    },
-    "horizon_sunglasses": {
-      "name": "Occhiali da Sole 'Aviatore' in Titanio e Oro",
-      "description": "Un'icona rivisitata. Montatura ultraleggera in titanio giapponese, con dettagli placcati in oro 18 carati. Lenti polarizzate per una visione perfetta."
-    },
-    "nuit_scarf": {
-      "name": "Stola 'Dolce Notte' in Cashmere e Seta",
-      "description": "Una sciarpa di incredibile leggerezza e morbidezza. La miscela di cashmere e seta le conferisce un drappeggio fluido e un calore delicato."
-    },
-    "organize_pouch": {
-      "name": "Pochette 'Il Nomade' Tech in Pelle",
-      "description": "Organizza i tuoi essenziali tecnologici con stile. Questa morbida pochette in pelle è progettata per contenere cavi, caricatori e altri piccoli accessori."
-    },
-    "reflet_jewelry_set": {
-      "name": "Parure 'Goccia di Rugiada' in Topazio",
-      "description": "Un set di collana e orecchini di una finezza assoluta, che mette in risalto topazi blu taglio a pera su una montatura in oro bianco."
-    },
-    "anchor_bracelet": {
-      "name": "Bracciale 'L'Ancora' in Pelle Intrecciata",
-      "description": "Un gioiello maschile casual. Questo bracciale è realizzato in pelle di vitello intrecciata e una chiusura a forma di ancora marina in acciaio inossidabile spazzolato."
-    },
-    "etoile_earrings": {
-      "name": "Orecchini a Lobo 'Diamante Solitario'",
-      "description": "Pura brillantezza. Ogni orecchino è incastonato con un diamante da 0,25 carati, montato su oro bianco per la massima brillantezza. Un classico senza tempo."
-    },
-    "ocean_necklace": {
-      "name": "Collana 'Perla Nera' di Tahiti",
-      "description": "La bellezza grezza e naturale di una perla nera di Tahiti, semplicemente sospesa a una sottile catena in oro rosa. Ogni perla è unica."
-    },
-    "sync_watch": {
-      "name": "Orologio Automatico 'Orizzonte Connesso'",
-      "description": "Il meglio di entrambi i mondi. Un orologio con movimento automatico svizzero, alloggiato in una cassa in titanio con un modulo di notifica discreto e integrato."
-    },
-    "pluie_chic_umbrella": {
-      "name": "Ombrello 'Il Gentiluomo' in Legno d'Acero",
-      "description": "Affronta la pioggia con stile. Un unico fusto in legno d'acero, un'ampia tela idrorepellente e un'apertura manuale tradizionale per questo ombrello eccezionale."
-    },
-    "travel_safe_wallet": {
-      "name": "Portafoglio da Viaggio 'Il Globetrotter'",
-      "description": "Organizza il tuo viaggio. Progettato per contenere un passaporto, carte d'imbarco, valute e carte di credito in un elegante formato in pelle."
-    },
-    "riviera_hat": {
-      "name": "Cappello 'Costa Azzurra' in Paglia di Panama",
-      "description": "L'accessorio estivo per eccellenza. Intrecciato a mano in Ecuador, questo cappello di paglia di Panama protegge dal sole con un'eleganza senza pari. Nastro in gros-grain."
-    },
-    "smart_gloves": {
-      "name": "Guanti 'Tattili' in Pecari Foderati in Cashmere",
-      "description": "Lusso a portata di mano. Realizzati nella rarissima pelle di pecari e foderati in cashmere, questi guanti sono compatibili con gli schermi touch."
-    },
-    "ceremony_bowtie": {
-      "name": "Papillon 'Black Tie' in Faille di Seta",
-      "description": "L'accessorio indispensabile per l'abbigliamento da sera. Questo papillon da annodare è tagliato da una preziosa faille di seta nera."
-    },
-    "coin_purse": {
-      "name": "Portamonete 'Il Collezionista' con Chiusura a Scatto",
-      "description": "Un fascino retrò. Questo portamonete in morbida pelle di vitello si chiude con una classica chiusura a scatto in metallo. Ideale per le tue monete o i tuoi piccoli segreti."
-    },
-    "flora_brooch": {
-      "name": "Spilla 'Giglio' in Smalto",
-      "description": "Un tocco di poesia. Questa spilla, che rappresenta un giglio stilizzato, è realizzata con la tecnica dello smalto plique-à-jour, che ricorda le vetrate."
-    },
-    "luxband_headband": {
-      "name": "Fascia 'Musa' in Twill di Seta",
-      "description": "Un accessorio versatile. Da indossare tra i capelli, al collo o annodato alla borsa, questa fascia in twill di seta è stampata con un motivo esclusivo."
-    },
-    "lecteur_glasses": {
-      "name": "Occhiali da Lettura 'L'Intellettuale'",
-      "description": "Leggere con stile. Montatura in acetato di cellulosa italiano, con lenti di alta qualità trattate con antiriflesso e filtro luce blu."
-    },
-    "charme_bag_charm": {
-      "name": "Charm per Borsa 'Il Grimoire'",
-      "description": "Personalizza la tua borsa. Questo charm per borsa rappresenta un minuscolo libro in pelle con pagine in ottone, sospeso a un moschettone con logo."
-    },
-    "portfolio_laptop_case": {
-      "name": "Portadocumenti 'Il Ministro' in Pelle",
-      "description": "Trasporta il tuo computer e i tuoi documenti con eleganza. Questo sottile portadocumenti in pelle di vitello è leggermente imbottito per una protezione ottimale."
-    },
-    "keygold_keychain": {
-      "name": "Portachiavi 'Il Guardiano' in Pelle e Ottone",
-      "description": "Un oggetto di uso quotidiano trasformato in un gioiello. Un cinturino in pelle di vitello martellata abbinato a pezzi massicci in ottone spazzolato."
-    },
-    "eclipse_heels": {
-      "name": "Décolleté 'Vertigine' in Camoscio 105mm",
-      "description": "La quintessenza dello stiletto. Un arco perfetto e un tacco di 10.5 cm che allunga la gamba all'infinito. Realizzato in intenso camoscio di capretto nero."
-    },
-    "serenite_sandals": {
-      "name": "Sandali Bassi 'La Passeggiata' in Pelle",
-      "description": "Eleganza minimalista per l'estate. Questi sandali bassi con sottili cinturini in pelle di vitello sono il simbolo di uno chic casual e senza tempo."
-    },
-    "paris_boots": {
-      "name": "Stivaletti 'Rive Gauche' in Camoscio",
-      "description": "Lo stivaletto perfetto per tutti i giorni. Un comodo tacco a blocco da 6 cm, un'elegante forma a mandorla e un morbido camoscio di capra. Chic parigino."
-    },
-    "diva_mules": {
-      "name": "Mules 'Palazzo' in Raso e Cristalli",
-      "description": "Per serate in cui tutto è concesso. Questi mules a punta in raso sono adornati da una spettacolare fibbia quadrata in cristalli."
-    },
-    "street_luxe_derby": {
-      "name": "Derby 'Avanguardia' con Zeppa",
-      "description": "Un classico stravolto. Il derby tradizionale è montato su una suola a zeppa carrarmato in microgomma ultraleggera, per un look audace."
-    },
-    "souverain_oxfords": {
-      "name": "Oxford 'L'Ambasciatore' a Pezzo Unico",
-      "description": "Eleganza al suo apice. Questa scarpa Oxford è realizzata da un unico pezzo di pelle di vitello, un'impresa tecnica. Patinata a mano nei nostri laboratori."
-    },
-    "elite_derby": {
-      "name": "Derby 'Il Console' con Fibbia",
-      "description": "Un'alternativa originale al derby con lacci. Questo modello a fibbia singola (Monk Strap) in pelle di vitello martellata è sia formale che pieno di carattere."
-    },
-    "club_loafer": {
-      "name": "Mocassino 'Lo Yachtsman' in Camoscio",
-      "description": "Il compagno ideale per i weekend di sole. Questo morbido mocassino in camoscio è montato su una suola con gommini per una flessibilità e un comfort ineguagliabili."
-    },
-    "tradition_brogues": {
-      "name": "Oxford 'Eredità' Full Brogue",
-      "description": "Un pilastro dell'eleganza britannica. Questo Oxford si distingue per le sue perforazioni decorative ('broguing') su tutta la scarpa. Un carattere deciso."
-    },
-    "citadin_boots": {
-      "name": "Stivaletto Chelsea 'Il Cittadino'",
-      "description": "Versatilità e stile. Una forma pulita, pelle di vitello liscia e robusti pannelli elastici rendono questo stivaletto Chelsea un must-have del guardaroba maschile."
-    },
-    "runway_sneakers": {
-      "name": "Sneakers 'Il Minimalista' in Pelle",
-      "description": "La sneaker di lusso pulita. Realizzata in Italia in liscia pelle di vitello, la sua silhouette minimalista si abbina a qualsiasi outfit, da un abito a un jeans."
     },
     "tom_ford_slim_fit_shirt": {
       "name": "Camicia slim fit di Tom Ford",
@@ -926,6 +782,126 @@
     "zara_premium_xxl_puffer_coat": {
       "name": "Cappotto imbottito XXL di Zara Premium",
       "description": "Molto caldo, ampio, di tendenza, budget accessibile."
+    },
+    "chrono_luxe_watch": {
+      "name": "Orologio in acciaio inossidabile nero – Chrono Luxe",
+      "description": "Elegante orologio in acciaio inossidabile nero con quadrante cronografo preciso, vetro minerale antigraffio e cinturino regolabile. Stile professionale e resistente."
+    },
+    "hydrosport_watch": {
+      "name": "Orologio sportivo in silicone – HydroSport 5 ATM",
+      "description": "Orologio sportivo con cinturino in silicone antiscivolo, impermeabile fino a 50 m, schermo rinforzato e funzioni di base. Perfetto per lo sport e la vita di tutti i giorni."
+    },
+    "heritage_watch": {
+      "name": "Orologio in pelle marrone – Heritage Classique",
+      "description": "Modello senza tempo con cinturino in vera pelle marrone, quadrante semplice ed elegante e meccanismo affidabile. Un look chic e sobrio."
+    },
+    "blue_vision_watch": {
+      "name": "Orologio in metallo argentato – Blue Vision",
+      "description": "Bracciale in metallo argentato lucido, quadrante blu intenso ad alta visibilità, meccanismo al quarzo. Molto elegante per l'ufficio."
+    },
+    "urban_tech_watch": {
+      "name": "Orologio digitale a LED – Urban Tech",
+      "description": "Design futuristico, display a LED chiaro, cassa antiurto. Ideale per un look moderno."
+    },
+    "executive_elite_watch": {
+      "name": "Orologio con quadrante in oro rosa – Executive Elite",
+      "description": "Cinturino in pelle nera premium, quadrante in oro rosa lavorato, cassa solida. Look di alta gamma garantito."
+    },
+    "titan_steel_watch": {
+      "name": "Orologio cronografo – Titan Steel Pro",
+      "description": "Orologio massiccio con effetto premium, cronografo preciso, bracciale in acciaio rinforzato. Molto resistente e lussuoso."
+    },
+    "nordic_luxe_beanie": {
+      "name": "Berretto in lana a trecce nero – Nordic Luxe",
+      "description": "Berretto in maglia di lana premium, motivo a trecce, vestibilità aderente. Comodo ed elegante."
+    },
+    "winter_essential_beanie": {
+      "name": "Berretto spesso grigio – Winter Essential",
+      "description": "Modello in maglia spessa e isolante, perfetto per il freddo intenso."
+    },
+    "alpine_soft_scarf": {
+      "name": "Sciarpa in lana vergine premium – Alpine Soft",
+      "description": "Sciarpa lunga e morbida in lana vergine, piacevole sulla pelle e molto calda."
+    },
+    "winter_shield_snood": {
+      "name": "Scaldacollo in pile – Winter Shield Premium",
+      "description": "Sciarpa a tubo in pile ultra morbido, riscalda istantaneamente."
+    },
+    "urban_knit_beanie": {
+      "name": "Berretto da strada con risvolto – Urban Knit",
+      "description": "Berretto semplice e alla moda, taglio da strada con risvolto, molto comodo."
+    },
+    "tech_gloves": {
+      "name": "Guanti termici touch – Tech Gloves",
+      "description": "Guanti caldi compatibili con schermi touch, interno in morbido pile."
+    },
+    "slimfold_wallet": {
+      "name": "Portafoglio in vera pelle – SlimFold Premium",
+      "description": "Portafoglio in pelle premium, scomparti multipli, design sottile ed elegante."
+    },
+    "executive_bag": {
+      "name": "Borsa a tracolla in pelle premium – Executive Bag",
+      "description": "Borsa compatta per telefono, portafoglio e accessori. Pelle robusta e look chic."
+    },
+    "golden_lady_watch": {
+      "name": "Orologio elegante dorato – Golden Lady",
+      "description": "Orologio fine e femminile, delicato bracciale dorato e quadrante minimalista. Molto elegante."
+    },
+    "silver_pure_watch": {
+      "name": "Orologio minimalista argentato – Silver Pure",
+      "description": "Quadrante pulito, bracciale argentato in stile milanese, leggero e confortevole."
+    },
+    "soft_elegance_watch": {
+      "name": "Orologio in pelle beige – Soft Elegance",
+      "description": "Cinturino in pelle beige premium, quadrante bianco pulito. Perfetto per uno stile chic naturale."
+    },
+    "rose_queen_watch": {
+      "name": "Orologio in oro rosa con maglia milanese – Rose Queen",
+      "description": "Orologio di tendenza, bracciale sottile in maglia, tono oro rosa luminoso."
+    },
+    "cozy_glam_beanie": {
+      "name": "Berretto in lana con pompon in pelliccia sintetica – Cozy Glam",
+      "description": "Berretto morbido e caldo con un soffice pompon. Molto femminile."
+    },
+    "urban_chic_beanie": {
+      "name": "Berretto lungo oversize – Urban Chic",
+      "description": "Stile urbano, taglio lungo, molto morbido."
+    },
+    "winter_pearl_beanie": {
+      "name": "Berretto lavorato a maglia con perle – Winter Pearl",
+      "description": "Adornato con piccole perle eleganti. Look invernale chic."
+    },
+    "luxe_soft_scarf": {
+      "name": "Sciarpa oversize in pelliccia sintetica – Luxe Soft",
+      "description": "Molto spessa, morbida e lussuosa. Un accessorio glamour."
+    },
+    "warm_plush_scarf": {
+      "name": "Sciarpa a trecce – Warm Plush",
+      "description": "Morbida trama a trecce, calore garantito."
+    },
+    "elegant_wrap_shawl": {
+      "name": "Scialle invernale con motivo elegante – Elegant Wrap",
+      "description": "Lungo scialle con motivi discreti, perfetto per outfit eleganti."
+    },
+    "cashmere_touch_scarf": {
+      "name": "Sciarpa in cashmere stampato – Cashmere Touch",
+      "description": "Morbido tessuto in cashmere, motivi sofisticati."
+    },
+    "lady_warm_gloves": {
+      "name": "Guanti in pelle foderati in pile – Lady Warm",
+      "description": "Guanti in morbida pelle con una fodera calda."
+    },
+    "mini_glam_handbag": {
+      "name": "Borsa a mano piccola e chic – Mini Glam",
+      "description": "Piccola borsa elegante, perfetta per la sera o il giorno."
+    },
+    "shine_drop_earrings": {
+      "name": "Orecchini pendenti argentati – Shine Drop",
+      "description": "Forma fine e brillante, stile di classe."
+    },
+    "shine_night_clutch": {
+      "name": "Pochette da sera – Shine Night Premium",
+      "description": "Piccola ed elegante pochette con effetto lucido."
     }
   }
 }

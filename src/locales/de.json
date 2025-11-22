@@ -373,7 +373,7 @@
     },
     "contact": {
       "title": "Kontaktieren Sie uns",
-      "content": "Wenn Sie Fragen zu dieser Datenschutzrichtlinie haben, kontaktieren Sie uns bitte unter privacy@ezentials.com."
+      "content": "Wenn Sie Fragen zu dieser Datenschutzrichtlinie haben, kontaktieren Sie uns bitte unter ezcentials@gmail.com."
     }
   },
   "terms_of_service": {
@@ -425,333 +425,123 @@
   "products": {
     "gucci_silk_dress": {
       "name": "Gucci Seidenkleid mit Schleifenprint",
-      "description": "Mehrfarbiges Seiden-Midikleid mit Schleifenprint, langen Puffärmeln, Schalkragen und Knopfverschluss hinten. 100 % Seidenstoff, fließender und femininer Schnitt.",
-      "details": "100 % Seidenstoff, fließender Schnitt. Professionelle chemische Reinigung empfohlen."
+      "description": "Mehrfarbiges Seiden-Midikleid mit Schleifenprint, langen Puffärmeln, Schalkragen und Knopfverschluss hinten. 100 % Seidenstoff, fließender und femininer Schnitt."
     },
     "dior_blazer_dress": {
       "name": "Dior Blazer-Kleid aus Woll-Seiden-Gabardine",
-      "description": "Mittellanges Blazer-Kleid aus Woll-Seiden-Gabardine gefertigt. Strukturierter Schnitt, definierte Schultern, taillierter Gürtel. Erweckt einen sehr schicken professionellen Stil.",
-      "details": "Schurwoll- und Seidengabardine. Strukturierter Schnitt. Nur chemische Reinigung."
+      "description": "Mittellanges Blazer-Kleid aus Woll-Seiden-Gabardine gefertigt. Strukturierter Schnitt, definierte Schultern, taillierter Gürtel. Erweckt einen sehr schicken professionellen Stil."
     },
     "dior_poplin_dress": {
       "name": "Dior Popeline-Kleid aus Baumwolle/Seide mit Gürtel",
-      "description": "Mittellanges Kleid aus leichtem Baumwoll- und Seidenpopeline, taillierter Schnitt, lange Ärmel, klares Design. Perfekter Cocktail aus Komfort und Eleganz.",
-      "details": "Baumwoll- und Seidenpopeline. Abnehmbarer Gürtel. Schonwaschgang."
+      "description": "Mittellanges Kleid aus leichtem Baumwoll- und Seidenpopeline, taillierter Schnitt, lange Ärmel, klares Design. Perfekter Cocktail aus Komfort und Eleganz."
     },
     "dior_oblique_dress": {
       "name": "Dior Oblique-Muster fließendes Kleid",
-      "description": "Leichtes Denim-Kleid mit Oblique-Muster, fließendem Schnitt, asymmetrischem Kragen, exklusiver Dior-Stoff.",
-      "details": "Exklusiver leichter Dior-Denim. Fließender Schnitt. Chemische Reinigung empfohlen."
+      "description": "Leichtes Denim-Kleid mit Oblique-Muster, fließendem Schnitt, asymmetrischem Kragen, exklusiver Dior-Stoff."
     },
     "dior_shirt_dress": {
       "name": "Dior schwarzes Popeline-Hemdkleid",
-      "description": "Einfaches Hemdkleid aus Baumwoll- und Seidenpopeline, gerader Schnitt, klassischer Kragen, lange Ärmel, minimalistische Eleganz.",
-      "details": "Baumwoll- und Seidenpopeline. Gerader Schnitt. Kann mit einem Gürtel getragen werden."
+      "description": "Einfaches Hemdkleid aus Baumwoll- und Seidenpopeline, gerader Schnitt, klassischer Kragen, lange Ärmel, minimalistische Eleganz."
     },
     "dior_tweed_dress": {
       "name": "Dior Macrocannage-Tweed-Kleid",
-      "description": "Kurzes Kleid aus grauem Tweed mit Macrocannage-Muster, Woll- und Seidenmischung, gerader Schnitt, strukturierte Silhouette.",
-      "details": "Woll- und Seidentweed. Macrocannage-Muster. Nur chemische Reinigung."
+      "description": "Kurzes Kleid aus grauem Tweed mit Macrocannage-Muster, Woll- und Seidenmischung, gerader Schnitt, strukturierte Silhouette."
     },
     "armani_silk_top": {
       "name": "Armani Seidentop",
-      "description": "Fließendes Seidentop, dünne Träger, fließender Schnitt, Satin-Finish. Ideal für elegante Tag- und Nachtlooks.",
-      "details": "100 % Seide. Verstellbare dünne Träger. Handwäsche empfohlen."
+      "description": "Fließendes Seidentop, dünne Träger, fließender Schnitt, Satin-Finish. Ideal für elegante Tag- und Nachtlooks."
     },
     "armani_cotton_shirt": {
       "name": "Armani ägyptisches Baumwollhemd",
-      "description": "Luxushemd aus ägyptischem Baumwollpopeline, gerader Schnitt, italienischer Kragen, dezente Knöpfe, sauberes Finish.",
-      "details": "100 % ägyptische Baumwolle. Italienischer Kragen. Perlmuttknöpfe."
+      "description": "Luxushemd aus ägyptischem Baumwollpopeline, gerader Schnitt, italienischer Kragen, dezente Knöpfe, sauberes Finish."
     },
     "armani_wool_trousers": {
       "name": "Giorgio Armani maßgeschneiderte Wollhose",
-      "description": "Maßgeschneiderte Hose aus Schurwolle, Zigarettenschnitt, hohe Taille, scharfe Falten, bequemes Futter.",
-      "details": "100 % Schurwolle. Zigarettenschnitt. Chemische Reinigung."
+      "description": "Maßgeschneiderte Hose aus Schurwolle, Zigarettenschnitt, hohe Taille, scharfe Falten, bequemes Futter."
     },
     "gucci_premium_jeans": {
       "name": "Gucci Premium-Jeans",
-      "description": "Hochwertige Jeans aus Premium-Qualitätsdenim, schmale Passform, charakteristische Logo- oder Stickereidetails, urbaner Luxus-Stil.",
-      "details": "Premium-Qualitätsdenim. Gucci-charakteristische Details. Maschinenwäsche."
+      "description": "Hochwertige Jeans aus Premium-Qualitätsdenim, schmale Passform, charakteristische Logo- oder Stickereidetails, urbaner Luxus-Stil."
     },
     "burberry_wool_coat": {
       "name": "Burberry langer Wollmantel",
-      "description": "Trenchcoat, der in einen langen Mantel verwandelt wurde, schwere Wolle, sauberes Futter, klassischer Burberry-Schnitt, praktische Taschen.",
-      "details": "Schwere Wolle. Burberry-Check-Futter. Chemische Reinigung."
+      "description": "Trenchcoat, der in einen langen Mantel verwandelt wurde, schwere Wolle, sauberes Futter, klassischer Burberry-Schnitt, praktische Taschen."
     },
     "saint_laurent_leather_jacket": {
       "name": "Saint Laurent Lammlederjacke",
-      "description": "Bikerjacke aus glattem Lammleder, taillierter Schnitt, Metallreißverschlüsse, breiter Kragen, rockig-schicker Stil.",
-      "details": "100 % Lammleder. Metallreißverschlüsse. Spezialisierte Lederpflege."
+      "description": "Bikerjacke aus glattem Lammleder, taillierter Schnitt, Metallreißverschlüsse, breiter Kragen, rockig-schicker Stil."
     },
     "cucinelli_cashmere_sweater": {
       "name": "Brunello Cucinelli Kaschmirpullover",
-      "description": "Ultraweicher Pullover aus hochwertigem Kaschmir, leicht übergroßer Schnitt, luxuriöse Oberflächen, handwerkliche Strickerei.",
-      "details": "100 % Kaschmir. Handwerkliche Strickerei. Handwäsche empfohlen."
+      "description": "Ultraweicher Pullover aus hochwertigem Kaschmir, leicht übergroßer Schnitt, luxuriöse Oberflächen, handwerkliche Strickerei."
     },
     "miu_miu_pleated_dress": {
       "name": "Miu Miu plissiertes Kleid",
-      "description": "Plissiertes Midikleid aus leichtem Stoff, fließender Schnitt, dünne Träger, feminines und jugendliches Design.",
-      "details": "Leichter plissierter Stoff. Dünne Träger. Chemische Reinigung."
+      "description": "Plissiertes Midikleid aus leichtem Stoff, fließender Schnitt, dünne Träger, feminines und jugendliches Design."
     },
     "chloe_muslin_blouse": {
       "name": "Chloé Musselin-Bluse",
-      "description": "Seidenmusselin-Bluse, Ballonärmel, Lavallière-Kragen, zarte Transparenz, bohemianisch-romantisch.",
-      "details": "Seidenmusselin. Ballonärmel. Schalkragen."
+      "description": "Seidenmusselin-Bluse, Ballonärmel, Lavallière-Kragen, zarte Transparenz, bohemianisch-romantisch."
     },
     "valentino_embroidered_dress": {
       "name": "Valentino besticktes Tüllkleid",
-      "description": "Besticktes Tüll-Abendkleid, große Blumen, ausgestellter Schnitt, Tüllschichten, sehr romantisch und Couture.",
-      "details": "Bestickter Tüll. Seidenfutter. Couture-Reinigung."
+      "description": "Besticktes Tüll-Abendkleid, große Blumen, ausgestellter Schnitt, Tüllschichten, sehr romantisch und Couture."
     },
     "burberry_gabardine_trench": {
       "name": "Burberry Baumwoll-Gabardine-Trenchcoat",
-      "description": "Klassischer Trenchcoat aus Baumwoll-Gabardine, taillierter Gürtel, ikonisches Check-Futter, zeitloser Schnitt.",
-      "details": "Baumwoll-Gabardine. Check-Futter. Chemische Reinigung."
+      "description": "Klassischer Trenchcoat aus Baumwoll-Gabardine, taillierter Gürtel, ikonisches Check-Futter, zeitloser Schnitt."
     },
     "bottega_veneta_leather_skirt": {
       "name": "Bottega Veneta Leder-Midirock",
-      "description": "Midirock aus geschmeidigem Leder, hohe Taille, gerader Schnitt, glattes Finish, moderne Eleganz.",
-      "details": "Geschmeidiges Lammleder. Spezialisierte Lederpflege."
+      "description": "Midirock aus geschmeidigem Leder, hohe Taille, gerader Schnitt, glattes Finish, moderne Eleganz."
     },
     "prada_silk_jumpsuit": {
       "name": "Prada Seidenjumpsuit",
-      "description": "Fließender Seidenjumpsuit, dünne Träger, V-Ausschnitt, weite Hosenbeine, unisex-chic.",
-      "details": "100 % Seide. Weites Bein. Chemische Reinigung."
+      "description": "Fließender Seidenjumpsuit, dünne Träger, V-Ausschnitt, weite Hosenbeine, unisex-chic."
     },
     "chanel_tweed_vest": {
       "name": "Chanel ärmellose Tweed-Weste",
-      "description": "Ärmellose maßgeschneiderte Weste aus Tweed, perlenbesetzte Kanten, aufgesetzte Taschen, beständiger „Chanel“-Chic-Stil.",
-      "details": "Ikonischer Chanel-Tweed. Perlenoberflächen. Couture-Reinigung."
+      "description": "Ärmellose maßgeschneiderte Weste aus Tweed, perlenbesetzte Kanten, aufgesetzte Taschen, beständiger „Chanel“-Chic-Stil."
     },
     "stella_mccartney_wrap_dress": {
       "name": "Stella McCartney Krepp-Wickelkleid",
-      "description": "Wickelkleid aus fließendem Krepp, Bindegürtel, V-Ausschnitt, schmeichelnder Schnitt, nachhaltiges Design.",
-      "details": "Nachhaltiger fließender Krepp. Bindegürtel. Maschinenwäsche."
+      "description": "Wickelkleid aus fließendem Krepp, Bindegürtel, V-Ausschnitt, schmeichelnder Schnitt, nachhaltiges Design."
     },
     "balmain_luxe_sweatshirt": {
       "name": "Balmain Luxus-Baumwoll-Sweatshirt",
-      "description": "Sweatshirt mit strukturiertem Schnitt, dicke Baumwolle, dezentes Balmain-Logo, Raglanärmel, feiner Rippsaum.",
-      "details": "Dicke Baumwolle. Dezentes Logo. Maschinenwäsche."
+      "description": "Sweatshirt mit strukturiertem Schnitt, dicke Baumwolle, dezentes Balmain-Logo, Raglanärmel, feiner Rippsaum."
     },
     "valentino_silk_tunic": {
       "name": "Valentino Wildseidentunika",
-      "description": "Weite Tunika aus Wildseide, 3/4-Ärmel, U-Boot-Ausschnitt, fließender Fall, natürliche Eleganz.",
-      "details": "100 % Wildseide. Weite Passform. Chemische Reinigung."
+      "description": "Weite Tunika aus Wildseide, 3/4-Ärmel, U-Boot-Ausschnitt, fließender Fall, natürliche Eleganz."
     },
     "max_mara_wool_shorts": {
       "name": "Max Mara maßgeschneiderte Wollshorts",
-      "description": "Maßgeschneiderte Shorts aus einer Wollmischung, hohe Taille, vordere Falten, sauberer Saum, perfekt für einen schicken Sommerlook.",
-      "details": "Wollmischung. Hohe Taille. Chemische Reinigung."
+      "description": "Maßgeschneiderte Shorts aus einer Wollmischung, hohe Taille, vordere Falten, sauberer Saum, perfekt für einen schicken Sommerlook."
     },
     "oscar_de_la_renta_bustier_dress": {
       "name": "Oscar de la Renta besticktes Bustierkleid",
-      "description": "Bustier-Ballkleid, Blumenstickerei, voller Taffrock, glamouröser Couture-Schnitt.",
-      "details": "Taft und Blumenstickerei. Couture-Reinigung."
+      "description": "Bustier-Ballkleid, Blumenstickerei, voller Taffrock, glamouröser Couture-Schnitt."
     },
     "givenchy_satin_shirt": {
       "name": "Givenchy Satinhemd",
-      "description": "Fließendes Satinhemd, lockere Passform, klassischer Kragen, dezente Knöpfe, minimalistisch-chic.",
-      "details": "Fließender Satin. Lockere Passform. Schonwäsche."
+      "description": "Fließendes Satinhemd, lockere Passform, klassischer Kragen, dezente Knöpfe, minimalistisch-chic."
     },
     "the_row_cashmere_cardigan": {
       "name": "The Row feiner Kaschmir-Cardigan",
-      "description": "Luxuriöser Kaschmir-Cardigan, sauberer Schnitt, Perlmuttknöpfe, dezentes und sehr hochwertiges Design.",
-      "details": "100 % Kaschmir. Perlmuttknöpfe. Handwäsche."
+      "description": "Luxuriöser Kaschmir-Cardigan, sauberer Schnitt, Perlmuttknöpfe, dezentes und sehr hochwertiges Design."
     },
     "valentino_palazzo_pants": {
       "name": "Valentino Seiden-Palazzohose",
-      "description": "Palazzohose aus leichter Seide, elastischer Bund, fließender Schnitt, für maximalen Komfort und Eleganz.",
-      "details": "Leichte 100 % Seide. Elastischer Bund. Chemische Reinigung."
+      "description": "Palazzohose aus leichter Seide, elastischer Bund, fließender Schnitt, für maximalen Komfort und Eleganz."
     },
     "balenciaga_silk_jersey_tshirt": {
       "name": "Balenciaga Luxus-Seidenjersey-T-Shirt",
-      "description": "Übergroßes T-Shirt aus Seidenjersey, Rundhalsausschnitt, kurze Ärmel, fließender Fall, moderner „stiller Luxus“-Stil.",
-      "details": "Seidenjersey. Übergroße Passform. Schonwäsche."
+      "description": "Übergroßes T-Shirt aus Seidenjersey, Rundhalsausschnitt, kurze Ärmel, fließender Fall, moderner „stiller Luxus“-Stil."
     },
     "cucinelli_wool_cape": {
       "name": "Brunello Cucinelli Woll- & Kaschmir-Cape",
-      "description": "Hochwertiges Cape aus einer Woll- und Kaschmirmischung, weiter Schnitt, unsichtbare Taschen, handwerkliches Finish.",
-      "details": "Woll- und Kaschmirmischung. Handwerkliches Finish. Chemische Reinigung."
-    },
-    "ezential_bag": {
-      "name": "'Der Daily' Taurillon-Leder-Tasche",
-      "description": "Funktioneller Luxus. Diese Umhängetasche aus französischem Taurillon-Leder ist ebenso geschmeidig wie langlebig. Ihre zahlreichen Fächer machen sie zum idealen täglichen Begleiter.",
-      "details": "Französisches Taurillon-Leder. Wildlederfutter. Metallteile mit Palladium-Finish. Verstellbarer Schultergurt."
-    },
-    "lumi_clutch": {
-      "name": "'Juwel' Strassbesetzte Minaudière",
-      "description": "Mehr als eine Tasche, ein Juwel. Diese starre Minaudière ist vollständig mit Swarovski-Kristallen besetzt und fängt das Licht bei jeder Bewegung ein.",
-      "details": "Messingstruktur. Swarovski-Kristalle. Juwelenschließe. Abnehmbare Kette."
-    },
-    "carte_prime_holder": {
-      "name": "'Der Minimalist' Epsom-Leder-Kartenhalter",
-      "description": "Das Wesentliche, mit Eleganz. Hergestellt aus Epsom-Kalbsleder, bekannt für seine Widerstandsfähigkeit, passt dieser schlanke Kartenhalter in jede Tasche.",
-      "details": "Epsom-Kalbsleder. Drei Kartenfächer. Mittleres Fach. Handbemalte Kanten."
-    },
-    "finesse_belt": {
-      "name": "'Der Reiz' Eidechsenleder-Gürtel",
-      "description": "Das Detail, das alles verändert. Ein dünner Gürtel aus echtem Eidechsenleder, mit einer dezenten Schnalle aus palladiumbeschichtetem Messing. Ein subtiler Luxus.",
-      "details": "Echtes Eidechsenleder. Kalbslederfutter. Schnalle aus Messing mit Palladium-Finish."
-    },
-    "minit_bag": {
-      "name": "'Der Charmeur' Ziegenvelours-Mikrotasche",
-      "description": "Die kleine Tasche, die alles hat. Groß genug für das Wesentliche (Telefon, Karten, Lippenstift), ist diese samtige Ziegenledertasche das perfekte Abendaccessoire.",
-      "details": "Samtiges Ziegenleder. Ketten- und Lederriemen. Magnetverschluss."
-    },
-    "horizon_sunglasses": {
-      "name": "'Aviator' Titan- und Gold-Sonnenbrille",
-      "description": "Eine Ikone neu interpretiert. Ultraleichter Rahmen aus japanischem Titan, mit 18-karätig vergoldeten Details. Polarisierte Gläser für perfekte Sicht.",
-      "details": "Titanrahmen. 18-karätige Vergoldung. Polarisierte Gläser mit Antireflexbeschichtung."
-    },
-    "nuit_scarf": {
-      "name": "'Süße Nacht' Kaschmir- und Seidenstola",
-      "description": "Ein Schal von unglaublicher Leichtigkeit und Weichheit. Die Mischung aus Kaschmir und Seide verleiht ihm einen fließenden Fall und zarte Wärme.",
-      "details": "70% Kaschmir, 30% Seide. Sehr feines Gewebe. Zarte Fransenkanten. Maße: 70x200cm."
-    },
-    "organize_pouch": {
-      "name": "'Der Nomade' Tech-Tasche aus Leder",
-      "description": "Organisieren Sie Ihre Tech-Essentials mit Stil. Diese weiche Ledertasche ist für Ihre Kabel, Ladegeräte und andere kleine Accessoires konzipiert.",
-      "details": "Weiches Kalbsleder. Elastische Fächer. Mikrofaserfutter."
-    },
-    "reflet_jewelry_set": {
-      "name": "'Tautropfen' Topas-Schmuckset",
-      "description": "Ein Halsketten- und Ohrringset von absoluter Finesse, das birnenförmig geschliffene blaue Topase auf einer Weißgoldfassung hervorhebt.",
-      "details": "18-karätiges Weißgold. 'Swiss Blue' blaue Topase. Forçat-Kette."
-    },
-    "anchor_bracelet": {
-      "name": "'Der Anker' Geflochtenes Lederarmband",
-      "description": "Ein lässiges Herrenschmuckstück. Dieses Armband besteht aus geflochtenem Kalbsleder und einem Verschluss in Form eines Marineankers aus gebürstetem Edelstahl.",
-      "details": "Geflochtenes Kalbsleder. Ankerverschluss aus 316L-Stahl. Handgefertigt in Italien."
-    },
-    "etoile_earrings": {
-      "name": "'Solitär-Diamant' Ohrstecker",
-      "description": "Reiner Glanz. Jeder Ohrring ist mit einem 0,25-Karat-Diamanten besetzt, montiert auf Weißgold für maximale Brillanz. Ein zeitloser Klassiker.",
-      "details": "18-karätiges Weißgold. Zwei 0,25-Karat-Diamanten, Qualität G/VS. Sicheres Verschlusssystem."
-    },
-    "ocean_necklace": {
-      "name": "'Schwarze Perle' Tahiti-Halskette",
-      "description": "Die rohe, natürliche Schönheit einer Tahiti-Schwarzperle, einfach an einer dünnen Roségoldkette aufgehängt. Jede Perle ist ein Unikat.",
-      "details": "18-karätiges Roségold. Tahiti-Schwarzperle, AAA-Qualität, 9-10mm Durchmesser."
-    },
-    "sync_watch": {
-      "name": "'Verbundener Horizont' Automatikuhr",
-      "description": "Das Beste aus beiden Welten. Eine Schweizer Automatikuhr, untergebracht in einem Titangehäuse mit einem diskreten, integrierten Benachrichtigungsmodul.",
-      "details": "Schweizer Automatikwerk. Gehäuse aus Titan Grad 5. Saphirglas. Auswechselbares Armband."
-    },
-    "pluie_chic_umbrella": {
-      "name": "'Der Gentleman' Ahornholz-Regenschirm",
-      "description": "Stellen Sie sich dem Regen mit Elan. Ein einziger Schaft aus Ahornholz, eine breite wasserabweisende Bespannung und eine traditionelle manuelle Öffnung für diesen außergewöhnlichen Regenschirm.",
-      "details": "Schaft und Griff aus massivem Ahornholz. Bespannung aus hochdichtem Polyester. Hergestellt in Frankreich."
-    },
-    "travel_safe_wallet": {
-      "name": "'Der Globetrotter' Reisebrieftasche",
-      "description": "Organisieren Sie Ihre Reise. Konzipiert für einen Reisepass, Bordkarten, Währungen und Kreditkarten in einem eleganten Lederformat.",
-      "details": "Vollnarbiges Kalbsleder. RFID-Schutz. Mehrere Fächer."
-    },
-    "riviera_hat": {
-      "name": "'Côte d'Azur' Panama-Strohhut",
-      "description": "Das quintessentielle Sommeraccessoire. Handgeflochten in Ecuador, schützt dieser Panama-Strohhut mit unvergleichlicher Eleganz vor der Sonne. Ripsband.",
-      "details": "Authentisches Toquilla-Stroh (Panama). Feines Geflecht. Austauschbares Ripsband."
-    },
-    "smart_gloves": {
-      "name": "'Taktile' Peccary-Kaschmir-gefütterte Handschuhe",
-      "description": "Luxus an Ihren Fingern. Hergestellt aus dem sehr seltenen Pekari-Leder und mit Kaschmir gefüttert, sind diese Handschuhe mit Touchscreens kompatibel.",
-      "details": "Pekari-Leder. 100% Kaschmirfutter. Touchscreen-kompatible Technologie."
-    },
-    "ceremony_bowtie": {
-      "name": "'Schwarze Krawatte' Seidenfaille-Fliege",
-      "description": "Das unverzichtbare Accessoire für Abendgarderobe. Diese selbst zu bindende Fliege ist aus einem kostbaren schwarzen Seidenfaille geschnitten.",
-      "details": "100% Seidenfaille. Selbstbinder. Verstellbare Größe."
-    },
-    "coin_purse": {
-      "name": "'Der Sammler' Münzgeldbörse mit Verschluss",
-      "description": "Ein Retro-Charme. Diese weiche Kalbsleder-Münzgeldbörse schließt mit einem klassischen Metallverschluss. Ideal für Ihr Kleingeld oder Ihre kleinen Geheimnisse.",
-      "details": "Weiches Kalbsleder. Verschluss aus gealtertem Messing. Lammlederfutter."
-    },
-    "flora_brooch": {
-      "name": "'Fleur de Lys' Emaille-Brosche",
-      "description": "Ein Hauch von Poesie. Diese Brosche, die eine stilisierte Fleur-de-Lys darstellt, ist in der Plique-à-jour-Emaille-Technik gefertigt, die an Glasmalerei erinnert.",
-      "details": "Vergoldetes 925er Silber. Plique-à-jour-Emaille. Handgefertigt."
-    },
-    "luxband_headband": {
-      "name": "'Muse' Seidentwill-Stirnband",
-      "description": "Ein vielseitiges Accessoire. Im Haar, um den Hals oder an Ihre Tasche gebunden, ist dieses Seidentwill-Stirnband mit einem exklusiven Muster bedruckt.",
-      "details": "100% Seidentwill. Beidseitig bedruckt. Maße: 6 x 105 cm."
-    },
-    "lecteur_glasses": {
-      "name": "'Der Intellektuelle' Lesebrille",
-      "description": "Lesen mit Stil. Rahmen aus italienischem Zelluloseacetat, mit hochwertigen Gläsern, die mit Antireflex- und Blaulichtfilter-Beschichtungen behandelt sind.",
-      "details": "Mazzucchelli-Zelluloseacetat. Antireflex- und Blaulichtfilter-behandelte Gläser. Genietete Scharniere."
-    },
-    "charme_bag_charm": {
-      "name": "'Das Grimoire' Taschenanhänger",
-      "description": "Personalisieren Sie Ihre Tasche. Dieser Taschenanhänger stellt ein winziges Lederbuch mit Messingseiten dar, das an einem Karabinerhaken mit Logo hängt.",
-      "details": "Leder und Messing. Gravierter Stahlkarabinerhaken."
-    },
-    "portfolio_laptop_case": {
-      "name": "'Der Minister' Leder-Dokumentenmappe",
-      "description": "Tragen Sie Ihren Computer und Ihre Dokumente mit Eleganz. Diese schlanke Dokumentenmappe aus Kalbsleder ist leicht gepolstert für optimalen Schutz.",
-      "details": "Kalbsleder. Gepolstertes Hauptfach für einen 13-Zoll-Computer. Außentasche."
-    },
-    "keygold_keychain": {
-      "name": "'Der Wächter' Leder- und Messing-Schlüsselanhänger",
-      "description": "Ein Alltagsgegenstand, der in ein Schmuckstück verwandelt wurde. Ein Riemen aus genarbtem Kalbsleder kombiniert mit massiven gebürsteten Messingteilen.",
-      "details": "Kalbsleder und massives Messing. Spaltring und Karabinerhaken."
-    },
-    "eclipse_heels": {
-      "name": "'Schwindel' 105mm Wildleder-Pumps",
-      "description": "Der Inbegriff des Stilettos. Ein perfekter Bogen und ein 10,5 cm hoher Absatz, der das Bein endlos verlängert. Hergestellt aus intensivem schwarzem Ziegenveloursleder.",
-      "details": "100% italienisches Ziegenveloursleder. 10,5 cm Absatz. Lederinnensohle und -laufsohle."
-    },
-    "serenite_sandals": {
-      "name": "'Der Spaziergang' Flache Ledersandalen",
-      "description": "Minimalistische Eleganz für den Sommer. Diese flachen Sandalen mit dünnen Kalbslederriemen sind das Symbol für lässigen und zeitlosen Chic.",
-      "details": "Kalbsleder. Gepolsterte Innensohle. Hergestellt in Italien."
-    },
-    "paris_boots": {
-      "name": "'Rive Gauche' Wildleder-Stiefeletten",
-      "description": "Die perfekte Stiefelette für jeden Tag. Ein bequemer 6 cm Blockabsatz, eine elegante Mandelform und geschmeidiges Ziegenveloursleder. Pariser Chic.",
-      "details": "Ziegenveloursleder. 6 cm Blockabsatz. Seitlicher Reißverschluss."
-    },
-    "diva_mules": {
-      "name": "'Palazzo' Satin- und Kristall-Mules",
-      "description": "Für Abende, an denen alles erlaubt ist. Diese spitz zulaufenden Satin-Mules sind mit einer spektakulären quadratischen Kristallschnalle verziert.",
-      "details": "Herzogin-Satin. Swarovski-Kristallschnalle. Kleiner 2 cm Absatz."
-    },
-    "street_luxe_derby": {
-      "name": "'Avantgarde' Plateau-Derbys",
-      "description": "Ein Klassiker auf den Kopf gestellt. Der traditionelle Derby ist auf einer geriffelten Plateausohle aus ultraleichtem Mikrogummi montiert, für einen kühnen Look.",
-      "details": "Poliertes Kalbsleder. Mikrogummi-Plateausohle. Lederfutter."
-    },
-    "souverain_oxfords": {
-      "name": "'Der Botschafter' One-Cut Oxford",
-      "description": "Eleganz in Perfektion. Dieser Oxford-Schuh wird aus einem einzigen Stück Kalbsleder gefertigt, eine technische Meisterleistung. Handpatiniert in unseren Werkstätten.",
-      "details": "One-Cut-Konstruktion. Französisches Kalbsleder. Blake-genäht. Handpatinierung auf Anfrage."
-    },
-    "elite_derby": {
-      "name": "'Der Konsul' Schnallen-Derby",
-      "description": "Eine originelle Alternative zum Schnür-Derby. Dieses Einzelschnallen-Modell (Monk Strap) aus genarbtem Kalbsleder ist sowohl formell als auch charaktervoll.",
-      "details": "Genarbtes Kalbsleder. Goodyear-genäht. Messingschnalle."
-    },
-    "club_loafer": {
-      "name": "'Der Yachtsman' Wildleder-Loafer",
-      "description": "Der ideale Begleiter für sonnige Wochenenden. Dieser geschmeidige Wildleder-Loafer ist auf einer mit Gumminoppen besetzten Sohle für unvergleichliche Flexibilität und Komfort montiert.",
-      "details": "Wasserabweisendes Kalbsveloursleder. Gumminoppensohle. Tubuläre Konstruktion."
-    },
-    "tradition_brogues": {
-      "name": "'Heritage' Full-Brogue-Oxford",
-      "description": "Eine Säule britischer Eleganz. Dieser Oxford zeichnet sich durch seine dekorativen Lochungen ('Broguing') auf dem gesamten Schuh aus. Ein selbstbewusster Charakter.",
-      "details": "Boxkalbsleder. Full-Brogue-Lochungen. Goodyear-genäht auf einer Ledersohle."
-    },
-    "citadin_boots": {
-      "name": "'Der Städter' Chelsea-Stiefel",
-      "description": "Vielseitigkeit und Stil. Eine klare Form, glattes Kalbsleder und robuste Gummibänder machen diesen Chelsea-Stiefel zu einem unverzichtbaren Bestandteil der Herrengarderobe.",
-      "details": "Glattes Kalbsleder. Blake-genäht. Seitliche Gummibänder."
-    },
-    "runway_sneakers": {
-      "name": "'Der Minimalist' Leder-Sneakers",
-      "description": "Der saubere Luxus-Sneaker. Hergestellt in Italien aus glattem Kalbsleder, passt seine minimalistische Silhouette zu jedem Outfit, vom Anzug bis zur Jeans.",
-      "details": "Italienisches Kalbsleder. Vollständiges Lederfutter. Genähte Gummisohle."
+      "description": "Hochwertiges Cape aus einer Woll- und Kaschmirmischung, weiter Schnitt, unsichtbare Taschen, handwerkliches Finish."
     },
     "tom_ford_slim_fit_shirt": {
       "name": "Tom Ford Slim Fit Hemd",
@@ -992,6 +782,126 @@
     "zara_premium_xxl_puffer_coat": {
       "name": "XXL-Puffermantel – Zara Premium",
       "description": "Sehr warm, weit, trendy, erschwingliches Budget."
+    },
+    "chrono_luxe_watch": {
+      "name": "Schwarze Edelstahl-Uhr – Chrono Luxe",
+      "description": "Elegante schwarze Edelstahl-Uhr mit präzisem Chronographen-Zifferblatt, kratzfestem Mineralglas und verstellbarem Armband. Professioneller und langlebiger Stil."
+    },
+    "hydrosport_watch": {
+      "name": "Sport-Silikon-Uhr – HydroSport 5 ATM",
+      "description": "Sportuhr mit rutschfestem Silikonarmband, 50 m wasserdicht, verstärktem Bildschirm und Grundfunktionen. Perfekt für Sport und Alltag."
+    },
+    "heritage_watch": {
+      "name": "Braune Leder-Uhr – Heritage Classique",
+      "description": "Zeitloses Modell mit echtem braunem Lederarmband, einfachem und elegantem Zifferblatt und zuverlässigem Mechanismus. Ein schicker und schlichter Look."
+    },
+    "blue_vision_watch": {
+      "name": "Silberne Metall-Uhr – Blue Vision",
+      "description": "Poliertes silbernes Metallarmband, tiefblaues Zifferblatt mit hoher Sichtbarkeit, Quarzmechanismus. Sehr edel für das Büro."
+    },
+    "urban_tech_watch": {
+      "name": "Digitale LED-Uhr – Urban Tech",
+      "description": "Futuristisches Design, klares LED-Display, stoßfestes Gehäuse. Ideal für einen modernen Look."
+    },
+    "executive_elite_watch": {
+      "name": "Roségold-Zifferblatt-Uhr – Executive Elite",
+      "description": "Premium-schwarzes Lederarmband, gearbeitetes Roségold-Zifferblatt, robustes Gehäuse. Garantierter High-End-Look."
+    },
+    "titan_steel_watch": {
+      "name": "Chronograph-Uhr – Titan Steel Pro",
+      "description": "Massive Uhr mit Premium-Effekt, präziser Chronograph, verstärktes Stahlarmband. Sehr widerstandsfähig und luxuriös."
+    },
+    "nordic_luxe_beanie": {
+      "name": "Schwarze Woll-Zopfstrickmütze – Nordic Luxe",
+      "description": "Mütze aus Premium-Wollstrick, Zopfmuster, enge Passform. Bequem und stilvoll."
+    },
+    "winter_essential_beanie": {
+      "name": "Dicke graue Mütze – Winter Essential",
+      "description": "Modell aus dickem, isolierendem Strick, perfekt für intensive Kälte."
+    },
+    "alpine_soft_scarf": {
+      "name": "Premium-Schurwollschal – Alpine Soft",
+      "description": "Langer und weicher Schal aus Schurwolle, angenehm auf der Haut und sehr warm."
+    },
+    "winter_shield_snood": {
+      "name": "Fleece-Snood – Winter Shield Premium",
+      "description": "Ultraweicher Fleece-Schlauchschal, wärmt sofort."
+    },
+    "urban_knit_beanie": {
+      "name": "Streetwear-Umschlagmütze – Urban Knit",
+      "description": "Einfache und trendige Mütze, Street-Schnitt mit Umschlag, sehr bequem."
+    },
+    "tech_gloves": {
+      "name": "Thermische Touch-Handschuhe – Tech Gloves",
+      "description": "Warme Handschuhe, kompatibel mit Touchscreens, weiches Fleece-Innenfutter."
+    },
+    "slimfold_wallet": {
+      "name": "Echtes Leder-Portemonnaie – SlimFold Premium",
+      "description": "Portemonnaie aus Premium-Leder, mehrere Fächer, schlankes und elegantes Design."
+    },
+    "executive_bag": {
+      "name": "Premium-Leder-Umhängetasche – Executive Bag",
+      "description": "Kompakte Tasche für Telefon, Portemonnaie und Zubehör. Robustes Leder und schicker Look."
+    },
+    "golden_lady_watch": {
+      "name": "Elegante goldene Uhr – Golden Lady",
+      "description": "Feine und feminine Uhr, zierliches goldenes Armband und minimalistisches Zifferblatt. Sehr elegant."
+    },
+    "silver_pure_watch": {
+      "name": "Minimalistische silberne Uhr – Silver Pure",
+      "description": "Sauberes Zifferblatt, silbernes Armband im Milanaise-Stil, leicht und bequem."
+    },
+    "soft_elegance_watch": {
+      "name": "Beige Leder-Uhr – Soft Elegance",
+      "description": "Premium-beiges Lederarmband, klares weißes Zifferblatt. Perfekt für einen natürlichen schicken Stil."
+    },
+    "rose_queen_watch": {
+      "name": "Roségold-Milanaise-Mesh-Uhr – Rose Queen",
+      "description": "Trendige Uhr, feines Mesh-Armband, leuchtender Roségold-Ton."
+    },
+    "cozy_glam_beanie": {
+      "name": "Wollmütze mit Kunstpelz-Bommel – Cozy Glam",
+      "description": "Weiche und warme Mütze mit flauschigem Bommel. Sehr feminin."
+    },
+    "urban_chic_beanie": {
+      "name": "Lange Oversize-Mütze – Urban Chic",
+      "description": "Urbaner Stil, langer Schnitt, sehr weich."
+    },
+    "winter_pearl_beanie": {
+      "name": "Perlen-Strickmütze – Winter Pearl",
+      "description": "Verziert mit kleinen eleganten Perlen. Schicker Winterlook."
+    },
+    "luxe_soft_scarf": {
+      "name": "Oversize-Kunstpelzschal – Luxe Soft",
+      "description": "Sehr dick, weich und luxuriös. Ein glamouröses Accessoire."
+    },
+    "warm_plush_scarf": {
+      "name": "Zopfstrick-Schal – Warm Plush",
+      "description": "Weiche Zopfstrick-Textur, garantierte Wärme."
+    },
+    "elegant_wrap_shawl": {
+      "name": "Winter-Schal mit elegantem Muster – Elegant Wrap",
+      "description": "Langer Schal mit dezenten Mustern, perfekt für elegante Outfits."
+    },
+    "cashmere_touch_scarf": {
+      "name": "Bedruckter Kaschmir-Schal – Cashmere Touch",
+      "description": "Weicher Kaschmir-Stoff, raffinierte Muster."
+    },
+    "lady_warm_gloves": {
+      "name": "Fleece-gefütterte Lederhandschuhe – Lady Warm",
+      "description": "Weiche Lederhandschuhe mit warmem Futter."
+    },
+    "mini_glam_handbag": {
+      "name": "Kleine schicke Handtasche – Mini Glam",
+      "description": "Kleine elegante Tasche, perfekt für den Abend oder den Tag."
+    },
+    "shine_drop_earrings": {
+      "name": "Silberne Hängeohrringe – Shine Drop",
+      "description": "Feine und glänzende Form, edler Stil."
+    },
+    "shine_night_clutch": {
+      "name": "Abend-Clutch – Shine Night Premium",
+      "description": "Kleine elegante Clutch mit Glanzeffekt."
     }
   }
 }

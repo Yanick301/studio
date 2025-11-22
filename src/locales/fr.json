@@ -373,7 +373,7 @@
     },
     "contact": {
       "title": "Contactez-nous",
-      "content": "Si vous avez des questions concernant cette politique de confidentialité, veuillez nous contacter à privacy@ezentials.com."
+      "content": "Si vous avez des questions concernant cette politique de confidentialité, veuillez nous contacter à ezcentials@gmail.com."
     }
   },
   "terms_of_service": {
@@ -542,186 +542,6 @@
     "cucinelli_wool_cape": {
       "name": "Cape laine & cachemire – Brunello Cucinelli",
       "description": "Cape haut-de-gamme en mélange laine et cachemire, coupe ample, poches invisibles, finition artisanale."
-    },
-    "ezential_bag": {
-      "name": "Sac 'Le Quotidien' en Cuir Taurillon",
-      "description": "Le luxe fonctionnel. Ce sac porté épaule en cuir de taurillon français est aussi souple que résistant. Ses multiples compartiments en font le partenaire idéal du quotidien.",
-      "details": "Cuir de Taurillon de France. Doublure en suédine. Pièces métalliques finition palladium. Bandoulière ajustable."
-    },
-    "lumi_clutch": {
-      "name": "Minaudière 'Joyau' Sertie de Strass",
-      "description": "Plus qu'un sac, un bijou. Cette minaudière rigide est entièrement recouverte de cristaux Swarovski, capturant la lumière à chaque mouvement.",
-      "details": "Structure en laiton. Cristaux Swarovski. Fermoir bijou. Chaînette amovible."
-    },
-    "carte_prime_holder": {
-      "name": "Porte-Cartes 'Le Minimaliste' en Cuir Epsom",
-      "description": "L'essentiel, avec élégance. Réalisé en cuir de veau Epsom, connu pour sa résistance, ce porte-cartes fin se glisse dans n'importe quelle poche.",
-      "details": "Cuir de veau Epsom. Trois fentes pour cartes. Compartiment central. Bords peints à la main."
-    },
-    "finesse_belt": {
-      "name": "Ceinture 'L'Allure' en Cuir de Lézard",
-      "description": "Le détail qui change tout. Une ceinture fine en véritable cuir de lézard, avec une boucle discrète en laiton palladié. Un luxe subtil.",
-      "details": "Cuir de lézard véritable. Doublure en veau. Boucle en laiton finition palladium."
-    },
-    "minit_bag": {
-      "name": "Micro-Sac 'Le Charmeur' en Daim de Chèvre",
-      "description": "Le petit sac qui a tout d'un grand. Assez grand pour l'essentiel (téléphone, cartes, rouge à lèvres), ce sac en cuir de chèvre velouté est l'accessoire parfait du soir.",
-      "details": "Cuir de chèvre velours. Bandoulière chaîne et cuir. Fermoir magnétique."
-    },
-    "horizon_sunglasses": {
-      "name": "Lunettes de Soleil 'Aviateur' en Titane et Or",
-      "description": "Une icône revisitée. Monture ultra-légère en titane japonais, avec des détails plaqués or 18 carats. Verres polarisants pour une vision parfaite.",
-      "details": "Monture en titane. Plaquage or 18 carats. Verres polarisants avec traitement antireflet."
-    },
-    "nuit_scarf": {
-      "name": "Étole 'Douce Nuit' en Cachemire et Soie",
-      "description": "Une écharpe d'une légèreté et d'une douceur incroyables. Le mélange de cachemire et de soie lui donne un tombé fluide et une chaleur délicate.",
-      "details": "70% Cachemire, 30% Soie. Tissage très fin. Bords à franges délicates. Dimensions : 70x200cm."
-    },
-    "organize_pouch": {
-      "name": "Pochette Tech 'Le Nomade' en Cuir",
-      "description": "Organisez vos essentiels technologiques avec style. Cette trousse en cuir souple est conçue pour accueillir vos câbles, chargeurs et autres petits accessoires.",
-      "details": "Cuir de veau souple. Compartiments élastiqués. Doublure en microfibre."
-    },
-    "reflet_jewelry_set": {
-      "name": "Parure 'Goutte de Rosée' en Topaze",
-      "description": "Un ensemble collier et boucles d'oreilles d'une finesse absolue, mettant en valeur des topazes bleues taillées en poire sur une monture en or blanc.",
-      "details": "Or blanc 18 carats. Topazes bleues 'Swiss Blue'. Chaîne forçat."
-    },
-    "anchor_bracelet": {
-      "name": "Bracelet 'L'Ancre' en Cuir Tressé",
-      "description": "Un bijou masculin décontracté. Ce bracelet est composé de cuir de veau tressé et d'un fermoir en forme d'ancre marine en acier inoxydable brossé.",
-      "details": "Cuir de veau tressé. Fermoir ancre en acier 316L. Fait main en Italie."
-    },
-    "etoile_earrings": {
-      "name": "Puces d'Oreilles 'Diamant Solitaire'",
-      "description": "L'éclat pur. Chaque boucle d'oreille est sertie d'un diamant de 0.25 carat, monté sur or blanc pour une brillance maximale. Un classique intemporel.",
-      "details": "Or blanc 18 carats. Deux diamants de 0.25ct chacun, qualité G/VS. Système de fermeture sécurisé."
-    },
-    "ocean_necklace": {
-      "name": "Collier 'Perle Noire' de Tahiti",
-      "description": "La beauté brute et naturelle d'une perle noire de Tahiti, simplement suspendue à une fine chaîne en or rose. Chaque perle est unique.",
-      "details": "Or rose 18 carats. Perle noire de Tahiti, grade AAA, diamètre 9-10mm."
-    },
-    "sync_watch": {
-      "name": "Montre Automatique 'Horizon Connecté'",
-      "description": "Le meilleur des deux mondes. Une montre au mouvement automatique suisse, logée dans un boîtier en titane avec un module de notifications discret et intégré.",
-      "details": "Mouvement automatique suisse. Boîtier en titane grade 5. Verre saphir. Bracelet interchangeable."
-    },
-    "pluie_chic_umbrella": {
-      "name": "Parapluie 'Le Gentleman' en Bois d'Érable",
-      "description": "Affrontez la pluie avec panache. Un mât unique en bois d'érable, une large toile déperlante et une ouverture manuelle traditionnelle pour ce parapluie d'exception.",
-      "details": "Mât et poignée en bois d'érable massif. Toile en polyester haute densité. Fabriqué en France."
-    },
-    "travel_safe_wallet": {
-      "name": "Portefeuille de Voyage 'Le Globetrotter'",
-      "description": "Organisez votre voyage. Conçu pour contenir un passeport, des cartes d'embarquement, des devises et des cartes de crédit dans un format élégant en cuir.",
-      "details": "Cuir de veau pleine fleur. Protection RFID. Multiples compartiments."
-    },
-    "riviera_hat": {
-      "name": "Chapeau 'Côte d'Azur' en Paille de Panama",
-      "description": "L'accessoire estival par excellence. Tressé à la main en Équateur, ce chapeau en paille de Panama protège du soleil avec une élégance inégalée. Ruban en gros-grain.",
-      "details": "Authentique paille de Toquilla (Panama). Tressage fin. Ruban en gros-grain interchangeable."
-    },
-    "smart_gloves": {
-      "name": "Gants 'Tactiles' en Pécari Doublés Cachemire",
-      "description": "Le luxe au bout des doigts. Confectionnés dans le très rare cuir de pécari et doublés de cachemire, ces gants sont compatibles avec les écrans tactiles.",
-      "details": "Cuir de pécari. Doublure 100% cachemire. Technologie compatible écran tactile."
-    },
-    "ceremony_bowtie": {
-      "name": "Nœud Papillon 'Black Tie' en Faille de Soie",
-      "description": "L'accessoire indispensable de la tenue de soirée. Ce nœud papillon à nouer soi-même est taillé dans une précieuse faille de soie noire.",
-      "details": "100% Soie Faille. À nouer soi-même. Taille ajustable."
-    },
-    "coin_purse": {
-      "name": "Porte-Monnaie 'Le Collectionneur' à Fermoir",
-      "description": "Un charme rétro. Ce porte-monnaie en cuir de veau souple se ferme par un fermoir métallique classique. Idéal pour votre monnaie ou vos petits secrets.",
-      "details": "Cuir de veau souple. Fermoir en laiton vieilli. Doublure en agneau."
-    },
-    "flora_brooch": {
-      "name": "Broche 'Fleur de Lys' en Émail",
-      "description": "Une touche de poésie. Cette broche, représentant une fleur de lys stylisée, est réalisée en émail plique-à-jour, une technique rappelant le vitrail.",
-      "details": "Argent 925 plaqué or. Émail plique-à-jour. Fait main."
-    },
-    "luxband_headband": {
-      "name": "Bandeau 'Muse' en Twill de Soie",
-      "description": "Un accessoire polyvalent. À porter dans les cheveux, autour du cou ou noué à votre sac, ce bandeau en twill de soie est imprimé d'un motif exclusif.",
-      "details": "100% Twill de Soie. Imprimé sur les deux faces. Dimensions : 6 x 105 cm."
-    },
-    "lecteur_glasses": {
-      "name": "Lunettes de Lecture 'L'Intellectuel'",
-      "description": "Lire avec style. Monture en acétate de cellulose italien, avec des verres de haute qualité traités anti-reflets et anti-lumière bleue.",
-      "details": "Acétate de cellulose Mazzucchelli. Verres traités anti-reflets et anti-lumière bleue. Charnières rivetées."
-    },
-    "charme_bag_charm": {
-      "name": "Bijou de Sac 'Le Grimoire'",
-      "description": "Personnalisez votre sac. Ce bijou de sac représente un minuscule livre en cuir avec des pages en laiton, suspendu à un mousqueton siglé.",
-      "details": "Cuir et laiton. Mousqueton en acier gravé."
-    },
-    "portfolio_laptop_case": {
-      "name": "Porte-Documents 'Le Ministre' en Cuir",
-      "description": "Transportez votre ordinateur et vos documents avec élégance. Ce porte-document fin en cuir de veau est légèrement matelassé pour une protection optimale.",
-      "details": "Cuir de veau. Compartiment principal matelassé pour ordinateur 13 pouces. Poche extérieure."
-    },
-    "keygold_keychain": {
-      "name": "Porte-Clés 'Le Gardien' en Cuir et Laiton",
-      "description": "Un objet du quotidien transformé en bijou. Une lanière de cuir de veau grainé associée à des pièces massives en laiton brossé.",
-      "details": "Cuir de veau et laiton massif. Anneau brisé et mousqueton."
-    },
-    "eclipse_heels": {
-      "name": "Escarpin 'Vertige' 105mm en Daim",
-      "description": "La quintessence du stiletto. Une cambrure parfaite et un talon de 10,5 cm qui allonge la jambe à l'infini. Réalisé en daim de chevreau noir intense.",
-      "details": "100% Daim de chevreau italien. Talon de 10,5 cm. Semelle intérieure et extérieure en cuir."
-    },
-    "serenite_sandals": {
-      "name": "Sandales Plates 'La Balade' en Cuir",
-      "description": "L'élégance minimaliste pour l'été. Ces sandales plates à fines brides en cuir de veau sont le symbole d'un chic décontracté et intemporel.",
-      "details": "Cuir de veau. Semelle intérieure matelassée. Fabriquées en Italie."
-    },
-    "paris_boots": {
-      "name": "Bottines 'Rive Gauche' en Daim",
-      "description": "La bottine parfaite pour tous les jours. Un talon bloc confortable de 6 cm, une forme amande élégante et un cuir de chèvre suédé souple. Le chic parisien.",
-      "details": "Daim de chèvre. Talon bloc de 6 cm. Fermeture par zip latéral."
-    },
-    "diva_mules": {
-      "name": "Mules 'Palazzo' en Satin et Cristaux",
-      "description": "Pour les soirées où tout est permis. Ces mules à bout pointu en satin sont ornées d'une spectaculaire boucle carrée en cristaux.",
-      "details": "Satin duchesse. Boucle en cristaux Swarovski. Petit talon de 2 cm."
-    },
-    "street_luxe_derby": {
-      "name": "Derby 'Avant-Garde' à Plateforme",
-      "description": "Un classique bousculé. Le derby traditionnel est monté sur une semelle plateforme crantée en micro-gomme ultra-légère, pour un look audacieux.",
-      "details": "Cuir de veau poli. Semelle plateforme en micro-gomme. Doublure en cuir."
-    },
-    "souverain_oxfords": {
-      "name": "Richelieu 'L'Ambassadeur' One-Cut",
-      "description": "L'élégance à son paroxysme. Ce soulier richelieu est réalisé d'une seule pièce de cuir de veau, une prouesse technique. Patiné à la main dans nos ateliers.",
-      "details": "Construction One-Cut. Cuir de veau français. Cousu Blake. Patine à la main sur demande."
-    },
-    "elite_derby": {
-      "name": "Derby 'Le Consul' à Boucle",
-      "description": "Une alternative originale au derby à lacets. Ce modèle à boucle unique (Monk Strap) en cuir de veau grainé est à la fois formel et plein de caractère.",
-      "details": "Cuir de veau grainé. Cousu Goodyear. Boucle en laiton."
-    },
-    "club_loafer": {
-      "name": "Mocassin 'Le Yachtsman' en Daim",
-      "description": "Le compagnon idéal des week-ends ensoleillés. Ce mocassin souple en daim est monté sur une semelle à picots en gomme pour une flexibilité et un confort inégalés.",
-      "details": "Daim de veau hydrofuge. Semelle à picots en gomme. Fabrication tubulaire."
-    },
-    "tradition_brogues": {
-      "name": "Richelieu 'Héritage' Full Brogue",
-      "description": "Un pilier de l'élégance britannique. Ce richelieu se distingue par ses perforations décoratives ('broguing') sur l'ensemble de la chaussure. Un caractère affirmé.",
-      "details": "Cuir de veau 'box-calf'. Perforations full brogue. Cousu Goodyear sur semelle en cuir."
-    },
-    "citadin_boots": {
-      "name": "Bottine Chelsea 'Le Citadin'",
-      "description": "Polyvalence et style. Une forme épurée, un cuir de veau lisse et des bandes élastiques robustes font de cette bottine Chelsea un indispensable du vestiaire masculin.",
-      "details": "Cuir de veau lisse. Cousu Blake. Bandes élastiques latérales."
-    },
-    "runway_sneakers": {
-      "name": "Baskets 'Le Minimaliste' en Cuir",
-      "description": "La sneaker de luxe épurée. Confectionnée en Italie à partir d'un cuir de veau lisse, sa silhouette minimaliste s'accorde avec toutes les tenues, du costume au jean.",
-      "details": "Cuir de veau italien. Doublure intégrale en cuir. Semelle en gomme cousue."
     },
     "tom_ford_slim_fit_shirt": {
       "name": "Chemise Slim Fit – Tom Ford",
@@ -962,6 +782,126 @@
     "zara_premium_xxl_puffer_coat": {
       "name": "Manteau puffer XXL – Zara Premium",
       "description": "Très chaud, large, tendance, budget accessible."
+    },
+    "chrono_luxe_watch": {
+      "name": "Montre acier inoxydable noire – Chrono Luxe",
+      "description": "Montre noire élégante en acier inoxydable avec cadran chronographe précis, verre minéral résistant aux rayures et bracelet réglable. Style professionnel et durable."
+    },
+    "hydrosport_watch": {
+      "name": "Montre sport silicone – HydroSport 5 ATM",
+      "description": "Montre sportive avec bracelet silicone antidérapant, étanche 50 m, écran renforcé et fonctions de base. Parfaite pour le sport et le quotidien."
+    },
+    "heritage_watch": {
+      "name": "Montre cuir brun – Heritage Classique",
+      "description": "Modèle intemporel avec bracelet en cuir brun véritable, cadran simple et élégant et mécanisme fiable. Un look chic et sobre."
+    },
+    "blue_vision_watch": {
+      "name": "Montre métallique argent – Blue Vision",
+      "description": "Bracelet métal argenté poli, cadran bleu profond haute visibilité, mécanisme quartz. Très classe pour le bureau."
+    },
+    "urban_tech_watch": {
+      "name": "Montre digitale LED – Urban Tech",
+      "description": "Design futuriste, affichage LED clair, coque résistante aux chocs. Idéale pour un look moderne."
+    },
+    "executive_elite_watch": {
+      "name": "Montre cadran or rose – Executive Elite",
+      "description": "Bracelet cuir noir premium, cadran or rose travaillé, boîtier solide. Look haut de gamme assuré."
+    },
+    "titan_steel_watch": {
+      "name": "Montre chronographe – Titan Steel Pro",
+      "description": "Montre massive effet premium, chronographe précis, bracelet acier renforcé. Très résistante et luxueuse."
+    },
+    "nordic_luxe_beanie": {
+      "name": "Bonnet laine torsadée noir – Nordic Luxe",
+      "description": "Bonnet en laine premium tricotée, motif torsadé, coupe ajustée. Confortable et stylé."
+    },
+    "winter_essential_beanie": {
+      "name": "Bonnet épais gris – Winter Essential",
+      "description": "Modèle en maille épaisse isolante, parfait pour le froid intense."
+    },
+    "alpine_soft_scarf": {
+      "name": "Écharpe laine vierge premium – Alpine Soft",
+      "description": "Écharpe longue et douce en laine vierge, agréable sur la peau et très chaude."
+    },
+    "winter_shield_snood": {
+      "name": "Snood polaire – Winter Shield Premium",
+      "description": "Écharpe tube ultra-douce en polaire, réchauffe instantanément."
+    },
+    "urban_knit_beanie": {
+      "name": "Bonnet streetwear à revers – Urban Knit",
+      "description": "Bonnet simple et tendance, coupe street avec revers, très confortable."
+    },
+    "tech_gloves": {
+      "name": "Gants tactiles thermiques – Tech Gloves",
+      "description": "Gants chauds compatibles écran tactile, intérieur polaire doux."
+    },
+    "slimfold_wallet": {
+      "name": "Portefeuille cuir véritable – SlimFold Premium",
+      "description": "Portefeuille en cuir premium, compartiments multiples, design fin et élégant."
+    },
+    "executive_bag": {
+      "name": "Sacoche bandoulière cuir premium – Executive Bag",
+      "description": "Sacoche compacte pour téléphone, portefeuille et accessoires. Cuir robuste et look chic."
+    },
+    "golden_lady_watch": {
+      "name": "Montre élégante dorée – Golden Lady",
+      "description": "Montre fine et féminine, bracelet doré délicat et cadran minimaliste. Très élégante."
+    },
+    "silver_pure_watch": {
+      "name": "Montre argentée minimaliste – Silver Pure",
+      "description": "Cadran propre, bracelet argenté style milanais, légère et confortable."
+    },
+    "soft_elegance_watch": {
+      "name": "Montre cuir beige – Soft Elegance",
+      "description": "Bracelet cuir beige premium, cadran blanc épuré. Parfaite pour un style chic naturel."
+    },
+    "rose_queen_watch": {
+      "name": "Montre rose gold maille milanaise – Rose Queen",
+      "description": "Montre tendance, bracelet fin en maille, ton rose gold lumineux."
+    },
+    "cozy_glam_beanie": {
+      "name": "Bonnet laine avec pompon fourrure synthétique – Cozy Glam",
+      "description": "Bonnet doux et chaud avec pompon moelleux. Très féminin."
+    },
+    "urban_chic_beanie": {
+      "name": "Bonnet long oversize – Urban Chic",
+      "description": "Style urbain, coupe longue, très doux."
+    },
+    "winter_pearl_beanie": {
+      "name": "Bonnet tricoté perlé – Winter Pearl",
+      "description": "Orné de petites perles élégantes. Look chic d’hiver."
+    },
+    "luxe_soft_scarf": {
+      "name": "Écharpe oversize fausse fourrure – Luxe Soft",
+      "description": "Très épaisse, douce et luxueuse. Un accessoire glamour."
+    },
+    "warm_plush_scarf": {
+      "name": "Écharpe maille torsadée – Warm Plush",
+      "description": "Texture torsadée douce, chaleur assurée."
+    },
+    "elegant_wrap_shawl": {
+      "name": "Châle d’hiver motif élégant – Elegant Wrap",
+      "description": "Châle long à motifs discrets, parfait pour les tenues habillées."
+    },
+    "cashmere_touch_scarf": {
+      "name": "Foulard cachemire imprimé – Cashmere Touch",
+      "description": "Tissu cachemire doux, motifs sophistiqués."
+    },
+    "lady_warm_gloves": {
+      "name": "Gants cuir doublés polaire – Lady Warm",
+      "description": "Gants en cuir souple avec doublure chaude."
+    },
+    "mini_glam_handbag": {
+      "name": "Petit sac à main chic – Mini Glam",
+      "description": "Petit sac élégant, parfait pour soirée ou journée."
+    },
+    "shine_drop_earrings": {
+      "name": "Boucles d’oreilles pendantes argentées – Shine Drop",
+      "description": "Forme fine et brillante, style classe."
+    },
+    "shine_night_clutch": {
+      "name": "Pochette soirée – Shine Night Premium",
+      "description": "Petite pochette élégante avec effet brillant."
     }
   }
 }

@@ -373,7 +373,7 @@
     },
     "contact": {
       "title": "Contáctenos",
-      "content": "Si tiene alguna pregunta sobre esta política de privacidad, contáctenos en privacy@ezentials.com."
+      "content": "Si tiene alguna pregunta sobre esta política de privacidad, contáctenos en ezcentials@gmail.com."
     }
   },
   "terms_of_service": {
@@ -542,150 +542,6 @@
     "cucinelli_wool_cape": {
       "name": "Capa de lana y cachemira de Brunello Cucinelli",
       "description": "Capa de alta gama de mezcla de lana y cachemira, corte amplio, bolsillos invisibles, acabado artesanal."
-    },
-    "ezential_bag": {
-      "name": "Bolso 'El Diario' de Piel Taurillon",
-      "description": "Lujo funcional. Este bolso de hombro de piel de taurillon francés es tan flexible como resistente. Sus múltiples compartimentos lo convierten en el compañero diario ideal."
-    },
-    "lumi_clutch": {
-      "name": "Minaudière 'Joya' con Estrás",
-      "description": "Más que un bolso, una joya. Esta minaudière rígida está completamente cubierta de cristales de Swarovski, capturando la luz con cada movimiento."
-    },
-    "carte_prime_holder": {
-      "name": "Tarjetero 'El Minimalista' de Piel Epsom",
-      "description": "Lo esencial, con elegancia. Confeccionado en piel de becerro Epsom, conocida por su resistencia, este tarjetero fino cabe en cualquier bolsillo."
-    },
-    "finesse_belt": {
-      "name": "Cinturón 'El Encanto' de Piel de Lagarto",
-      "description": "El detalle que lo cambia todo. Un cinturón fino de auténtica piel de lagarto, con una discreta hebilla de latón chapado en paladio. Un lujo sutil."
-    },
-    "minit_bag": {
-      "name": "Microbolso 'El Encantador' de Ante de Cabrito",
-      "description": "El bolso pequeño que lo tiene todo. Suficientemente grande para lo esencial (teléfono, tarjetas, pintalabios), este bolso de piel de cabra aterciopelada es el accesorio de noche perfecto."
-    },
-    "horizon_sunglasses": {
-      "name": "Gafas de Sol 'Aviador' de Titanio y Oro",
-      "description": "Un icono revisitado. Montura ultraligera de titanio japonés, con detalles chapados en oro de 18 quilates. Lentes polarizadas para una visión perfecta."
-    },
-    "nuit_scarf": {
-      "name": "Estola 'Dulce Noche' de Cachemira y Seda",
-      "description": "Una bufanda de una ligereza y suavidad increíbles. La mezcla de cachemira y seda le da una caída fluida y una calidez delicada."
-    },
-    "organize_pouch": {
-      "name": "Estuche 'El Nómada' Tech de Piel",
-      "description": "Organiza tus esenciales tecnológicos con estilo. Este estuche de piel suave está diseñado para guardar tus cables, cargadores y otros pequeños accesorios."
-    },
-    "reflet_jewelry_set": {
-      "name": "Juego de Joyas 'Gota de Rocío' de Topacio",
-      "description": "Un conjunto de collar y pendientes de una finura absoluta, que resalta topacios azules talla pera sobre una montura de oro blanco."
-    },
-    "anchor_bracelet": {
-      "name": "Pulsera 'El Ancla' de Piel Trenzada",
-      "description": "Una joya masculina casual. Esta pulsera está hecha de piel de becerro trenzada y un cierre en forma de ancla marina de acero inoxidable cepillado."
-    },
-    "etoile_earrings": {
-      "name": "Pendientes de Botón 'Diamante Solitario'",
-      "description": "Brillo puro. Cada pendiente está engastado con un diamante de 0.25 quilates, montado sobre oro blanco para un brillo máximo. Un clásico atemporal."
-    },
-    "ocean_necklace": {
-      "name": "Collar 'Perla Negra' de Tahití",
-      "description": "La belleza cruda y natural de una perla negra de Tahití, simplemente suspendida de una fina cadena de oro rosa. Cada perla es única."
-    },
-    "sync_watch": {
-      "name": "Reloj Automático 'Horizonte Conectado'",
-      "description": "Lo mejor de ambos mundos. Un reloj con movimiento automático suizo, alojado en una caja de titanio con un módulo de notificaciones discreto e integrado."
-    },
-    "pluie_chic_umbrella": {
-      "name": "Paraguas 'El Caballero' de Madera de Arce",
-      "description": "Enfréntate a la lluvia con garbo. Un único eje de madera de arce, una amplia lona repelente al agua y una apertura manual tradicional para este paraguas excepcional."
-    },
-    "travel_safe_wallet": {
-      "name": "Cartera de Viaje 'El Trotamundos'",
-      "description": "Organiza tu viaje. Diseñada para guardar un pasaporte, tarjetas de embarque, divisas y tarjetas de crédito en un elegante formato de piel."
-    },
-    "riviera_hat": {
-      "name": "Sombrero 'Côte d'Azur' de Paja de Panamá",
-      "description": "El accesorio de verano por excelencia. Tejido a mano en Ecuador, este sombrero de paja de Panamá protege del sol con una elegancia inigualable. Cinta de grosgrain."
-    },
-    "smart_gloves": {
-      "name": "Guantes 'Táctiles' de Pecarí Forrados de Cachemira",
-      "description": "Lujo al alcance de la mano. Confeccionados con la rarísima piel de pecarí y forrados de cachemira, estos guantes son compatibles con pantallas táctiles."
-    },
-    "ceremony_bowtie": {
-      "name": "Pajarita 'Etiqueta Negra' de Falla de Seda",
-      "description": "El accesorio imprescindible para el atuendo de noche. Esta pajarita de auto-atado está cortada de una preciosa falla de seda negra."
-    },
-    "coin_purse": {
-      "name": "Monedero 'El Coleccionista' con Cierre de Boquilla",
-      "description": "Un encanto retro. Este monedero de piel de becerro suave se cierra con un clásico cierre metálico de boquilla. Ideal para tus monedas o tus pequeños secretos."
-    },
-    "flora_brooch": {
-      "name": "Broche 'Flor de Lis' de Esmalte",
-      "description": "Un toque de poesía. Este broche, que representa una flor de lis estilizada, está realizado con la técnica del esmalte plique-à-jour, que recuerda a las vidrieras."
-    },
-    "luxband_headband": {
-      "name": "Diadema 'Musa' de Twill de Seda",
-      "description": "Un accesorio versátil. Para llevar en el pelo, alrededor del cuello o anudado a tu bolso, esta diadema de twill de seda está impresa con un motivo exclusivo."
-    },
-    "lecteur_glasses": {
-      "name": "Gafas de Lectura 'El Intelectual'",
-      "description": "Leer con estilo. Montura de acetato de celulosa italiano, con lentes de alta calidad tratadas con antirreflejante y filtro de luz azul."
-    },
-    "charme_bag_charm": {
-      "name": "Charm de Bolso 'El Grimorio'",
-      "description": "Personaliza tu bolso. Este charm de bolso representa un diminuto libro de piel con páginas de latón, suspendido de un mosquetón con logo."
-    },
-    "portfolio_laptop_case": {
-      "name": "Portadocumentos 'El Ministro' de Piel",
-      "description": "Transporta tu ordenador y tus documentos con elegancia. Este portadocumentos fino de piel de becerro está ligeramente acolchado para una protección óptima."
-    },
-    "keygold_keychain": {
-      "name": "Llavero 'El Guardián' de Piel y Latón",
-      "description": "Un objeto cotidiano transformado en una joya. Una correa de piel de becerro granulada combinada con piezas macizas de latón cepillado."
-    },
-    "eclipse_heels": {
-      "name": "Zapato de Salón 'Vértigo' de Ante 105mm",
-      "description": "La quintesencia del stiletto. Un arco perfecto y un tacón de 10.5 cm que alarga la pierna hasta el infinito. Realizado en intenso ante de cabrito negro."
-    },
-    "serenite_sandals": {
-      "name": "Sandalias Planas 'El Paseo' de Piel",
-      "description": "Elegancia minimalista para el verano. Estas sandalias planas con finas tiras de piel de becerro son el símbolo de un chic casual y atemporal."
-    },
-    "paris_boots": {
-      "name": "Botines 'Rive Gauche' de Ante",
-      "description": "El botín perfecto para todos los días. Un cómodo tacón de bloque de 6 cm, una elegante forma de almendra y un suave ante de cabra. Chic parisino."
-    },
-    "diva_mules": {
-      "name": "Mules 'Palazzo' de Satén y Cristal",
-      "description": "Para noches en las que todo vale. Estos mules de punta fina de satén están adornados con una espectacular hebilla cuadrada de cristal."
-    },
-    "street_luxe_derby": {
-      "name": "Derbies 'Vanguardia' con Plataforma",
-      "description": "Un clásico reinventado. El derby tradicional se monta sobre una suela de plataforma dentada de microgoma ultraligera, para un look atrevido."
-    },
-    "souverain_oxfords": {
-      "name": "Oxford 'El Embajador' de una pieza",
-      "description": "La elegancia en su apogeo. Este zapato Oxford está confeccionado en una sola pieza de piel de becerro, una proeza técnica. Patinado a mano en nuestros talleres."
-    },
-    "elite_derby": {
-      "name": "Derby 'El Cónsul' con Hebilla",
-      "description": "Una alternativa original al derby de cordones. Este modelo de hebilla única (Monk Strap) de piel de becerro granulada es a la vez formal y lleno de carácter."
-    },
-    "club_loafer": {
-      "name": "Mocasín 'El Navegante' de Ante",
-      "description": "El compañero ideal para los fines de semana soleados. Este mocasín flexible de ante está montado sobre una suela de tacos de goma para una flexibilidad y comodidad inigualables."
-    },
-    "tradition_brogues": {
-      "name": "Oxford 'Herencia' Full Brogue",
-      "description": "Un pilar de la elegancia británica. Este Oxford se distingue por sus perforaciones decorativas ('broguing') en todo el zapato. Un carácter asertivo."
-    },
-    "citadin_boots": {
-      "name": "Botín Chelsea 'El Urbanita'",
-      "description": "Versatilidad y estilo. Una forma limpia, piel de becerro lisa y resistentes paneles elásticos hacen de este botín Chelsea un imprescindible del armario masculino."
-    },
-    "runway_sneakers": {
-      "name": "Zapatillas 'El Minimalista' de Piel",
-      "description": "La zapatilla de lujo depurada. Fabricada en Italia con piel de becerro lisa, su silueta minimalista combina con cualquier atuendo, desde un traje hasta unos vaqueros."
     },
     "tom_ford_slim_fit_shirt": {
       "name": "Camisa slim fit de Tom Ford",
@@ -926,6 +782,126 @@
     "zara_premium_xxl_puffer_coat": {
       "name": "Abrigo acolchado XXL de Zara Premium",
       "description": "Muy cálido, amplio, de tendencia, presupuesto asequible."
+    },
+    "chrono_luxe_watch": {
+      "name": "Reloj de acero inoxidable negro – Chrono Luxe",
+      "description": "Elegante reloj de acero inoxidable negro con esfera de cronógrafo precisa, cristal mineral resistente a los arañazos y correa ajustable. Estilo profesional y duradero."
+    },
+    "hydrosport_watch": {
+      "name": "Reloj deportivo de silicona – HydroSport 5 ATM",
+      "description": "Reloj deportivo con correa de silicona antideslizante, resistente al agua hasta 50 m, pantalla reforzada y funciones básicas. Perfecto para el deporte y la vida cotidiana."
+    },
+    "heritage_watch": {
+      "name": "Reloj de cuero marrón – Heritage Classique",
+      "description": "Modelo atemporal con correa de cuero marrón genuino, esfera sencilla y elegante y mecanismo fiable. Un look chic y sobrio."
+    },
+    "blue_vision_watch": {
+      "name": "Reloj de metal plateado – Blue Vision",
+      "description": "Correa de metal plateado pulido, esfera azul profundo de alta visibilidad, mecanismo de cuarzo. Muy elegante para la oficina."
+    },
+    "urban_tech_watch": {
+      "name": "Reloj digital LED – Urban Tech",
+      "description": "Diseño futurista, pantalla LED clara, carcasa resistente a los golpes. Ideal para un look moderno."
+    },
+    "executive_elite_watch": {
+      "name": "Reloj con esfera de oro rosa – Executive Elite",
+      "description": "Correa de cuero negro de primera calidad, esfera de oro rosa trabajada, caja sólida. Look de alta gama garantizado."
+    },
+    "titan_steel_watch": {
+      "name": "Reloj cronógrafo – Titan Steel Pro",
+      "description": "Reloj masivo con efecto premium, cronógrafo preciso, correa de acero reforzado. Muy resistente y lujoso."
+    },
+    "nordic_luxe_beanie": {
+      "name": "Gorro de lana de punto de ochos negro – Nordic Luxe",
+      "description": "Gorro de lana de primera calidad, motivo de punto de ochos, corte ajustado. Cómodo y elegante."
+    },
+    "winter_essential_beanie": {
+      "name": "Gorro grueso gris – Winter Essential",
+      "description": "Modelo de punto grueso aislante, perfecto para el frío intenso."
+    },
+    "alpine_soft_scarf": {
+      "name": "Bufanda de lana virgen premium – Alpine Soft",
+      "description": "Bufanda larga y suave de lana virgen, agradable sobre la piel y muy cálida."
+    },
+    "winter_shield_snood": {
+      "name": "Snood de forro polar – Winter Shield Premium",
+      "description": "Bufanda de tubo de forro polar ultra suave, calienta al instante."
+    },
+    "urban_knit_beanie": {
+      "name": "Gorro de calle con vuelta – Urban Knit",
+      "description": "Gorro sencillo y moderno, corte de calle con vuelta, muy cómodo."
+    },
+    "tech_gloves": {
+      "name": "Guantes térmicos táctiles – Tech Gloves",
+      "description": "Guantes cálidos compatibles con pantallas táctiles, interior de forro polar suave."
+    },
+    "slimfold_wallet": {
+      "name": "Cartera de cuero genuino – SlimFold Premium",
+      "description": "Cartera de cuero de primera calidad, múltiples compartimentos, diseño fino y elegante."
+    },
+    "executive_bag": {
+      "name": "Bolso bandolera de cuero premium – Executive Bag",
+      "description": "Bolso compacto para teléfono, cartera y accesorios. Cuero resistente y look chic."
+    },
+    "golden_lady_watch": {
+      "name": "Reloj dorado elegante – Golden Lady",
+      "description": "Reloj fino y femenino, delicada correa dorada y esfera minimalista. Muy elegante."
+    },
+    "silver_pure_watch": {
+      "name": "Reloj plateado minimalista – Silver Pure",
+      "description": "Esfera limpia, correa plateada de estilo milanés, ligera y cómoda."
+    },
+    "soft_elegance_watch": {
+      "name": "Reloj de cuero beige – Soft Elegance",
+      "description": "Correa de cuero beige de primera calidad, esfera blanca limpia. Perfecto para un estilo chic natural."
+    },
+    "rose_queen_watch": {
+      "name": "Reloj de oro rosa con malla milanesa – Rose Queen",
+      "description": "Reloj de moda, fina correa de malla, luminoso tono oro rosa."
+    },
+    "cozy_glam_beanie": {
+      "name": "Gorro de lana con pompón de piel sintética – Cozy Glam",
+      "description": "Gorro suave y cálido con un pompón mullido. Muy femenino."
+    },
+    "urban_chic_beanie": {
+      "name": "Gorro largo oversize – Urban Chic",
+      "description": "Estilo urbano, corte largo, muy suave."
+    },
+    "winter_pearl_beanie": {
+      "name": "Gorro de punto con perlas – Winter Pearl",
+      "description": "Adornado con pequeñas perlas elegantes. Look de invierno chic."
+    },
+    "luxe_soft_scarf": {
+      "name": "Bufanda oversize de piel sintética – Luxe Soft",
+      "description": "Muy gruesa, suave y lujosa. Un accesorio glamuroso."
+    },
+    "warm_plush_scarf": {
+      "name": "Bufanda de punto de ochos – Warm Plush",
+      "description": "Textura de punto de ochos suave, calor garantizado."
+    },
+    "elegant_wrap_shawl": {
+      "name": "Chal de invierno con estampado elegante – Elegant Wrap",
+      "description": "Chal largo con estampados discretos, perfecto para atuendos elegantes."
+    },
+    "cashmere_touch_scarf": {
+      "name": "Bufanda de cachemira estampada – Cashmere Touch",
+      "description": "Tejido de cachemira suave, estampados sofisticados."
+    },
+    "lady_warm_gloves": {
+      "name": "Guantes de cuero con forro polar – Lady Warm",
+      "description": "Guantes de cuero flexible con un forro cálido."
+    },
+    "mini_glam_handbag": {
+      "name": "Bolso de mano pequeño y chic – Mini Glam",
+      "description": "Bolso pequeño y elegante, perfecto para la noche o el día."
+    },
+    "shine_drop_earrings": {
+      "name": "Pendientes colgantes plateados – Shine Drop",
+      "description": "Forma fina y brillante, estilo elegante."
+    },
+    "shine_night_clutch": {
+      "name": "Clutch de noche – Shine Night Premium",
+      "description": "Pequeño y elegante clutch con efecto brillante."
     }
   }
 }
