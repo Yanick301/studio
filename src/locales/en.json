@@ -273,7 +273,9 @@
     "password_reset_error_title": "Password Reset Error",
     "password_reset_error_desc": "Please enter a valid email address.",
     "password_reset_success_title": "Password Reset Email Sent",
-    "password_reset_success_desc": "Check your inbox for further instructions."
+    "password_reset_success_desc": "Check your inbox for further instructions.",
+    "google_signin": "Sign in with Google",
+    "or_continue_with": "Or continue with"
   },
   "signup_form": {
     "title": "Sign Up",

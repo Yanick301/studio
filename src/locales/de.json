@@ -273,7 +273,9 @@
     "password_reset_error_title": "Fehler beim Zurücksetzen des Passworts",
     "password_reset_error_desc": "Bitte geben Sie eine gültige E-Mail-Adresse an.",
     "password_reset_success_title": "E-Mail zum Zurücksetzen des Passworts gesendet",
-    "password_reset_success_desc": "Überprüfen Sie Ihren Posteingang für weitere Anweisungen."
+    "password_reset_success_desc": "Überprüfen Sie Ihren Posteingang für weitere Anweisungen.",
+    "google_signin": "Mit Google anmelden",
+    "or_continue_with": "Oder fortfahren mit"
   },
   "signup_form": {
     "title": "Registrieren",
@@ -616,7 +618,7 @@
     },
     "voyage_parka": {
       "name": "'Nebel' Technischer Nylon-Regencape",
-      "description": "Eleganz im Regen. Ein weiter und ultraleichter Cape aus japanischem technischen Nylon, der sich in eine kleine Tasche falten lässt. Perfekt für Reisen.",
+      "description": "Eleganz im Regen. Ein weiter und ultraleichter Cape aus japanischem technischem Nylon, der sich in eine kleine Tasche falten lässt. Perfekt für Reisen.",
       "details": "Wasserdichtes japanisches technisches Nylon. Verschweißte Nähte. Kapuze und weiter Schnitt."
     },
     "aube_dress": {

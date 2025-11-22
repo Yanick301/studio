@@ -273,7 +273,9 @@
     "password_reset_error_title": "Error al restablecer la contraseña",
     "password_reset_error_desc": "Por favor, introduce una dirección de correo electrónico válida.",
     "password_reset_success_title": "Correo electrónico de restablecimiento de contraseña enviado",
-    "password_reset_success_desc": "Revisa tu bandeja de entrada para más instrucciones."
+    "password_reset_success_desc": "Revisa tu bandeja de entrada para más instrucciones.",
+    "google_signin": "Iniciar sesión con Google",
+    "or_continue_with": "O continuar con"
   },
   "signup_form": {
     "title": "Registrarse",

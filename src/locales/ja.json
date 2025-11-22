@@ -273,7 +273,9 @@
     "password_reset_error_title": "パスワードリセットエラー",
     "password_reset_error_desc": "有効なメールアドレスを入力してください。",
     "password_reset_success_title": "パスワードリセットメールを送信しました",
-    "password_reset_success_desc": "受信トレイで詳細な手順を確認してください。"
+    "password_reset_success_desc": "受信トレイで詳細な手順を確認してください。",
+    "google_signin": "Googleでサインイン",
+    "or_continue_with": "または"
   },
   "signup_form": {
     "title": "会員登録",

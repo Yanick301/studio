@@ -273,7 +273,9 @@
     "password_reset_error_title": "Erreur de réinitialisation",
     "password_reset_error_desc": "Veuillez entrer une adresse e-mail valide.",
     "password_reset_success_title": "E-mail de réinitialisation envoyé",
-    "password_reset_success_desc": "Consultez votre boîte de réception pour les instructions."
+    "password_reset_success_desc": "Consultez votre boîte de réception pour les instructions.",
+    "google_signin": "Se connecter avec Google",
+    "or_continue_with": "Ou continuer avec"
   },
   "signup_form": {
     "title": "S'inscrire",

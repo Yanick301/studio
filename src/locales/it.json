@@ -273,7 +273,9 @@
     "password_reset_error_title": "Errore di reimpostazione della password",
     "password_reset_error_desc": "Inserisci un indirizzo email valido.",
     "password_reset_success_title": "Email di reimpostazione della password inviata",
-    "password_reset_success_desc": "Controlla la tua casella di posta per ulteriori istruzioni."
+    "password_reset_success_desc": "Controlla la tua casella di posta per ulteriori istruzioni.",
+    "google_signin": "Accedi con Google",
+    "or_continue_with": "O continua con"
   },
   "signup_form": {
     "title": "Registrati",
