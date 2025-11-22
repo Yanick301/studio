@@ -3,6 +3,7 @@ import type {NextConfig} from 'next';
 
 const nextConfig: NextConfig = {
   srcDir: 'src',
+  output: 'standalone',
   /* config options here */
   typescript: {
     ignoreBuildErrors: true,
