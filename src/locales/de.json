@@ -290,7 +290,8 @@
     "success_title": "Konto erfolgreich erstellt",
     "success_description": "Eine Bestätigungs-E-Mail wurde gesendet. Bitte überprüfen Sie Ihren Posteingang.",
     "error_email_in_use": "Diese E-Mail-Adresse wird bereits verwendet.",
-    "error_generic": "Bei der Erstellung des Kontos ist ein Fehler aufgetreten."
+    "error_generic": "Bei der Erstellung des Kontos ist ein Fehler aufgetreten.",
+    "google_signup": "Mit Google anmelden"
   },
   "ai_stylist": {
     "title": "Ihr persönlicher KI-Stylist",

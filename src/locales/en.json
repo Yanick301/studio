@@ -290,7 +290,8 @@
     "success_title": "Account created successfully",
     "success_description": "A verification email has been sent. Please check your inbox.",
     "error_email_in_use": "This email address is already in use.",
-    "error_generic": "An error occurred while creating the account."
+    "error_generic": "An error occurred while creating the account.",
+    "google_signup": "Sign up with Google"
   },
   "ai_stylist": {
     "title": "Your Personal AI Stylist",

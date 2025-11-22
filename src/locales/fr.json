@@ -290,7 +290,8 @@
     "success_title": "Compte créé avec succès",
     "success_description": "Un e-mail de vérification a été envoyé. Veuillez consulter votre boîte de réception.",
     "error_email_in_use": "Cette adresse e-mail est déjà utilisée.",
-    "error_generic": "Une erreur s'est produite lors de la création du compte."
+    "error_generic": "Une erreur s'est produite lors de la création du compte.",
+    "google_signup": "S'inscrire avec Google"
   },
   "ai_stylist": {
     "title": "Votre Styliste Personnel IA",
