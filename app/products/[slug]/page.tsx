@@ -1,0 +1,355 @@
+'use client';
+
+import { products } from '@/lib/data';
+import { notFound } from 'next/navigation';
+import Image from 'next/image';
+import { Button } from '@/components/ui/button';
+import { Heart, ShoppingCart, Star, CheckCircle, PackageX } from 'lucide-react';
+import { Separator } from '@/components/ui/separator';
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
+import { useState, useEffect } from 'react';
+import { cn } from '@/lib/utils';
+import { useToast } from '@/hooks/use-toast';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import { Textarea } from '@/components/ui/textarea';
+import { Label } from '@/components/ui/label';
+import { Input } from '@/components/ui/input';
+import { useTranslation } from '@/hooks/use-translation';
+import { useUser, useFirestore, useMemoFirebase, setDocumentNonBlocking, deleteDocumentNonBlocking, useCollection } from '@/firebase';
+import { collection, query, where, getDocs, doc } from 'firebase/firestore';
+import { useCart } from '@/contexts/cart-context';
+import { Review, Product } from '@/lib/definitions';
+import { Skeleton } from '@/components/ui/skeleton';
+import { useRecentlyViewed } from '@/hooks/use-recently-viewed';
+import { ProductCard } from '@/components/products/product-card';
+
+export default function ProductDetailPage({ params }: { params: { slug: string } }) {
+  const { t } = useTranslation();
+  const product = products.find((p) => p.slug === params.slug);
+  const { toast } = useToast();
+  const { user } = useUser();
+  const firestore = useFirestore();
+  const { addToCart } = useCart();
+
+  const [selectedSize, setSelectedSize] = useState<string | null>(product?.options?.sizes?.[0] || null);
+  const [selectedColor, setSelectedColor] = useState<string | null>(product?.options?.colors?.[0] || null);
+  
+  const [isFavorite, setIsFavorite] = useState(false);
+  const [favoriteId, setFavoriteId] = useState<string | null>(null);
+  const [isFavoriteLoading, setIsFavoriteLoading] = useState(true);
+
+  const { recentlyViewed, addProductToHistory } = useRecentlyViewed();
+  const recentlyViewedProducts = recentlyViewed
+    .map(slug => products.find(p => p.slug === slug))
+    .filter(Boolean) as Product[];
+  
+  useEffect(() => {
+    if (product) {
+      addProductToHistory(product.slug);
+    }
+  }, [product, addProductToHistory]);
+  
+  const favoritesCollectionRef = useMemoFirebase(() => {
+    if (!firestore || !user) return null;
+    return collection(firestore, `users/${user.uid}/favorites`);
+  }, [firestore, user]);
+
+  useEffect(() => {
+    if (!user || !firestore || !product) {
+        setIsFavoriteLoading(false);
+        return;
+    }
+
+    const checkFavoriteStatus = async () => {
+        setIsFavoriteLoading(true);
+        if (!favoritesCollectionRef) return;
+        const q = query(favoritesCollectionRef, where("productId", "==", product.id));
+        
+        try {
+            const querySnapshot = await getDocs(q);
+            if (!querySnapshot.empty) {
+                const favDoc = querySnapshot.docs[0];
+                setIsFavorite(true);
+                setFavoriteId(favDoc.id);
+            } else {
+                setIsFavorite(false);
+                setFavoriteId(null);
+            }
+        } catch (error) {
+            console.error("Error checking favorite status:", error);
+            setIsFavorite(false);
+            setFavoriteId(null);
+        } finally {
+            setIsFavoriteLoading(false);
+        }
+    };
+
+    checkFavoriteStatus();
+  }, [user, firestore, product, favoritesCollectionRef]);
+
+  const handleFavoriteClick = async () => {
+    if (!user || !product || !favoritesCollectionRef) {
+      toast({
+        variant: "destructive",
+        title: "Veuillez vous connecter",
+        description: "Vous devez être connecté pour gérer vos favoris.",
+      });
+      return;
+    }
+
+    if (isFavorite && favoriteId) {
+      const docRef = doc(favoritesCollectionRef, favoriteId);
+      deleteDocumentNonBlocking(docRef);
+      setIsFavorite(false);
+      setFavoriteId(null);
+      toast({
+        title: t('product_page.toast.favorite_removed_title'),
+        description: `${productName} ${t('product_page.toast.favorite_removed_desc')}`,
+      });
+    } else {
+      const newFavId = doc(favoritesCollectionRef).id;
+      const newFav = {
+        id: newFavId,
+        userId: user.uid,
+        productId: product.id,
+        addedDate: new Date().toISOString(),
+      };
+      
+      const newDocRef = doc(favoritesCollectionRef, newFavId);
+      setDocumentNonBlocking(newDocRef, newFav, {});
+      
+      setIsFavorite(true);
+      setFavoriteId(newFavId);
+      
+      toast({
+        title: t('product_page.toast.favorite_added_title'),
+        description: `${productName} ${t('product_page.toast.favorite_added_desc')}`,
+      });
+    }
+  };
+
+  const reviewsCollectionRef = useMemoFirebase(() => {
+    if (!firestore || !product) return null;
+    return collection(firestore, `products/${product.id}/reviews`);
+  }, [firestore, product]);
+
+  const { data: reviews, isLoading: isLoadingReviews } = useCollection<Review>(reviewsCollectionRef);
+
+  const [newReview, setNewReview] = useState({ rating: 5, comment: '' });
+  const [showReviewForm, setShowReviewForm] = useState(false);
+
+  if (!product) {
+    notFound();
+  }
+  
+  const productName = t(product.name);
+  const productDescription = t(product.description);
+  const productDetails = product.details ? t(product.details) : '';
+
+  const handleAddToCart = () => {
+    if (!product || product.stock === 0) return;
+    addToCart(product, {
+      size: selectedSize,
+      color: selectedColor
+    });
+  }
+
+  const handleReviewSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!user || !reviewsCollectionRef) {
+        toast({ variant: 'destructive', title: t('product_page.toast.login_for_review_title') });
+        return;
+    }
+    if (newReview.comment) {
+      const reviewData = {
+          id: doc(reviewsCollectionRef).id,
+          userId: user.uid,
+          author: user.displayName || user.email || 'Anonyme',
+          rating: newReview.rating,
+          comment: newReview.comment,
+          reviewDate: new Date().toISOString(),
+      };
+      const newReviewRef = doc(reviewsCollectionRef, reviewData.id);
+      setDocumentNonBlocking(newReviewRef, reviewData, {});
+      
+      setNewReview({ rating: 5, comment: '' });
+      setShowReviewForm(false);
+      toast({
+        title: t('product_page.toast.review_submitted_title'),
+        description: t('product_page.toast.review_submitted_desc'),
+      });
+    }
+  };
+
+  const averageRating = reviews && reviews.length > 0
+    ? reviews.reduce((acc, review) => acc + review.rating, 0) / reviews.length
+    : 0;
+
+  const isOutOfStock = product.stock === 0;
+
+  return (
+    <div className="container mx-auto py-12 md:py-16">
+      <div className="grid md:grid-cols-2 gap-8 lg:gap-16">
+        <div className="flex justify-center items-start">
+            <div className="sticky top-24 w-full max-w-md rounded-lg overflow-hidden shadow-lg bg-card">
+                <Image
+                    src={product.imageUrl}
+                    alt={productName}
+                    width={product.width}
+                    height={product.height}
+                    className="w-full h-auto object-cover aspect-[3/4]"
+                    data-ai-hint={product.imageHint}
+                    priority
+                />
+            </div>
+        </div>
+
+        <div className="flex flex-col">
+          <h1 className="text-3xl md:text-4xl font-bold">{productName}</h1>
+          <div className="flex items-center gap-2 mt-2">
+            <div className="flex items-center">
+                {[...Array(5)].map((_, i) => <Star key={i} className={`w-5 h-5 ${i < averageRating ? 'text-accent fill-accent' : 'text-muted-foreground'}`}/>)}
+            </div>
+            <span className="text-sm text-muted-foreground">({reviews?.length || 0} {t('product_page.reviews_count')})</span>
+          </div>
+          <p className="text-3xl font-bold text-primary mt-4">{product.price.toFixed(2)} €</p>
+          <p className="mt-4 text-muted-foreground leading-relaxed">{productDescription}</p>
+          
+          <Separator className="my-8" />
+
+          {product.options?.colors && product.options.colors.length > 0 && (
+            <div className="mb-6">
+              <h3 className="text-sm font-semibold text-muted-foreground mb-2">{t('product_page.color')}: <span className="font-bold text-foreground">{selectedColor}</span></h3>
+              <div className="flex items-center gap-3">
+                {product.options.colors.map(color => (
+                  <button
+                    key={color}
+                    onClick={() => setSelectedColor(color)}
+                    className={cn(
+                      "w-8 h-8 rounded-full border-2 transition-transform duration-200",
+                      selectedColor === color ? 'border-primary scale-110' : 'border-border'
+                    )}
+                    style={{ backgroundColor: color }}
+                    aria-label={`${t('product_page.select_color')} ${color}`}
+                  />
+                ))}
+              </div>
+            </div>
+          )}
+
+          {product.options?.sizes && product.options.sizes.length > 0 && (
+             <div className="mb-6">
+                <h3 className="text-sm font-semibold text-muted-foreground mb-2">{t('product_page.size')}</h3>
+                <div className="flex flex-wrap items-center gap-2">
+                  {product.options.sizes.map(size => (
+                    <Button
+                      key={size}
+                      variant={selectedSize === size ? 'default' : 'outline'}
+                      onClick={() => setSelectedSize(size)}
+                      className="min-w-[40px]"
+                    >
+                      {size}
+                    </Button>
+                  ))}
+                </div>
+              </div>
+          )}
+
+          <div className="flex flex-col sm:flex-row gap-4 mt-2">
+            <Button size="lg" className="w-full sm:w-auto flex-grow" onClick={handleAddToCart} disabled={isOutOfStock}>
+              {isOutOfStock ? <PackageX className="mr-2 h-5 w-5" /> : <ShoppingCart className="mr-2 h-5 w-5" />}
+              {isOutOfStock ? t('product_page.out_of_stock') : t('product_page.add_to_cart')}
+            </Button>
+            <Button disabled={isFavoriteLoading} variant={isFavorite ? "secondary" : "outline"} size="lg" className="w-full sm:w-auto" aria-label={t('product_page.add_to_favorites')} onClick={handleFavoriteClick}>
+              {isFavorite ? <CheckCircle className="mr-2 h-5 w-5 text-green-500"/> : <Heart className="mr-2 h-5 w-5" />}
+              {isFavorite ? t('product_page.favorited') : t('product_page.favorite')}
+            </Button>
+          </div>
+
+          <Accordion type="single" collapsible className="w-full mt-8">
+            <AccordionItem value="item-1">
+              <AccordionTrigger className="font-semibold">{t('product_page.details_care')}</AccordionTrigger>
+              <AccordionContent>
+                <p className="text-muted-foreground">{productDetails || t('product_page.default_details')}</p>
+              </AccordionContent>
+            </AccordionItem>
+            <AccordionItem value="item-2">
+              <AccordionTrigger className="font-semibold">{t('product_page.shipping_returns')}</AccordionTrigger>
+              <AccordionContent>
+                <p className="text-muted-foreground">{t('product_page.shipping_details')}</p>
+              </AccordionContent>
+            </AccordionItem>
+          </Accordion>
+        </div>
+      </div>
+      
+      <div className="mt-16 md:mt-24">
+        <h2 className="text-2xl font-bold mb-6">{t('product_page.customer_reviews')}</h2>
+        <Card>
+            <CardHeader>
+                <div className="flex justify-between items-center">
+                    <CardTitle>{t('product_page.what_customers_say')}</CardTitle>
+                    <Button variant="outline" onClick={() => setShowReviewForm(!showReviewForm)}>
+                        {showReviewForm ? t('product_page.cancel_review') : t('product_page.write_review')}
+                    </Button>
+                </div>
+            </CardHeader>
+            <CardContent className="space-y-6">
+                {showReviewForm && (
+                    <form onSubmit={handleReviewSubmit} className="p-6 border rounded-lg bg-muted/50 space-y-4">
+                         <h3 className="font-semibold text-lg">{t('product_page.share_opinion')}</h3>
+                        <div className="grid sm:grid-cols-2 gap-4">
+                            <div>
+                                <Label htmlFor="rating">{t('product_page.your_rating')}</Label>
+                                <div className="flex">
+                                    {[...Array(5)].map((_, i) => (
+                                        <Star key={i} onClick={() => setNewReview({...newReview, rating: i + 1})} className={cn("w-6 h-6 cursor-pointer", i < newReview.rating ? 'text-accent fill-accent' : 'text-muted-foreground')}/>
+                                    ))}
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <Label htmlFor="comment">{t('product_page.your_comment')}</Label>
+                            <Textarea id="comment" value={newReview.comment} onChange={e => setNewReview({...newReview, comment: e.target.value})} placeholder={t('product_page.comment_placeholder')} required />
+                        </div>
+                        <Button type="submit">{t('product_page.submit_review')}</Button>
+                    </form>
+                )}
+
+                {isLoadingReviews ? (
+                  <div className="space-y-4">
+                      <Skeleton className="h-20 w-full" />
+                      <Skeleton className="h-20 w-full" />
+                  </div>
+                ) : reviews && reviews.length > 0 ? (
+                    reviews.map(review => (
+                        <div key={review.id} className="border-t pt-6">
+                            <div className="flex items-center mb-2">
+                                <div className="flex items-center">
+                                    {[...Array(5)].map((_, i) => <Star key={i} className={`w-4 h-4 ${i < review.rating ? 'text-accent fill-accent' : 'text-muted-foreground'}`}/>)}
+                                </div>
+                                <p className="ml-4 font-bold">{review.author}</p>
+                            </div>
+                            <p className="text-muted-foreground">{review.comment}</p>
+                        </div>
+                    ))
+                ) : (
+                    !showReviewForm && <p className="text-muted-foreground text-center py-8">{t('product_page.be_the_first_review')}</p>
+                )}
+            </CardContent>
+        </Card>
+      </div>
+
+       {recentlyViewedProducts.length > 1 && (
+        <div className="mt-16 md:mt-24">
+          <h2 className="text-2xl font-bold mb-6">{t('recently_viewed.title')}</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+            {recentlyViewedProducts.filter(p => p.slug !== params.slug).slice(0, 4).map(p => (
+              <ProductCard key={p.id} product={p} />
+            ))}
+          </div>
+        </div>
+      )}
+    </div>
+  );
+}

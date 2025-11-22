@@ -2,7 +2,6 @@
 import type {NextConfig} from 'next';
 
 const nextConfig: NextConfig = {
-  srcDir: 'src',
   output: 'standalone',
   /* config options here */
   typescript: {
@@ -26,13 +25,10 @@ const nextConfig: NextConfig = {
         pathname: '/**',
       },
       {
-        protocol: 'https',
-        hostname: 'picsum.photos',
-        port: '',
-        pathname: '/**',
-      },
-    ],
-  },
+        protocol: 'https'
+      }
+    ]
+  }
 };
 
 export default nextConfig;
