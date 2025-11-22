@@ -7,7 +7,7 @@ import { Button } from '@/components/ui/button';
 import { Heart, ShoppingCart, Star, CheckCircle } from 'lucide-react';
 import { Separator } from '@/components/ui/separator';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
-import { useState, useEffect, useMemo } from 'react';
+import { useState, useEffect } from 'react';
 import { cn } from '@/lib/utils';
 import { useToast } from '@/hooks/use-toast';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
@@ -15,7 +15,7 @@ import { Textarea } from '@/components/ui/textarea';
 import { Label } from '@/components/ui/label';
 import { Input } from '@/components/ui/input';
 import { useTranslation } from '@/hooks/use-translation';
-import { useUser, useFirestore, useCollection, useMemoFirebase, addDocumentNonBlocking, deleteDocumentNonBlocking } from '@/firebase';
+import { useUser, useFirestore, useMemoFirebase, addDocumentNonBlocking, deleteDocumentNonBlocking } from '@/firebase';
 import { collection, query, where, getDocs, doc } from 'firebase/firestore';
 import { useCart } from '@/contexts/cart-context';
 import { Review } from '@/lib/definitions';
@@ -56,7 +56,8 @@ export default function ProductDetailPage({ params }: { params: { slug: string }
 
     const checkFavoriteStatus = async () => {
         setIsFavoriteLoading(true);
-        const q = query(collection(firestore, `users/${user.uid}/favorites`), where("productId", "==", product.id));
+        if (!favoritesCollectionRef) return;
+        const q = query(favoritesCollectionRef, where("productId", "==", product.id));
         
         try {
             const querySnapshot = await getDocs(q);
@@ -78,7 +79,7 @@ export default function ProductDetailPage({ params }: { params: { slug: string }
     };
 
     checkFavoriteStatus();
-  }, [user, firestore, product]);
+  }, [user, firestore, product, favoritesCollectionRef]);
 
 
   const handleFavoriteClick = async () => {
@@ -90,13 +91,17 @@ export default function ProductDetailPage({ params }: { params: { slug: string }
       });
       return;
     }
-    setIsFavoriteLoading(true);
-
-    if (isFavorite && favoriteId) {
+    
+    // Optimistic UI update
+    const wasFavorite = isFavorite;
+    const previousFavoriteId = favoriteId;
+    
+    setIsFavorite(!wasFavorite);
+    
+    if (wasFavorite && previousFavoriteId) {
       // Remove from favorites
-      const docRef = doc(favoritesCollectionRef, favoriteId);
+      const docRef = doc(favoritesCollectionRef, previousFavoriteId);
       deleteDocumentNonBlocking(docRef);
-      setIsFavorite(false);
       setFavoriteId(null);
       toast({
         title: t('product_page.toast.favorite_removed_title'),
@@ -109,10 +114,8 @@ export default function ProductDetailPage({ params }: { params: { slug: string }
         productId: product.id,
         addedDate: new Date().toISOString(),
       };
-      // addDocumentNonBlocking returns a promise with the doc ref
       addDocumentNonBlocking(favoritesCollectionRef, newFav).then(docRef => {
         if(docRef) {
-          setIsFavorite(true);
           setFavoriteId(docRef.id);
         }
       });
@@ -122,9 +125,6 @@ export default function ProductDetailPage({ params }: { params: { slug: string }
         description: `${productName} ${t('product_page.toast.favorite_added_desc')}`,
       });
     }
-    // Note: We don't wait for the async operation to finish to update the UI
-    // The loading state is primarily for the initial check. Toggling can feel instant.
-    setIsFavoriteLoading(false);
   };
   // -- End of Favorite Logic --
 
@@ -149,13 +149,9 @@ export default function ProductDetailPage({ params }: { params: { slug: string }
 
   const handleAddToCart = () => {
     if (!product) return;
-    addToCart({
-      ...product,
-      options: {
-        ...product.options,
-        selectedColor: selectedColor,
-        selectedSize: selectedSize
-      }
+    addToCart(product, {
+      size: selectedSize,
+      color: selectedColor
     });
     toast({
       title: "Article ajouté au panier",
@@ -207,7 +203,7 @@ export default function ProductDetailPage({ params }: { params: { slug: string }
           
           <Separator className="my-8" />
 
-          {product.options?.colors && (
+          {product.options?.colors && product.options.colors.length > 0 && (
             <div className="mb-6">
               <h3 className="text-sm font-semibold text-muted-foreground mb-2">{t('product_page.color')}: <span className="font-bold text-foreground">{selectedColor}</span></h3>
               <div className="flex items-center gap-3">
@@ -227,7 +223,7 @@ export default function ProductDetailPage({ params }: { params: { slug: string }
             </div>
           )}
 
-          {product.options?.sizes && (
+          {product.options?.sizes && product.options.sizes.length > 0 && (
              <div className="mb-6">
                 <h3 className="text-sm font-semibold text-muted-foreground mb-2">{t('product_page.size')}</h3>
                 <div className="flex flex-wrap items-center gap-2">
@@ -245,7 +241,7 @@ export default function ProductDetailPage({ params }: { params: { slug: string }
               </div>
           )}
 
-          <div className="flex flex-col sm:flex-row gap-4">
+          <div className="flex flex-col sm:flex-row gap-4 mt-2">
             <Button size="lg" className="w-full sm:w-auto flex-grow" onClick={handleAddToCart}>
               <ShoppingCart className="mr-2 h-5 w-5" /> {t('product_page.add_to_cart')}
             </Button>

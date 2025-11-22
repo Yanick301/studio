@@ -50,16 +50,17 @@ export default function CartPage() {
                     <div className="flex flex-col gap-6">
                        {cart.map(item => {
                            const productName = t(item.name);
+                           const itemKey = item.id + (item.options?.selectedSize || '') + (item.options?.selectedColor || '');
                            return (
-                            <div key={item.id + (item.options?.selectedSize || '') + (item.options?.selectedColor || '')} className="flex gap-4 items-center border p-4 rounded-lg">
+                            <div key={itemKey} className="flex gap-4 items-start sm:items-center border p-4 rounded-lg">
                                 <Image 
                                     src={item.imageUrl}
                                     alt={productName}
                                     width={80}
                                     height={100}
-                                    className="rounded-md object-cover"
+                                    className="rounded-md object-cover w-20 h-28 sm:w-24 sm:h-32"
                                 />
-                                <div className="flex-grow">
+                                <div className="flex-grow flex flex-col">
                                     <Link href={`/products/${item.slug}`} className="font-semibold hover:underline">{productName}</Link>
                                     <p className="text-sm text-muted-foreground">
                                         {item.options?.selectedSize && `${t('product_page.size')}: ${item.options.selectedSize}`}
@@ -67,18 +68,27 @@ export default function CartPage() {
                                         {item.options?.selectedColor && `${t('product_page.color')}: `}
                                         {item.options?.selectedColor && <span className="inline-block w-3 h-3 rounded-full" style={{ backgroundColor: item.options.selectedColor }}></span>}
                                     </p>
-                                    <p className="font-bold text-primary text-lg mt-1">{(item.price * item.quantity).toFixed(2)} €</p>
+                                    <div className="flex sm:hidden items-center gap-2 mt-2">
+                                        <Button variant="outline" size="icon" className="h-8 w-8" onClick={() => updateQuantity(itemKey, item.quantity - 1)} disabled={item.quantity <= 1}>
+                                            <Minus className="h-4 w-4" />
+                                        </Button>
+                                        <span className="font-bold w-8 text-center">{item.quantity}</span>
+                                        <Button variant="outline" size="icon" className="h-8 w-8" onClick={() => updateQuantity(itemKey, item.quantity + 1)}>
+                                            <Plus className="h-4 w-4" />
+                                        </Button>
+                                    </div>
+                                    <p className="font-bold text-primary text-lg mt-auto">{(item.price * item.quantity).toFixed(2)} €</p>
                                 </div>
-                                <div className="flex items-center gap-2">
-                                     <Button variant="outline" size="icon" className="h-8 w-8" onClick={() => updateQuantity(item.id, item.quantity - 1)} disabled={item.quantity <= 1}>
+                                <div className="hidden sm:flex items-center gap-2">
+                                     <Button variant="outline" size="icon" className="h-8 w-8" onClick={() => updateQuantity(itemKey, item.quantity - 1)} disabled={item.quantity <= 1}>
                                         <Minus className="h-4 w-4" />
                                     </Button>
                                     <span className="font-bold w-10 text-center">{item.quantity}</span>
-                                    <Button variant="outline" size="icon" className="h-8 w-8" onClick={() => updateQuantity(item.id, item.quantity + 1)}>
+                                    <Button variant="outline" size="icon" className="h-8 w-8" onClick={() => updateQuantity(itemKey, item.quantity + 1)}>
                                         <Plus className="h-4 w-4" />
                                     </Button>
                                 </div>
-                                <Button variant="ghost" size="icon" onClick={() => removeFromCart(item.id)}>
+                                <Button variant="ghost" size="icon" className="ml-auto sm:ml-0" onClick={() => removeFromCart(itemKey)}>
                                     <X className="h-5 w-5 text-muted-foreground" />
                                 </Button>
                             </div>

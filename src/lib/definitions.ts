@@ -29,6 +29,7 @@ export type Testimonial = {
 
 export type CartItem = Product & {
   quantity: number;
+  cartItemId: string; // Unique identifier for cart item instance (product + options)
 };
 
 export type FaqItem = {

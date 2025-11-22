@@ -49,14 +49,16 @@ export function Header() {
     <>
       <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
         <div className="container flex h-16 items-center">
+          {/* Desktop Logo */}
           <div className="mr-4 hidden lg:flex">
             <Logo />
           </div>
           
+          {/* Mobile Menu Button & Sheet */}
           <div className="lg:hidden">
             <Sheet open={sheetOpen} onOpenChange={setSheetOpen}>
               <SheetTrigger asChild>
-                <Button variant="ghost" size="icon">
+                <Button variant="ghost" size="icon" className="-ml-2">
                   <Menu className="h-6 w-6" />
                   <span className="sr-only">{t('header.toggle_menu')}</span>
                 </Button>
@@ -81,10 +83,12 @@ export function Header() {
             </Sheet>
           </div>
           
-          <div className="flex lg:hidden flex-1 justify-center">
+          {/* Mobile Logo */}
+          <div className="flex lg:hidden flex-1 items-center justify-center">
                <Logo />
           </div>
 
+          {/* Desktop Navigation */}
           <nav className="hidden items-center gap-6 text-sm font-medium lg:flex flex-1">
             {navLinks.map((link) => (
               <Link
@@ -97,7 +101,8 @@ export function Header() {
             ))}
           </nav>
 
-          <div className="flex items-center justify-end space-x-1 md:space-x-2">
+          {/* Right-side Icons and User Nav */}
+          <div className="flex items-center justify-end space-x-0 sm:space-x-1">
               <DropdownMenu>
                   <DropdownMenuTrigger asChild>
                       <Button variant="ghost" size="icon" aria-label={t('header.select_language')}>
@@ -130,7 +135,7 @@ export function Header() {
                   )}
                </Link>
             </Button>
-            <div className="w-px h-6 bg-border mx-2 hidden sm:block"></div>
+            <div className="w-px h-6 bg-border mx-1 sm:mx-2 hidden sm:block"></div>
             <UserNav />
           </div>
         </div>

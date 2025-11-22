@@ -23,7 +23,10 @@ export function ProductCard({ product }: ProductCardProps) {
   const handleAddToCart = (e: React.MouseEvent) => {
     e.preventDefault(); // Prevent link navigation
     e.stopPropagation(); // Stop event bubbling
-    addToCart(product);
+    addToCart(product, {
+      size: product.options?.sizes?.[0] || null,
+      color: product.options?.colors?.[0] || null
+    });
     toast({
       title: "Article ajouté au panier",
       description: `${productName} a été ajouté à votre panier.`,
