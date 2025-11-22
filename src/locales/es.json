@@ -423,131 +423,6 @@
     "colors": "Colores"
   },
   "products": {
-    "monarque_blazer": {
-      "name": "Blazer Cruzado 'El Diplomático'",
-      "description": "Una obra maestra de la elegancia masculina. Confeccionado en lana virgen italiana, su corte cruzado y estructurado ofrece un aspecto asertivo y sofisticado.",
-      "details": "Lana virgen italiana Super 120s. Forro de cupro transpirable. Botones de cuerno auténtico. Limpieza en seco únicamente."
-    },
-    "aquila_suit": {
-      "name": "Traje 'Herencia' de Lana y Seda",
-      "description": "Un traje excepcional para ocasiones especiales. La mezcla de lana y seda le da a este tres piezas una caída perfecta y un brillo sutil, la firma de un lujo discreto.",
-      "details": "Mezcla de 85% lana, 15% seda. Incluye chaqueta, chaleco y pantalón. Acabados totalmente a mano por nuestros maestros sastres."
-    },
-    "pur_shirt": {
-      "name": "Camisa 'La Esencial' de Algodón Pima",
-      "description": "La camisa blanca, reinventada. Tejida con algodón Pima peruano excepcionalmente suave, presenta un cuello francés y refuerzos laterales para una mayor durabilidad.",
-      "details": "100% Algodón Pima peruano. Cuello francés, puños dobles. Botones de nácar australiano. Corte entallado."
-    },
-    "nord_coat": {
-      "name": "Abrigo 'Estocolmo' de Cachemira",
-      "description": "La elegancia escandinava en su máxima expresión. Este abrigo largo de corte minimalista en pura cachemira te envuelve en calidez y suavidad. Una inversión para toda la vida.",
-      "details": "100% Cachemira de Mongolia. Sin forro para una ligereza inigualable. Solapa de muesca y bolsillos ribeteados."
-    },
-    "soir_blazer": {
-      "name": "Chaqueta de Esmoquin 'Nocturno'",
-      "description": "Elegancia de noche. Una chaqueta de esmoquin de terciopelo de seda con cuello chal de satén. La pieza central de tu armario formal.",
-      "details": "Terciopelo de seda y satén. Cuello chal. Un botón forrado de satén. Forro de jacquard."
-    },
-    "silence_turtleneck": {
-      "name": "Jersey de Cuello Alto 'Silencio' de Cachemira y Seda",
-      "description": "Una caricia en la piel. Este jersey de cuello alto, tejido en una mezcla ultraligera de cachemira y seda, es de un confort absoluto y una versatilidad impecable.",
-      "details": "70% Cachemira, 30% Seda. Punto de galga fina. Puños y cintura acanalados."
-    },
-    "cache_chino": {
-      "name": "Chino 'El Paseante' de Gabardina de Algodón",
-      "description": "La alternativa casual al pantalón de traje. Nuestro chino está cortado de una gabardina de algodón elástico para un confort óptimo, con un corte ajustado y acabados de sastre.",
-      "details": "Gabardina de algodón elástico. Cierre de corchete y cremallera. Bolsillos italianos. Corte ajustado."
-    },
-    "forge_jeans": {
-      "name": "Vaquero Recto 'El Crudo' Selvedge Japonés",
-      "description": "La autenticidad de un verdadero vaquero. Cortado de un denim selvedge japonés de 14.5oz, este vaquero crudo desarrollará una pátina con el tiempo para convertirse en una pieza única, la tuya.",
-      "details": "Denim selvedge japonés de 14.5oz. Corte recto clásico. Bragueta de botones. Costuras de cadeneta."
-    },
-    "atlas_parka": {
-      "name": "Parka 'Explorador' Técnica",
-      "description": "Rendimiento con estilo. Esta parka está confeccionada en un tejido técnico japonés de triple capa, impermeable y transpirable. Costuras termoselladas.",
-      "details": "Tejido técnico japonés de triple capa. Costuras termoselladas. Capucha extraíble. Múltiples bolsillos de seguridad."
-    },
-    "cuiron_jacket": {
-      "name": "Chaqueta 'Rebelde' de Piel de Cordero Plongé",
-      "description": "Un icono reinventado. Esta chaqueta de motorista está cortada en una piel de cordero plongé excepcionalmente flexible que envejecerá maravillosamente con el tiempo.",
-      "details": "Piel de cordero plongé. Cremalleras Riri y detalles de paladio. Forro de satén acolchado."
-    },
-    "pluie_royale_trench": {
-      "name": "Gabardina 'Westminster'",
-      "description": "Un clásico atemporal. Nuestra gabardina está confeccionada en gabardina de algodón impermeable, con todos los detalles tradicionales: solapas de tormenta, cinturón y trabillas en los hombros.",
-      "details": "Gabardina de algodón repelente al agua. Forro de cuadros característico. Botones de cuerno. Corte clásico."
-    },
-    "breeze_vest": {
-      "name": "Chaleco Acolchado 'Céfiro'",
-      "description": "La prenda ideal para entretiempo. Ultraligero, este chaleco sin mangas está relleno de plumón de ganso de alta calidad para un calor localizado sin volumen.",
-      "details": "Tejido micro-ripstop japonés. Relleno de plumón de ganso 90/10. Se pliega en su propio bolsillo."
-    },
-    "azur_shirt": {
-      "name": "Camisa 'Riviera' de Lino Irlandés",
-      "description": "La elegancia veraniega por excelencia. Tejida con el mejor lino irlandés, esta camisa ofrece una frescura y una textura únicas que mejoran con cada lavado.",
-      "details": "100% Lino irlandés. Corte relajado. Botones de nácar. Lavada para mayor suavidad."
-    },
-    "nocturne_tuxedo": {
-      "name": "Esmoquin 'Gran Noche' de Barathea",
-      "description": "Para momentos inolvidables. Este esmoquin está cortado de una lana barathea tradicional con solapa de satén de seda. La quintesencia de la elegancia formal.",
-      "details": "Lana barathea. Solapas y ribetes de satén de seda. Pantalón con banda lateral de satén."
-    },
-    "rivage_shorts": {
-      "name": "Bermudas 'Capri' de Lona de Lino",
-      "description": "Chic casual para el verano. Estas bermudas de pinzas están cortadas de una mezcla de lino y viscosa para una caída impecable y resistencia a las arrugas.",
-      "details": "Mezcla de lino y viscosa. Cintura alta con pinzas. Cierre de corchete y cremallera."
-    },
-    "heritage_cardigan": {
-      "name": "Cárdigan 'Clubhouse' de Lana Merina",
-      "description": "Una prenda versátil, entre formal y casual. Este cárdigan con cuello chal está tejido en lana merina extrafina, con botones de cuero trenzado.",
-      "details": "100% Lana Merina extrafina. Cuello chal. Bolsillos de parche. Botones de cuero trenzado."
-    },
-    "folio_shirt": {
-      "name": "Camisa 'Jardín de Invierno' de Viscosa",
-      "description": "Un toque de audacia. Esta camisa de manga corta presenta un exclusivo estampado floral sobre una viscosa fluida y ligera, perfecta para los días de sol.",
-      "details": "100% Viscosa fluida. Estampado exclusivo. Cuello cubano. Corte recto."
-    },
-    "ete_palais_suit": {
-      "name": "Traje de Verano 'Sprezzatura' de Lino y Algodón",
-      "description": "Elegancia veraniega al estilo italiano. La estructura deconstruida y la mezcla de lino y algodón hacen que este traje sea increíblemente ligero y transpirable, sin sacrificar el estilo.",
-      "details": "Mezcla de Lino y Algodón. Chaqueta sin forro, hombros naturales. Bolsillos de parche."
-    },
-    "atelier_sweatshirt": {
-      "name": "Sudadera 'El Artista' de Algodón Loopback",
-      "description": "La comodidad elevada a la categoría de arte. Confeccionada con algodón loopback japonés (French Terry), esta sudadera tiene un corte ligeramente oversize y costuras planas para un confort absoluto.",
-      "details": "Algodón loopback japonés (French Terry). Costuras planas. Puños y bajo acanalados resistentes."
-    },
-    "verite_bomber": {
-      "name": "Chaqueta Bomber 'Aviador' de Ante de Cabra",
-      "description": "Un lujo táctil. Esta chaqueta bomber está confeccionada en ante de cabra aterciopelado, ofreciendo una alternativa sofisticada al cuero clásico. Forro de seda.",
-      "details": "Ante de cabra. Cremallera Riri de dos vías. Puños y bajo acanalados de lana y cachemira."
-    },
-    "elan_polo": {
-      "name": "Polo 'El Deportista' de Piqué de Algodón Sea Island",
-      "description": "El polo, perfeccionado. Tejido con el rarísimo algodón Sea Island, este polo ofrece una suavidad y un brillo sedoso inigualables. Cuello y tapeta acanalados.",
-      "details": "100% Algodón Sea Island. Tapeta de dos botones de nácar. Aberturas laterales."
-    },
-    "nuage_hoodie": {
-      "name": "Sudadera con Capucha 'Capullo' de Cachemira de Doble Cara",
-      "description": "El culmen de la ropa de estar por casa de lujo. Esta sudadera con capucha está tejida en pura cachemira de doble cara, ofreciendo una suavidad tan exquisita por dentro como por fuera.",
-      "details": "100% Cachemira de doble cara. Capucha forrada. Cordón con puntas metálicas."
-    },
-    "business_suit": {
-      "name": "Traje 'Negocios' de Lana Fresco",
-      "description": "El traje definitivo para el viajero. La lana Fresco de tejido abierto es naturalmente resistente a las arrugas y transpirable, ideal para mantenerse impecable todo el día.",
-      "details": "Lana Fresco de alta torsión. Construcción de media entretela. Forro parcial para mayor transpirabilidad."
-    },
-    "expedition_parka": {
-      "name": "Parka 'Ártico' de Ventile y Plumón",
-      "description": "La máxima protección contra los elementos. Capa exterior de algodón Ventile®, un material natural impermeable, y generoso relleno de plumón de ganso de 850 cuins.",
-      "details": "Algodón Ventile® impermeable. Relleno de plumón de ganso de 850 cuins. Capucha con borde de piel de coyote extraíble (de origen ético)."
-    },
-    "metro_jumpsuit": {
-      "name": "Mono 'Urbano' de Lona de Lana",
-      "description": "Una declaración de estilo moderno. Este mono de inspiración workwear está cortado en una lona de lana flexible para un look a la vez chic y casual.",
-      "details": "Lona de lana ligera. Cierre con cremallera oculta. Cinturón a juego. Múltiples bolsillos funcionales."
-    },
     "gucci_silk_dress": {
       "name": "Vestido de seda con estampado de cinta de Gucci",
       "description": "Vestido midi de seda multicolor con estampado de cinta, mangas largas abullonadas, cuello con lazo para anudar y cierre de botón en la espalda. Tejido 100% seda, corte fluido y femenino.",
@@ -825,7 +700,7 @@
     },
     "eclipse_heels": {
       "name": "Zapato de Salón 'Vértigo' de Ante 105mm",
-      "description": "La quintesencia del stiletto. Un arco perfecto y un tacón de 10.5 cm que alarga la pierna hasta el infinito. Realizado en ante de cabrito negro intenso.",
+      "description": "La quintesencia del stiletto. Un arco perfecto y un tacón de 10.5 cm que alarga la pierna hasta el infinito. Realizado en intenso ante de cabrito negro.",
       "details": "100% ante de cabrito italiano. Tacón de 10.5 cm. Plantilla y suela de cuero."
     },
     "serenite_sandals": {
@@ -877,6 +752,156 @@
       "name": "Zapatillas 'El Minimalista' de Piel",
       "description": "La zapatilla de lujo depurada. Fabricada en Italia con piel de becerro lisa, su silueta minimalista combina con cualquier atuendo, desde un traje hasta unos vaqueros.",
       "details": "Piel de becerro italiana. Forro completo de piel. Suela de goma cosida."
+    },
+    "tom_ford_slim_fit_shirt": {
+      "name": "Camisa slim fit de Tom Ford",
+      "description": "Camisa de popelina de algodón, corte ajustado, cuello italiano, botones de nácar, acabado de lujo.",
+      "details": "Popelina 100% algodón. Corte ajustado. Cuello italiano."
+    },
+    "ralph_lauren_pique_polo": {
+      "name": "Polo de piqué de Ralph Lauren Purple Label",
+      "description": "Polo suave de algodón de primera calidad, corte moderno, logo bordado, cuello reforzado.",
+      "details": "Algodón de primera calidad. Corte moderno. Logo bordado."
+    },
+    "loro_piana_cashmere_turtleneck": {
+      "name": "Jersey de cuello alto de cachemira de Loro Piana",
+      "description": "100% cachemira italiana, punto fino, ultra suave, corte refinado.",
+      "details": "100% cachemira italiana. Punto fino. Hecho en Italia."
+    },
+    "hugo_boss_round_neck_tshirt": {
+      "name": "Camiseta de cuello redondo de Hugo Boss Black",
+      "description": "Camiseta de primera calidad, algodón mercerizado, logo discreto, corte ajustado.",
+      "details": "Algodón mercerizado. Logo discreto. Corte ajustado."
+    },
+    "burberry_stretch_chino_pants": {
+      "name": "Pantalón chino elástico de Burberry",
+      "description": "Chino de algodón elástico, corte moderno, discreto estampado de cuadros en el interior.",
+      "details": "Algodón elástico. Corte moderno. Discreto estampado de cuadros."
+    },
+    "diesel_slim_fit_jeans": {
+      "name": "Vaqueros de corte ajustado de Diesel Black Gold",
+      "description": "Vaqueros elásticos, lavado de primera calidad, detalles metálicos característicos.",
+      "details": "Denim elástico. Lavado de primera calidad. Detalles característicos."
+    },
+    "moncler_nylon_bomber": {
+      "name": "Bomber de nailon de Moncler",
+      "description": "Chaqueta ligera acolchada, corte moderno, logo en la manga.",
+      "details": "Nailon. Acolchado ligero. Logo en la manga."
+    },
+    "saint_laurent_leather_jacket_men": {
+      "name": "Chaqueta de cuero de Saint Laurent",
+      "description": "Piel de cordero ultra suave, corte rockero, cremallera plateada YSL.",
+      "details": "Piel de cordero ultra suave. Corte rockero. Cremallera YSL."
+    },
+    "giorgio_armani_suit_jacket": {
+      "name": "Chaqueta de traje de Giorgio Armani",
+      "description": "Chaqueta de lana virgen, corte sofisticado, forro de seda.",
+      "details": "Lana virgen. Corte sofisticado. Forro de seda."
+    },
+    "zegna_2_piece_suit": {
+      "name": "Traje de 2 piezas de Zegna",
+      "description": "Lana merina italiana, corte ajustado, hombro natural.",
+      "details": "Lana merina italiana. Corte ajustado. Hombro natural."
+    },
+    "off_white_hoodie": {
+      "name": "Sudadera con capucha de Off-White",
+      "description": "Algodón grueso, motivos de flechas en la espalda, estampado característico.",
+      "details": "Algodón grueso. Motivos de flechas. Estampado característico."
+    },
+    "fear_of_god_essential_tshirt": {
+      "name": "Camiseta “Essential” de Fear of God Essentials",
+      "description": "Algodón de primera calidad, logo en relieve, corte oversize.",
+      "details": "Algodón de primera calidad. Logo en relieve. Corte oversize."
+    },
+    "lacoste_merino_wool_sweater": {
+      "name": "Jersey de lana merina de Lacoste",
+      "description": "Punto fino, cuello redondo, cocodrilo bordado, corte clásico.",
+      "details": "Lana merina fina. Cuello redondo. Corte clásico."
+    },
+    "balenciaga_oversize_shirt": {
+      "name": "Camisa oversize de Balenciaga",
+      "description": "Algodón grueso, silueta ancha, marca discreta.",
+      "details": "Algodón grueso. Silueta ancha. Marca discreta."
+    },
+    "acne_studios_flannel_overshirt": {
+      "name": "Sobrecamisa de franela de Acne Studios",
+      "description": "Franela suave, corte relajado, bolsillos en el pecho.",
+      "details": "Franela suave. Corte relajado. Bolsillos en el pecho."
+    },
+    "stone_island_cargo_shorts": {
+      "name": "Pantalones cortos cargo de Stone Island",
+      "description": "Tejido resistente, insignia de Stone Island, corte utilitario.",
+      "details": "Tejido resistente. Insignia de Stone Island. Corte utilitario."
+    },
+    "canada_goose_lightweight_down_jacket": {
+      "name": "Chaqueta de plumas ligera de Canada Goose",
+      "description": "Aislamiento térmico, tejido cortavientos, diseño limpio.",
+      "details": "Aislamiento térmico. Tejido cortavientos. Diseño limpio."
+    },
+    "the_north_face_expedition_parka": {
+      "name": "Parka “Expedition” de The North Face Black Series",
+      "description": "Resistente, impermeable, multibolsillos, capucha ajustable.",
+      "details": "Resistente. Impermeable. Multibolsillos."
+    },
+    "brunello_cucinelli_cashmere_zip_cardigan": {
+      "name": "Cárdigan con cremallera de cachemira de Brunello Cucinelli",
+      "description": "Cachemira extrafina, cremallera metálica, corte elegante.",
+      "details": "Cachemira extrafina. Cremallera metálica. Corte elegante."
+    },
+    "max_mara_long_wool_coat": {
+      "name": "Abrigo largo de lana de Max Mara Homme",
+      "description": "Lana cálida, corte largo, cinturón opcional.",
+      "details": "Lana cálida. Corte largo. Cinturón opcional."
+    },
+    "levis_denim_jacket": {
+      "name": "Chaqueta vaquera de Levi's Made & Crafted",
+      "description": "Denim de primera calidad, corte clásico, acabado artesanal.",
+      "details": "Denim de primera calidad. Corte clásico. Acabado artesanal."
+    },
+    "dior_homme_tailored_pants": {
+      "name": "Pantalón de sastre de Dior Homme",
+      "description": "Elegante corte cónico, lana fina, aspecto de alta costura.",
+      "details": "Lana fina. Elegante corte cónico. Aspecto de alta costura."
+    },
+    "versace_silk_shirt": {
+      "name": "Camisa de seda de Versace",
+      "description": "Seda estampada, motivos barrocos, cuello italiano.",
+      "details": "Seda estampada. Motivos barrocos. Cuello italiano."
+    },
+    "palm_angels_printed_hoodie": {
+      "name": "Sudadera con capucha estampada de Palm Angels",
+      "description": "Algodón grueso, motivo de palmera, corte oversize.",
+      "details": "Algodón grueso. Motivo de palmera. Corte oversize."
+    },
+    "barbour_quilted_jacket": {
+      "name": "Chaqueta acolchada de Barbour International",
+      "description": "Acolchado de rombos, corte clásico, cuello de terciopelo.",
+      "details": "Acolchado de rombos. Corte clásico. Cuello de terciopelo."
+    },
+    "paul_smith_cable_knit_sweater": {
+      "name": "Jersey de punto de ochos de Paul Smith",
+      "description": "Lana suave, motivo de punto de ochos, acabado en contraste.",
+      "details": "Lana suave. Motivo de punto de ochos. Acabado en contraste."
+    },
+    "givenchy_logo_tshirt": {
+      "name": "Camiseta con logo de Givenchy",
+      "description": "Logo bordado, algodón de primera calidad, corte recto.",
+      "details": "Logo bordado. Algodón de primera calidad. Corte recto."
+    },
+    "adidas_gucci_luxury_tracksuit": {
+      "name": "Chándal de lujo de Adidas x Gucci",
+      "description": "Poliéster de primera calidad, rayas de Gucci, corte retro.",
+      "details": "Poliéster de primera calidad. Rayas de Gucci. Corte retro."
+    },
+    "nike_acg_technical_jacket": {
+      "name": "Chaqueta técnica de Nike ACG",
+      "description": "Impermeable, ventilada, corte moderno para exteriores.",
+      "details": "Impermeable. Ventilada. Corte moderno para exteriores."
+    },
+    "prada_sleeveless_gilet": {
+      "name": "Chaleco sin mangas de Prada",
+      "description": "Nailon de Prada, corte minimalista, logo triangular.",
+      "details": "Nailon de Prada. Corte minimalista. Logo triangular."
     }
   }
 }

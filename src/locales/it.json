@@ -423,131 +423,6 @@
     "colors": "Colori"
   },
   "products": {
-    "monarque_blazer": {
-      "name": "Blazer Doppio Petto 'Il Diplomatico'",
-      "description": "Un capolavoro di eleganza maschile. Realizzato in lana vergine italiana, il suo taglio strutturato a doppio petto offre un look deciso e sofisticato.",
-      "details": "Lana vergine italiana Super 120s. Fodera in cupro traspirante. Bottoni in corno autentico. Solo lavaggio a secco."
-    },
-    "aquila_suit": {
-      "name": "Abito 'Eredità' in Lana e Seta",
-      "description": "Un abito eccezionale per occasioni speciali. La miscela di lana e seta conferisce a questo tre pezzi un drappeggio perfetto e una lucentezza discreta, firma di un lusso sobrio.",
-      "details": "Misto 85% lana, 15% seta. Include giacca, gilet e pantaloni. Finiture interamente a mano dai nostri sarti."
-    },
-    "pur_shirt": {
-      "name": "Camicia 'L'Essenziale' in Cotone Pima",
-      "description": "La camicia bianca, reinventata. Tessuta in cotone Pima peruviano eccezionalmente morbido, presenta un colletto alla francese e rinforzi laterali per una maggiore durata.",
-      "details": "100% Cotone Pima peruviano. Colletto alla francese, polsini doppi. Bottoni in madreperla australiana. Vestibilità slim."
-    },
-    "nord_coat": {
-      "name": "Cappotto 'Stoccolma' in Cashmere",
-      "description": "L'eleganza scandinava al suo meglio. Questo cappotto lungo dal taglio minimalista in puro cashmere ti avvolge di calore e morbidezza. Un investimento per la vita.",
-      "details": "100% Cashmere mongolo. Sfoderato per una leggerezza impareggiabile. Revers a lancia e tasche a filetto."
-    },
-    "soir_blazer": {
-      "name": "Giacca da Smoking 'Notturno'",
-      "description": "Eleganza da sera. Una giacca da smoking in velluto di seta con collo a scialle in raso. Il pezzo forte del tuo guardaroba formale.",
-      "details": "Velluto di seta e raso. Collo a scialle. Un bottone ricoperto di raso. Fodera in jacquard."
-    },
-    "silence_turtleneck": {
-      "name": "Dolcevita 'Silenzio' in Cashmere e Seta",
-      "description": "Una carezza sulla pelle. Questo dolcevita, lavorato a maglia in una miscela ultraleggera di cashmere e seta, è di un comfort assoluto e di una versatilità impeccabile.",
-      "details": "70% Cashmere, 30% Seta. Maglia a calibro fine. Polsini e vita a costine."
-    },
-    "cache_chino": {
-      "name": "Chino 'Il Passeggiatore' in Gabardine di Cotone",
-      "description": "L'alternativa casual ai pantaloni da abito. Il nostro chino è tagliato da una gabardine di cotone elasticizzato per un comfort ottimale, con una vestibilità slim e finiture sartoriali.",
-      "details": "Gabardine di cotone elasticizzato. Chiusura con gancio e zip. Tasche all'italiana. Vestibilità slim."
-    },
-    "forge_jeans": {
-      "name": "Jeans Dritti 'Il Grezzo' Selvedge Giapponese",
-      "description": "L'autenticità di un vero jeans. Tagliato da un denim selvedge giapponese da 14,5 once, questo jeans grezzo svilupperà una patina nel tempo per diventare un pezzo unico, il tuo.",
-      "details": "Denim selvedge giapponese da 14,5 once. Taglio dritto classico. Chiusura a bottoni. Cuciture a catenella."
-    },
-    "atlas_parka": {
-      "name": "Parka 'Esploratore' Tecnico",
-      "description": "Performance con stile. Questo parka è realizzato in un tessuto tecnico giapponese a triplo strato, impermeabile e traspirante. Cuciture termosaldate.",
-      "details": "Tessuto tecnico giapponese a triplo strato. Cuciture termosaldate. Cappuccio rimovibile. Molteplici tasche di sicurezza."
-    },
-    "cuiron_jacket": {
-      "name": "Giacca 'Ribelle' in Pelle di Agnello Plongé",
-      "description": "Un'icona reinventata. Questa giacca da motociclista è tagliata in una pelle di agnello plongé eccezionalmente morbida che invecchierà magnificamente nel tempo.",
-      "details": "Pelle di agnello plongé. Cerniere Riri e dettagli in palladio. Fodera in raso trapuntato."
-    },
-    "pluie_royale_trench": {
-      "name": "Trench 'Westminster'",
-      "description": "Un classico senza tempo. Il nostro trench è realizzato in gabardine di cotone impermeabile, con tutti i dettagli tradizionali: patte antipioggia, cintura e spalline.",
-      "details": "Gabardine di cotone idrorepellente. Fodera a quadri caratteristica. Bottoni in corno. Taglio classico."
-    },
-    "breeze_vest": {
-      "name": "Gilet Trapuntato 'Zefiro'",
-      "description": "Il capo ideale per la mezza stagione. Ultraleggero, questo gilet senza maniche è imbottito con piumino d'oca di alta qualità per un calore mirato senza ingombro.",
-      "details": "Tessuto micro-ripstop giapponese. Imbottitura in piumino d'oca 90/10. Si ripiega nella propria tasca."
-    },
-    "azur_shirt": {
-      "name": "Camicia 'Riviera' in Lino Irlandese",
-      "description": "L'eleganza estiva per eccellenza. Tessuta con il miglior lino irlandese, questa camicia offre una freschezza e una consistenza uniche che migliorano ad ogni lavaggio.",
-      "details": "100% Lino irlandese. Vestibilità rilassata. Bottoni in madreperla. Lavata per una maggiore morbidezza."
-    },
-    "nocturne_tuxedo": {
-      "name": "Smoking 'Gran Sera' in Barathea",
-      "description": "Per momenti indimenticabili. Questo smoking è tagliato in una tradizionale lana barathea con un revers in raso di seta. La quintessenza dell'eleganza formale.",
-      "details": "Lana barathea. Revers e profili in raso di seta. Pantaloni con banda laterale in raso."
-    },
-    "rivage_shorts": {
-      "name": "Bermuda 'Capri' in Tela di Lino",
-      "description": "Chic casual per l'estate. Questi bermuda a pieghe sono tagliati da una miscela di lino e viscosa per un drappeggio impeccabile e resistenza alle pieghe.",
-      "details": "Misto lino e viscosa. Vita alta con pieghe. Chiusura con gancio e zip."
-    },
-    "heritage_cardigan": {
-      "name": "Cardigan 'Clubhouse' in Lana Merino",
-      "description": "Un capo versatile, a metà tra formale e casual. Questo cardigan con collo a scialle è lavorato a maglia in lana merino extrafine, con bottoni in pelle intrecciata.",
-      "details": "100% Lana Merino extrafine. Collo a scialle. Tasche applicate. Bottoni in pelle intrecciata."
-    },
-    "folio_shirt": {
-      "name": "Camicia 'Giardino d'Inverno' in Viscosa",
-      "description": "Un tocco di audacia. Questa camicia a maniche corte presenta una stampa floreale esclusiva su una viscosa fluida e leggera, perfetta per le giornate di sole.",
-      "details": "100% Viscosa fluida. Stampa esclusiva. Colletto cubano. Taglio dritto."
-    },
-    "ete_palais_suit": {
-      "name": "Abito Estivo 'Sprezzatura' in Lino e Cotone",
-      "description": "Eleganza estiva all'italiana. La struttura destrutturata e la miscela lino-cotone rendono questo abito incredibilmente leggero e traspirante, senza sacrificare lo stile.",
-      "details": "Misto Lino e Cotone. Giacca sfoderata, spalle naturali. Tasche applicate."
-    },
-    "atelier_sweatshirt": {
-      "name": "Felpa 'L'Artista' in Cotone Loopback",
-      "description": "Il comfort elevato a forma d'arte. Realizzata in cotone loopback giapponese (French Terry), questa felpa ha una vestibilità leggermente oversize e cuciture piatte per un comfort assoluto.",
-      "details": "Cotone loopback giapponese (French Terry). Cuciture piatte. Bordi a costine robusti."
-    },
-    "verite_bomber": {
-      "name": "Bomber 'Aviatore' in Camoscio di Capra",
-      "description": "Un lusso tattile. Questo bomber è realizzato in vellutato camoscio di capra, offrendo un'alternativa sofisticata alla classica pelle. Fodera in seta.",
-      "details": "Camoscio di capra. Cerniera Riri a due vie. Bordi a costine in lana e cashmere."
-    },
-    "elan_polo": {
-      "name": "Polo 'Lo Sportivo' in Piqué di Cotone Sea Island",
-      "description": "La polo, perfezionata. Lavorata a maglia con il rarissimo cotone Sea Island, questa polo offre una morbidezza e una lucentezza setosa ineguagliabili. Colletto e abbottonatura a costine.",
-      "details": "100% Cotone Sea Island. Abbottonatura a due bottoni in madreperla. Spacchetti laterali."
-    },
-    "nuage_hoodie": {
-      "name": "Felpa con Cappuccio 'Bozzolo' in Cashmere Double-Face",
-      "description": "Il culmine del loungewear di lusso. Questa felpa con cappuccio è lavorata a maglia in puro cashmere double-face, offrendo una morbidezza tanto squisita all'interno quanto all'esterno.",
-      "details": "100% Cashmere double-face. Cappuccio foderato. Coulisse con puntali in metallo."
-    },
-    "business_suit": {
-      "name": "Abito 'Business' in Lana Fresco",
-      "description": "L'abito da viaggio per eccellenza. La lana Fresco a trama aperta è naturalmente resistente alle pieghe e traspirante, ideale per rimanere impeccabili tutto il giorno.",
-      "details": "Lana Fresco ad alta torsione. Costruzione a mezza tela. Fodera parziale per la traspirabilità."
-    },
-    "expedition_parka": {
-      "name": "Parka 'Artico' in Ventile e Piumino",
-      "description": "La massima protezione contro gli elementi. Guscio esterno in cotone Ventile®, un materiale naturale impermeabile, e generosa imbottitura in piumino d'oca da 850 fill power.",
-      "details": "Cotone Ventile® impermeabile. Piumino d'oca da 850 Fill Power. Cappuccio bordato di pelliccia di coyote rimovibile (di origine etica)."
-    },
-    "metro_jumpsuit": {
-      "name": "Tuta 'Urbana' in Tela di Lana",
-      "description": "Una dichiarazione di stile moderno. Questa tuta di ispirazione workwear è tagliata in una morbida tela di lana per un look che è sia chic che casual.",
-      "details": "Tela di lana leggera. Chiusura con zip nascosta. Cintura abbinata. Molteplici tasche funzionali."
-    },
     "gucci_silk_dress": {
       "name": "Abito di seta con stampa a nastro Gucci",
       "description": "Abito midi in seta multicolore con stampa a nastro, maniche lunghe a sbuffo, colletto con fiocco e chiusura a bottoni sul retro. Tessuto 100% seta, taglio fluido e femminile.",
@@ -740,7 +615,7 @@
     },
     "reflet_jewelry_set": {
       "name": "Parure 'Goccia di Rugiada' in Topazio",
-      "description": "Un set di collana e orecchini di una finezza assoluta, che mette in risalto topazi blu taglio a pera su una montatura in oro bianco.",
+      "description": "Un set di collana e orecchini di una finezza assoluta, che mette in risalto topazi blu taglio a pera su una montura in oro bianco.",
       "details": "Oro bianco 18 carati. Topazi blu 'Swiss Blue'. Catena Forçat."
     },
     "anchor_bracelet": {
@@ -877,6 +752,156 @@
       "name": "Sneakers 'Il Minimalista' in Pelle",
       "description": "La sneaker di lusso pulita. Realizzata in Italia in liscia pelle di vitello, la sua silhouette minimalista si abbina a qualsiasi outfit, da un abito a un jeans.",
       "details": "Pelle di vitello italiana. Fodera interamente in pelle. Suola in gomma cucita."
+    },
+    "tom_ford_slim_fit_shirt": {
+      "name": "Camicia slim fit di Tom Ford",
+      "description": "Camicia in popeline di cotone, vestibilità slim, collo italiano, bottoni in madreperla, finitura di lusso.",
+      "details": "Popeline di cotone 100%. Vestibilità slim. Collo italiano."
+    },
+    "ralph_lauren_pique_polo": {
+      "name": "Polo in piqué di Ralph Lauren Purple Label",
+      "description": "Morbida polo in cotone premium, taglio moderno, logo ricamato, colletto rinforzato.",
+      "details": "Cotone premium. Taglio moderno. Logo ricamato."
+    },
+    "loro_piana_cashmere_turtleneck": {
+      "name": "Dolcevita in cashmere di Loro Piana",
+      "description": "100% cashmere italiano, maglia fine, ultra morbido, taglio raffinato.",
+      "details": "100% cashmere italiano. Maglia fine. Prodotto in Italia."
+    },
+    "hugo_boss_round_neck_tshirt": {
+      "name": "T-shirt girocollo di Hugo Boss Black",
+      "description": "T-shirt premium, cotone mercerizzato, logo discreto, vestibilità slim.",
+      "details": "Cotone mercerizzato. Logo discreto. Vestibilità slim."
+    },
+    "burberry_stretch_chino_pants": {
+      "name": "Pantaloni chino elasticizzati di Burberry",
+      "description": "Chino in cotone elasticizzato, taglio moderno, discreto motivo a quadri all'interno.",
+      "details": "Cotone elasticizzato. Taglio moderno. Discreto motivo a quadri."
+    },
+    "diesel_slim_fit_jeans": {
+      "name": "Jeans slim fit di Diesel Black Gold",
+      "description": "Jeans elasticizzati, lavaggio premium, dettagli metallici firmati.",
+      "details": "Denim elasticizzato. Lavaggio premium. Dettagli firmati."
+    },
+    "moncler_nylon_bomber": {
+      "name": "Bomber in nylon di Moncler",
+      "description": "Giacca leggera imbottita, taglio moderno, logo sulla manica.",
+      "details": "Nylon. Imbottitura leggera. Logo sulla manica."
+    },
+    "saint_laurent_leather_jacket_men": {
+      "name": "Giacca in pelle di Saint Laurent",
+      "description": "Pelle di agnello ultra morbida, taglio rock, zip YSL argentata.",
+      "details": "Pelle di agnello ultra morbida. Taglio rock. Zip YSL."
+    },
+    "giorgio_armani_suit_jacket": {
+      "name": "Giacca da abito di Giorgio Armani",
+      "description": "Giacca in lana vergine, taglio sofisticato, fodera in seta.",
+      "details": "Lana vergine. Taglio sofisticato. Fodera in seta."
+    },
+    "zegna_2_piece_suit": {
+      "name": "Abito 2 pezzi di Zegna",
+      "description": "Lana merino italiana, vestibilità slim, spalla naturale.",
+      "details": "Lana merino italiana. Vestibilità slim. Spalla naturale."
+    },
+    "off_white_hoodie": {
+      "name": "Felpa con cappuccio di Off-White",
+      "description": "Cotone pesante, motivi a freccia sulla schiena, stampa firmata.",
+      "details": "Cotone pesante. Motivi a freccia. Stampa firmata."
+    },
+    "fear_of_god_essential_tshirt": {
+      "name": "T-shirt “Essential” di Fear of God Essentials",
+      "description": "Cotone premium, logo in rilievo, taglio oversize.",
+      "details": "Cotone premium. Logo in rilievo. Taglio oversize."
+    },
+    "lacoste_merino_wool_sweater": {
+      "name": "Maglione in lana merino di Lacoste",
+      "description": "Maglia fine, girocollo, coccodrillo ricamato, taglio classico.",
+      "details": "Lana merino fine. Girocollo. Taglio classico."
+    },
+    "balenciaga_oversize_shirt": {
+      "name": "Camicia oversize di Balenciaga",
+      "description": "Cotone pesante, silhouette ampia, marchio discreto.",
+      "details": "Cotone pesante. Silhouette ampia. Marchio discreto."
+    },
+    "acne_studios_flannel_overshirt": {
+      "name": "Sovracamicia in flanella di Acne Studios",
+      "description": "Flanella morbida, taglio rilassato, tasche sul petto.",
+      "details": "Flanella morbida. Taglio rilassato. Tasche sul petto."
+    },
+    "stone_island_cargo_shorts": {
+      "name": "Pantaloncini cargo di Stone Island",
+      "description": "Tessuto resistente, stemma Stone Island, taglio utility.",
+      "details": "Tessuto resistente. Stemma Stone Island. Taglio utility."
+    },
+    "canada_goose_lightweight_down_jacket": {
+      "name": "Piumino leggero di Canada Goose",
+      "description": "Isolamento termico, tessuto antivento, design pulito.",
+      "details": "Isolamento termico. Tessuto antivento. Design pulito."
+    },
+    "the_north_face_expedition_parka": {
+      "name": "Parka “Expedition” di The North Face Black Series",
+      "description": "Resistente, impermeabile, multitasche, cappuccio regolabile.",
+      "details": "Resistente. Impermeabile. Multitasche."
+    },
+    "brunello_cucinelli_cashmere_zip_cardigan": {
+      "name": "Cardigan con zip in cashmere di Brunello Cucinelli",
+      "description": "Cashmere extrafine, zip in metallo, taglio elegante.",
+      "details": "Cashmere extrafine. Zip in metallo. Taglio elegante."
+    },
+    "max_mara_long_wool_coat": {
+      "name": "Cappotto lungo in lana di Max Mara Homme",
+      "description": "Lana calda, taglio lungo, cintura opzionale.",
+      "details": "Lana calda. Taglio lungo. Cintura opzionale."
+    },
+    "levis_denim_jacket": {
+      "name": "Giacca di jeans di Levi's Made & Crafted",
+      "description": "Denim premium, taglio classico, finitura artigianale.",
+      "details": "Denim premium. Taglio classico. Finitura artigianale."
+    },
+    "dior_homme_tailored_pants": {
+      "name": "Pantaloni sartoriali di Dior Homme",
+      "description": "Taglio affusolato elegante, lana fine, look sartoriale.",
+      "details": "Lana fine. Taglio affusolato elegante. Look sartoriale."
+    },
+    "versace_silk_shirt": {
+      "name": "Camicia in seta di Versace",
+      "description": "Seta stampata, motivi barocchi, collo italiano.",
+      "details": "Seta stampata. Motivi barocchi. Collo italiano."
+    },
+    "palm_angels_printed_hoodie": {
+      "name": "Felpa con cappuccio stampata di Palm Angels",
+      "description": "Cotone pesante, motivo a palma, taglio oversize.",
+      "details": "Cotone pesante. Motivo a palma. Taglio oversize."
+    },
+    "barbour_quilted_jacket": {
+      "name": "Giacca trapuntata di Barbour International",
+      "description": "Trapuntatura a rombi, taglio classico, colletto in velluto.",
+      "details": "Trapuntatura a rombi. Taglio classico. Colletto in velluto."
+    },
+    "paul_smith_cable_knit_sweater": {
+      "name": "Maglione a trecce di Paul Smith",
+      "description": "Lana morbida, motivo a trecce, finitura a contrasto.",
+      "details": "Lana morbida. Motivo a trecce. Finitura a contrasto."
+    },
+    "givenchy_logo_tshirt": {
+      "name": "T-shirt con logo di Givenchy",
+      "description": "Logo ricamato, cotone premium, taglio dritto.",
+      "details": "Logo ricamato. Cotone premium. Taglio dritto."
+    },
+    "adidas_gucci_luxury_tracksuit": {
+      "name": "Tuta di lusso di Adidas x Gucci",
+      "description": "Poliestere premium, strisce Gucci, taglio retrò.",
+      "details": "Poliestere premium. Strisce Gucci. Taglio retrò."
+    },
+    "nike_acg_technical_jacket": {
+      "name": "Giacca tecnica di Nike ACG",
+      "description": "Impermeabile, ventilata, taglio outdoor moderno.",
+      "details": "Impermeabile. Ventilata. Taglio outdoor moderno."
+    },
+    "prada_sleeveless_gilet": {
+      "name": "Gilet senza maniche di Prada",
+      "description": "Nylon Prada, taglio minimalista, logo triangolare.",
+      "details": "Nylon Prada. Taglio minimalista. Logo triangolare."
     }
   }
 }

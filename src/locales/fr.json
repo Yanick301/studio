@@ -423,131 +423,6 @@
     "colors": "Couleurs"
   },
   "products": {
-    "monarque_blazer": {
-      "name": "Blazer Croisé 'Le Monarque'",
-      "description": "Pièce maîtresse de l'élégance masculine. Confectionné dans une laine vierge italienne, sa coupe croisée et structurée offre une allure affirmée et sophistiquée.",
-      "details": "Laine vierge Super 120s d'Italie. Doublure en cupro respirant. Boutons en corne véritable. Nettoyage à sec uniquement."
-    },
-    "aquila_suit": {
-      "name": "Costume 'Héritage' en Laine et Soie",
-      "description": "Un costume d'exception pour les grandes occasions. Le mélange de laine et de soie confère à ce trois-pièces un tombé parfait et un lustre subtil, signature d'un luxe discret.",
-      "details": "Mélange 85% laine, 15% soie. Ensemble comprenant veste, gilet et pantalon. Finitions entièrement réalisées à la main par nos maîtres tailleurs."
-    },
-    "pur_shirt": {
-      "name": "Chemise 'L'Essentielle' en Coton Pima",
-      "description": "La chemise blanche, réinventée. Tissée dans un coton Pima péruvien d'une douceur exceptionnelle, elle présente un col français et des hirondelles de renfort pour une durabilité accrue.",
-      "details": "100% Coton Pima du Pérou. Col français, poignets mousquetaires. Boutons en nacre d'Australie. Coupe ajustée."
-    },
-    "nord_coat": {
-      "name": "Manteau 'Stockholm' en Cachemire",
-      "description": "L'élégance scandinave à son paroxysme. Ce manteau long à la coupe minimaliste en pur cachemire vous enveloppe de chaleur et de douceur. Un investissement pour la vie.",
-      "details": "100% Cachemire de Mongolie. Non doublé pour une légèreté incomparable. Col à revers cranté et poches passepoilées."
-    },
-    "soir_blazer": {
-      "name": "Veste de Smoking 'Nocturne'",
-      "description": "L'élégance du soir. Une veste de smoking en velours de soie avec un col châle en satin. La pièce maîtresse de votre garde-robe formelle.",
-      "details": "Velours de soie et satin. Col châle. Un bouton recouvert de satin. Doublure en jacquard."
-    },
-    "silence_turtleneck": {
-      "name": "Col Roulé 'Silence' en Cachemire et Soie",
-      "description": "Une caresse sur la peau. Ce col roulé, tricoté dans un mélange ultraléger de cachemire et de soie, est d'un confort absolu et d'une polyvalence sans faille.",
-      "details": "70% Cachemire, 30% Soie. Tricot jauge fine. Bords-côtes aux poignets et à la taille."
-    },
-    "cache_chino": {
-      "name": "Chino 'Le Flâneur' en Gabardine de Coton",
-      "description": "L'alternative décontractée au pantalon de costume. Notre chino est coupé dans une gabardine de coton stretch pour un confort optimal, avec une coupe ajustée et des finitions tailleur.",
-      "details": "Gabardine de coton stretch. Fermeture à agrafe et zip. Poches italiennes. Coupe ajustée."
-    },
-    "forge_jeans": {
-      "name": "Jean Droit 'Le Brut' en Selvedge Japonais",
-      "description": "L'authenticité d'un vrai jean. Taillé dans une toile selvedge japonaise de 14.5oz, ce jean brut se patinera avec le temps pour devenir une pièce unique, la vôtre.",
-      "details": "Denim selvedge japonais 14.5oz. Coupe droite classique. Braguette à boutons. Ourlets réalisés en point de chaînette."
-    },
-    "atlas_parka": {
-      "name": "Parka 'Explorateur' Technique",
-      "description": "La performance avec style. Cette parka est fabriquée dans un tissu technique japonais triple couche, imperméable et respirant. Coutures thermosoudées.",
-      "details": "Tissu technique japonais triple couche. Coutures thermosoudées. Capuche amovible. Multiples poches sécurisées."
-    },
-    "cuiron_jacket": {
-      "name": "Veste 'Rebelle' en Cuir d'Agneau Plongé",
-      "description": "Une icône réinventée. Ce blouson de motard est taillé dans un cuir d'agneau plongé d'une souplesse exceptionnelle qui se patinera superbement avec le temps.",
-      "details": "Cuir d'agneau plongé. Zips Riri et détails en palladium. Doublure en satin matelassé."
-    },
-    "pluie_royale_trench": {
-      "name": "Trench-coat 'Westminster'",
-      "description": "Un classique indémodable. Notre trench est confectionné dans une gabardine de coton imperméable, avec tous les détails traditionnels : bavolets, ceinture et pattes d'épaule.",
-      "details": "Gabardine de coton déperlante. Doublure à carreaux signature. Boutons en corne. Coupe classique."
-    },
-    "breeze_vest": {
-      "name": "Gilet Matelassé 'Zéphyr'",
-      "description": "La pièce de mi-saison idéale. Ultra-léger, ce gilet sans manches est garni d'un duvet d'oie de haute qualité pour une chaleur ciblée sans volume.",
-      "details": "Tissu micro-ripstop japonais. Garnissage en duvet d'oie 90/10. Se replie dans sa propre poche."
-    },
-    "azur_shirt": {
-      "name": "Chemise 'Riviera' en Lin Irlandais",
-      "description": "L'élégance estivale par excellence. Tissée dans le meilleur lin irlandais, cette chemise offre une fraîcheur et une texture uniques, qui s'embellissent à chaque lavage.",
-      "details": "100% Lin irlandais. Coupe décontractée. Boutons en nacre. Lavé pour une douceur supplémentaire."
-    },
-    "nocturne_tuxedo": {
-      "name": "Smoking 'Grand Soir' en Barathea",
-      "description": "Pour les moments inoubliables. Ce smoking est coupé dans une laine barathea traditionnelle avec un revers en satin de soie. La quintessence de l'élégance formelle.",
-      "details": "Laine barathea. Revers et passepoils en satin de soie. Pantalon avec bande de satin latérale."
-    },
-    "rivage_shorts": {
-      "name": "Bermuda 'Capri' en Toile de Lin",
-      "description": "Le chic décontracté pour l'été. Ce bermuda à pinces est taillé dans un mélange de lin et viscose pour un tombé impeccable et une résistance au froissage.",
-      "details": "Mélange lin et viscose. Taille haute avec pinces. Fermeture à agrafe et zip."
-    },
-    "heritage_cardigan": {
-      "name": "Cardigan 'Clubhouse' en Laine Mérinos",
-      "description": "Une pièce polyvalente, entre formel et décontracté. Ce cardigan à col châle est tricoté dans une laine mérinos extra-fine, avec des boutons en cuir tressé.",
-      "details": "100% Laine Mérinos extra-fine. Col châle. Poches plaquées. Boutons en cuir tressé."
-    },
-    "folio_shirt": {
-      "name": "Chemise 'Jardin d'Hiver' en Viscose",
-      "description": "Une touche d'audace. Cette chemise à manches courtes présente un imprimé floral exclusif sur une viscose fluide et légère, parfaite pour les beaux jours.",
-      "details": "100% Viscose fluide. Imprimé exclusif. Col cubain. Coupe droite."
-    },
-    "ete_palais_suit": {
-      "name": "Costume d'Été 'Sprezzatura' en Lin et Coton",
-      "description": "L'élégance estivale à l'italienne. La structure déconstruite et le mélange lin-coton rendent ce costume incroyablement léger et respirant, sans sacrifier le style.",
-      "details": "Mélange Lin et Coton. Veste non doublée, épaules naturelles. Poches plaquées."
-    },
-    "atelier_sweatshirt": {
-      "name": "Sweat-shirt 'L'Artiste' en Coton Loopback",
-      "description": "Le confort élevé au rang d'art. Fabriqué en coton loopback japonais (French Terry), ce sweat-shirt présente une coupe légèrement oversize et des coutures plates pour un confort absolu.",
-      "details": "Coton loopback japonais (French Terry). Coutures plates. Bords-côtes robustes."
-    },
-    "verite_bomber": {
-      "name": "Bomber 'Aviateur' en Daim de Chèvre",
-      "description": "Un luxe tactile. Ce bomber est confectionné dans un daim de chèvre velouté, offrant une alternative sophistiquée au cuir classique. Doublure en soie.",
-      "details": "Daim de chèvre. Fermeture éclair Riri à double sens. Bords-côtes en laine et cachemire."
-    },
-    "elan_polo": {
-      "name": "Polo 'Le Sportif' en Piqué de Coton Sea Island",
-      "description": "Le polo, perfectionné. Tricoté dans le très rare coton Sea Island, ce polo offre une douceur et une brillance soyeuse inégalées. Col et patte de boutonnage côtelés.",
-      "details": "100% Coton Sea Island. Patte à deux boutons en nacre. Fentes latérales."
-    },
-    "nuage_hoodie": {
-      "name": "Hoodie 'Cocon' en Cachemire Double-Face",
-      "description": "Le summum du loungewear de luxe. Ce hoodie est tricoté en pur cachemire double face, offrant une douceur aussi exquise à l'intérieur qu'à l'extérieur.",
-      "details": "100% Cachemire double face. Capuche doublée. Cordon de serrage avec embouts en métal."
-    },
-    "business_suit": {
-      "name": "Costume 'Affaires' en Laine Fresco",
-      "description": "Le costume du voyageur par excellence. La laine Fresco à tissage aéré est naturellement infroissable et respirante, idéale pour rester impeccable toute la journée.",
-      "details": "Laine Fresco haute torsion. Construction semi-entoilée. Doublure partielle pour la respirabilité."
-    },
-    "expedition_parka": {
-      "name": "Parka 'Arctique' en Ventile et Duvet",
-      "description": "La protection ultime contre les éléments. Extérieur en coton Ventile®, une matière naturelle imperméable, et garnissage généreux en duvet d'oie 850 cuin.",
-      "details": "Coton Ventile® imperméable. Garnissage en duvet d'oie 850 Fill Power. Capuche bordée de fourrure de coyote amovible (source éthique)."
-    },
-    "metro_jumpsuit": {
-      "name": "Combinaison 'Urbaine' en Toile de Laine",
-      "description": "Une déclaration de style moderne. Cette combinaison-pantalon d'inspiration workwear est taillée dans une toile de laine souple pour un look à la fois chic et décontracté.",
-      "details": "Toile de laine légère. Fermeture éclair dissimulée. Ceinture assortie. Multiples poches fonctionnelles."
-    },
     "gucci_silk_dress": {
       "name": "Robe soie imprimée – Gucci",
       "description": "Robe midi en soie multicolore avec imprimé ruban, manches bouffantes longues, col avec nœud à nouer, fermeture par boutons dans le dos. Tissu 100 % soie, coupe fluide et féminine.",
@@ -877,6 +752,156 @@
       "name": "Baskets 'Le Minimaliste' en Cuir",
       "description": "La sneaker de luxe épurée. Confectionnée en Italie à partir d'un cuir de veau lisse, sa silhouette minimaliste s'accorde avec toutes les tenues, du costume au jean.",
       "details": "Cuir de veau italien. Doublure intégrale en cuir. Semelle en gomme cousue."
+    },
+    "tom_ford_slim_fit_shirt": {
+      "name": "Chemise Slim Fit – Tom Ford",
+      "description": "Chemise en popeline de coton, coupe ajustée, col italien, boutons nacrés, finition luxe.",
+      "details": "100% popeline de coton. Coupe ajustée. Col italien."
+    },
+    "ralph_lauren_pique_polo": {
+      "name": "Polo piqué – Ralph Lauren Purple Label",
+      "description": "Polo doux en coton premium, coupe moderne, logo brodé, col renforcé.",
+      "details": "Coton premium. Coupe moderne. Logo brodé."
+    },
+    "loro_piana_cashmere_turtleneck": {
+      "name": "Pull col roulé en cachemire – Loro Piana",
+      "description": "100% cachemire italien, maille fine, ultra doux, coupe raffinée.",
+      "details": "100% cachemire italien. Maille fine. Fait en Italie."
+    },
+    "hugo_boss_round_neck_tshirt": {
+      "name": "T-shirt col rond – Hugo Boss Black",
+      "description": "T-shirt premium, coton mercerisé, logo discret, coupe slim.",
+      "details": "Coton mercerisé. Logo discret. Coupe slim."
+    },
+    "burberry_stretch_chino_pants": {
+      "name": "Pantalon chino stretch – Burberry",
+      "description": "Chino en coton élastique, coupe moderne, motif check discret intérieur.",
+      "details": "Coton élastique. Coupe moderne. Motif check discret."
+    },
+    "diesel_slim_fit_jeans": {
+      "name": "Jean coupe ajustée – Diesel Black Gold",
+      "description": "Jean stretch, délavage premium, détails métalliques signature.",
+      "details": "Denim stretch. Délavage premium. Détails signature."
+    },
+    "moncler_nylon_bomber": {
+      "name": "Bomber en nylon – Moncler",
+      "description": "Blouson léger, rembourré, coupe moderne, logo sur la manche.",
+      "details": "Nylon. Rembourrage léger. Logo sur la manche."
+    },
+    "saint_laurent_leather_jacket_men": {
+      "name": "Blouson en cuir – Saint Laurent",
+      "description": "Cuir d’agneau ultra souple, coupe rock, zip argenté YSL.",
+      "details": "Cuir d’agneau ultra souple. Coupe rock. Zip YSL."
+    },
+    "giorgio_armani_suit_jacket": {
+      "name": "Veste de costume – Giorgio Armani",
+      "description": "Veste en laine vierge, coupe sophistiquée, doublure soie.",
+      "details": "Laine vierge. Coupe sophistiquée. Doublure soie."
+    },
+    "zegna_2_piece_suit": {
+      "name": "Costume 2 pièces – Zegna",
+      "description": "Laine mérinos italienne, coupe slim, épaule naturelle.",
+      "details": "Laine mérinos italienne. Coupe slim. Épaule naturelle."
+    },
+    "off_white_hoodie": {
+      "name": "Sweat à capuche – Off-White",
+      "description": "Coton épais, motifs flèches au dos, imprimé signature.",
+      "details": "Coton épais. Motifs flèches. Imprimé signature."
+    },
+    "fear_of_god_essential_tshirt": {
+      "name": "T-shirt “Essential” – Fear of God Essentials",
+      "description": "Coton premium, logo embossé, coupe oversized.",
+      "details": "Coton premium. Logo embossé. Coupe oversized."
+    },
+    "lacoste_merino_wool_sweater": {
+      "name": "Pull en laine mérinos – Lacoste",
+      "description": "Maille fine, col rond, crocodile brodé, coupe classique.",
+      "details": "Laine mérinos fine. Col rond. Coupe classique."
+    },
+    "balenciaga_oversize_shirt": {
+      "name": "Chemise oversize – Balenciaga",
+      "description": "Coton épais, silhouette large, branding discret.",
+      "details": "Coton épais. Silhouette large. Branding discret."
+    },
+    "acne_studios_flannel_overshirt": {
+      "name": "Surchemise en flanelle – Acne Studios",
+      "description": "Flanelle douce, coupe décontractée, poches poitrine.",
+      "details": "Flanelle douce. Coupe décontractée. Poches poitrine."
+    },
+    "stone_island_cargo_shorts": {
+      "name": "Short cargo – Stone Island",
+      "description": "Tissu résistant, badge Stone Island, coupe utilitaire.",
+      "details": "Tissu résistant. Badge Stone Island. Coupe utilitaire."
+    },
+    "canada_goose_lightweight_down_jacket": {
+      "name": "Doudoune légère – Canada Goose",
+      "description": "Isolation thermique, tissu coupe-vent, design épuré.",
+      "details": "Isolation thermique. Tissu coupe-vent. Design épuré."
+    },
+    "the_north_face_expedition_parka": {
+      "name": "Parka “Expedition” – The North Face Black Series",
+      "description": "Résistante, imperméable, multi-poches, capuche ajustable.",
+      "details": "Résistante. Imperméable. Multi-poches."
+    },
+    "brunello_cucinelli_cashmere_zip_cardigan": {
+      "name": "Cardigan zippé cachemire – Brunello Cucinelli",
+      "description": "Cachemire extra-fin, zip métal, coupe élégante.",
+      "details": "Cachemire extra-fin. Zip métal. Coupe élégante."
+    },
+    "max_mara_long_wool_coat": {
+      "name": "Manteau long en laine – Max Mara Homme",
+      "description": "Laine chaude, coupe longue, ceinture optionnelle.",
+      "details": "Laine chaude. Coupe longue. Ceinture optionnelle."
+    },
+    "levis_denim_jacket": {
+      "name": "Veste en denim – Levi’s Made & Crafted",
+      "description": "Denim premium, coupe classique, finition artisanale.",
+      "details": "Denim premium. Coupe classique. Finition artisanale."
+    },
+    "dior_homme_tailored_pants": {
+      "name": "Pantalon tailleur – Dior Homme",
+      "description": "Coupe fuseau élégante, laine fine, look couture.",
+      "details": "Laine fine. Coupe fuseau élégante. Look couture."
+    },
+    "versace_silk_shirt": {
+      "name": "Chemise en soie – Versace",
+      "description": "Soie imprimée, motifs baroques, col italien.",
+      "details": "Soie imprimée. Motifs baroques. Col italien."
+    },
+    "palm_angels_printed_hoodie": {
+      "name": "Hoodie imprimé – Palm Angels",
+      "description": "Coton épais, motif palmier, coupe oversized.",
+      "details": "Coton épais. Motif palmier. Coupe oversized."
+    },
+    "barbour_quilted_jacket": {
+      "name": "Veste matelassée – Barbour International",
+      "description": "Matelassage diamant, coupe classique, col velours.",
+      "details": "Matelassage diamant. Coupe classique. Col velours."
+    },
+    "paul_smith_cable_knit_sweater": {
+      "name": "Pull torsadé – Paul Smith",
+      "description": "Laine douce, motif torsadé, finition contrastée.",
+      "details": "Laine douce. Motif torsadé. Finition contrastée."
+    },
+    "givenchy_logo_tshirt": {
+      "name": "T-shirt logo – Givenchy",
+      "description": "Logo brodé, coton premium, coupe droite.",
+      "details": "Logo brodé. Coton premium. Coupe droite."
+    },
+    "adidas_gucci_luxury_tracksuit": {
+      "name": "Survêtement luxe – Adidas x Gucci",
+      "description": "Polyester premium, bandes Gucci, coupe rétro.",
+      "details": "Polyester premium. Bandes Gucci. Coupe rétro."
+    },
+    "nike_acg_technical_jacket": {
+      "name": "Veste technique – Nike ACG",
+      "description": "Imperméable, ventilé, coupe outdoor moderne.",
+      "details": "Imperméable. Ventilé. Coupe outdoor moderne."
+    },
+    "prada_sleeveless_gilet": {
+      "name": "Gilet sans manches – Prada",
+      "description": "Nylon Prada, coupe minimaliste, logo triangle.",
+      "details": "Nylon Prada. Coupe minimaliste. Logo triangle."
     }
   }
 }

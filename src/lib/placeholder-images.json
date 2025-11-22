@@ -1,653 +1,6 @@
 {
   "placeholderImages": [
     {
-      "id": "m-1",
-      "name": "products.monarque_blazer.name",
-      "slug": "veste-croisee-laine-vierge-monarque",
-      "description": "products.monarque_blazer.description",
-      "price": 1250,
-      "imageUrl": "/product-images/clothing/veste-croisee-laine-vierge-monarque.jpg",
-      "imageHint": "men wool blazer",
-      "width": 800,
-      "height": 1200,
-      "category": "clothing",
-      "gender": "men",
-      "isTrending": true,
-      "stock": 10,
-      "details": "products.monarque_blazer.details",
-      "tags": [
-        "winter"
-      ],
-      "options": {
-        "sizes": [
-          "46",
-          "48",
-          "50",
-          "52",
-          "54"
-        ],
-        "colors": [
-          "#2F3A4C",
-          "#5A4D41",
-          "#1E1E1E"
-        ]
-      }
-    },
-    {
-      "id": "m-2",
-      "name": "products.aquila_suit.name",
-      "slug": "costume-3-pieces-cachemire-aquila",
-      "description": "products.aquila_suit.description",
-      "price": 2900,
-      "imageUrl": "/product-images/clothing/costume-3-pieces-cachemire-aquila.jpg",
-      "imageHint": "men cashmere suit",
-      "width": 800,
-      "height": 1200,
-      "category": "clothing",
-      "gender": "men",
-      "isTrending": false,
-      "stock": 5,
-      "details": "products.aquila_suit.details",
-      "options": {
-        "sizes": [
-          "46",
-          "48",
-          "50",
-          "52",
-          "54"
-        ]
-      }
-    },
-    {
-      "id": "m-3",
-      "name": "products.pur_shirt.name",
-      "slug": "chemise-oxford-coton-egyptien-pur",
-      "description": "products.pur_shirt.description",
-      "price": 220,
-      "imageUrl": "/product-images/clothing/chemise-oxford-coton-egyptien-pur.jpg",
-      "imageHint": "men oxford shirt",
-      "width": 800,
-      "height": 1200,
-      "category": "clothing",
-      "gender": "men",
-      "isTrending": false,
-      "stock": 20,
-      "details": "products.pur_shirt.details",
-      "options": {
-        "sizes": [
-          "S",
-          "M",
-          "L",
-          "XL"
-        ],
-        "colors": [
-          "#FFFFFF",
-          "#D6EAF8",
-          "#FADADD"
-        ]
-      }
-    },
-    {
-      "id": "m-4",
-      "name": "products.nord_coat.name",
-      "slug": "manteau-long-cachemire-melange-nord",
-      "description": "products.nord_coat.description",
-      "price": 1800,
-      "imageUrl": "/product-images/clothing/manteau-long-cachemire-melange-nord.jpg",
-      "imageHint": "men cashmere coat",
-      "width": 800,
-      "height": 1200,
-      "category": "clothing",
-      "gender": "men",
-      "isTrending": true,
-      "stock": 8,
-      "details": "products.nord_coat.details",
-      "tags": [
-        "winter"
-      ],
-      "options": {
-        "sizes": [
-          "S",
-          "M",
-          "L",
-          "XL"
-        ],
-        "colors": [
-          "#343A40",
-          "#A1887F",
-          "#6C757D"
-        ]
-      }
-    },
-    {
-      "id": "m-5",
-      "name": "products.soir_blazer.name",
-      "slug": "blazer-velours-cotele-soir",
-      "description": "products.soir_blazer.description",
-      "price": 750,
-      "imageUrl": "/product-images/clothing/blazer-velours-cotele-soir.jpg",
-      "imageHint": "men velvet blazer",
-      "width": 800,
-      "height": 1200,
-      "category": "clothing",
-      "gender": "men",
-      "isTrending": false,
-      "stock": 10,
-      "details": "products.soir_blazer.details",
-      "tags": [
-        "winter"
-      ],
-      "options": {
-        "sizes": [
-          "46",
-          "48",
-          "50",
-          "52"
-        ]
-      }
-    },
-    {
-      "id": "m-6",
-      "name": "products.silence_turtleneck.name",
-      "slug": "pull-col-roule-merinos-silence",
-      "description": "products.silence_turtleneck.description",
-      "price": 240,
-      "imageUrl": "/product-images/clothing/pull-col-roule-merinos-silence.jpg",
-      "imageHint": "men merino turtleneck",
-      "width": 800,
-      "height": 1200,
-      "category": "clothing",
-      "gender": "men",
-      "isTrending": false,
-      "stock": 15,
-      "details": "products.silence_turtleneck.details",
-      "tags": [
-        "winter"
-      ],
-      "options": {
-        "sizes": [
-          "S",
-          "M",
-          "L",
-          "XL"
-        ]
-      }
-    },
-    {
-      "id": "m-7",
-      "name": "products.cache_chino.name",
-      "slug": "pantalon-chino-tailoring-cache",
-      "description": "products.cache_chino.description",
-      "price": 280,
-      "imageUrl": "/product-images/clothing/pantalon-chino-tailoring-cache.jpg",
-      "imageHint": "men chino pants",
-      "width": 800,
-      "height": 1200,
-      "category": "clothing",
-      "gender": "men",
-      "isTrending": false,
-      "stock": 18,
-      "details": "products.cache_chino.details",
-      "options": {
-        "sizes": [
-          "30",
-          "32",
-          "34",
-          "36"
-        ]
-      }
-    },
-    {
-      "id": "m-8",
-      "name": "products.forge_jeans.name",
-      "slug": "jeans-brut-selvedge-forge",
-      "description": "products.forge_jeans.description",
-      "price": 350,
-      "imageUrl": "/product-images/clothing/jeans-brut-selvedge-forge.jpg",
-      "imageHint": "men selvedge jeans",
-      "width": 800,
-      "height": 1200,
-      "category": "clothing",
-      "gender": "men",
-      "isTrending": false,
-      "stock": 12,
-      "details": "products.forge_jeans.details",
-      "options": {
-        "sizes": [
-          "30",
-          "31",
-          "32",
-          "33",
-          "34",
-          "36"
-        ]
-      }
-    },
-    {
-      "id": "m-9",
-      "name": "products.atlas_parka.name",
-      "slug": "parka-technique-impermeable-atlas",
-      "description": "products.atlas_parka.description",
-      "price": 890,
-      "imageUrl": "/product-images/clothing/parka-technique-impermeable-atlas.jpg",
-      "imageHint": "men technical parka",
-      "width": 800,
-      "height": 1200,
-      "category": "clothing",
-      "gender": "men",
-      "isTrending": false,
-      "stock": 7,
-      "details": "products.atlas_parka.details",
-      "tags": [
-        "winter"
-      ],
-      "options": {
-        "sizes": [
-          "S",
-          "M",
-          "L",
-          "XL"
-        ]
-      }
-    },
-    {
-      "id": "m-10",
-      "name": "products.cuiron_jacket.name",
-      "slug": "veste-en-cuir-agneau-cuiron",
-      "description": "products.cuiron_jacket.description",
-      "price": 1450,
-      "imageUrl": "/product-images/clothing/veste-en-cuir-agneau-cuiron.jpg",
-      "imageHint": "men leather jacket",
-      "width": 800,
-      "height": 1200,
-      "category": "clothing",
-      "gender": "men",
-      "isTrending": false,
-      "stock": 6,
-      "details": "products.cuiron_jacket.details",
-      "options": {
-        "sizes": [
-          "S",
-          "M",
-          "L",
-          "XL"
-        ]
-      }
-    },
-    {
-      "id": "m-11",
-      "name": "products.pluie_royale_trench.name",
-      "slug": "trench-coat-coton-cire-pluie-royale",
-      "description": "products.pluie_royale_trench.description",
-      "price": 1100,
-      "imageUrl": "/product-images/clothing/trench-coat-coton-cire-pluie-royale.jpg",
-      "imageHint": "men trench coat",
-      "width": 800,
-      "height": 1200,
-      "category": "clothing",
-      "gender": "men",
-      "isTrending": false,
-      "stock": 9,
-      "details": "products.pluie_royale_trench.details",
-      "tags": [
-        "winter"
-      ],
-      "options": {
-        "sizes": [
-          "46",
-          "48",
-          "50",
-          "52"
-        ]
-      }
-    },
-    {
-      "id": "m-12",
-      "name": "products.breeze_vest.name",
-      "slug": "gilet-matelasse-leger-breeze",
-      "description": "products.breeze_vest.description",
-      "price": 320,
-      "imageUrl": "/product-images/clothing/gilet-matelasse-leger-breeze.jpg",
-      "imageHint": "men quilted vest",
-      "width": 800,
-      "height": 1200,
-      "category": "clothing",
-      "gender": "men",
-      "isTrending": true,
-      "stock": 14,
-      "details": "products.breeze_vest.details",
-      "tags": [
-        "winter"
-      ],
-      "options": {
-        "sizes": [
-          "S",
-          "M",
-          "L",
-          "XL"
-        ]
-      }
-    },
-    {
-      "id": "m-13",
-      "name": "products.azur_shirt.name",
-      "slug": "chemise-en-lin-lave-azur",
-      "description": "products.azur_shirt.description",
-      "price": 180,
-      "imageUrl": "/product-images/clothing/chemise-en-lin-lave-azur.jpg",
-      "imageHint": "men linen shirt",
-      "width": 800,
-      "height": 1200,
-      "category": "clothing",
-      "gender": "men",
-      "isTrending": false,
-      "stock": 22,
-      "details": "products.azur_shirt.details",
-      "options": {
-        "sizes": [
-          "S",
-          "M",
-          "L",
-          "XL"
-        ]
-      }
-    },
-    {
-      "id": "m-14",
-      "name": "products.nocturne_tuxedo.name",
-      "slug": "costume-smoking-satin-nocturne",
-      "description": "products.nocturne_tuxedo.description",
-      "price": 2200,
-      "imageUrl": "/product-images/clothing/costume-smoking-satin-nocturne.jpg",
-      "imageHint": "men tuxedo suit",
-      "width": 800,
-      "height": 1200,
-      "category": "clothing",
-      "gender": "men",
-      "isTrending": false,
-      "stock": 4,
-      "details": "products.nocturne_tuxedo.details",
-      "options": {
-        "sizes": [
-          "46",
-          "48",
-          "50",
-          "52"
-        ]
-      }
-    },
-    {
-      "id": "m-15",
-      "name": "products.rivage_shorts.name",
-      "slug": "short-tailoring-laine-legere-rivage",
-      "description": "products.rivage_shorts.description",
-      "price": 250,
-      "imageUrl": "/product-images/clothing/short-tailoring-laine-legere-rivage.jpg",
-      "imageHint": "men tailored shorts",
-      "width": 800,
-      "height": 1200,
-      "category": "clothing",
-      "gender": "men",
-      "isTrending": false,
-      "stock": 15,
-      "details": "products.rivage_shorts.details",
-      "options": {
-        "sizes": [
-          "S",
-          "M",
-          "L"
-        ]
-      }
-    },
-    {
-      "id": "m-16",
-      "name": "products.heritage_cardigan.name",
-      "slug": "cardigan-boutonne-cachemire-heritage",
-      "description": "products.heritage_cardigan.description",
-      "price": 680,
-      "imageUrl": "/product-images/clothing/cardigan-boutonne-cachemire-heritage.jpg",
-      "imageHint": "men cashmere cardigan",
-      "width": 800,
-      "height": 1200,
-      "category": "clothing",
-      "gender": "men",
-      "isTrending": false,
-      "stock": 10,
-      "details": "products.heritage_cardigan.details",
-      "tags": [
-        "winter"
-      ],
-      "options": {
-        "sizes": [
-          "S",
-          "M",
-          "L",
-          "XL"
-        ]
-      }
-    },
-    {
-      "id": "m-17",
-      "name": "products.folio_shirt.name",
-      "slug": "chemise-motif-imprime-luxe-folio",
-      "description": "products.folio_shirt.description",
-      "price": 210,
-      "imageUrl": "/product-images/clothing/chemise-motif-imprime-luxe-folio.jpg",
-      "imageHint": "men printed shirt",
-      "width": 800,
-      "height": 1200,
-      "category": "clothing",
-      "gender": "men",
-      "isTrending": false,
-      "stock": 13,
-      "details": "products.folio_shirt.details",
-      "options": {
-        "sizes": [
-          "S",
-          "M",
-          "L",
-          "XL"
-        ]
-      }
-    },
-    {
-      "id": "m-18",
-      "name": "products.ete_palais_suit.name",
-      "slug": "costume-lin-soie-ete-palais",
-      "description": "products.ete_palais_suit.description",
-      "price": 1950,
-      "imageUrl": "/product-images/clothing/costume-lin-soie-ete-palais.jpg",
-      "imageHint": "men summer suit",
-      "width": 800,
-      "height": 1200,
-      "category": "clothing",
-      "gender": "men",
-      "isTrending": false,
-      "stock": 5,
-      "details": "products.ete_palais_suit.details",
-      "options": {
-        "sizes": [
-          "46",
-          "48",
-          "50",
-          "52"
-        ]
-      }
-    },
-    {
-      "id": "m-19",
-      "name": "products.atelier_sweatshirt.name",
-      "slug": "sweat-shirt-premium-atelier",
-      "description": "products.atelier_sweatshirt.description",
-      "price": 280,
-      "imageUrl": "/product-images/clothing/sweat-shirt-premium-atelier.jpg",
-      "imageHint": "men premium sweatshirt",
-      "width": 800,
-      "height": 1200,
-      "category": "clothing",
-      "gender": "men",
-      "isTrending": false,
-      "stock": 16,
-      "details": "products.atelier_sweatshirt.details",
-      "options": {
-        "sizes": [
-          "S",
-          "M",
-          "L",
-          "XL"
-        ]
-      }
-    },
-    {
-      "id": "m-20",
-      "name": "products.verite_bomber.name",
-      "slug": "bomber-en-satin-verite",
-      "description": "products.verite_bomber.description",
-      "price": 950,
-      "imageUrl": "/product-images/clothing/bomber-en-satin-verite.jpg",
-      "imageHint": "men satin bomber jacket",
-      "width": 800,
-      "height": 1200,
-      "category": "clothing",
-      "gender": "men",
-      "isTrending": false,
-      "stock": 8,
-      "details": "products.verite_bomber.details",
-      "options": {
-        "sizes": [
-          "S",
-          "M",
-          "L",
-          "XL"
-        ]
-      }
-    },
-    {
-      "id": "m-21",
-      "name": "products.elan_polo.name",
-      "slug": "polo-en-pique-de-coton-supima-elan",
-      "description": "products.elan_polo.description",
-      "price": 160,
-      "imageUrl": "/product-images/clothing/polo-en-pique-de-coton-supima-elan.jpg",
-      "imageHint": "men polo shirt",
-      "width": 800,
-      "height": 1200,
-      "category": "clothing",
-      "gender": "men",
-      "isTrending": false,
-      "stock": 25,
-      "details": "products.elan_polo.details",
-      "options": {
-        "sizes": [
-          "S",
-          "M",
-          "L",
-          "XL"
-        ]
-      }
-    },
-    {
-      "id": "m-22",
-      "name": "products.nuage_hoodie.name",
-      "slug": "hoodie-en-cachemire-coton-nuage",
-      "description": "products.nuage_hoodie.description",
-      "price": 480,
-      "imageUrl": "/product-images/clothing/hoodie-en-cachemire-coton-nuage.jpg",
-      "imageHint": "men cashmere hoodie",
-      "width": 800,
-      "height": 1200,
-      "category": "clothing",
-      "gender": "men",
-      "isTrending": true,
-      "stock": 11,
-      "details": "products.nuage_hoodie.details",
-      "tags": [
-        "winter"
-      ],
-      "options": {
-        "sizes": [
-          "S",
-          "M",
-          "L",
-          "XL"
-        ]
-      }
-    },
-    {
-      "id": "m-23",
-      "name": "products.business_suit.name",
-      "slug": "costume-en-laine-tropicale-business",
-      "description": "products.business_suit.description",
-      "price": 1600,
-      "imageUrl": "/product-images/clothing/costume-en-laine-tropicale-business.jpg",
-      "imageHint": "men business suit",
-      "width": 800,
-      "height": 1200,
-      "category": "clothing",
-      "gender": "men",
-      "isTrending": false,
-      "stock": 7,
-      "details": "products.business_suit.details",
-      "options": {
-        "sizes": [
-          "46",
-          "48",
-          "50",
-          "52"
-        ]
-      }
-    },
-    {
-      "id": "m-24",
-      "name": "products.expedition_parka.name",
-      "slug": "parka-fourree-en-duvet-technique-expedition",
-      "description": "products.expedition_parka.description",
-      "price": 760,
-      "imageUrl": "/product-images/clothing/parka-fourree-en-duvet-technique-expedition.jpg",
-      "imageHint": "men expedition parka",
-      "width": 800,
-      "height": 1200,
-      "category": "clothing",
-      "gender": "men",
-      "isTrending": true,
-      "stock": 9,
-      "details": "products.expedition_parka.details",
-      "tags": [
-        "winter"
-      ],
-      "options": {
-        "sizes": [
-          "S",
-          "M",
-          "L",
-          "XL"
-        ]
-      }
-    },
-    {
-      "id": "m-25",
-      "name": "products.metro_jumpsuit.name",
-      "slug": "combinaison-tailleur-casual-metro",
-      "description": "products.metro_jumpsuit.description",
-      "price": 650,
-      "imageUrl": "/product-images/clothing/combinaison-tailleur-casual-metro.jpg",
-      "imageHint": "men tailored jumpsuit",
-      "width": 800,
-      "height": 1200,
-      "category": "clothing",
-      "gender": "men",
-      "isTrending": false,
-      "stock": 5,
-      "details": "products.metro_jumpsuit.details",
-      "options": {
-        "sizes": [
-          "S",
-          "M",
-          "L"
-        ]
-      }
-    },
-    {
       "id": "a-1",
       "name": "products.ezential_bag.name",
       "slug": "sac-porte-epaule-cuir-graine-ezential",
@@ -2040,6 +1393,737 @@
       "options": {
         "sizes": [
           "Unique"
+        ]
+      }
+    },
+    {
+      "id": "m-26",
+      "name": "products.tom_ford_slim_fit_shirt.name",
+      "slug": "chemise-slim-fit-tom-ford",
+      "description": "products.tom_ford_slim_fit_shirt.description",
+      "price": 480,
+      "imageUrl": "/product-images/clothing/chemise-slim-fit-tom-ford.jpg",
+      "imageHint": "men slim fit shirt",
+      "width": 800,
+      "height": 1200,
+      "category": "clothing",
+      "gender": "men",
+      "isTrending": true,
+      "stock": 15,
+      "details": "products.tom_ford_slim_fit_shirt.details",
+      "options": {
+        "sizes": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ]
+      }
+    },
+    {
+      "id": "m-27",
+      "name": "products.ralph_lauren_pique_polo.name",
+      "slug": "polo-pique-ralph-lauren",
+      "description": "products.ralph_lauren_pique_polo.description",
+      "price": 260,
+      "imageUrl": "/product-images/clothing/polo-pique-ralph-lauren.jpg",
+      "imageHint": "men pique polo",
+      "width": 800,
+      "height": 1200,
+      "category": "clothing",
+      "gender": "men",
+      "isTrending": true,
+      "stock": 20,
+      "details": "products.ralph_lauren_pique_polo.details",
+      "options": {
+        "sizes": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ]
+      }
+    },
+    {
+      "id": "m-28",
+      "name": "products.loro_piana_cashmere_turtleneck.name",
+      "slug": "pull-col-roule-cachemire-loro-piana",
+      "description": "products.loro_piana_cashmere_turtleneck.description",
+      "price": 1250,
+      "imageUrl": "/product-images/clothing/pull-col-roule-cachemire-loro-piana.jpg",
+      "imageHint": "men cashmere turtleneck",
+      "width": 800,
+      "height": 1200,
+      "category": "clothing",
+      "gender": "men",
+      "isTrending": false,
+      "stock": 8,
+      "details": "products.loro_piana_cashmere_turtleneck.details",
+      "tags": [
+        "winter"
+      ],
+      "options": {
+        "sizes": [
+          "S",
+          "M",
+          "L"
+        ]
+      }
+    },
+    {
+      "id": "m-29",
+      "name": "products.hugo_boss_round_neck_tshirt.name",
+      "slug": "t-shirt-col-rond-hugo-boss",
+      "description": "products.hugo_boss_round_neck_tshirt.description",
+      "price": 95,
+      "imageUrl": "/product-images/clothing/t-shirt-col-rond-hugo-boss.jpg",
+      "imageHint": "men round neck t-shirt",
+      "width": 800,
+      "height": 1200,
+      "category": "clothing",
+      "gender": "men",
+      "isTrending": false,
+      "stock": 30,
+      "details": "products.hugo_boss_round_neck_tshirt.details",
+      "options": {
+        "sizes": [
+          "S",
+          "M",
+          "L",
+          "XL",
+          "XXL"
+        ]
+      }
+    },
+    {
+      "id": "m-30",
+      "name": "products.burberry_stretch_chino_pants.name",
+      "slug": "pantalon-chino-stretch-burberry",
+      "description": "products.burberry_stretch_chino_pants.description",
+      "price": 390,
+      "imageUrl": "/product-images/clothing/pantalon-chino-stretch-burberry.jpg",
+      "imageHint": "men stretch chino",
+      "width": 800,
+      "height": 1200,
+      "category": "clothing",
+      "gender": "men",
+      "isTrending": true,
+      "stock": 18,
+      "details": "products.burberry_stretch_chino_pants.details",
+      "options": {
+        "sizes": [
+          "30",
+          "32",
+          "34",
+          "36"
+        ]
+      }
+    },
+    {
+      "id": "m-31",
+      "name": "products.diesel_slim_fit_jeans.name",
+      "slug": "jean-coupe-ajustee-diesel",
+      "description": "products.diesel_slim_fit_jeans.description",
+      "price": 220,
+      "imageUrl": "/product-images/clothing/jean-coupe-ajustee-diesel.jpg",
+      "imageHint": "men slim fit jeans",
+      "width": 800,
+      "height": 1200,
+      "category": "clothing",
+      "gender": "men",
+      "isTrending": false,
+      "stock": 25,
+      "details": "products.diesel_slim_fit_jeans.details",
+      "options": {
+        "sizes": [
+          "28",
+          "30",
+          "32",
+          "34",
+          "36"
+        ]
+      }
+    },
+    {
+      "id": "m-32",
+      "name": "products.moncler_nylon_bomber.name",
+      "slug": "bomber-nylon-moncler",
+      "description": "products.moncler_nylon_bomber.description",
+      "price": 1050,
+      "imageUrl": "/product-images/clothing/bomber-nylon-moncler.jpg",
+      "imageHint": "men nylon bomber",
+      "width": 800,
+      "height": 1200,
+      "category": "clothing",
+      "gender": "men",
+      "isTrending": true,
+      "stock": 10,
+      "details": "products.moncler_nylon_bomber.details",
+      "tags": [
+        "winter"
+      ],
+      "options": {
+        "sizes": [
+          "S",
+          "M",
+          "L"
+        ]
+      }
+    },
+    {
+      "id": "m-33",
+      "name": "products.saint_laurent_leather_jacket.name",
+      "slug": "blouson-cuir-saint-laurent",
+      "description": "products.saint_laurent_leather_jacket.description",
+      "price": 2950,
+      "imageUrl": "/product-images/clothing/blouson-cuir-saint-laurent.jpg",
+      "imageHint": "men leather jacket",
+      "width": 800,
+      "height": 1200,
+      "category": "clothing",
+      "gender": "men",
+      "isTrending": false,
+      "stock": 5,
+      "details": "products.saint_laurent_leather_jacket.details",
+      "tags": [
+        "winter"
+      ],
+      "options": {
+        "sizes": [
+          "46",
+          "48",
+          "50"
+        ]
+      }
+    },
+    {
+      "id": "m-34",
+      "name": "products.giorgio_armani_suit_jacket.name",
+      "slug": "veste-costume-giorgio-armani",
+      "description": "products.giorgio_armani_suit_jacket.description",
+      "price": 1490,
+      "imageUrl": "/product-images/clothing/veste-costume-giorgio-armani.jpg",
+      "imageHint": "men suit jacket",
+      "width": 800,
+      "height": 1200,
+      "category": "clothing",
+      "gender": "men",
+      "isTrending": false,
+      "stock": 7,
+      "details": "products.giorgio_armani_suit_jacket.details",
+      "options": {
+        "sizes": [
+          "48",
+          "50",
+          "52",
+          "54"
+        ]
+      }
+    },
+    {
+      "id": "m-35",
+      "name": "products.zegna_2_piece_suit.name",
+      "slug": "costume-2-pieces-zegna",
+      "description": "products.zegna_2_piece_suit.description",
+      "price": 2800,
+      "imageUrl": "/product-images/clothing/costume-2-pieces-zegna.jpg",
+      "imageHint": "men two-piece suit",
+      "width": 800,
+      "height": 1200,
+      "category": "clothing",
+      "gender": "men",
+      "isTrending": true,
+      "stock": 6,
+      "details": "products.zegna_2_piece_suit.details",
+      "options": {
+        "sizes": [
+          "48",
+          "50",
+          "52"
+        ]
+      }
+    },
+    {
+      "id": "m-36",
+      "name": "products.off_white_hoodie.name",
+      "slug": "sweat-a-capuche-off-white",
+      "description": "products.off_white_hoodie.description",
+      "price": 450,
+      "imageUrl": "/product-images/clothing/sweat-a-capuche-off-white.jpg",
+      "imageHint": "men printed hoodie",
+      "width": 800,
+      "height": 1200,
+      "category": "clothing",
+      "gender": "men",
+      "isTrending": false,
+      "stock": 12,
+      "details": "products.off_white_hoodie.details",
+      "options": {
+        "sizes": [
+          "XS",
+          "S",
+          "M",
+          "L"
+        ]
+      }
+    },
+    {
+      "id": "m-37",
+      "name": "products.fear_of_god_essential_tshirt.name",
+      "slug": "t-shirt-essential-fear-of-god",
+      "description": "products.fear_of_god_essential_tshirt.description",
+      "price": 140,
+      "imageUrl": "/product-images/clothing/t-shirt-essential-fear-of-god.jpg",
+      "imageHint": "men oversized t-shirt",
+      "width": 800,
+      "height": 1200,
+      "category": "clothing",
+      "gender": "men",
+      "isTrending": true,
+      "stock": 22,
+      "details": "products.fear_of_god_essential_tshirt.details",
+      "options": {
+        "sizes": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ]
+      }
+    },
+    {
+      "id": "m-38",
+      "name": "products.lacoste_merino_wool_sweater.name",
+      "slug": "pull-laine-merinos-lacoste",
+      "description": "products.lacoste_merino_wool_sweater.description",
+      "price": 160,
+      "imageUrl": "/product-images/clothing/pull-laine-merinos-lacoste.jpg",
+      "imageHint": "men wool sweater",
+      "width": 800,
+      "height": 1200,
+      "category": "clothing",
+      "gender": "men",
+      "isTrending": false,
+      "stock": 18,
+      "details": "products.lacoste_merino_wool_sweater.details",
+      "options": {
+        "sizes": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ]
+      }
+    },
+    {
+      "id": "m-39",
+      "name": "products.balenciaga_oversize_shirt.name",
+      "slug": "chemise-oversize-balenciaga",
+      "description": "products.balenciaga_oversize_shirt.description",
+      "price": 690,
+      "imageUrl": "/product-images/clothing/chemise-oversize-balenciaga.jpg",
+      "imageHint": "men oversize shirt",
+      "width": 800,
+      "height": 1200,
+      "category": "clothing",
+      "gender": "men",
+      "isTrending": false,
+      "stock": 9,
+      "details": "products.balenciaga_oversize_shirt.details",
+      "options": {
+        "sizes": [
+          "XS",
+          "S",
+          "M"
+        ]
+      }
+    },
+    {
+      "id": "m-40",
+      "name": "products.acne_studios_flannel_overshirt.name",
+      "slug": "surchemise-flanelle-acne-studios",
+      "description": "products.acne_studios_flannel_overshirt.description",
+      "price": 380,
+      "imageUrl": "/product-images/clothing/surchemise-flanelle-acne-studios.jpg",
+      "imageHint": "men flannel overshirt",
+      "width": 800,
+      "height": 1200,
+      "category": "clothing",
+      "gender": "men",
+      "isTrending": false,
+      "stock": 14,
+      "details": "products.acne_studios_flannel_overshirt.details",
+      "options": {
+        "sizes": [
+          "S",
+          "M",
+          "L"
+        ]
+      }
+    },
+    {
+      "id": "m-41",
+      "name": "products.stone_island_cargo_shorts.name",
+      "slug": "short-cargo-stone-island",
+      "description": "products.stone_island_cargo_shorts.description",
+      "price": 270,
+      "imageUrl": "/product-images/clothing/short-cargo-stone-island.jpg",
+      "imageHint": "men cargo shorts",
+      "width": 800,
+      "height": 1200,
+      "category": "clothing",
+      "gender": "men",
+      "isTrending": false,
+      "stock": 16,
+      "details": "products.stone_island_cargo_shorts.details",
+      "options": {
+        "sizes": [
+          "M",
+          "L",
+          "XL"
+        ]
+      }
+    },
+    {
+      "id": "m-42",
+      "name": "products.canada_goose_lightweight_down_jacket.name",
+      "slug": "doudoune-legere-canada-goose",
+      "description": "products.canada_goose_lightweight_down_jacket.description",
+      "price": 850,
+      "imageUrl": "/product-images/clothing/doudoune-legere-canada-goose.jpg",
+      "imageHint": "men down jacket",
+      "width": 800,
+      "height": 1200,
+      "category": "clothing",
+      "gender": "men",
+      "isTrending": true,
+      "stock": 11,
+      "details": "products.canada_goose_lightweight_down_jacket.details",
+      "tags": [
+        "winter"
+      ],
+      "options": {
+        "sizes": [
+          "S",
+          "M",
+          "L"
+        ]
+      }
+    },
+    {
+      "id": "m-43",
+      "name": "products.the_north_face_expedition_parka.name",
+      "slug": "parka-expedition-the-north-face",
+      "description": "products.the_north_face_expedition_parka.description",
+      "price": 620,
+      "imageUrl": "/product-images/clothing/parka-expedition-the-north-face.jpg",
+      "imageHint": "men expedition parka",
+      "width": 800,
+      "height": 1200,
+      "category": "clothing",
+      "gender": "men",
+      "isTrending": false,
+      "stock": 10,
+      "details": "products.the_north_face_expedition_parka.details",
+      "tags": [
+        "winter"
+      ],
+      "options": {
+        "sizes": [
+          "M",
+          "L",
+          "XL"
+        ]
+      }
+    },
+    {
+      "id": "m-44",
+      "name": "products.brunello_cucinelli_cashmere_zip_cardigan.name",
+      "slug": "cardigan-zippe-cachemire-brunello-cucinelli",
+      "description": "products.brunello_cucinelli_cashmere_zip_cardigan.description",
+      "price": 1350,
+      "imageUrl": "/product-images/clothing/cardigan-zippe-cachemire-brunello-cucinelli.jpg",
+      "imageHint": "men cashmere cardigan",
+      "width": 800,
+      "height": 1200,
+      "category": "clothing",
+      "gender": "men",
+      "isTrending": false,
+      "stock": 7,
+      "details": "products.brunello_cucinelli_cashmere_zip_cardigan.details",
+      "tags": [
+        "winter"
+      ],
+      "options": {
+        "sizes": [
+          "M",
+          "L"
+        ]
+      }
+    },
+    {
+      "id": "m-45",
+      "name": "products.max_mara_long_wool_coat.name",
+      "slug": "manteau-long-laine-max-mara",
+      "description": "products.max_mara_long_wool_coat.description",
+      "price": 980,
+      "imageUrl": "/product-images/clothing/manteau-long-laine-max-mara.jpg",
+      "imageHint": "men long coat",
+      "width": 800,
+      "height": 1200,
+      "category": "clothing",
+      "gender": "men",
+      "isTrending": false,
+      "stock": 8,
+      "details": "products.max_mara_long_wool_coat.details",
+      "tags": [
+        "winter"
+      ],
+      "options": {
+        "sizes": [
+          "48",
+          "50",
+          "52"
+        ]
+      }
+    },
+    {
+      "id": "m-46",
+      "name": "products.levis_denim_jacket.name",
+      "slug": "veste-denim-levis-made-crafted",
+      "description": "products.levis_denim_jacket.description",
+      "price": 240,
+      "imageUrl": "/product-images/clothing/veste-denim-levis-made-crafted.jpg",
+      "imageHint": "men denim jacket",
+      "width": 800,
+      "height": 1200,
+      "category": "clothing",
+      "gender": "men",
+      "isTrending": false,
+      "stock": 19,
+      "details": "products.levis_denim_jacket.details",
+      "options": {
+        "sizes": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ]
+      }
+    },
+    {
+      "id": "m-47",
+      "name": "products.dior_homme_tailored_pants.name",
+      "slug": "pantalon-tailleur-dior-homme",
+      "description": "products.dior_homme_tailored_pants.description",
+      "price": 890,
+      "imageUrl": "/product-images/clothing/pantalon-tailleur-dior-homme.jpg",
+      "imageHint": "men tailored pants",
+      "width": 800,
+      "height": 1200,
+      "category": "clothing",
+      "gender": "men",
+      "isTrending": false,
+      "stock": 10,
+      "details": "products.dior_homme_tailored_pants.details",
+      "options": {
+        "sizes": [
+          "46",
+          "48",
+          "50"
+        ]
+      }
+    },
+    {
+      "id": "m-48",
+      "name": "products.versace_silk_shirt.name",
+      "slug": "chemise-soie-versace",
+      "description": "products.versace_silk_shirt.description",
+      "price": 520,
+      "imageUrl": "/product-images/clothing/chemise-soie-versace.jpg",
+      "imageHint": "men silk shirt",
+      "width": 800,
+      "height": 1200,
+      "category": "clothing",
+      "gender": "men",
+      "isTrending": false,
+      "stock": 9,
+      "details": "products.versace_silk_shirt.details",
+      "options": {
+        "sizes": [
+          "M",
+          "L"
+        ]
+      }
+    },
+    {
+      "id": "m-49",
+      "name": "products.palm_angels_printed_hoodie.name",
+      "slug": "hoodie-imprime-palm-angels",
+      "description": "products.palm_angels_printed_hoodie.description",
+      "price": 420,
+      "imageUrl": "/product-images/clothing/hoodie-imprime-palm-angels.jpg",
+      "imageHint": "men graphic hoodie",
+      "width": 800,
+      "height": 1200,
+      "category": "clothing",
+      "gender": "men",
+      "isTrending": false,
+      "stock": 13,
+      "details": "products.palm_angels_printed_hoodie.details",
+      "options": {
+        "sizes": [
+          "S",
+          "M",
+          "L"
+        ]
+      }
+    },
+    {
+      "id": "m-50",
+      "name": "products.barbour_quilted_jacket.name",
+      "slug": "veste-matelassee-barbour-international",
+      "description": "products.barbour_quilted_jacket.description",
+      "price": 310,
+      "imageUrl": "/product-images/clothing/veste-matelassee-barbour-international.jpg",
+      "imageHint": "men quilted jacket",
+      "width": 800,
+      "height": 1200,
+      "category": "clothing",
+      "gender": "men",
+      "isTrending": false,
+      "stock": 15,
+      "details": "products.barbour_quilted_jacket.details",
+      "tags": [
+        "winter"
+      ],
+      "options": {
+        "sizes": [
+          "M",
+          "L",
+          "XL"
+        ]
+      }
+    },
+    {
+      "id": "m-51",
+      "name": "products.paul_smith_cable_knit_sweater.name",
+      "slug": "pull-torsade-paul-smith",
+      "description": "products.paul_smith_cable_knit_sweater.description",
+      "price": 230,
+      "imageUrl": "/product-images/clothing/pull-torsade-paul-smith.jpg",
+      "imageHint": "men cable-knit sweater",
+      "width": 800,
+      "height": 1200,
+      "category": "clothing",
+      "gender": "men",
+      "isTrending": false,
+      "stock": 17,
+      "details": "products.paul_smith_cable_knit_sweater.details",
+      "tags": [
+        "winter"
+      ],
+      "options": {
+        "sizes": [
+          "S",
+          "M",
+          "L"
+        ]
+      }
+    },
+    {
+      "id": "m-52",
+      "name": "products.givenchy_logo_tshirt.name",
+      "slug": "t-shirt-logo-givenchy",
+      "description": "products.givenchy_logo_tshirt.description",
+      "price": 350,
+      "imageUrl": "/product-images/clothing/t-shirt-logo-givenchy.jpg",
+      "imageHint": "men logo t-shirt",
+      "width": 800,
+      "height": 1200,
+      "category": "clothing",
+      "gender": "men",
+      "isTrending": false,
+      "stock": 20,
+      "details": "products.givenchy_logo_tshirt.details",
+      "options": {
+        "sizes": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ]
+      }
+    },
+    {
+      "id": "m-53",
+      "name": "products.adidas_gucci_luxury_tracksuit.name",
+      "slug": "survetement-luxe-adidas-gucci",
+      "description": "products.adidas_gucci_luxury_tracksuit.description",
+      "price": 1200,
+      "imageUrl": "/product-images/clothing/survetement-luxe-adidas-gucci.jpg",
+      "imageHint": "men luxury tracksuit",
+      "width": 800,
+      "height": 1200,
+      "category": "clothing",
+      "gender": "men",
+      "isTrending": false,
+      "stock": 8,
+      "details": "products.adidas_gucci_luxury_tracksuit.details",
+      "options": {
+        "sizes": [
+          "S",
+          "M",
+          "L"
+        ]
+      }
+    },
+    {
+      "id": "m-54",
+      "name": "products.nike_acg_technical_jacket.name",
+      "slug": "veste-technique-nike-acg",
+      "description": "products.nike_acg_technical_jacket.description",
+      "price": 260,
+      "imageUrl": "/product-images/clothing/veste-technique-nike-acg.jpg",
+      "imageHint": "men technical jacket",
+      "width": 800,
+      "height": 1200,
+      "category": "clothing",
+      "gender": "men",
+      "isTrending": false,
+      "stock": 14,
+      "details": "products.nike_acg_technical_jacket.details",
+      "options": {
+        "sizes": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ]
+      }
+    },
+    {
+      "id": "m-55",
+      "name": "products.prada_sleeveless_gilet.name",
+      "slug": "gilet-sans-manches-prada",
+      "description": "products.prada_sleeveless_gilet.description",
+      "price": 890,
+      "imageUrl": "/product-images/clothing/gilet-sans-manches-prada.jpg",
+      "imageHint": "men nylon vest",
+      "width": 800,
+      "height": 1200,
+      "category": "clothing",
+      "gender": "men",
+      "isTrending": false,
+      "stock": 11,
+      "details": "products.prada_sleeveless_gilet.details",
+      "tags": [
+        "winter"
+      ],
+      "options": {
+        "sizes": [
+          "M",
+          "L"
         ]
       }
     }

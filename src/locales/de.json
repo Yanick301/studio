@@ -423,131 +423,6 @@
     "colors": "Farben"
   },
   "products": {
-    "monarque_blazer": {
-      "name": "Zweireihiger Blazer 'Der Diplomat'",
-      "description": "Ein Meisterstück männlicher Eleganz. Gefertigt aus italienischer Schurwolle, bietet sein strukturierter, zweireihiger Schnitt einen selbstbewussten und anspruchsvollen Look.",
-      "details": "Super 120s italienische Schurwolle. Atmungsaktives Cupro-Futter. Echte Hornknöpfe. Nur chemische Reinigung."
-    },
-    "aquila_suit": {
-      "name": "'Heritage' Anzug aus Wolle und Seide",
-      "description": "Ein außergewöhnlicher Anzug für besondere Anlässe. Die Mischung aus Wolle und Seide verleiht diesem Dreiteiler einen perfekten Fall und einen dezenten Glanz, das Markenzeichen von unaufdringlichem Luxus.",
-      "details": "85% Wolle, 15% Seidenmischung. Beinhaltet Jacke, Weste und Hose. Vollständig von unseren Schneidermeistern handgefertigt."
-    },
-    "pur_shirt": {
-      "name": "'Das Essentielle' Pima-Baumwollhemd",
-      "description": "Das weiße Hemd, neu erfunden. Gewebt aus außergewöhnlich weicher peruanischer Pima-Baumwolle, verfügt es über einen französischen Kragen und Seitenfalten für erhöhte Haltbarkeit.",
-      "details": "100% peruanische Pima-Baumwolle. Französischer Kragen, Umschlagmanschetten. Australische Perlmuttknöpfe. Schmale Passform."
-    },
-    "nord_coat": {
-      "name": "'Stockholm' Kaschmirmantel",
-      "description": "Skandinavische Eleganz in Reinkultur. Dieser lange, minimalistisch geschnittene Mantel aus reinem Kaschmir umhüllt Sie mit Wärme und Weichheit. Eine Investition fürs Leben.",
-      "details": "100% mongolischer Kaschmir. Ungefüttert für unvergleichliche Leichtigkeit. Reverskragen und Leistentaschen."
-    },
-    "soir_blazer": {
-      "name": "'Nocturne' Smoking-Jackett",
-      "description": "Abendliche Eleganz. Ein Samt-Smoking-Jackett mit einem Schalkragen aus Satin. Das Herzstück Ihrer formellen Garderobe.",
-      "details": "Seidensamt und Satin. Schalkragen. Ein mit Satin überzogener Knopf. Jacquard-Futter."
-    },
-    "silence_turtleneck": {
-      "name": "'Stille' Kaschmir- und Seiden-Rollkragenpullover",
-      "description": "Eine Liebkosung auf der Haut. Dieser Rollkragenpullover, gestrickt aus einer ultraleichten Mischung aus Kaschmir und Seide, bietet absoluten Komfort und makellose Vielseitigkeit.",
-      "details": "70% Kaschmir, 30% Seide. Feinstrick. Rippbündchen an Ärmeln und Taille."
-    },
-    "cache_chino": {
-      "name": "'Der Spaziergänger' Baumwoll-Gabardine-Chino",
-      "description": "Die lässige Alternative zur Anzughose. Unsere Chino ist aus einem Stretch-Baumwoll-Gabardine für optimalen Komfort geschnitten, mit einer schmalen Passform und maßgeschneiderten Details.",
-      "details": "Stretch-Baumwoll-Gabardine. Haken- und Reißverschluss. Italienische Taschen. Schmale Passform."
-    },
-    "forge_jeans": {
-      "name": "'Die Rohe' Japanische Selvedge Straight Jeans",
-      "description": "Die Authentizität einer echten Jeans. Geschnitten aus einem 14,5 Unzen schweren japanischen Selvedge-Denim, wird diese rohe Jeans mit der Zeit eine Patina entwickeln und zu einem einzigartigen Stück werden, Ihrem.",
-      "details": "14,5 Unzen japanischer Selvedge-Denim. Klassischer gerader Schnitt. Knopfleiste. Kettenstichsäume."
-    },
-    "atlas_parka": {
-      "name": "'Entdecker' Technischer Parka",
-      "description": "Leistung mit Stil. Dieser Parka ist aus einem dreilagigen japanischen technischen Gewebe gefertigt, wasserdicht und atmungsaktiv. Verschweißte Nähte.",
-      "details": "Dreilagiges japanisches technisches Gewebe. Verschweißte Nähte. Abnehmbare Kapuze. Mehrere sichere Taschen."
-    },
-    "cuiron_jacket": {
-      "name": "'Rebell' Plongé-Lammlederjacke",
-      "description": "Eine Ikone neu erfunden. Diese Bikerjacke ist aus außergewöhnlich geschmeidigem Plongé-Lammleder geschnitten, das mit der Zeit eine wunderschöne Patina entwickeln wird.",
-      "details": "Plongé-Lammleder. Riri-Reißverschlüsse und Palladium-Details. Gestepptes Satinfutter."
-    },
-    "pluie_royale_trench": {
-      "name": "'Westminster' Trenchcoat",
-      "description": "Ein zeitloser Klassiker. Unser Trenchcoat ist aus wasserdichtem Baumwoll-Gabardine gefertigt, mit allen traditionellen Details: Sturmklappen, Gürtel und Schulterklappen.",
-      "details": "Wasserabweisender Baumwoll-Gabardine. Charakteristisches Karofutter. Hornknöpfe. Klassischer Schnitt."
-    },
-    "breeze_vest": {
-      "name": "'Zephyr' Gesteppte Weste",
-      "description": "Das ideale Übergangsstück. Ultraleicht, ist diese ärmellose Weste mit hochwertigen Gänsedaunen gefüllt für gezielte Wärme ohne Volumen.",
-      "details": "Japanisches Micro-Ripstop-Gewebe. 90/10 Gänsedaunenfüllung. Lässt sich in der eigenen Tasche zusammenfalten."
-    },
-    "azur_shirt": {
-      "name": "'Riviera' Irisches Leinenhemd",
-      "description": "Sommerliche Eleganz par excellence. Gewebt aus feinstem irischen Leinen, bietet dieses Hemd eine einzigartige Kühle und Textur, die mit jeder Wäsche schöner wird.",
-      "details": "100% irisches Leinen. Lässige Passform. Perlmuttknöpfe. Für zusätzliche Weichheit gewaschen."
-    },
-    "nocturne_tuxedo": {
-      "name": "'Grand Soir' Barathea Smoking",
-      "description": "Für unvergessliche Momente. Dieser Smoking ist aus traditioneller Barathea-Wolle mit einem Seidensatin-Revers geschnitten. Die Quintessenz formeller Eleganz.",
-      "details": "Barathea-Wolle. Revers und Paspeln aus Seidensatin. Hose mit seitlichem Satinstreifen."
-    },
-    "rivage_shorts": {
-      "name": "'Capri' Leinen-Canvas-Bermudashorts",
-      "description": "Lässiger Chic für den Sommer. Diese Bundfalten-Bermudashorts sind aus einer Leinen- und Viskosemischung für einen tadellosen Fall und Knitterfestigkeit geschnitten.",
-      "details": "Leinen- und Viskosemischung. Hohe Taille mit Bundfalten. Haken- und Reißverschluss."
-    },
-    "heritage_cardigan": {
-      "name": "'Clubhouse' Merinowolle-Cardigan",
-      "description": "Ein vielseitiges Stück, zwischen formell und lässig. Dieser Schalkragen-Cardigan ist aus extrafeiner Merinowolle gestrickt, mit geflochtenen Lederknöpfen.",
-      "details": "100% extrafeine Merinowolle. Schalkragen. Aufgesetzte Taschen. Geflochtene Lederknöpfe."
-    },
-    "folio_shirt": {
-      "name": "'Wintergarten' Viskose-Hemd",
-      "description": "Ein Hauch von Kühnheit. Dieses kurzärmelige Hemd zeigt einen exklusiven Blumendruck auf einer fließenden und leichten Viskose, perfekt für sonnige Tage.",
-      "details": "100% fließende Viskose. Exklusiver Druck. Kubanischer Kragen. Gerader Schnitt."
-    },
-    "ete_palais_suit": {
-      "name": "'Sprezzatura' Leinen- und Baumwoll-Sommeranzug",
-      "description": "Sommerliche Eleganz im italienischen Stil. Die dekonstruierte Struktur und die Leinen-Baumwoll-Mischung machen diesen Anzug unglaublich leicht und atmungsaktiv, ohne auf Stil zu verzichten.",
-      "details": "Leinen- und Baumwollmischung. Ungefütterte Jacke, natürliche Schultern. Aufgesetzte Taschen."
-    },
-    "atelier_sweatshirt": {
-      "name": "'Der Künstler' Loopback-Baumwoll-Sweatshirt",
-      "description": "Komfort zur Kunstform erhoben. Hergestellt aus japanischer Loopback-Baumwolle (French Terry), hat dieses Sweatshirt eine leicht übergroße Passform und Flachnähte für absoluten Komfort.",
-      "details": "Japanische Loopback-Baumwolle (French Terry). Flachnähte. Robuste Rippbündchen."
-    },
-    "verite_bomber": {
-      "name": "'Aviator' Ziegenvelours-Bomberjacke",
-      "description": "Ein taktiler Luxus. Diese Bomberjacke ist aus samtigem Ziegenvelours gefertigt und bietet eine anspruchsvolle Alternative zu klassischem Leder. Seidenfutter.",
-      "details": "Ziegenvelours. Zwei-Wege-Riri-Reißverschluss. Rippbündchen aus Wolle und Kaschmir."
-    },
-    "elan_polo": {
-      "name": "'Der Sportler' Sea Island Baumwoll-Piqué-Polo",
-      "description": "Das perfektionierte Poloshirt. Gestrickt aus der sehr seltenen Sea Island Baumwolle, bietet dieses Polo eine unvergleichliche seidige Weichheit und Glanz. Gerippter Kragen und Knopfleiste.",
-      "details": "100% Sea Island Baumwolle. Zwei-Knopf-Leiste aus Perlmutt. Seitenschlitze."
-    },
-    "nuage_hoodie": {
-      "name": "'Kokon' Double-Face-Kaschmir-Hoodie",
-      "description": "Der Gipfel des luxuriösen Loungewear. Dieser Hoodie ist aus reinem Double-Face-Kaschmir gestrickt und bietet eine Weichheit, die innen wie außen exquisit ist.",
-      "details": "100% Double-Face-Kaschmir. Gefütterte Kapuze. Kordelzug mit Metallspitzen."
-    },
-    "business_suit": {
-      "name": "'Business' Fresco-Woll-Anzug",
-      "description": "Der ultimative Anzug für Reisende. Die offen gewebte Fresco-Wolle ist von Natur aus knitterarm und atmungsaktiv, ideal, um den ganzen Tag tadellos auszusehen.",
-      "details": "Hochgedrehte Fresco-Wolle. Halbe Leinwandkonstruktion. Teilfutter für Atmungsaktivität."
-    },
-    "expedition_parka": {
-      "name": "'Arktis' Ventile- und Daunenparka",
-      "description": "Der ultimative Schutz gegen die Elemente. Außenhülle aus Ventile®-Baumwolle, einem natürlichen wasserdichten Material, und großzügige Füllung aus 850er Gänsedaunen.",
-      "details": "Wasserdichte Ventile®-Baumwolle. 850er Gänsedaunenfüllung. Abnehmbare Kapuze mit Kojotenfellbesatz (ethisch einwandfrei)."
-    },
-    "metro_jumpsuit": {
-      "name": "'Urban' Woll-Canvas-Jumpsuit",
-      "description": "Ein modernes Stil-Statement. Dieser von Arbeitskleidung inspirierte Jumpsuit ist aus einem geschmeidigen Woll-Canvas geschnitten für einen Look, der sowohl schick als auch lässig ist.",
-      "details": "Leichter Woll-Canvas. Verdeckter Reißverschluss. Passender Gürtel. Mehrere funktionale Taschen."
-    },
     "gucci_silk_dress": {
       "name": "Gucci Seidenkleid mit Schleifenprint",
       "description": "Mehrfarbiges Seiden-Midikleid mit Schleifenprint, langen Puffärmeln, Schalkragen und Knopfverschluss hinten. 100 % Seidenstoff, fließender und femininer Schnitt.",
@@ -822,6 +697,211 @@
       "name": "'Der Wächter' Leder- und Messing-Schlüsselanhänger",
       "description": "Ein Alltagsgegenstand, der in ein Schmuckstück verwandelt wurde. Ein Riemen aus genarbtem Kalbsleder kombiniert mit massiven gebürsteten Messingteilen.",
       "details": "Kalbsleder und massives Messing. Spaltring und Karabinerhaken."
+    },
+    "eclipse_heels": {
+      "name": "'Schwindel' 105mm Wildleder-Pumps",
+      "description": "Der Inbegriff des Stilettos. Ein perfekter Bogen und ein 10,5 cm hoher Absatz, der das Bein endlos verlängert. Hergestellt aus intensivem schwarzem Ziegenveloursleder.",
+      "details": "100% italienisches Ziegenveloursleder. 10,5 cm Absatz. Lederinnensohle und -laufsohle."
+    },
+    "serenite_sandals": {
+      "name": "'Der Spaziergang' Flache Ledersandalen",
+      "description": "Minimalistische Eleganz für den Sommer. Diese flachen Sandalen mit dünnen Kalbslederriemen sind das Symbol für lässigen und zeitlosen Chic.",
+      "details": "Kalbsleder. Gepolsterte Innensohle. Hergestellt in Italien."
+    },
+    "paris_boots": {
+      "name": "'Rive Gauche' Wildleder-Stiefeletten",
+      "description": "Die perfekte Stiefelette für jeden Tag. Ein bequemer 6 cm Blockabsatz, eine elegante Mandelform und geschmeidiges Ziegenveloursleder. Pariser Chic.",
+      "details": "Ziegenveloursleder. 6 cm Blockabsatz. Seitlicher Reißverschluss."
+    },
+    "diva_mules": {
+      "name": "'Palazzo' Satin- und Kristall-Mules",
+      "description": "Für Abende, an denen alles erlaubt ist. Diese spitz zulaufenden Satin-Mules sind mit einer spektakulären quadratischen Kristallschnalle verziert.",
+      "details": "Herzogin-Satin. Swarovski-Kristallschnalle. Kleiner 2 cm Absatz."
+    },
+    "street_luxe_derby": {
+      "name": "'Avantgarde' Plateau-Derbys",
+      "description": "Ein Klassiker auf den Kopf gestellt. Der traditionelle Derby ist auf einer geriffelten Plateausohle aus ultraleichtem Mikrogummi montiert, für einen kühnen Look.",
+      "details": "Poliertes Kalbsleder. Mikrogummi-Plateausohle. Lederfutter."
+    },
+    "souverain_oxfords": {
+      "name": "'Der Botschafter' One-Cut Oxford",
+      "description": "Eleganz in Perfektion. Dieser Oxford-Schuh wird aus einem einzigen Stück Kalbsleder gefertigt, eine technische Meisterleistung. Handpatiniert in unseren Werkstätten.",
+      "details": "One-Cut-Konstruktion. Französisches Kalbsleder. Blake-genäht. Handpatinierung auf Anfrage."
+    },
+    "elite_derby": {
+      "name": "'Der Konsul' Schnallen-Derby",
+      "description": "Eine originelle Alternative zum Schnür-Derby. Dieses Einzelschnallen-Modell (Monk Strap) aus genarbtem Kalbsleder ist sowohl formell als auch charaktervoll.",
+      "details": "Genarbtes Kalbsleder. Goodyear-genäht. Messingschnalle."
+    },
+    "club_loafer": {
+      "name": "'Der Yachtsman' Wildleder-Loafer",
+      "description": "Der ideale Begleiter für sonnige Wochenenden. Dieser geschmeidige Wildleder-Loafer ist auf einer mit Gumminoppen besetzten Sohle für unvergleichliche Flexibilität und Komfort montiert.",
+      "details": "Wasserabweisendes Kalbsveloursleder. Gumminoppensohle. Tubuläre Konstruktion."
+    },
+    "tradition_brogues": {
+      "name": "'Heritage' Full-Brogue-Oxford",
+      "description": "Eine Säule britischer Eleganz. Dieser Oxford zeichnet sich durch seine dekorativen Lochungen ('Broguing') auf dem gesamten Schuh aus. Ein selbstbewusster Charakter.",
+      "details": "Boxkalbsleder. Full-Brogue-Lochungen. Goodyear-genäht auf einer Ledersohle."
+    },
+    "citadin_boots": {
+      "name": "'Der Städter' Chelsea-Stiefel",
+      "description": "Vielseitigkeit und Stil. Eine klare Form, glattes Kalbsleder und robuste Gummibänder machen diesen Chelsea-Stiefel zu einem unverzichtbaren Bestandteil der Herrengarderobe.",
+      "details": "Glattes Kalbsleder. Blake-genäht. Seitliche Gummibänder."
+    },
+    "runway_sneakers": {
+      "name": "'Der Minimalist' Leder-Sneakers",
+      "description": "Der saubere Luxus-Sneaker. Hergestellt in Italien aus glattem Kalbsleder, passt seine minimalistische Silhouette zu jedem Outfit, vom Anzug bis zur Jeans.",
+      "details": "Italienisches Kalbsleder. Vollständiges Lederfutter. Genähte Gummisohle."
+    },
+    "tom_ford_slim_fit_shirt": {
+      "name": "Tom Ford Slim Fit Hemd",
+      "description": "Hemd aus Baumwoll-Popeline, Slim Fit, italienischer Kragen, Perlmuttknöpfe, Luxus-Finish.",
+      "details": "100% Baumwoll-Popeline. Slim Fit. Italienischer Kragen."
+    },
+    "ralph_lauren_pique_polo": {
+      "name": "Ralph Lauren Purple Label Piqué-Polo",
+      "description": "Weiches Polo aus Premium-Baumwolle, moderner Schnitt, gesticktes Logo, verstärkter Kragen.",
+      "details": "Premium-Baumwolle. Moderner Schnitt. Gesticktes Logo."
+    },
+    "loro_piana_cashmere_turtleneck": {
+      "name": "Loro Piana Kaschmir-Rollkragenpullover",
+      "description": "100% italienischer Kaschmir, feine Masche, ultraweich, edler Schnitt.",
+      "details": "100% italienischer Kaschmir. Feine Masche. Hergestellt in Italien."
+    },
+    "hugo_boss_round_neck_tshirt": {
+      "name": "Hugo Boss Black Rundhals-T-Shirt",
+      "description": "Premium-T-Shirt, merzerisierte Baumwolle, dezentes Logo, Slim Fit.",
+      "details": "Merzerisierte Baumwolle. Dezentes Logo. Slim Fit."
+    },
+    "burberry_stretch_chino_pants": {
+      "name": "Burberry Stretch-Chino-Hose",
+      "description": "Chino aus elastischer Baumwolle, moderner Schnitt, dezentes Check-Muster innen.",
+      "details": "Elastische Baumwolle. Moderner Schnitt. Dezentes Check-Muster."
+    },
+    "diesel_slim_fit_jeans": {
+      "name": "Diesel Black Gold Slim-Fit-Jeans",
+      "description": "Stretch-Jeans, Premium-Waschung, charakteristische Metalldetails.",
+      "details": "Stretch-Denim. Premium-Waschung. Charakteristische Details."
+    },
+    "moncler_nylon_bomber": {
+      "name": "Moncler Nylon-Bomberjacke",
+      "description": "Leichte, gefütterte Jacke, moderner Schnitt, Logo am Ärmel.",
+      "details": "Nylon. Leichte Wattierung. Logo am Ärmel."
+    },
+    "saint_laurent_leather_jacket_men": {
+      "name": "Saint Laurent Lederjacke",
+      "description": "Ultraweiches Lammleder, rockiger Schnitt, YSL-Silberreißverschluss.",
+      "details": "Ultraweiches Lammleder. Rockiger Schnitt. YSL-Reißverschluss."
+    },
+    "giorgio_armani_suit_jacket": {
+      "name": "Giorgio Armani Anzugjacke",
+      "description": "Jacke aus Schurwolle, edler Schnitt, Seidenfutter.",
+      "details": "Schurwolle. Edler Schnitt. Seidenfutter."
+    },
+    "zegna_2_piece_suit": {
+      "name": "Zegna 2-teiliger Anzug",
+      "description": "Italienische Merinowolle, Slim Fit, natürliche Schulter.",
+      "details": "Italienische Merinowolle. Slim Fit. Natürliche Schulter."
+    },
+    "off_white_hoodie": {
+      "name": "Off-White Kapuzenpullover",
+      "description": "Dicke Baumwolle, Pfeilmotive auf dem Rücken, charakteristischer Aufdruck.",
+      "details": "Dicke Baumwolle. Pfeilmotive. Charakteristischer Aufdruck."
+    },
+    "fear_of_god_essential_tshirt": {
+      "name": "Fear of God Essentials „Essential“ T-Shirt",
+      "description": "Premium-Baumwolle, geprägtes Logo, Oversized-Schnitt.",
+      "details": "Premium-Baumwolle. Geprägtes Logo. Oversized-Schnitt."
+    },
+    "lacoste_merino_wool_sweater": {
+      "name": "Lacoste Merinowolle-Pullover",
+      "description": "Feine Masche, Rundhalsausschnitt, gesticktes Krokodil, klassischer Schnitt.",
+      "details": "Feine Merinowolle. Rundhalsausschnitt. Klassischer Schnitt."
+    },
+    "balenciaga_oversize_shirt": {
+      "name": "Balenciaga Oversize-Hemd",
+      "description": "Dicke Baumwolle, weite Silhouette, dezentes Branding.",
+      "details": "Dicke Baumwolle. Weite Silhouette. Dezentes Branding."
+    },
+    "acne_studios_flannel_overshirt": {
+      "name": "Acne Studios Flanell-Überhemd",
+      "description": "Weicher Flanell, lässiger Schnitt, Brusttaschen.",
+      "details": "Weicher Flanell. Lässiger Schnitt. Brusttaschen."
+    },
+    "stone_island_cargo_shorts": {
+      "name": "Stone Island Cargo-Shorts",
+      "description": "Strapazierfähiges Gewebe, Stone-Island-Badge, Utility-Schnitt.",
+      "details": "Strapazierfähiges Gewebe. Stone-Island-Badge. Utility-Schnitt."
+    },
+    "canada_goose_lightweight_down_jacket": {
+      "name": "Canada Goose Leichte Daunenjacke",
+      "description": "Wärmeisolierung, winddichtes Gewebe, schlichtes Design.",
+      "details": "Wärmeisolierung. Winddichtes Gewebe. Schlichtes Design."
+    },
+    "the_north_face_expedition_parka": {
+      "name": "The North Face Black Series „Expedition“ Parka",
+      "description": "Strapazierfähig, wasserdicht, mehrere Taschen, verstellbare Kapuze.",
+      "details": "Strapazierfähig. Wasserdicht. Mehrere Taschen."
+    },
+    "brunello_cucinelli_cashmere_zip_cardigan": {
+      "name": "Brunello Cucinelli Kaschmir-Reißverschluss-Cardigan",
+      "description": "Extrafeiner Kaschmir, Metallreißverschluss, eleganter Schnitt.",
+      "details": "Extrafeiner Kaschmir. Metallreißverschluss. Eleganter Schnitt."
+    },
+    "max_mara_long_wool_coat": {
+      "name": "Max Mara Homme Langer Wollmantel",
+      "description": "Warme Wolle, langer Schnitt, optionaler Gürtel.",
+      "details": "Warme Wolle. Langer Schnitt. Optionaler Gürtel."
+    },
+    "levis_denim_jacket": {
+      "name": "Levi's Made & Crafted Jeansjacke",
+      "description": "Premium-Denim, klassischer Schnitt, handwerkliches Finish.",
+      "details": "Premium-Denim. Klassischer Schnitt. Handwerkliches Finish."
+    },
+    "dior_homme_tailored_pants": {
+      "name": "Dior Homme Maßgeschneiderte Hose",
+      "description": "Eleganter schmaler Schnitt, feine Wolle, Couture-Look.",
+      "details": "Feine Wolle. Eleganter schmaler Schnitt. Couture-Look."
+    },
+    "versace_silk_shirt": {
+      "name": "Versace Seidenhemd",
+      "description": "Bedruckte Seide, Barockmuster, italienischer Kragen.",
+      "details": "Bedruckte Seide. Barockmuster. Italienischer Kragen."
+    },
+    "palm_angels_printed_hoodie": {
+      "name": "Palm Angels Bedruckter Kapuzenpullover",
+      "description": "Dicke Baumwolle, Palmenmotiv, Oversized-Schnitt.",
+      "details": "Dicke Baumwolle. Palmenmotiv. Oversized-Schnitt."
+    },
+    "barbour_quilted_jacket": {
+      "name": "Barbour International Gesteppte Jacke",
+      "description": "Diamantsteppung, klassischer Schnitt, Samtkragen.",
+      "details": "Diamantsteppung. Klassischer Schnitt. Samtkragen."
+    },
+    "paul_smith_cable_knit_sweater": {
+      "name": "Paul Smith Zopfstrickpullover",
+      "description": "Weiche Wolle, Zopfstrickmuster, kontrastierendes Finish.",
+      "details": "Weiche Wolle. Zopfstrickmuster. Kontrastierendes Finish."
+    },
+    "givenchy_logo_tshirt": {
+      "name": "Givenchy Logo-T-Shirt",
+      "description": "Gesticktes Logo, Premium-Baumwolle, gerader Schnitt.",
+      "details": "Gesticktes Logo. Premium-Baumwolle. Gerader Schnitt."
+    },
+    "adidas_gucci_luxury_tracksuit": {
+      "name": "Adidas x Gucci Luxus-Trainingsanzug",
+      "description": "Premium-Polyester, Gucci-Streifen, Retro-Schnitt.",
+      "details": "Premium-Polyester. Gucci-Streifen. Retro-Schnitt."
+    },
+    "nike_acg_technical_jacket": {
+      "name": "Nike ACG Technische Jacke",
+      "description": "Wasserdicht, belüftet, moderner Outdoor-Schnitt.",
+      "details": "Wasserdicht. Belüftet. Moderner Outdoor-Schnitt."
+    },
+    "prada_sleeveless_gilet": {
+      "name": "Prada Ärmellose Weste",
+      "description": "Prada-Nylon, minimalistischer Schnitt, Dreieckslogo.",
+      "details": "Prada-Nylon. Minimalistischer Schnitt. Dreieckslogo."
     },
     "eclipse_heels": {
       "name": "'Schwindel' 105mm Wildleder-Pumps",

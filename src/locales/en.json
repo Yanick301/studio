@@ -423,131 +423,6 @@
     "colors": "Colors"
   },
   "products": {
-    "monarque_blazer": {
-      "name": "'The Diplomat' Double-Breasted Blazer",
-      "description": "A masterpiece of masculine elegance. Crafted from Italian virgin wool, its structured, double-breasted cut offers an assertive and sophisticated look.",
-      "details": "Super 120s Italian virgin wool. Breathable cupro lining. Genuine horn buttons. Dry clean only."
-    },
-    "aquila_suit": {
-      "name": "'Heritage' Wool and Silk Suit",
-      "description": "An exceptional suit for special occasions. The blend of wool and silk gives this three-piece a perfect drape and a subtle sheen, the signature of understated luxury.",
-      "details": "85% wool, 15% silk blend. Includes jacket, vest, and trousers. Entirely hand-finished by our master tailors."
-    },
-    "pur_shirt": {
-      "name": "'The Essential' Pima Cotton Shirt",
-      "description": "The white shirt, reinvented. Woven from exceptionally soft Peruvian Pima cotton, it features a French collar and side gussets for enhanced durability.",
-      "details": "100% Peruvian Pima Cotton. French collar, French cuffs. Australian mother-of-pearl buttons. Slim fit."
-    },
-    "nord_coat": {
-      "name": "'Stockholm' Cashmere Coat",
-      "description": "Scandinavian elegance at its finest. This long, minimalist-cut coat in pure cashmere envelops you in warmth and softness. An investment for a lifetime.",
-      "details": "100% Mongolian Cashmere. Unlined for unparalleled lightness. Notched lapel and welt pockets."
-    },
-    "soir_blazer": {
-      "name": "'Nocturne' Smoking Jacket",
-      "description": "Evening elegance. A silk velvet smoking jacket with a satin shawl collar. The centerpiece of your formal wardrobe.",
-      "details": "Silk velvet and satin. Shawl collar. One satin-covered button. Jacquard lining."
-    },
-    "silence_turtleneck": {
-      "name": "'Silence' Cashmere and Silk Turtleneck",
-      "description": "A caress on the skin. This turtleneck, knitted in an ultra-light blend of cashmere and silk, is of absolute comfort and flawless versatility.",
-      "details": "70% Cashmere, 30% Silk. Fine gauge knit. Ribbed cuffs and waist."
-    },
-    "cache_chino": {
-      "name": "'The Stroller' Cotton Gabardine Chino",
-      "description": "The casual alternative to suit trousers. Our chino is cut from a stretch cotton gabardine for optimal comfort, with a slim fit and tailored finishes.",
-      "details": "Stretch cotton gabardine. Hook and zip closure. Italian pockets. Slim fit."
-    },
-    "forge_jeans": {
-      "name": "'The Raw' Japanese Selvedge Straight Jean",
-      "description": "The authenticity of a true jean. Cut from a 14.5oz Japanese selvedge denim, this raw jean will develop a patina over time to become a unique piece, yours.",
-      "details": "14.5oz Japanese selvedge denim. Classic straight cut. Button fly. Chain-stitched hems."
-    },
-    "atlas_parka": {
-      "name": "'Explorer' Technical Parka",
-      "description": "Performance with style. This parka is made from a triple-layer Japanese technical fabric, waterproof and breathable. Taped seams.",
-      "details": "Triple-layer Japanese technical fabric. Taped seams. Removable hood. Multiple secure pockets."
-    },
-    "cuiron_jacket": {
-      "name": "'Rebel' Plongé Lambskin Jacket",
-      "description": "An icon reinvented. This biker jacket is cut from exceptionally supple plongé lambskin that will patina beautifully over time.",
-      "details": "Plongé lambskin. Riri zips and palladium details. Quilted satin lining."
-    },
-    "pluie_royale_trench": {
-      "name": "'Westminster' Trench Coat",
-      "description": "A timeless classic. Our trench is crafted from waterproof cotton gabardine, with all the traditional details: storm flaps, belt, and shoulder tabs.",
-      "details": "Water-repellent cotton gabardine. Signature check lining. Horn buttons. Classic cut."
-    },
-    "breeze_vest": {
-      "name": "'Zephyr' Quilted Vest",
-      "description": "The ideal mid-season piece. Ultra-light, this sleeveless vest is filled with high-quality goose down for targeted warmth without bulk.",
-      "details": "Japanese micro-ripstop fabric. 90/10 goose down filling. Folds into its own pocket."
-    },
-    "azur_shirt": {
-      "name": "'Riviera' Irish Linen Shirt",
-      "description": "Summer elegance par excellence. Woven from the finest Irish linen, this shirt offers a unique coolness and texture that improves with every wash.",
-      "details": "100% Irish Linen. Relaxed fit. Mother-of-pearl buttons. Washed for extra softness."
-    },
-    "nocturne_tuxedo": {
-      "name": "'Grand Soir' Barathea Tuxedo",
-      "description": "For unforgettable moments. This tuxedo is cut from a traditional barathea wool with a silk satin lapel. The quintessence of formal elegance.",
-      "details": "Barathea wool. Silk satin lapels and piping. Trousers with side satin stripe."
-    },
-    "rivage_shorts": {
-      "name": "'Capri' Linen Canvas Bermuda Shorts",
-      "description": "Casual chic for summer. These pleated Bermuda shorts are cut from a linen and viscose blend for an impeccable drape and crease resistance.",
-      "details": "Linen and viscose blend. High waist with pleats. Hook and zip closure."
-    },
-    "heritage_cardigan": {
-      "name": "'Clubhouse' Merino Wool Cardigan",
-      "description": "A versatile piece, between formal and casual. This shawl-collar cardigan is knitted from extra-fine merino wool, with braided leather buttons.",
-      "details": "100% Extra-fine Merino Wool. Shawl collar. Patch pockets. Braided leather buttons."
-    },
-    "folio_shirt": {
-      "name": "'Winter Garden' Viscose Shirt",
-      "description": "A touch of audacity. This short-sleeved shirt features an exclusive floral print on a fluid and light viscose, perfect for sunny days.",
-      "details": "100% Fluid Viscose. Exclusive print. Cuban collar. Straight cut."
-    },
-    "ete_palais_suit": {
-      "name": "'Sprezzatura' Linen and Cotton Summer Suit",
-      "description": "Italian-style summer elegance. The deconstructed structure and the linen-cotton blend make this suit incredibly light and breathable, without sacrificing style.",
-      "details": "Linen and Cotton blend. Unlined jacket, natural shoulders. Patch pockets."
-    },
-    "atelier_sweatshirt": {
-      "name": "'The Artist' Loopback Cotton Sweatshirt",
-      "description": "Comfort elevated to an art form. Made from Japanese loopback cotton (French Terry), this sweatshirt has a slightly oversized fit and flatlock seams for absolute comfort.",
-      "details": "Japanese loopback cotton (French Terry). Flatlock seams. Sturdy ribbed trims."
-    },
-    "verite_bomber": {
-      "name": "'Aviator' Goat Suede Bomber Jacket",
-      "description": "A tactile luxury. This bomber jacket is crafted from velvety goat suede, offering a sophisticated alternative to classic leather. Silk lining.",
-      "details": "Goat suede. Two-way Riri zipper. Wool and cashmere ribbed trims."
-    },
-    "elan_polo": {
-      "name": "'The Sportsman' Sea Island Cotton Piqué Polo",
-      "description": "The polo shirt, perfected. Knitted from the very rare Sea Island cotton, this polo offers an unparalleled silky softness and shine. Ribbed collar and placket.",
-      "details": "100% Sea Island Cotton. Two mother-of-pearl button placket. Side vents."
-    },
-    "nuage_hoodie": {
-      "name": "'Cocoon' Double-Face Cashmere Hoodie",
-      "description": "The pinnacle of luxury loungewear. This hoodie is knitted in pure double-face cashmere, offering a softness as exquisite on the inside as it is on the outside.",
-      "details": "100% Double-face Cashmere. Lined hood. Drawstring with metal tips."
-    },
-    "business_suit": {
-      "name": "'Business' Fresco Wool Suit",
-      "description": "The ultimate traveler's suit. The open-weave Fresco wool is naturally crease-resistant and breathable, ideal for staying impeccable all day long.",
-      "details": "High-twist Fresco wool. Half-canvas construction. Partial lining for breathability."
-    },
-    "expedition_parka": {
-      "name": "'Arctic' Ventile and Down Parka",
-      "description": "The ultimate protection against the elements. Outer shell in Ventile® cotton, a natural waterproof material, and generous filling of 850-fill-power goose down.",
-      "details": "Waterproof Ventile® cotton. 850 Fill Power goose down. Removable coyote fur-trimmed hood (ethically sourced)."
-    },
-    "metro_jumpsuit": {
-      "name": "'Urban' Wool Canvas Jumpsuit",
-      "description": "A modern style statement. This workwear-inspired jumpsuit is cut from a supple wool canvas for a look that is both chic and casual.",
-      "details": "Lightweight wool canvas. Concealed zip fastening. Matching belt. Multiple functional pockets."
-    },
     "gucci_silk_dress": {
       "name": "Gucci Ribbon Print Silk Dress",
       "description": "Multicolor silk midi dress with ribbon print, long puff sleeves, tie-neck collar, and back button fastening. 100% silk fabric, fluid and feminine cut.",
@@ -877,6 +752,156 @@
       "name": "'The Minimalist' Leather Sneakers",
       "description": "The clean luxury sneaker. Made in Italy from smooth calfskin, its minimalist silhouette matches any outfit, from a suit to jeans.",
       "details": "Italian calfskin. Full leather lining. Stitched rubber sole."
+    },
+    "tom_ford_slim_fit_shirt": {
+      "name": "Tom Ford Slim Fit Shirt",
+      "description": "Cotton poplin shirt, slim fit, Italian collar, mother-of-pearl buttons, luxury finish.",
+      "details": "100% cotton poplin. Slim fit. Italian collar."
+    },
+    "ralph_lauren_pique_polo": {
+      "name": "Ralph Lauren Purple Label Piqué Polo",
+      "description": "Soft polo in premium cotton, modern cut, embroidered logo, reinforced collar.",
+      "details": "Premium cotton. Modern cut. Embroidered logo."
+    },
+    "loro_piana_cashmere_turtleneck": {
+      "name": "Loro Piana Cashmere Turtleneck",
+      "description": "100% Italian cashmere, fine knit, ultra-soft, refined cut.",
+      "details": "100% Italian cashmere. Fine knit. Made in Italy."
+    },
+    "hugo_boss_round_neck_tshirt": {
+      "name": "Hugo Boss Black Round Neck T-shirt",
+      "description": "Premium T-shirt, mercerized cotton, discreet logo, slim fit.",
+      "details": "Mercerized cotton. Discreet logo. Slim fit."
+    },
+    "burberry_stretch_chino_pants": {
+      "name": "Burberry Stretch Chino Pants",
+      "description": "Chino in elasticated cotton, modern cut, discreet check pattern inside.",
+      "details": "Elasticated cotton. Modern cut. Discreet check pattern."
+    },
+    "diesel_slim_fit_jeans": {
+      "name": "Diesel Black Gold Slim Fit Jeans",
+      "description": "Stretch jeans, premium wash, signature metal details.",
+      "details": "Stretch denim. Premium wash. Signature details."
+    },
+    "moncler_nylon_bomber": {
+      "name": "Moncler Nylon Bomber Jacket",
+      "description": "Lightweight padded jacket, modern cut, logo on the sleeve.",
+      "details": "Nylon. Lightweight padding. Logo on the sleeve."
+    },
+    "saint_laurent_leather_jacket_men": {
+      "name": "Saint Laurent Leather Jacket",
+      "description": "Ultra-soft lambskin, rock cut, YSL silver zip.",
+      "details": "Ultra-soft lambskin. Rock cut. YSL zip."
+    },
+    "giorgio_armani_suit_jacket": {
+      "name": "Giorgio Armani Suit Jacket",
+      "description": "Jacket in virgin wool, sophisticated cut, silk lining.",
+      "details": "Virgin wool. Sophisticated cut. Silk lining."
+    },
+    "zegna_2_piece_suit": {
+      "name": "Zegna 2-piece Suit",
+      "description": "Italian merino wool, slim fit, natural shoulder.",
+      "details": "Italian merino wool. Slim fit. Natural shoulder."
+    },
+    "off_white_hoodie": {
+      "name": "Off-White Hoodie",
+      "description": "Thick cotton, arrow motifs on the back, signature print.",
+      "details": "Thick cotton. Arrow motifs. Signature print."
+    },
+    "fear_of_god_essential_tshirt": {
+      "name": "Fear of God Essentials 'Essential' T-shirt",
+      "description": "Premium cotton, embossed logo, oversized cut.",
+      "details": "Premium cotton. Embossed logo. Oversized cut."
+    },
+    "lacoste_merino_wool_sweater": {
+      "name": "Lacoste Merino Wool Sweater",
+      "description": "Fine knit, round neck, embroidered crocodile, classic cut.",
+      "details": "Fine merino wool. Round neck. Classic cut."
+    },
+    "balenciaga_oversize_shirt": {
+      "name": "Balenciaga Oversize Shirt",
+      "description": "Thick cotton, wide silhouette, discreet branding.",
+      "details": "Thick cotton. Wide silhouette. Discreet branding."
+    },
+    "acne_studios_flannel_overshirt": {
+      "name": "Acne Studios Flannel Overshirt",
+      "description": "Soft flannel, relaxed cut, chest pockets.",
+      "details": "Soft flannel. Relaxed cut. Chest pockets."
+    },
+    "stone_island_cargo_shorts": {
+      "name": "Stone Island Cargo Shorts",
+      "description": "Durable fabric, Stone Island badge, utility cut.",
+      "details": "Durable fabric. Stone Island badge. Utility cut."
+    },
+    "canada_goose_lightweight_down_jacket": {
+      "name": "Canada Goose Lightweight Down Jacket",
+      "description": "Thermal insulation, windproof fabric, clean design.",
+      "details": "Thermal insulation. Windproof fabric. Clean design."
+    },
+    "the_north_face_expedition_parka": {
+      "name": "The North Face Black Series 'Expedition' Parka",
+      "description": "Durable, waterproof, multi-pockets, adjustable hood.",
+      "details": "Durable. Waterproof. Multi-pockets."
+    },
+    "brunello_cucinelli_cashmere_zip_cardigan": {
+      "name": "Brunello Cucinelli Cashmere Zip Cardigan",
+      "description": "Extra-fine cashmere, metal zip, elegant cut.",
+      "details": "Extra-fine cashmere. Metal zip. Elegant cut."
+    },
+    "max_mara_long_wool_coat": {
+      "name": "Max Mara Homme Long Wool Coat",
+      "description": "Warm wool, long cut, optional belt.",
+      "details": "Warm wool. Long cut. Optional belt."
+    },
+    "levis_denim_jacket": {
+      "name": "Levi's Made & Crafted Denim Jacket",
+      "description": "Premium denim, classic cut, artisanal finish.",
+      "details": "Premium denim. Classic cut. Artisanal finish."
+    },
+    "dior_homme_tailored_pants": {
+      "name": "Dior Homme Tailored Pants",
+      "description": "Elegant tapered cut, fine wool, couture look.",
+      "details": "Fine wool. Elegant tapered cut. Couture look."
+    },
+    "versace_silk_shirt": {
+      "name": "Versace Silk Shirt",
+      "description": "Printed silk, baroque patterns, Italian collar.",
+      "details": "Printed silk. Baroque patterns. Italian collar."
+    },
+    "palm_angels_printed_hoodie": {
+      "name": "Palm Angels Printed Hoodie",
+      "description": "Thick cotton, palm tree motif, oversized cut.",
+      "details": "Thick cotton. Palm tree motif. Oversized cut."
+    },
+    "barbour_quilted_jacket": {
+      "name": "Barbour International Quilted Jacket",
+      "description": "Diamond quilting, classic cut, velvet collar.",
+      "details": "Diamond quilting. Classic cut. Velvet collar."
+    },
+    "paul_smith_cable_knit_sweater": {
+      "name": "Paul Smith Cable-Knit Sweater",
+      "description": "Soft wool, cable-knit pattern, contrasting finish.",
+      "details": "Soft wool. Cable-knit pattern. Contrasting finish."
+    },
+    "givenchy_logo_tshirt": {
+      "name": "Givenchy Logo T-shirt",
+      "description": "Embroidered logo, premium cotton, straight cut.",
+      "details": "Embroidered logo. Premium cotton. Straight cut."
+    },
+    "adidas_gucci_luxury_tracksuit": {
+      "name": "Adidas x Gucci Luxury Tracksuit",
+      "description": "Premium polyester, Gucci stripes, retro cut.",
+      "details": "Premium polyester. Gucci stripes. Retro cut."
+    },
+    "nike_acg_technical_jacket": {
+      "name": "Nike ACG Technical Jacket",
+      "description": "Waterproof, ventilated, modern outdoor cut.",
+      "details": "Waterproof. Ventilated. Modern outdoor cut."
+    },
+    "prada_sleeveless_gilet": {
+      "name": "Prada Sleeveless Gilet",
+      "description": "Prada nylon, minimalist cut, triangle logo.",
+      "details": "Prada nylon. Minimalist cut. Triangle logo."
     }
   }
 }
