@@ -117,18 +117,23 @@ service cloud.firestore {
 
     /**
      * Validates a new Favorite document.
-     * Ensures the internal userId field matches the owner's path.
+     * Ensures the internal userId field matches the owner's path
+     * and that the document's own ID is correctly set.
      */
-    function isNewFavoriteDocValid(userId) {
-      return request.resource.data.userId == userId;
+    function isNewFavoriteDocValid(userId, favoriteId) {
+      let data = request.resource.data;
+      return data.id == favoriteId && data.userId == userId;
     }
 
     /**
-     * Ensures the Favorite's userId remains immutable on update.
+     * Ensures the Favorite's userId and id remain immutable on update.
      */
     function isUpdatedFavoriteDocValid() {
-      return request.resource.data.userId == resource.data.userId;
+      let incoming = request.resource.data;
+      let existing = resource.data;
+      return incoming.id == existing.id && incoming.userId == existing.userId;
     }
+
 
     /**
      * Validates a new Review document.
@@ -244,7 +249,7 @@ service cloud.firestore {
     match /users/{userId}/favorites/{favoriteId} {
       allow get: if isOwner(userId);
       allow list: if isOwner(userId);
-      allow create: if isOwner(userId) && isNewFavoriteDocValid(userId);
+      allow create: if isOwner(userId) && isNewFavoriteDocValid(userId, favoriteId);
       allow update: if isOwner(userId) && isUpdatedFavoriteDocValid();
       allow delete: if isOwner(userId);
     }

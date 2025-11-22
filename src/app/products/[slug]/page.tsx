@@ -91,17 +91,12 @@ export default function ProductDetailPage({ params }: { params: { slug: string }
       });
       return;
     }
-    
-    // Optimistic UI update
-    const wasFavorite = isFavorite;
-    const previousFavoriteId = favoriteId;
-    
-    setIsFavorite(!wasFavorite);
-    
-    if (wasFavorite && previousFavoriteId) {
+
+    if (isFavorite && favoriteId) {
       // Remove from favorites
-      const docRef = doc(favoritesCollectionRef, previousFavoriteId);
+      const docRef = doc(favoritesCollectionRef, favoriteId);
       deleteDocumentNonBlocking(docRef);
+      setIsFavorite(false);
       setFavoriteId(null);
       toast({
         title: t('product_page.toast.favorite_removed_title'),
@@ -109,16 +104,19 @@ export default function ProductDetailPage({ params }: { params: { slug: string }
       });
     } else {
       // Add to favorites
+      const newFavId = doc(favoritesCollectionRef).id; // Generate ID client-side
       const newFav = {
+        id: newFavId,
         userId: user.uid,
         productId: product.id,
         addedDate: new Date().toISOString(),
       };
-      addDocumentNonBlocking(favoritesCollectionRef, newFav).then(docRef => {
-        if(docRef) {
-          setFavoriteId(docRef.id);
-        }
-      });
+      
+      const newDocRef = doc(favoritesCollectionRef, newFavId);
+      setDocumentNonBlocking(newDocRef, newFav, {});
+      
+      setIsFavorite(true);
+      setFavoriteId(newFavId);
       
       toast({
         title: t('product_page.toast.favorite_added_title'),
