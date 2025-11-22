@@ -425,153 +425,123 @@
   "products": {
     "gucci_silk_dress": {
       "name": "Robe soie imprimée – Gucci",
-      "description": "Robe midi en soie multicolore avec imprimé ruban, manches bouffantes longues, col avec nœud à nouer, fermeture par boutons dans le dos. Tissu 100 % soie, coupe fluide et féminine.",
-      "details": "Tissu 100 % soie, coupe fluide. Nettoyage à sec professionnel recommandé."
+      "description": "Robe midi en soie multicolore avec imprimé ruban, manches bouffantes longues, col avec nœud à nouer, fermeture par boutons dans le dos. Tissu 100 % soie, coupe fluide et féminine."
     },
     "dior_blazer_dress": {
       "name": "Robe blazer en laine-silk gabardine – Dior",
-      "description": "Robe blazer mi-longue confectionnée en gabardine de laine vierge mélangée à de la soie. Coupe structurée, épaules définies, ceinture à la taille. Évoque un style professionnel très chic.",
-      "details": "Gabardine de laine vierge et soie. Coupe structurée. Nettoyage à sec uniquement."
+      "description": "Robe blazer mi-longue confectionnée en gabardine de laine vierge mélangée à de la soie. Coupe structurée, épaules définies, ceinture à la taille. Évoque un style professionnel très chic."
     },
     "dior_poplin_dress": {
       "name": "Robe ceinturée popeline coton/soie – Dior",
-      "description": "Robe mi-longue, tissu léger en popeline de coton et soie, coupe ceinturée, manches longues, design épuré. Parfait cocktail entre confort et élégance.",
-      "details": "Popeline de coton et soie. Ceinture amovible. Lavage en machine délicat."
+      "description": "Robe mi-longue, tissu léger en popeline de coton et soie, coupe ceinturée, manches longues, design épuré. Parfait cocktail entre confort et élégance."
     },
     "dior_oblique_dress": {
       "name": "Robe floue à motif “Dior Oblique” – Dior",
-      "description": "Robe en denim léger à motif Oblique, coupe fluide, col asymétrique, tissu exclusif Dior.",
-      "details": "Denim léger exclusif Dior. Coupe fluide. Nettoyage à sec recommandé."
+      "description": "Robe en denim léger à motif Oblique, coupe fluide, col asymétrique, tissu exclusif Dior."
     },
     "dior_shirt_dress": {
       "name": "Robe chemise popeline noire – Dior",
-      "description": "Robe chemise simple en popeline de coton et soie, coupe droite, col classique, manches longues, élégance minimaliste.",
-      "details": "Popeline de coton et soie. Coupe droite. Peut se porter ceinturée."
+      "description": "Robe chemise simple en popeline de coton et soie, coupe droite, col classique, manches longues, élégance minimaliste."
     },
     "dior_tweed_dress": {
       "name": "Robe tweed macrocannage – Dior",
-      "description": "Robe courte en tweed gris avec motif macrocannage, mélange laine et soie, coupe droite, silhouette structurée.",
-      "details": "Tweed de laine et soie. Motif macrocannage. Nettoyage à sec uniquement."
+      "description": "Robe courte en tweed gris avec motif macrocannage, mélange laine et soie, coupe droite, silhouette structurée."
     },
     "armani_silk_top": {
       "name": "Top en soie – Armani",
-      "description": "Haut fluide en soie, fines bretelles, coupe fluide, finition satinée. Idéal pour des looks élégants jour/nuit.",
-      "details": "100% soie. Fines bretelles réglables. Lavage à la main recommandé."
+      "description": "Haut fluide en soie, fines bretelles, coupe fluide, finition satinée. Idéal pour des looks élégants jour/nuit."
     },
     "armani_cotton_shirt": {
       "name": "Chemise en coton égyptien – Armani",
-      "description": "Chemise luxe en popeline de coton égyptien, coupe droite, col italien, boutons discrets, finition nette.",
-      "details": "100% coton égyptien. Col italien. Boutons en nacre."
+      "description": "Chemise luxe en popeline de coton égyptien, coupe droite, col italien, boutons discrets, finition nette."
     },
     "armani_wool_trousers": {
       "name": "Pantalon tailleur laine – Giorgio Armani",
-      "description": "Pantalon de tailleur en laine vierge, coupe cigarette, taille haute, plis nets, doublure confortable.",
-      "details": "100% laine vierge. Coupe cigarette. Nettoyage à sec."
+      "description": "Pantalon de tailleur en laine vierge, coupe cigarette, taille haute, plis nets, doublure confortable."
     },
     "gucci_premium_jeans": {
       "name": "Jean en jeans premium – Gucci",
-      "description": "Jean haut de gamme en denim de qualité supérieure, coupe slim, détails signature logo ou broderie, style urbain-luxe.",
-      "details": "Denim de qualité supérieure. Détails signature Gucci. Lavage en machine."
+      "description": "Jean haut de gamme en denim de qualité supérieure, coupe slim, détails signature logo ou broderie, style urbain-luxe."
     },
     "burberry_wool_coat": {
       "name": "Manteau long en laine – Burberry",
-      "description": "Trench-coat transformé en manteau long, laine lourde, doublure soignée, coupe classique à la Burberry, poches pratiques.",
-      "details": "Laine lourde. Doublure check Burberry. Nettoyage à sec."
+      "description": "Trench-coat transformé en manteau long, laine lourde, doublure soignée, coupe classique à la Burberry, poches pratiques."
     },
     "saint_laurent_leather_jacket": {
       "name": "Veste en cuir d’agneau – Saint Laurent",
-      "description": "Blouson biker en cuir d’agneau lisse, coupe ajustée, zips métalliques, col large, style rock-chic.",
-      "details": "100% cuir d’agneau. Zips métalliques. Entretien par un spécialiste du cuir."
+      "description": "Blouson biker en cuir d’agneau lisse, coupe ajustée, zips métalliques, col large, style rock-chic."
     },
     "cucinelli_cashmere_sweater": {
       "name": "Pull en cachemire – Brunello Cucinelli",
-      "description": "Pull ultra-doux en cachemire haut de gamme, coupe légèrement oversize, finitions luxueuses, tricot artisanal.",
-      "details": "100% cachemire. Tricot artisanal. Lavage à la main recommandé."
+      "description": "Pull ultra-doux en cachemire haut de gamme, coupe légèrement oversize, finitions luxueuses, tricot artisanal."
     },
     "miu_miu_pleated_dress": {
       "name": "Robe plissée – Miu Miu",
-      "description": "Robe midi plissée en tissu léger, coupe fluide, bretelles fines, design féminin et jeune.",
-      "details": "Tissu plissé léger. Bretelles fines. Nettoyage à sec."
+      "description": "Robe midi plissée en tissu léger, coupe fluide, bretelles fines, design féminin et jeune."
     },
     "chloe_muslin_blouse": {
       "name": "Blouse en mousseline – Chloé",
-      "description": "Blouse en mousseline de soie, manches ballon, col à lavallière, transparence délicate, romantique bohème.",
-      "details": "Mousseline de soie. Manches ballon. Col à nouer."
+      "description": "Blouse en mousseline de soie, manches ballon, col à lavallière, transparence délicate, romantique bohème."
     },
     "valentino_embroidered_dress": {
       "name": "Robe en tulle brodé – Valentino",
-      "description": "Robe de soirée en tulle brodé, grosses fleurs, coupe évasée, couches de tulle, très romantique et couture.",
-      "details": "Tulle brodé. Doublure en soie. Nettoyage à sec couture."
+      "description": "Robe de soirée en tulle brodé, grosses fleurs, coupe évasée, couches de tulle, très romantique et couture."
     },
     "burberry_gabardine_trench": {
       "name": "Trench coton gabardine – Burberry",
-      "description": "Trench classique en gabardine de coton, ceinture à la taille, doublure check iconique, coupe intemporelle.",
-      "details": "Gabardine de coton. Doublure check. Nettoyage à sec."
+      "description": "Trench classique en gabardine de coton, ceinture à la taille, doublure check iconique, coupe intemporelle."
     },
     "bottega_veneta_leather_skirt": {
       "name": "Jupe midi en cuir – Bottega Veneta",
-      "description": "Jupe midi en cuir souple, taille haute, coupe droite, finition lisse, élégance moderne.",
-      "details": "Cuir d'agneau souple. Entretien par un spécialiste du cuir."
+      "description": "Jupe midi en cuir souple, taille haute, coupe droite, finition lisse, élégance moderne."
     },
     "prada_silk_jumpsuit": {
       "name": "Combinaison pantalon en soie – Prada",
-      "description": "Combinaison en soie fluide, bretelles fines, décolleté V, coupe large pantalon, unisexe chic.",
-      "details": "100% soie. Coupe large. Nettoyage à sec."
+      "description": "Combinaison en soie fluide, bretelles fines, décolleté V, coupe large pantalon, unisexe chic."
     },
     "chanel_tweed_vest": {
       "name": "Gilet sans manches en tweed – Chanel",
-      "description": "Gilet tailleur sans manches en tweed, bordures perlées, poches plaquées, style demeuré chic “Chanel”.",
-      "details": "Tweed iconique Chanel. Finitions perlées. Nettoyage à sec couture."
+      "description": "Gilet tailleur sans manches en tweed, bordures perlées, poches plaquées, style demeuré chic “Chanel”."
     },
     "stella_mccartney_wrap_dress": {
       "name": "Robe portefeuille en crêpe – Stella McCartney",
-      "description": "Robe portefeuille en crêpe fluide, ceinture à nouer, col V, coupe flatteuse, design durable.",
-      "details": "Crêpe fluide durable. Ceinture à nouer. Lavage en machine."
+      "description": "Robe portefeuille en crêpe fluide, ceinture à nouer, col V, coupe flatteuse, design durable."
     },
     "balmain_luxe_sweatshirt": {
       "name": "Sweatshirt luxe en coton – Balmain",
-      "description": "Sweat à coupe structurée, coton épais, logo Balmain discret, manches raglan, bord-côte fin.",
-      "details": "Coton épais. Logo discret. Lavage en machine."
+      "description": "Sweat à coupe structurée, coton épais, logo Balmain discret, manches raglan, bord-côte fin."
     },
     "valentino_silk_tunic": {
       "name": "Tunique en soie sauvage – Valentino",
-      "description": "Tunique ample en soie sauvage, manches 3/4, col bateau, tombé fluide, élégance naturelle.",
-      "details": "100% soie sauvage. Coupe ample. Nettoyage à sec."
+      "description": "Tunique ample en soie sauvage, manches 3/4, col bateau, tombé fluide, élégance naturelle."
     },
     "max_mara_wool_shorts": {
       "name": "Short tailleur en laine – Max Mara",
-      "description": "Short tailleur en laine mélangée, taille haute, plis devant, ourlet soigné, parfait pour un look chic estival.",
-      "details": "Laine mélangée. Taille haute. Nettoyage à sec."
+      "description": "Short tailleur en laine mélangée, taille haute, plis devant, ourlet soigné, parfait pour un look chic estival."
     },
     "oscar_de_la_renta_bustier_dress": {
       "name": "Robe bustier brodée – Oscar de la Renta",
-      "description": "Robe de bal bustier, broderies florales, jupe ample en taffetas, coupe glamour couture.",
-      "details": "Taffetas et broderies florales. Nettoyage à sec couture."
+      "description": "Robe de bal bustier, broderies florales, jupe ample en taffetas, coupe glamour couture."
     },
     "givenchy_satin_shirt": {
       "name": "Chemise en satin – Givenchy",
-      "description": "Chemise fluide en satin, coupe relax, col classique, boutons discrets, chic minimaliste.",
-      "details": "Satin fluide. Coupe relax. Lavage délicat."
+      "description": "Chemise fluide en satin, coupe relax, col classique, boutons discrets, chic minimaliste."
     },
     "the_row_cashmere_cardigan": {
       "name": "Cardigan en cachemire fin – The Row",
-      "description": "Cardigan luxueux en cachemire, coupe épurée, boutons nacrés, design discret et très haut de gamme.",
-      "details": "100% cachemire. Boutons en nacre. Lavage à la main."
+      "description": "Cardigan luxueux en cachemire, coupe épurée, boutons nacrés, design discret et très haut de gamme."
     },
     "valentino_palazzo_pants": {
       "name": "Pantalon palazzo en soie – Valentino",
-      "description": "Pantalon palazzo en soie légère, taille élastique, coupe fluide, pour un confort et une élégance maximale.",
-      "details": "100% soie légère. Taille élastique. Nettoyage à sec."
+      "description": "Pantalon palazzo en soie légère, taille élastique, coupe fluide, pour un confort et une élégance maximale."
     },
     "balenciaga_silk_jersey_tshirt": {
       "name": "T-shirt luxe en jersey de soie – Balenciaga",
-      "description": "T-shirt oversize en jersey de soie, col rond, manches courtes, tombé fluide, style “quiet luxury” moderne.",
-      "details": "Jersey de soie. Coupe oversize. Lavage délicat."
+      "description": "T-shirt oversize en jersey de soie, col rond, manches courtes, tombé fluide, style “quiet luxury” moderne."
     },
     "cucinelli_wool_cape": {
       "name": "Cape laine & cachemire – Brunello Cucinelli",
-      "description": "Cape haut-de-gamme en mélange laine et cachemire, coupe ample, poches invisibles, finition artisanale.",
-      "details": "Mélange laine et cachemire. Finition artisanale. Nettoyage à sec."
+      "description": "Cape haut-de-gamme en mélange laine et cachemire, coupe ample, poches invisibles, finition artisanale."
     },
     "ezential_bag": {
       "name": "Sac 'Le Quotidien' en Cuir Taurillon",

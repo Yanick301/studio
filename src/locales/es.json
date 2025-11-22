@@ -425,333 +425,267 @@
   "products": {
     "gucci_silk_dress": {
       "name": "Vestido de seda con estampado de cinta de Gucci",
-      "description": "Vestido midi de seda multicolor con estampado de cinta, mangas largas abullonadas, cuello con lazo para anudar y cierre de botón en la espalda. Tejido 100% seda, corte fluido y femenino.",
-      "details": "Tejido 100% seda, corte fluido. Se recomienda limpieza en seco profesional."
+      "description": "Vestido midi de seda multicolor con estampado de cinta, mangas largas abullonadas, cuello con lazo para anudar y cierre de botón en la espalda. Tejido 100% seda, corte fluido y femenino."
     },
     "dior_blazer_dress": {
       "name": "Vestido blazer de gabardina de lana y seda de Dior",
-      "description": "Vestido blazer de largo medio confeccionado en gabardina de lana virgen mezclada con seda. Corte estructurado, hombros definidos, cinturón en la cintura. Evoca un estilo profesional muy chic.",
-      "details": "Gabardina de lana virgen y seda. Corte estructurado. Solo limpieza en seco."
+      "description": "Vestido blazer de largo medio confeccionado en gabardina de lana virgen mezclada con seda. Corte estructurado, hombros definidos, cinturón en la cintura. Evoca un estilo profesional muy chic."
     },
     "dior_poplin_dress": {
       "name": "Vestido de popelina de algodón/seda con cinturón de Dior",
-      "description": "Vestido de largo medio, tejido ligero de popelina de algodón y seda, corte con cinturón, mangas largas, diseño limpio. Un cóctel perfecto entre comodidad y elegancia.",
-      "details": "Popelina de algodón y seda. Cinturón extraíble. Lavado a máquina suave."
+      "description": "Vestido de largo medio, tejido ligero de popelina de algodón y seda, corte con cinturón, mangas largas, diseño limpio. Un cóctel perfecto entre comodidad y elegancia."
     },
     "dior_oblique_dress": {
       "name": "Vestido fluido con motivo Dior Oblique",
-      "description": "Vestido de denim ligero con motivo Oblique, corte fluido, cuello asimétrico, tejido exclusivo de Dior.",
-      "details": "Denim ligero exclusivo de Dior. Corte fluido. Se recomienda limpieza en seco."
+      "description": "Vestido de denim ligero con motivo Oblique, corte fluido, cuello asimétrico, tejido exclusivo de Dior."
     },
     "dior_shirt_dress": {
       "name": "Vestido camisero de popelina negro de Dior",
-      "description": "Vestido camisero sencillo de popelina de algodón y seda, corte recto, cuello clásico, mangas largas, elegancia minimalista.",
-      "details": "Popelina de algodón y seda. Corte recto. Se puede llevar con cinturón."
+      "description": "Vestido camisero sencillo de popelina de algodón y seda, corte recto, cuello clásico, mangas largas, elegancia minimalista."
     },
     "dior_tweed_dress": {
       "name": "Vestido de tweed macrocannage de Dior",
-      "description": "Vestido corto de tweed gris con motivo macrocannage, mezcla de lana y seda, corte recto, silueta estructurada.",
-      "details": "Tweed de lana y seda. Motivo macrocannage. Solo limpieza en seco."
+      "description": "Vestido corto de tweed gris con motivo macrocannage, mezcla de lana y seda, corte recto, silueta estructurada."
     },
     "armani_silk_top": {
       "name": "Top de seda de Armani",
-      "description": "Top de seda fluido, tirantes finos, corte fluido, acabado satinado. Ideal para looks elegantes de día y de noche.",
-      "details": "100% seda. Tirantes finos ajustables. Se recomienda lavar a mano."
+      "description": "Top de seda fluido, tirantes finos, corte fluido, acabado satinado. Ideal para looks elegantes de día y de noche."
     },
     "armani_cotton_shirt": {
       "name": "Camisa de algodón egipcio de Armani",
-      "description": "Camisa de lujo de popelina de algodón egipcio, corte recto, cuello italiano, botones discretos, acabado impecable.",
-      "details": "100% algodón egipcio. Cuello italiano. Botones de nácar."
+      "description": "Camisa de lujo de popelina de algodón egipcio, corte recto, cuello italiano, botones discretos, acabado impecable."
     },
     "armani_wool_trousers": {
       "name": "Pantalón de sastre de lana de Giorgio Armani",
-      "description": "Pantalón de sastre de lana virgen, corte pitillo, talle alto, pinzas marcadas, forro cómodo.",
-      "details": "100% lana virgen. Corte pitillo. Limpieza en seco."
+      "description": "Pantalón de sastre de lana virgen, corte pitillo, talle alto, pinzas marcadas, forro cómodo."
     },
     "gucci_premium_jeans": {
       "name": "Vaqueros premium de Gucci",
-      "description": "Vaqueros de alta gama de denim de primera calidad, corte slim, detalles característicos con logo o bordado, estilo urbano de lujo.",
-      "details": "Denim de primera calidad. Detalles característicos de Gucci. Lavar a máquina."
+      "description": "Vaqueros de alta gama de denim de primera calidad, corte slim, detalles característicos con logo o bordado, estilo urbano de lujo."
     },
     "burberry_wool_coat": {
       "name": "Abrigo largo de lana de Burberry",
-      "description": "Gabardina transformada en abrigo largo, lana pesada, forro cuidado, corte clásico de Burberry, bolsillos prácticos.",
-      "details": "Lana pesada. Forro con el estampado de cuadros de Burberry. Limpieza en seco."
+      "description": "Gabardina transformada en abrigo largo, lana pesada, forro cuidado, corte clásico de Burberry, bolsillos prácticos."
     },
     "saint_laurent_leather_jacket": {
       "name": "Chaqueta de piel de cordero de Saint Laurent",
-      "description": "Chaqueta de motorista de piel de cordero suave, corte ajustado, cremalleras metálicas, cuello ancho, estilo rock-chic.",
-      "details": "100% piel de cordero. Cremalleras metálicas. Cuidado especializado de la piel."
+      "description": "Chaqueta de motorista de piel de cordero suave, corte ajustado, cremalleras metálicas, cuello ancho, estilo rock-chic."
     },
     "cucinelli_cashmere_sweater": {
       "name": "Jersey de cachemira de Brunello Cucinelli",
-      "description": "Jersey ultrasuave de cachemira de alta gama, corte ligeramente oversize, acabados de lujo, punto artesanal.",
-      "details": "100% cachemira. Punto artesanal. Se recomienda lavar a mano."
+      "description": "Jersey ultrasuave de cachemira de alta gama, corte ligeramente oversize, acabados de lujo, punto artesanal."
     },
     "miu_miu_pleated_dress": {
       "name": "Vestido plisado de Miu Miu",
-      "description": "Vestido midi plisado de tejido ligero, corte fluido, tirantes finos, diseño femenino y juvenil.",
-      "details": "Tejido ligero plisado. Tirantes finos. Limpieza en seco."
+      "description": "Vestido midi plisado de tejido ligero, corte fluido, tirantes finos, diseño femenino y juvenil."
     },
     "chloe_muslin_blouse": {
       "name": "Blusa de muselina de Chloé",
-      "description": "Blusa de muselina de seda, mangas abullonadas, cuello lavallière, transparencia delicada, romántico bohemio.",
-      "details": "Muselina de seda. Mangas abullonadas. Cuello para anudar."
+      "description": "Blusa de muselina de seda, mangas abullonadas, cuello lavallière, transparencia delicada, romántico bohemio."
     },
     "valentino_embroidered_dress": {
       "name": "Vestido de tul bordado de Valentino",
-      "description": "Vestido de noche de tul bordado, flores grandes, corte acampanado, capas de tul, muy romántico y de alta costura.",
-      "details": "Tul bordado. Forro de seda. Limpieza en seco de alta costura."
+      "description": "Vestido de noche de tul bordado, flores grandes, corte acampanado, capas de tul, muy romántico y de alta costura."
     },
     "burberry_gabardine_trench": {
       "name": "Gabardina de algodón de Burberry",
-      "description": "Gabardina clásica de algodón, cinturón en la cintura, forro con el icónico estampado de cuadros, corte atemporal.",
-      "details": "Gabardina de algodón. Forro con estampado de cuadros. Limpieza en seco."
+      "description": "Gabardina clásica de algodón, cinturón en la cintura, forro con el icónico estampado de cuadros, corte atemporal."
     },
     "bottega_veneta_leather_skirt": {
       "name": "Falda midi de piel de Bottega Veneta",
-      "description": "Falda midi de piel flexible, talle alto, corte recto, acabado liso, elegancia moderna.",
-      "details": "Piel de cordero flexible. Cuidado especializado de la piel."
+      "description": "Falda midi de piel flexible, talle alto, corte recto, acabado liso, elegancia moderna."
     },
     "prada_silk_jumpsuit": {
       "name": "Mono de seda de Prada",
-      "description": "Mono de seda fluido, tirantes finos, escote en V, pantalón de pernera ancha, unisex chic.",
-      "details": "100% seda. Pernera ancha. Limpieza en seco."
+      "description": "Mono de seda fluido, tirantes finos, escote en V, pantalón de pernera ancha, unisex chic."
     },
     "chanel_tweed_vest": {
       "name": "Chaleco sin mangas de tweed de Chanel",
-      "description": "Chaleco de sastre sin mangas de tweed, bordes con perlas, bolsillos de parche, estilo chic atemporal de Chanel.",
-      "details": "Tweed icónico de Chanel. Acabados con perlas. Limpieza en seco de alta costura."
+      "description": "Chaleco de sastre sin mangas de tweed, bordes con perlas, bolsillos de parche, estilo chic atemporal de Chanel."
     },
     "stella_mccartney_wrap_dress": {
       "name": "Vestido cruzado de crepé de Stella McCartney",
-      "description": "Vestido cruzado de crepé fluido, cinturón para anudar, cuello en V, corte favorecedor, diseño sostenible.",
-      "details": "Crepé fluido sostenible. Cinturón para anudar. Lavar a máquina."
+      "description": "Vestido cruzado de crepé fluido, cinturón para anudar, cuello en V, corte favorecedor, diseño sostenible."
     },
     "balmain_luxe_sweatshirt": {
       "name": "Sudadera de lujo de algodón de Balmain",
-      "description": "Sudadera de corte estructurado, algodón grueso, logo discreto de Balmain, mangas raglán, bajo de canalé fino.",
-      "details": "Algodón grueso. Logo discreto. Lavar a máquina."
+      "description": "Sudadera de corte estructurado, algodón grueso, logo discreto de Balmain, mangas raglán, bajo de canalé fino."
     },
     "valentino_silk_tunic": {
       "name": "Túnica de seda salvaje de Valentino",
-      "description": "Túnica amplia de seda salvaje, mangas 3/4, cuello barco, caída fluida, elegancia natural.",
-      "details": "100% seda salvaje. Corte amplio. Limpieza en seco."
+      "description": "Túnica amplia de seda salvaje, mangas 3/4, cuello barco, caída fluida, elegancia natural."
     },
     "max_mara_wool_shorts": {
       "name": "Shorts de sastre de lana de Max Mara",
-      "description": "Shorts de sastre de mezcla de lana, talle alto, pinzas delanteras, bajo cuidado, perfectos para un look chic de verano.",
-      "details": "Mezcla de lana. Talle alto. Limpieza en seco."
+      "description": "Shorts de sastre de mezcla de lana, talle alto, pinzas delanteras, bajo cuidado, perfectos para un look chic de verano."
     },
     "oscar_de_la_renta_bustier_dress": {
       "name": "Vestido bustier bordado de Oscar de la Renta",
-      "description": "Vestido de baile bustier, bordados florales, falda amplia de tafetán, corte glamuroso de alta costura.",
-      "details": "Tafetán y bordados florales. Limpieza en seco de alta costura."
+      "description": "Vestido de baile bustier, bordados florales, falda amplia de tafetán, corte glamuroso de alta costura."
     },
     "givenchy_satin_shirt": {
       "name": "Camisa de satén de Givenchy",
-      "description": "Camisa de satén fluida, corte relajado, cuello clásico, botones discretos, chic minimalista.",
-      "details": "Satén fluido. Corte relajado. Lavado delicado."
+      "description": "Camisa de satén fluida, corte relajado, cuello clásico, botones discretos, chic minimalista."
     },
     "the_row_cashmere_cardigan": {
       "name": "Cárdigan de cachemira fina de The Row",
-      "description": "Cárdigan de cachemira de lujo, corte limpio, botones de nácar, diseño discreto y de muy alta gama.",
-      "details": "100% cachemira. Botones de nácar. Lavar a mano."
+      "description": "Cárdigan de cachemira de lujo, corte limpio, botones de nácar, diseño discreto y de muy alta gama."
     },
     "valentino_palazzo_pants": {
       "name": "Pantalón palazzo de seda de Valentino",
-      "description": "Pantalón palazzo de seda ligera, cintura elástica, corte fluido, para máxima comodidad y elegancia.",
-      "details": "Seda ligera 100%. Cintura elástica. Limpieza en seco."
+      "description": "Pantalón palazzo de seda ligera, cintura elástica, corte fluido, para máxima comodidad y elegancia."
     },
     "balenciaga_silk_jersey_tshirt": {
       "name": "Camiseta de lujo de punto de seda de Balenciaga",
-      "description": "Camiseta oversize de punto de seda, cuello redondo, mangas cortas, caída fluida, estilo “lujo silencioso” moderno.",
-      "details": "Punto de seda. Corte oversize. Lavado delicado."
+      "description": "Camiseta oversize de punto de seda, cuello redondo, mangas cortas, caída fluida, estilo “lujo silencioso” moderno."
     },
     "cucinelli_wool_cape": {
       "name": "Capa de lana y cachemira de Brunello Cucinelli",
-      "description": "Capa de alta gama de mezcla de lana y cachemira, corte amplio, bolsillos invisibles, acabado artesanal.",
-      "details": "Mezcla de lana y cachemira. Acabado artesanal. Limpieza en seco."
+      "description": "Capa de alta gama de mezcla de lana y cachemira, corte amplio, bolsillos invisibles, acabado artesanal."
     },
     "ezential_bag": {
       "name": "Bolso 'El Diario' de Piel Taurillon",
-      "description": "Lujo funcional. Este bolso de hombro de piel de taurillon francés es tan flexible como resistente. Sus múltiples compartimentos lo convierten en el compañero diario ideal.",
-      "details": "Piel de Taurillon francés. Forro de antelina. Piezas metálicas con acabado de paladio. Correa de hombro ajustable."
+      "description": "Lujo funcional. Este bolso de hombro de piel de taurillon francés es tan flexible como resistente. Sus múltiples compartimentos lo convierten en el compañero diario ideal."
     },
     "lumi_clutch": {
       "name": "Minaudière 'Joya' con Estrás",
-      "description": "Más que un bolso, una joya. Esta minaudière rígida está completamente cubierta de cristales de Swarovski, capturando la luz con cada movimiento.",
-      "details": "Estructura de latón. Cristales de Swarovski. Cierre de joya. Cadena extraíble."
+      "description": "Más que un bolso, una joya. Esta minaudière rígida está completamente cubierta de cristales de Swarovski, capturando la luz con cada movimiento."
     },
     "carte_prime_holder": {
       "name": "Tarjetero 'El Minimalista' de Piel Epsom",
-      "description": "Lo esencial, con elegancia. Confeccionado en piel de becerro Epsom, conocida por su resistencia, este tarjetero fino cabe en cualquier bolsillo.",
-      "details": "Piel de becerro Epsom. Tres ranuras para tarjetas. Compartimento central. Bordes pintados a mano."
+      "description": "Lo esencial, con elegancia. Confeccionado en piel de becerro Epsom, conocida por su resistencia, este tarjetero fino cabe en cualquier bolsillo."
     },
     "finesse_belt": {
       "name": "Cinturón 'El Encanto' de Piel de Lagarto",
-      "description": "El detalle que lo cambia todo. Un cinturón fino de auténtica piel de lagarto, con una discreta hebilla de latón chapado en paladio. Un lujo sutil.",
-      "details": "Auténtica piel de lagarto. Forro de piel de becerro. Hebilla de latón con acabado de paladio."
+      "description": "El detalle que lo cambia todo. Un cinturón fino de auténtica piel de lagarto, con una discreta hebilla de latón chapado en paladio. Un lujo sutil."
     },
     "minit_bag": {
       "name": "Microbolso 'El Encantador' de Ante de Cabrito",
-      "description": "El bolso pequeño que lo tiene todo. Suficientemente grande para lo esencial (teléfono, tarjetas, pintalabios), este bolso de piel de cabra aterciopelada es el accesorio de noche perfecto.",
-      "details": "Piel de cabra aterciopelada. Correa de cadena y piel. Cierre magnético."
+      "description": "El bolso pequeño que lo tiene todo. Suficientemente grande para lo esencial (teléfono, tarjetas, pintalabios), este bolso de piel de cabra aterciopelada es el accesorio de noche perfecto."
     },
     "horizon_sunglasses": {
       "name": "Gafas de Sol 'Aviador' de Titanio y Oro",
-      "description": "Un icono revisitado. Montura ultraligera de titanio japonés, con detalles chapados en oro de 18 quilates. Lentes polarizadas para una visión perfecta.",
-      "details": "Montura de titanio. Chapado en oro de 18 quilates. Lentes polarizadas con tratamiento antirreflectante."
+      "description": "Un icono revisitado. Montura ultraligera de titanio japonés, con detalles chapados en oro de 18 quilates. Lentes polarizadas para una visión perfecta."
     },
     "nuit_scarf": {
       "name": "Estola 'Dulce Noche' de Cachemira y Seda",
-      "description": "Una bufanda de una ligereza y suavidad increíbles. La mezcla de cachemira y seda le da una caída fluida y una calidez delicada.",
-      "details": "70% Cachemira, 30% Seda. Tejido muy fino. Bordes con flecos delicados. Dimensiones: 70x200cm."
+      "description": "Una bufanda de una ligereza y suavidad increíbles. La mezcla de cachemira y seda le da una caída fluida y una calidez delicada."
     },
     "organize_pouch": {
       "name": "Estuche 'El Nómada' Tech de Piel",
-      "description": "Organiza tus esenciales tecnológicos con estilo. Este estuche de piel suave está diseñado para guardar tus cables, cargadores y otros pequeños accesorios.",
-      "details": "Piel de becerro suave. Compartimentos elásticos. Forro de microfibra."
+      "description": "Organiza tus esenciales tecnológicos con estilo. Este estuche de piel suave está diseñado para guardar tus cables, cargadores y otros pequeños accesorios."
     },
     "reflet_jewelry_set": {
       "name": "Juego de Joyas 'Gota de Rocío' de Topacio",
-      "description": "Un conjunto de collar y pendientes de una finura absoluta, que resalta topacios azules talla pera sobre una montura de oro blanco.",
-      "details": "Oro blanco de 18 quilates. Topacios azules 'Swiss Blue'. Cadena forçat."
+      "description": "Un conjunto de collar y pendientes de una finura absoluta, que resalta topacios azules talla pera sobre una montura de oro blanco."
     },
     "anchor_bracelet": {
       "name": "Pulsera 'El Ancla' de Piel Trenzada",
-      "description": "Una joya masculina casual. Esta pulsera está hecha de piel de becerro trenzada y un cierre en forma de ancla marina de acero inoxidable cepillado.",
-      "details": "Piel de becerro trenzada. Cierre de ancla de acero 316L. Hecho a mano en Italia."
+      "description": "Una joya masculina casual. Esta pulsera está hecha de piel de becerro trenzada y un cierre en forma de ancla marina de acero inoxidable cepillado."
     },
     "etoile_earrings": {
       "name": "Pendientes de Botón 'Diamante Solitario'",
-      "description": "Brillo puro. Cada pendiente está engastado con un diamante de 0.25 quilates, montado sobre oro blanco para un brillo máximo. Un clásico atemporal.",
-      "details": "Oro blanco de 18 quilates. Dos diamantes de 0.25ct cada uno, calidad G/VS. Sistema de cierre de seguridad."
+      "description": "Brillo puro. Cada pendiente está engastado con un diamante de 0.25 quilates, montado sobre oro blanco para un brillo máximo. Un clásico atemporal."
     },
     "ocean_necklace": {
       "name": "Collar 'Perla Negra' de Tahití",
-      "description": "La belleza cruda y natural de una perla negra de Tahití, simplemente suspendida de una fina cadena de oro rosa. Cada perla es única.",
-      "details": "Oro rosa de 18 quilates. Perla negra de Tahití, grado AAA, diámetro de 9-10mm."
+      "description": "La belleza cruda y natural de una perla negra de Tahití, simplemente suspendida de una fina cadena de oro rosa. Cada perla es única."
     },
     "sync_watch": {
       "name": "Reloj Automático 'Horizonte Conectado'",
-      "description": "Lo mejor de ambos mundos. Un reloj con movimiento automático suizo, alojado en una caja de titanio con un módulo de notificaciones discreto e integrado.",
-      "details": "Movimiento automático suizo. Caja de titanio de grado 5. Cristal de zafiro. Correa intercambiable."
+      "description": "Lo mejor de ambos mundos. Un reloj con movimiento automático suizo, alojado en una caja de titanio con un módulo de notificaciones discreto e integrado."
     },
     "pluie_chic_umbrella": {
       "name": "Paraguas 'El Caballero' de Madera de Arce",
-      "description": "Enfréntate a la lluvia con garbo. Un único eje de madera de arce, una amplia lona repelente al agua y una apertura manual tradicional para este paraguas excepcional.",
-      "details": "Eje y mango de madera de arce maciza. Lona de poliéster de alta densidad. Fabricado en Francia."
+      "description": "Enfréntate a la lluvia con garbo. Un único eje de madera de arce, una amplia lona repelente al agua y una apertura manual tradicional para este paraguas excepcional."
     },
     "travel_safe_wallet": {
       "name": "Cartera de Viaje 'El Trotamundos'",
-      "description": "Organiza tu viaje. Diseñada para guardar un pasaporte, tarjetas de embarque, divisas y tarjetas de crédito en un elegante formato de piel.",
-      "details": "Piel de becerro de grano completo. Protección RFID. Múltiples compartimentos."
+      "description": "Organiza tu viaje. Diseñada para guardar un pasaporte, tarjetas de embarque, divisas y tarjetas de crédito en un elegante formato de piel."
     },
     "riviera_hat": {
       "name": "Sombrero 'Côte d'Azur' de Paja de Panamá",
-      "description": "El accesorio de verano por excelencia. Tejido a mano en Ecuador, este sombrero de paja de Panamá protege del sol con una elegancia inigualable. Cinta de grosgrain.",
-      "details": "Auténtica paja de toquilla (Panamá). Tejido fino. Cinta de grosgrain intercambiable."
+      "description": "El accesorio de verano por excelencia. Tejido a mano en Ecuador, este sombrero de paja de Panamá protege del sol con una elegancia inigualable. Cinta de grosgrain."
     },
     "smart_gloves": {
       "name": "Guantes 'Táctiles' de Pecarí Forrados de Cachemira",
-      "description": "Lujo al alcance de la mano. Confeccionados con la rarísima piel de pecarí y forrados de cachemira, estos guantes son compatibles con pantallas táctiles.",
-      "details": "Piel de pecarí. Forro 100% cachemira. Tecnología compatible con pantallas táctiles."
+      "description": "Lujo al alcance de la mano. Confeccionados con la rarísima piel de pecarí y forrados de cachemira, estos guantes son compatibles con pantallas táctiles."
     },
     "ceremony_bowtie": {
       "name": "Pajarita 'Etiqueta Negra' de Falla de Seda",
-      "description": "El accesorio imprescindible para el atuendo de noche. Esta pajarita de auto-atado está cortada de una preciosa falla de seda negra.",
-      "details": "100% Falla de Seda. Auto-atado. Talla ajustable."
+      "description": "El accesorio imprescindible para el atuendo de noche. Esta pajarita de auto-atado está cortada de una preciosa falla de seda negra."
     },
     "coin_purse": {
       "name": "Monedero 'El Coleccionista' con Cierre de Boquilla",
-      "description": "Un encanto retro. Este monedero de piel de becerro suave se cierra con un clásico cierre metálico de boquilla. Ideal para tus monedas o tus pequeños secretos.",
-      "details": "Piel de becerro suave. Cierre de latón envejecido. Forro de piel de cordero."
+      "description": "Un encanto retro. Este monedero de piel de becerro suave se cierra con un clásico cierre metálico de boquilla. Ideal para tus monedas o tus pequeños secretos."
     },
     "flora_brooch": {
       "name": "Broche 'Flor de Lis' de Esmalte",
-      "description": "Un toque de poesía. Este broche, que representa una flor de lis estilizada, está realizado con la técnica del esmalte plique-à-jour, que recuerda a las vidrieras.",
-      "details": "Plata 925 chapada en oro. Esmalte plique-à-jour. Hecho a mano."
+      "description": "Un toque de poesía. Este broche, que representa una flor de lis estilizada, está realizado con la técnica del esmalte plique-à-jour, que recuerda a las vidrieras."
     },
     "luxband_headband": {
       "name": "Diadema 'Musa' de Twill de Seda",
-      "description": "Un accesorio versátil. Para llevar en el pelo, alrededor del cuello o anudado a tu bolso, esta diadema de twill de seda está impresa con un motivo exclusivo.",
-      "details": "100% Twill de Seda. Impreso por ambas caras. Dimensiones: 6 x 105 cm."
+      "description": "Un accesorio versátil. Para llevar en el pelo, alrededor del cuello o anudado a tu bolso, esta diadema de twill de seda está impresa con un motivo exclusivo."
     },
     "lecteur_glasses": {
       "name": "Gafas de Lectura 'El Intelectual'",
-      "description": "Leer con estilo. Montura de acetato de celulosa italiano, con lentes de alta calidad tratadas con antirreflejante y filtro de luz azul.",
-      "details": "Acetato de celulosa Mazzucchelli. Lentes con tratamiento antirreflejante y filtro de luz azul. Bisagras remachadas."
+      "description": "Leer con estilo. Montura de acetato de celulosa italiano, con lentes de alta calidad tratadas con antirreflejante y filtro de luz azul."
     },
     "charme_bag_charm": {
       "name": "Charm de Bolso 'El Grimorio'",
-      "description": "Personaliza tu bolso. Este charm de bolso representa un diminuto libro de piel con páginas de latón, suspendido de un mosquetón con logo.",
-      "details": "Piel y latón. Mosquetón de acero grabado."
+      "description": "Personaliza tu bolso. Este charm de bolso representa un diminuto libro de piel con páginas de latón, suspendido de un mosquetón con logo."
     },
     "portfolio_laptop_case": {
       "name": "Portadocumentos 'El Ministro' de Piel",
-      "description": "Transporta tu ordenador y tus documentos con elegancia. Este portadocumentos fino de piel de becerro está ligeramente acolchado para una protección óptima.",
-      "details": "Piel de becerro. Compartimento principal acolchado para un ordenador de 13 pulgadas. Bolsillo exterior."
+      "description": "Transporta tu ordenador y tus documentos con elegancia. Este portadocumentos fino de piel de becerro está ligeramente acolchado para una protección óptima."
     },
     "keygold_keychain": {
       "name": "Llavero 'El Guardián' de Piel y Latón",
-      "description": "Un objeto cotidiano transformado en una joya. Una correa de piel de becerro granulada combinada con piezas macizas de latón cepillado.",
-      "details": "Piel de becerro y latón macizo. Anilla y mosquetón."
+      "description": "Un objeto cotidiano transformado en una joya. Una correa de piel de becerro granulada combinada con piezas macizas de latón cepillado."
     },
     "eclipse_heels": {
       "name": "Zapato de Salón 'Vértigo' de Ante 105mm",
-      "description": "La quintesencia del stiletto. Un arco perfecto y un tacón de 10.5 cm que alarga la pierna hasta el infinito. Realizado en intenso ante de cabrito negro.",
-      "details": "100% ante de cabrito italiano. Tacón de 10.5 cm. Plantilla y suela de cuero."
+      "description": "La quintesencia del stiletto. Un arco perfecto y un tacón de 10.5 cm que alarga la pierna hasta el infinito. Realizado en intenso ante de cabrito negro."
     },
     "serenite_sandals": {
       "name": "Sandalias Planas 'El Paseo' de Piel",
-      "description": "Elegancia minimalista para el verano. Estas sandalias planas con finas tiras de piel de becerro son el símbolo de un chic casual y atemporal.",
-      "details": "Piel de becerro. Plantilla acolchada. Hechas en Italia."
+      "description": "Elegancia minimalista para el verano. Estas sandalias planas con finas tiras de piel de becerro son el símbolo de un chic casual y atemporal."
     },
     "paris_boots": {
       "name": "Botines 'Rive Gauche' de Ante",
-      "description": "El botín perfecto para todos los días. Un cómodo tacón de bloque de 6 cm, una elegante forma de almendra y un suave ante de cabra. Chic parisino.",
-      "details": "Ante de cabra. Tacón de bloque de 6 cm. Cierre con cremallera lateral."
+      "description": "El botín perfecto para todos los días. Un cómodo tacón de bloque de 6 cm, una elegante forma de almendra y un suave ante de cabra. Chic parisino."
     },
     "diva_mules": {
       "name": "Mules 'Palazzo' de Satén y Cristal",
-      "description": "Para noches en las que todo vale. Estos mules de punta fina de satén están adornados con una espectacular hebilla cuadrada de cristal.",
-      "details": "Satén duquesa. Hebilla de cristal Swarovski. Tacón pequeño de 2 cm."
+      "description": "Para noches en las que todo vale. Estos mules de punta fina de satén están adornados con una espectacular hebilla cuadrada de cristal."
     },
     "street_luxe_derby": {
       "name": "Derbies 'Vanguardia' con Plataforma",
-      "description": "Un clásico reinventado. El derby tradicional se monta sobre una suela de plataforma dentada de microgoma ultraligera, para un look atrevido.",
-      "details": "Piel de becerro pulida. Suela de plataforma de microgoma. Forro de piel."
+      "description": "Un clásico reinventado. El derby tradicional se monta sobre una suela de plataforma dentada de microgoma ultraligera, para un look atrevido."
     },
     "souverain_oxfords": {
       "name": "Oxford 'El Embajador' de una pieza",
-      "description": "La elegancia en su apogeo. Este zapato Oxford está confeccionado en una sola pieza de piel de becerro, una proeza técnica. Patinado a mano en nuestros talleres.",
-      "details": "Construcción de una pieza. Piel de becerro francesa. Cosido Blake. Patinado a mano bajo pedido."
+      "description": "La elegancia en su apogeo. Este zapato Oxford está confeccionado en una sola pieza de piel de becerro, una proeza técnica. Patinado a mano en nuestros talleres."
     },
     "elite_derby": {
       "name": "Derby 'El Cónsul' con Hebilla",
-      "description": "Una alternativa original al derby de cordones. Este modelo de hebilla única (Monk Strap) de piel de becerro granulada es a la vez formal y lleno de carácter.",
-      "details": "Piel de becerro granulada. Cosido Goodyear. Hebilla de latón."
+      "description": "Una alternativa original al derby de cordones. Este modelo de hebilla única (Monk Strap) de piel de becerro granulada es a la vez formal y lleno de carácter."
     },
     "club_loafer": {
       "name": "Mocasín 'El Navegante' de Ante",
-      "description": "El compañero ideal para los fines de semana soleados. Este mocasín flexible de ante está montado sobre una suela de tacos de goma para una flexibilidad y comodidad inigualables.",
-      "details": "Ante de becerro repelente al agua. Suela de tacos de goma. Construcción tubular."
+      "description": "El compañero ideal para los fines de semana soleados. Este mocasín flexible de ante está montado sobre una suela de tacos de goma para una flexibilidad y comodidad inigualables."
     },
     "tradition_brogues": {
       "name": "Oxford 'Herencia' Full Brogue",
-      "description": "Un pilar de la elegancia británica. Este Oxford se distingue por sus perforaciones decorativas ('broguing') en todo el zapato. Un carácter asertivo.",
-      "details": "Piel de becerro 'box-calf'. Perforaciones full brogue. Cosido Goodyear sobre suela de cuero."
+      "description": "Un pilar de la elegancia británica. Este Oxford se distingue por sus perforaciones decorativas ('broguing') en todo el zapato. Un carácter asertivo."
     },
     "citadin_boots": {
       "name": "Botín Chelsea 'El Urbanita'",
-      "description": "Versatilidad y estilo. Una forma limpia, piel de becerro lisa y resistentes paneles elásticos hacen de este botín Chelsea un imprescindible del armario masculino.",
-      "details": "Piel de becerro lisa. Cosido Blake. Paneles elásticos laterales."
+      "description": "Versatilidad y estilo. Una forma limpia, piel de becerro lisa y resistentes paneles elásticos hacen de este botín Chelsea un imprescindible del armario masculino."
     },
     "runway_sneakers": {
       "name": "Zapatillas 'El Minimalista' de Piel",
-      "description": "La zapatilla de lujo depurada. Fabricada en Italia con piel de becerro lisa, su silueta minimalista combina con cualquier atuendo, desde un traje hasta unos vaqueros.",
-      "details": "Piel de becerro italiana. Forro completo de piel. Suela de goma cosida."
+      "description": "La zapatilla de lujo depurada. Fabricada en Italia con piel de becerro lisa, su silueta minimalista combina con cualquier atuendo, desde un traje hasta unos vaqueros."
     },
     "tom_ford_slim_fit_shirt": {
       "name": "Camisa slim fit de Tom Ford",
