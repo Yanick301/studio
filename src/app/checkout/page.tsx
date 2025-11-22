@@ -22,6 +22,7 @@ import { toast } from '@/hooks/use-toast';
 import { CardElement, useStripe, useElements } from '@stripe/react-stripe-js';
 import { useState } from 'react';
 import { StripeCardElementOptions } from '@stripe/stripe-js';
+import { useRouter } from 'next/navigation';
 
 const shippingSchema = z.object({
   fullName: z.string().min(2, { message: "Le nom complet est requis." }),
@@ -54,6 +55,7 @@ export default function CheckoutPage() {
     const { cart, clearCart } = useCart();
     const stripe = useStripe();
     const elements = useElements();
+    const router = useRouter();
     const [isProcessing, setIsProcessing] = useState(false);
     const [errorMessage, setErrorMessage] = useState<string | null>(null);
     
@@ -64,7 +66,7 @@ export default function CheckoutPage() {
             address: '',
             city: '',
             zip: '',
-            country: '',
+            country: 'France', // Valeur par défaut
         },
     });
 
@@ -73,9 +75,7 @@ export default function CheckoutPage() {
     const total = subtotal + shipping;
 
     const onSubmit: SubmitHandler<ShippingFormValues> = async (data) => {
-        if (!stripe || !elements) {
-          // Stripe.js has not yet loaded.
-          // Make sure to disable form submission until Stripe.js has loaded.
+        if (!stripe || !elements || cart.length === 0) {
           return;
         }
 
@@ -83,14 +83,14 @@ export default function CheckoutPage() {
         setErrorMessage(null);
 
         const cardElement = elements.getElement(CardElement);
-
         if (!cardElement) {
              setIsProcessing(false);
              setErrorMessage("L'élément de carte n'a pas été trouvé. Veuillez rafraîchir la page.");
              return;
         }
-
-        const { error, paymentMethod } = await stripe.createPaymentMethod({
+        
+        // 1. Créer le PaymentMethod
+        const { error: paymentMethodError, paymentMethod } = await stripe.createPaymentMethod({
             type: 'card',
             card: cardElement,
             billing_details: {
@@ -104,65 +104,63 @@ export default function CheckoutPage() {
             },
         });
 
-        if (error) {
-            setErrorMessage(error.message || "Une erreur est survenue lors de la création du moyen de paiement.");
+        if (paymentMethodError) {
+            setErrorMessage(paymentMethodError.message || "Une erreur est survenue lors de la création du moyen de paiement.");
             setIsProcessing(false);
             return;
         }
 
-        // =================================================================
-        // ÉTAPE CÔTÉ SERVEUR (À IMPLÉMENTER)
-        // =================================================================
-        // Ici, vous enverriez paymentMethod.id à votre backend.
-        // Votre backend créerait et confirmerait un PaymentIntent Stripe.
-        // Exemple d'appel à une API que vous créeriez :
-        /*
-        const response = await fetch('/api/create-payment-intent', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({
-                paymentMethodId: paymentMethod.id,
-                amount: Math.round(total * 100), // Montant en centimes
-                cart: cart,
-            }),
-        });
+        // 2. Appeler l'API backend pour créer et confirmer le PaymentIntent
+        try {
+            const response = await fetch('/api/create-payment-intent', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    paymentMethodId: paymentMethod.id,
+                    items: cart.map(item => ({ id: item.id, quantity: item.quantity })),
+                }),
+            });
 
-        const paymentResult = await response.json();
+            const paymentResult = await response.json();
 
-        if (paymentResult.error) {
-            setErrorMessage(paymentResult.error);
-            setIsProcessing(false);
-            return;
-        } 
-        
-        // Gérer la redirection 3D Secure si nécessaire
-        if (paymentResult.requiresAction) {
-             const { error: errorAction } = await stripe.handleNextAction(paymentResult.clientSecret);
-             if (errorAction) {
-                setErrorMessage(errorAction.message || "Une erreur d'authentification est survenue.");
+            if (paymentResult.error) {
+                setErrorMessage(paymentResult.error);
                 setIsProcessing(false);
                 return;
-             }
-        }
-        */
-        // =================================================================
-        // FIN DE L'ÉTAPE CÔTÉ SERVEUR
-        // =================================================================
-        
-        // Simulation d'un paiement réussi pour l'instant
-        console.log("PaymentMethod créé:", paymentMethod);
-        
-        // Simulating a delay for the backend call
-        await new Promise(resolve => setTimeout(resolve, 1500));
+            } 
+            
+            // 3. Gérer les actions supplémentaires (ex: 3D Secure)
+            if (paymentResult.requiresAction) {
+                 toast({
+                    title: "Authentification requise",
+                    description: "Veuillez suivre les instructions de votre banque pour finaliser le paiement.",
+                });
+                 const { error: errorAction } = await stripe.handleNextAction(paymentResult.clientSecret);
+                 if (errorAction) {
+                    setErrorMessage(errorAction.message || "Une erreur d'authentification est survenue.");
+                    setIsProcessing(false);
+                    return;
+                 }
+            }
+            
+            // 4. Paiement réussi
+            if (paymentResult.success) {
+                toast({
+                    title: "Paiement réussi !",
+                    description: "Votre commande a été passée avec succès.",
+                });
+                
+                clearCart();
+                // Rediriger vers une page de confirmation
+                // router.push('/confirmation-commande'); 
+            }
 
-        toast({
-            title: "Paiement réussi !",
-            description: "Votre commande a été passée avec succès.",
-        });
-        
-        clearCart();
-        setIsProcessing(false);
-        // router.push('/confirmation-commande'); // Rediriger vers une page de confirmation
+        } catch (error) {
+            console.error("Erreur lors de l'appel à l'API de paiement:", error);
+            setErrorMessage("Une erreur réseau est survenue. Veuillez réessayer.");
+        } finally {
+            setIsProcessing(false);
+        }
     };
 
     return (
@@ -184,7 +182,7 @@ export default function CheckoutPage() {
                                         <FormItem className="sm:col-span-2">
                                             <FormLabel>{t('checkout_page.full_name')}</FormLabel>
                                             <FormControl>
-                                                <Input placeholder={t('checkout_page.full_name_placeholder')} {...field} />
+                                                <Input placeholder={t('checkout_page.full_name_placeholder')} {...field} required/>
                                             </FormControl>
                                             <FormMessage />
                                         </FormItem>
@@ -197,7 +195,7 @@ export default function CheckoutPage() {
                                         <FormItem className="sm:col-span-2">
                                             <FormLabel>{t('checkout_page.address')}</FormLabel>
                                             <FormControl>
-                                                <Input placeholder={t('checkout_page.address_placeholder')} {...field} />
+                                                <Input placeholder={t('checkout_page.address_placeholder')} {...field} required/>
                                             </FormControl>
                                             <FormMessage />
                                         </FormItem>
@@ -209,7 +207,7 @@ export default function CheckoutPage() {
                                     render={({ field }) => (
                                         <FormItem>
                                             <FormLabel>{t('checkout_page.city')}</FormLabel>
-                                            <FormControl><Input {...field} /></FormControl>
+                                            <FormControl><Input {...field} required/></FormControl>
                                             <FormMessage />
                                         </FormItem>
                                     )}
@@ -220,7 +218,7 @@ export default function CheckoutPage() {
                                     render={({ field }) => (
                                         <FormItem>
                                             <FormLabel>{t('checkout_page.zip_code')}</FormLabel>
-                                            <FormControl><Input {...field} /></FormControl>
+                                            <FormControl><Input {...field} required/></FormControl>
                                             <FormMessage />
                                         </FormItem>
                                     )}
@@ -231,7 +229,7 @@ export default function CheckoutPage() {
                                     render={({ field }) => (
                                         <FormItem className="sm:col-span-2">
                                             <FormLabel>{t('checkout_page.country')}</FormLabel>
-                                            <FormControl><Input {...field} /></FormControl>
+                                            <FormControl><Input {...field} required/></FormControl>
                                             <FormMessage />
                                         </FormItem>
                                     )}
@@ -253,9 +251,9 @@ export default function CheckoutPage() {
                         <h2 className="text-2xl font-semibold mb-6">{t('checkout_page.order_summary')}</h2>
                         <div className="space-y-4 text-sm">
                             {cart.map((item) => (
-                                <div key={item.id} className="flex justify-between">
+                                <div key={item.cartItemId} className="flex justify-between">
                                     <span className="text-muted-foreground">{t(item.name)} x{item.quantity}</span>
-                                    <span className="font-medium">{item.price.toFixed(2)} €</span>
+                                    <span className="font-medium">{(item.price * item.quantity).toFixed(2)} €</span>
                                 </div>
                             ))}
                         </div>
