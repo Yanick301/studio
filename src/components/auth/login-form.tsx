@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Button } from "@/components/ui/button"
 import {
   Card,
@@ -17,7 +17,7 @@ import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { z } from 'zod';
 import { useAuth, initiateEmailSignIn, initiateGoogleSignIn } from '@/firebase';
-import { useRouter } from 'next/navigation';
+import { useRouter, useSearchParams } from 'next/navigation';
 import { useToast } from '@/hooks/use-toast';
 import { Loader2 } from 'lucide-react';
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
@@ -38,8 +38,10 @@ export function LoginForm() {
   const [error, setError] = useState<string | null>(null);
   const auth = useAuth();
   const router = useRouter();
+  const searchParams = useSearchParams();
   const { toast } = useToast();
   const { user, isUserLoading } = useUser();
+  const redirectUrl = searchParams.get('redirect') || '/account/profile';
 
   const {
     register,
@@ -49,6 +51,13 @@ export function LoginForm() {
   } = useForm<LoginFormValues>({
     resolver: zodResolver(loginSchema),
   });
+
+  useEffect(() => {
+    if (user && !isUserLoading) {
+      router.push(redirectUrl);
+    }
+  }, [user, isUserLoading, router, redirectUrl]);
+
 
   const onSubmit = (data: LoginFormValues) => {
     setIsLoading(true);
@@ -87,10 +96,6 @@ export function LoginForm() {
       });
     }
   };
-
-  if (user && !isUserLoading) {
-    router.push('/account/profile');
-  }
 
   return (
     <Card className="w-full max-w-sm">

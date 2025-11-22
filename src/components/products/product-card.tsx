@@ -1,14 +1,17 @@
 'use client';
 
+import { useState, useEffect } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { type Product } from '@/lib/definitions';
+import { type Product, type Favorite } from '@/lib/definitions';
 import { Button } from '@/components/ui/button';
-import { Heart, ShoppingCart } from 'lucide-react';
+import { Heart, ShoppingCart, CheckCircle, Loader2 } from 'lucide-react';
 import { Card } from '@/components/ui/card';
 import { useTranslation } from '@/hooks/use-translation';
 import { useCart } from '@/contexts/cart-context';
 import { useToast } from '@/hooks/use-toast';
+import { useUser, useFirestore, useMemoFirebase, setDocumentNonBlocking, deleteDocumentNonBlocking } from '@/firebase';
+import { collection, query, where, getDocs, doc } from 'firebase/firestore';
 
 interface ProductCardProps {
   product: Product;
@@ -19,10 +22,52 @@ export function ProductCard({ product }: ProductCardProps) {
   const productName = t(product.name);
   const { addToCart } = useCart();
   const { toast } = useToast();
+  const { user } = useUser();
+  const firestore = useFirestore();
+
+  const [isFavorite, setIsFavorite] = useState(false);
+  const [favoriteId, setFavoriteId] = useState<string | null>(null);
+  const [isFavoriteLoading, setIsFavoriteLoading] = useState(true);
+
+  const favoritesCollectionRef = useMemoFirebase(() => {
+    if (!firestore || !user) return null;
+    return collection(firestore, `users/${user.uid}/favorites`);
+  }, [firestore, user]);
+
+  useEffect(() => {
+    if (!user || !firestore || !product || !favoritesCollectionRef) {
+        setIsFavoriteLoading(false);
+        return;
+    }
+
+    const checkFavoriteStatus = async () => {
+        setIsFavoriteLoading(true);
+        const q = query(favoritesCollectionRef, where("productId", "==", product.id));
+        
+        try {
+            const querySnapshot = await getDocs(q);
+            if (!querySnapshot.empty) {
+                const favDoc = querySnapshot.docs[0];
+                setIsFavorite(true);
+                setFavoriteId(favDoc.id);
+            } else {
+                setIsFavorite(false);
+                setFavoriteId(null);
+            }
+        } catch (error) {
+            console.error("Error checking favorite status:", error);
+        } finally {
+            setIsFavoriteLoading(false);
+        }
+    };
+
+    checkFavoriteStatus();
+  }, [user, firestore, product, favoritesCollectionRef]);
+
 
   const handleAddToCart = (e: React.MouseEvent) => {
-    e.preventDefault(); // Prevent link navigation
-    e.stopPropagation(); // Stop event bubbling
+    e.preventDefault();
+    e.stopPropagation();
     addToCart(product, {
       size: product.options?.sizes?.[0] || null,
       color: product.options?.colors?.[0] || null
@@ -36,11 +81,49 @@ export function ProductCard({ product }: ProductCardProps) {
   const handleFavoriteClick = (e: React.MouseEvent) => {
     e.preventDefault();
     e.stopPropagation();
-    // TODO: Implement favorite logic here, similar to product detail page
-    toast({
-      title: "Fonctionnalité à venir",
-      description: "L'ajout aux favoris depuis cette carte sera bientôt disponible.",
-    });
+    
+    if (!user || !product || !favoritesCollectionRef) {
+      toast({
+        variant: "destructive",
+        title: "Veuillez vous connecter",
+        description: "Vous devez être connecté pour gérer vos favoris.",
+      });
+      return;
+    }
+
+    setIsFavoriteLoading(true);
+
+    if (isFavorite && favoriteId) {
+      const docRef = doc(favoritesCollectionRef, favoriteId);
+      deleteDocumentNonBlocking(docRef);
+      setIsFavorite(false);
+      setFavoriteId(null);
+      toast({
+        title: t('product_page.toast.favorite_removed_title'),
+        description: `${productName} ${t('product_page.toast.favorite_removed_desc')}`,
+      });
+    } else {
+      const newFavId = doc(favoritesCollectionRef).id;
+      const newFav: Favorite = {
+        id: newFavId,
+        userId: user.uid,
+        productId: product.id,
+        addedDate: new Date().toISOString(),
+      };
+      
+      const newDocRef = doc(favoritesCollectionRef, newFavId);
+      setDocumentNonBlocking(newDocRef, newFav, {});
+      
+      setIsFavorite(true);
+      setFavoriteId(newFavId);
+      
+      toast({
+        title: t('product_page.toast.favorite_added_title'),
+        description: `${productName} ${t('product_page.toast.favorite_added_desc')}`,
+      });
+    }
+     // A short delay to allow the UI to feel responsive before re-checking from DB
+    setTimeout(() => setIsFavoriteLoading(false), 500);
   };
 
   return (
@@ -61,11 +144,21 @@ export function ProductCard({ product }: ProductCardProps) {
         </Link>
         <p className="text-lg font-bold text-primary mt-1">{product.price.toFixed(2)} €</p>
         <div className="mt-4 flex gap-2">
-          <Button size="sm" className="w-full" onClick={handleAddToCart}>
-            <ShoppingCart className="mr-2 h-4 w-4" /> {t('product_card.add')}
+          <Button size="sm" className="w-full" onClick={handleAddToCart} disabled={product.stock === 0}>
+            {product.stock > 0 ? (
+                <>
+                <ShoppingCart className="mr-2 h-4 w-4" /> {t('product_card.add')}
+                </>
+            ) : t('product_page.out_of_stock')}
           </Button>
-          <Button variant="outline" size="icon" aria-label={t('product_card.add_to_favorites')} onClick={handleFavoriteClick}>
-            <Heart className="h-4 w-4" />
+          <Button variant="outline" size="icon" aria-label={t('product_card.add_to_favorites')} onClick={handleFavoriteClick} disabled={isFavoriteLoading}>
+            {isFavoriteLoading ? (
+                <Loader2 className="h-4 w-4 animate-spin"/>
+            ) : isFavorite ? (
+                <Heart className="h-4 w-4 text-red-500 fill-red-500" />
+            ) : (
+                <Heart className="h-4 w-4" />
+            )}
           </Button>
         </div>
       </div>

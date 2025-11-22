@@ -10,10 +10,11 @@ import { Loader2, Wand2, Sparkles } from 'lucide-react';
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 import { useTranslation } from '@/hooks/use-translation';
 import { Separator } from '@/components/ui/separator';
-import { useUser, useFirestore, useCollection, useDoc } from '@/firebase';
-import { collection, doc } from 'firebase/firestore';
+import { useUser, useFirestore, useCollection } from '@/firebase';
+import { collection } from 'firebase/firestore';
 import { Product, Favorite, UserProfile } from '@/lib/definitions';
 import { products as allProducts } from '@/lib/data';
+import { ProductCard } from '@/components/products/product-card';
 
 // A simple hook to get previously viewed products from localStorage
 const useViewHistory = () => {
@@ -31,13 +32,20 @@ const useViewHistory = () => {
     return history;
 };
 
+type Recommendation = PersonalizedOutfitRecommendationsOutput['recommendations'][0];
+
+interface EnrichedRecommendation extends Recommendation {
+    product: Product | undefined;
+}
+
+
 export default function RecommendationsPage() {
     const { t } = useTranslation();
     const { user } = useUser();
     const firestore = useFirestore();
 
     const [stylePreferences, setStylePreferences] = useState('');
-    const [recommendations, setRecommendations] = useState<PersonalizedOutfitRecommendationsOutput['recommendations']>([]);
+    const [recommendations, setRecommendations] = useState<EnrichedRecommendation[]>([]);
     const [isLoading, setIsLoading] = useState(false);
     const [error, setError] = useState<string | null>(null);
 
@@ -72,7 +80,19 @@ export default function RecommendationsPage() {
                 browsingHistory,
                 stylePreferences,
             });
-            setRecommendations(result.recommendations);
+
+            // Enrich recommendations with full product objects
+            const enriched = result.recommendations.map(rec => {
+                const productNameKey = rec.productName; // This is the translation key, e.g., "products.monarque_blazer.name"
+                const foundProduct = allProducts.find(p => t(p.name) === t(productNameKey));
+                return {
+                    ...rec,
+                    product: foundProduct,
+                }
+            });
+
+            setRecommendations(enriched);
+
         } catch (err) {
             setError(t('ai_stylist.error_message'));
             console.error(err);
@@ -83,7 +103,7 @@ export default function RecommendationsPage() {
 
     return (
         <div className="container py-12 md:py-16">
-            <Card className="max-w-3xl mx-auto shadow-lg border">
+            <Card className="max-w-4xl mx-auto shadow-lg border">
                 <CardHeader className="text-center">
                     <Wand2 className="mx-auto h-12 w-12 text-primary" />
                     <CardTitle className="text-3xl mt-4 font-headline">{t('ai_stylist.title')}</CardTitle>
@@ -120,15 +140,20 @@ export default function RecommendationsPage() {
                         )}
 
                         {recommendations.length > 0 && (
-                            <div className="w-full rounded-lg border bg-background p-6 space-y-6">
-                                <h3 className="font-headline text-2xl mb-4 text-center">{t('ai_stylist.results_title')}</h3>
-                                {recommendations.map((rec, index) => (
-                                    <div key={index}>
-                                        <h4 className="font-bold text-lg text-primary">{t(rec.productName)}</h4>
-                                        <p className="text-muted-foreground text-sm italic mt-1">&ldquo;{rec.reasoning}&rdquo;</p>
-                                        {index < recommendations.length - 1 && <Separator className="mt-6" />}
-                                    </div>
-                                ))}
+                            <div className="w-full space-y-8">
+                                <h3 className="font-headline text-3xl mb-6 text-center">{t('ai_stylist.results_title')}</h3>
+                                <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                                    {recommendations.map((rec, index) => (
+                                        rec.product ? (
+                                            <div key={index}>
+                                                <ProductCard product={rec.product} />
+                                                <div className="mt-3 p-3 bg-muted/50 rounded-lg">
+                                                     <p className="text-sm italic">&ldquo;{rec.reasoning}&rdquo;</p>
+                                                </div>
+                                            </div>
+                                        ) : null
+                                    ))}
+                                </div>
                             </div>
                         )}
                     </CardFooter>
