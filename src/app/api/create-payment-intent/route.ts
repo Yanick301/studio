@@ -31,14 +31,14 @@ export async function POST(req: NextRequest) {
   try {
     const { items, paymentMethodId } = await req.json();
 
-    if (!items || !paymentMethodId) {
-      return NextResponse.json({ error: 'Données invalides' }, { status: 400 });
+    if (!items || !paymentMethodId || !Array.isArray(items) || items.length === 0) {
+      return NextResponse.json({ error: 'Données invalides : articles ou mode de paiement manquant.' }, { status: 400 });
     }
 
     const amount = calculateOrderAmount(items);
 
-    if (amount <= 0) {
-        return NextResponse.json({ error: 'Le montant de la commande doit être supérieur à zéro.' }, { status: 400 });
+    if (amount <= 50) { // Stripe a une limite minimale (ex: 0.50 EUR)
+        return NextResponse.json({ error: 'Le montant de la commande doit être supérieur à 0.50 €.' }, { status: 400 });
     }
 
     // Créez un PaymentIntent avec le montant et la devise
@@ -46,31 +46,27 @@ export async function POST(req: NextRequest) {
       amount,
       currency: 'eur',
       payment_method: paymentMethodId,
-      confirm: true, // Confirme le paiement immédiatement
+      confirm: true,
       automatic_payment_methods: {
         enabled: true,
-        allow_redirects: 'never', // Important pour les applications monopages
+        allow_redirects: 'never',
       },
     });
-
+    
     // Gérez les différents statuts du PaymentIntent
     if (paymentIntent.status === 'succeeded') {
-      // Le paiement a réussi
       return NextResponse.json({ success: true, clientSecret: paymentIntent.client_secret });
-    } else if (paymentIntent.status === 'requires_action' || paymentIntent.status === 'requires_confirmation') {
-       // Si une authentification supplémentaire (3D Secure) est nécessaire
-       // Le clientSecret est utilisé côté client pour appeler `stripe.handleNextAction`
+    } else if (paymentIntent.status === 'requires_action') {
        return NextResponse.json({
         requiresAction: true,
         clientSecret: paymentIntent.client_secret,
       });
     } else {
-      // Le paiement a échoué pour une autre raison
-      return NextResponse.json({ error: 'Le paiement a échoué.' }, { status: 500 });
+      return NextResponse.json({ error: 'Le paiement a échoué. Veuillez réessayer.' }, { status: 500 });
     }
 
   } catch (error: any) {
-    console.error('Erreur Stripe:', error);
-    return NextResponse.json({ error: error.message }, { status: 500 });
+    console.error('Erreur Stripe API:', error);
+    return NextResponse.json({ error: error.message || "Une erreur est survenue côté serveur." }, { status: 500 });
   }
 }

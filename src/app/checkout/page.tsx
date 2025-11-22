@@ -21,7 +21,7 @@ import {
 import { toast } from '@/hooks/use-toast';
 import { CardElement, useStripe, useElements } from '@stripe/react-stripe-js';
 import { useState } from 'react';
-import { StripeCardElementOptions } from '@stripe/stripe-js';
+import { StripeCardElementOptions, PaymentIntent } from '@stripe/stripe-js';
 import { useRouter } from 'next/navigation';
 
 const shippingSchema = z.object({
@@ -47,6 +47,7 @@ const cardElementOptions: StripeCardElementOptions = {
         color: '#9e2146',
       },
     },
+    hidePostalCode: true,
 };
 
 
@@ -89,7 +90,7 @@ export default function CheckoutPage() {
              return;
         }
         
-        // 1. Créer le PaymentMethod
+        // 1. Créer le PaymentMethod côté client
         const { error: paymentMethodError, paymentMethod } = await stripe.createPaymentMethod({
             type: 'card',
             card: cardElement,
@@ -123,37 +124,42 @@ export default function CheckoutPage() {
 
             const paymentResult = await response.json();
 
-            if (paymentResult.error) {
-                setErrorMessage(paymentResult.error);
+            if (!response.ok) {
+                setErrorMessage(paymentResult.error || "Une erreur inconnue est survenue.");
                 setIsProcessing(false);
                 return;
-            } 
+            }
             
             // 3. Gérer les actions supplémentaires (ex: 3D Secure)
-            if (paymentResult.requiresAction) {
+            if (paymentResult.requiresAction && paymentResult.clientSecret) {
                  toast({
                     title: "Authentification requise",
-                    description: "Veuillez suivre les instructions de votre banque pour finaliser le paiement.",
+                    description: "Veuillez suivre les instructions pour finaliser le paiement.",
                 });
-                 const { error: errorAction } = await stripe.handleNextAction(paymentResult.clientSecret);
-                 if (errorAction) {
-                    setErrorMessage(errorAction.message || "Une erreur d'authentification est survenue.");
+                 const { error: confirmationError, paymentIntent } = await stripe.handleNextAction(paymentResult.clientSecret);
+                 
+                 if (confirmationError) {
+                    setErrorMessage(confirmationError.message || "Une erreur d'authentification est survenue.");
+                    setIsProcessing(false);
+                    return;
+                 }
+
+                 if(paymentIntent?.status !== 'succeeded') {
+                    setErrorMessage("Le paiement n'a pas pu être confirmé après l'authentification.");
                     setIsProcessing(false);
                     return;
                  }
             }
             
             // 4. Paiement réussi
-            if (paymentResult.success) {
-                toast({
-                    title: "Paiement réussi !",
-                    description: "Votre commande a été passée avec succès.",
-                });
-                
-                clearCart();
-                // Rediriger vers une page de confirmation
-                // router.push('/confirmation-commande'); 
-            }
+            toast({
+                title: "Paiement réussi !",
+                description: "Votre commande a été passée avec succès.",
+            });
+            
+            clearCart();
+            // Optionnel : Rediriger vers une page de confirmation
+            router.push('/account/orders'); 
 
         } catch (error) {
             console.error("Erreur lors de l'appel à l'API de paiement:", error);
@@ -182,7 +188,7 @@ export default function CheckoutPage() {
                                         <FormItem className="sm:col-span-2">
                                             <FormLabel>{t('checkout_page.full_name')}</FormLabel>
                                             <FormControl>
-                                                <Input placeholder={t('checkout_page.full_name_placeholder')} {...field} required/>
+                                                <Input placeholder={t('checkout_page.full_name_placeholder')} {...field} />
                                             </FormControl>
                                             <FormMessage />
                                         </FormItem>
@@ -195,7 +201,7 @@ export default function CheckoutPage() {
                                         <FormItem className="sm:col-span-2">
                                             <FormLabel>{t('checkout_page.address')}</FormLabel>
                                             <FormControl>
-                                                <Input placeholder={t('checkout_page.address_placeholder')} {...field} required/>
+                                                <Input placeholder={t('checkout_page.address_placeholder')} {...field} />
                                             </FormControl>
                                             <FormMessage />
                                         </FormItem>
@@ -207,7 +213,7 @@ export default function CheckoutPage() {
                                     render={({ field }) => (
                                         <FormItem>
                                             <FormLabel>{t('checkout_page.city')}</FormLabel>
-                                            <FormControl><Input {...field} required/></FormControl>
+                                            <FormControl><Input {...field} /></FormControl>
                                             <FormMessage />
                                         </FormItem>
                                     )}
@@ -218,7 +224,7 @@ export default function CheckoutPage() {
                                     render={({ field }) => (
                                         <FormItem>
                                             <FormLabel>{t('checkout_page.zip_code')}</FormLabel>
-                                            <FormControl><Input {...field} required/></FormControl>
+                                            <FormControl><Input {...field} /></FormControl>
                                             <FormMessage />
                                         </FormItem>
                                     )}
@@ -229,7 +235,7 @@ export default function CheckoutPage() {
                                     render={({ field }) => (
                                         <FormItem className="sm:col-span-2">
                                             <FormLabel>{t('checkout_page.country')}</FormLabel>
-                                            <FormControl><Input {...field} required/></FormControl>
+                                            <FormControl><Input {...field} /></FormControl>
                                             <FormMessage />
                                         </FormItem>
                                     )}
