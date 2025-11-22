@@ -295,655 +295,6 @@
       }
     },
     {
-      "id": "w-26",
-      "name": "products.gucci_silk_dress.name",
-      "slug": "robe-soie-imprimee-ruban-gucci",
-      "description": "products.gucci_silk_dress.description",
-      "price": 2980,
-      "imageUrl": "https://images.unsplash.com/photo-1547106634-56dcd53ae883?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx3b21lbiUyMHNpbGslMjBkcmVzc3xlbnwwfHx8fDE3NjM3MjkzNDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "women silk dress",
-      "width": 800,
-      "height": 1200,
-      "category": "clothing",
-      "gender": "women",
-      "isTrending": true,
-      "stock": 10,
-      "details": "products.gucci_silk_dress.details",
-      "options": {
-        "sizes": [
-          "36",
-          "38",
-          "40",
-          "42"
-        ]
-      }
-    },
-    {
-      "id": "w-27",
-      "name": "products.dior_blazer_dress.name",
-      "slug": "robe-blazer-laine-soie-dior",
-      "description": "products.dior_blazer_dress.description",
-      "price": 3500,
-      "imageUrl": "https://images.unsplash.com/photo-1558068078-7a6b350aed4a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx3b21lbiUyMGJsYXplciUyMGRyZXNzfGVufDB8fHx8MTc2MzgwMDkyMXww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "women blazer dress",
-      "width": 800,
-      "height": 1200,
-      "category": "clothing",
-      "gender": "women",
-      "isTrending": true,
-      "stock": 8,
-      "details": "products.dior_blazer_dress.details",
-      "options": {
-        "sizes": [
-          "36",
-          "38",
-          "40",
-          "42"
-        ]
-      }
-    },
-    {
-      "id": "w-28",
-      "name": "products.dior_poplin_dress.name",
-      "slug": "robe-ceinturee-popeline-coton-soie-dior",
-      "description": "products.dior_poplin_dress.description",
-      "price": 2000,
-      "imageUrl": "https://images.unsplash.com/photo-1579539441712-e180bd122890?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHx3b21lbiUyMHBvcGxpbiUyMGRyZXNzfGVufDB8fHx8MTc2MzgwMDkyMXww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "women poplin dress",
-      "width": 800,
-      "height": 1200,
-      "category": "clothing",
-      "gender": "women",
-      "isTrending": false,
-      "stock": 12,
-      "details": "products.dior_poplin_dress.details",
-      "options": {
-        "sizes": [
-          "XS",
-          "S",
-          "M",
-          "L"
-        ]
-      }
-    },
-    {
-      "id": "w-29",
-      "name": "products.dior_oblique_dress.name",
-      "slug": "robe-floue-motif-dior-oblique",
-      "description": "products.dior_oblique_dress.description",
-      "price": 2900,
-      "imageUrl": "https://images.unsplash.com/photo-1736342182213-6c037467cb38?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx3b21lbiUyMGRlbmltJTIwZHJlc3N8ZW58MHx8fHwxNzYzODAwOTIxfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "women denim dress",
-      "width": 800,
-      "height": 1200,
-      "category": "clothing",
-      "gender": "women",
-      "isTrending": false,
-      "stock": 7,
-      "details": "products.dior_oblique_dress.details",
-      "options": {
-        "sizes": [
-          "36",
-          "38",
-          "40"
-        ]
-      }
-    },
-    {
-      "id": "w-30",
-      "name": "products.dior_shirt_dress.name",
-      "slug": "robe-chemise-popeline-noire-dior",
-      "description": "products.dior_shirt_dress.description",
-      "price": 1500,
-      "imageUrl": "https://images.unsplash.com/photo-1660316496604-66f6bc1dd9ef?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx3b21lbiUyMHNoaXJ0JTIwZHJlc3N8ZW58MHx8fHwxNzYzODAwOTIxfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "women shirt dress",
-      "width": 800,
-      "height": 1200,
-      "category": "clothing",
-      "gender": "women",
-      "isTrending": false,
-      "stock": 10,
-      "details": "products.dior_shirt_dress.details",
-      "options": {
-        "sizes": [
-          "S",
-          "M",
-          "L"
-        ]
-      }
-    },
-    {
-      "id": "w-31",
-      "name": "products.dior_tweed_dress.name",
-      "slug": "robe-tweed-macrocannage-dior",
-      "description": "products.dior_tweed_dress.description",
-      "price": 4000,
-      "imageUrl": "https://images.unsplash.com/photo-1738261544450-dac9cc4e5631?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx3b21lbiUyMHR3ZWVkJTIwZHJlc3N8ZW58MHx8fHwxNzYzODAwOTIxfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "women tweed dress",
-      "width": 800,
-      "height": 1200,
-      "category": "clothing",
-      "gender": "women",
-      "isTrending": true,
-      "stock": 5,
-      "details": "products.dior_tweed_dress.details",
-      "options": {
-        "sizes": [
-          "36",
-          "38",
-          "40"
-        ]
-      }
-    },
-    {
-      "id": "w-32",
-      "name": "products.armani_silk_top.name",
-      "slug": "top-soie-armani",
-      "description": "products.armani_silk_top.description",
-      "price": 850,
-      "imageUrl": "https://images.unsplash.com/photo-1631737860377-2d332ca3e3f5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx3b21lbiUyMHNpbGslMjB0b3B8ZW58MHx8fHwxNzYzODAwOTIxfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "women silk top",
-      "width": 800,
-      "height": 1200,
-      "category": "clothing",
-      "gender": "women",
-      "isTrending": false,
-      "stock": 15,
-      "details": "products.armani_silk_top.details",
-      "options": {
-        "sizes": [
-          "S",
-          "M",
-          "L"
-        ]
-      }
-    },
-    {
-      "id": "w-33",
-      "name": "products.armani_cotton_shirt.name",
-      "slug": "chemise-coton-egyptien-armani",
-      "description": "products.armani_cotton_shirt.description",
-      "price": 650,
-      "imageUrl": "https://images.unsplash.com/photo-1671770324841-6cbc0cccb93d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx3b21lbiUyMGNvdHRvbiUyMHNoaXJ0fGVufDB8fHx8MTc2MzgwMDkyMXww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "women cotton shirt",
-      "width": 800,
-      "height": 1200,
-      "category": "clothing",
-      "gender": "women",
-      "isTrending": false,
-      "stock": 18,
-      "details": "products.armani_cotton_shirt.details",
-      "options": {
-        "sizes": [
-          "38",
-          "40",
-          "42",
-          "44"
-        ]
-      }
-    },
-    {
-      "id": "w-34",
-      "name": "products.armani_wool_trousers.name",
-      "slug": "pantalon-tailleur-laine-giorgio-armani",
-      "description": "products.armani_wool_trousers.description",
-      "price": 1200,
-      "imageUrl": "https://images.unsplash.com/photo-1724155594151-f95eba69ad56?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx3b21lbiUyMHdvb2wlMjB0cm91c2Vyc3xlbnwwfHx8fDE3NjM4MDA5MjF8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "women wool trousers",
-      "width": 800,
-      "height": 1200,
-      "category": "clothing",
-      "gender": "women",
-      "isTrending": false,
-      "stock": 10,
-      "details": "products.armani_wool_trousers.details",
-      "options": {
-        "sizes": [
-          "36",
-          "38",
-          "40",
-          "42"
-        ]
-      }
-    },
-    {
-      "id": "w-35",
-      "name": "products.gucci_premium_jeans.name",
-      "slug": "jean-premium-gucci",
-      "description": "products.gucci_premium_jeans.description",
-      "price": 1100,
-      "imageUrl": "https://images.unsplash.com/photo-1560243563-062bfc001d68?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx3b21lbiUyMHByZW1pdW0lMjBqZWFuc3xlbnwwfHx8fDE3NjM4MDA5MjF8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "women premium jeans",
-      "width": 800,
-      "height": 1200,
-      "category": "clothing",
-      "gender": "women",
-      "isTrending": true,
-      "stock": 12,
-      "details": "products.gucci_premium_jeans.details",
-      "options": {
-        "sizes": [
-          "26",
-          "27",
-          "28",
-          "29",
-          "30"
-        ]
-      }
-    },
-    {
-      "id": "w-37",
-      "name": "products.saint_laurent_leather_jacket.name",
-      "slug": "veste-cuir-agneau-saint-laurent",
-      "description": "products.saint_laurent_leather_jacket.description",
-      "price": 3200,
-      "imageUrl": "https://images.unsplash.com/photo-1664894626626-65ab49e0077d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHx3b21lbiUyMGxlYXRoZXIlMjBqYWNrZXR8ZW58MHx8fHwxNzYzODAwOTIyfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "women leather jacket",
-      "width": 800,
-      "height": 1200,
-      "category": "clothing",
-      "gender": "women",
-      "isTrending": true,
-      "stock": 6,
-      "details": "products.saint_laurent_leather_jacket.details",
-      "options": {
-        "sizes": [
-          "36",
-          "38",
-          "40"
-        ]
-      }
-    },
-    {
-      "id": "w-38",
-      "name": "products.cucinelli_cashmere_sweater.name",
-      "slug": "pull-cachemire-brunello-cucinelli",
-      "description": "products.cucinelli_cashmere_sweater.description",
-      "price": 1800,
-      "imageUrl": "https://images.unsplash.com/photo-1687275166296-7766371fd254?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx3b21lbiUyMGNhc2htZXJlJTIwc3dlYXRlcnxlbnwwfHx8fDE3NjM4MDA5MjF8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "women cashmere sweater",
-      "width": 800,
-      "height": 1200,
-      "category": "clothing",
-      "gender": "women",
-      "isTrending": false,
-      "stock": 9,
-      "details": "products.cucinelli_cashmere_sweater.details",
-      "options": {
-        "sizes": [
-          "XS",
-          "S",
-          "M",
-          "L"
-        ]
-      }
-    },
-    {
-      "id": "w-39",
-      "name": "products.miu_miu_pleated_dress.name",
-      "slug": "robe-plissee-miu-miu",
-      "description": "products.miu_miu_pleated_dress.description",
-      "price": 1200,
-      "imageUrl": "https://images.unsplash.com/photo-1701209786191-e1b733b54233?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx3b21lbiUyMHBsZWF0ZWQlMjBkcmVzc3xlbnwwfHx8fDE3NjM4MDA5MjF8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "women pleated dress",
-      "width": 800,
-      "height": 1200,
-      "category": "clothing",
-      "gender": "women",
-      "isTrending": false,
-      "stock": 11,
-      "details": "products.miu_miu_pleated_dress.details",
-      "options": {
-        "sizes": [
-          "36",
-          "38",
-          "40"
-        ]
-      }
-    },
-    {
-      "id": "w-40",
-      "name": "products.chloe_muslin_blouse.name",
-      "slug": "blouse-mousseline-chloe",
-      "description": "products.chloe_muslin_blouse.description",
-      "price": 1000,
-      "imageUrl": "https://images.unsplash.com/photo-1669197803553-54511fbb7e55?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHx3b21lbiUyMG11c2xpbiUyMGJsb3VzZXxlbnwwfHx8fDE3NjM4MDA5MjF8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "women muslin blouse",
-      "width": 800,
-      "height": 1200,
-      "category": "clothing",
-      "gender": "women",
-      "isTrending": false,
-      "stock": 14,
-      "details": "products.chloe_muslin_blouse.details",
-      "options": {
-        "sizes": [
-          "S",
-          "M",
-          "L"
-        ]
-      }
-    },
-    {
-      "id": "w-41",
-      "name": "products.valentino_embroidered_dress.name",
-      "slug": "robe-tulle-brode-valentino",
-      "description": "products.valentino_embroidered_dress.description",
-      "price": 6000,
-      "imageUrl": "https://images.unsplash.com/photo-1623609163849-27f393222319?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHx3b21lbiUyMGV2ZW5pbmclMjBnb3dufGVufDB8fHx8MTc2MzcyOTM0NXww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "women evening gown",
-      "width": 800,
-      "height": 1200,
-      "category": "clothing",
-      "gender": "women",
-      "isTrending": true,
-      "stock": 3,
-      "details": "products.valentino_embroidered_dress.details",
-      "options": {
-        "sizes": [
-          "36",
-          "38"
-        ]
-      }
-    },
-    {
-      "id": "w-43",
-      "name": "products.bottega_veneta_leather_skirt.name",
-      "slug": "jupe-midi-cuir-bottega-veneta",
-      "description": "products.bottega_veneta_leather_skirt.description",
-      "price": 2300,
-      "imageUrl": "https://images.unsplash.com/photo-1750032640627-941f5d457f05?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3b21lbiUyMGxlYXRoZXIlMjBza2lydHxlbnwwfHx8fDE3NjM4MDA5MjF8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "women leather skirt",
-      "width": 800,
-      "height": 1200,
-      "category": "clothing",
-      "gender": "women",
-      "isTrending": false,
-      "stock": 8,
-      "details": "products.bottega_veneta_leather_skirt.details",
-      "options": {
-        "sizes": [
-          "36",
-          "38",
-          "40"
-        ]
-      }
-    },
-    {
-      "id": "w-44",
-      "name": "products.prada_silk_jumpsuit.name",
-      "slug": "combinaison-pantalon-soie-prada",
-      "description": "products.prada_silk_jumpsuit.description",
-      "price": 2700,
-      "imageUrl": "https://images.unsplash.com/photo-1685287919486-76be62ed72a5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3b21lbiUyMHNpbGslMjBqdW1wc3VpdHxlbnwwfHx8fDE3NjM3MjkzNDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "women silk jumpsuit",
-      "width": 800,
-      "height": 1200,
-      "category": "clothing",
-      "gender": "women",
-      "isTrending": false,
-      "stock": 7,
-      "details": "products.prada_silk_jumpsuit.details",
-      "options": {
-        "sizes": [
-          "36",
-          "38",
-          "40"
-        ]
-      }
-    },
-    {
-      "id": "w-45",
-      "name": "products.chanel_tweed_vest.name",
-      "slug": "gilet-sans-manches-tweed-chanel",
-      "description": "products.chanel_tweed_vest.description",
-      "price": 3500,
-      "imageUrl": "https://images.unsplash.com/photo-1750082829724-81833e081ec9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHx3b21lbiUyMHR3ZWVkJTIwdmVzdHxlbnwwfHx8fDE3NjM4MDA5MjJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "women tweed vest",
-      "width": 800,
-      "height": 1200,
-      "category": "clothing",
-      "gender": "women",
-      "isTrending": true,
-      "stock": 5,
-      "details": "products.chanel_tweed_vest.details",
-      "options": {
-        "sizes": [
-          "S",
-          "M"
-        ]
-      }
-    },
-    {
-      "id": "w-46",
-      "name": "products.stella_mccartney_wrap_dress.name",
-      "slug": "robe-portefeuille-crepe-stella-mccartney",
-      "description": "products.stella_mccartney_wrap_dress.description",
-      "price": 1100,
-      "imageUrl": "https://images.unsplash.com/photo-1761702790943-82bb9ce2be14?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx3b21lbiUyMHdyYXAlMjBkcmVzc3xlbnwwfHx8fDE3NjM4MDA5MjJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "women wrap dress",
-      "width": 800,
-      "height": 1200,
-      "category": "clothing",
-      "gender": "women",
-      "isTrending": false,
-      "stock": 13,
-      "details": "products.stella_mccartney_wrap_dress.details",
-      "options": {
-        "sizes": [
-          "36",
-          "38",
-          "40",
-          "42"
-        ]
-      }
-    },
-    {
-      "id": "w-47",
-      "name": "products.balmain_luxe_sweatshirt.name",
-      "slug": "sweatshirt-luxe-coton-balmain",
-      "description": "products.balmain_luxe_sweatshirt.description",
-      "price": 850,
-      "imageUrl": "https://images.unsplash.com/photo-1687275170170-a54128a6d2b5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHx3b21lbiUyMGx1eHVyeSUyMHN3ZWF0c2hpcnR8ZW58MHx8fHwxNzYzODAwOTIxfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "women luxury sweatshirt",
-      "width": 800,
-      "height": 1200,
-      "category": "clothing",
-      "gender": "women",
-      "isTrending": false,
-      "stock": 15,
-      "details": "products.balmain_luxe_sweatshirt.details",
-      "options": {
-        "sizes": [
-          "XS",
-          "S",
-          "M"
-        ]
-      }
-    },
-    {
-      "id": "w-48",
-      "name": "products.valentino_silk_tunic.name",
-      "slug": "tunique-soie-sauvage-valentino",
-      "description": "products.valentino_silk_tunic.description",
-      "price": 1400,
-      "imageUrl": "https://images.unsplash.com/photo-1739773375426-880a10bea9a9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx3b21lbiUyMHNpbGslMjB0dW5pY3xlbnwwfHx8fDE3NjM4MDA5MjJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "women silk tunic",
-      "width": 800,
-      "height": 1200,
-      "category": "clothing",
-      "gender": "women",
-      "isTrending": false,
-      "stock": 9,
-      "details": "products.valentino_silk_tunic.details",
-      "options": {
-        "sizes": [
-          "S",
-          "M",
-          "L"
-        ]
-      }
-    },
-    {
-      "id": "w-49",
-      "name": "products.max_mara_wool_shorts.name",
-      "slug": "short-tailleur-laine-max-mara",
-      "description": "products.max_mara_wool_shorts.description",
-      "price": 900,
-      "imageUrl": "https://images.unsplash.com/photo-1627903111360-841c1103f41d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx3b21lbiUyMHdvb2wlMjBzaG9ydHN8ZW58MHx8fHwxNzYzODAwOTIxfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "women wool shorts",
-      "width": 800,
-      "height": 1200,
-      "category": "clothing",
-      "gender": "women",
-      "isTrending": false,
-      "stock": 12,
-      "details": "products.max_mara_wool_shorts.details",
-      "options": {
-        "sizes": [
-          "36",
-          "38",
-          "40"
-        ]
-      }
-    },
-    {
-      "id": "w-50",
-      "name": "products.oscar_de_la_renta_bustier_dress.name",
-      "slug": "robe-bustier-brodee-oscar-de-la-renta",
-      "description": "products.oscar_de_la_renta_bustier_dress.description",
-      "price": 5000,
-      "imageUrl": "https://images.unsplash.com/photo-1668308687090-76495b75dc3f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHx3b21lbiUyMGJ1c3RpZXIlMjBkcmVzc3xlbnwwfHx8fDE3NjM4MDA5MjJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "women bustier dress",
-      "width": 800,
-      "height": 1200,
-      "category": "clothing",
-      "gender": "women",
-      "isTrending": true,
-      "stock": 4,
-      "details": "products.oscar_de_la_renta_bustier_dress.details",
-      "options": {
-        "sizes": [
-          "36",
-          "38"
-        ]
-      }
-    },
-    {
-      "id": "w-51",
-      "name": "products.givenchy_satin_shirt.name",
-      "slug": "chemise-satin-givenchy",
-      "description": "products.givenchy_satin_shirt.description",
-      "price": 950,
-      "imageUrl": "https://images.unsplash.com/photo-1604610706047-3ad7ed1ec328?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHx3b21lbiUyMHNhdGluJTIwc2hpcnR8ZW58MHx8fHwxNzYzODAwOTIyfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "women satin shirt",
-      "width": 800,
-      "height": 1200,
-      "category": "clothing",
-      "gender": "women",
-      "isTrending": false,
-      "stock": 14,
-      "details": "products.givenchy_satin_shirt.details",
-      "options": {
-        "sizes": [
-          "S",
-          "M",
-          "L"
-        ]
-      }
-    },
-    {
-      "id": "w-52",
-      "name": "products.the_row_cashmere_cardigan.name",
-      "slug": "cardigan-cachemire-the-row",
-      "description": "products.the_row_cashmere_cardigan.description",
-      "price": 3000,
-      "imageUrl": "https://images.unsplash.com/photo-1687360441023-286ce1b5da0d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8d29tZW4lMjBjYXNobWVyZSUyMGNhcmRpZ2FufGVufDB8fHx8MTc2MzgwMDkyMnww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "women cashmere cardigan",
-      "width": 800,
-      "height": 1200,
-      "category": "clothing",
-      "gender": "women",
-      "isTrending": false,
-      "stock": 6,
-      "details": "products.the_row_cashmere_cardigan.details",
-      "options": {
-        "sizes": [
-          "XS",
-          "S",
-          "M"
-        ]
-      }
-    },
-    {
-      "id": "w-53",
-      "name": "products.valentino_palazzo_pants.name",
-      "slug": "pantalon-palazzo-soie-valentino",
-      "description": "products.valentino_palazzo_pants.description",
-      "price": 2200,
-      "imageUrl": "https://images.unsplash.com/photo-1652953338313-3b22738e9558?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx3b21lbiUyMHNpbGslMjBwYW50c3xlbnwwfHx8fDE3NjM4MDA5MjF8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "women silk pants",
-      "width": 800,
-      "height": 1200,
-      "category": "clothing",
-      "gender": "women",
-      "isTrending": false,
-      "stock": 9,
-      "details": "products.valentino_palazzo_pants.details",
-      "options": {
-        "sizes": [
-          "36",
-          "38",
-          "40"
-        ]
-      }
-    },
-    {
-      "id": "w-54",
-      "name": "products.balenciaga_silk_jersey_tshirt.name",
-      "slug": "tshirt-jersey-soie-balenciaga",
-      "description": "products.balenciaga_silk_jersey_tshirt.description",
-      "price": 550,
-      "imageUrl": "https://images.unsplash.com/photo-1607382007816-66c36dfc6efc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx3b21lbiUyMHNpbGslMjB0LXNoaXJ0fGVufDB8fHx8MTc2MzgwMDkyMXww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "women silk t-shirt",
-      "width": 800,
-      "height": 1200,
-      "category": "clothing",
-      "gender": "women",
-      "isTrending": false,
-      "stock": 16,
-      "details": "products.balenciaga_silk_jersey_tshirt.details",
-      "options": {
-        "sizes": [
-          "XS",
-          "S",
-          "M",
-          "L"
-        ]
-      }
-    },
-    {
-      "id": "w-55",
-      "name": "products.cucinelli_wool_cape.name",
-      "slug": "cape-laine-cachemire-brunello-cucinelli",
-      "description": "products.cucinelli_wool_cape.description",
-      "price": 4500,
-      "imageUrl": "https://images.unsplash.com/photo-1550290129-83bf39f0112f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx3b21lbiUyMHdvb2wlMjBjYXBlfGVufDB8fHx8MTc2MzgwMDkyMXww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "women wool cape",
-      "width": 800,
-      "height": 1200,
-      "category": "clothing",
-      "gender": "women",
-      "isTrending": true,
-      "stock": 4,
-      "details": "products.cucinelli_wool_cape.details",
-      "options": {
-        "sizes": [
-          "Unique"
-        ]
-      }
-    },
-    {
       "id": "m-26",
       "name": "products.tom_ford_slim_fit_shirt.name",
       "slug": "chemise-slim-fit-tom-ford",
@@ -2663,6 +2014,486 @@
       "tags": [
         "winter"
       ]
+    },
+    {
+      "id": "w-1",
+      "name": "products.gucci_silk_midi_dress.name",
+      "slug": "robe-midi-en-soie-gucci",
+      "description": "products.gucci_silk_midi_dress.description",
+      "price": 1250,
+      "imageUrl": "/product-images/clothing/robe-midi-en-soie-gucci.jpg",
+      "imageHint": "women silk midi dress",
+      "width": 800,
+      "height": 1200,
+      "category": "clothing",
+      "gender": "women",
+      "isTrending": true,
+      "stock": 10,
+      "details": "products.gucci_silk_midi_dress.details"
+    },
+    {
+      "id": "w-2",
+      "name": "products.balmain_crossed_blazer.name",
+      "slug": "blazer-croise-balmain",
+      "description": "products.balmain_crossed_blazer.description",
+      "price": 1480,
+      "imageUrl": "/product-images/clothing/blazer-croise-balmain.jpg",
+      "imageHint": "women crossed blazer",
+      "width": 800,
+      "height": 1200,
+      "category": "clothing",
+      "gender": "women",
+      "isTrending": true,
+      "stock": 8,
+      "details": "products.balmain_crossed_blazer.details"
+    },
+    {
+      "id": "w-3",
+      "name": "products.loro_piana_cashmere_turtleneck_women.name",
+      "slug": "pull-col-roule-cachemire-loro-piana-femme",
+      "description": "products.loro_piana_cashmere_turtleneck_women.description",
+      "price": 850,
+      "imageUrl": "/product-images/clothing/pull-col-roule-cachemire-loro-piana-femme.jpg",
+      "imageHint": "women cashmere turtleneck",
+      "width": 800,
+      "height": 1200,
+      "category": "clothing",
+      "gender": "women",
+      "isTrending": false,
+      "stock": 12,
+      "details": "products.loro_piana_cashmere_turtleneck_women.details"
+    },
+    {
+      "id": "w-4",
+      "name": "products.max_mara_wide_leg_wool_pants.name",
+      "slug": "pantalon-large-en-laine-max-mara",
+      "description": "products.max_mara_wide_leg_wool_pants.description",
+      "price": 490,
+      "imageUrl": "/product-images/clothing/pantalon-large-en-laine-max-mara.jpg",
+      "imageHint": "women wide leg wool pants",
+      "width": 800,
+      "height": 1200,
+      "category": "clothing",
+      "gender": "women",
+      "isTrending": false,
+      "stock": 15,
+      "details": "products.max_mara_wide_leg_wool_pants.details"
+    },
+    {
+      "id": "w-5",
+      "name": "products.diesel_premium_slim_jeans.name",
+      "slug": "jean-slim-premium-diesel",
+      "description": "products.diesel_premium_slim_jeans.description",
+      "price": 220,
+      "imageUrl": "/product-images/clothing/jean-slim-premium-diesel.jpg",
+      "imageHint": "women slim jeans",
+      "width": 800,
+      "height": 1200,
+      "category": "clothing",
+      "gender": "women",
+      "isTrending": true,
+      "stock": 20,
+      "details": "products.diesel_premium_slim_jeans.details"
+    },
+    {
+      "id": "w-6",
+      "name": "products.saint_laurent_printed_silk_blouse.name",
+      "slug": "chemisier-en-soie-imprimee-saint-laurent",
+      "description": "products.saint_laurent_printed_silk_blouse.description",
+      "price": 680,
+      "imageUrl": "/product-images/clothing/chemisier-en-soie-imprimee-saint-laurent.jpg",
+      "imageHint": "women printed silk blouse",
+      "width": 800,
+      "height": 1200,
+      "category": "clothing",
+      "gender": "women",
+      "isTrending": true,
+      "stock": 10,
+      "details": "products.saint_laurent_printed_silk_blouse.details"
+    },
+    {
+      "id": "w-7",
+      "name": "products.prada_short_wool_dress.name",
+      "slug": "robe-courte-en-laine-prada",
+      "description": "products.prada_short_wool_dress.description",
+      "price": 720,
+      "imageUrl": "/product-images/clothing/robe-courte-en-laine-prada.jpg",
+      "imageHint": "women short wool dress",
+      "width": 800,
+      "height": 1200,
+      "category": "clothing",
+      "gender": "women",
+      "isTrending": false,
+      "stock": 12,
+      "details": "products.prada_short_wool_dress.details"
+    },
+    {
+      "id": "w-8",
+      "name": "products.max_mara_long_cashmere_coat.name",
+      "slug": "manteau-long-en-cachemire-max-mara",
+      "description": "products.max_mara_long_cashmere_coat.description",
+      "price": 1950,
+      "imageUrl": "/product-images/clothing/manteau-long-en-cachemire-max-mara.jpg",
+      "imageHint": "women long cashmere coat",
+      "width": 800,
+      "height": 1200,
+      "category": "clothing",
+      "gender": "women",
+      "isTrending": true,
+      "stock": 5,
+      "details": "products.max_mara_long_cashmere_coat.details"
+    },
+    {
+      "id": "w-9",
+      "name": "products.moncler_short_quilted_jacket.name",
+      "slug": "veste-courte-matelassee-moncler",
+      "description": "products.moncler_short_quilted_jacket.description",
+      "price": 1450,
+      "imageUrl": "/product-images/clothing/veste-courte-matelassee-moncler.jpg",
+      "imageHint": "women short quilted jacket",
+      "width": 800,
+      "height": 1200,
+      "category": "clothing",
+      "gender": "women",
+      "isTrending": true,
+      "stock": 7,
+      "details": "products.moncler_short_quilted_jacket.details"
+    },
+    {
+      "id": "w-10",
+      "name": "products.chloe_oversized_cable_knit_sweater.name",
+      "slug": "pull-oversize-torsade-chloe",
+      "description": "products.chloe_oversized_cable_knit_sweater.description",
+      "price": 450,
+      "imageUrl": "/product-images/clothing/pull-oversize-torsade-chloe.jpg",
+      "imageHint": "women oversized cable knit sweater",
+      "width": 800,
+      "height": 1200,
+      "category": "clothing",
+      "gender": "women",
+      "isTrending": false,
+      "stock": 15,
+      "details": "products.chloe_oversized_cable_knit_sweater.details"
+    },
+    {
+      "id": "w-11",
+      "name": "products.hugo_boss_wool_pencil_skirt.name",
+      "slug": "jupe-crayon-en-laine-hugo-boss",
+      "description": "products.hugo_boss_wool_pencil_skirt.description",
+      "price": 320,
+      "imageUrl": "/product-images/clothing/jupe-crayon-en-laine-hugo-boss.jpg",
+      "imageHint": "women wool pencil skirt",
+      "width": 800,
+      "height": 1200,
+      "category": "clothing",
+      "gender": "women",
+      "isTrending": false,
+      "stock": 18,
+      "details": "products.hugo_boss_wool_pencil_skirt.details"
+    },
+    {
+      "id": "w-12",
+      "name": "products.valentino_long_pleated_dress.name",
+      "slug": "robe-longue-plissee-valentino",
+      "description": "products.valentino_long_pleated_dress.description",
+      "price": 1650,
+      "imageUrl": "/product-images/clothing/robe-longue-plissee-valentino.jpg",
+      "imageHint": "women long pleated dress",
+      "width": 800,
+      "height": 1200,
+      "category": "clothing",
+      "gender": "women",
+      "isTrending": true,
+      "stock": 6,
+      "details": "products.valentino_long_pleated_dress.details"
+    },
+    {
+      "id": "w-13",
+      "name": "products.burberry_premium_cotton_shirt.name",
+      "slug": "chemise-en-coton-premium-burberry",
+      "description": "products.burberry_premium_cotton_shirt.description",
+      "price": 320,
+      "imageUrl": "/product-images/clothing/chemise-en-coton-premium-burberry.jpg",
+      "imageHint": "women premium cotton shirt",
+      "width": 800,
+      "height": 1200,
+      "category": "clothing",
+      "gender": "women",
+      "isTrending": false,
+      "stock": 20,
+      "details": "products.burberry_premium_cotton_shirt.details"
+    },
+    {
+      "id": "w-14",
+      "name": "products.dvf_silk_wrap_dress.name",
+      "slug": "robe-portefeuille-en-soie-diane-von-furstenberg",
+      "description": "products.dvf_silk_wrap_dress.description",
+      "price": 590,
+      "imageUrl": "/product-images/clothing/robe-portefeuille-en-soie-diane-von-furstenberg.jpg",
+      "imageHint": "women silk wrap dress",
+      "width": 800,
+      "height": 1200,
+      "category": "clothing",
+      "gender": "women",
+      "isTrending": true,
+      "stock": 14,
+      "details": "products.dvf_silk_wrap_dress.details"
+    },
+    {
+      "id": "w-15",
+      "name": "products.dior_tailored_pants_women.name",
+      "slug": "pantalon-tailleur-dior-femme",
+      "description": "products.dior_tailored_pants_women.description",
+      "price": 690,
+      "imageUrl": "/product-images/clothing/pantalon-tailleur-dior-femme.jpg",
+      "imageHint": "women tailored pants",
+      "width": 800,
+      "height": 1200,
+      "category": "clothing",
+      "gender": "women",
+      "isTrending": false,
+      "stock": 11,
+      "details": "products.dior_tailored_pants_women.details"
+    },
+    {
+      "id": "w-16",
+      "name": "products.ralph_lauren_boat_neck_sweater.name",
+      "slug": "pull-col-bateau-ralph-lauren",
+      "description": "products.ralph_lauren_boat_neck_sweater.description",
+      "price": 240,
+      "imageUrl": "/product-images/clothing/pull-col-bateau-ralph-lauren.jpg",
+      "imageHint": "women boat neck sweater",
+      "width": 800,
+      "height": 1200,
+      "category": "clothing",
+      "gender": "women",
+      "isTrending": false,
+      "stock": 16,
+      "details": "products.ralph_lauren_boat_neck_sweater.details"
+    },
+    {
+      "id": "w-17",
+      "name": "products.cucinelli_long_cashmere_cardigan.name",
+      "slug": "cardigan-long-en-cachemire-brunello-cucinelli",
+      "description": "products.cucinelli_long_cashmere_cardigan.description",
+      "price": 1350,
+      "imageUrl": "/product-images/clothing/cardigan-long-en-cachemire-brunello-cucinelli.jpg",
+      "imageHint": "women long cashmere cardigan",
+      "width": 800,
+      "height": 1200,
+      "category": "clothing",
+      "gender": "women",
+      "isTrending": false,
+      "stock": 8,
+      "details": "products.cucinelli_long_cashmere_cardigan.details"
+    },
+    {
+      "id": "w-18",
+      "name": "products.givenchy_asymmetrical_dress.name",
+      "slug": "robe-asymetrique-givenchy",
+      "description": "products.givenchy_asymmetrical_dress.description",
+      "price": 1480,
+      "imageUrl": "/product-images/clothing/robe-asymetrique-givenchy.jpg",
+      "imageHint": "women asymmetrical dress",
+      "width": 800,
+      "height": 1200,
+      "category": "clothing",
+      "gender": "women",
+      "isTrending": true,
+      "stock": 7,
+      "details": "products.givenchy_asymmetrical_dress.details"
+    },
+    {
+      "id": "w-19",
+      "name": "products.stella_mccartney_satin_blouse.name",
+      "slug": "blouse-satinee-stella-mccartney",
+      "description": "products.stella_mccartney_satin_blouse.description",
+      "price": 420,
+      "imageUrl": "/product-images/clothing/blouse-satinee-stella-mccartney.jpg",
+      "imageHint": "women satin blouse",
+      "width": 800,
+      "height": 1200,
+      "category": "clothing",
+      "gender": "women",
+      "isTrending": false,
+      "stock": 13,
+      "details": "products.stella_mccartney_satin_blouse.details"
+    },
+    {
+      "id": "w-20",
+      "name": "products.balenciaga_jumpsuit.name",
+      "slug": "combinaison-pantalon-balenciaga",
+      "description": "products.balenciaga_jumpsuit.description",
+      "price": 1250,
+      "imageUrl": "/product-images/clothing/combinaison-pantalon-balenciaga.jpg",
+      "imageHint": "women jumpsuit",
+      "width": 800,
+      "height": 1200,
+      "category": "clothing",
+      "gender": "women",
+      "isTrending": false,
+      "stock": 9,
+      "details": "products.balenciaga_jumpsuit.details"
+    },
+    {
+      "id": "w-21",
+      "name": "products.acne_studios_oversized_coat.name",
+      "slug": "manteau-oversize-acne-studios",
+      "description": "products.acne_studios_oversized_coat.description",
+      "price": 1080,
+      "imageUrl": "/product-images/clothing/manteau-oversize-acne-studios.jpg",
+      "imageHint": "women oversized coat",
+      "width": 800,
+      "height": 1200,
+      "category": "clothing",
+      "gender": "women",
+      "isTrending": true,
+      "stock": 6,
+      "details": "products.acne_studios_oversized_coat.details"
+    },
+    {
+      "id": "w-22",
+      "name": "products.max_mara_cashmere_sweater_dress.name",
+      "slug": "robe-pull-en-cachemire-max-mara",
+      "description": "products.max_mara_cashmere_sweater_dress.description",
+      "price": 790,
+      "imageUrl": "/product-images/clothing/robe-pull-en-cachemire-max-mara.jpg",
+      "imageHint": "women cashmere sweater dress",
+      "width": 800,
+      "height": 1200,
+      "category": "clothing",
+      "gender": "women",
+      "isTrending": false,
+      "stock": 10,
+      "details": "products.max_mara_cashmere_sweater_dress.details"
+    },
+    {
+      "id": "w-23",
+      "name": "products.saint_laurent_leather_pants.name",
+      "slug": "pantalon-en-cuir-saint-laurent",
+      "description": "products.saint_laurent_leather_pants.description",
+      "price": 1200,
+      "imageUrl": "/product-images/clothing/pantalon-en-cuir-saint-laurent.jpg",
+      "imageHint": "women leather pants",
+      "width": 800,
+      "height": 1200,
+      "category": "clothing",
+      "gender": "women",
+      "isTrending": true,
+      "stock": 8,
+      "details": "products.saint_laurent_leather_pants.details"
+    },
+    {
+      "id": "w-24",
+      "name": "products.valentino_midi_pleated_skirt.name",
+      "slug": "jupe-plissee-midi-valentino",
+      "description": "products.valentino_midi_pleated_skirt.description",
+      "price": 850,
+      "imageUrl": "/product-images/clothing/jupe-plissee-midi-valentino.jpg",
+      "imageHint": "women pleated midi skirt",
+      "width": 800,
+      "height": 1200,
+      "category": "clothing",
+      "gender": "women",
+      "isTrending": false,
+      "stock": 11,
+      "details": "products.valentino_midi_pleated_skirt.details"
+    },
+    {
+      "id": "w-25",
+      "name": "products.gucci_embroidered_logo_tshirt.name",
+      "slug": "t-shirt-brode-logo-gucci",
+      "description": "products.gucci_embroidered_logo_tshirt.description",
+      "price": 250,
+      "imageUrl": "/product-images/clothing/t-shirt-brode-logo-gucci.jpg",
+      "imageHint": "women embroidered logo t-shirt",
+      "width": 800,
+      "height": 1200,
+      "category": "clothing",
+      "gender": "women",
+      "isTrending": true,
+      "stock": 25,
+      "details": "products.gucci_embroidered_logo_tshirt.details"
+    },
+    {
+      "id": "w-26",
+      "name": "products.chloe_boat_neck_sweater.name",
+      "slug": "pull-col-bateau-manches-ballon-chloe",
+      "description": "products.chloe_boat_neck_sweater.description",
+      "price": 480,
+      "imageUrl": "/product-images/clothing/pull-col-bateau-manches-ballon-chloe.jpg",
+      "imageHint": "women boat neck sweater",
+      "width": 800,
+      "height": 1200,
+      "category": "clothing",
+      "gender": "women",
+      "isTrending": false,
+      "stock": 13,
+      "details": "products.chloe_boat_neck_sweater.details"
+    },
+    {
+      "id": "w-27",
+      "name": "products.balenciaga_oversized_shirt_dress.name",
+      "slug": "robe-chemise-oversize-balenciaga",
+      "description": "products.balenciaga_oversized_shirt_dress.description",
+      "price": 780,
+      "imageUrl": "/product-images/clothing/robe-chemise-oversize-balenciaga.jpg",
+      "imageHint": "women oversized shirt dress",
+      "width": 800,
+      "height": 1200,
+      "category": "clothing",
+      "gender": "women",
+      "isTrending": true,
+      "stock": 9,
+      "details": "products.balenciaga_oversized_shirt_dress.details"
+    },
+    {
+      "id": "w-28",
+      "name": "products.max_mara_wool_palazzo_pants.name",
+      "slug": "pantalon-palazzo-en-laine-max-mara",
+      "description": "products.max_mara_wool_palazzo_pants.description",
+      "price": 520,
+      "imageUrl": "/product-images/clothing/pantalon-palazzo-en-laine-max-mara.jpg",
+      "imageHint": "women wool palazzo pants",
+      "width": 800,
+      "height": 1200,
+      "category": "clothing",
+      "gender": "women",
+      "isTrending": false,
+      "stock": 14,
+      "details": "products.max_mara_wool_palazzo_pants.details"
+    },
+    {
+      "id": "w-29",
+      "name": "products.saint_laurent_satin_blazer.name",
+      "slug": "blazer-satin-saint-laurent",
+      "description": "products.saint_laurent_satin_blazer.description",
+      "price": 1100,
+      "imageUrl": "/product-images/clothing/blazer-satin-saint-laurent.jpg",
+      "imageHint": "women satin blazer",
+      "width": 800,
+      "height": 1200,
+      "category": "clothing",
+      "gender": "women",
+      "isTrending": true,
+      "stock": 7,
+      "details": "products.saint_laurent_satin_blazer.details"
+    },
+    {
+      "id": "w-30",
+      "name": "products.valentino_long_velvet_dress.name",
+      "slug": "robe-longue-en-velours-valentino",
+      "description": "products.valentino_long_velvet_dress.description",
+      "price": 1750,
+      "imageUrl": "/product-images/clothing/robe-longue-en-velours-valentino.jpg",
+      "imageHint": "women long velvet dress",
+      "width": 800,
+      "height": 1200,
+      "category": "clothing",
+      "gender": "women",
+      "isTrending": true,
+      "stock": 6,
+      "details": "products.valentino_long_velvet_dress.details"
     }
   ]
 }

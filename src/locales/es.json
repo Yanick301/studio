@@ -423,126 +423,6 @@
     "colors": "Colores"
   },
   "products": {
-    "gucci_silk_dress": {
-      "name": "Vestido de seda con estampado de cinta de Gucci",
-      "description": "Vestido midi de seda multicolor con estampado de cinta, mangas largas abullonadas, cuello con lazo para anudar y cierre de botón en la espalda. Tejido 100% seda, corte fluido y femenino."
-    },
-    "dior_blazer_dress": {
-      "name": "Vestido blazer de gabardina de lana y seda de Dior",
-      "description": "Vestido blazer de largo medio confeccionado en gabardina de lana virgen mezclada con seda. Corte estructurado, hombros definidos, cinturón en la cintura. Evoca un estilo profesional muy chic."
-    },
-    "dior_poplin_dress": {
-      "name": "Vestido de popelina de algodón/seda con cinturón de Dior",
-      "description": "Vestido de largo medio, tejido ligero de popelina de algodón y seda, corte con cinturón, mangas largas, diseño limpio. Un cóctel perfecto entre comodidad y elegancia."
-    },
-    "dior_oblique_dress": {
-      "name": "Vestido fluido con motivo Dior Oblique",
-      "description": "Vestido de denim ligero con motivo Oblique, corte fluido, cuello asimétrico, tejido exclusivo de Dior."
-    },
-    "dior_shirt_dress": {
-      "name": "Vestido camisero de popelina negro de Dior",
-      "description": "Vestido camisero sencillo de popelina de algodón y seda, corte recto, cuello clásico, mangas largas, elegancia minimalista."
-    },
-    "dior_tweed_dress": {
-      "name": "Vestido de tweed macrocannage de Dior",
-      "description": "Vestido corto de tweed gris con motivo macrocannage, mezcla de lana y seda, corte recto, silueta estructurada."
-    },
-    "armani_silk_top": {
-      "name": "Top de seda de Armani",
-      "description": "Top de seda fluido, tirantes finos, corte fluido, acabado satinado. Ideal para looks elegantes de día y de noche."
-    },
-    "armani_cotton_shirt": {
-      "name": "Camisa de algodón egipcio de Armani",
-      "description": "Camisa de lujo de popelina de algodón egipcio, corte recto, cuello italiano, botones discretos, acabado impecable."
-    },
-    "armani_wool_trousers": {
-      "name": "Pantalón de sastre de lana de Giorgio Armani",
-      "description": "Pantalón de sastre de lana virgen, corte pitillo, talle alto, pinzas marcadas, forro cómodo."
-    },
-    "gucci_premium_jeans": {
-      "name": "Vaqueros premium de Gucci",
-      "description": "Vaqueros de alta gama de denim de primera calidad, corte slim, detalles característicos con logo o bordado, estilo urbano de lujo."
-    },
-    "burberry_wool_coat": {
-      "name": "Abrigo largo de lana de Burberry",
-      "description": "Gabardina transformada en abrigo largo, lana pesada, forro cuidado, corte clásico de Burberry, bolsillos prácticos."
-    },
-    "saint_laurent_leather_jacket": {
-      "name": "Chaqueta de piel de cordero de Saint Laurent",
-      "description": "Chaqueta de motorista de piel de cordero suave, corte ajustado, cremalleras metálicas, cuello ancho, estilo rock-chic."
-    },
-    "cucinelli_cashmere_sweater": {
-      "name": "Jersey de cachemira de Brunello Cucinelli",
-      "description": "Jersey ultrasuave de cachemira de alta gama, corte ligeramente oversize, acabados de lujo, punto artesanal."
-    },
-    "miu_miu_pleated_dress": {
-      "name": "Vestido plisado de Miu Miu",
-      "description": "Vestido midi plisado de tejido ligero, corte fluido, tirantes finos, diseño femenino y juvenil."
-    },
-    "chloe_muslin_blouse": {
-      "name": "Blusa de muselina de Chloé",
-      "description": "Blusa de muselina de seda, mangas abullonadas, cuello lavallière, transparencia delicada, romántico bohemio."
-    },
-    "valentino_embroidered_dress": {
-      "name": "Vestido de tul bordado de Valentino",
-      "description": "Vestido de noche de tul bordado, flores grandes, corte acampanado, capas de tul, muy romántico y de alta costura."
-    },
-    "burberry_gabardine_trench": {
-      "name": "Gabardina de algodón de Burberry",
-      "description": "Gabardina clásica de algodón, cinturón en la cintura, forro con el icónico estampado de cuadros, corte atemporal."
-    },
-    "bottega_veneta_leather_skirt": {
-      "name": "Falda midi de piel de Bottega Veneta",
-      "description": "Falda midi de piel flexible, talle alto, corte recto, acabado liso, elegancia moderna."
-    },
-    "prada_silk_jumpsuit": {
-      "name": "Mono de seda de Prada",
-      "description": "Mono de seda fluido, tirantes finos, escote en V, pantalón de pernera ancha, unisex chic."
-    },
-    "chanel_tweed_vest": {
-      "name": "Chaleco sin mangas de tweed de Chanel",
-      "description": "Chaleco de sastre sin mangas de tweed, bordes con perlas, bolsillos de parche, estilo chic atemporal de Chanel."
-    },
-    "stella_mccartney_wrap_dress": {
-      "name": "Vestido cruzado de crepé de Stella McCartney",
-      "description": "Vestido cruzado de crepé fluido, cinturón para anudar, cuello en V, corte favorecedor, diseño sostenible."
-    },
-    "balmain_luxe_sweatshirt": {
-      "name": "Sudadera de lujo de algodón de Balmain",
-      "description": "Sudadera de corte estructurado, algodón grueso, logo discreto de Balmain, mangas raglán, bajo de canalé fino."
-    },
-    "valentino_silk_tunic": {
-      "name": "Túnica de seda salvaje de Valentino",
-      "description": "Túnica amplia de seda salvaje, mangas 3/4, cuello barco, caída fluida, elegancia natural."
-    },
-    "max_mara_wool_shorts": {
-      "name": "Shorts de sastre de lana de Max Mara",
-      "description": "Shorts de sastre de mezcla de lana, talle alto, pinzas delanteras, bajo cuidado, perfectos para un look chic de verano."
-    },
-    "oscar_de_la_renta_bustier_dress": {
-      "name": "Vestido bustier bordado de Oscar de la Renta",
-      "description": "Vestido de baile bustier, bordados florales, falda amplia de tafetán, corte glamuroso de alta costura."
-    },
-    "givenchy_satin_shirt": {
-      "name": "Camisa de satén de Givenchy",
-      "description": "Camisa de satén fluida, corte relajado, cuello clásico, botones discretos, chic minimalista."
-    },
-    "the_row_cashmere_cardigan": {
-      "name": "Cárdigan de cachemira fina de The Row",
-      "description": "Cárdigan de cachemira de lujo, corte limpio, botones de nácar, diseño discreto y de muy alta gama."
-    },
-    "valentino_palazzo_pants": {
-      "name": "Pantalón palazzo de seda de Valentino",
-      "description": "Pantalón palazzo de seda ligera, cintura elástica, corte fluido, para máxima comodidad y elegancia."
-    },
-    "balenciaga_silk_jersey_tshirt": {
-      "name": "Camiseta de lujo de punto de seda de Balenciaga",
-      "description": "Camiseta oversize de punto de seda, cuello redondo, mangas cortas, caída fluida, estilo “lujo silencioso” moderno."
-    },
-    "cucinelli_wool_cape": {
-      "name": "Capa de lana y cachemira de Brunello Cucinelli",
-      "description": "Capa de alta gama de mezcla de lana y cachemira, corte amplio, bolsillos invisibles, acabado artesanal."
-    },
     "tom_ford_slim_fit_shirt": {
       "name": "Camisa slim fit de Tom Ford",
       "description": "Camisa de popelina de algodón, corte ajustado, cuello italiano, botones de nácar, acabado de lujo."
@@ -902,6 +782,128 @@
     "shine_night_clutch": {
       "name": "Clutch de noche – Shine Night Premium",
       "description": "Pequeño y elegante clutch con efecto brillante."
+    },
+    "gucci_silk_midi_dress": {
+      "name": "Vestido midi de seda Gucci",
+      "description": "Vestido de seda fluido con estampado, largo midi, cuello redondo, mangas largas y ligeras, ideal para eventos de noche o elegantes."
+    },
+    "balmain_crossed_blazer": {
+      "name": "Blazer cruzado Balmain",
+      "description": "Blazer estructurado de mezcla de lana, hombros pronunciados, botones dorados, look chic y moderno."
+    },
+    "loro_piana_cashmere_turtleneck_women": {
+      "name": "Jersey de cuello alto de cachemira Loro Piana",
+      "description": "Punto suave y grueso, corte entallado, ideal para los días fríos."
+    },
+    "max_mara_wide_leg_wool_pants": {
+      "name": "Pantalón ancho de lana Max Mara",
+      "description": "Corte fluido, talle alto, tejido de lana merino, look sofisticado."
+    },
+    "diesel_premium_slim_jeans": {
+      "name": "Vaqueros slim premium Diesel",
+      "description": "Denim elástico, corte entallado, acabado de alta gama."
+    },
+    "saint_laurent_printed_silk_blouse": {
+      "name": "Blusa de seda estampada Saint Laurent",
+      "description": "Seda fluida, estampados sutiles, cuello clásico y mangas largas, muy elegante."
+    },
+    "prada_short_wool_dress": {
+      "name": "Vestido corto de lana Prada",
+      "description": "Vestido de invierno, corte recto, tejido de lana grueso, mangas largas, cómodo y chic."
+    },
+    "max_mara_long_cashmere_coat": {
+      "name": "Abrigo largo de cachemira Max Mara",
+      "description": "Corte elegante, cinturón integrado, lana suave y cálida."
+    },
+    "moncler_short_quilted_jacket": {
+      "name": "Chaqueta corta acolchada Moncler",
+      "description": "Chaqueta de plumas corta, cálida y ligera, estilo casual chic."
+    },
+    "chloe_oversized_cable_knit_sweater": {
+      "name": "Jersey oversize de punto de ochos Chloé",
+      "description": "Punto grueso, corte ancho, comodidad y estilo."
+    },
+    "hugo_boss_wool_pencil_skirt": {
+      "name": "Falda lápiz de lana Hugo Boss",
+      "description": "Talle alto, lana premium, corte elegante para la oficina o la noche."
+    },
+    "valentino_long_pleated_dress": {
+      "name": "Vestido largo plisado Valentino",
+      "description": "Tejido fluido, plisado delicado, mangas largas, look romántico."
+    },
+    "burberry_premium_cotton_shirt": {
+      "name": "Camisa de algodón premium Burberry",
+      "description": "Algodón grueso, corte clásico, logo discreto, perfecta para el trabajo o un look casual chic."
+    },
+    "dvf_silk_wrap_dress": {
+      "name": "Vestido cruzado de seda Diane von Fürstenberg",
+      "description": "Tejido fluido, corte cruzado favorecedor, mangas 3/4, look atemporal."
+    },
+    "dior_tailored_pants_women": {
+      "name": "Pantalón de sastre de Dior para mujer",
+      "description": "Corte recto elegante, tejido de mezcla de lana, look de alta costura."
+    },
+    "ralph_lauren_boat_neck_sweater": {
+      "name": "Jersey de cuello barco Ralph Lauren",
+      "description": "Lana merina, corte clásico, acabado de alta gama, ideal para el invierno."
+    },
+    "cucinelli_long_cashmere_cardigan": {
+      "name": "Cárdigan largo de cachemira Brunello Cucinelli",
+      "description": "Ultra suave, corte largo, botones metálicos refinados."
+    },
+    "givenchy_asymmetrical_dress": {
+      "name": "Vestido asimétrico Givenchy",
+      "description": "Corte original, tejido fluido, manga larga, look moderno."
+    },
+    "stella_mccartney_satin_blouse": {
+      "name": "Blusa de satén Stella McCartney",
+      "description": "Satén suave, mangas abullonadas, cuello redondo, estilo femenino y refinado."
+    },
+    "balenciaga_jumpsuit": {
+      "name": "Mono Balenciaga",
+      "description": "Corte recto, tejido premium, look minimalista y chic."
+    },
+    "acne_studios_oversized_coat": {
+      "name": "Abrigo oversize Acne Studios",
+      "description": "Corte ancho, mezcla de lana, mangas largas, estilo casual de lujo."
+    },
+    "max_mara_cashmere_sweater_dress": {
+      "name": "Vestido jersey de cachemira Max Mara",
+      "description": "Punto grueso, corte entallado, mangas largas, comodidad y elegancia."
+    },
+    "saint_laurent_leather_pants": {
+      "name": "Pantalón de cuero Saint Laurent",
+      "description": "Piel de cordero premium, corte slim, look rock-chic."
+    },
+    "valentino_midi_pleated_skirt": {
+      "name": "Falda midi plisada Valentino",
+      "description": "Tejido ligero, plisado delicado, talle alto, elegancia garantizada."
+    },
+    "gucci_embroidered_logo_tshirt": {
+      "name": "Camiseta con logo bordado Gucci",
+      "description": "Algodón premium, logo bordado discreto, corte entallado."
+    },
+    "chloe_boat_neck_sweater": {
+      "name": "Jersey de cuello barco con mangas abullonadas Chloé",
+      "description": "Lana fina, mangas ligeramente abullonadas, look femenino y moderno."
+    },
+    "balenciaga_oversized_shirt_dress": {
+      "name": "Vestido camisero oversize Balenciaga",
+      "description": "Algodón grueso, corte holgado, estilo urbano y chic."
+    },
+    "max_mara_wool_palazzo_pants": {
+      "name": "Pantalón palazzo de lana Max Mara",
+      "description": "Corte ancho, talle alto, tejido de lana merino, look sofisticado."
+    },
+    "saint_laurent_satin_blazer": {
+      "name": "Blazer de satén Saint Laurent",
+      "description": "Corte entallado, satén suave, mangas largas, ideal para la noche o la oficina."
+    },
+    "valentino_long_velvet_dress": {
+      "name": "Vestido largo de terciopelo Valentino",
+      "description": "Terciopelo premium, corte fluido, mangas largas, look elegante y lujoso."
     }
   }
 }
+
+    

@@ -423,126 +423,6 @@
     "colors": "Couleurs"
   },
   "products": {
-    "gucci_silk_dress": {
-      "name": "Robe soie imprimée – Gucci",
-      "description": "Robe midi en soie multicolore avec imprimé ruban, manches bouffantes longues, col avec nœud à nouer, fermeture par boutons dans le dos. Tissu 100 % soie, coupe fluide et féminine."
-    },
-    "dior_blazer_dress": {
-      "name": "Robe blazer en laine-silk gabardine – Dior",
-      "description": "Robe blazer mi-longue confectionnée en gabardine de laine vierge mélangée à de la soie. Coupe structurée, épaules définies, ceinture à la taille. Évoque un style professionnel très chic."
-    },
-    "dior_poplin_dress": {
-      "name": "Robe ceinturée popeline coton/soie – Dior",
-      "description": "Robe mi-longue, tissu léger en popeline de coton et soie, coupe ceinturée, manches longues, design épuré. Parfait cocktail entre confort et élégance."
-    },
-    "dior_oblique_dress": {
-      "name": "Robe floue à motif “Dior Oblique” – Dior",
-      "description": "Robe en denim léger à motif Oblique, coupe fluide, col asymétrique, tissu exclusif Dior."
-    },
-    "dior_shirt_dress": {
-      "name": "Robe chemise popeline noire – Dior",
-      "description": "Robe chemise simple en popeline de coton et soie, coupe droite, col classique, manches longues, élégance minimaliste."
-    },
-    "dior_tweed_dress": {
-      "name": "Robe tweed macrocannage – Dior",
-      "description": "Robe courte en tweed gris avec motif macrocannage, mélange laine et soie, coupe droite, silhouette structurée."
-    },
-    "armani_silk_top": {
-      "name": "Top en soie – Armani",
-      "description": "Haut fluide en soie, fines bretelles, coupe fluide, finition satinée. Idéal pour des looks élégants jour/nuit."
-    },
-    "armani_cotton_shirt": {
-      "name": "Chemise en coton égyptien – Armani",
-      "description": "Chemise luxe en popeline de coton égyptien, coupe droite, col italien, boutons discrets, finition nette."
-    },
-    "armani_wool_trousers": {
-      "name": "Pantalon tailleur laine – Giorgio Armani",
-      "description": "Pantalon de tailleur en laine vierge, coupe cigarette, taille haute, plis nets, doublure confortable."
-    },
-    "gucci_premium_jeans": {
-      "name": "Jean en jeans premium – Gucci",
-      "description": "Jean haut de gamme en denim de qualité supérieure, coupe slim, détails signature logo ou broderie, style urbain-luxe."
-    },
-    "burberry_wool_coat": {
-      "name": "Manteau long en laine – Burberry",
-      "description": "Trench-coat transformé en manteau long, laine lourde, doublure soignée, coupe classique à la Burberry, poches pratiques."
-    },
-    "saint_laurent_leather_jacket": {
-      "name": "Veste en cuir d’agneau – Saint Laurent",
-      "description": "Blouson biker en cuir d’agneau lisse, coupe ajustée, zips métalliques, col large, style rock-chic."
-    },
-    "cucinelli_cashmere_sweater": {
-      "name": "Pull en cachemire – Brunello Cucinelli",
-      "description": "Pull ultra-doux en cachemire haut de gamme, coupe légèrement oversize, finitions luxueuses, tricot artisanal."
-    },
-    "miu_miu_pleated_dress": {
-      "name": "Robe plissée – Miu Miu",
-      "description": "Robe midi plissée en tissu léger, coupe fluide, bretelles fines, design féminin et jeune."
-    },
-    "chloe_muslin_blouse": {
-      "name": "Blouse en mousseline – Chloé",
-      "description": "Blouse en mousseline de soie, manches ballon, col à lavallière, transparence délicate, romantique bohème."
-    },
-    "valentino_embroidered_dress": {
-      "name": "Robe en tulle brodé – Valentino",
-      "description": "Robe de soirée en tulle brodé, grosses fleurs, coupe évasée, couches de tulle, très romantique et couture."
-    },
-    "burberry_gabardine_trench": {
-      "name": "Trench coton gabardine – Burberry",
-      "description": "Trench classique en gabardine de coton, ceinture à la taille, doublure check iconique, coupe intemporelle."
-    },
-    "bottega_veneta_leather_skirt": {
-      "name": "Jupe midi en cuir – Bottega Veneta",
-      "description": "Jupe midi en cuir souple, taille haute, coupe droite, finition lisse, élégance moderne."
-    },
-    "prada_silk_jumpsuit": {
-      "name": "Combinaison pantalon en soie – Prada",
-      "description": "Combinaison en soie fluide, bretelles fines, décolleté V, coupe large pantalon, unisexe chic."
-    },
-    "chanel_tweed_vest": {
-      "name": "Gilet sans manches en tweed – Chanel",
-      "description": "Gilet tailleur sans manches en tweed, bordures perlées, poches plaquées, style demeuré chic “Chanel”."
-    },
-    "stella_mccartney_wrap_dress": {
-      "name": "Robe portefeuille en crêpe – Stella McCartney",
-      "description": "Robe portefeuille en crêpe fluide, ceinture à nouer, col V, coupe flatteuse, design durable."
-    },
-    "balmain_luxe_sweatshirt": {
-      "name": "Sweatshirt luxe en coton – Balmain",
-      "description": "Sweat à coupe structurée, coton épais, logo Balmain discret, manches raglan, bord-côte fin."
-    },
-    "valentino_silk_tunic": {
-      "name": "Tunique en soie sauvage – Valentino",
-      "description": "Tunique ample en soie sauvage, manches 3/4, col bateau, tombé fluide, élégance naturelle."
-    },
-    "max_mara_wool_shorts": {
-      "name": "Short tailleur en laine – Max Mara",
-      "description": "Short tailleur en laine mélangée, taille haute, plis devant, ourlet soigné, parfait pour un look chic estival."
-    },
-    "oscar_de_la_renta_bustier_dress": {
-      "name": "Robe bustier brodée – Oscar de la Renta",
-      "description": "Robe de bal bustier, broderies florales, jupe ample en taffetas, coupe glamour couture."
-    },
-    "givenchy_satin_shirt": {
-      "name": "Chemise en satin – Givenchy",
-      "description": "Chemise fluide en satin, coupe relax, col classique, boutons discrets, chic minimaliste."
-    },
-    "the_row_cashmere_cardigan": {
-      "name": "Cardigan en cachemire fin – The Row",
-      "description": "Cardigan luxueux en cachemire, coupe épurée, boutons nacrés, design discret et très haut de gamme."
-    },
-    "valentino_palazzo_pants": {
-      "name": "Pantalon palazzo en soie – Valentino",
-      "description": "Pantalon palazzo en soie légère, taille élastique, coupe fluide, pour un confort et une élégance maximale."
-    },
-    "balenciaga_silk_jersey_tshirt": {
-      "name": "T-shirt luxe en jersey de soie – Balenciaga",
-      "description": "T-shirt oversize en jersey de soie, col rond, manches courtes, tombé fluide, style “quiet luxury” moderne."
-    },
-    "cucinelli_wool_cape": {
-      "name": "Cape laine & cachemire – Brunello Cucinelli",
-      "description": "Cape haut-de-gamme en mélange laine et cachemire, coupe ample, poches invisibles, finition artisanale."
-    },
     "tom_ford_slim_fit_shirt": {
       "name": "Chemise Slim Fit – Tom Ford",
       "description": "Chemise en popeline de coton, coupe ajustée, col italien, boutons nacrés, finition luxe."
@@ -902,6 +782,128 @@
     "shine_night_clutch": {
       "name": "Pochette soirée – Shine Night Premium",
       "description": "Petite pochette élégante avec effet brillant."
+    },
+    "gucci_silk_midi_dress": {
+      "name": "Robe midi en soie – Gucci",
+      "description": "Robe fluide en soie imprimée, coupe midi, col rond, manches longues légères, idéale pour soirée ou événement élégant."
+    },
+    "balmain_crossed_blazer": {
+      "name": "Blazer croisé – Balmain",
+      "description": "Blazer structuré en laine mélangée, épaule marquée, boutons dorés, look chic et moderne."
+    },
+    "loro_piana_cashmere_turtleneck_women": {
+      "name": "Pull col roulé en cachemire – Loro Piana",
+      "description": "Maille douce et épaisse, coupe ajustée, idéale pour les journées froides."
+    },
+    "max_mara_wide_leg_wool_pants": {
+      "name": "Pantalon large en laine – Max Mara",
+      "description": "Coupe fluide, taille haute, tissu laine mérinos, look sophistiqué."
+    },
+    "diesel_premium_slim_jeans": {
+      "name": "Jean slim premium – Diesel",
+      "description": "Denim stretch, coupe ajustée, finition haut de gamme."
+    },
+    "saint_laurent_printed_silk_blouse": {
+      "name": "Chemisier en soie imprimée – Saint Laurent",
+      "description": "Soie fluide, motifs subtils, col classique et manches longues, très élégant."
+    },
+    "prada_short_wool_dress": {
+      "name": "Robe courte en laine – Prada",
+      "description": "Robe hiver, coupe droite, tissu laine épais, manches longues, confortable et chic."
+    },
+    "max_mara_long_cashmere_coat": {
+      "name": "Manteau long en cachemire – Max Mara",
+      "description": "Coupe élégante, ceinture intégrée, laine douce et chaude."
+    },
+    "moncler_short_quilted_jacket": {
+      "name": "Veste courte matelassée – Moncler",
+      "description": "Doudoune courte, chaude et légère, style casual chic."
+    },
+    "chloe_oversized_cable_knit_sweater": {
+      "name": "Pull oversize torsadé – Chloé",
+      "description": "Maille épaisse, coupe large, confort et style."
+    },
+    "hugo_boss_wool_pencil_skirt": {
+      "name": "Jupe crayon en laine – Hugo Boss",
+      "description": "Taille haute, laine premium, coupe élégante pour le bureau ou soirées."
+    },
+    "valentino_long_pleated_dress": {
+      "name": "Robe longue plissée – Valentino",
+      "description": "Tissu fluide, plissé délicat, manches longues, look romantique."
+    },
+    "burberry_premium_cotton_shirt": {
+      "name": "Chemise en coton premium – Burberry",
+      "description": "Coton épais, coupe classique, logo discret, parfaite pour travail ou casual chic."
+    },
+    "dvf_silk_wrap_dress": {
+      "name": "Robe portefeuille en soie – Diane von Fürstenberg",
+      "description": "Tissu fluide, coupe croisée flatteuse, manches 3/4, look intemporel."
+    },
+    "dior_tailored_pants_women": {
+      "name": "Pantalon tailleur – Dior Femme",
+      "description": "Coupe droite élégante, tissu laine mélangée, look couture."
+    },
+    "ralph_lauren_boat_neck_sweater": {
+      "name": "Pull col bateau – Ralph Lauren",
+      "description": "Laine mérinos, coupe classique, finition haut de gamme, idéal pour hiver."
+    },
+    "cucinelli_long_cashmere_cardigan": {
+      "name": "Cardigan long en cachemire – Brunello Cucinelli",
+      "description": "Ultra-doux, coupe longue, boutons métal raffinés."
+    },
+    "givenchy_asymmetrical_dress": {
+      "name": "Robe asymétrique – Givenchy",
+      "description": "Coupe originale, tissu fluide, manche longue, look moderne."
+    },
+    "stella_mccartney_satin_blouse": {
+      "name": "Blouse satinée – Stella McCartney",
+      "description": "Satin doux, manches ballon, col rond, style féminin et raffiné."
+    },
+    "balenciaga_jumpsuit": {
+      "name": "Combinaison pantalon – Balenciaga",
+      "description": "Coupe droite, tissu premium, look minimaliste et chic."
+    },
+    "acne_studios_oversized_coat": {
+      "name": "Manteau oversize – Acne Studios",
+      "description": "Coupe large, laine mélangée, manches longues, style casual luxe."
+    },
+    "max_mara_cashmere_sweater_dress": {
+      "name": "Robe pull en cachemire – Max Mara",
+      "description": "Maille épaisse, coupe ajustée, manches longues, confort et élégance."
+    },
+    "saint_laurent_leather_pants": {
+      "name": "Pantalon en cuir – Saint Laurent",
+      "description": "Cuir d’agneau premium, coupe slim, look rock-chic."
+    },
+    "valentino_midi_pleated_skirt": {
+      "name": "Jupe plissée midi – Valentino",
+      "description": "Tissu léger, plissé délicat, taille haute, élégance assurée."
+    },
+    "gucci_embroidered_logo_tshirt": {
+      "name": "T-shirt brodé logo – Gucci",
+      "description": "Coton premium, logo brodé discret, coupe ajustée."
+    },
+    "chloe_boat_neck_sweater": {
+      "name": "Pull col bateau manches ballon – Chloé",
+      "description": "Laine fine, manches légèrement bouffantes, look féminin et moderne."
+    },
+    "balenciaga_oversized_shirt_dress": {
+      "name": "Robe chemise oversize – Balenciaga",
+      "description": "Coton épais, coupe ample, style urbain et chic."
+    },
+    "max_mara_wool_palazzo_pants": {
+      "name": "Pantalon palazzo en laine – Max Mara",
+      "description": "Coupe large, taille haute, tissu laine mérinos, look sophistiqué."
+    },
+    "saint_laurent_satin_blazer": {
+      "name": "Blazer satin – Saint Laurent",
+      "description": "Coupe ajustée, satin doux, manches longues, idéal pour soirée ou bureau."
+    },
+    "valentino_long_velvet_dress": {
+      "name": "Robe longue en velours – Valentino",
+      "description": "Velours premium, coupe fluide, manches longues, look élégant et luxueux."
     }
   }
 }
+
+    

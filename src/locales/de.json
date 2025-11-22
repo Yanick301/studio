@@ -423,126 +423,6 @@
     "colors": "Farben"
   },
   "products": {
-    "gucci_silk_dress": {
-      "name": "Gucci Seidenkleid mit Schleifenprint",
-      "description": "Mehrfarbiges Seiden-Midikleid mit Schleifenprint, langen Puffärmeln, Schalkragen und Knopfverschluss hinten. 100 % Seidenstoff, fließender und femininer Schnitt."
-    },
-    "dior_blazer_dress": {
-      "name": "Dior Blazer-Kleid aus Woll-Seiden-Gabardine",
-      "description": "Mittellanges Blazer-Kleid aus Woll-Seiden-Gabardine gefertigt. Strukturierter Schnitt, definierte Schultern, taillierter Gürtel. Erweckt einen sehr schicken professionellen Stil."
-    },
-    "dior_poplin_dress": {
-      "name": "Dior Popeline-Kleid aus Baumwolle/Seide mit Gürtel",
-      "description": "Mittellanges Kleid aus leichtem Baumwoll- und Seidenpopeline, taillierter Schnitt, lange Ärmel, klares Design. Perfekter Cocktail aus Komfort und Eleganz."
-    },
-    "dior_oblique_dress": {
-      "name": "Dior Oblique-Muster fließendes Kleid",
-      "description": "Leichtes Denim-Kleid mit Oblique-Muster, fließendem Schnitt, asymmetrischem Kragen, exklusiver Dior-Stoff."
-    },
-    "dior_shirt_dress": {
-      "name": "Dior schwarzes Popeline-Hemdkleid",
-      "description": "Einfaches Hemdkleid aus Baumwoll- und Seidenpopeline, gerader Schnitt, klassischer Kragen, lange Ärmel, minimalistische Eleganz."
-    },
-    "dior_tweed_dress": {
-      "name": "Dior Macrocannage-Tweed-Kleid",
-      "description": "Kurzes Kleid aus grauem Tweed mit Macrocannage-Muster, Woll- und Seidenmischung, gerader Schnitt, strukturierte Silhouette."
-    },
-    "armani_silk_top": {
-      "name": "Armani Seidentop",
-      "description": "Fließendes Seidentop, dünne Träger, fließender Schnitt, Satin-Finish. Ideal für elegante Tag- und Nachtlooks."
-    },
-    "armani_cotton_shirt": {
-      "name": "Armani ägyptisches Baumwollhemd",
-      "description": "Luxushemd aus ägyptischem Baumwollpopeline, gerader Schnitt, italienischer Kragen, dezente Knöpfe, sauberes Finish."
-    },
-    "armani_wool_trousers": {
-      "name": "Giorgio Armani maßgeschneiderte Wollhose",
-      "description": "Maßgeschneiderte Hose aus Schurwolle, Zigarettenschnitt, hohe Taille, scharfe Falten, bequemes Futter."
-    },
-    "gucci_premium_jeans": {
-      "name": "Gucci Premium-Jeans",
-      "description": "Hochwertige Jeans aus Premium-Qualitätsdenim, schmale Passform, charakteristische Logo- oder Stickereidetails, urbaner Luxus-Stil."
-    },
-    "burberry_wool_coat": {
-      "name": "Burberry langer Wollmantel",
-      "description": "Trenchcoat, der in einen langen Mantel verwandelt wurde, schwere Wolle, sauberes Futter, klassischer Burberry-Schnitt, praktische Taschen."
-    },
-    "saint_laurent_leather_jacket": {
-      "name": "Saint Laurent Lammlederjacke",
-      "description": "Bikerjacke aus glattem Lammleder, taillierter Schnitt, Metallreißverschlüsse, breiter Kragen, rockig-schicker Stil."
-    },
-    "cucinelli_cashmere_sweater": {
-      "name": "Brunello Cucinelli Kaschmirpullover",
-      "description": "Ultraweicher Pullover aus hochwertigem Kaschmir, leicht übergroßer Schnitt, luxuriöse Oberflächen, handwerkliche Strickerei."
-    },
-    "miu_miu_pleated_dress": {
-      "name": "Miu Miu plissiertes Kleid",
-      "description": "Plissiertes Midikleid aus leichtem Stoff, fließender Schnitt, dünne Träger, feminines und jugendliches Design."
-    },
-    "chloe_muslin_blouse": {
-      "name": "Chloé Musselin-Bluse",
-      "description": "Seidenmusselin-Bluse, Ballonärmel, Lavallière-Kragen, zarte Transparenz, bohemianisch-romantisch."
-    },
-    "valentino_embroidered_dress": {
-      "name": "Valentino besticktes Tüllkleid",
-      "description": "Besticktes Tüll-Abendkleid, große Blumen, ausgestellter Schnitt, Tüllschichten, sehr romantisch und Couture."
-    },
-    "burberry_gabardine_trench": {
-      "name": "Burberry Baumwoll-Gabardine-Trenchcoat",
-      "description": "Klassischer Trenchcoat aus Baumwoll-Gabardine, taillierter Gürtel, ikonisches Check-Futter, zeitloser Schnitt."
-    },
-    "bottega_veneta_leather_skirt": {
-      "name": "Bottega Veneta Leder-Midirock",
-      "description": "Midirock aus geschmeidigem Leder, hohe Taille, gerader Schnitt, glattes Finish, moderne Eleganz."
-    },
-    "prada_silk_jumpsuit": {
-      "name": "Prada Seidenjumpsuit",
-      "description": "Fließender Seidenjumpsuit, dünne Träger, V-Ausschnitt, weite Hosenbeine, unisex-chic."
-    },
-    "chanel_tweed_vest": {
-      "name": "Chanel ärmellose Tweed-Weste",
-      "description": "Ärmellose maßgeschneiderte Weste aus Tweed, perlenbesetzte Kanten, aufgesetzte Taschen, beständiger „Chanel“-Chic-Stil."
-    },
-    "stella_mccartney_wrap_dress": {
-      "name": "Stella McCartney Krepp-Wickelkleid",
-      "description": "Wickelkleid aus fließendem Krepp, Bindegürtel, V-Ausschnitt, schmeichelnder Schnitt, nachhaltiges Design."
-    },
-    "balmain_luxe_sweatshirt": {
-      "name": "Balmain Luxus-Baumwoll-Sweatshirt",
-      "description": "Sweatshirt mit strukturiertem Schnitt, dicke Baumwolle, dezentes Balmain-Logo, Raglanärmel, feiner Rippsaum."
-    },
-    "valentino_silk_tunic": {
-      "name": "Valentino Wildseidentunika",
-      "description": "Weite Tunika aus Wildseide, 3/4-Ärmel, U-Boot-Ausschnitt, fließender Fall, natürliche Eleganz."
-    },
-    "max_mara_wool_shorts": {
-      "name": "Max Mara maßgeschneiderte Wollshorts",
-      "description": "Maßgeschneiderte Shorts aus einer Wollmischung, hohe Taille, vordere Falten, sauberer Saum, perfekt für einen schicken Sommerlook."
-    },
-    "oscar_de_la_renta_bustier_dress": {
-      "name": "Oscar de la Renta besticktes Bustierkleid",
-      "description": "Bustier-Ballkleid, Blumenstickerei, voller Taffrock, glamouröser Couture-Schnitt."
-    },
-    "givenchy_satin_shirt": {
-      "name": "Givenchy Satinhemd",
-      "description": "Fließendes Satinhemd, lockere Passform, klassischer Kragen, dezente Knöpfe, minimalistisch-chic."
-    },
-    "the_row_cashmere_cardigan": {
-      "name": "The Row feiner Kaschmir-Cardigan",
-      "description": "Luxuriöser Kaschmir-Cardigan, sauberer Schnitt, Perlmuttknöpfe, dezentes und sehr hochwertiges Design."
-    },
-    "valentino_palazzo_pants": {
-      "name": "Valentino Seiden-Palazzohose",
-      "description": "Palazzohose aus leichter Seide, elastischer Bund, fließender Schnitt, für maximalen Komfort und Eleganz."
-    },
-    "balenciaga_silk_jersey_tshirt": {
-      "name": "Balenciaga Luxus-Seidenjersey-T-Shirt",
-      "description": "Übergroßes T-Shirt aus Seidenjersey, Rundhalsausschnitt, kurze Ärmel, fließender Fall, moderner „stiller Luxus“-Stil."
-    },
-    "cucinelli_wool_cape": {
-      "name": "Brunello Cucinelli Woll- & Kaschmir-Cape",
-      "description": "Hochwertiges Cape aus einer Woll- und Kaschmirmischung, weiter Schnitt, unsichtbare Taschen, handwerkliches Finish."
-    },
     "tom_ford_slim_fit_shirt": {
       "name": "Tom Ford Slim Fit Hemd",
       "description": "Hemd aus Baumwoll-Popeline, Slim Fit, italienischer Kragen, Perlmuttknöpfe, Luxus-Finish."
@@ -902,6 +782,128 @@
     "shine_night_clutch": {
       "name": "Abend-Clutch – Shine Night Premium",
       "description": "Kleine elegante Clutch mit Glanzeffekt."
+    },
+    "gucci_silk_midi_dress": {
+      "name": "Gucci Seiden-Midikleid",
+      "description": "Fließendes Seidenkleid mit Druck, Midilänge, Rundhalsausschnitt, leichte lange Ärmel, ideal für Abendveranstaltungen oder elegante Anlässe."
+    },
+    "balmain_crossed_blazer": {
+      "name": "Balmain Gekreuzter Blazer",
+      "description": "Strukturierter Blazer aus Wollmischung, markante Schulterpartie, goldene Knöpfe, schicker und moderner Look."
+    },
+    "loro_piana_cashmere_turtleneck_women": {
+      "name": "Loro Piana Kaschmir-Rollkragenpullover",
+      "description": "Weiche und dicke Maschenware, figurbetonter Schnitt, ideal für kalte Tage."
+    },
+    "max_mara_wide_leg_wool_pants": {
+      "name": "Max Mara Weite Wollhose",
+      "description": "Fließender Schnitt, hohe Taille, Merinowollstoff, anspruchsvoller Look."
+    },
+    "diesel_premium_slim_jeans": {
+      "name": "Diesel Premium Slim Jeans",
+      "description": "Stretch-Denim, figurbetonter Schnitt, hochwertige Verarbeitung."
+    },
+    "saint_laurent_printed_silk_blouse": {
+      "name": "Saint Laurent Bedruckte Seidenbluse",
+      "description": "Fließende Seide, dezente Muster, klassischer Kragen und lange Ärmel, sehr elegant."
+    },
+    "prada_short_wool_dress": {
+      "name": "Prada Kurzes Wollkleid",
+      "description": "Winterkleid, gerader Schnitt, dickes Wollgewebe, lange Ärmel, bequem und schick."
+    },
+    "max_mara_long_cashmere_coat": {
+      "name": "Max Mara Langer Kaschmirmantel",
+      "description": "Eleganter Schnitt, integrierter Gürtel, weiche und warme Wolle."
+    },
+    "moncler_short_quilted_jacket": {
+      "name": "Moncler Kurze Steppjacke",
+      "description": "Kurze Daunenjacke, warm und leicht, lässig-schicker Stil."
+    },
+    "chloe_oversized_cable_knit_sweater": {
+      "name": "Chloé Übergroßer Zopfstrickpullover",
+      "description": "Dicke Maschenware, weiter Schnitt, Komfort und Stil."
+    },
+    "hugo_boss_wool_pencil_skirt": {
+      "name": "Hugo Boss Woll-Bleistiftrock",
+      "description": "Hohe Taille, Premium-Wolle, eleganter Schnitt für Büro oder Abend."
+    },
+    "valentino_long_pleated_dress": {
+      "name": "Valentino Langes Plisseekleid",
+      "description": "Fließender Stoff, zarte Plisseefalten, lange Ärmel, romantischer Look."
+    },
+    "burberry_premium_cotton_shirt": {
+      "name": "Burberry Premium-Baumwollhemd",
+      "description": "Dicke Baumwolle, klassischer Schnitt, dezentes Logo, perfekt für Arbeit oder lässig-schick."
+    },
+    "dvf_silk_wrap_dress": {
+      "name": "Diane von Fürstenberg Seiden-Wickelkleid",
+      "description": "Fließender Stoff, schmeichelhafter Wickelschnitt, 3/4-Ärmel, zeitloser Look."
+    },
+    "dior_tailored_pants_women": {
+      "name": "Dior Damen-Maßhose",
+      "description": "Eleganter gerader Schnitt, Wollmischgewebe, Couture-Look."
+    },
+    "ralph_lauren_boat_neck_sweater": {
+      "name": "Ralph Lauren Pullover mit U-Boot-Ausschnitt",
+      "description": "Merinowolle, klassischer Schnitt, hochwertige Verarbeitung, ideal für den Winter."
+    },
+    "cucinelli_long_cashmere_cardigan": {
+      "name": "Brunello Cucinelli Langer Kaschmir-Cardigan",
+      "description": "Ultraweich, langer Schnitt, raffinierte Metallknöpfe."
+    },
+    "givenchy_asymmetrical_dress": {
+      "name": "Givenchy Asymmetrisches Kleid",
+      "description": "Origineller Schnitt, fließender Stoff, lange Ärmel, moderner Look."
+    },
+    "stella_mccartney_satin_blouse": {
+      "name": "Stella McCartney Satinbluse",
+      "description": "Weicher Satin, Ballonärmel, Rundhalsausschnitt, femininer und raffinierter Stil."
+    },
+    "balenciaga_jumpsuit": {
+      "name": "Balenciaga Jumpsuit",
+      "description": "Gerader Schnitt, Premium-Stoff, minimalistischer und schicker Look."
+    },
+    "acne_studios_oversized_coat": {
+      "name": "Acne Studios Übergroßer Mantel",
+      "description": "Weiter Schnitt, Wollmischung, lange Ärmel, lässig-luxuriöser Stil."
+    },
+    "max_mara_cashmere_sweater_dress": {
+      "name": "Max Mara Kaschmir-Pulloverkleid",
+      "description": "Dicke Maschenware, figurbetonter Schnitt, lange Ärmel, Komfort und Eleganz."
+    },
+    "saint_laurent_leather_pants": {
+      "name": "Saint Laurent Lederhose",
+      "description": "Premium-Lammleder, Slim Fit, rockig-schicker Look."
+    },
+    "valentino_midi_pleated_skirt": {
+      "name": "Valentino Midi-Plisseerock",
+      "description": "Leichter Stoff, zarte Plisseefalten, hohe Taille, garantierte Eleganz."
+    },
+    "gucci_embroidered_logo_tshirt": {
+      "name": "Gucci T-Shirt mit gesticktem Logo",
+      "description": "Premium-Baumwolle, dezentes gesticktes Logo, figurbetonter Schnitt."
+    },
+    "chloe_boat_neck_sweater": {
+      "name": "Chloé Pullover mit U-Boot-Ausschnitt und Ballonärmeln",
+      "description": "Feine Wolle, leicht bauschige Ärmel, femininer und moderner Look."
+    },
+    "balenciaga_oversized_shirt_dress": {
+      "name": "Balenciaga Übergroßes Hemdkleid",
+      "description": "Dicke Baumwolle, lockerer Schnitt, urbaner und schicker Stil."
+    },
+    "max_mara_wool_palazzo_pants": {
+      "name": "Max Mara Woll-Palazzo-Hose",
+      "description": "Weiter Schnitt, hohe Taille, Merinowollstoff, anspruchsvoller Look."
+    },
+    "saint_laurent_satin_blazer": {
+      "name": "Saint Laurent Satin-Blazer",
+      "description": "Figurbetonter Schnitt, weicher Satin, lange Ärmel, ideal für Abend oder Büro."
+    },
+    "valentino_long_velvet_dress": {
+      "name": "Valentino Langes Samtkleid",
+      "description": "Premium-Samt, fließender Schnitt, lange Ärmel, eleganter und luxuriöser Look."
     }
   }
 }
+
+    
