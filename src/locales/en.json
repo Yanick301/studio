@@ -425,483 +425,507 @@
   "products": {
     "gucci_silk_dress": {
       "name": "Gucci Ribbon Print Silk Dress",
-      "description": "Multicolor silk midi dress with ribbon print, long puff sleeves, tie-neck collar, and back button fastening. 100% silk fabric, fluid and feminine cut.",
-      "details": "100% silk fabric, fluid cut. Professional dry clean recommended."
+      "description": "Multicolor silk midi dress with ribbon print, long puff sleeves, tie-neck collar, and back button fastening. 100% silk fabric, fluid and feminine cut."
     },
     "dior_blazer_dress": {
       "name": "Dior Wool-Silk Gabardine Blazer Dress",
-      "description": "Mid-length blazer dress crafted in wool-silk gabardine. Structured cut, defined shoulders, belted waist. Evokes a very chic professional style.",
-      "details": "Virgin wool and silk gabardine. Structured cut. Dry clean only."
+      "description": "Mid-length blazer dress crafted in wool-silk gabardine. Structured cut, defined shoulders, belted waist. Evokes a very chic professional style."
     },
     "dior_poplin_dress": {
       "name": "Dior Cotton/Silk Poplin Belted Dress",
-      "description": "Mid-length dress in lightweight cotton and silk poplin, belted cut, long sleeves, clean design. Perfect cocktail of comfort and elegance.",
-      "details": "Cotton and silk poplin. Removable belt. Gentle machine wash."
+      "description": "Mid-length dress in lightweight cotton and silk poplin, belted cut, long sleeves, clean design. Perfect cocktail of comfort and elegance."
     },
     "dior_oblique_dress": {
       "name": "Dior Oblique Pattern Fluid Dress",
-      "description": "Lightweight denim dress with Oblique pattern, fluid cut, asymmetrical collar, exclusive Dior fabric.",
-      "details": "Exclusive Dior lightweight denim. Fluid cut. Dry clean recommended."
+      "description": "Lightweight denim dress with Oblique pattern, fluid cut, asymmetrical collar, exclusive Dior fabric."
     },
     "dior_shirt_dress": {
       "name": "Dior Black Poplin Shirt Dress",
-      "description": "Simple shirt dress in cotton and silk poplin, straight cut, classic collar, long sleeves, minimalist elegance.",
-      "details": "Cotton and silk poplin. Straight cut. Can be worn with a belt."
+      "description": "Simple shirt dress in cotton and silk poplin, straight cut, classic collar, long sleeves, minimalist elegance."
     },
     "dior_tweed_dress": {
       "name": "Dior Macrocannage Tweed Dress",
-      "description": "Short dress in grey tweed with macrocannage pattern, wool and silk blend, straight cut, structured silhouette.",
-      "details": "Wool and silk tweed. Macrocannage pattern. Dry clean only."
+      "description": "Short dress in grey tweed with macrocannage pattern, wool and silk blend, straight cut, structured silhouette."
     },
     "armani_silk_top": {
       "name": "Armani Silk Top",
-      "description": "Fluid silk top, thin straps, fluid cut, satin finish. Ideal for elegant day-to-night looks.",
-      "details": "100% silk. Adjustable thin straps. Hand wash recommended."
+      "description": "Fluid silk top, thin straps, fluid cut, satin finish. Ideal for elegant day-to-night looks."
     },
     "armani_cotton_shirt": {
       "name": "Armani Egyptian Cotton Shirt",
-      "description": "Luxury shirt in Egyptian cotton poplin, straight cut, Italian collar, discreet buttons, clean finish.",
-      "details": "100% Egyptian cotton. Italian collar. Mother-of-pearl buttons."
+      "description": "Luxury shirt in Egyptian cotton poplin, straight cut, Italian collar, discreet buttons, clean finish."
     },
     "armani_wool_trousers": {
       "name": "Giorgio Armani Wool Tailored Trousers",
-      "description": "Tailored trousers in virgin wool, cigarette cut, high waist, sharp pleats, comfortable lining.",
-      "details": "100% virgin wool. Cigarette cut. Dry clean."
+      "description": "Tailored trousers in virgin wool, cigarette cut, high waist, sharp pleats, comfortable lining."
     },
     "gucci_premium_jeans": {
       "name": "Gucci Premium Jeans",
-      "description": "High-end jeans in premium quality denim, slim fit, signature logo or embroidery details, urban-luxe style.",
-      "details": "Premium quality denim. Gucci signature details. Machine wash."
+      "description": "High-end jeans in premium quality denim, slim fit, signature logo or embroidery details, urban-luxe style."
     },
     "burberry_wool_coat": {
       "name": "Burberry Long Wool Coat",
-      "description": "Trench coat transformed into a long coat, heavy wool, neat lining, classic Burberry cut, practical pockets.",
-      "details": "Heavy wool. Burberry check lining. Dry clean."
+      "description": "Trench coat transformed into a long coat, heavy wool, neat lining, classic Burberry cut, practical pockets."
     },
     "saint_laurent_leather_jacket": {
       "name": "Saint Laurent Lambskin Leather Jacket",
-      "description": "Biker jacket in smooth lambskin, fitted cut, metal zips, wide collar, rock-chic style.",
-      "details": "100% lambskin. Metal zips. Specialist leather care."
+      "description": "Biker jacket in smooth lambskin, fitted cut, metal zips, wide collar, rock-chic style."
     },
     "cucinelli_cashmere_sweater": {
       "name": "Brunello Cucinelli Cashmere Sweater",
-      "description": "Ultra-soft sweater in high-end cashmere, slightly oversized cut, luxurious finishes, artisanal knit.",
-      "details": "100% cashmere. Artisanal knit. Hand wash recommended."
+      "description": "Ultra-soft sweater in high-end cashmere, slightly oversized cut, luxurious finishes, artisanal knit."
     },
     "miu_miu_pleated_dress": {
       "name": "Miu Miu Pleated Dress",
-      "description": "Pleated midi dress in lightweight fabric, fluid cut, thin straps, feminine and youthful design.",
-      "details": "Lightweight pleated fabric. Thin straps. Dry clean."
+      "description": "Pleated midi dress in lightweight fabric, fluid cut, thin straps, feminine and youthful design."
     },
     "chloe_muslin_blouse": {
       "name": "Chloé Muslin Blouse",
-      "description": "Silk muslin blouse, balloon sleeves, lavallière collar, delicate transparency, bohemian romantic.",
-      "details": "Silk muslin. Balloon sleeves. Tie-neck."
+      "description": "Silk muslin blouse, balloon sleeves, lavallière collar, delicate transparency, bohemian romantic."
     },
     "valentino_embroidered_dress": {
       "name": "Valentino Embroidered Tulle Dress",
-      "description": "Embroidered tulle evening dress, large flowers, flared cut, layers of tulle, very romantic and couture.",
-      "details": "Embroidered tulle. Silk lining. Couture dry clean."
+      "description": "Embroidered tulle evening dress, large flowers, flared cut, layers of tulle, very romantic and couture."
     },
     "burberry_gabardine_trench": {
       "name": "Burberry Cotton Gabardine Trench",
-      "description": "Classic trench in cotton gabardine, belted waist, iconic check lining, timeless cut.",
-      "details": "Cotton gabardine. Check lining. Dry clean."
+      "description": "Classic trench in cotton gabardine, belted waist, iconic check lining, timeless cut."
     },
     "bottega_veneta_leather_skirt": {
       "name": "Bottega Veneta Leather Midi Skirt",
-      "description": "Midi skirt in supple leather, high waist, straight cut, smooth finish, modern elegance.",
-      "details": "Supple lambskin. Specialist leather care."
+      "description": "Midi skirt in supple leather, high waist, straight cut, smooth finish, modern elegance."
     },
     "prada_silk_jumpsuit": {
       "name": "Prada Silk Jumpsuit",
-      "description": "Fluid silk jumpsuit, thin straps, V-neck, wide leg trousers, unisex chic.",
-      "details": "100% silk. Wide leg. Dry clean."
+      "description": "Fluid silk jumpsuit, thin straps, V-neck, wide leg trousers, unisex chic."
     },
     "chanel_tweed_vest": {
       "name": "Chanel Tweed Sleeveless Vest",
-      "description": "Sleeveless tailored vest in tweed, pearl-trimmed edges, patch pockets, enduring “Chanel” chic style.",
-      "details": "Iconic Chanel tweed. Pearl finishes. Couture dry clean."
+      "description": "Sleeveless tailored vest in tweed, pearl-trimmed edges, patch pockets, enduring “Chanel” chic style."
     },
     "stella_mccartney_wrap_dress": {
       "name": "Stella McCartney Crepe Wrap Dress",
-      "description": "Wrap dress in fluid crepe, tie belt, V-neck, flattering cut, sustainable design.",
-      "details": "Sustainable fluid crepe. Tie belt. Machine wash."
+      "description": "Wrap dress in fluid crepe, tie belt, V-neck, flattering cut, sustainable design."
     },
     "balmain_luxe_sweatshirt": {
       "name": "Balmain Luxe Cotton Sweatshirt",
-      "description": "Sweatshirt with a structured cut, thick cotton, discreet Balmain logo, raglan sleeves, fine ribbed hem.",
-      "details": "Thick cotton. Discreet logo. Machine wash."
+      "description": "Sweatshirt with a structured cut, thick cotton, discreet Balmain logo, raglan sleeves, fine ribbed hem."
     },
     "valentino_silk_tunic": {
       "name": "Valentino Wild Silk Tunic",
-      "description": "Ample tunic in wild silk, 3/4 sleeves, boat neck, fluid drape, natural elegance.",
-      "details": "100% wild silk. Ample cut. Dry clean."
+      "description": "Ample tunic in wild silk, 3/4 sleeves, boat neck, fluid drape, natural elegance."
     },
     "max_mara_wool_shorts": {
       "name": "Max Mara Wool Tailored Shorts",
-      "description": "Tailored shorts in a wool blend, high waist, front pleats, neat hem, perfect for a chic summer look.",
-      "details": "Wool blend. High waist. Dry clean."
+      "description": "Tailored shorts in a wool blend, high waist, front pleats, neat hem, perfect for a chic summer look."
     },
     "oscar_de_la_renta_bustier_dress": {
       "name": "Oscar de la Renta Embroidered Bustier Gown",
-      "description": "Bustier ball gown, floral embroidery, full taffeta skirt, glamorous couture cut.",
-      "details": "Taffeta and floral embroidery. Couture dry clean."
+      "description": "Bustier ball gown, floral embroidery, full taffeta skirt, glamorous couture cut."
     },
     "givenchy_satin_shirt": {
       "name": "Givenchy Satin Shirt",
-      "description": "Fluid satin shirt, relaxed fit, classic collar, discreet buttons, minimalist chic.",
-      "details": "Fluid satin. Relaxed fit. Gentle wash."
+      "description": "Fluid satin shirt, relaxed fit, classic collar, discreet buttons, minimalist chic."
     },
     "the_row_cashmere_cardigan": {
       "name": "The Row Fine Cashmere Cardigan",
-      "description": "Luxurious cashmere cardigan, clean cut, mother-of-pearl buttons, discreet and very high-end design.",
-      "details": "100% cashmere. Mother-of-pearl buttons. Hand wash."
+      "description": "Luxurious cashmere cardigan, clean cut, mother-of-pearl buttons, discreet and very high-end design."
     },
     "valentino_palazzo_pants": {
       "name": "Valentino Silk Palazzo Pants",
-      "description": "Palazzo pants in lightweight silk, elastic waist, fluid cut, for maximum comfort and elegance.",
-      "details": "Lightweight 100% silk. Elastic waist. Dry clean."
+      "description": "Palazzo pants in lightweight silk, elastic waist, fluid cut, for maximum comfort and elegance."
     },
     "balenciaga_silk_jersey_tshirt": {
       "name": "Balenciaga Luxe Silk Jersey T-shirt",
-      "description": "Oversized t-shirt in silk jersey, round neck, short sleeves, fluid drape, modern “quiet luxury” style.",
-      "details": "Silk jersey. Oversized fit. Gentle wash."
+      "description": "Oversized t-shirt in silk jersey, round neck, short sleeves, fluid drape, modern “quiet luxury” style."
     },
     "cucinelli_wool_cape": {
       "name": "Brunello Cucinelli Wool & Cashmere Cape",
-      "description": "High-end cape in a wool and cashmere blend, ample cut, invisible pockets, artisanal finish.",
-      "details": "Wool and cashmere blend. Artisanal finish. Dry clean."
+      "description": "High-end cape in a wool and cashmere blend, ample cut, invisible pockets, artisanal finish."
     },
     "ezential_bag": {
       "name": "'The Daily' Taurillon Leather Bag",
-      "description": "Functional luxury. This shoulder bag in French taurillon leather is as supple as it is durable. Its multiple compartments make it the ideal daily partner.",
-      "details": "French Taurillon leather. Suedette lining. Palladium-finish metal parts. Adjustable shoulder strap."
+      "description": "Functional luxury. This shoulder bag in French taurillon leather is as supple as it is durable. Its multiple compartments make it the ideal daily partner."
     },
     "lumi_clutch": {
       "name": "'Jewel' Strass-Covered Minaudière",
-      "description": "More than a bag, a jewel. This rigid minaudière is entirely covered with Swarovski crystals, capturing the light with every movement.",
-      "details": "Brass structure. Swarovski crystals. Jewel clasp. Removable chain."
+      "description": "More than a bag, a jewel. This rigid minaudière is entirely covered with Swarovski crystals, capturing the light with every movement."
     },
     "carte_prime_holder": {
       "name": "'The Minimalist' Epsom Leather Card Holder",
-      "description": "The essential, with elegance. Made from Epsom calfskin, known for its resistance, this slim card holder fits into any pocket.",
-      "details": "Epsom calfskin. Three card slots. Central compartment. Hand-painted edges."
+      "description": "The essential, with elegance. Made from Epsom calfskin, known for its resistance, this slim card holder fits into any pocket."
     },
     "finesse_belt": {
       "name": "'The Allure' Lizard Leather Belt",
-      "description": "The detail that changes everything. A thin belt in genuine lizard leather, with a discreet buckle in palladium-plated brass. A subtle luxury.",
-      "details": "Genuine lizard leather. Calfskin lining. Palladium-finish brass buckle."
+      "description": "The detail that changes everything. A thin belt in genuine lizard leather, with a discreet buckle in palladium-plated brass. A subtle luxury."
     },
     "minit_bag": {
       "name": "'The Charmer' Kid Suede Micro-Bag",
-      "description": "The little bag that has it all. Big enough for the essentials (phone, cards, lipstick), this velvety goat leather bag is the perfect evening accessory.",
-      "details": "Velvety goat leather. Chain and leather strap. Magnetic closure."
+      "description": "The little bag that has it all. Big enough for the essentials (phone, cards, lipstick), this velvety goat leather bag is the perfect evening accessory."
     },
     "horizon_sunglasses": {
       "name": "'Aviator' Titanium and Gold Sunglasses",
-      "description": "An icon revisited. Ultra-light frame in Japanese titanium, with 18-carat gold-plated details. Polarized lenses for perfect vision.",
-      "details": "Titanium frame. 18-carat gold plating. Polarized lenses with anti-reflective treatment."
+      "description": "An icon revisited. Ultra-light frame in Japanese titanium, with 18-carat gold-plated details. Polarized lenses for perfect vision."
     },
     "nuit_scarf": {
       "name": "'Sweet Night' Cashmere and Silk Stole",
-      "description": "A scarf of incredible lightness and softness. The blend of cashmere and silk gives it a fluid drape and delicate warmth.",
-      "details": "70% Cashmere, 30% Silk. Very fine weave. Delicate fringed edges. Dimensions: 70x200cm."
+      "description": "A scarf of incredible lightness and softness. The blend of cashmere and silk gives it a fluid drape and delicate warmth."
     },
     "organize_pouch": {
       "name": "'The Nomad' Tech Pouch in Leather",
-      "description": "Organize your tech essentials with style. This soft leather pouch is designed to hold your cables, chargers, and other small accessories.",
-      "details": "Soft calfskin. Elasticated compartments. Microfiber lining."
+      "description": "Organize your tech essentials with style. This soft leather pouch is designed to hold your cables, chargers, and other small accessories."
     },
     "reflet_jewelry_set": {
       "name": "'Dewdrop' Topaz Jewelry Set",
-      "description": "A necklace and earrings set of absolute finesse, highlighting pear-cut blue topazes on a white gold setting.",
-      "details": "18-carat white gold. 'Swiss Blue' blue topazes. Forçat chain."
+      "description": "A necklace and earrings set of absolute finesse, highlighting pear-cut blue topazes on a white gold setting."
     },
     "anchor_bracelet": {
       "name": "'The Anchor' Braided Leather Bracelet",
-      "description": "A casual men's jewel. This bracelet is made of braided calfskin and a clasp in the shape of a marine anchor in brushed stainless steel.",
-      "details": "Braided calfskin. 316L steel anchor clasp. Handmade in Italy."
+      "description": "A casual men's jewel. This bracelet is made of braided calfskin and a clasp in the shape of a marine anchor in brushed stainless steel."
     },
     "etoile_earrings": {
       "name": "'Solitaire Diamond' Stud Earrings",
-      "description": "Pure sparkle. Each earring is set with a 0.25 carat diamond, mounted on white gold for maximum brilliance. A timeless classic.",
-      "details": "18-carat white gold. Two 0.25ct diamonds each, G/VS quality. Secure locking system."
+      "description": "Pure sparkle. Each earring is set with a 0.25 carat diamond, mounted on white gold for maximum brilliance. A timeless classic."
     },
     "ocean_necklace": {
       "name": "'Black Pearl' Tahitian Necklace",
-      "description": "The raw, natural beauty of a Tahitian black pearl, simply suspended from a thin rose gold chain. Each pearl is unique.",
-      "details": "18-carat rose gold. Tahitian black pearl, AAA grade, 9-10mm diameter."
+      "description": "The raw, natural beauty of a Tahitian black pearl, simply suspended from a thin rose gold chain. Each pearl is unique."
     },
     "sync_watch": {
       "name": "'Connected Horizon' Automatic Watch",
-      "description": "The best of both worlds. A Swiss automatic movement watch, housed in a titanium case with a discreet, integrated notification module.",
-      "details": "Swiss automatic movement. Grade 5 titanium case. Sapphire crystal. Interchangeable strap."
+      "description": "The best of both worlds. A Swiss automatic movement watch, housed in a titanium case with a discreet, integrated notification module."
     },
     "pluie_chic_umbrella": {
       "name": "'The Gentleman' Maple Wood Umbrella",
-      "description": "Face the rain with panache. A single shaft of maple wood, a wide water-repellent canopy, and a traditional manual opening for this exceptional umbrella.",
-      "details": "Solid maple wood shaft and handle. High-density polyester canopy. Made in France."
+      "description": "Face the rain with panache. A single shaft of maple wood, a wide water-repellent canopy, and a traditional manual opening for this exceptional umbrella."
     },
     "travel_safe_wallet": {
       "name": "'The Globetrotter' Travel Wallet",
-      "description": "Organize your journey. Designed to hold a passport, boarding passes, currencies, and credit cards in an elegant leather format.",
-      "details": "Full-grain calfskin leather. RFID protection. Multiple compartments."
+      "description": "Organize your journey. Designed to hold a passport, boarding passes, currencies, and credit cards in an elegant leather format."
     },
     "riviera_hat": {
       "name": "'Côte d'Azur' Panama Straw Hat",
-      "description": "The quintessential summer accessory. Hand-woven in Ecuador, this Panama straw hat protects from the sun with unparalleled elegance. Grosgrain ribbon.",
-      "details": "Authentic Toquilla straw (Panama). Fine weave. Interchangeable grosgrain ribbon."
+      "description": "The quintessential summer accessory. Hand-woven in Ecuador, this Panama straw hat protects from the sun with unparalleled elegance. Grosgrain ribbon."
     },
     "smart_gloves": {
       "name": "'Tactile' Peccary Cashmere-Lined Gloves",
-      "description": "Luxury at your fingertips. Made from the very rare peccary leather and lined with cashmere, these gloves are compatible with touch screens.",
-      "details": "Peccary leather. 100% cashmere lining. Touchscreen compatible technology."
+      "description": "Luxury at your fingertips. Made from the very rare peccary leather and lined with cashmere, these gloves are compatible with touch screens."
     },
     "ceremony_bowtie": {
       "name": "'Black Tie' Silk Faille Bow Tie",
-      "description": "The essential accessory for evening wear. This self-tie bow tie is cut from a precious black silk faille.",
-      "details": "100% Silk Faille. Self-tie. Adjustable size."
+      "description": "The essential accessory for evening wear. This self-tie bow tie is cut from a precious black silk faille."
     },
     "coin_purse": {
       "name": "'The Collector' Clasp Coin Purse",
-      "description": "A retro charm. This soft calfskin coin purse closes with a classic metal clasp. Ideal for your change or your little secrets.",
-      "details": "Soft calfskin. Aged brass clasp. Lambskin lining."
+      "description": "A retro charm. This soft calfskin coin purse closes with a classic metal clasp. Ideal for your change or your little secrets."
     },
     "flora_brooch": {
       "name": "'Fleur de Lys' Enamel Brooch",
-      "description": "A touch of poetry. This brooch, representing a stylized fleur-de-lis, is made using the plique-à-jour enamel technique, reminiscent of stained glass.",
-      "details": "Gold-plated 925 silver. Plique-à-jour enamel. Handmade."
+      "description": "A touch of poetry. This brooch, representing a stylized fleur-de-lis, is made using the plique-à-jour enamel technique, reminiscent of stained glass."
     },
     "luxband_headband": {
       "name": "'Muse' Silk Twill Headband",
-      "description": "A versatile accessory. To be worn in the hair, around the neck, or tied to your bag, this silk twill headband is printed with an exclusive pattern.",
-      "details": "100% Silk Twill. Printed on both sides. Dimensions: 6 x 105 cm."
+      "description": "A versatile accessory. To be worn in the hair, around the neck, or tied to your bag, this silk twill headband is printed with an exclusive pattern."
     },
     "lecteur_glasses": {
       "name": "'The Intellectual' Reading Glasses",
-      "description": "Read with style. Frame in Italian cellulose acetate, with high-quality lenses treated with anti-reflective and anti-blue light coatings.",
-      "details": "Mazzucchelli cellulose acetate. Anti-reflective and anti-blue light treated lenses. Riveted hinges."
+      "description": "Read with style. Frame in Italian cellulose acetate, with high-quality lenses treated with anti-reflective and anti-blue light coatings."
     },
     "charme_bag_charm": {
       "name": "'The Grimoire' Bag Charm",
-      "description": "Personalize your bag. This bag charm represents a tiny leather book with brass pages, suspended from a logoed snap hook.",
-      "details": "Leather and brass. Engraved steel snap hook."
+      "description": "Personalize your bag. This bag charm represents a tiny leather book with brass pages, suspended from a logoed snap hook."
     },
     "portfolio_laptop_case": {
       "name": "'The Minister' Leather Document Holder",
-      "description": "Carry your computer and documents with elegance. This slim document holder in calfskin is lightly padded for optimal protection.",
-      "details": "Calfskin. Padded main compartment for a 13-inch computer. Exterior pocket."
+      "description": "Carry your computer and documents with elegance. This slim document holder in calfskin is lightly padded for optimal protection."
     },
     "keygold_keychain": {
       "name": "'The Guardian' Leather and Brass Keychain",
-      "description": "An everyday object transformed into a jewel. A strap of grained calfskin combined with solid brushed brass pieces.",
-      "details": "Calfskin and solid brass. Split ring and snap hook."
+      "description": "An everyday object transformed into a jewel. A strap of grained calfskin combined with solid brushed brass pieces."
     },
     "eclipse_heels": {
       "name": "'Vertigo' 105mm Suede Pump",
-      "description": "The quintessential stiletto. A perfect arch and a 10.5 cm heel that endlessly elongates the leg. Made in intense black kid suede.",
-      "details": "100% Italian kid suede. 10.5 cm heel. Leather insole and outsole."
+      "description": "The quintessential stiletto. A perfect arch and a 10.5 cm heel that endlessly elongates the leg. Made in intense black kid suede."
     },
     "serenite_sandals": {
       "name": "'The Stroll' Flat Leather Sandals",
-      "description": "Minimalist elegance for summer. These flat sandals with thin calfskin straps are the symbol of a casual and timeless chic.",
-      "details": "Calfskin. Padded insole. Made in Italy."
+      "description": "Minimalist elegance for summer. These flat sandals with thin calfskin straps are the symbol of a casual and timeless chic."
     },
     "paris_boots": {
       "name": "'Rive Gauche' Suede Ankle Boots",
-      "description": "The perfect everyday ankle boot. A comfortable 6 cm block heel, an elegant almond shape, and supple goat suede. Parisian chic.",
-      "details": "Goat suede. 6 cm block heel. Side zip closure."
+      "description": "The perfect everyday ankle boot. A comfortable 6 cm block heel, an elegant almond shape, and supple goat suede. Parisian chic."
     },
     "diva_mules": {
       "name": "'Palazzo' Satin and Crystal Mules",
-      "description": "For evenings where anything goes. These pointed-toe satin mules are adorned with a spectacular square crystal buckle.",
-      "details": "Duchess satin. Swarovski crystal buckle. Small 2 cm heel."
+      "description": "For evenings where anything goes. These pointed-toe satin mules are adorned with a spectacular square crystal buckle."
     },
     "street_luxe_derby": {
       "name": "'Avant-Garde' Platform Derbies",
-      "description": "A classic turned on its head. The traditional derby is mounted on a lugged platform sole in ultra-light micro-rubber, for a bold look.",
-      "details": "Polished calfskin. Micro-rubber platform sole. Leather lining."
+      "description": "A classic turned on its head. The traditional derby is mounted on a lugged platform sole in ultra-light micro-rubber, for a bold look."
     },
     "souverain_oxfords": {
       "name": "'The Ambassador' One-Cut Oxford",
-      "description": "Elegance at its peak. This Oxford shoe is crafted from a single piece of calfskin, a technical feat. Hand-patinated in our workshops.",
-      "details": "One-Cut construction. French calfskin. Blake-stitched. Hand-patinated on request."
+      "description": "Elegance at its peak. This Oxford shoe is crafted from a single piece of calfskin, a technical feat. Hand-patinated in our workshops."
     },
     "elite_derby": {
       "name": "'The Consul' Buckle Derby",
-      "description": "An original alternative to the lace-up derby. This single-buckle model (Monk Strap) in grained calfskin is both formal and full of character.",
-      "details": "Grained calfskin. Goodyear welted. Brass buckle."
+      "description": "An original alternative to the lace-up derby. This single-buckle model (Monk Strap) in grained calfskin is both formal and full of character."
     },
     "club_loafer": {
       "name": "'The Yachtsman' Suede Loafer",
-      "description": "The ideal companion for sunny weekends. This supple suede loafer is mounted on a rubber-studded sole for unparalleled flexibility and comfort.",
-      "details": "Water-repellent calf suede. Rubber-studded sole. Tubular construction."
+      "description": "The ideal companion for sunny weekends. This supple suede loafer is mounted on a rubber-studded sole for unparalleled flexibility and comfort."
     },
     "tradition_brogues": {
       "name": "'Heritage' Full Brogue Oxford",
-      "description": "A pillar of British elegance. This Oxford is distinguished by its decorative perforations ('broguing') all over the shoe. An assertive character.",
-      "details": "Box-calf calfskin. Full brogue perforations. Goodyear welted on a leather sole."
+      "description": "A pillar of British elegance. This Oxford is distinguished by its decorative perforations ('broguing') all over the shoe. An assertive character."
     },
     "citadin_boots": {
       "name": "'The Urbanite' Chelsea Boot",
-      "description": "Versatility and style. A clean shape, smooth calfskin, and sturdy elastic panels make this Chelsea boot an essential in the men's wardrobe.",
-      "details": "Smooth calfskin. Blake stitched. Side elastic panels."
+      "description": "Versatility and style. A clean shape, smooth calfskin, and sturdy elastic panels make this Chelsea boot an essential in the men's wardrobe."
     },
     "runway_sneakers": {
       "name": "'The Minimalist' Leather Sneakers",
-      "description": "The clean luxury sneaker. Made in Italy from smooth calfskin, its minimalist silhouette matches any outfit, from a suit to jeans.",
-      "details": "Italian calfskin. Full leather lining. Stitched rubber sole."
+      "description": "The clean luxury sneaker. Made in Italy from smooth calfskin, its minimalist silhouette matches any outfit, from a suit to jeans."
     },
     "tom_ford_slim_fit_shirt": {
       "name": "Tom Ford Slim Fit Shirt",
-      "description": "Cotton poplin shirt, slim fit, Italian collar, mother-of-pearl buttons, luxury finish.",
-      "details": "100% cotton poplin. Slim fit. Italian collar."
+      "description": "Cotton poplin shirt, slim fit, Italian collar, mother-of-pearl buttons, luxury finish."
     },
     "ralph_lauren_pique_polo": {
       "name": "Ralph Lauren Purple Label Piqué Polo",
-      "description": "Soft polo in premium cotton, modern cut, embroidered logo, reinforced collar.",
-      "details": "Premium cotton. Modern cut. Embroidered logo."
+      "description": "Soft polo in premium cotton, modern cut, embroidered logo, reinforced collar."
     },
     "loro_piana_cashmere_turtleneck": {
       "name": "Loro Piana Cashmere Turtleneck",
-      "description": "100% Italian cashmere, fine knit, ultra-soft, refined cut.",
-      "details": "100% Italian cashmere. Fine knit. Made in Italy."
+      "description": "100% Italian cashmere, fine knit, ultra-soft, refined cut."
     },
     "hugo_boss_round_neck_tshirt": {
       "name": "Hugo Boss Black Round Neck T-shirt",
-      "description": "Premium T-shirt, mercerized cotton, discreet logo, slim fit.",
-      "details": "Mercerized cotton. Discreet logo. Slim fit."
+      "description": "Premium T-shirt, mercerized cotton, discreet logo, slim fit."
     },
     "burberry_stretch_chino_pants": {
       "name": "Burberry Stretch Chino Pants",
-      "description": "Chino in elasticated cotton, modern cut, discreet check pattern inside.",
-      "details": "Elasticated cotton. Modern cut. Discreet check pattern."
+      "description": "Chino in elasticated cotton, modern cut, discreet check pattern inside."
     },
     "diesel_slim_fit_jeans": {
       "name": "Diesel Black Gold Slim Fit Jeans",
-      "description": "Stretch jeans, premium wash, signature metal details.",
-      "details": "Stretch denim. Premium wash. Signature details."
+      "description": "Stretch jeans, premium wash, signature metal details."
     },
     "moncler_nylon_bomber": {
       "name": "Moncler Nylon Bomber Jacket",
-      "description": "Lightweight padded jacket, modern cut, logo on the sleeve.",
-      "details": "Nylon. Lightweight padding. Logo on the sleeve."
+      "description": "Lightweight padded jacket, modern cut, logo on the sleeve."
     },
     "saint_laurent_leather_jacket_men": {
       "name": "Saint Laurent Leather Jacket",
-      "description": "Ultra-soft lambskin, rock cut, YSL silver zip.",
-      "details": "Ultra-soft lambskin. Rock cut. YSL zip."
+      "description": "Ultra-soft lambskin, rock cut, YSL silver zip."
     },
     "giorgio_armani_suit_jacket": {
       "name": "Giorgio Armani Suit Jacket",
-      "description": "Jacket in virgin wool, sophisticated cut, silk lining.",
-      "details": "Virgin wool. Sophisticated cut. Silk lining."
+      "description": "Jacket in virgin wool, sophisticated cut, silk lining."
     },
     "zegna_2_piece_suit": {
       "name": "Zegna 2-piece Suit",
-      "description": "Italian merino wool, slim fit, natural shoulder.",
-      "details": "Italian merino wool. Slim fit. Natural shoulder."
+      "description": "Italian merino wool, slim fit, natural shoulder."
     },
     "off_white_hoodie": {
       "name": "Off-White Hoodie",
-      "description": "Thick cotton, arrow motifs on the back, signature print.",
-      "details": "Thick cotton. Arrow motifs. Signature print."
+      "description": "Thick cotton, arrow motifs on the back, signature print."
     },
     "fear_of_god_essential_tshirt": {
       "name": "Fear of God Essentials 'Essential' T-shirt",
-      "description": "Premium cotton, embossed logo, oversized cut.",
-      "details": "Premium cotton. Embossed logo. Oversized cut."
+      "description": "Premium cotton, embossed logo, oversized cut."
     },
     "lacoste_merino_wool_sweater": {
       "name": "Lacoste Merino Wool Sweater",
-      "description": "Fine knit, round neck, embroidered crocodile, classic cut.",
-      "details": "Fine merino wool. Round neck. Classic cut."
+      "description": "Fine knit, round neck, embroidered crocodile, classic cut."
     },
     "balenciaga_oversize_shirt": {
       "name": "Balenciaga Oversize Shirt",
-      "description": "Thick cotton, wide silhouette, discreet branding.",
-      "details": "Thick cotton. Wide silhouette. Discreet branding."
+      "description": "Thick cotton, wide silhouette, discreet branding."
     },
     "acne_studios_flannel_overshirt": {
       "name": "Acne Studios Flannel Overshirt",
-      "description": "Soft flannel, relaxed cut, chest pockets.",
-      "details": "Soft flannel. Relaxed cut. Chest pockets."
+      "description": "Soft flannel, relaxed cut, chest pockets."
     },
     "stone_island_cargo_shorts": {
       "name": "Stone Island Cargo Shorts",
-      "description": "Durable fabric, Stone Island badge, utility cut.",
-      "details": "Durable fabric. Stone Island badge. Utility cut."
+      "description": "Durable fabric, Stone Island badge, utility cut."
     },
     "canada_goose_lightweight_down_jacket": {
       "name": "Canada Goose Lightweight Down Jacket",
-      "description": "Thermal insulation, windproof fabric, clean design.",
-      "details": "Thermal insulation. Windproof fabric. Clean design."
+      "description": "Thermal insulation, windproof fabric, clean design."
     },
     "the_north_face_expedition_parka": {
       "name": "The North Face Black Series 'Expedition' Parka",
-      "description": "Durable, waterproof, multi-pockets, adjustable hood.",
-      "details": "Durable. Waterproof. Multi-pockets."
+      "description": "Durable, waterproof, multi-pockets, adjustable hood."
     },
     "brunello_cucinelli_cashmere_zip_cardigan": {
       "name": "Brunello Cucinelli Cashmere Zip Cardigan",
-      "description": "Extra-fine cashmere, metal zip, elegant cut.",
-      "details": "Extra-fine cashmere. Metal zip. Elegant cut."
+      "description": "Extra-fine cashmere, metal zip, elegant cut."
     },
     "max_mara_long_wool_coat": {
       "name": "Max Mara Homme Long Wool Coat",
-      "description": "Warm wool, long cut, optional belt.",
-      "details": "Warm wool. Long cut. Optional belt."
+      "description": "Warm wool, long cut, optional belt."
     },
     "levis_denim_jacket": {
       "name": "Levi's Made & Crafted Denim Jacket",
-      "description": "Premium denim, classic cut, artisanal finish.",
-      "details": "Premium denim. Classic cut. Artisanal finish."
+      "description": "Premium denim, classic cut, artisanal finish."
     },
     "dior_homme_tailored_pants": {
       "name": "Dior Homme Tailored Pants",
-      "description": "Elegant tapered cut, fine wool, couture look.",
-      "details": "Fine wool. Elegant tapered cut. Couture look."
+      "description": "Elegant tapered cut, fine wool, couture look."
     },
     "versace_silk_shirt": {
       "name": "Versace Silk Shirt",
-      "description": "Printed silk, baroque patterns, Italian collar.",
-      "details": "Printed silk. Baroque patterns. Italian collar."
+      "description": "Printed silk, baroque patterns, Italian collar."
     },
     "palm_angels_printed_hoodie": {
       "name": "Palm Angels Printed Hoodie",
-      "description": "Thick cotton, palm tree motif, oversized cut.",
-      "details": "Thick cotton. Palm tree motif. Oversized cut."
+      "description": "Thick cotton, palm tree motif, oversized cut."
     },
     "barbour_quilted_jacket": {
       "name": "Barbour International Quilted Jacket",
-      "description": "Diamond quilting, classic cut, velvet collar.",
-      "details": "Diamond quilting. Classic cut. Velvet collar."
+      "description": "Diamond quilting, classic cut, velvet collar."
     },
     "paul_smith_cable_knit_sweater": {
       "name": "Paul Smith Cable-Knit Sweater",
-      "description": "Soft wool, cable-knit pattern, contrasting finish.",
-      "details": "Soft wool. Cable-knit pattern. Contrasting finish."
+      "description": "Soft wool, cable-knit pattern, contrasting finish."
     },
     "givenchy_logo_tshirt": {
       "name": "Givenchy Logo T-shirt",
-      "description": "Embroidered logo, premium cotton, straight cut.",
-      "details": "Embroidered logo. Premium cotton. Straight cut."
+      "description": "Embroidered logo, premium cotton, straight cut."
     },
     "adidas_gucci_luxury_tracksuit": {
       "name": "Adidas x Gucci Luxury Tracksuit",
-      "description": "Premium polyester, Gucci stripes, retro cut.",
-      "details": "Premium polyester. Gucci stripes. Retro cut."
+      "description": "Premium polyester, Gucci stripes, retro cut."
     },
     "nike_acg_technical_jacket": {
       "name": "Nike ACG Technical Jacket",
-      "description": "Waterproof, ventilated, modern outdoor cut.",
-      "details": "Waterproof. Ventilated. Modern outdoor cut."
+      "description": "Waterproof, ventilated, modern outdoor cut."
     },
     "prada_sleeveless_gilet": {
       "name": "Prada Sleeveless Gilet",
-      "description": "Prada nylon, minimalist cut, triangle logo.",
-      "details": "Prada nylon. Minimalist cut. Triangle logo."
+      "description": "Prada nylon, minimalist cut, triangle logo."
+    },
+    "hugo_boss_long_wool_coat": {
+      "name": "Hugo Boss Long Wool Coat",
+      "description": "Double-breasted coat in warm wool, elegant cut, satin lining, ideal for cold winters."
+    },
+    "moncler_quilted_down_jacket": {
+      "name": "Moncler Quilted Down Jacket",
+      "description": "Lightweight but very warm down jacket, feather padding, removable hood, premium look."
+    },
+    "canada_goose_arctic_parka": {
+      "name": "Canada Goose Arctic Parka",
+      "description": "Extreme cold protection, fur-trimmed hood, windproof fabric."
+    },
+    "loro_piana_cashmere_coat_men": {
+      "name": "Loro Piana Cashmere Coat (Men)",
+      "description": "Italian cashmere, exceptional softness, luxurious long cut."
+    },
+    "saint_laurent_shearling_jacket": {
+      "name": "Saint Laurent Shearling Jacket",
+      "description": "Reversed leather, sheep's wool interior, timeless premium style."
+    },
+    "paul_smith_merino_turtleneck": {
+      "name": "Paul Smith Merino Wool Turtleneck",
+      "description": "Thick, soft knit, heat-retaining, modern cut."
+    },
+    "acne_studios_lined_overshirt_men": {
+      "name": "Acne Studios Lined Overshirt (Men)",
+      "description": "Warm sherpa-lined overshirt, urban style."
+    },
+    "polo_ralph_lauren_down_vest": {
+      "name": "Polo Ralph Lauren Down Vest",
+      "description": "Lightweight, warm, perfect for layering over a sweater."
+    },
+    "burberry_lined_trench_coat": {
+      "name": "Burberry Lined Trench Coat",
+      "description": "Iconic Burberry trench winter version, insulating lining."
+    },
+    "dior_homme_thick_cable_knit": {
+      "name": "Dior Homme Thick Cable-Knit Sweater",
+      "description": "Thick cable-knit wool, chic and modern style."
+    },
+    "tnf_black_series_technical_jacket": {
+      "name": "The North Face Black Series Technical Waterproof Jacket",
+      "description": "Designed for extreme conditions, breathable and waterproof."
+    },
+    "nike_acg_thermal_pants": {
+      "name": "Nike ACG Thermal Pants",
+      "description": "Insulating fabric, street cut, ideal for harsh temperatures."
+    },
+    "sandro_double_breasted_pea_coat": {
+      "name": "Sandro Double-Breasted Wool Pea Coat",
+      "description": "Double thickness, revisited military cut."
+    },
+    "armani_exchange_premium_down_jacket": {
+      "name": "Armani Exchange Premium Down Jacket",
+      "description": "Warm, lightweight, fitted cut, modern design."
+    },
+    "zegna_velvet_coat": {
+      "name": "Zegna Velvet Coat",
+      "description": "Thick Italian velvet, ultra-luxe winter look."
+    },
+    "max_mara_belted_wool_coat": {
+      "name": "Max Mara Belted Long Wool Coat",
+      "description": "Elegant cut, soft wool, waist-cinching belt."
+    },
+    "moncler_long_down_jacket_women": {
+      "name": "Moncler Long Down Jacket (Women)",
+      "description": "Ankle-length, ultra-warm, slim silhouette."
+    },
+    "loro_piana_cashmere_coat_women": {
+      "name": "Loro Piana Cashmere Coat (Women)",
+      "description": "Premium cashmere, softness, and luxurious drape."
+    },
+    "canada_goose_faux_fur_parka": {
+      "name": "Canada Goose Faux Fur Parka",
+      "description": "Extreme insulation, XL lined hood."
+    },
+    "acne_studios_shearling_jacket_women": {
+      "name": "Acne Studios Shearling Jacket (Women)",
+      "description": "Reversed leather and sheep's wool, chic winter look."
+    },
+    "jacquemus_oversized_wool_sweater": {
+      "name": "Jacquemus Oversized Wool Sweater",
+      "description": "Thick wool, trendy wide cut."
+    },
+    "stand_studio_faux_fur_coat": {
+      "name": "Stand Studio Faux Fur Coat",
+      "description": "Soft faux fur, glamorous cut."
+    },
+    "prada_short_down_jacket": {
+      "name": "Prada Short Down Jacket",
+      "description": "Iconic Prada nylon, cinched silhouette."
+    },
+    "chloe_cashmere_turtleneck": {
+      "name": "Chloé Cashmere Turtleneck",
+      "description": "Fine luxury knit, feminine cut."
+    },
+    "burberry_wool_cape": {
+      "name": "Burberry Wool Cape",
+      "description": "Warm cape, interior check pattern."
+    },
+    "isabel_marant_quilted_overshirt": {
+      "name": "Isabel Marant Quilted Overshirt",
+      "description": "Lightweight quilting, casual chic style."
+    },
+    "tnf_technical_jacket_women": {
+      "name": "The North Face Technical Waterproof Jacket (Women)",
+      "description": "Designed for cold and rain, lightweight and warm."
+    },
+    "maje_thick_wool_skirt": {
+      "name": "Maje Thick Wool Skirt",
+      "description": "Structured winter skirt, perfect with boots."
+    },
+    "etro_wool_poncho": {
+      "name": "Etro Wool Poncho",
+      "description": "Signature colorful patterns, warm wool."
+    },
+    "zara_premium_xxl_puffer_coat": {
+      "name": "Zara Premium XXL Puffer Coat",
+      "description": "Very warm, wide, trendy, accessible budget."
     }
   }
 }

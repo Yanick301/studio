@@ -755,153 +755,243 @@
     },
     "tom_ford_slim_fit_shirt": {
       "name": "Chemise Slim Fit – Tom Ford",
-      "description": "Chemise en popeline de coton, coupe ajustée, col italien, boutons nacrés, finition luxe.",
-      "details": "100% popeline de coton. Coupe ajustée. Col italien."
+      "description": "Chemise en popeline de coton, coupe ajustée, col italien, boutons nacrés, finition luxe."
     },
     "ralph_lauren_pique_polo": {
       "name": "Polo piqué – Ralph Lauren Purple Label",
-      "description": "Polo doux en coton premium, coupe moderne, logo brodé, col renforcé.",
-      "details": "Coton premium. Coupe moderne. Logo brodé."
+      "description": "Polo doux en coton premium, coupe moderne, logo brodé, col renforcé."
     },
     "loro_piana_cashmere_turtleneck": {
       "name": "Pull col roulé en cachemire – Loro Piana",
-      "description": "100% cachemire italien, maille fine, ultra doux, coupe raffinée.",
-      "details": "100% cachemire italien. Maille fine. Fait en Italie."
+      "description": "100% cachemire italien, maille fine, ultra doux, coupe raffinée."
     },
     "hugo_boss_round_neck_tshirt": {
       "name": "T-shirt col rond – Hugo Boss Black",
-      "description": "T-shirt premium, coton mercerisé, logo discret, coupe slim.",
-      "details": "Coton mercerisé. Logo discret. Coupe slim."
+      "description": "T-shirt premium, coton mercerisé, logo discret, coupe slim."
     },
     "burberry_stretch_chino_pants": {
       "name": "Pantalon chino stretch – Burberry",
-      "description": "Chino en coton élastique, coupe moderne, motif check discret intérieur.",
-      "details": "Coton élastique. Coupe moderne. Motif check discret."
+      "description": "Chino en coton élastique, coupe moderne, motif check discret intérieur."
     },
     "diesel_slim_fit_jeans": {
       "name": "Jean coupe ajustée – Diesel Black Gold",
-      "description": "Jean stretch, délavage premium, détails métalliques signature.",
-      "details": "Denim stretch. Délavage premium. Détails signature."
+      "description": "Jean stretch, délavage premium, détails métalliques signature."
     },
     "moncler_nylon_bomber": {
       "name": "Bomber en nylon – Moncler",
-      "description": "Blouson léger, rembourré, coupe moderne, logo sur la manche.",
-      "details": "Nylon. Rembourrage léger. Logo sur la manche."
+      "description": "Blouson léger, rembourré, coupe moderne, logo sur la manche."
     },
     "saint_laurent_leather_jacket_men": {
       "name": "Blouson en cuir – Saint Laurent",
-      "description": "Cuir d’agneau ultra souple, coupe rock, zip argenté YSL.",
-      "details": "Cuir d’agneau ultra souple. Coupe rock. Zip YSL."
+      "description": "Cuir d’agneau ultra souple, coupe rock, zip argenté YSL."
     },
     "giorgio_armani_suit_jacket": {
       "name": "Veste de costume – Giorgio Armani",
-      "description": "Veste en laine vierge, coupe sophistiquée, doublure soie.",
-      "details": "Laine vierge. Coupe sophistiquée. Doublure soie."
+      "description": "Veste en laine vierge, coupe sophistiquée, doublure soie."
     },
     "zegna_2_piece_suit": {
       "name": "Costume 2 pièces – Zegna",
-      "description": "Laine mérinos italienne, coupe slim, épaule naturelle.",
-      "details": "Laine mérinos italienne. Coupe slim. Épaule naturelle."
+      "description": "Laine mérinos italienne, coupe slim, épaule naturelle."
     },
     "off_white_hoodie": {
       "name": "Sweat à capuche – Off-White",
-      "description": "Coton épais, motifs flèches au dos, imprimé signature.",
-      "details": "Coton épais. Motifs flèches. Imprimé signature."
+      "description": "Coton épais, motifs flèches au dos, imprimé signature."
     },
     "fear_of_god_essential_tshirt": {
       "name": "T-shirt “Essential” – Fear of God Essentials",
-      "description": "Coton premium, logo embossé, coupe oversized.",
-      "details": "Coton premium. Logo embossé. Coupe oversized."
+      "description": "Coton premium, logo embossé, coupe oversized."
     },
     "lacoste_merino_wool_sweater": {
       "name": "Pull en laine mérinos – Lacoste",
-      "description": "Maille fine, col rond, crocodile brodé, coupe classique.",
-      "details": "Laine mérinos fine. Col rond. Coupe classique."
+      "description": "Maille fine, col rond, crocodile brodé, coupe classique."
     },
     "balenciaga_oversize_shirt": {
       "name": "Chemise oversize – Balenciaga",
-      "description": "Coton épais, silhouette large, branding discret.",
-      "details": "Coton épais. Silhouette large. Branding discret."
+      "description": "Coton épais, silhouette large, branding discret."
     },
     "acne_studios_flannel_overshirt": {
       "name": "Surchemise en flanelle – Acne Studios",
-      "description": "Flanelle douce, coupe décontractée, poches poitrine.",
-      "details": "Flanelle douce. Coupe décontractée. Poches poitrine."
+      "description": "Flanelle douce, coupe décontractée, poches poitrine."
     },
     "stone_island_cargo_shorts": {
       "name": "Short cargo – Stone Island",
-      "description": "Tissu résistant, badge Stone Island, coupe utilitaire.",
-      "details": "Tissu résistant. Badge Stone Island. Coupe utilitaire."
+      "description": "Tissu résistant, badge Stone Island, coupe utilitaire."
     },
     "canada_goose_lightweight_down_jacket": {
       "name": "Doudoune légère – Canada Goose",
-      "description": "Isolation thermique, tissu coupe-vent, design épuré.",
-      "details": "Isolation thermique. Tissu coupe-vent. Design épuré."
+      "description": "Isolation thermique, tissu coupe-vent, design épuré."
     },
     "the_north_face_expedition_parka": {
       "name": "Parka “Expedition” – The North Face Black Series",
-      "description": "Résistante, imperméable, multi-poches, capuche ajustable.",
-      "details": "Résistante. Imperméable. Multi-poches."
+      "description": "Résistante, imperméable, multi-poches, capuche ajustable."
     },
     "brunello_cucinelli_cashmere_zip_cardigan": {
       "name": "Cardigan zippé cachemire – Brunello Cucinelli",
-      "description": "Cachemire extra-fin, zip métal, coupe élégante.",
-      "details": "Cachemire extra-fin. Zip métal. Coupe élégante."
+      "description": "Cachemire extra-fin, zip métal, coupe élégante."
     },
     "max_mara_long_wool_coat": {
       "name": "Manteau long en laine – Max Mara Homme",
-      "description": "Laine chaude, coupe longue, ceinture optionnelle.",
-      "details": "Laine chaude. Coupe longue. Ceinture optionnelle."
+      "description": "Laine chaude, coupe longue, ceinture optionnelle."
     },
     "levis_denim_jacket": {
       "name": "Veste en denim – Levi’s Made & Crafted",
-      "description": "Denim premium, coupe classique, finition artisanale.",
-      "details": "Denim premium. Coupe classique. Finition artisanale."
+      "description": "Denim premium, coupe classique, finition artisanale."
     },
     "dior_homme_tailored_pants": {
       "name": "Pantalon tailleur – Dior Homme",
-      "description": "Coupe fuseau élégante, laine fine, look couture.",
-      "details": "Laine fine. Coupe fuseau élégante. Look couture."
+      "description": "Coupe fuseau élégante, laine fine, look couture."
     },
     "versace_silk_shirt": {
       "name": "Chemise en soie – Versace",
-      "description": "Soie imprimée, motifs baroques, col italien.",
-      "details": "Soie imprimée. Motifs baroques. Col italien."
+      "description": "Soie imprimée, motifs baroques, col italien."
     },
     "palm_angels_printed_hoodie": {
       "name": "Hoodie imprimé – Palm Angels",
-      "description": "Coton épais, motif palmier, coupe oversized.",
-      "details": "Coton épais. Motif palmier. Coupe oversized."
+      "description": "Coton épais, motif palmier, coupe oversized."
     },
     "barbour_quilted_jacket": {
       "name": "Veste matelassée – Barbour International",
-      "description": "Matelassage diamant, coupe classique, col velours.",
-      "details": "Matelassage diamant. Coupe classique. Col velours."
+      "description": "Matelassage diamant, coupe classique, col velours."
     },
     "paul_smith_cable_knit_sweater": {
       "name": "Pull torsadé – Paul Smith",
-      "description": "Laine douce, motif torsadé, finition contrastée.",
-      "details": "Laine douce. Motif torsadé. Finition contrastée."
+      "description": "Laine douce, motif torsadé, finition contrastée."
     },
     "givenchy_logo_tshirt": {
       "name": "T-shirt logo – Givenchy",
-      "description": "Logo brodé, coton premium, coupe droite.",
-      "details": "Logo brodé. Coton premium. Coupe droite."
+      "description": "Logo brodé, coton premium, coupe droite."
     },
     "adidas_gucci_luxury_tracksuit": {
       "name": "Survêtement luxe – Adidas x Gucci",
-      "description": "Polyester premium, bandes Gucci, coupe rétro.",
-      "details": "Polyester premium. Bandes Gucci. Coupe rétro."
+      "description": "Polyester premium, bandes Gucci, coupe rétro."
     },
     "nike_acg_technical_jacket": {
       "name": "Veste technique – Nike ACG",
-      "description": "Imperméable, ventilé, coupe outdoor moderne.",
-      "details": "Imperméable. Ventilé. Coupe outdoor moderne."
+      "description": "Imperméable, ventilé, coupe outdoor moderne."
     },
     "prada_sleeveless_gilet": {
       "name": "Gilet sans manches – Prada",
-      "description": "Nylon Prada, coupe minimaliste, logo triangle.",
-      "details": "Nylon Prada. Coupe minimaliste. Logo triangle."
+      "description": "Nylon Prada, coupe minimaliste, logo triangle."
+    },
+    "hugo_boss_long_wool_coat": {
+      "name": "Manteau long en laine – Hugo Boss",
+      "description": "Manteau croisé en laine chaude, coupe élégante, doublure satinée, idéal pour les hivers froids."
+    },
+    "moncler_quilted_down_jacket": {
+      "name": "Doudoune matelassée – Moncler",
+      "description": "Doudoune légère mais très chaude, rembourrage plumes, capuche amovible, look premium."
+    },
+    "canada_goose_arctic_parka": {
+      "name": "Parka Arctic – Canada Goose",
+      "description": "Protection extrême contre le froid, capuche bord fourrure, tissu coupe-vent."
+    },
+    "loro_piana_cashmere_coat_men": {
+      "name": "Manteau en cachemire – Loro Piana (Homme)",
+      "description": "Cachemire italien, douceur exceptionnelle, coupe luxueuse longue."
+    },
+    "saint_laurent_shearling_jacket": {
+      "name": "Blouson shearling – Saint Laurent",
+      "description": "Cuir retourné, intérieur laine de mouton, style premium intemporel."
+    },
+    "paul_smith_merino_turtleneck": {
+      "name": "Pull col roulé en laine mérinos – Paul Smith",
+      "description": "Maille épaisse douce, maintien de la chaleur, coupe moderne."
+    },
+    "acne_studios_lined_overshirt_men": {
+      "name": "Surchemise doublée – Acne Studios (Homme)",
+      "description": "Surchemise chaude doublée sherpa, style urbain."
+    },
+    "polo_ralph_lauren_down_vest": {
+      "name": "Doudoune sans manche – Polo Ralph Lauren",
+      "description": "Légère, chaude, parfaite à superposer sur un pull."
+    },
+    "burberry_lined_trench_coat": {
+      "name": "Manteau trench doublé – Burberry",
+      "description": "Iconique trench Burberry version hiver, doublure isolante."
+    },
+    "dior_homme_thick_cable_knit": {
+      "name": "Pull torsadé épais – Dior Homme",
+      "description": "Laine épaisse torsadée, style chic et moderne."
+    },
+    "tnf_black_series_technical_jacket": {
+      "name": "Veste technique imperméable – The North Face Black Series",
+      "description": "Conçue pour conditions extrêmes, respirante et étanche."
+    },
+    "nike_acg_thermal_pants": {
+      "name": "Pantalon thermique – Nike ACG",
+      "description": "Tissu isolant, coupe street, idéal pour rudes températures."
+    },
+    "sandro_double_breasted_pea_coat": {
+      "name": "Caban laine double – Sandro",
+      "description": "Double épaisseur, coupe militaire revisitée."
+    },
+    "armani_exchange_premium_down_jacket": {
+      "name": "Doudoune premium – Armani Exchange",
+      "description": "Chaude, légère, coupe ajustée, design moderne."
+    },
+    "zegna_velvet_coat": {
+      "name": "Manteau en velours – Zegna",
+      "description": "Velours épais italien, look hivernal ultra-luxe."
+    },
+    "max_mara_belted_wool_coat": {
+      "name": "Manteau long ceinturé en laine – Max Mara",
+      "description": "Coupe élégante, laine douce, ceinture marquant la taille."
+    },
+    "moncler_long_down_jacket_women": {
+      "name": "Doudoune longue – Moncler Femme",
+      "description": "Longueur cheville, ultra chaude, silhouette fine."
+    },
+    "loro_piana_cashmere_coat_women": {
+      "name": "Manteau cachemire – Loro Piana (Femme)",
+      "description": "Cachemire premium, douceur et luxueuse tenue."
+    },
+    "canada_goose_faux_fur_parka": {
+      "name": "Parka fourrure synthétique – Canada Goose",
+      "description": "Isolation extrême, capuche XL doublée."
+    },
+    "acne_studios_shearling_jacket_women": {
+      "name": "Blouson shearling – Acne Studios (Femme)",
+      "description": "Cuir retourné et laine mouton, look hivernal chic."
+    },
+    "jacquemus_oversized_wool_sweater": {
+      "name": "Pull oversized en laine – Jacquemus",
+      "description": "Laine épaisse, coupe large tendance."
+    },
+    "stand_studio_faux_fur_coat": {
+      "name": "Manteau fausse fourrure – Stand Studio",
+      "description": "Fausse fourrure douce, coupe glamour."
+    },
+    "prada_short_down_jacket": {
+      "name": "Doudoune courte – Prada",
+      "description": "Nylon Prada iconique, silhouette cintrée."
+    },
+    "chloe_cashmere_turtleneck": {
+      "name": "Pull col roulé cachemire – Chloé",
+      "description": "Maille fine de luxe, coupe féminine."
+    },
+    "burberry_wool_cape": {
+      "name": "Cape en laine – Burberry",
+      "description": "Cape chaude, motif check intérieur."
+    },
+    "isabel_marant_quilted_overshirt": {
+      "name": "Surchemise matelassée – Isabel Marant",
+      "description": "Matelassage léger, style casual chic."
+    },
+    "tnf_technical_jacket_women": {
+      "name": "Veste technique imperméable – The North Face Women",
+      "description": "Conçue pour le froid et la pluie, légère et chaude."
+    },
+    "maje_thick_wool_skirt": {
+      "name": "Jupe en laine épaisse – Maje",
+      "description": "Jupe d’hiver structurée, parfaite avec bottes."
+    },
+    "etro_wool_poncho": {
+      "name": "Poncho en laine – Etro",
+      "description": "Motifs colorés signature, laine chaude."
+    },
+    "zara_premium_xxl_puffer_coat": {
+      "name": "Manteau puffer XXL – Zara Premium",
+      "description": "Très chaud, large, tendance, budget accessible."
     }
   }
 }

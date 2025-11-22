@@ -97,25 +97,6 @@
       "details": "products.horizon_sunglasses.details"
     },
     {
-      "id": "a-7",
-      "name": "products.nuit_scarf.name",
-      "slug": "echarpe-cachemire-70x200-nuit",
-      "description": "products.nuit_scarf.description",
-      "price": 260,
-      "imageUrl": "/product-images/accessories/echarpe-cachemire-70x200-nuit.jpg",
-      "imageHint": "cashmere scarf",
-      "width": 900,
-      "height": 900,
-      "category": "accessories",
-      "gender": "unisex",
-      "isTrending": true,
-      "stock": 10,
-      "details": "products.nuit_scarf.details",
-      "tags": [
-        "winter"
-      ]
-    },
-    {
       "id": "a-8",
       "name": "products.organize_pouch.name",
       "slug": "pochette-tech-en-cuir-organize",
@@ -258,25 +239,6 @@
       "isTrending": false,
       "stock": 10,
       "details": "products.riviera_hat.details"
-    },
-    {
-      "id": "a-17",
-      "name": "products.smart_gloves.name",
-      "slug": "gants-touchscreen-cuir-cachemire-smart",
-      "description": "products.smart_gloves.description",
-      "price": 140,
-      "imageUrl": "/product-images/accessories/gants-touchscreen-cuir-cachemire-smart.jpg",
-      "imageHint": "leather touchscreen gloves",
-      "width": 900,
-      "height": 900,
-      "category": "accessories",
-      "gender": "unisex",
-      "isTrending": true,
-      "stock": 10,
-      "details": "products.smart_gloves.details",
-      "tags": [
-        "winter"
-      ]
     },
     {
       "id": "a-18",
@@ -938,29 +900,6 @@
       }
     },
     {
-      "id": "w-36",
-      "name": "products.burberry_wool_coat.name",
-      "slug": "manteau-long-laine-burberry",
-      "description": "products.burberry_wool_coat.description",
-      "price": 2500,
-      "imageUrl": "https://images.unsplash.com/photo-1632577743431-2b2d91e5dc8a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx3b21lbiUyMHdvb2wlMjBjb2F0fGVufDB8fHx8MTc2MzcyODkyNHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "women wool coat",
-      "width": 800,
-      "height": 1200,
-      "category": "clothing",
-      "gender": "women",
-      "isTrending": true,
-      "stock": 7,
-      "details": "products.burberry_wool_coat.details",
-      "options": {
-        "sizes": [
-          "S",
-          "M",
-          "L"
-        ]
-      }
-    },
-    {
       "id": "w-37",
       "name": "products.saint_laurent_leather_jacket.name",
       "slug": "veste-cuir-agneau-saint-laurent",
@@ -1072,30 +1011,6 @@
         "sizes": [
           "36",
           "38"
-        ]
-      }
-    },
-    {
-      "id": "w-42",
-      "name": "products.burberry_gabardine_trench.name",
-      "slug": "trench-coton-gabardine-burberry",
-      "description": "products.burberry_gabardine_trench.description",
-      "price": 2000,
-      "imageUrl": "https://images.unsplash.com/photo-1735849553047-1702b77b2054?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHx3b21lbiUyMHRyZW5jaCUyMGNvYXR8ZW58MHx8fHwxNzYzODAwOTIxfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "women trench coat",
-      "width": 800,
-      "height": 1200,
-      "category": "clothing",
-      "gender": "women",
-      "isTrending": false,
-      "stock": 10,
-      "details": "products.burberry_gabardine_trench.details",
-      "options": {
-        "sizes": [
-          "S",
-          "M",
-          "L",
-          "XL"
         ]
       }
     },
@@ -1220,7 +1135,7 @@
       "slug": "tunique-soie-sauvage-valentino",
       "description": "products.valentino_silk_tunic.description",
       "price": 1400,
-      "imageUrl": "https://images.unsplash.com/photo-1739773375426-880a10bea9a9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx3b21lbiUyMHNpbGslMjB0dW5pY3xlbnwwfHx8fDE3NjM4MDA5MjJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1739773375426-880a10bea9a9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx3b21lbiUyMHNpbGslMjB0dW5pY3xlbnwwfHx8fDE3NjM4MDA5MjJ8MA&ixlibrb-4.1.0&q=80&w=1080",
       "imageHint": "women silk tunic",
       "width": 800,
       "height": 1200,
@@ -1459,9 +1374,6 @@
       "isTrending": false,
       "stock": 8,
       "details": "products.loro_piana_cashmere_turtleneck.details",
-      "tags": [
-        "winter"
-      ],
       "options": {
         "sizes": [
           "S",
@@ -1545,36 +1457,10 @@
       }
     },
     {
-      "id": "m-32",
-      "name": "products.moncler_nylon_bomber.name",
-      "slug": "bomber-nylon-moncler",
-      "description": "products.moncler_nylon_bomber.description",
-      "price": 1050,
-      "imageUrl": "/product-images/clothing/bomber-nylon-moncler.jpg",
-      "imageHint": "men nylon bomber",
-      "width": 800,
-      "height": 1200,
-      "category": "clothing",
-      "gender": "men",
-      "isTrending": true,
-      "stock": 10,
-      "details": "products.moncler_nylon_bomber.details",
-      "tags": [
-        "winter"
-      ],
-      "options": {
-        "sizes": [
-          "S",
-          "M",
-          "L"
-        ]
-      }
-    },
-    {
       "id": "m-33",
-      "name": "products.saint_laurent_leather_jacket.name",
+      "name": "products.saint_laurent_leather_jacket_men.name",
       "slug": "blouson-cuir-saint-laurent",
-      "description": "products.saint_laurent_leather_jacket.description",
+      "description": "products.saint_laurent_leather_jacket_men.description",
       "price": 2950,
       "imageUrl": "/product-images/clothing/blouson-cuir-saint-laurent.jpg",
       "imageHint": "men leather jacket",
@@ -1584,10 +1470,7 @@
       "gender": "men",
       "isTrending": false,
       "stock": 5,
-      "details": "products.saint_laurent_leather_jacket.details",
-      "tags": [
-        "winter"
-      ],
+      "details": "products.saint_laurent_leather_jacket_men.details",
       "options": {
         "sizes": [
           "46",
@@ -1739,29 +1622,6 @@
       }
     },
     {
-      "id": "m-40",
-      "name": "products.acne_studios_flannel_overshirt.name",
-      "slug": "surchemise-flanelle-acne-studios",
-      "description": "products.acne_studios_flannel_overshirt.description",
-      "price": 380,
-      "imageUrl": "/product-images/clothing/surchemise-flanelle-acne-studios.jpg",
-      "imageHint": "men flannel overshirt",
-      "width": 800,
-      "height": 1200,
-      "category": "clothing",
-      "gender": "men",
-      "isTrending": false,
-      "stock": 14,
-      "details": "products.acne_studios_flannel_overshirt.details",
-      "options": {
-        "sizes": [
-          "S",
-          "M",
-          "L"
-        ]
-      }
-    },
-    {
       "id": "m-41",
       "name": "products.stone_island_cargo_shorts.name",
       "slug": "short-cargo-stone-island",
@@ -1781,109 +1641,6 @@
           "M",
           "L",
           "XL"
-        ]
-      }
-    },
-    {
-      "id": "m-42",
-      "name": "products.canada_goose_lightweight_down_jacket.name",
-      "slug": "doudoune-legere-canada-goose",
-      "description": "products.canada_goose_lightweight_down_jacket.description",
-      "price": 850,
-      "imageUrl": "/product-images/clothing/doudoune-legere-canada-goose.jpg",
-      "imageHint": "men down jacket",
-      "width": 800,
-      "height": 1200,
-      "category": "clothing",
-      "gender": "men",
-      "isTrending": true,
-      "stock": 11,
-      "details": "products.canada_goose_lightweight_down_jacket.details",
-      "tags": [
-        "winter"
-      ],
-      "options": {
-        "sizes": [
-          "S",
-          "M",
-          "L"
-        ]
-      }
-    },
-    {
-      "id": "m-43",
-      "name": "products.the_north_face_expedition_parka.name",
-      "slug": "parka-expedition-the-north-face",
-      "description": "products.the_north_face_expedition_parka.description",
-      "price": 620,
-      "imageUrl": "/product-images/clothing/parka-expedition-the-north-face.jpg",
-      "imageHint": "men expedition parka",
-      "width": 800,
-      "height": 1200,
-      "category": "clothing",
-      "gender": "men",
-      "isTrending": false,
-      "stock": 10,
-      "details": "products.the_north_face_expedition_parka.details",
-      "tags": [
-        "winter"
-      ],
-      "options": {
-        "sizes": [
-          "M",
-          "L",
-          "XL"
-        ]
-      }
-    },
-    {
-      "id": "m-44",
-      "name": "products.brunello_cucinelli_cashmere_zip_cardigan.name",
-      "slug": "cardigan-zippe-cachemire-brunello-cucinelli",
-      "description": "products.brunello_cucinelli_cashmere_zip_cardigan.description",
-      "price": 1350,
-      "imageUrl": "/product-images/clothing/cardigan-zippe-cachemire-brunello-cucinelli.jpg",
-      "imageHint": "men cashmere cardigan",
-      "width": 800,
-      "height": 1200,
-      "category": "clothing",
-      "gender": "men",
-      "isTrending": false,
-      "stock": 7,
-      "details": "products.brunello_cucinelli_cashmere_zip_cardigan.details",
-      "tags": [
-        "winter"
-      ],
-      "options": {
-        "sizes": [
-          "M",
-          "L"
-        ]
-      }
-    },
-    {
-      "id": "m-45",
-      "name": "products.max_mara_long_wool_coat.name",
-      "slug": "manteau-long-laine-max-mara",
-      "description": "products.max_mara_long_wool_coat.description",
-      "price": 980,
-      "imageUrl": "/product-images/clothing/manteau-long-laine-max-mara.jpg",
-      "imageHint": "men long coat",
-      "width": 800,
-      "height": 1200,
-      "category": "clothing",
-      "gender": "men",
-      "isTrending": false,
-      "stock": 8,
-      "details": "products.max_mara_long_wool_coat.details",
-      "tags": [
-        "winter"
-      ],
-      "options": {
-        "sizes": [
-          "48",
-          "50",
-          "52"
         ]
       }
     },
@@ -1980,58 +1737,6 @@
       }
     },
     {
-      "id": "m-50",
-      "name": "products.barbour_quilted_jacket.name",
-      "slug": "veste-matelassee-barbour-international",
-      "description": "products.barbour_quilted_jacket.description",
-      "price": 310,
-      "imageUrl": "/product-images/clothing/veste-matelassee-barbour-international.jpg",
-      "imageHint": "men quilted jacket",
-      "width": 800,
-      "height": 1200,
-      "category": "clothing",
-      "gender": "men",
-      "isTrending": false,
-      "stock": 15,
-      "details": "products.barbour_quilted_jacket.details",
-      "tags": [
-        "winter"
-      ],
-      "options": {
-        "sizes": [
-          "M",
-          "L",
-          "XL"
-        ]
-      }
-    },
-    {
-      "id": "m-51",
-      "name": "products.paul_smith_cable_knit_sweater.name",
-      "slug": "pull-torsade-paul-smith",
-      "description": "products.paul_smith_cable_knit_sweater.description",
-      "price": 230,
-      "imageUrl": "/product-images/clothing/pull-torsade-paul-smith.jpg",
-      "imageHint": "men cable-knit sweater",
-      "width": 800,
-      "height": 1200,
-      "category": "clothing",
-      "gender": "men",
-      "isTrending": false,
-      "stock": 17,
-      "details": "products.paul_smith_cable_knit_sweater.details",
-      "tags": [
-        "winter"
-      ],
-      "options": {
-        "sizes": [
-          "S",
-          "M",
-          "L"
-        ]
-      }
-    },
-    {
       "id": "m-52",
       "name": "products.givenchy_logo_tshirt.name",
       "slug": "t-shirt-logo-givenchy",
@@ -2079,53 +1784,574 @@
       }
     },
     {
-      "id": "m-54",
-      "name": "products.nike_acg_technical_jacket.name",
-      "slug": "veste-technique-nike-acg",
-      "description": "products.nike_acg_technical_jacket.description",
-      "price": 260,
-      "imageUrl": "/product-images/clothing/veste-technique-nike-acg.jpg",
-      "imageHint": "men technical jacket",
+      "id": "w-56",
+      "name": "products.hugo_boss_long_wool_coat.name",
+      "slug": "manteau-long-laine-hugo-boss",
+      "description": "products.hugo_boss_long_wool_coat.description",
+      "price": 620,
+      "imageUrl": "/product-images/winter/manteau-long-laine-hugo-boss.jpg",
+      "imageHint": "men wool coat",
+      "width": 800,
+      "height": 1200,
+      "category": "clothing",
+      "gender": "men",
+      "isTrending": true,
+      "stock": 10,
+      "details": "products.hugo_boss_long_wool_coat.details",
+      "tags": [
+        "winter"
+      ]
+    },
+    {
+      "id": "w-57",
+      "name": "products.moncler_quilted_down_jacket.name",
+      "slug": "doudoune-matelassee-moncler",
+      "description": "products.moncler_quilted_down_jacket.description",
+      "price": 1350,
+      "imageUrl": "/product-images/winter/doudoune-matelassee-moncler.jpg",
+      "imageHint": "quilted down jacket",
+      "width": 800,
+      "height": 1200,
+      "category": "clothing",
+      "gender": "unisex",
+      "isTrending": true,
+      "stock": 8,
+      "details": "products.moncler_quilted_down_jacket.details",
+      "tags": [
+        "winter"
+      ]
+    },
+    {
+      "id": "w-58",
+      "name": "products.canada_goose_arctic_parka.name",
+      "slug": "parka-arctic-canada-goose",
+      "description": "products.canada_goose_arctic_parka.description",
+      "price": 1280,
+      "imageUrl": "/product-images/winter/parka-arctic-canada-goose.jpg",
+      "imageHint": "arctic parka",
+      "width": 800,
+      "height": 1200,
+      "category": "clothing",
+      "gender": "unisex",
+      "isTrending": true,
+      "stock": 6,
+      "details": "products.canada_goose_arctic_parka.details",
+      "tags": [
+        "winter"
+      ]
+    },
+    {
+      "id": "w-59",
+      "name": "products.loro_piana_cashmere_coat_men.name",
+      "slug": "manteau-cachemire-loro-piana-homme",
+      "description": "products.loro_piana_cashmere_coat_men.description",
+      "price": 3200,
+      "imageUrl": "/product-images/winter/manteau-cachemire-loro-piana-homme.jpg",
+      "imageHint": "men cashmere coat",
       "width": 800,
       "height": 1200,
       "category": "clothing",
       "gender": "men",
       "isTrending": false,
-      "stock": 14,
-      "details": "products.nike_acg_technical_jacket.details",
-      "options": {
-        "sizes": [
-          "S",
-          "M",
-          "L",
-          "XL"
-        ]
-      }
+      "stock": 5,
+      "details": "products.loro_piana_cashmere_coat_men.details",
+      "tags": [
+        "winter"
+      ]
     },
     {
-      "id": "m-55",
-      "name": "products.prada_sleeveless_gilet.name",
-      "slug": "gilet-sans-manches-prada",
-      "description": "products.prada_sleeveless_gilet.description",
-      "price": 890,
-      "imageUrl": "/product-images/clothing/gilet-sans-manches-prada.jpg",
-      "imageHint": "men nylon vest",
+      "id": "w-60",
+      "name": "products.saint_laurent_shearling_jacket.name",
+      "slug": "blouson-shearling-saint-laurent",
+      "description": "products.saint_laurent_shearling_jacket.description",
+      "price": 2450,
+      "imageUrl": "/product-images/winter/blouson-shearling-saint-laurent.jpg",
+      "imageHint": "men shearling jacket",
+      "width": 800,
+      "height": 1200,
+      "category": "clothing",
+      "gender": "men",
+      "isTrending": true,
+      "stock": 7,
+      "details": "products.saint_laurent_shearling_jacket.details",
+      "tags": [
+        "winter"
+      ]
+    },
+    {
+      "id": "w-61",
+      "name": "products.paul_smith_merino_turtleneck.name",
+      "slug": "pull-col-roule-laine-merinos-paul-smith",
+      "description": "products.paul_smith_merino_turtleneck.description",
+      "price": 210,
+      "imageUrl": "/product-images/winter/pull-col-roule-laine-merinos-paul-smith.jpg",
+      "imageHint": "merino turtleneck sweater",
+      "width": 800,
+      "height": 1200,
+      "category": "clothing",
+      "gender": "men",
+      "isTrending": false,
+      "stock": 15,
+      "details": "products.paul_smith_merino_turtleneck.details",
+      "tags": [
+        "winter"
+      ]
+    },
+    {
+      "id": "w-62",
+      "name": "products.acne_studios_lined_overshirt_men.name",
+      "slug": "surchemise-doublee-acne-studios-homme",
+      "description": "products.acne_studios_lined_overshirt_men.description",
+      "price": 390,
+      "imageUrl": "/product-images/winter/surchemise-doublee-acne-studios-homme.jpg",
+      "imageHint": "men lined overshirt",
+      "width": 800,
+      "height": 1200,
+      "category": "clothing",
+      "gender": "men",
+      "isTrending": false,
+      "stock": 12,
+      "details": "products.acne_studios_lined_overshirt_men.details",
+      "tags": [
+        "winter"
+      ]
+    },
+    {
+      "id": "w-63",
+      "name": "products.polo_ralph_lauren_down_vest.name",
+      "slug": "doudoune-sans-manche-polo-ralph-lauren",
+      "description": "products.polo_ralph_lauren_down_vest.description",
+      "price": 260,
+      "imageUrl": "/product-images/winter/doudoune-sans-manche-polo-ralph-lauren.jpg",
+      "imageHint": "men down vest",
+      "width": 800,
+      "height": 1200,
+      "category": "clothing",
+      "gender": "men",
+      "isTrending": true,
+      "stock": 18,
+      "details": "products.polo_ralph_lauren_down_vest.details",
+      "tags": [
+        "winter"
+      ]
+    },
+    {
+      "id": "w-64",
+      "name": "products.burberry_lined_trench_coat.name",
+      "slug": "manteau-trench-double-burberry",
+      "description": "products.burberry_lined_trench_coat.description",
+      "price": 980,
+      "imageUrl": "/product-images/winter/manteau-trench-double-burberry.jpg",
+      "imageHint": "lined trench coat",
+      "width": 800,
+      "height": 1200,
+      "category": "clothing",
+      "gender": "unisex",
+      "isTrending": false,
+      "stock": 9,
+      "details": "products.burberry_lined_trench_coat.details",
+      "tags": [
+        "winter"
+      ]
+    },
+    {
+      "id": "w-65",
+      "name": "products.dior_homme_thick_cable_knit.name",
+      "slug": "pull-torsade-epais-dior-homme",
+      "description": "products.dior_homme_thick_cable_knit.description",
+      "price": 680,
+      "imageUrl": "/product-images/winter/pull-torsade-epais-dior-homme.jpg",
+      "imageHint": "men cable-knit sweater",
+      "width": 800,
+      "height": 1200,
+      "category": "clothing",
+      "gender": "men",
+      "isTrending": true,
+      "stock": 10,
+      "details": "products.dior_homme_thick_cable_knit.details",
+      "tags": [
+        "winter"
+      ]
+    },
+    {
+      "id": "w-66",
+      "name": "products.tnf_black_series_technical_jacket.name",
+      "slug": "veste-technique-impermeable-tnf-black-series",
+      "description": "products.tnf_black_series_technical_jacket.description",
+      "price": 350,
+      "imageUrl": "/product-images/winter/veste-technique-impermeable-tnf-black-series.jpg",
+      "imageHint": "technical waterproof jacket",
+      "width": 800,
+      "height": 1200,
+      "category": "clothing",
+      "gender": "unisex",
+      "isTrending": false,
+      "stock": 14,
+      "details": "products.tnf_black_series_technical_jacket.details",
+      "tags": [
+        "winter"
+      ]
+    },
+    {
+      "id": "w-67",
+      "name": "products.nike_acg_thermal_pants.name",
+      "slug": "pantalon-thermique-nike-acg",
+      "description": "products.nike_acg_thermal_pants.description",
+      "price": 190,
+      "imageUrl": "/product-images/winter/pantalon-thermique-nike-acg.jpg",
+      "imageHint": "thermal pants",
+      "width": 800,
+      "height": 1200,
+      "category": "clothing",
+      "gender": "unisex",
+      "isTrending": false,
+      "stock": 20,
+      "details": "products.nike_acg_thermal_pants.details",
+      "tags": [
+        "winter"
+      ]
+    },
+    {
+      "id": "w-68",
+      "name": "products.sandro_double_breasted_pea_coat.name",
+      "slug": "caban-laine-double-sandro",
+      "description": "products.sandro_double_breasted_pea_coat.description",
+      "price": 520,
+      "imageUrl": "/product-images/winter/caban-laine-double-sandro.jpg",
+      "imageHint": "men wool peacoat",
       "width": 800,
       "height": 1200,
       "category": "clothing",
       "gender": "men",
       "isTrending": false,
       "stock": 11,
-      "details": "products.prada_sleeveless_gilet.details",
+      "details": "products.sandro_double_breasted_pea_coat.details",
       "tags": [
         "winter"
-      ],
-      "options": {
-        "sizes": [
-          "M",
-          "L"
-        ]
-      }
+      ]
+    },
+    {
+      "id": "w-69",
+      "name": "products.armani_exchange_premium_down_jacket.name",
+      "slug": "doudoune-premium-armani-exchange",
+      "description": "products.armani_exchange_premium_down_jacket.description",
+      "price": 460,
+      "imageUrl": "/product-images/winter/doudoune-premium-armani-exchange.jpg",
+      "imageHint": "men premium down jacket",
+      "width": 800,
+      "height": 1200,
+      "category": "clothing",
+      "gender": "men",
+      "isTrending": false,
+      "stock": 13,
+      "details": "products.armani_exchange_premium_down_jacket.details",
+      "tags": [
+        "winter"
+      ]
+    },
+    {
+      "id": "w-70",
+      "name": "products.zegna_velvet_coat.name",
+      "slug": "manteau-velours-zegna",
+      "description": "products.zegna_velvet_coat.description",
+      "price": 1850,
+      "imageUrl": "/product-images/winter/manteau-velours-zegna.jpg",
+      "imageHint": "men velvet coat",
+      "width": 800,
+      "height": 1200,
+      "category": "clothing",
+      "gender": "men",
+      "isTrending": true,
+      "stock": 7,
+      "details": "products.zegna_velvet_coat.details",
+      "tags": [
+        "winter"
+      ]
+    },
+    {
+      "id": "w-71",
+      "name": "products.max_mara_belted_wool_coat.name",
+      "slug": "manteau-long-ceinture-laine-max-mara",
+      "description": "products.max_mara_belted_wool_coat.description",
+      "price": 1150,
+      "imageUrl": "/product-images/winter/manteau-long-ceinture-laine-max-mara.jpg",
+      "imageHint": "women belted coat",
+      "width": 800,
+      "height": 1200,
+      "category": "clothing",
+      "gender": "women",
+      "isTrending": true,
+      "stock": 9,
+      "details": "products.max_mara_belted_wool_coat.details",
+      "tags": [
+        "winter"
+      ]
+    },
+    {
+      "id": "w-72",
+      "name": "products.moncler_long_down_jacket_women.name",
+      "slug": "doudoune-longue-moncler-femme",
+      "description": "products.moncler_long_down_jacket_women.description",
+      "price": 1450,
+      "imageUrl": "/product-images/winter/doudoune-longue-moncler-femme.jpg",
+      "imageHint": "women long down jacket",
+      "width": 800,
+      "height": 1200,
+      "category": "clothing",
+      "gender": "women",
+      "isTrending": true,
+      "stock": 7,
+      "details": "products.moncler_long_down_jacket_women.details",
+      "tags": [
+        "winter"
+      ]
+    },
+    {
+      "id": "w-73",
+      "name": "products.loro_piana_cashmere_coat_women.name",
+      "slug": "manteau-cachemire-loro-piana-femme",
+      "description": "products.loro_piana_cashmere_coat_women.description",
+      "price": 3450,
+      "imageUrl": "/product-images/winter/manteau-cachemire-loro-piana-femme.jpg",
+      "imageHint": "women cashmere coat",
+      "width": 800,
+      "height": 1200,
+      "category": "clothing",
+      "gender": "women",
+      "isTrending": false,
+      "stock": 4,
+      "details": "products.loro_piana_cashmere_coat_women.details",
+      "tags": [
+        "winter"
+      ]
+    },
+    {
+      "id": "w-74",
+      "name": "products.canada_goose_faux_fur_parka.name",
+      "slug": "parka-fourrure-synthetique-canada-goose",
+      "description": "products.canada_goose_faux_fur_parka.description",
+      "price": 1180,
+      "imageUrl": "/product-images/winter/parka-fourrure-synthetique-canada-goose.jpg",
+      "imageHint": "women fur parka",
+      "width": 800,
+      "height": 1200,
+      "category": "clothing",
+      "gender": "women",
+      "isTrending": true,
+      "stock": 8,
+      "details": "products.canada_goose_faux_fur_parka.details",
+      "tags": [
+        "winter"
+      ]
+    },
+    {
+      "id": "w-75",
+      "name": "products.acne_studios_shearling_jacket_women.name",
+      "slug": "blouson-shearling-acne-studios-femme",
+      "description": "products.acne_studios_shearling_jacket_women.description",
+      "price": 1290,
+      "imageUrl": "/product-images/winter/blouson-shearling-acne-studios-femme.jpg",
+      "imageHint": "women shearling jacket",
+      "width": 800,
+      "height": 1200,
+      "category": "clothing",
+      "gender": "women",
+      "isTrending": true,
+      "stock": 6,
+      "details": "products.acne_studios_shearling_jacket_women.details",
+      "tags": [
+        "winter"
+      ]
+    },
+    {
+      "id": "w-76",
+      "name": "products.jacquemus_oversized_wool_sweater.name",
+      "slug": "pull-oversized-laine-jacquemus",
+      "description": "products.jacquemus_oversized_wool_sweater.description",
+      "price": 330,
+      "imageUrl": "/product-images/winter/pull-oversized-laine-jacquemus.jpg",
+      "imageHint": "women oversized sweater",
+      "width": 800,
+      "height": 1200,
+      "category": "clothing",
+      "gender": "women",
+      "isTrending": false,
+      "stock": 15,
+      "details": "products.jacquemus_oversized_wool_sweater.details",
+      "tags": [
+        "winter"
+      ]
+    },
+    {
+      "id": "w-77",
+      "name": "products.stand_studio_faux_fur_coat.name",
+      "slug": "manteau-fausse-fourrure-stand-studio",
+      "description": "products.stand_studio_faux_fur_coat.description",
+      "price": 290,
+      "imageUrl": "/product-images/winter/manteau-fausse-fourrure-stand-studio.jpg",
+      "imageHint": "faux fur coat",
+      "width": 800,
+      "height": 1200,
+      "category": "clothing",
+      "gender": "women",
+      "isTrending": true,
+      "stock": 10,
+      "details": "products.stand_studio_faux_fur_coat.details",
+      "tags": [
+        "winter"
+      ]
+    },
+    {
+      "id": "w-78",
+      "name": "products.prada_short_down_jacket.name",
+      "slug": "doudoune-courte-prada",
+      "description": "products.prada_short_down_jacket.description",
+      "price": 1950,
+      "imageUrl": "/product-images/winter/doudoune-courte-prada.jpg",
+      "imageHint": "women short down jacket",
+      "width": 800,
+      "height": 1200,
+      "category": "clothing",
+      "gender": "women",
+      "isTrending": true,
+      "stock": 5,
+      "details": "products.prada_short_down_jacket.details",
+      "tags": [
+        "winter"
+      ]
+    },
+    {
+      "id": "w-79",
+      "name": "products.chloe_cashmere_turtleneck.name",
+      "slug": "pull-col-roule-cachemire-chloe",
+      "description": "products.chloe_cashmere_turtleneck.description",
+      "price": 780,
+      "imageUrl": "/product-images/winter/pull-col-roule-cachemire-chloe.jpg",
+      "imageHint": "women cashmere turtleneck",
+      "width": 800,
+      "height": 1200,
+      "category": "clothing",
+      "gender": "women",
+      "isTrending": false,
+      "stock": 9,
+      "details": "products.chloe_cashmere_turtleneck.details",
+      "tags": [
+        "winter"
+      ]
+    },
+    {
+      "id": "w-80",
+      "name": "products.burberry_wool_cape.name",
+      "slug": "cape-en-laine-burberry",
+      "description": "products.burberry_wool_cape.description",
+      "price": 890,
+      "imageUrl": "/product-images/winter/cape-en-laine-burberry.jpg",
+      "imageHint": "women wool cape",
+      "width": 800,
+      "height": 1200,
+      "category": "clothing",
+      "gender": "women",
+      "isTrending": false,
+      "stock": 8,
+      "details": "products.burberry_wool_cape.details",
+      "tags": [
+        "winter"
+      ]
+    },
+    {
+      "id": "w-81",
+      "name": "products.isabel_marant_quilted_overshirt.name",
+      "slug": "surchemise-matelassee-isabel-marant",
+      "description": "products.isabel_marant_quilted_overshirt.description",
+      "price": 420,
+      "imageUrl": "/product-images/winter/surchemise-matelassee-isabel-marant.jpg",
+      "imageHint": "quilted overshirt",
+      "width": 800,
+      "height": 1200,
+      "category": "clothing",
+      "gender": "women",
+      "isTrending": false,
+      "stock": 12,
+      "details": "products.isabel_marant_quilted_overshirt.details",
+      "tags": [
+        "winter"
+      ]
+    },
+    {
+      "id": "w-82",
+      "name": "products.tnf_technical_jacket_women.name",
+      "slug": "veste-technique-impermeable-tnf-femme",
+      "description": "products.tnf_technical_jacket_women.description",
+      "price": 310,
+      "imageUrl": "/product-images/winter/veste-technique-impermeable-tnf-femme.jpg",
+      "imageHint": "women technical jacket",
+      "width": 800,
+      "height": 1200,
+      "category": "clothing",
+      "gender": "women",
+      "isTrending": false,
+      "stock": 11,
+      "details": "products.tnf_technical_jacket_women.details",
+      "tags": [
+        "winter"
+      ]
+    },
+    {
+      "id": "w-83",
+      "name": "products.maje_thick_wool_skirt.name",
+      "slug": "jupe-laine-epaisse-maje",
+      "description": "products.maje_thick_wool_skirt.description",
+      "price": 170,
+      "imageUrl": "/product-images/winter/jupe-laine-epaisse-maje.jpg",
+      "imageHint": "women wool skirt",
+      "width": 800,
+      "height": 1200,
+      "category": "clothing",
+      "gender": "women",
+      "isTrending": false,
+      "stock": 16,
+      "details": "products.maje_thick_wool_skirt.details",
+      "tags": [
+        "winter"
+      ]
+    },
+    {
+      "id": "w-84",
+      "name": "products.etro_wool_poncho.name",
+      "slug": "poncho-laine-etro",
+      "description": "products.etro_wool_poncho.description",
+      "price": 980,
+      "imageUrl": "/product-images/winter/poncho-laine-etro.jpg",
+      "imageHint": "women wool poncho",
+      "width": 800,
+      "height": 1200,
+      "category": "clothing",
+      "gender": "women",
+      "isTrending": false,
+      "stock": 6,
+      "details": "products.etro_wool_poncho.details",
+      "tags": [
+        "winter"
+      ]
+    },
+    {
+      "id": "w-85",
+      "name": "products.zara_premium_xxl_puffer_coat.name",
+      "slug": "manteau-puffer-xxl-zara-premium",
+      "description": "products.zara_premium_xxl_puffer_coat.description",
+      "price": 140,
+      "imageUrl": "/product-images/winter/manteau-puffer-xxl-zara-premium.jpg",
+      "imageHint": "women puffer coat",
+      "width": 800,
+      "height": 1200,
+      "category": "clothing",
+      "gender": "women",
+      "isTrending": true,
+      "stock": 20,
+      "details": "products.zara_premium_xxl_puffer_coat.details",
+      "tags": [
+        "winter"
+      ]
     }
   ]
 }

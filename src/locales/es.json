@@ -755,153 +755,243 @@
     },
     "tom_ford_slim_fit_shirt": {
       "name": "Camisa slim fit de Tom Ford",
-      "description": "Camisa de popelina de algodón, corte ajustado, cuello italiano, botones de nácar, acabado de lujo.",
-      "details": "Popelina 100% algodón. Corte ajustado. Cuello italiano."
+      "description": "Camisa de popelina de algodón, corte ajustado, cuello italiano, botones de nácar, acabado de lujo."
     },
     "ralph_lauren_pique_polo": {
       "name": "Polo de piqué de Ralph Lauren Purple Label",
-      "description": "Polo suave de algodón de primera calidad, corte moderno, logo bordado, cuello reforzado.",
-      "details": "Algodón de primera calidad. Corte moderno. Logo bordado."
+      "description": "Polo suave de algodón de primera calidad, corte moderno, logo bordado, cuello reforzado."
     },
     "loro_piana_cashmere_turtleneck": {
       "name": "Jersey de cuello alto de cachemira de Loro Piana",
-      "description": "100% cachemira italiana, punto fino, ultra suave, corte refinado.",
-      "details": "100% cachemira italiana. Punto fino. Hecho en Italia."
+      "description": "100% cachemira italiana, punto fino, ultra suave, corte refinado."
     },
     "hugo_boss_round_neck_tshirt": {
       "name": "Camiseta de cuello redondo de Hugo Boss Black",
-      "description": "Camiseta de primera calidad, algodón mercerizado, logo discreto, corte ajustado.",
-      "details": "Algodón mercerizado. Logo discreto. Corte ajustado."
+      "description": "Camiseta de primera calidad, algodón mercerizado, logo discreto, corte ajustado."
     },
     "burberry_stretch_chino_pants": {
       "name": "Pantalón chino elástico de Burberry",
-      "description": "Chino de algodón elástico, corte moderno, discreto estampado de cuadros en el interior.",
-      "details": "Algodón elástico. Corte moderno. Discreto estampado de cuadros."
+      "description": "Chino de algodón elástico, corte moderno, discreto estampado de cuadros en el interior."
     },
     "diesel_slim_fit_jeans": {
       "name": "Vaqueros de corte ajustado de Diesel Black Gold",
-      "description": "Vaqueros elásticos, lavado de primera calidad, detalles metálicos característicos.",
-      "details": "Denim elástico. Lavado de primera calidad. Detalles característicos."
+      "description": "Vaqueros elásticos, lavado de primera calidad, detalles metálicos característicos."
     },
     "moncler_nylon_bomber": {
       "name": "Bomber de nailon de Moncler",
-      "description": "Chaqueta ligera acolchada, corte moderno, logo en la manga.",
-      "details": "Nailon. Acolchado ligero. Logo en la manga."
+      "description": "Chaqueta ligera acolchada, corte moderno, logo en la manga."
     },
     "saint_laurent_leather_jacket_men": {
       "name": "Chaqueta de cuero de Saint Laurent",
-      "description": "Piel de cordero ultra suave, corte rockero, cremallera plateada YSL.",
-      "details": "Piel de cordero ultra suave. Corte rockero. Cremallera YSL."
+      "description": "Piel de cordero ultra suave, corte rockero, cremallera plateada YSL."
     },
     "giorgio_armani_suit_jacket": {
       "name": "Chaqueta de traje de Giorgio Armani",
-      "description": "Chaqueta de lana virgen, corte sofisticado, forro de seda.",
-      "details": "Lana virgen. Corte sofisticado. Forro de seda."
+      "description": "Chaqueta de lana virgen, corte sofisticado, forro de seda."
     },
     "zegna_2_piece_suit": {
       "name": "Traje de 2 piezas de Zegna",
-      "description": "Lana merina italiana, corte ajustado, hombro natural.",
-      "details": "Lana merina italiana. Corte ajustado. Hombro natural."
+      "description": "Lana merina italiana, corte ajustado, hombro natural."
     },
     "off_white_hoodie": {
       "name": "Sudadera con capucha de Off-White",
-      "description": "Algodón grueso, motivos de flechas en la espalda, estampado característico.",
-      "details": "Algodón grueso. Motivos de flechas. Estampado característico."
+      "description": "Algodón grueso, motivos de flechas en la espalda, estampado característico."
     },
     "fear_of_god_essential_tshirt": {
       "name": "Camiseta “Essential” de Fear of God Essentials",
-      "description": "Algodón de primera calidad, logo en relieve, corte oversize.",
-      "details": "Algodón de primera calidad. Logo en relieve. Corte oversize."
+      "description": "Algodón de primera calidad, logo en relieve, corte oversize."
     },
     "lacoste_merino_wool_sweater": {
       "name": "Jersey de lana merina de Lacoste",
-      "description": "Punto fino, cuello redondo, cocodrilo bordado, corte clásico.",
-      "details": "Lana merina fina. Cuello redondo. Corte clásico."
+      "description": "Punto fino, cuello redondo, cocodrilo bordado, corte clásico."
     },
     "balenciaga_oversize_shirt": {
       "name": "Camisa oversize de Balenciaga",
-      "description": "Algodón grueso, silueta ancha, marca discreta.",
-      "details": "Algodón grueso. Silueta ancha. Marca discreta."
+      "description": "Algodón grueso, silueta ancha, marca discreta."
     },
     "acne_studios_flannel_overshirt": {
       "name": "Sobrecamisa de franela de Acne Studios",
-      "description": "Franela suave, corte relajado, bolsillos en el pecho.",
-      "details": "Franela suave. Corte relajado. Bolsillos en el pecho."
+      "description": "Franela suave, corte relajado, bolsillos en el pecho."
     },
     "stone_island_cargo_shorts": {
       "name": "Pantalones cortos cargo de Stone Island",
-      "description": "Tejido resistente, insignia de Stone Island, corte utilitario.",
-      "details": "Tejido resistente. Insignia de Stone Island. Corte utilitario."
+      "description": "Tejido resistente, insignia de Stone Island, corte utilitario."
     },
     "canada_goose_lightweight_down_jacket": {
       "name": "Chaqueta de plumas ligera de Canada Goose",
-      "description": "Aislamiento térmico, tejido cortavientos, diseño limpio.",
-      "details": "Aislamiento térmico. Tejido cortavientos. Diseño limpio."
+      "description": "Aislamiento térmico, tejido cortavientos, diseño limpio."
     },
     "the_north_face_expedition_parka": {
       "name": "Parka “Expedition” de The North Face Black Series",
-      "description": "Resistente, impermeable, multibolsillos, capucha ajustable.",
-      "details": "Resistente. Impermeable. Multibolsillos."
+      "description": "Resistente, impermeable, multibolsillos, capucha ajustable."
     },
     "brunello_cucinelli_cashmere_zip_cardigan": {
       "name": "Cárdigan con cremallera de cachemira de Brunello Cucinelli",
-      "description": "Cachemira extrafina, cremallera metálica, corte elegante.",
-      "details": "Cachemira extrafina. Cremallera metálica. Corte elegante."
+      "description": "Cachemira extrafina, cremallera metálica, corte elegante."
     },
     "max_mara_long_wool_coat": {
       "name": "Abrigo largo de lana de Max Mara Homme",
-      "description": "Lana cálida, corte largo, cinturón opcional.",
-      "details": "Lana cálida. Corte largo. Cinturón opcional."
+      "description": "Lana cálida, corte largo, cinturón opcional."
     },
     "levis_denim_jacket": {
       "name": "Chaqueta vaquera de Levi's Made & Crafted",
-      "description": "Denim de primera calidad, corte clásico, acabado artesanal.",
-      "details": "Denim de primera calidad. Corte clásico. Acabado artesanal."
+      "description": "Denim de primera calidad, corte clásico, acabado artesanal."
     },
     "dior_homme_tailored_pants": {
       "name": "Pantalón de sastre de Dior Homme",
-      "description": "Elegante corte cónico, lana fina, aspecto de alta costura.",
-      "details": "Lana fina. Elegante corte cónico. Aspecto de alta costura."
+      "description": "Elegante corte cónico, lana fina, aspecto de alta costura."
     },
     "versace_silk_shirt": {
       "name": "Camisa de seda de Versace",
-      "description": "Seda estampada, motivos barrocos, cuello italiano.",
-      "details": "Seda estampada. Motivos barrocos. Cuello italiano."
+      "description": "Seda estampada, motivos barrocos, cuello italiano."
     },
     "palm_angels_printed_hoodie": {
       "name": "Sudadera con capucha estampada de Palm Angels",
-      "description": "Algodón grueso, motivo de palmera, corte oversize.",
-      "details": "Algodón grueso. Motivo de palmera. Corte oversize."
+      "description": "Algodón grueso, motivo de palmera, corte oversize."
     },
     "barbour_quilted_jacket": {
       "name": "Chaqueta acolchada de Barbour International",
-      "description": "Acolchado de rombos, corte clásico, cuello de terciopelo.",
-      "details": "Acolchado de rombos. Corte clásico. Cuello de terciopelo."
+      "description": "Acolchado de rombos, corte clásico, cuello de terciopelo."
     },
     "paul_smith_cable_knit_sweater": {
       "name": "Jersey de punto de ochos de Paul Smith",
-      "description": "Lana suave, motivo de punto de ochos, acabado en contraste.",
-      "details": "Lana suave. Motivo de punto de ochos. Acabado en contraste."
+      "description": "Lana suave, motivo de punto de ochos, acabado en contraste."
     },
     "givenchy_logo_tshirt": {
       "name": "Camiseta con logo de Givenchy",
-      "description": "Logo bordado, algodón de primera calidad, corte recto.",
-      "details": "Logo bordado. Algodón de primera calidad. Corte recto."
+      "description": "Logo bordado, algodón de primera calidad, corte recto."
     },
     "adidas_gucci_luxury_tracksuit": {
       "name": "Chándal de lujo de Adidas x Gucci",
-      "description": "Poliéster de primera calidad, rayas de Gucci, corte retro.",
-      "details": "Poliéster de primera calidad. Rayas de Gucci. Corte retro."
+      "description": "Poliéster de primera calidad, rayas de Gucci, corte retro."
     },
     "nike_acg_technical_jacket": {
       "name": "Chaqueta técnica de Nike ACG",
-      "description": "Impermeable, ventilada, corte moderno para exteriores.",
-      "details": "Impermeable. Ventilada. Corte moderno para exteriores."
+      "description": "Impermeable, ventilada, corte moderno para exteriores."
     },
     "prada_sleeveless_gilet": {
       "name": "Chaleco sin mangas de Prada",
-      "description": "Nailon de Prada, corte minimalista, logo triangular.",
-      "details": "Nailon de Prada. Corte minimalista. Logo triangular."
+      "description": "Nailon de Prada, corte minimalista, logo triangular."
+    },
+    "hugo_boss_long_wool_coat": {
+      "name": "Abrigo largo de lana de Hugo Boss",
+      "description": "Abrigo cruzado de lana cálida, corte elegante, forro de satén, ideal para inviernos fríos."
+    },
+    "moncler_quilted_down_jacket": {
+      "name": "Chaqueta de plumas acolchada de Moncler",
+      "description": "Chaqueta de plumas ligera pero muy cálida, relleno de plumas, capucha extraíble, aspecto premium."
+    },
+    "canada_goose_arctic_parka": {
+      "name": "Parka Arctic de Canada Goose",
+      "description": "Protección extrema contra el frío, capucha con ribete de piel, tejido cortavientos."
+    },
+    "loro_piana_cashmere_coat_men": {
+      "name": "Abrigo de cachemira de Loro Piana (Hombre)",
+      "description": "Cachemira italiana, suavidad excepcional, corte largo de lujo."
+    },
+    "saint_laurent_shearling_jacket": {
+      "name": "Chaqueta de piel de oveja de Saint Laurent",
+      "description": "Piel de oveja, interior de lana de oveja, estilo premium atemporal."
+    },
+    "paul_smith_merino_turtleneck": {
+      "name": "Jersey de cuello alto de lana merina de Paul Smith",
+      "description": "Punto grueso y suave, retención del calor, corte moderno."
+    },
+    "acne_studios_lined_overshirt_men": {
+      "name": "Sobrecamisa forrada de Acne Studios (Hombre)",
+      "description": "Sobrecamisa cálida forrada de sherpa, estilo urbano."
+    },
+    "polo_ralph_lauren_down_vest": {
+      "name": "Chaleco de plumas de Polo Ralph Lauren",
+      "description": "Ligero, cálido, perfecto para superponer sobre un jersey."
+    },
+    "burberry_lined_trench_coat": {
+      "name": "Gabardina forrada de Burberry",
+      "description": "Gabardina icónica de Burberry versión de invierno, forro aislante."
+    },
+    "dior_homme_thick_cable_knit": {
+      "name": "Jersey de punto de ochos grueso de Dior Homme",
+      "description": "Lana gruesa de punto de ochos, estilo chic y moderno."
+    },
+    "tnf_black_series_technical_jacket": {
+      "name": "Chaqueta técnica impermeable de The North Face Black Series",
+      "description": "Diseñada para condiciones extremas, transpirable e impermeable."
+    },
+    "nike_acg_thermal_pants": {
+      "name": "Pantalón térmico de Nike ACG",
+      "description": "Tejido aislante, corte urbano, ideal para temperaturas extremas."
+    },
+    "sandro_double_breasted_pea_coat": {
+      "name": "Caban de lana de doble botonadura de Sandro",
+      "description": "Doble capa, corte militar reinventado."
+    },
+    "armani_exchange_premium_down_jacket": {
+      "name": "Chaqueta de plumas premium de Armani Exchange",
+      "description": "Cálida, ligera, corte ajustado, diseño moderno."
+    },
+    "zegna_velvet_coat": {
+      "name": "Abrigo de terciopelo de Zegna",
+      "description": "Terciopelo grueso italiano, aspecto invernal de ultra lujo."
+    },
+    "max_mara_belted_wool_coat": {
+      "name": "Abrigo largo de lana con cinturón de Max Mara",
+      "description": "Corte elegante, lana suave, cinturón para ceñir la cintura."
+    },
+    "moncler_long_down_jacket_women": {
+      "name": "Chaqueta de plumas larga de Moncler Mujer",
+      "description": "Largo hasta el tobillo, ultra cálida, silueta estilizada."
+    },
+    "loro_piana_cashmere_coat_women": {
+      "name": "Abrigo de cachemira de Loro Piana (Mujer)",
+      "description": "Cachemira premium, suavidad y caída de lujo."
+    },
+    "canada_goose_faux_fur_parka": {
+      "name": "Parka con piel sintética de Canada Goose",
+      "description": "Aislamiento extremo, capucha XL forrada."
+    },
+    "acne_studios_shearling_jacket_women": {
+      "name": "Chaqueta de piel de oveja de Acne Studios (Mujer)",
+      "description": "Piel de oveja y lana de oveja, aspecto invernal chic."
+    },
+    "jacquemus_oversized_wool_sweater": {
+      "name": "Jersey de lana oversize de Jacquemus",
+      "description": "Lana gruesa, corte amplio de tendencia."
+    },
+    "stand_studio_faux_fur_coat": {
+      "name": "Abrigo de piel sintética de Stand Studio",
+      "description": "Piel sintética suave, corte glamuroso."
+    },
+    "prada_short_down_jacket": {
+      "name": "Chaqueta de plumas corta de Prada",
+      "description": "Nailon icónico de Prada, silueta entallada."
+    },
+    "chloe_cashmere_turtleneck": {
+      "name": "Jersey de cuello alto de cachemira de Chloé",
+      "description": "Punto fino de lujo, corte femenino."
+    },
+    "burberry_wool_cape": {
+      "name": "Capa de lana de Burberry",
+      "description": "Capa cálida, interior con motivo de cuadros."
+    },
+    "isabel_marant_quilted_overshirt": {
+      "name": "Sobrecamisa acolchada de Isabel Marant",
+      "description": "Acolchado ligero, estilo casual chic."
+    },
+    "tnf_technical_jacket_women": {
+      "name": "Chaqueta técnica impermeable de The North Face Mujer",
+      "description": "Diseñada para el frío y la lluvia, ligera y cálida."
+    },
+    "maje_thick_wool_skirt": {
+      "name": "Falda de lana gruesa de Maje",
+      "description": "Falda de invierno estructurada, perfecta con botas."
+    },
+    "etro_wool_poncho": {
+      "name": "Poncho de lana de Etro",
+      "description": "Motivos coloridos característicos, lana cálida."
+    },
+    "zara_premium_xxl_puffer_coat": {
+      "name": "Abrigo acolchado XXL de Zara Premium",
+      "description": "Muy cálido, amplio, de tendencia, presupuesto asequible."
     }
   }
 }

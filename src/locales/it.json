@@ -425,483 +425,507 @@
   "products": {
     "gucci_silk_dress": {
       "name": "Abito di seta con stampa a nastro Gucci",
-      "description": "Abito midi in seta multicolore con stampa a nastro, maniche lunghe a sbuffo, colletto con fiocco e chiusura a bottoni sul retro. Tessuto 100% seta, taglio fluido e femminile.",
-      "details": "Tessuto 100% seta, taglio fluido. Si consiglia il lavaggio a secco professionale."
+      "description": "Abito midi in seta multicolore con stampa a nastro, maniche lunghe a sbuffo, colletto con fiocco e chiusura a bottoni sul retro. Tessuto 100% seta, taglio fluido e femminile."
     },
     "dior_blazer_dress": {
       "name": "Abito blazer in gabardine di lana e seta Dior",
-      "description": "Abito blazer di media lunghezza realizzato in gabardine di lana vergine e seta. Taglio strutturato, spalle definite, cintura in vita. Evoca uno stile professionale molto chic.",
-      "details": "Gabardine di lana vergine e seta. Taglio strutturato. Solo lavaggio a secco."
+      "description": "Abito blazer di media lunghezza realizzato in gabardine di lana vergine e seta. Taglio strutturato, spalle definite, cintura in vita. Evoca uno stile professionale molto chic."
     },
     "dior_poplin_dress": {
       "name": "Abito in popeline di cotone/seta con cintura Dior",
-      "description": "Abito di media lunghezza in leggero popeline di cotone e seta, taglio con cintura, maniche lunghe, design pulito. Un cocktail perfetto tra comfort ed eleganza.",
-      "details": "Popeline di cotone e seta. Cintura rimovibile. Lavaggio in lavatrice delicato."
+      "description": "Abito di media lunghezza in leggero popeline di cotone e seta, taglio con cintura, maniche lunghe, design pulito. Un cocktail perfetto tra comfort ed eleganza."
     },
     "dior_oblique_dress": {
       "name": "Abito fluido con motivo Dior Oblique",
-      "description": "Abito in denim leggero con motivo Oblique, taglio fluido, collo asimmetrico, tessuto esclusivo Dior.",
-      "details": "Denim leggero esclusivo Dior. Taglio fluido. Si consiglia il lavaggio a secco."
+      "description": "Abito in denim leggero con motivo Oblique, taglio fluido, collo asimmetrico, tessuto esclusivo Dior."
     },
     "dior_shirt_dress": {
       "name": "Abito a camicia in popeline nero Dior",
-      "description": "Abito a camicia semplice in popeline di cotone e seta, taglio dritto, colletto classico, maniche lunghe, eleganza minimalista.",
-      "details": "Popeline di cotone e seta. Taglio dritto. Può essere indossato con una cintura."
+      "description": "Abito a camicia semplice in popeline di cotone e seta, taglio dritto, colletto classico, maniche lunghe, eleganza minimalista."
     },
     "dior_tweed_dress": {
       "name": "Abito in tweed macrocannage Dior",
-      "description": "Abito corto in tweed grigio con motivo macrocannage, misto lana e seta, taglio dritto, silhouette strutturata.",
-      "details": "Tweed di lana e seta. Motivo macrocannage. Solo lavaggio a secco."
+      "description": "Abito corto in tweed grigio con motivo macrocannage, misto lana e seta, taglio dritto, silhouette strutturata."
     },
     "armani_silk_top": {
       "name": "Top in seta Armani",
-      "description": "Top in seta fluido, spalline sottili, taglio fluido, finitura satinata. Ideale per look eleganti da giorno e da sera.",
-      "details": "100% seta. Spalline sottili regolabili. Si consiglia il lavaggio a mano."
+      "description": "Top in seta fluido, spalline sottili, taglio fluido, finitura satinata. Ideale per look eleganti da giorno e da sera."
     },
     "armani_cotton_shirt": {
       "name": "Camicia in cotone egiziano Armani",
-      "description": "Camicia di lusso in popeline di cotone egiziano, taglio dritto, colletto italiano, bottoni discreti, finitura pulita.",
-      "details": "100% cotone egiziano. Colletto italiano. Bottoni in madreperla."
+      "description": "Camicia di lusso in popeline di cotone egiziano, taglio dritto, colletto italiano, bottoni discreti, finitura pulita."
     },
     "armani_wool_trousers": {
       "name": "Pantaloni sartoriali in lana Giorgio Armani",
-      "description": "Pantaloni sartoriali in lana vergine, taglio a sigaretta, vita alta, pieghe nette, fodera confortevole.",
-      "details": "100% lana vergine. Taglio a sigaretta. Lavaggio a secco."
+      "description": "Pantaloni sartoriali in lana vergine, taglio a sigaretta, vita alta, pieghe nette, fodera confortevole."
     },
     "gucci_premium_jeans": {
       "name": "Jeans premium Gucci",
-      "description": "Jeans di alta gamma in denim di prima qualità, vestibilità slim, dettagli con logo o ricamo, stile urban-luxe.",
-      "details": "Denim di prima qualità. Dettagli firmati Gucci. Lavaggio in lavatrice."
+      "description": "Jeans di alta gamma in denim di prima qualità, vestibilità slim, dettagli con logo o ricamo, stile urban-luxe."
     },
     "burberry_wool_coat": {
       "name": "Cappotto lungo in lana Burberry",
-      "description": "Trench trasformato in cappotto lungo, lana pesante, fodera curata, taglio classico Burberry, tasche pratiche.",
-      "details": "Lana pesante. Fodera con motivo a quadri Burberry. Lavaggio a secco."
+      "description": "Trench trasformato in cappotto lungo, lana pesante, fodera curata, taglio classico Burberry, tasche pratiche."
     },
     "saint_laurent_leather_jacket": {
       "name": "Giacca in pelle di agnello Saint Laurent",
-      "description": "Giacca da motociclista in morbida pelle di agnello, taglio aderente, zip metalliche, colletto ampio, stile rock-chic.",
-      "details": "100% pelle di agnello. Zip metalliche. Cura specializzata della pelle."
+      "description": "Giacca da motociclista in morbida pelle di agnello, taglio aderente, zip metalliche, colletto ampio, stile rock-chic."
     },
     "cucinelli_cashmere_sweater": {
       "name": "Maglione in cashmere Brunello Cucinelli",
-      "description": "Maglione morbidissimo in cashmere di alta gamma, taglio leggermente oversize, finiture di lusso, maglia artigianale.",
-      "details": "100% cashmere. Maglia artigianale. Si consiglia il lavaggio a mano."
+      "description": "Maglione morbidissimo in cashmere di alta gamma, taglio leggermente oversize, finiture di lusso, maglia artigianale."
     },
     "miu_miu_pleated_dress": {
       "name": "Abito plissettato Miu Miu",
-      "description": "Abito midi plissettato in tessuto leggero, taglio fluido, spalline sottili, design femminile e giovanile.",
-      "details": "Tessuto leggero plissettato. Spalline sottili. Lavaggio a secco."
+      "description": "Abito midi plissettato in tessuto leggero, taglio fluido, spalline sottili, design femminile e giovanile."
     },
     "chloe_muslin_blouse": {
       "name": "Blusa in mussola Chloé",
-      "description": "Blusa in mussola di seta, maniche a palloncino, collo a foulard, trasparenza delicata, romantico bohémien.",
-      "details": "Mussola di seta. Maniche a palloncino. Collo da annodare."
+      "description": "Blusa in mussola di seta, maniche a palloncino, collo a foulard, trasparenza delicata, romantico bohémien."
     },
     "valentino_embroidered_dress": {
       "name": "Abito in tulle ricamato Valentino",
-      "description": "Abito da sera in tulle ricamato, fiori grandi, taglio svasato, strati di tulle, molto romantico e sartoriale.",
-      "details": "Tulle ricamato. Fodera in seta. Lavaggio a secco sartoriale."
+      "description": "Abito da sera in tulle ricamato, fiori grandi, taglio svasato, strati di tulle, molto romantico e sartoriale."
     },
     "burberry_gabardine_trench": {
       "name": "Trench in gabardine di cotone Burberry",
-      "description": "Trench classico in gabardine di cotone, cintura in vita, fodera iconica con motivo a quadri, taglio senza tempo.",
-      "details": "Gabardine di cotone. Fodera con motivo a quadri. Lavaggio a secco."
+      "description": "Trench classico in gabardine di cotone, cintura in vita, fodera iconica con motivo a quadri, taglio senza tempo."
     },
     "bottega_veneta_leather_skirt": {
       "name": "Gonna midi in pelle Bottega Veneta",
-      "description": "Gonna midi in morbida pelle, vita alta, taglio dritto, finitura liscia, eleganza moderna.",
-      "details": "Morbida pelle di agnello. Cura specializzata della pelle."
+      "description": "Gonna midi in morbida pelle, vita alta, taglio dritto, finitura liscia, eleganza moderna."
     },
     "prada_silk_jumpsuit": {
       "name": "Tuta in seta Prada",
-      "description": "Tuta in seta fluida, spalline sottili, scollo a V, pantaloni a gamba larga, unisex chic.",
-      "details": "100% seta. Gamba larga. Lavaggio a secco."
+      "description": "Tuta in seta fluida, spalline sottili, scollo a V, pantaloni a gamba larga, unisex chic."
     },
     "chanel_tweed_vest": {
       "name": "Gilet senza maniche in tweed Chanel",
-      "description": "Gilet sartoriale senza maniche in tweed, bordi con perle, tasche applicate, stile chic intramontabile “Chanel”.",
-      "details": "Iconico tweed Chanel. Finiture con perle. Lavaggio a secco sartoriale."
+      "description": "Gilet sartoriale senza maniche in tweed, bordi con perle, tasche applicate, stile chic intramontabile “Chanel”."
     },
     "stella_mccartney_wrap_dress": {
       "name": "Abito a portafoglio in crêpe Stella McCartney",
-      "description": "Abito a portafoglio in crêpe fluido, cintura da annodare, scollo a V, taglio lusinghiero, design sostenibile.",
-      "details": "Crêpe fluido sostenibile. Cintura da annodare. Lavaggio in lavatrice."
+      "description": "Abito a portafoglio in crêpe fluido, cintura da annodare, scollo a V, taglio lusinghiero, design sostenibile."
     },
     "balmain_luxe_sweatshirt": {
       "name": "Felpa di lusso in cotone Balmain",
-      "description": "Felpa dal taglio strutturato, cotone spesso, logo Balmain discreto, maniche raglan, orlo a coste sottili.",
-      "details": "Cotone spesso. Logo discreto. Lavaggio in lavatrice."
+      "description": "Felpa dal taglio strutturato, cotone spesso, logo Balmain discreto, maniche raglan, orlo a coste sottili."
     },
     "valentino_silk_tunic": {
       "name": "Tunica in seta selvaggia Valentino",
-      "description": "Tunica ampia in seta selvaggia, maniche a 3/4, scollo a barca, caduta fluida, eleganza naturale.",
-      "details": "100% seta selvaggia. Taglio ampio. Lavaggio a secco."
+      "description": "Tunica ampia in seta selvaggia, maniche a 3/4, scollo a barca, caduta fluida, eleganza naturale."
     },
     "max_mara_wool_shorts": {
       "name": "Shorts sartoriali in lana Max Mara",
-      "description": "Shorts sartoriali in misto lana, vita alta, pieghe frontali, orlo curato, perfetti per un look estivo chic.",
-      "details": "Misto lana. Vita alta. Lavaggio a secco."
+      "description": "Shorts sartoriali in misto lana, vita alta, pieghe frontali, orlo curato, perfetti per un look estivo chic."
     },
     "oscar_de_la_renta_bustier_dress": {
       "name": "Abito bustier ricamato Oscar de la Renta",
-      "description": "Abito da ballo bustier, ricami floreali, gonna ampia in taffetà, taglio glamour sartoriale.",
-      "details": "Taffetà e ricami floreali. Lavaggio a secco sartoriale."
+      "description": "Abito da ballo bustier, ricami floreali, gonna ampia in taffetà, taglio glamour sartoriale."
     },
     "givenchy_satin_shirt": {
       "name": "Camicia in raso Givenchy",
-      "description": "Camicia in raso fluido, vestibilità comoda, colletto classico, bottoni discreti, chic minimalista.",
-      "details": "Raso fluido. Vestibilità comoda. Lavaggio delicato."
+      "description": "Camicia in raso fluido, vestibilità comoda, colletto classico, bottoni discreti, chic minimalista."
     },
     "the_row_cashmere_cardigan": {
       "name": "Cardigan in cashmere fine The Row",
-      "description": "Cardigan di lusso in cashmere, taglio pulito, bottoni in madreperla, design discreto e di altissima gamma.",
-      "details": "100% cashmere. Bottoni in madreperla. Lavaggio a mano."
+      "description": "Cardigan di lusso in cashmere, taglio pulito, bottoni in madreperla, design discreto e di altissima gamma."
     },
     "valentino_palazzo_pants": {
       "name": "Pantaloni palazzo in seta Valentino",
-      "description": "Pantaloni palazzo in seta leggera, vita elasticizzata, taglio fluido, per massimo comfort ed eleganza.",
-      "details": "Seta leggera 100%. Vita elasticizzata. Lavaggio a secco."
+      "description": "Pantaloni palazzo in seta leggera, vita elasticizzata, taglio fluido, per massimo comfort ed eleganza."
     },
     "balenciaga_silk_jersey_tshirt": {
       "name": "T-shirt di lusso in jersey di seta Balenciaga",
-      "description": "T-shirt oversize in jersey di seta, girocollo, maniche corte, caduta fluida, stile “quiet luxury” moderno.",
-      "details": "Jersey di seta. Vestibilità oversize. Lavaggio delicato."
+      "description": "T-shirt oversize in jersey di seta, girocollo, maniche corte, caduta fluida, stile “quiet luxury” moderno."
     },
     "cucinelli_wool_cape": {
       "name": "Mantella in lana e cashmere Brunello Cucinelli",
-      "description": "Mantella di alta gamma in misto lana e cashmere, taglio ampio, tasche invisibili, finitura artigianale.",
-      "details": "Misto lana e cashmere. Finitura artigianale. Lavaggio a secco."
+      "description": "Mantella di alta gamma in misto lana e cashmere, taglio ampio, tasche invisibili, finitura artigianale."
     },
     "ezential_bag": {
       "name": "Borsa 'La Quotidiana' in Pelle Taurillon",
-      "description": "Lusso funzionale. Questa borsa a spalla in pelle taurillon francese è tanto morbida quanto resistente. I suoi molteplici scomparti la rendono la compagna ideale per tutti i giorni.",
-      "details": "Pelle Taurillon francese. Fodera in suedette. Parti metalliche con finitura in palladio. Tracolla regolabile."
+      "description": "Lusso funzionale. Questa borsa a spalla in pelle taurillon francese è tanto morbida quanto resistente. I suoi molteplici scomparti la rendono la compagna ideale per tutti i giorni."
     },
     "lumi_clutch": {
       "name": "Minaudière 'Gioiello' tempestata di Strass",
-      "description": "Più di una borsa, un gioiello. Questa minaudière rigida è interamente ricoperta di cristalli Swarovski, catturando la luce ad ogni movimento.",
-      "details": "Struttura in ottone. Cristalli Swarovski. Chiusura gioiello. Catenella rimovibile."
+      "description": "Più di una borsa, un gioiello. Questa minaudière rigida è interamente ricoperta di cristalli Swarovski, catturando la luce ad ogni movimento."
     },
     "carte_prime_holder": {
       "name": "Portacarte 'Il Minimalista' in Pelle Epsom",
-      "description": "L'essenziale, con eleganza. Realizzato in pelle di vitello Epsom, nota per la sua resistenza, questo sottile portacarte si adatta a qualsiasi tasca.",
-      "details": "Pelle di vitello Epsom. Tre scomparti per carte. Scomparto centrale. Bordi dipinti a mano."
+      "description": "L'essenziale, con eleganza. Realizzato in pelle di vitello Epsom, nota per la sua resistenza, questo sottile portacarte si adatta a qualsiasi tasca."
     },
     "finesse_belt": {
       "name": "Cintura 'Il Fascino' in Pelle di Lucertola",
-      "description": "Il dettaglio che cambia tutto. Una cintura sottile in vera pelle di lucertola, con una fibbia discreta in ottone placcato palladio. Un lusso discreto.",
-      "details": "Vera pelle di lucertola. Fodera in pelle di vitello. Fibbia in ottone con finitura in palladio."
+      "description": "Il dettaglio che cambia tutto. Una cintura sottile in vera pelle di lucertola, con una fibbia discreta in ottone placcato palladio. Un lusso discreto."
     },
     "minit_bag": {
       "name": "Micro-Borsa 'L'Ammaliatore' in Camoscio di Capretto",
-      "description": "La piccola borsa che ha tutto. Abbastanza grande per l'essenziale (telefono, carte, rossetto), questa borsa in vellutata pelle di capra è l'accessorio da sera perfetto.",
-      "details": "Vellutata pelle di capra. Tracolla a catena e pelle. Chiusura magnetica."
+      "description": "La piccola borsa che ha tutto. Abbastanza grande per l'essenziale (telefono, carte, rossetto), questa borsa in vellutata pelle di capra è l'accessorio da sera perfetto."
     },
     "horizon_sunglasses": {
       "name": "Occhiali da Sole 'Aviatore' in Titanio e Oro",
-      "description": "Un'icona rivisitata. Montatura ultraleggera in titanio giapponese, con dettagli placcati in oro 18 carati. Lenti polarizzate per una visione perfetta.",
-      "details": "Montatura in titanio. Placcatura in oro 18 carati. Lenti polarizzate con trattamento antiriflesso."
+      "description": "Un'icona rivisitata. Montatura ultraleggera in titanio giapponese, con dettagli placcati in oro 18 carati. Lenti polarizzate per una visione perfetta."
     },
     "nuit_scarf": {
       "name": "Stola 'Dolce Notte' in Cashmere e Seta",
-      "description": "Una sciarpa di incredibile leggerezza e morbidezza. La miscela di cashmere e seta le conferisce un drappeggio fluido e un calore delicato.",
-      "details": "70% Cashmere, 30% Seta. Tessitura molto fine. Bordi con frange delicate. Dimensioni: 70x200cm."
+      "description": "Una sciarpa di incredibile leggerezza e morbidezza. La miscela di cashmere e seta le conferisce un drappeggio fluido e un calore delicato."
     },
     "organize_pouch": {
       "name": "Pochette 'Il Nomade' Tech in Pelle",
-      "description": "Organizza i tuoi essenziali tecnologici con stile. Questa morbida pochette in pelle è progettata per contenere cavi, caricatori e altri piccoli accessori.",
-      "details": "Morbida pelle di vitello. Scomparti elasticizzati. Fodera in microfibra."
+      "description": "Organizza i tuoi essenziali tecnologici con stile. Questa morbida pochette in pelle è progettata per contenere cavi, caricatori e altri piccoli accessori."
     },
     "reflet_jewelry_set": {
       "name": "Parure 'Goccia di Rugiada' in Topazio",
-      "description": "Un set di collana e orecchini di una finezza assoluta, che mette in risalto topazi blu taglio a pera su una montura in oro bianco.",
-      "details": "Oro bianco 18 carati. Topazi blu 'Swiss Blue'. Catena Forçat."
+      "description": "Un set di collana e orecchini di una finezza assoluta, che mette in risalto topazi blu taglio a pera su una montatura in oro bianco."
     },
     "anchor_bracelet": {
       "name": "Bracciale 'L'Ancora' in Pelle Intrecciata",
-      "description": "Un gioiello maschile casual. Questo bracciale è realizzato in pelle di vitello intrecciata e una chiusura a forma di ancora marina in acciaio inossidabile spazzolato.",
-      "details": "Pelle di vitello intrecciata. Chiusura ad ancora in acciaio 316L. Fatto a mano in Italia."
+      "description": "Un gioiello maschile casual. Questo bracciale è realizzato in pelle di vitello intrecciata e una chiusura a forma di ancora marina in acciaio inossidabile spazzolato."
     },
     "etoile_earrings": {
       "name": "Orecchini a Lobo 'Diamante Solitario'",
-      "description": "Pura brillantezza. Ogni orecchino è incastonato con un diamante da 0,25 carati, montato su oro bianco per la massima brillantezza. Un classico senza tempo.",
-      "details": "Oro bianco 18 carati. Due diamanti da 0,25ct ciascuno, qualità G/VS. Sistema di chiusura di sicurezza."
+      "description": "Pura brillantezza. Ogni orecchino è incastonato con un diamante da 0,25 carati, montato su oro bianco per la massima brillantezza. Un classico senza tempo."
     },
     "ocean_necklace": {
       "name": "Collana 'Perla Nera' di Tahiti",
-      "description": "La bellezza grezza e naturale di una perla nera di Tahiti, semplicemente sospesa a una sottile catena in oro rosa. Ogni perla è unica.",
-      "details": "Oro rosa 18 carati. Perla nera di Tahiti, grado AAA, diametro 9-10mm."
+      "description": "La bellezza grezza e naturale di una perla nera di Tahiti, semplicemente sospesa a una sottile catena in oro rosa. Ogni perla è unica."
     },
     "sync_watch": {
       "name": "Orologio Automatico 'Orizzonte Connesso'",
-      "description": "Il meglio di entrambi i mondi. Un orologio con movimento automatico svizzero, alloggiato in una cassa in titanio con un modulo di notifica discreto e integrato.",
-      "details": "Movimento automatico svizzero. Cassa in titanio grado 5. Vetro zaffiro. Cinturino intercambiabile."
+      "description": "Il meglio di entrambi i mondi. Un orologio con movimento automatico svizzero, alloggiato in una cassa in titanio con un modulo di notifica discreto e integrato."
     },
     "pluie_chic_umbrella": {
       "name": "Ombrello 'Il Gentiluomo' in Legno d'Acero",
-      "description": "Affronta la pioggia con stile. Un unico fusto in legno d'acero, un'ampia tela idrorepellente e un'apertura manuale tradizionale per questo ombrello eccezionale.",
-      "details": "Fusto e manico in legno massello d'acero. Tela in poliestere ad alta densità. Prodotto in Francia."
+      "description": "Affronta la pioggia con stile. Un unico fusto in legno d'acero, un'ampia tela idrorepellente e un'apertura manuale tradizionale per questo ombrello eccezionale."
     },
     "travel_safe_wallet": {
       "name": "Portafoglio da Viaggio 'Il Globetrotter'",
-      "description": "Organizza il tuo viaggio. Progettato per contenere un passaporto, carte d'imbarco, valute e carte di credito in un elegante formato in pelle.",
-      "details": "Pelle di vitello pieno fiore. Protezione RFID. Scomparti multipli."
+      "description": "Organizza il tuo viaggio. Progettato per contenere un passaporto, carte d'imbarco, valute e carte di credito in un elegante formato in pelle."
     },
     "riviera_hat": {
       "name": "Cappello 'Costa Azzurra' in Paglia di Panama",
-      "description": "L'accessorio estivo per eccellenza. Intrecciato a mano in Ecuador, questo cappello di paglia di Panama protegge dal sole con un'eleganza senza pari. Nastro in gros-grain.",
-      "details": "Autentica paglia Toquilla (Panama). Intreccio fine. Nastro in gros-grain intercambiabile."
+      "description": "L'accessorio estivo per eccellenza. Intrecciato a mano in Ecuador, questo cappello di paglia di Panama protegge dal sole con un'eleganza senza pari. Nastro in gros-grain."
     },
     "smart_gloves": {
       "name": "Guanti 'Tattili' in Pecari Foderati in Cashmere",
-      "description": "Lusso a portata di mano. Realizzati nella rarissima pelle di pecari e foderati in cashmere, questi guanti sono compatibili con gli schermi touch.",
-      "details": "Pelle di pecari. Fodera 100% cashmere. Tecnologia compatibile con touchscreen."
+      "description": "Lusso a portata di mano. Realizzati nella rarissima pelle di pecari e foderati in cashmere, questi guanti sono compatibili con gli schermi touch."
     },
     "ceremony_bowtie": {
       "name": "Papillon 'Black Tie' in Faille di Seta",
-      "description": "L'accessorio indispensabile per l'abbigliamento da sera. Questo papillon da annodare è tagliato da una preziosa faille di seta nera.",
-      "details": "100% Faille di Seta. Da annodare. Misura regolabile."
+      "description": "L'accessorio indispensabile per l'abbigliamento da sera. Questo papillon da annodare è tagliato da una preziosa faille di seta nera."
     },
     "coin_purse": {
       "name": "Portamonete 'Il Collezionista' con Chiusura a Scatto",
-      "description": "Un fascino retrò. Questo portamonete in morbida pelle di vitello si chiude con una classica chiusura a scatto in metallo. Ideale per le tue monete o i tuoi piccoli segreti.",
-      "details": "Morbida pelle di vitello. Chiusura in ottone invecchiato. Fodera in pelle di agnello."
+      "description": "Un fascino retrò. Questo portamonete in morbida pelle di vitello si chiude con una classica chiusura a scatto in metallo. Ideale per le tue monete o i tuoi piccoli segreti."
     },
     "flora_brooch": {
       "name": "Spilla 'Giglio' in Smalto",
-      "description": "Un tocco di poesia. Questa spilla, che rappresenta un giglio stilizzato, è realizzata con la tecnica dello smalto plique-à-jour, che ricorda le vetrate.",
-      "details": "Argento 925 placcato oro. Smalto plique-à-jour. Fatto a mano."
+      "description": "Un tocco di poesia. Questa spilla, che rappresenta un giglio stilizzato, è realizzata con la tecnica dello smalto plique-à-jour, che ricorda le vetrate."
     },
     "luxband_headband": {
       "name": "Fascia 'Musa' in Twill di Seta",
-      "description": "Un accessorio versatile. Da indossare tra i capelli, al collo o annodato alla borsa, questa fascia in twill di seta è stampata con un motivo esclusivo.",
-      "details": "100% Twill di Seta. Stampato su entrambi i lati. Dimensioni: 6 x 105 cm."
+      "description": "Un accessorio versatile. Da indossare tra i capelli, al collo o annodato alla borsa, questa fascia in twill di seta è stampata con un motivo esclusivo."
     },
     "lecteur_glasses": {
       "name": "Occhiali da Lettura 'L'Intellettuale'",
-      "description": "Leggere con stile. Montatura in acetato di cellulosa italiano, con lenti di alta qualità trattate con antiriflesso e filtro luce blu.",
-      "details": "Acetato di cellulosa Mazzucchelli. Lenti con trattamento antiriflesso e filtro luce blu. Cerniere rivettate."
+      "description": "Leggere con stile. Montatura in acetato di cellulosa italiano, con lenti di alta qualità trattate con antiriflesso e filtro luce blu."
     },
     "charme_bag_charm": {
       "name": "Charm per Borsa 'Il Grimoire'",
-      "description": "Personalizza la tua borsa. Questo charm per borsa rappresenta un minuscolo libro in pelle con pagine in ottone, sospeso a un moschettone con logo.",
-      "details": "Pelle e ottone. Moschettone in acciaio inciso."
+      "description": "Personalizza la tua borsa. Questo charm per borsa rappresenta un minuscolo libro in pelle con pagine in ottone, sospeso a un moschettone con logo."
     },
     "portfolio_laptop_case": {
       "name": "Portadocumenti 'Il Ministro' in Pelle",
-      "description": "Trasporta il tuo computer e i tuoi documenti con eleganza. Questo sottile portadocumenti in pelle di vitello è leggermente imbottito per una protezione ottimale.",
-      "details": "Pelle di vitello. Scomparto principale imbottito per un computer da 13 pollici. Tasca esterna."
+      "description": "Trasporta il tuo computer e i tuoi documenti con eleganza. Questo sottile portadocumenti in pelle di vitello è leggermente imbottito per una protezione ottimale."
     },
     "keygold_keychain": {
       "name": "Portachiavi 'Il Guardiano' in Pelle e Ottone",
-      "description": "Un oggetto di uso quotidiano trasformato in un gioiello. Un cinturino in pelle di vitello martellata abbinato a pezzi massicci in ottone spazzolato.",
-      "details": "Pelle di vitello e ottone massiccio. Anello a molla e moschettone."
+      "description": "Un oggetto di uso quotidiano trasformato in un gioiello. Un cinturino in pelle di vitello martellata abbinato a pezzi massicci in ottone spazzolato."
     },
     "eclipse_heels": {
       "name": "Décolleté 'Vertigine' in Camoscio 105mm",
-      "description": "La quintessenza dello stiletto. Un arco perfetto e un tacco di 10,5 cm che allunga la gamba all'infinito. Realizzato in intenso camoscio di capretto nero.",
-      "details": "100% camoscio di capretto italiano. Tacco da 10,5 cm. Soletta e suola in pelle."
+      "description": "La quintessenza dello stiletto. Un arco perfetto e un tacco di 10.5 cm che allunga la gamba all'infinito. Realizzato in intenso camoscio di capretto nero."
     },
     "serenite_sandals": {
       "name": "Sandali Bassi 'La Passeggiata' in Pelle",
-      "description": "Eleganza minimalista per l'estate. Questi sandali bassi con sottili cinturini in pelle di vitello sono il simbolo di uno chic casual e senza tempo.",
-      "details": "Pelle di vitello. Soletta imbottita. Prodotto in Italia."
+      "description": "Eleganza minimalista per l'estate. Questi sandali bassi con sottili cinturini in pelle di vitello sono il simbolo di uno chic casual e senza tempo."
     },
     "paris_boots": {
       "name": "Stivaletti 'Rive Gauche' in Camoscio",
-      "description": "Lo stivaletto perfetto per tutti i giorni. Un comodo tacco a blocco da 6 cm, un'elegante forma a mandorla e un morbido camoscio di capra. Chic parigino.",
-      "details": "Camoscio di capra. Tacco a blocco da 6 cm. Chiusura con zip laterale."
+      "description": "Lo stivaletto perfetto per tutti i giorni. Un comodo tacco a blocco da 6 cm, un'elegante forma a mandorla e un morbido camoscio di capra. Chic parigino."
     },
     "diva_mules": {
       "name": "Mules 'Palazzo' in Raso e Cristalli",
-      "description": "Per serate in cui tutto è concesso. Questi mules a punta in raso sono adornati da una spettacolare fibbia quadrata in cristalli.",
-      "details": "Raso duchesse. Fibbia in cristalli Swarovski. Tacco piccolo da 2 cm."
+      "description": "Per serate in cui tutto è concesso. Questi mules a punta in raso sono adornati da una spettacolare fibbia quadrata in cristalli."
     },
     "street_luxe_derby": {
       "name": "Derby 'Avanguardia' con Zeppa",
-      "description": "Un classico stravolto. Il derby tradizionale è montato su una suola a zeppa carrarmato in microgomma ultraleggera, per un look audace.",
-      "details": "Pelle di vitello lucidata. Suola a zeppa in microgomma. Fodera in pelle."
+      "description": "Un classico stravolto. Il derby tradizionale è montato su una suola a zeppa carrarmato in microgomma ultraleggera, per un look audace."
     },
     "souverain_oxfords": {
       "name": "Oxford 'L'Ambasciatore' a Pezzo Unico",
-      "description": "Eleganza al suo apice. Questa scarpa Oxford è realizzata da un unico pezzo di pelle di vitello, un'impresa tecnica. Patinata a mano nei nostri laboratori.",
-      "details": "Costruzione a pezzo unico. Pelle di vitello francese. Cucitura Blake. Patinatura a mano su richiesta."
+      "description": "Eleganza al suo apice. Questa scarpa Oxford è realizzata da un unico pezzo di pelle di vitello, un'impresa tecnica. Patinata a mano nei nostri laboratori."
     },
     "elite_derby": {
       "name": "Derby 'Il Console' con Fibbia",
-      "description": "Un'alternativa originale al derby con lacci. Questo modello a fibbia singola (Monk Strap) in pelle di vitello martellata è sia formale che pieno di carattere.",
-      "details": "Pelle di vitello martellata. Cucitura Goodyear. Fibbia in ottone."
+      "description": "Un'alternativa originale al derby con lacci. Questo modello a fibbia singola (Monk Strap) in pelle di vitello martellata è sia formale che pieno di carattere."
     },
     "club_loafer": {
       "name": "Mocassino 'Lo Yachtsman' in Camoscio",
-      "description": "Il compagno ideale per i weekend di sole. Questo morbido mocassino in camoscio è montato su una suola con gommini per una flessibilità e un comfort ineguagliabili.",
-      "details": "Camoscio di vitello idrorepellente. Suola con gommini. Costruzione tubolare."
+      "description": "Il compagno ideale per i weekend di sole. Questo morbido mocassino in camoscio è montato su una suola con gommini per una flessibilità e un comfort ineguagliabili."
     },
     "tradition_brogues": {
       "name": "Oxford 'Eredità' Full Brogue",
-      "description": "Un pilastro dell'eleganza britannica. Questo Oxford si distingue per le sue perforazioni decorative ('broguing') su tutta la scarpa. Un carattere deciso.",
-      "details": "Pelle di vitello 'box-calf'. Perforazioni full brogue. Cucitura Goodyear su suola in cuoio."
+      "description": "Un pilastro dell'eleganza britannica. Questo Oxford si distingue per le sue perforazioni decorative ('broguing') su tutta la scarpa. Un carattere deciso."
     },
     "citadin_boots": {
       "name": "Stivaletto Chelsea 'Il Cittadino'",
-      "description": "Versatilità e stile. Una forma pulita, pelle di vitello liscia e robusti pannelli elastici rendono questo stivaletto Chelsea un must-have del guardaroba maschile.",
-      "details": "Pelle di vitello liscia. Cucitura Blake. Pannelli elastici laterali."
+      "description": "Versatilità e stile. Una forma pulita, pelle di vitello liscia e robusti pannelli elastici rendono questo stivaletto Chelsea un must-have del guardaroba maschile."
     },
     "runway_sneakers": {
       "name": "Sneakers 'Il Minimalista' in Pelle",
-      "description": "La sneaker di lusso pulita. Realizzata in Italia in liscia pelle di vitello, la sua silhouette minimalista si abbina a qualsiasi outfit, da un abito a un jeans.",
-      "details": "Pelle di vitello italiana. Fodera interamente in pelle. Suola in gomma cucita."
+      "description": "La sneaker di lusso pulita. Realizzata in Italia in liscia pelle di vitello, la sua silhouette minimalista si abbina a qualsiasi outfit, da un abito a un jeans."
     },
     "tom_ford_slim_fit_shirt": {
       "name": "Camicia slim fit di Tom Ford",
-      "description": "Camicia in popeline di cotone, vestibilità slim, collo italiano, bottoni in madreperla, finitura di lusso.",
-      "details": "Popeline di cotone 100%. Vestibilità slim. Collo italiano."
+      "description": "Camicia in popeline di cotone, vestibilità slim, collo italiano, bottoni in madreperla, finitura di lusso."
     },
     "ralph_lauren_pique_polo": {
       "name": "Polo in piqué di Ralph Lauren Purple Label",
-      "description": "Morbida polo in cotone premium, taglio moderno, logo ricamato, colletto rinforzato.",
-      "details": "Cotone premium. Taglio moderno. Logo ricamato."
+      "description": "Morbida polo in cotone premium, taglio moderno, logo ricamato, colletto rinforzato."
     },
     "loro_piana_cashmere_turtleneck": {
       "name": "Dolcevita in cashmere di Loro Piana",
-      "description": "100% cashmere italiano, maglia fine, ultra morbido, taglio raffinato.",
-      "details": "100% cashmere italiano. Maglia fine. Prodotto in Italia."
+      "description": "100% cashmere italiano, maglia fine, ultra morbido, taglio raffinato."
     },
     "hugo_boss_round_neck_tshirt": {
       "name": "T-shirt girocollo di Hugo Boss Black",
-      "description": "T-shirt premium, cotone mercerizzato, logo discreto, vestibilità slim.",
-      "details": "Cotone mercerizzato. Logo discreto. Vestibilità slim."
+      "description": "T-shirt premium, cotone mercerizzato, logo discreto, vestibilità slim."
     },
     "burberry_stretch_chino_pants": {
       "name": "Pantaloni chino elasticizzati di Burberry",
-      "description": "Chino in cotone elasticizzato, taglio moderno, discreto motivo a quadri all'interno.",
-      "details": "Cotone elasticizzato. Taglio moderno. Discreto motivo a quadri."
+      "description": "Chino in cotone elasticizzato, taglio moderno, discreto motivo a quadri all'interno."
     },
     "diesel_slim_fit_jeans": {
       "name": "Jeans slim fit di Diesel Black Gold",
-      "description": "Jeans elasticizzati, lavaggio premium, dettagli metallici firmati.",
-      "details": "Denim elasticizzato. Lavaggio premium. Dettagli firmati."
+      "description": "Jeans elasticizzati, lavaggio premium, dettagli metallici firmati."
     },
     "moncler_nylon_bomber": {
       "name": "Bomber in nylon di Moncler",
-      "description": "Giacca leggera imbottita, taglio moderno, logo sulla manica.",
-      "details": "Nylon. Imbottitura leggera. Logo sulla manica."
+      "description": "Giacca leggera imbottita, taglio moderno, logo sulla manica."
     },
     "saint_laurent_leather_jacket_men": {
       "name": "Giacca in pelle di Saint Laurent",
-      "description": "Pelle di agnello ultra morbida, taglio rock, zip YSL argentata.",
-      "details": "Pelle di agnello ultra morbida. Taglio rock. Zip YSL."
+      "description": "Pelle di agnello ultra morbida, taglio rock, zip YSL argentata."
     },
     "giorgio_armani_suit_jacket": {
       "name": "Giacca da abito di Giorgio Armani",
-      "description": "Giacca in lana vergine, taglio sofisticato, fodera in seta.",
-      "details": "Lana vergine. Taglio sofisticato. Fodera in seta."
+      "description": "Giacca in lana vergine, taglio sofisticato, fodera in seta."
     },
     "zegna_2_piece_suit": {
       "name": "Abito 2 pezzi di Zegna",
-      "description": "Lana merino italiana, vestibilità slim, spalla naturale.",
-      "details": "Lana merino italiana. Vestibilità slim. Spalla naturale."
+      "description": "Lana merino italiana, vestibilità slim, spalla naturale."
     },
     "off_white_hoodie": {
       "name": "Felpa con cappuccio di Off-White",
-      "description": "Cotone pesante, motivi a freccia sulla schiena, stampa firmata.",
-      "details": "Cotone pesante. Motivi a freccia. Stampa firmata."
+      "description": "Cotone pesante, motivi a freccia sulla schiena, stampa firmata."
     },
     "fear_of_god_essential_tshirt": {
       "name": "T-shirt “Essential” di Fear of God Essentials",
-      "description": "Cotone premium, logo in rilievo, taglio oversize.",
-      "details": "Cotone premium. Logo in rilievo. Taglio oversize."
+      "description": "Cotone premium, logo in rilievo, taglio oversize."
     },
     "lacoste_merino_wool_sweater": {
       "name": "Maglione in lana merino di Lacoste",
-      "description": "Maglia fine, girocollo, coccodrillo ricamato, taglio classico.",
-      "details": "Lana merino fine. Girocollo. Taglio classico."
+      "description": "Maglia fine, girocollo, coccodrillo ricamato, taglio classico."
     },
     "balenciaga_oversize_shirt": {
       "name": "Camicia oversize di Balenciaga",
-      "description": "Cotone pesante, silhouette ampia, marchio discreto.",
-      "details": "Cotone pesante. Silhouette ampia. Marchio discreto."
+      "description": "Cotone pesante, silhouette ampia, marchio discreto."
     },
     "acne_studios_flannel_overshirt": {
       "name": "Sovracamicia in flanella di Acne Studios",
-      "description": "Flanella morbida, taglio rilassato, tasche sul petto.",
-      "details": "Flanella morbida. Taglio rilassato. Tasche sul petto."
+      "description": "Flanella morbida, taglio rilassato, tasche sul petto."
     },
     "stone_island_cargo_shorts": {
       "name": "Pantaloncini cargo di Stone Island",
-      "description": "Tessuto resistente, stemma Stone Island, taglio utility.",
-      "details": "Tessuto resistente. Stemma Stone Island. Taglio utility."
+      "description": "Tessuto resistente, stemma Stone Island, taglio utility."
     },
     "canada_goose_lightweight_down_jacket": {
       "name": "Piumino leggero di Canada Goose",
-      "description": "Isolamento termico, tessuto antivento, design pulito.",
-      "details": "Isolamento termico. Tessuto antivento. Design pulito."
+      "description": "Isolamento termico, tessuto antivento, design pulito."
     },
     "the_north_face_expedition_parka": {
       "name": "Parka “Expedition” di The North Face Black Series",
-      "description": "Resistente, impermeabile, multitasche, cappuccio regolabile.",
-      "details": "Resistente. Impermeabile. Multitasche."
+      "description": "Resistente, impermeabile, multitasche, cappuccio regolabile."
     },
     "brunello_cucinelli_cashmere_zip_cardigan": {
       "name": "Cardigan con zip in cashmere di Brunello Cucinelli",
-      "description": "Cashmere extrafine, zip in metallo, taglio elegante.",
-      "details": "Cashmere extrafine. Zip in metallo. Taglio elegante."
+      "description": "Cashmere extrafine, zip in metallo, taglio elegante."
     },
     "max_mara_long_wool_coat": {
       "name": "Cappotto lungo in lana di Max Mara Homme",
-      "description": "Lana calda, taglio lungo, cintura opzionale.",
-      "details": "Lana calda. Taglio lungo. Cintura opzionale."
+      "description": "Lana calda, taglio lungo, cintura opzionale."
     },
     "levis_denim_jacket": {
       "name": "Giacca di jeans di Levi's Made & Crafted",
-      "description": "Denim premium, taglio classico, finitura artigianale.",
-      "details": "Denim premium. Taglio classico. Finitura artigianale."
+      "description": "Denim premium, taglio classico, finitura artigianale."
     },
     "dior_homme_tailored_pants": {
       "name": "Pantaloni sartoriali di Dior Homme",
-      "description": "Taglio affusolato elegante, lana fine, look sartoriale.",
-      "details": "Lana fine. Taglio affusolato elegante. Look sartoriale."
+      "description": "Taglio affusolato elegante, lana fine, look sartoriale."
     },
     "versace_silk_shirt": {
       "name": "Camicia in seta di Versace",
-      "description": "Seta stampata, motivi barocchi, collo italiano.",
-      "details": "Seta stampata. Motivi barocchi. Collo italiano."
+      "description": "Seta stampata, motivi barocchi, collo italiano."
     },
     "palm_angels_printed_hoodie": {
       "name": "Felpa con cappuccio stampata di Palm Angels",
-      "description": "Cotone pesante, motivo a palma, taglio oversize.",
-      "details": "Cotone pesante. Motivo a palma. Taglio oversize."
+      "description": "Cotone pesante, motivo a palma, taglio oversize."
     },
     "barbour_quilted_jacket": {
       "name": "Giacca trapuntata di Barbour International",
-      "description": "Trapuntatura a rombi, taglio classico, colletto in velluto.",
-      "details": "Trapuntatura a rombi. Taglio classico. Colletto in velluto."
+      "description": "Trapuntatura a rombi, taglio classico, colletto in velluto."
     },
     "paul_smith_cable_knit_sweater": {
       "name": "Maglione a trecce di Paul Smith",
-      "description": "Lana morbida, motivo a trecce, finitura a contrasto.",
-      "details": "Lana morbida. Motivo a trecce. Finitura a contrasto."
+      "description": "Lana morbida, motivo a trecce, finitura a contrasto."
     },
     "givenchy_logo_tshirt": {
       "name": "T-shirt con logo di Givenchy",
-      "description": "Logo ricamato, cotone premium, taglio dritto.",
-      "details": "Logo ricamato. Cotone premium. Taglio dritto."
+      "description": "Logo ricamato, cotone premium, taglio dritto."
     },
     "adidas_gucci_luxury_tracksuit": {
       "name": "Tuta di lusso di Adidas x Gucci",
-      "description": "Poliestere premium, strisce Gucci, taglio retrò.",
-      "details": "Poliestere premium. Strisce Gucci. Taglio retrò."
+      "description": "Poliestere premium, strisce Gucci, taglio retrò."
     },
     "nike_acg_technical_jacket": {
       "name": "Giacca tecnica di Nike ACG",
-      "description": "Impermeabile, ventilata, taglio outdoor moderno.",
-      "details": "Impermeabile. Ventilata. Taglio outdoor moderno."
+      "description": "Impermeabile, ventilata, taglio outdoor moderno."
     },
     "prada_sleeveless_gilet": {
       "name": "Gilet senza maniche di Prada",
-      "description": "Nylon Prada, taglio minimalista, logo triangolare.",
-      "details": "Nylon Prada. Taglio minimalista. Logo triangolare."
+      "description": "Nylon Prada, taglio minimalista, logo triangolare."
+    },
+    "hugo_boss_long_wool_coat": {
+      "name": "Cappotto lungo in lana di Hugo Boss",
+      "description": "Cappotto doppiopetto in lana calda, taglio elegante, fodera in raso, ideale per inverni freddi."
+    },
+    "moncler_quilted_down_jacket": {
+      "name": "Piumino trapuntato di Moncler",
+      "description": "Piumino leggero ma molto caldo, imbottitura in piuma, cappuccio rimovibile, aspetto premium."
+    },
+    "canada_goose_arctic_parka": {
+      "name": "Parka Arctic di Canada Goose",
+      "description": "Protezione estrema dal freddo, cappuccio con bordo in pelliccia, tessuto antivento."
+    },
+    "loro_piana_cashmere_coat_men": {
+      "name": "Cappotto in cashmere di Loro Piana (Uomo)",
+      "description": "Cashmere italiano, morbidezza eccezionale, taglio lungo di lusso."
+    },
+    "saint_laurent_shearling_jacket": {
+      "name": "Giacca in shearling di Saint Laurent",
+      "description": "Pelle rovesciata, interno in lana di pecora, stile premium senza tempo."
+    },
+    "paul_smith_merino_turtleneck": {
+      "name": "Dolcevita in lana merino di Paul Smith",
+      "description": "Maglia spessa e morbida, termoisolante, taglio moderno."
+    },
+    "acne_studios_lined_overshirt_men": {
+      "name": "Sovracamicia foderata di Acne Studios (Uomo)",
+      "description": "Sovracamicia calda foderata in sherpa, stile urbano."
+    },
+    "polo_ralph_lauren_down_vest": {
+      "name": "Gilet in piumino di Polo Ralph Lauren",
+      "description": "Leggero, caldo, perfetto da stratificare sopra un maglione."
+    },
+    "burberry_lined_trench_coat": {
+      "name": "Trench foderato di Burberry",
+      "description": "Iconico trench Burberry versione invernale, fodera isolante."
+    },
+    "dior_homme_thick_cable_knit": {
+      "name": "Maglione a trecce spesse di Dior Homme",
+      "description": "Lana spessa a trecce, stile chic e moderno."
+    },
+    "tnf_black_series_technical_jacket": {
+      "name": "Giacca tecnica impermeabile di The North Face Black Series",
+      "description": "Progettata per condizioni estreme, traspirante e impermeabile."
+    },
+    "nike_acg_thermal_pants": {
+      "name": "Pantaloni termici di Nike ACG",
+      "description": "Tessuto isolante, taglio street, ideale per temperature rigide."
+    },
+    "sandro_double_breasted_pea_coat": {
+      "name": "Pea coat in lana a doppio petto di Sandro",
+      "description": "Doppio spessore, taglio militare rivisitato."
+    },
+    "armani_exchange_premium_down_jacket": {
+      "name": "Piumino premium di Armani Exchange",
+      "description": "Caldo, leggero, taglio aderente, design moderno."
+    },
+    "zegna_velvet_coat": {
+      "name": "Cappotto in velluto di Zegna",
+      "description": "Velluto italiano spesso, look invernale ultra-lusso."
+    },
+    "max_mara_belted_wool_coat": {
+      "name": "Cappotto lungo in lana con cintura di Max Mara",
+      "description": "Taglio elegante, lana morbida, cintura che stringe in vita."
+    },
+    "moncler_long_down_jacket_women": {
+      "name": "Piumino lungo di Moncler Donna",
+      "description": "Lungo fino alla caviglia, ultra caldo, silhouette snella."
+    },
+    "loro_piana_cashmere_coat_women": {
+      "name": "Cappotto in cashmere di Loro Piana (Donna)",
+      "description": "Cashmere premium, morbidezza e drappeggio di lusso."
+    },
+    "canada_goose_faux_fur_parka": {
+      "name": "Parka con pelliccia sintetica di Canada Goose",
+      "description": "Isolamento estremo, cappuccio XL foderato."
+    },
+    "acne_studios_shearling_jacket_women": {
+      "name": "Giacca in shearling di Acne Studios (Donna)",
+      "description": "Pelle rovesciata e lana di pecora, look invernale chic."
+    },
+    "jacquemus_oversized_wool_sweater": {
+      "name": "Maglione in lana oversize di Jacquemus",
+      "description": "Lana spessa, taglio ampio di tendenza."
+    },
+    "stand_studio_faux_fur_coat": {
+      "name": "Cappotto in pelliccia sintetica di Stand Studio",
+      "description": "Morbida pelliccia sintetica, taglio glamour."
+    },
+    "prada_short_down_jacket": {
+      "name": "Piumino corto di Prada",
+      "description": "Iconico nylon Prada, silhouette avvitata."
+    },
+    "chloe_cashmere_turtleneck": {
+      "name": "Dolcevita in cashmere di Chloé",
+      "description": "Maglia fine di lusso, taglio femminile."
+    },
+    "burberry_wool_cape": {
+      "name": "Mantella in lana di Burberry",
+      "description": "Mantella calda, interno con motivo a quadri."
+    },
+    "isabel_marant_quilted_overshirt": {
+      "name": "Sovracamicia trapuntata di Isabel Marant",
+      "description": "Trapuntatura leggera, stile casual chic."
+    },
+    "tnf_technical_jacket_women": {
+      "name": "Giacca tecnica impermeabile di The North Face Donna",
+      "description": "Progettata per freddo e pioggia, leggera e calda."
+    },
+    "maje_thick_wool_skirt": {
+      "name": "Gonna in lana spessa di Maje",
+      "description": "Gonna invernale strutturata, perfetta con gli stivali."
+    },
+    "etro_wool_poncho": {
+      "name": "Poncho in lana di Etro",
+      "description": "Motivi colorati firmati, lana calda."
+    },
+    "zara_premium_xxl_puffer_coat": {
+      "name": "Cappotto imbottito XXL di Zara Premium",
+      "description": "Molto caldo, ampio, di tendenza, budget accessibile."
     }
   }
 }
