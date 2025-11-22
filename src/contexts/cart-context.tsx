@@ -13,6 +13,13 @@ interface CartContextType {
 
 const CartContext = createContext<CartContextType | undefined>(undefined);
 
+const generateCartItemId = (productId: string, options: { size?: string | null; color?: string | null }): string => {
+  const size = options.size || 'default-size';
+  const color = options.color || 'default-color';
+  return `${productId}-${size}-${color}`;
+};
+
+
 export const CartProvider = ({ children }: { children: ReactNode }) => {
   const [cart, setCart] = useState<CartItem[]>([]);
 
@@ -40,7 +47,7 @@ export const CartProvider = ({ children }: { children: ReactNode }) => {
 
   const addToCart = (product: Product, options: { size?: string | null; color?: string | null }) => {
     setCart(prevCart => {
-      const cartItemId = product.id + (options.size || '') + (options.color || '');
+      const cartItemId = generateCartItemId(product.id, options);
       const existingItemIndex = prevCart.findIndex(item => item.cartItemId === cartItemId);
       
       if (existingItemIndex > -1) {

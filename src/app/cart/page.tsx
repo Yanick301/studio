@@ -50,7 +50,7 @@ export default function CartPage() {
                     <div className="flex flex-col gap-6">
                        {cart.map(item => {
                            const productName = t(item.name);
-                           const itemKey = item.id + (item.options?.selectedSize || '') + (item.options?.selectedColor || '');
+                           const itemKey = item.cartItemId;
                            return (
                             <div key={itemKey} className="flex gap-4 items-start sm:items-center border p-4 rounded-lg">
                                 <Image 

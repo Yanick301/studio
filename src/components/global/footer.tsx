@@ -11,17 +11,17 @@ export function Footer() {
   return (
     <footer className="border-t bg-card">
       <div className="container py-12">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          <div className="flex flex-col gap-4 md:col-span-2 lg:col-span-1">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+          <div className="flex flex-col gap-4 md:col-span-1">
             <Logo />
-            <p className="text-sm text-muted-foreground">{t('footer.tagline')}</p>
+            <p className="text-sm text-muted-foreground max-w-xs">{t('footer.tagline')}</p>
             <div className="flex gap-4 mt-2">
               <Link href="#" aria-label="Twitter"><Twitter className="w-5 h-5 text-muted-foreground hover:text-foreground transition-colors" /></Link>
               <Link href="#" aria-label="Facebook"><Facebook className="w-5 h-5 text-muted-foreground hover:text-foreground transition-colors" /></Link>
               <Link href="#" aria-label="Instagram"><Instagram className="w-5 h-5 text-muted-foreground hover:text-foreground transition-colors" /></Link>
             </div>
           </div>
-          <div>
+          <div className="md:col-start-2">
             <h3 className="font-semibold mb-4">{t('footer.shop')}</h3>
             <ul className="space-y-3">
               <li><Link href="/women" className="text-sm text-muted-foreground hover:text-foreground transition-colors">{t('nav.women')}</Link></li>
