@@ -394,51 +394,6 @@
       "description": "La elegancia escandinava en su máxima expresión. Este abrigo largo de corte minimalista en pura cachemira te envuelve en calidez y suavidad. Una inversión para toda la vida.",
       "details": "100% Cachemira de Mongolia. Sin forro para una ligereza inigualable. Solapa de muesca y bolsillos ribeteados."
     },
-    "elegance_dress": {
-      "name": "Vestido 'Celestial' de Crepé de Seda",
-      "description": "Una oda a la feminidad. Este vestido largo de crepé de seda pura flota con cada paso. Su escote drapeado y su sutil espalda descubierta lo convierten en una pieza inolvidable.",
-      "details": "100% Crepé de Seda. Corte fluido al bies. Forro de seda. Limpieza en seco por especialista únicamente."
-    },
-    "madame_suit": {
-      "name": "Traje 'Signature' de Tweed",
-      "description": "La personificación del chic parisino. Una chaqueta corta y una falda recta confeccionadas en un exclusivo tweed francés, realzadas con botones joya.",
-      "details": "Tweed francés exclusivo. Chaqueta corta y falda recta. Forro completo de satén de seda. Botones chapados en oro."
-    },
-    "rosee_blouse": {
-      "name": "Blusa 'Jardín Secreto' de Encaje de Calais",
-      "description": "Un tesoro de delicadeza. Confeccionada con auténtico encaje de Calais-Caudry®, esta blusa de cuello alto es una obra maestra de la artesanía francesa.",
-      "details": "Auténtico Encaje de Calais-Caudry®. Viene con un top de seda a juego. Cierre trasero con pequeños botones forrados."
-    },
-    "velours_coat": {
-      "name": "Abrigo 'Abrazo' de Alpaca Suri",
-      "description": "Un capullo de lujosa suavidad. El pelo largo y sedoso de la alpaca Suri le da a este abrigo bata una calidez y ligereza excepcionales. Cinturón a juego.",
-      "details": "100% Alpaca Suri peruana. Sin forro, acabados cosidos a mano. Corte bata con cinturón extraíble."
-    },
-    "sculpt_dress": {
-      "name": "Vestido 'Arquitectónico' de Jersey Técnico",
-      "description": "Una segunda piel escultural. Este vestido tubo midi de jersey técnico italiano abraza y realza la figura sin oprimir nunca. Una pieza moderna y poderosa.",
-      "details": "Jersey técnico italiano de alto rendimiento. Corte tubo, largo midi. Cierre con cremallera invisible en la espalda."
-    },
-    "forge_jeans": {
-      "name": "Vaquero Recto 'El Crudo' Selvedge Japonés",
-      "description": "La autenticidad de un verdadero vaquero. Cortado de un denim selvedge japonés de 14.5oz, este vaquero crudo desarrollará una pátina con el tiempo para convertirse en una pieza única, la tuya.",
-      "details": "Denim selvedge japonés de 14.5oz. Corte recto clásico. Bragueta de botones. Costuras de cadeneta."
-    },
-    "ezential_bag": {
-      "name": "Bolso 'El Diario' de Piel Taurillon",
-      "description": "Lujo funcional. Este bolso de hombro de piel de taurillon francés es tan flexible como resistente. Sus múltiples compartimentos lo convierten en el compañero diario ideal.",
-      "details": "Piel de Taurillon francés. Forro de antelina. Piezas metálicas con acabado de paladio. Correa de hombro ajustable."
-    },
-    "eclipse_heels": {
-      "name": "Zapato de Salón 'Vértigo' de Ante 105mm",
-      "description": "La quintesencia del stiletto. Un arco perfecto y un tacón de 10.5 cm que alarga la pierna hasta el infinito. Realizado en ante de cabrito negro intenso.",
-      "details": "100% Ante de cabrito italiano. Tacón de 10.5 cm. Plantilla y suela de cuero."
-    },
-    "souverain_oxfords": {
-      "name": "Oxford 'El Embajador' de una pieza",
-      "description": "La elegancia en su apogeo. Este zapato Oxford está confeccionado en una sola pieza de piel de becerro, una proeza técnica. Patinado a mano en nuestros talleres.",
-      "details": "Construcción de una pieza. Piel de becerro francesa. Cosido Blake. Patinado a mano bajo pedido."
-    },
     "soir_blazer": {
       "name": "Chaqueta de Esmoquin 'Nocturno'",
       "description": "Elegancia de noche. Una chaqueta de esmoquin de terciopelo de seda con cuello chal de satén. La pieza central de tu armario formal.",
@@ -453,6 +408,11 @@
       "name": "Chino 'El Paseante' de Gabardina de Algodón",
       "description": "La alternativa casual al pantalón de traje. Nuestro chino está cortado de una gabardina de algodón elástico para un confort óptimo, con un corte ajustado y acabados de sastre.",
       "details": "Gabardina de algodón elástico. Cierre de corchete y cremallera. Bolsillos italianos. Corte ajustado."
+    },
+    "forge_jeans": {
+      "name": "Vaquero Recto 'El Crudo' Selvedge Japonés",
+      "description": "La autenticidad de un verdadero vaquero. Cortado de un denim selvedge japonés de 14.5oz, este vaquero crudo desarrollará una pátina con el tiempo para convertirse en una pieza única, la tuya.",
+      "details": "Denim selvedge japonés de 14.5oz. Corte recto clásico. Bragueta de botones. Costuras de cadeneta."
     },
     "atlas_parka": {
       "name": "Parka 'Explorador' Técnica",
@@ -539,6 +499,26 @@
       "description": "Una declaración de estilo moderno. Este mono de inspiración workwear está cortado en una lona de lana flexible para un look a la vez chic y casual.",
       "details": "Lona de lana ligera. Cierre con cremallera oculta. Cinturón a juego. Múltiples bolsillos funcionales."
     },
+    "elegance_dress": {
+      "name": "Vestido 'Celestial' de Crepé de Seda",
+      "description": "Una oda a la feminidad. Este vestido largo de crepé de seda pura flota con cada paso. Su escote drapeado y su sutil espalda descubierta lo convierten en una pieza inolvidable.",
+      "details": "100% Crepé de Seda. Corte fluido al bies. Forro de seda. Limpieza en seco por especialista únicamente."
+    },
+    "madame_suit": {
+      "name": "Traje 'Signature' de Tweed",
+      "description": "La personificación del chic parisino. Una chaqueta corta y una falda recta confeccionadas en un exclusivo tweed francés, realzadas con botones joya.",
+      "details": "Tweed francés exclusivo. Chaqueta corta y falda recta. Forro completo de satén de seda. Botones chapados en oro."
+    },
+    "rosee_blouse": {
+      "name": "Blusa 'Jardín Secreto' de Encaje de Calais",
+      "description": "Un tesoro de delicadeza. Confeccionada con auténtico encaje de Calais-Caudry®, esta blusa de cuello alto es una obra maestra de la artesanía francesa.",
+      "details": "Auténtico Encaje de Calais-Caudry®. Viene con un top de seda a juego. Cierre trasero con pequeños botones forrados."
+    },
+    "velours_coat": {
+      "name": "Abrigo 'Abrazo' de Alpaca Suri",
+      "description": "Un capullo de lujosa suavidad. El pelo largo y sedoso de la alpaca Suri le da a este abrigo bata una calidez y ligereza excepcionales. Cinturón a juego.",
+      "details": "100% Alpaca Suri peruana. Sin forro, acabados cosidos a mano. Corte bata con cinturón extraíble."
+    },
     "constellation_dress": {
       "name": "Vestido de Noche 'Noche Estrellada'",
       "description": "Captura la luz. Enteramente bordado a mano con perlas y cristales sobre tul de seda, este vestido de noche es una verdadera obra de arte.",
@@ -553,6 +533,11 @@
       "name": "Vaquero Slim 'El Parisino'",
       "description": "El vaquero slim perfecto. Cortado en denim elástico italiano de alta calidad, esculpe la pierna sin oprimir, para una silueta esbelta y cómoda.",
       "details": "Denim elástico italiano. Cintura de talle medio. Lavado sutil hecho a mano."
+    },
+    "sculpt_dress": {
+      "name": "Vestido 'Arquitectónico' de Jersey Técnico",
+      "description": "Una segunda piel escultural. Este vestido tubo midi de jersey técnico italiano abraza y realza la figura sin oprimir nunca. Una pieza moderna y poderosa.",
+      "details": "Jersey técnico italiano de alto rendimiento. Corte tubo, largo midi. Cierre con cremallera invisible en la espalda."
     },
     "noir_chic_jumpsuit": {
       "name": "Mono 'St-Germain' de Crepé",
@@ -638,6 +623,11 @@
       "name": "Vestido Asimétrico 'Aurora'",
       "description": "Una escultura de tela. Este vestido de cóctel de crepé juega con los drapeados y un corte asimétrico de un solo hombro para un efecto espectacular y moderno.",
       "details": "Satén crepé. Corte asimétrico. Drapeado a mano."
+    },
+    "ezential_bag": {
+      "name": "Bolso 'El Diario' de Piel Taurillon",
+      "description": "Lujo funcional. Este bolso de hombro de piel de taurillon francés es tan flexible como resistente. Sus múltiples compartimentos lo convierten en el compañero diario ideal.",
+      "details": "Piel de Taurillon francés. Forro de antelina. Piezas metálicas con acabado de paladio. Correa de hombro ajustable."
     },
     "lumi_clutch": {
       "name": "Minaudière 'Joya' con Estrás",
@@ -759,6 +749,11 @@
       "description": "Un objeto cotidiano transformado en una joya. Una correa de piel de becerro granulada combinada con piezas macizas de latón cepillado.",
       "details": "Piel de becerro y latón macizo. Anilla y mosquetón."
     },
+    "eclipse_heels": {
+      "name": "Zapato de Salón 'Vértigo' de Ante 105mm",
+      "description": "La quintesencia del stiletto. Un arco perfecto y un tacón de 10.5 cm que alarga la pierna hasta el infinito. Realizado en ante de cabrito negro intenso.",
+      "details": "100% ante de cabrito italiano. Tacón de 10.5 cm. Plantilla y suela de cuero."
+    },
     "serenite_sandals": {
       "name": "Sandalias Planas 'El Paseo' de Piel",
       "description": "Elegancia minimalista para el verano. Estas sandalias planas con finas tiras de piel de becerro son el símbolo de un chic casual y atemporal.",
@@ -778,6 +773,11 @@
       "name": "Derbies 'Vanguardia' con Plataforma",
       "description": "Un clásico reinventado. El derby tradicional se monta sobre una suela de plataforma dentada de microgoma ultraligera, para un look atrevido.",
       "details": "Piel de becerro pulida. Suela de plataforma de microgoma. Forro de piel."
+    },
+    "souverain_oxfords": {
+      "name": "Oxford 'El Embajador' de una pieza",
+      "description": "La elegancia en su apogeo. Este zapato Oxford está confeccionado en una sola pieza de piel de becerro, una proeza técnica. Patinado a mano en nuestros talleres.",
+      "details": "Construcción de una pieza. Piel de becerro francesa. Cosido Blake. Patinado a mano bajo pedido."
     },
     "elite_derby": {
       "name": "Derby 'El Cónsul' con Hebilla",

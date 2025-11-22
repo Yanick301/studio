@@ -12,6 +12,7 @@ export type Product = {
   gender: 'men' | 'women' | 'unisex';
   isTrending: boolean;
   details?: string; // This will be the translation key
+  tags?: string[];
   options?: {
     sizes?: string[];
     colors?: string[];

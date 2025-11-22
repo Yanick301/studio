@@ -12,6 +12,7 @@ export default function WinterPage() {
     const winterKeywords = ['coat', 'sweater', 'gloves', 'scarf', 'parka', 'hoodie', 'turtleneck', 'cardigan', 'down jacket'];
     
     const winterProducts = products.filter(p => 
+        p.tags?.includes('winter') ||
         winterKeywords.some(keyword => 
             t(p.name).toLowerCase().includes(keyword) || 
             t(p.description).toLowerCase().includes(keyword) ||

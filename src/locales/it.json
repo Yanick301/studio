@@ -394,51 +394,6 @@
       "description": "L'eleganza scandinava al suo meglio. Questo cappotto lungo dal taglio minimalista in puro cashmere ti avvolge di calore e morbidezza. Un investimento per la vita.",
       "details": "100% Cashmere mongolo. Sfoderato per una leggerezza impareggiabile. Revers a lancia e tasche a filetto."
     },
-    "elegance_dress": {
-      "name": "Abito 'Celeste' in Crêpe di Seta",
-      "description": "Un'ode alla femminilità. Questo abito lungo in pura crêpe di seta fluttua ad ogni passo. La sua scollatura drappeggiata e la schiena scoperta discreta lo rendono un pezzo indimenticabile.",
-      "details": "100% Crêpe di Seta. Taglio fluido e sbieco. Fodera in seta. Solo lavaggio a secco specializzato."
-    },
-    "madame_suit": {
-      "name": "Tailleur 'Signature' in Tweed",
-      "description": "L'epitome dello chic parigino. Una giacca corta e una gonna dritta realizzate in un esclusivo tweed francese, impreziosite da bottoni gioiello.",
-      "details": "Tweed francese esclusivo. Giacca corta e gonna dritta. Fodera completa in raso di seta. Bottoni placcati in oro."
-    },
-    "rosee_blouse": {
-      "name": "Blusa 'Giardino Segreto' in Pizzo di Calais",
-      "description": "Un tesoro di delicatezza. Realizzata in autentico pizzo di Calais-Caudry®, questa blusa a collo alto è un capolavoro dell'artigianato francese.",
-      "details": "Autentico Pizzo di Calais-Caudry®. Fornita con un top in seta abbinato. Chiusura posteriore con piccoli bottoni ricoperti."
-    },
-    "velours_coat": {
-      "name": "Cappotto 'Abbraccio' in Alpaca Suri",
-      "description": "Un bozzolo di lussuosa morbidezza. Il pelo lungo e setoso dell'alpaca Suri conferisce a questo cappotto a vestaglia un calore e una leggerezza eccezionali. Cintura abbinata.",
-      "details": "100% Alpaca Suri peruviana. Sfoderato, finiture cucite a mano. Taglio a vestaglia con cintura rimovibile."
-    },
-    "sculpt_dress": {
-      "name": "Abito 'Architettonico' in Jersey Tecnico",
-      "description": "Una seconda pelle scultorea. Questo abito a tubino midi in jersey tecnico italiano abbraccia ed esalta la figura senza mai costringere. Un pezzo moderno e potente.",
-      "details": "Jersey tecnico italiano ad alte prestazioni. Taglio a tubino, lunghezza midi. Chiusura con zip invisibile sul retro."
-    },
-    "forge_jeans": {
-      "name": "Jeans Dritti 'Il Grezzo' Selvedge Giapponese",
-      "description": "L'autenticità di un vero jeans. Tagliato da un denim selvedge giapponese da 14,5 once, questo jeans grezzo svilupperà una patina nel tempo per diventare un pezzo unico, il tuo.",
-      "details": "Denim selvedge giapponese da 14,5 once. Taglio dritto classico. Chiusura a bottoni. Cuciture a catenella."
-    },
-    "ezential_bag": {
-      "name": "Borsa 'La Quotidiana' in Pelle Taurillon",
-      "description": "Lusso funzionale. Questa borsa a spalla in pelle taurillon francese è tanto morbida quanto resistente. I suoi molteplici scomparti la rendono la compagna ideale per tutti i giorni.",
-      "details": "Pelle Taurillon francese. Fodera in suedette. Parti metalliche con finitura in palladio. Tracolla regolabile."
-    },
-    "eclipse_heels": {
-      "name": "Décolleté 'Vertigine' in Camoscio 105mm",
-      "description": "La quintessenza dello stiletto. Un arco perfetto e un tacco di 10,5 cm che allunga la gamba all'infinito. Realizzato in intenso camoscio di capretto nero.",
-      "details": "100% camoscio di capretto italiano. Tacco da 10,5 cm. Soletta e suola in pelle."
-    },
-    "souverain_oxfords": {
-      "name": "Oxford 'L'Ambasciatore' a Pezzo Unico",
-      "description": "Eleganza al suo apice. Questa scarpa Oxford è realizzata da un unico pezzo di pelle di vitello, un'impresa tecnica. Patinata a mano nei nostri laboratori.",
-      "details": "Costruzione a pezzo unico. Pelle di vitello francese. Cucitura Blake. Patinatura a mano su richiesta."
-    },
     "soir_blazer": {
       "name": "Giacca da Smoking 'Notturno'",
       "description": "Eleganza da sera. Una giacca da smoking in velluto di seta con collo a scialle in raso. Il pezzo forte del tuo guardaroba formale.",
@@ -453,6 +408,11 @@
       "name": "Chino 'Il Passeggiatore' in Gabardine di Cotone",
       "description": "L'alternativa casual ai pantaloni da abito. Il nostro chino è tagliato da una gabardine di cotone elasticizzato per un comfort ottimale, con una vestibilità slim e finiture sartoriali.",
       "details": "Gabardine di cotone elasticizzato. Chiusura con gancio e zip. Tasche all'italiana. Vestibilità slim."
+    },
+    "forge_jeans": {
+      "name": "Jeans Dritti 'Il Grezzo' Selvedge Giapponese",
+      "description": "L'autenticità di un vero jeans. Tagliato da un denim selvedge giapponese da 14,5 once, questo jeans grezzo svilupperà una patina nel tempo per diventare un pezzo unico, il tuo.",
+      "details": "Denim selvedge giapponese da 14,5 once. Taglio dritto classico. Chiusura a bottoni. Cuciture a catenella."
     },
     "atlas_parka": {
       "name": "Parka 'Esploratore' Tecnico",
@@ -539,6 +499,26 @@
       "description": "Una dichiarazione di stile moderno. Questa tuta di ispirazione workwear è tagliata in una morbida tela di lana per un look che è sia chic che casual.",
       "details": "Tela di lana leggera. Chiusura con zip nascosta. Cintura abbinata. Molteplici tasche funzionali."
     },
+    "elegance_dress": {
+      "name": "Abito 'Celeste' in Crêpe di Seta",
+      "description": "Un'ode alla femminilità. Questo abito lungo in pura crêpe di seta fluttua ad ogni passo. La sua scollatura drappeggiata e la schiena scoperta discreta lo rendono un pezzo indimenticabile.",
+      "details": "100% Crêpe di Seta. Taglio fluido e sbieco. Fodera in seta. Solo lavaggio a secco specializzato."
+    },
+    "madame_suit": {
+      "name": "Tailleur 'Signature' in Tweed",
+      "description": "L'epitome dello chic parigino. Una giacca corta e una gonna dritta realizzate in un esclusivo tweed francese, impreziosite da bottoni gioiello.",
+      "details": "Tweed francese esclusivo. Giacca corta e gonna dritta. Fodera completa in raso di seta. Bottoni placcati in oro."
+    },
+    "rosee_blouse": {
+      "name": "Blusa 'Giardino Segreto' in Pizzo di Calais",
+      "description": "Un tesoro di delicatezza. Realizzata in autentico pizzo di Calais-Caudry®, questa blusa a collo alto è un capolavoro dell'artigianato francese.",
+      "details": "Autentico Pizzo di Calais-Caudry®. Fornita con un top in seta abbinato. Chiusura posteriore con piccoli bottoni ricoperti."
+    },
+    "velours_coat": {
+      "name": "Cappotto 'Abbraccio' in Alpaca Suri",
+      "description": "Un bozzolo di lussuosa morbidezza. Il pelo lungo e setoso dell'alpaca Suri conferisce a questo cappotto a vestaglia un calore e una leggerezza eccezionali. Cintura abbinata.",
+      "details": "100% Alpaca Suri peruviana. Sfoderato, finiture cucite a mano. Taglio a vestaglia con cintura rimovibile."
+    },
     "constellation_dress": {
       "name": "Abito da Sera 'Notte Stellata'",
       "description": "Cattura la luce. Interamente ricamato a mano con perline e cristalli su tulle di seta, questo abito da sera è una vera opera d'arte.",
@@ -553,6 +533,11 @@
       "name": "Jeans Slim 'Il Parigino'",
       "description": "I jeans slim perfetti. Tagliati in denim elasticizzato italiano di alta qualità, scolpiscono la gamba senza comprimere, per una silhouette snella e confortevole.",
       "details": "Denim elasticizzato italiano. Vita media. Lavaggio discreto fatto a mano."
+    },
+    "sculpt_dress": {
+      "name": "Abito 'Architettonico' in Jersey Tecnico",
+      "description": "Una seconda pelle scultorea. Questo abito a tubino midi in jersey tecnico italiano abbraccia ed esalta la figura senza mai costringere. Un pezzo moderno e potente.",
+      "details": "Jersey tecnico italiano ad alte prestazioni. Taglio a tubino, lunghezza midi. Chiusura con zip invisibile sul retro."
     },
     "noir_chic_jumpsuit": {
       "name": "Tuta 'St-Germain' in Crêpe",
@@ -638,6 +623,11 @@
       "name": "Abito Asimmetrico 'Aurora'",
       "description": "Una scultura di tessuto. Questo abito da cocktail in crêpe gioca sui drappeggi e un taglio asimmetrico monospalla per un effetto spettacolare e moderno.",
       "details": "Crêpe di raso. Taglio asimmetrico. Drappeggio a mano."
+    },
+    "ezential_bag": {
+      "name": "Borsa 'La Quotidiana' in Pelle Taurillon",
+      "description": "Lusso funzionale. Questa borsa a spalla in pelle taurillon francese è tanto morbida quanto resistente. I suoi molteplici scomparti la rendono la compagna ideale per tutti i giorni.",
+      "details": "Pelle Taurillon francese. Fodera in suedette. Parti metalliche con finitura in palladio. Tracolla regolabile."
     },
     "lumi_clutch": {
       "name": "Minaudière 'Gioiello' tempestata di Strass",
@@ -759,6 +749,11 @@
       "description": "Un oggetto di uso quotidiano trasformato in un gioiello. Un cinturino in pelle di vitello martellata abbinato a pezzi massicci in ottone spazzolato.",
       "details": "Pelle di vitello e ottone massiccio. Anello a molla e moschettone."
     },
+    "eclipse_heels": {
+      "name": "Décolleté 'Vertigine' in Camoscio 105mm",
+      "description": "La quintessenza dello stiletto. Un arco perfetto e un tacco di 10,5 cm che allunga la gamba all'infinito. Realizzato in intenso camoscio di capretto nero.",
+      "details": "100% camoscio di capretto italiano. Tacco da 10,5 cm. Soletta e suola in pelle."
+    },
     "serenite_sandals": {
       "name": "Sandali Bassi 'La Passeggiata' in Pelle",
       "description": "Eleganza minimalista per l'estate. Questi sandali bassi con sottili cinturini in pelle di vitello sono il simbolo di uno chic casual e senza tempo.",
@@ -778,6 +773,11 @@
       "name": "Derby 'Avanguardia' con Zeppa",
       "description": "Un classico stravolto. Il derby tradizionale è montato su una suola a zeppa carrarmato in microgomma ultraleggera, per un look audace.",
       "details": "Pelle di vitello lucidata. Suola a zeppa in microgomma. Fodera in pelle."
+    },
+    "souverain_oxfords": {
+      "name": "Oxford 'L'Ambasciatore' a Pezzo Unico",
+      "description": "Eleganza al suo apice. Questa scarpa Oxford è realizzata da un unico pezzo di pelle di vitello, un'impresa tecnica. Patinata a mano nei nostri laboratori.",
+      "details": "Costruzione a pezzo unico. Pelle di vitello francese. Cucitura Blake. Patinatura a mano su richiesta."
     },
     "elite_derby": {
       "name": "Derby 'Il Console' con Fibbia",

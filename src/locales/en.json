@@ -394,51 +394,6 @@
       "description": "Scandinavian elegance at its finest. This long, minimalist-cut coat in pure cashmere envelops you in warmth and softness. An investment for a lifetime.",
       "details": "100% Mongolian Cashmere. Unlined for unparalleled lightness. Notched lapel and welt pockets."
     },
-    "elegance_dress": {
-      "name": "'Celestial' Silk Crepe Gown",
-      "description": "An ode to femininity. This long gown in pure silk crepe floats with every step. Its draped neckline and subtle open back make it an unforgettable piece.",
-      "details": "100% Silk Crepe. Fluid, bias cut. Silk lining. Specialist dry clean only."
-    },
-    "madame_suit": {
-      "name": "'Signature' Tweed Suit",
-      "description": "The epitome of Parisian chic. A short jacket and a straight skirt crafted from an exclusive French tweed, enhanced with jewel-like buttons.",
-      "details": "Exclusive French tweed. Short jacket and straight skirt. Full silk satin lining. Gold-plated buttons."
-    },
-    "rosee_blouse": {
-      "name": "'Secret Garden' Calais Lace Blouse",
-      "description": "A treasure of delicacy. Made from authentic Calais-Caudry® lace, this high-necked blouse is a masterpiece of French craftsmanship.",
-      "details": "Authentic Calais-Caudry® Lace. Comes with a matching silk camisole. Back fastening with small covered buttons."
-    },
-    "velours_coat": {
-      "name": "'Embrace' Suri Alpaca Coat",
-      "description": "A cocoon of luxurious softness. The long, silky hair of the Suri alpaca gives this robe coat exceptional warmth and lightness. Matching belt.",
-      "details": "100% Peruvian Suri Alpaca. Unlined, hand-sewn finishes. Robe cut with removable belt."
-    },
-    "sculpt_dress": {
-      "name": "'Architectural' Technical Jersey Dress",
-      "description": "A sculptural second skin. This midi sheath dress in Italian technical jersey hugs and enhances the figure without ever constricting. A modern and powerful piece.",
-      "details": "High-performance Italian technical jersey. Sheath cut, midi length. Invisible back zip closure."
-    },
-    "forge_jeans": {
-      "name": "'The Raw' Japanese Selvedge Straight Jean",
-      "description": "The authenticity of a true jean. Cut from a 14.5oz Japanese selvedge denim, this raw jean will develop a patina over time to become a unique piece, yours.",
-      "details": "14.5oz Japanese selvedge denim. Classic straight cut. Button fly. Chain-stitched hems."
-    },
-    "ezential_bag": {
-      "name": "'The Daily' Taurillon Leather Bag",
-      "description": "Functional luxury. This shoulder bag in French taurillon leather is as supple as it is durable. Its multiple compartments make it the ideal daily partner.",
-      "details": "French Taurillon leather. Suedette lining. Palladium-finish metal parts. Adjustable shoulder strap."
-    },
-    "eclipse_heels": {
-      "name": "'Vertigo' 105mm Suede Pump",
-      "description": "The quintessential stiletto. A perfect arch and a 10.5 cm heel that endlessly elongates the leg. Made in intense black kid suede.",
-      "details": "100% Italian kid suede. 10.5 cm heel. Leather insole and outsole."
-    },
-    "souverain_oxfords": {
-      "name": "'The Ambassador' One-Cut Oxford",
-      "description": "Elegance at its peak. This Oxford shoe is crafted from a single piece of calfskin, a technical feat. Hand-patinated in our workshops.",
-      "details": "One-Cut construction. French calfskin. Blake-stitched. Hand-patinated on request."
-    },
     "soir_blazer": {
       "name": "'Nocturne' Smoking Jacket",
       "description": "Evening elegance. A silk velvet smoking jacket with a satin shawl collar. The centerpiece of your formal wardrobe.",
@@ -453,6 +408,11 @@
       "name": "'The Stroller' Cotton Gabardine Chino",
       "description": "The casual alternative to suit trousers. Our chino is cut from a stretch cotton gabardine for optimal comfort, with a slim fit and tailored finishes.",
       "details": "Stretch cotton gabardine. Hook and zip closure. Italian pockets. Slim fit."
+    },
+    "forge_jeans": {
+      "name": "'The Raw' Japanese Selvedge Straight Jean",
+      "description": "The authenticity of a true jean. Cut from a 14.5oz Japanese selvedge denim, this raw jean will develop a patina over time to become a unique piece, yours.",
+      "details": "14.5oz Japanese selvedge denim. Classic straight cut. Button fly. Chain-stitched hems."
     },
     "atlas_parka": {
       "name": "'Explorer' Technical Parka",
@@ -539,6 +499,26 @@
       "description": "A modern style statement. This workwear-inspired jumpsuit is cut from a supple wool canvas for a look that is both chic and casual.",
       "details": "Lightweight wool canvas. Concealed zip fastening. Matching belt. Multiple functional pockets."
     },
+    "elegance_dress": {
+      "name": "'Celestial' Silk Crepe Gown",
+      "description": "An ode to femininity. This long gown in pure silk crepe floats with every step. Its draped neckline and subtle open back make it an unforgettable piece.",
+      "details": "100% Silk Crepe. Fluid, bias cut. Silk lining. Specialist dry clean only."
+    },
+    "madame_suit": {
+      "name": "'Signature' Tweed Suit",
+      "description": "The epitome of Parisian chic. A short jacket and a straight skirt crafted from an exclusive French tweed, enhanced with jewel-like buttons.",
+      "details": "Exclusive French tweed. Short jacket and straight skirt. Full silk satin lining. Gold-plated buttons."
+    },
+    "rosee_blouse": {
+      "name": "'Secret Garden' Calais Lace Blouse",
+      "description": "A treasure of delicacy. Made from authentic Calais-Caudry® lace, this high-necked blouse is a masterpiece of French craftsmanship.",
+      "details": "Authentic Calais-Caudry® Lace. Comes with a matching silk camisole. Back fastening with small covered buttons."
+    },
+    "velours_coat": {
+      "name": "'Embrace' Suri Alpaca Coat",
+      "description": "A cocoon of luxurious softness. The long, silky hair of the Suri alpaca gives this robe coat exceptional warmth and lightness. Matching belt.",
+      "details": "100% Peruvian Suri Alpaca. Unlined, hand-sewn finishes. Robe cut with removable belt."
+    },
     "constellation_dress": {
       "name": "'Starry Night' Evening Gown",
       "description": "Capture the light. Entirely hand-embroidered with beads and crystals on silk tulle, this evening gown is a true work of art.",
@@ -553,6 +533,11 @@
       "name": "'The Parisian' Slim Jean",
       "description": "The perfect slim jean. Cut from high-quality Italian stretch denim, it sculpts the leg without constricting, for a slender and comfortable silhouette.",
       "details": "Italian stretch denim. Mid-rise waist. Subtle hand-made wash."
+    },
+    "sculpt_dress": {
+      "name": "'Architectural' Technical Jersey Dress",
+      "description": "A sculptural second skin. This midi sheath dress in Italian technical jersey hugs and enhances the figure without ever constricting. A modern and powerful piece.",
+      "details": "High-performance Italian technical jersey. Sheath cut, midi length. Invisible back zip closure."
     },
     "noir_chic_jumpsuit": {
       "name": "'St-Germain' Crepe Jumpsuit",
@@ -638,6 +623,11 @@
       "name": "'Dawn' Asymmetrical Dress",
       "description": "A sculpture of fabric. This cocktail dress in crepe plays on drapes and an asymmetrical one-shoulder cut for a spectacular and modern effect.",
       "details": "Crepe back satin. Asymmetrical cut. Hand-draped."
+    },
+    "ezential_bag": {
+      "name": "'The Daily' Taurillon Leather Bag",
+      "description": "Functional luxury. This shoulder bag in French taurillon leather is as supple as it is durable. Its multiple compartments make it the ideal daily partner.",
+      "details": "French Taurillon leather. Suedette lining. Palladium-finish metal parts. Adjustable shoulder strap."
     },
     "lumi_clutch": {
       "name": "'Jewel' Strass-Covered Minaudière",
@@ -759,6 +749,11 @@
       "description": "An everyday object transformed into a jewel. A strap of grained calfskin combined with solid brushed brass pieces.",
       "details": "Calfskin and solid brass. Split ring and snap hook."
     },
+    "eclipse_heels": {
+      "name": "'Vertigo' 105mm Suede Pump",
+      "description": "The quintessential stiletto. A perfect arch and a 10.5 cm heel that endlessly elongates the leg. Made in intense black kid suede.",
+      "details": "100% Italian kid suede. 10.5 cm heel. Leather insole and outsole."
+    },
     "serenite_sandals": {
       "name": "'The Stroll' Flat Leather Sandals",
       "description": "Minimalist elegance for summer. These flat sandals with thin calfskin straps are the symbol of a casual and timeless chic.",
@@ -778,6 +773,11 @@
       "name": "'Avant-Garde' Platform Derbies",
       "description": "A classic turned on its head. The traditional derby is mounted on a lugged platform sole in ultra-light micro-rubber, for a bold look.",
       "details": "Polished calfskin. Micro-rubber platform sole. Leather lining."
+    },
+    "souverain_oxfords": {
+      "name": "'The Ambassador' One-Cut Oxford",
+      "description": "Elegance at its peak. This Oxford shoe is crafted from a single piece of calfskin, a technical feat. Hand-patinated in our workshops.",
+      "details": "One-Cut construction. French calfskin. Blake-stitched. Hand-patinated on request."
     },
     "elite_derby": {
       "name": "'The Consul' Buckle Derby",

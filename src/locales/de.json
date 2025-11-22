@@ -394,51 +394,6 @@
       "description": "Skandinavische Eleganz in Reinkultur. Dieser lange, minimalistisch geschnittene Mantel aus reinem Kaschmir umhüllt Sie mit Wärme und Weichheit. Eine Investition fürs Leben.",
       "details": "100% mongolischer Kaschmir. Ungefüttert für unvergleichliche Leichtigkeit. Reverskragen und Leistentaschen."
     },
-    "elegance_dress": {
-      "name": "'Himmlisches' Seidenkreppkleid",
-      "description": "Eine Ode an die Weiblichkeit. Dieses lange Kleid aus reinem Seidenkrepp schwebt bei jedem Schritt. Sein drapierter Ausschnitt und der dezente offene Rücken machen es zu einem unvergesslichen Stück.",
-      "details": "100% Seidenkrepp. Fließender, schräger Schnitt. Seidenfutter. Nur chemische Spezialreinigung."
-    },
-    "madame_suit": {
-      "name": "'Signature' Tweed-Kostüm",
-      "description": "Die Verkörperung des Pariser Chics. Eine kurze Jacke und ein gerader Rock aus exklusivem französischen Tweed, veredelt mit schmuckähnlichen Knöpfen.",
-      "details": "Exklusiver französischer Tweed. Kurze Jacke und gerader Rock. Vollständiges Seidensatinfutter. Vergoldete Knöpfe."
-    },
-    "rosee_blouse": {
-      "name": "'Geheimer Garten' Calais-Spitzenbluse",
-      "description": "Ein Schatz der Zartheit. Gefertigt aus authentischer Calais-Caudry®-Spitze, ist diese hochgeschlossene Bluse ein Meisterwerk französischer Handwerkskunst.",
-      "details": "Authentische Calais-Caudry®-Spitze. Kommt mit passendem Seidentop. Rückenverschluss mit kleinen überzogenen Knöpfen."
-    },
-    "velours_coat": {
-      "name": "'Umarmung' Suri-Alpaka-Mantel",
-      "description": "Ein Kokon aus luxuriöser Weichheit. Das lange, seidige Haar des Suri-Alpakas verleiht diesem Bademantelmantel außergewöhnliche Wärme und Leichtigkeit. Passender Gürtel.",
-      "details": "100% peruanisches Suri-Alpaka. Ungefüttert, handgenähte Abschlüsse. Bademantelschnitt mit abnehmbarem Gürtel."
-    },
-    "sculpt_dress": {
-      "name": "'Architektonisches' Technisches Jersey-Kleid",
-      "description": "Eine skulpturale zweite Haut. Dieses Midi-Etuikleid aus italienischem technischem Jersey schmiegt sich an die Figur an und betont sie, ohne jemals einzuengen. Ein modernes und kraftvolles Stück.",
-      "details": "Hochleistungsfähiges italienisches technisches Jersey. Etuikleid-Schnitt, Midi-Länge. Unsichtbarer Reißverschluss hinten."
-    },
-    "forge_jeans": {
-      "name": "'Die Rohe' Japanische Selvedge Straight Jeans",
-      "description": "Die Authentizität einer echten Jeans. Geschnitten aus einem 14,5 Unzen schweren japanischen Selvedge-Denim, wird diese rohe Jeans mit der Zeit eine Patina entwickeln und zu einem einzigartigen Stück werden, Ihrem.",
-      "details": "14,5 Unzen japanischer Selvedge-Denim. Klassischer gerader Schnitt. Knopfleiste. Kettenstichsäume."
-    },
-    "ezential_bag": {
-      "name": "'Der Alltag' Taurillon-Ledertasche",
-      "description": "Funktionaler Luxus. Diese Schultertasche aus französischem Taurillon-Leder ist ebenso geschmeidig wie langlebig. Ihre zahlreichen Fächer machen sie zum idealen Alltagsbegleiter.",
-      "details": "Französisches Taurillon-Leder. Wildlederfutter. Metallteile mit Palladium-Finish. Verstellbarer Schultergurt."
-    },
-    "eclipse_heels": {
-      "name": "'Schwindel' 105mm Wildleder-Pumps",
-      "description": "Der Inbegriff des Stilettos. Ein perfekter Bogen und ein 10,5 cm hoher Absatz, der das Bein endlos verlängert. Hergestellt aus intensivem schwarzem Ziegenveloursleder.",
-      "details": "100% italienisches Ziegenveloursleder. 10,5 cm Absatz. Lederinnensohle und -laufsohle."
-    },
-    "souverain_oxfords": {
-      "name": "'Der Botschafter' One-Cut Oxford",
-      "description": "Eleganz in Perfektion. Dieser Oxford-Schuh wird aus einem einzigen Stück Kalbsleder gefertigt, eine technische Meisterleistung. Handpatiniert in unseren Werkstätten.",
-      "details": "One-Cut-Konstruktion. Französisches Kalbsleder. Blake-genäht. Handpatinierung auf Anfrage."
-    },
     "soir_blazer": {
       "name": "'Nocturne' Smoking-Jackett",
       "description": "Abendliche Eleganz. Ein Samt-Smoking-Jackett mit einem Schalkragen aus Satin. Das Herzstück Ihrer formellen Garderobe.",
@@ -453,6 +408,11 @@
       "name": "'Der Spaziergänger' Baumwoll-Gabardine-Chino",
       "description": "Die lässige Alternative zur Anzughose. Unsere Chino ist aus einem Stretch-Baumwoll-Gabardine für optimalen Komfort geschnitten, mit einer schmalen Passform und maßgeschneiderten Details.",
       "details": "Stretch-Baumwoll-Gabardine. Haken- und Reißverschluss. Italienische Taschen. Schmale Passform."
+    },
+    "forge_jeans": {
+      "name": "'Die Rohe' Japanische Selvedge Straight Jeans",
+      "description": "Die Authentizität einer echten Jeans. Geschnitten aus einem 14,5 Unzen schweren japanischen Selvedge-Denim, wird diese rohe Jeans mit der Zeit eine Patina entwickeln und zu einem einzigartigen Stück werden, Ihrem.",
+      "details": "14,5 Unzen japanischer Selvedge-Denim. Klassischer gerader Schnitt. Knopfleiste. Kettenstichsäume."
     },
     "atlas_parka": {
       "name": "'Entdecker' Technischer Parka",
@@ -539,6 +499,26 @@
       "description": "Ein modernes Stil-Statement. Dieser von Arbeitskleidung inspirierte Jumpsuit ist aus einem geschmeidigen Woll-Canvas geschnitten für einen Look, der sowohl schick als auch lässig ist.",
       "details": "Leichter Woll-Canvas. Verdeckter Reißverschluss. Passender Gürtel. Mehrere funktionale Taschen."
     },
+    "elegance_dress": {
+      "name": "'Himmlisches' Seidenkreppkleid",
+      "description": "Eine Ode an die Weiblichkeit. Dieses lange Kleid aus reinem Seidenkrepp schwebt bei jedem Schritt. Sein drapierter Ausschnitt und der dezente offene Rücken machen es zu einem unvergesslichen Stück.",
+      "details": "100% Seidenkrepp. Fließender, schräger Schnitt. Seidenfutter. Nur chemische Spezialreinigung."
+    },
+    "madame_suit": {
+      "name": "'Signature' Tweed-Kostüm",
+      "description": "Die Verkörperung des Pariser Chics. Eine kurze Jacke und ein gerader Rock aus exklusivem französischen Tweed, veredelt mit schmuckähnlichen Knöpfen.",
+      "details": "Exklusiver französischer Tweed. Kurze Jacke und gerader Rock. Vollständiges Seidensatinfutter. Vergoldete Knöpfe."
+    },
+    "rosee_blouse": {
+      "name": "'Geheimer Garten' Calais-Spitzenbluse",
+      "description": "Ein Schatz der Zartheit. Gefertigt aus authentischer Calais-Caudry®-Spitze, ist diese hochgeschlossene Bluse ein Meisterwerk französischer Handwerkskunst.",
+      "details": "Authentische Calais-Caudry®-Spitze. Kommt mit passendem Seidentop. Rückenverschluss mit kleinen überzogenen Knöpfen."
+    },
+    "velours_coat": {
+      "name": "'Umarmung' Suri-Alpaka-Mantel",
+      "description": "Ein Kokon aus luxuriöser Weichheit. Das lange, seidige Haar des Suri-Alpakas verleiht diesem Bademantelmantel außergewöhnliche Wärme und Leichtigkeit. Passender Gürtel.",
+      "details": "100% peruanisches Suri-Alpaka. Ungefüttert, handgenähte Abschlüsse. Bademantelschnitt mit abnehmbarem Gürtel."
+    },
     "constellation_dress": {
       "name": "'Sternennacht' Abendkleid",
       "description": "Fangen Sie das Licht ein. Komplett von Hand mit Perlen und Kristallen auf Seidentüll bestickt, ist dieses Abendkleid ein wahres Kunstwerk.",
@@ -553,6 +533,11 @@
       "name": "'Der Pariser' Slim Jeans",
       "description": "Die perfekte Slim Jeans. Geschnitten aus hochwertigem italienischem Stretch-Denim, formt sie das Bein, ohne einzuengen, für eine schlanke und bequeme Silhouette.",
       "details": "Italienischer Stretch-Denim. Mittlere Leibhöhe. Dezente handgemachte Waschung."
+    },
+    "sculpt_dress": {
+      "name": "'Architektonisches' Technisches Jersey-Kleid",
+      "description": "Eine skulpturale zweite Haut. Dieses Midi-Etuikleid aus italienischem technischem Jersey schmiegt sich an die Figur an und betont sie, ohne jemals einzuengen. Ein modernes und kraftvolles Stück.",
+      "details": "Hochleistungsfähiges italienisches technisches Jersey. Etuikleid-Schnitt, Midi-Länge. Unsichtbarer Reißverschluss hinten."
     },
     "noir_chic_jumpsuit": {
       "name": "'St-Germain' Krepp-Jumpsuit",
@@ -638,6 +623,11 @@
       "name": "'Morgenröte' Asymmetrisches Kleid",
       "description": "Eine Skulptur aus Stoff. Dieses Cocktailkleid aus Krepp spielt mit Drapierungen und einem asymmetrischen One-Shoulder-Schnitt für einen spektakulären und modernen Effekt.",
       "details": "Krepp-Satin. Asymmetrischer Schnitt. Handdrapiert."
+    },
+    "ezential_bag": {
+      "name": "'Der Alltag' Taurillon-Ledertasche",
+      "description": "Funktionaler Luxus. Diese Schultertasche aus französischem Taurillon-Leder ist ebenso geschmeidig wie langlebig. Ihre zahlreichen Fächer machen sie zum idealen Alltagsbegleiter.",
+      "details": "Französisches Taurillon-Leder. Wildlederfutter. Metallteile mit Palladium-Finish. Verstellbarer Schultergurt."
     },
     "lumi_clutch": {
       "name": "'Juwel' Strassbesetzte Minaudière",
@@ -759,6 +749,11 @@
       "description": "Ein Alltagsgegenstand, der in ein Schmuckstück verwandelt wurde. Ein Riemen aus genarbtem Kalbsleder kombiniert mit massiven gebürsteten Messingteilen.",
       "details": "Kalbsleder und massives Messing. Spaltring und Karabinerhaken."
     },
+    "eclipse_heels": {
+      "name": "'Schwindel' 105mm Wildleder-Pumps",
+      "description": "Der Inbegriff des Stilettos. Ein perfekter Bogen und ein 10,5 cm hoher Absatz, der das Bein endlos verlängert. Hergestellt aus intensivem schwarzem Ziegenveloursleder.",
+      "details": "100% italienisches Ziegenveloursleder. 10,5 cm Absatz. Lederinnensohle und -laufsohle."
+    },
     "serenite_sandals": {
       "name": "'Der Spaziergang' Flache Ledersandalen",
       "description": "Minimalistische Eleganz für den Sommer. Diese flachen Sandalen mit dünnen Kalbslederriemen sind das Symbol für lässigen und zeitlosen Chic.",
@@ -778,6 +773,11 @@
       "name": "'Avantgarde' Plateau-Derbys",
       "description": "Ein Klassiker auf den Kopf gestellt. Der traditionelle Derby ist auf einer geriffelten Plateausohle aus ultraleichtem Mikrogummi montiert, für einen kühnen Look.",
       "details": "Poliertes Kalbsleder. Mikrogummi-Plateausohle. Lederfutter."
+    },
+    "souverain_oxfords": {
+      "name": "'Der Botschafter' One-Cut Oxford",
+      "description": "Eleganz in Perfektion. Dieser Oxford-Schuh wird aus einem einzigen Stück Kalbsleder gefertigt, eine technische Meisterleistung. Handpatiniert in unseren Werkstätten.",
+      "details": "One-Cut-Konstruktion. Französisches Kalbsleder. Blake-genäht. Handpatinierung auf Anfrage."
     },
     "elite_derby": {
       "name": "'Der Konsul' Schnallen-Derby",
