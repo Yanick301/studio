@@ -75,11 +75,14 @@ export function SignupForm() {
         email: user.email,
         registrationDate: new Date().toISOString(),
       }, { merge: false });
-
+      
+      console.log("SIGNUP: Verification email sent (in dev mode, check the terminal console for the link).");
       toast({
         title: t('signup_form.success_title'),
-        description: t('signup_form.success_description'),
+        description: "Vérifiez votre boîte mail (ou la console du terminal en mode développement) pour valider votre compte.",
+        duration: 9000,
       });
+
       router.push('/login');
 
     } catch (error: any) {
@@ -121,7 +124,7 @@ export function SignupForm() {
             )}
             <Button variant="outline" className="w-full" onClick={handleGoogleSignUp} disabled={isLoading || isUserLoading}>
                 <svg className="mr-2 h-4 w-4" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="google" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 488 512"><path fill="currentColor" d="M488 261.8C488 403.3 391.1 504 248 504 110.8 504 0 393.2 0 256S110.8 8 248 8c66.8 0 126 23.4 172.9 61.9l-72.2 72.2C322 108.8 286.6 96 248 96c-88.8 0-160.1 71.1-160.1 160s71.3 160 160.1 160c94.4 0 150.3-63.3 154.9-121.2H248v-85.3h236.1c2.3 12.7 3.9 26.9 3.9 41.4z"></path></svg>
-                {t('signup_form.google_signup', undefined, 'en') || "Sign up with Google"}
+                {t('signup_form.google_signup') || "Sign up with Google"}
             </Button>
             <div className="relative">
                 <div className="absolute inset-0 flex items-center">
