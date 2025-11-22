@@ -159,6 +159,11 @@
     "login_prompt_link": "inicia sesión",
     "login_prompt_desc_2": "o crea una cuenta para proceder al pago."
   },
+  "cart_sheet": {
+    "shipping_notice": "Los gastos de envío y los impuestos se calculan en la caja.",
+    "view_cart": "Ver Cesta",
+    "continue_shopping": "Seguir Comprando"
+  },
   "checkout_page": {
     "title": "Pagar",
     "description": "Complete su pedido de forma segura.",
@@ -229,6 +234,20 @@
       "question": "¿Cómo puedo contactar con ustedes?",
       "answer": "Nuestro equipo de atención al cliente está disponible por correo electrónico en service@ezentials.com o a través de nuestro formulario de contacto. Nos esforzamos por responder a todas las consultas en 24 horas."
     }
+  },
+  "contact_page": {
+    "title": "Contáctenos",
+    "description": "Estamos aquí para ayudar. No dude en contactarnos si tiene alguna pregunta o comentario.",
+    "form_title": "Envíenos un mensaje",
+    "name_label": "Su Nombre",
+    "email_label": "Su Email",
+    "message_label": "Su Mensaje",
+    "send_button": "Enviar Mensaje",
+    "toast_success_title": "Mensaje Enviado",
+    "toast_success_desc": "Gracias por contactarnos. Nos pondremos en contacto con usted pronto."
+  },
+  "recently_viewed": {
+    "title": "Vistos Recientemente"
   },
   "product_page": {
     "reviews_count": "opiniones",
@@ -505,7 +524,7 @@
     "business_suit": {
       "name": "Traje 'Negocios' de Lana Fresco",
       "description": "El traje definitivo para el viajero. La lana Fresco de tejido abierto es naturalmente resistente a las arrugas y transpirable, ideal para mantenerse impecable todo el día.",
-      "details": "Lana Fresco de alta torsión. Construcción de media entretela. Forro parcial for mayor transpirabilidad."
+      "details": "Lana Fresco de alta torsión. Construcción de media entretela. Forro parcial para mayor transpirabilidad."
     },
     "expedition_parka": {
       "name": "Parka 'Ártico' de Ventile y Plumón",

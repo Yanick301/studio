@@ -18,8 +18,10 @@ import { useTranslation } from '@/hooks/use-translation';
 import { useUser, useFirestore, useMemoFirebase, setDocumentNonBlocking, deleteDocumentNonBlocking, useCollection } from '@/firebase';
 import { collection, query, where, getDocs, doc } from 'firebase/firestore';
 import { useCart } from '@/contexts/cart-context';
-import { Review } from '@/lib/definitions';
+import { Review, Product } from '@/lib/definitions';
 import { Skeleton } from '@/components/ui/skeleton';
+import { useRecentlyViewed } from '@/hooks/use-recently-viewed';
+import { ProductCard } from '@/components/products/product-card';
 
 export default function ProductDetailPage({ params }: { params: { slug: string } }) {
   const { t } = useTranslation();
@@ -35,6 +37,17 @@ export default function ProductDetailPage({ params }: { params: { slug: string }
   const [isFavorite, setIsFavorite] = useState(false);
   const [favoriteId, setFavoriteId] = useState<string | null>(null);
   const [isFavoriteLoading, setIsFavoriteLoading] = useState(true);
+
+  const { recentlyViewed, addProductToHistory } = useRecentlyViewed();
+  const recentlyViewedProducts = recentlyViewed
+    .map(slug => products.find(p => p.slug === slug))
+    .filter(Boolean) as Product[];
+  
+  useEffect(() => {
+    if (product) {
+      addProductToHistory(product.slug);
+    }
+  }, [product, addProductToHistory]);
   
   const favoritesCollectionRef = useMemoFirebase(() => {
     if (!firestore || !user) return null;
@@ -138,10 +151,6 @@ export default function ProductDetailPage({ params }: { params: { slug: string }
     addToCart(product, {
       size: selectedSize,
       color: selectedColor
-    });
-    toast({
-      title: "Article ajouté au panier",
-      description: `${productName} a été ajouté à votre panier.`,
     });
   }
 
@@ -330,6 +339,17 @@ export default function ProductDetailPage({ params }: { params: { slug: string }
             </CardContent>
         </Card>
       </div>
+
+       {recentlyViewedProducts.length > 1 && (
+        <div className="mt-16 md:mt-24">
+          <h2 className="text-2xl font-bold mb-6">{t('recently_viewed.title')}</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+            {recentlyViewedProducts.filter(p => p.slug !== params.slug).slice(0, 4).map(p => (
+              <ProductCard key={p.id} product={p} />
+            ))}
+          </div>
+        </div>
+      )}
     </div>
   );
 }

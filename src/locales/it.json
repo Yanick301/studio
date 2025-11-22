@@ -159,6 +159,11 @@
     "login_prompt_link": "accedi",
     "login_prompt_desc_2": "o crea un account per procedere al pagamento."
   },
+  "cart_sheet": {
+    "shipping_notice": "Spedizione e tasse calcolate al momento del pagamento.",
+    "view_cart": "Vedi Carrello",
+    "continue_shopping": "Continua lo Shopping"
+  },
   "checkout_page": {
     "title": "Pagamento",
     "description": "Completa il tuo ordine in modo sicuro.",
@@ -229,6 +234,20 @@
       "question": "Come posso contattarvi?",
       "answer": "Il nostro servizio clienti è disponibile via email all'indirizzo service@ezentials.com o tramite il nostro modulo di contatto. Ci impegniamo a rispondere a tutte le richieste entro 24 ore."
     }
+  },
+  "contact_page": {
+    "title": "Contattaci",
+    "description": "Siamo qui per aiutare. Non esitare a contattarci per qualsiasi domanda o commento.",
+    "form_title": "Inviaci un messaggio",
+    "name_label": "Il Tuo Nome",
+    "email_label": "La Tua Email",
+    "message_label": "Il Tuo Messaggio",
+    "send_button": "Invia Messaggio",
+    "toast_success_title": "Messaggio Inviato",
+    "toast_success_desc": "Grazie per averci contattato. Ti risponderemo presto."
+  },
+  "recently_viewed": {
+    "title": "Visualizzati di Recente"
   },
   "product_page": {
     "reviews_count": "recensioni",
@@ -464,7 +483,7 @@
     },
     "rivage_shorts": {
       "name": "Bermuda 'Capri' in Tela di Lino",
-      "description": "Chic casual per l'estate. Questi bermuda a pieghe sono tagliati da una miscela di lino e viscosa for un drappeggio impeccabile e resistenza alle pieghe.",
+      "description": "Chic casual per l'estate. Questi bermuda a pieghe sono tagliati da una miscela di lino e viscosa per un drappeggio impeccabile e resistenza alle pieghe.",
       "details": "Misto lino e viscosa. Vita alta con pieghe. Chiusura con gancio e zip."
     },
     "heritage_cardigan": {

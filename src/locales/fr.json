@@ -159,6 +159,11 @@
     "login_prompt_link": "connecter",
     "login_prompt_desc_2": "ou créer un compte pour passer à la caisse."
   },
+  "cart_sheet": {
+    "shipping_notice": "Les frais de port et les taxes sont calculés au moment du paiement.",
+    "view_cart": "Voir le panier",
+    "continue_shopping": "Continuer les achats"
+  },
   "checkout_page": {
     "title": "Paiement",
     "description": "Finalisez votre commande en toute sécurité.",
@@ -238,6 +243,20 @@
       "question": "Comment puis-je vous contacter ?",
       "answer": "Notre service client est disponible par e-mail à service@ezentials.com ou via notre formulaire de contact. Nous nous efforçons de répondre à toutes les demandes dans les 24 heures."
     }
+  },
+  "contact_page": {
+    "title": "Contactez-nous",
+    "description": "Nous sommes là pour vous aider. N'hésitez pas à nous contacter pour toute question ou commentaire.",
+    "form_title": "Envoyez-nous un message",
+    "name_label": "Votre Nom",
+    "email_label": "Votre Email",
+    "message_label": "Votre Message",
+    "send_button": "Envoyer le Message",
+    "toast_success_title": "Message Envoyé",
+    "toast_success_desc": "Merci de nous avoir contactés. Nous vous répondrons bientôt."
+  },
+  "recently_viewed": {
+    "title": "Récemment consultés"
   },
   "product_page": {
     "reviews_count": "avis",

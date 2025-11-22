@@ -159,6 +159,11 @@
     "login_prompt_link": "log in",
     "login_prompt_desc_2": "or create an account to proceed to checkout."
   },
+  "cart_sheet": {
+    "shipping_notice": "Shipping and taxes calculated at checkout.",
+    "view_cart": "View Cart",
+    "continue_shopping": "Continue Shopping"
+  },
   "checkout_page": {
     "title": "Checkout",
     "description": "Complete your order securely.",
@@ -230,6 +235,20 @@
       "answer": "Our customer service team is available by email at service@ezentials.com or through our contact form. We strive to respond to all inquiries within 24 hours."
     }
   },
+  "contact_page": {
+    "title": "Contact Us",
+    "description": "We are here to help. Do not hesitate to contact us with any questions or comments.",
+    "form_title": "Send us a message",
+    "name_label": "Your Name",
+    "email_label": "Your Email",
+    "message_label": "Your Message",
+    "send_button": "Send Message",
+    "toast_success_title": "Message Sent",
+    "toast_success_desc": "Thank you for contacting us. We will get back to you soon."
+  },
+  "recently_viewed": {
+    "title": "Recently Viewed"
+  },
   "product_page": {
     "reviews_count": "reviews",
     "color": "Color",
@@ -294,8 +313,7 @@
     "success_title": "Account created successfully",
     "success_description": "A verification email has been sent. Please check your inbox.",
     "error_email_in_use": "This email address is already in use.",
-    "error_generic": "An error occurred while creating the account.",
-    "google_signup": "Sign up with Google"
+    "error_generic": "An error occurred while creating the account."
   },
   "ai_stylist": {
     "title": "Your Personal AI Stylist",

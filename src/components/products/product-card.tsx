@@ -72,10 +72,6 @@ export function ProductCard({ product }: ProductCardProps) {
       size: product.options?.sizes?.[0] || null,
       color: product.options?.colors?.[0] || null
     });
-    toast({
-      title: "Article ajouté au panier",
-      description: `${productName} a été ajouté à votre panier.`,
-    });
   };
 
   const handleFavoriteClick = (e: React.MouseEvent) => {

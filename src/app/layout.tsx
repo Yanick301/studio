@@ -7,6 +7,7 @@ import { TranslationProvider } from '@/contexts/translation-context';
 import { FirebaseClientProvider } from '@/firebase/client-provider';
 import { CartProvider } from '@/contexts/cart-context';
 import { StripeProvider } from '@/contexts/stripe-provider';
+import { CartSheet } from '@/components/cart/cart-sheet';
 
 
 export const metadata: Metadata = {
@@ -36,6 +37,7 @@ export default function RootLayout({
                   <main className="flex-grow">{children}</main>
                   <Footer />
                 </div>
+                <CartSheet />
                 <Toaster />
               </CartProvider>
             </StripeProvider>

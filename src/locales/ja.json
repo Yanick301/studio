@@ -159,6 +159,11 @@
     "login_prompt_link": "ログイン",
     "login_prompt_desc_2": "するか、アカウントを作成してください。"
   },
+  "cart_sheet": {
+    "shipping_notice": "送料と税金はチェックアウト時に計算されます。",
+    "view_cart": "カートを見る",
+    "continue_shopping": "ショッピングを続ける"
+  },
   "checkout_page": {
     "title": "チェックアウト",
     "description": "ご注文を安全に完了してください。",
@@ -229,6 +234,20 @@
       "question": "どうすれば連絡できますか？",
       "answer": "カスタマーサービスチームは、service@ezentials.com のメールまたはお問い合わせフォームからご連絡いただけます。すべてのお問い合わせに24時間以内に回答するよう努めています。"
     }
+  },
+  "contact_page": {
+    "title": "お問い合わせ",
+    "description": "私たちは助けるためにここにいます。ご質問やご意見がございましたら、お気軽にお問い合わせください。",
+    "form_title": "メッセージを送る",
+    "name_label": "お名前",
+    "email_label": "メールアドレス",
+    "message_label": "メッセージ",
+    "send_button": "メッセージを送信",
+    "toast_success_title": "メッセージが送信されました",
+    "toast_success_desc": "お問い合わせいただきありがとうございます。すぐにご連絡いたします。"
+  },
+  "recently_viewed": {
+    "title": "最近見た商品"
   },
   "product_page": {
     "reviews_count": "件のレビュー",

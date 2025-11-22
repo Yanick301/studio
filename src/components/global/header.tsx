@@ -19,7 +19,7 @@ export function Header() {
   const { t, setLanguage, currentLanguage } = useTranslation();
   const pathname = usePathname();
   const [isSearchOpen, setIsSearchOpen] = useState(false);
-  const { cart } = useCart();
+  const { cart, setCartSheetOpen } = useCart();
   const itemCount = cart.reduce((sum, item) => sum + item.quantity, 0);
 
   const navLinks = [
@@ -125,15 +125,13 @@ export function Header() {
                 <Heart className="h-5 w-5" />
               </Link>
             </Button>
-            <Button asChild variant="ghost" size="icon" aria-label={t('header.cart')} className="relative">
-               <Link href="/cart">
+            <Button variant="ghost" size="icon" aria-label={t('header.cart')} className="relative" onClick={() => setCartSheetOpen(true)}>
                   <ShoppingCart className="h-5 w-5" />
                   {itemCount > 0 && (
                     <Badge variant="destructive" className="absolute -top-2 -right-2 h-5 w-5 justify-center rounded-full p-0 text-xs">
                         {itemCount}
                     </Badge>
                   )}
-               </Link>
             </Button>
             <div className="w-px h-6 bg-border mx-1 sm:mx-2 hidden sm:block"></div>
             <UserNav />
