@@ -1,7 +1,6 @@
 'use client';
 
 import { products } from "@/lib/data";
-import { ProductGrid } from "@/components/products/product-grid";
 import { ShopPageLayout } from "@/components/products/shop-page-layout";
 import { useTranslation } from "@/hooks/use-translation";
 import { Product } from "@/lib/definitions";
@@ -24,8 +23,7 @@ export default function WinterPage() {
         <ShopPageLayout
             title={t('winter_page.title')}
             description={t('winter_page.description')}
-        >
-            <ProductGrid products={winterProducts} />
-        </ShopPageLayout>
+            products={winterProducts}
+        />
     );
 }

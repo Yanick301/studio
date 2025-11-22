@@ -92,7 +92,10 @@
   },
   "categories": {
     "women": "Femmes",
-    "men": "Hommes"
+    "men": "Hommes",
+    "clothing": "Vêtements",
+    "accessories": "Accessoires",
+    "shoes": "Chaussures"
   },
   "testimonial": {
     "lena": {
@@ -245,6 +248,7 @@
     "add_to_favorites": "Ajouter aux favoris",
     "favorited": "En favori",
     "favorite": "Favori",
+    "out_of_stock": "Épuisé",
     "details_care": "Détails & Entretien",
     "default_details": "Composition : 80% Satin, 20% Soie. Lavage à la main uniquement. Ne pas sécher en machine.",
     "shipping_returns": "Livraison & Retours",
@@ -313,7 +317,9 @@
     "error_title": "Erreur",
     "error_message": "Une erreur s'est produite lors de la génération des recommandations.",
     "results_title": "Nos Suggestions Pour Vous",
-    "browsing_history_example": "Articles consultés : 'Robe de Soirée Élégante' (Vêtements, Femme), 'Chemise en Lin' (Vêtements, Homme), 'Sac à Main en Cuir' (Accessoires, Femme). L'utilisateur semble intéressé par les styles élégants et classiques."
+    "browsing_history_default": "L'utilisateur n'a pas d'historique de navigation.",
+    "browsing_history_viewed": "Produits récemment consultés : {{products}}.",
+    "browsing_history_favorites": "Produits favoris : {{products}}."
   },
   "privacy_policy": {
     "title": "Politique de Confidentialité",
@@ -386,6 +392,16 @@
       "title": "Contactez-nous",
       "content": "Si vous avez des questions sur ces Conditions, veuillez nous contacter à legal@ezentials.com."
     }
+  },
+  "filters": {
+    "sort_by": "Trier par",
+    "newest": "Nouveautés",
+    "price_asc": "Prix : Croissant",
+    "price_desc": "Prix : Décroissant",
+    "categories": "Catégories",
+    "price": "Prix",
+    "sizes": "Tailles",
+    "colors": "Couleurs"
   },
   "products": {
     "monarque_blazer": {

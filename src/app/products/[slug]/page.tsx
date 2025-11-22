@@ -4,7 +4,7 @@ import { products } from '@/lib/data';
 import { notFound } from 'next/navigation';
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
-import { Heart, ShoppingCart, Star, CheckCircle } from 'lucide-react';
+import { Heart, ShoppingCart, Star, CheckCircle, PackageX } from 'lucide-react';
 import { Separator } from '@/components/ui/separator';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
 import { useState, useEffect } from 'react';
@@ -134,7 +134,7 @@ export default function ProductDetailPage({ params }: { params: { slug: string }
   const productDetails = product.details ? t(product.details) : '';
 
   const handleAddToCart = () => {
-    if (!product) return;
+    if (!product || product.stock === 0) return;
     addToCart(product, {
       size: selectedSize,
       color: selectedColor
@@ -153,13 +153,14 @@ export default function ProductDetailPage({ params }: { params: { slug: string }
     }
     if (newReview.comment) {
       const reviewData = {
+          id: doc(reviewsCollectionRef).id,
           userId: user.uid,
           author: user.displayName || user.email || 'Anonyme',
           rating: newReview.rating,
           comment: newReview.comment,
           reviewDate: new Date().toISOString(),
       };
-      const newReviewRef = doc(reviewsCollectionRef);
+      const newReviewRef = doc(reviewsCollectionRef, reviewData.id);
       setDocumentNonBlocking(newReviewRef, reviewData, {});
       
       setNewReview({ rating: 5, comment: '' });
@@ -174,6 +175,8 @@ export default function ProductDetailPage({ params }: { params: { slug: string }
   const averageRating = reviews && reviews.length > 0
     ? reviews.reduce((acc, review) => acc + review.rating, 0) / reviews.length
     : 0;
+
+  const isOutOfStock = product.stock === 0;
 
   return (
     <div className="container mx-auto py-12 md:py-16">
@@ -244,8 +247,9 @@ export default function ProductDetailPage({ params }: { params: { slug: string }
           )}
 
           <div className="flex flex-col sm:flex-row gap-4 mt-2">
-            <Button size="lg" className="w-full sm:w-auto flex-grow" onClick={handleAddToCart}>
-              <ShoppingCart className="mr-2 h-5 w-5" /> {t('product_page.add_to_cart')}
+            <Button size="lg" className="w-full sm:w-auto flex-grow" onClick={handleAddToCart} disabled={isOutOfStock}>
+              {isOutOfStock ? <PackageX className="mr-2 h-5 w-5" /> : <ShoppingCart className="mr-2 h-5 w-5" />}
+              {isOutOfStock ? t('product_page.out_of_stock') : t('product_page.add_to_cart')}
             </Button>
             <Button disabled={isFavoriteLoading} variant={isFavorite ? "secondary" : "outline"} size="lg" className="w-full sm:w-auto" aria-label={t('product_page.add_to_favorites')} onClick={handleFavoriteClick}>
               {isFavorite ? <CheckCircle className="mr-2 h-5 w-5 text-green-500"/> : <Heart className="mr-2 h-5 w-5" />}

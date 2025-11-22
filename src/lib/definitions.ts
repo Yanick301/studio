@@ -11,6 +11,7 @@ export type Product = {
   category: 'clothing' | 'accessories' | 'shoes';
   gender: 'men' | 'women' | 'unisex';
   isTrending: boolean;
+  stock: number;
   details?: string; // This will be the translation key
   tags?: string[];
   options?: {

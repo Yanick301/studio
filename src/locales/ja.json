@@ -92,7 +92,10 @@
   },
   "categories": {
     "women": "レディース",
-    "men": "メンズ"
+    "men": "メンズ",
+    "clothing": "ウェア",
+    "accessories": "アクセサリー",
+    "shoes": "シューズ"
   },
   "testimonial": {
     "lena": {
@@ -236,6 +239,7 @@
     "add_to_favorites": "お気に入りに追加",
     "favorited": "お気に入り済み",
     "favorite": "お気に入り",
+    "out_of_stock": "在庫切れ",
     "details_care": "詳細とお手入れ",
     "default_details": "構成：サテン80％、シルク20％。手洗いのみ。タンブル乾燥不可。",
     "shipping_returns": "配送と返品",
@@ -272,7 +276,7 @@
     "signup_link": "会員登録",
     "password_reset_error_title": "パスワードリセットエラー",
     "password_reset_error_desc": "有効なメールアドレスを入力してください。",
-    "password_reset_success_title": "パスワードリセットメールを送信しました",
+    "password_reset_success_title": "パスワードリsetメールを送信しました",
     "password_reset_success_desc": "受信トレイで詳細な手順を確認してください。",
     "google_signin": "Googleでサインイン",
     "or_continue_with": "または"
@@ -301,7 +305,9 @@
     "error_title": "エラー",
     "error_message": "おすすめの生成中にエラーが発生しました。",
     "results_title": "あなたへのおすすめ",
-    "browsing_history_example": "閲覧した商品：「エレガントなイブニングガウン」（衣料品、女性）、「リネンシャツ」（衣料品、男性）、「レザーハンドバッグ」（アクセサリー、女性）。ユーザーはエレガントでクラシックなスタイルに興味があるようです。"
+    "browsing_history_default": "ユーザーには閲覧履歴がありません。",
+    "browsing_history_viewed": "最近閲覧した商品：{{products}}。",
+    "browsing_history_favorites": "お気に入りの商品：{{products}}。"
   },
   "privacy_policy": {
     "title": "プライバシーポリシー",
@@ -374,6 +380,16 @@
       "title": "お問い合わせ",
       "content": "本規約についてご不明な点がございましたら、legal@ezentials.com までお問い合わせください。"
     }
+  },
+  "filters": {
+    "sort_by": "並べ替え",
+    "newest": "新着順",
+    "price_asc": "価格：安い順",
+    "price_desc": "価格：高い順",
+    "categories": "カテゴリー",
+    "price": "価格",
+    "sizes": "サイズ",
+    "colors": "カラー"
   },
   "products": {
     "monarque_blazer": {
@@ -639,7 +655,7 @@
     "carte_prime_holder": {
       "name": "「ザ・ミニマリスト」エプソンレザーカードホルダー",
       "description": "エレガンスを備えた必需品。耐久性で知られるエプソンカーフスキンで作られたこのスリムなカードホルダーは、どんなポケットにも収まります。",
-      "details": "エプソンカーフスキン。3つのカードスロット。中央のコンパートメント。手塗りのエッジ。"
+      "details": "エプソンカーfスキン。3つのカードスロット。中央のコンパートメント。手塗りのエッジ。"
     },
     "finesse_belt": {
       "name": "「ジ・アリュール」リザードレザーベルト",
@@ -779,7 +795,7 @@
     "souverain_oxfords": {
       "name": "「ジ・アンバサダー」ワンピースオックスフォード",
       "description": "エレガンスの頂点。このオックスフォードシューズは、一枚のカーフスキンから作られた技術的な偉業です。工房で手作業でパティーヌ仕上げを施しています。",
-      "details": "ワンピース構造。フレンチカーフスキン。ブレイク製法。ご要望に応じて手作業でパティーヌ仕上げ。"
+      "details": "ワンピース構造。フレンチカーfスキン。ブレイク製法。ご要望に応じて手作業でパティーヌ仕上げ。"
     },
     "elite_derby": {
       "name": "「ザ・コンサル」バックルダービー",

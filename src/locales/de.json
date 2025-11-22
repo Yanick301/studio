@@ -92,7 +92,10 @@
   },
   "categories": {
     "women": "Damen",
-    "men": "Herren"
+    "men": "Herren",
+    "clothing": "Kleidung",
+    "accessories": "Accessoires",
+    "shoes": "Schuhe"
   },
   "testimonial": {
     "lena": {
@@ -236,6 +239,7 @@
     "add_to_favorites": "Zu Favoriten hinzufügen",
     "favorited": "Favorit",
     "favorite": "Favoriten",
+    "out_of_stock": "Ausverkauft",
     "details_care": "Details & Pflege",
     "default_details": "Zusammensetzung: 80% Satin, 20% Seide. Nur Handwäsche. Nicht im Trockner trocknen.",
     "shipping_returns": "Versand & Rückgabe",
@@ -302,7 +306,9 @@
     "error_title": "Fehler",
     "error_message": "Beim Generieren der Empfehlungen ist ein Fehler aufgetreten.",
     "results_title": "Unsere Vorschläge für Sie",
-    "browsing_history_example": "Angesehene Artikel: 'Elegantes Abendkleid' (Kleidung, Damen), 'Leinenhemd' (Kleidung, Herren), 'Lederhandtasche' (Accessoires, Damen). Der Benutzer scheint an eleganten und klassischen Stilen interessiert zu sein."
+    "browsing_history_default": "Der Benutzer hat keinen Browserverlauf.",
+    "browsing_history_viewed": "Zuletzt angesehene Produkte: {{products}}.",
+    "browsing_history_favorites": "Lieblingsprodukte: {{products}}."
   },
   "privacy_policy": {
     "title": "Datenschutzrichtlinie",
@@ -375,6 +381,16 @@
       "title": "Kontaktieren Sie uns",
       "content": "Wenn Sie Fragen zu diesen Bedingungen haben, kontaktieren Sie uns bitte unter legal@ezentials.com."
     }
+  },
+  "filters": {
+    "sort_by": "Sortieren nach",
+    "newest": "Neueste",
+    "price_asc": "Preis: Aufsteigend",
+    "price_desc": "Preis: Absteigend",
+    "categories": "Kategorien",
+    "price": "Preis",
+    "sizes": "Größen",
+    "colors": "Farben"
   },
   "products": {
     "monarque_blazer": {

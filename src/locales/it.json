@@ -92,7 +92,10 @@
   },
   "categories": {
     "women": "Donne",
-    "men": "Uomini"
+    "men": "Uomini",
+    "clothing": "Abbigliamento",
+    "accessories": "Accessori",
+    "shoes": "Scarpe"
   },
   "testimonial": {
     "lena": {
@@ -236,6 +239,7 @@
     "add_to_favorites": "Aggiungi ai preferiti",
     "favorited": "Nei preferiti",
     "favorite": "Preferito",
+    "out_of_stock": "Esaurito",
     "details_care": "Dettagli e Cura",
     "default_details": "Composizione: 80% Raso, 20% Seta. Lavare solo a mano. Non asciugare in asciugatrice.",
     "shipping_returns": "Spedizione e Resi",
@@ -301,7 +305,9 @@
     "error_title": "Errore",
     "error_message": "Si è verificato un errore durante la generazione dei consigli.",
     "results_title": "I Nostri Suggerimenti Per Te",
-    "browsing_history_example": "Articoli visualizzati: 'Abito da Sera Elegante' (Abbigliamento, Donna), 'Camicia di Lino' (Abbigliamento, Uomo), 'Borsa in Pelle' (Accessori, Donna). L'utente sembra interessato a stili eleganti e classici."
+    "browsing_history_default": "L'utente non ha una cronologia di navigazione.",
+    "browsing_history_viewed": "Prodotti visualizzati di recente: {{products}}.",
+    "browsing_history_favorites": "Prodotti preferiti: {{products}}."
   },
   "privacy_policy": {
     "title": "Informativa sulla Privacy",
@@ -374,6 +380,16 @@
       "title": "Contattaci",
       "content": "In caso di domande sui presenti Termini, contattaci all'indirizzo legal@ezentials.com."
     }
+  },
+  "filters": {
+    "sort_by": "Ordina per",
+    "newest": "Novità",
+    "price_asc": "Prezzo: crescente",
+    "price_desc": "Prezzo: decrescente",
+    "categories": "Categorie",
+    "price": "Prezzo",
+    "sizes": "Taglie",
+    "colors": "Colori"
   },
   "products": {
     "monarque_blazer": {
@@ -528,7 +544,7 @@
     },
     "lueur_top": {
       "name": "Top 'Drappo Divino' in Raso di Seta",
-      "description": "La semplicità magnificata. Un semplice top in raso di seta pesante, con uno scollo a barchetta che cade a cascata con una grazia infinita.",
+      "description": "La simplicità magnificata. Un semplice top in raso di seta pesante, con uno scollo a barchetta che cade a cascata con una grazia infinita.",
       "details": "100% Raso di Seta pesante. Taglio sbieco per un drappeggio perfetto. Spalline sottili."
     },
     "etoile_jeans": {

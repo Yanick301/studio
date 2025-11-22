@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Button } from "@/components/ui/button";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
@@ -10,22 +10,62 @@ import { Loader2, Wand2, Sparkles } from 'lucide-react';
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 import { useTranslation } from '@/hooks/use-translation';
 import { Separator } from '@/components/ui/separator';
+import { useUser, useFirestore, useCollection, useDoc } from '@/firebase';
+import { collection, doc } from 'firebase/firestore';
+import { Product, Favorite, UserProfile } from '@/lib/definitions';
+import { products as allProducts } from '@/lib/data';
 
+// A simple hook to get previously viewed products from localStorage
+const useViewHistory = () => {
+    const [history, setHistory] = useState<Product[]>([]);
+
+    useEffect(() => {
+        const storedHistory = localStorage.getItem('productViewHistory');
+        if (storedHistory) {
+            const productSlugs: string[] = JSON.parse(storedHistory);
+            const viewedProducts = productSlugs.map(slug => allProducts.find(p => p.slug === slug)).filter(Boolean) as Product[];
+            setHistory(viewedProducts);
+        }
+    }, []);
+
+    return history;
+};
 
 export default function RecommendationsPage() {
     const { t } = useTranslation();
+    const { user } = useUser();
+    const firestore = useFirestore();
+
     const [stylePreferences, setStylePreferences] = useState('');
     const [recommendations, setRecommendations] = useState<PersonalizedOutfitRecommendationsOutput['recommendations']>([]);
     const [isLoading, setIsLoading] = useState(false);
     const [error, setError] = useState<string | null>(null);
 
-    const browsingHistory = t('ai_stylist.browsing_history_example');
+    // Get user's favorites
+    const favoritesRef = user ? collection(firestore, `users/${user.uid}/favorites`) : null;
+    const { data: userFavorites } = useCollection<Favorite>(favoritesRef);
+    const favoriteProducts = userFavorites?.map(fav => allProducts.find(p => p.id === fav.productId)).filter(Boolean) as Product[] || [];
+
+    // Get user's recent view history
+    const viewedProducts = useViewHistory();
 
     const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault();
         setIsLoading(true);
         setError(null);
         setRecommendations([]);
+
+        let browsingHistory = t('ai_stylist.browsing_history_default');
+        
+        const viewedProductNames = viewedProducts.slice(0, 5).map(p => t(p.name)).join(', ');
+        if(viewedProductNames) {
+            browsingHistory += ` ${t('ai_stylist.browsing_history_viewed', { products: viewedProductNames })}`;
+        }
+
+        const favoriteProductNames = favoriteProducts.slice(0, 5).map(p => t(p.name)).join(', ');
+        if(favoriteProductNames) {
+            browsingHistory += ` ${t('ai_stylist.browsing_history_favorites', { products: favoriteProductNames })}`;
+        }
 
         try {
             const result = await getPersonalizedOutfitRecommendations({

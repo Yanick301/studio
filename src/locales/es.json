@@ -92,7 +92,10 @@
   },
   "categories": {
     "women": "Mujeres",
-    "men": "Hombres"
+    "men": "Hombres",
+    "clothing": "Ropa",
+    "accessories": "Accesorios",
+    "shoes": "Zapatos"
   },
   "testimonial": {
     "lena": {
@@ -236,6 +239,7 @@
     "add_to_favorites": "Añadir a favoritos",
     "favorited": "En favoritos",
     "favorite": "Favorito",
+    "out_of_stock": "Agotado",
     "details_care": "Detalles y Cuidado",
     "default_details": "Composición: 80% Satén, 20% Seda. Lavar a mano únicamente. No usar secadora.",
     "shipping_returns": "Envío y Devoluciones",
@@ -301,7 +305,9 @@
     "error_title": "Error",
     "error_message": "Se ha producido un error al generar las recomendaciones.",
     "results_title": "Nuestras Sugerencias Para Ti",
-    "browsing_history_example": "Artículos vistos: 'Vestido de Noche Elegante' (Ropa, Mujer), 'Camisa de Lino' (Ropa, Hombre), 'Bolso de Cuero' (Accesorios, Mujer). El usuario parece estar interesado en estilos elegantes y clásicos."
+    "browsing_history_default": "El usuario no tiene historial de navegación.",
+    "browsing_history_viewed": "Productos vistos recientemente: {{products}}.",
+    "browsing_history_favorites": "Productos favoritos: {{products}}."
   },
   "privacy_policy": {
     "title": "Política de Privacidad",
@@ -374,6 +380,16 @@
       "title": "Contáctenos",
       "content": "Si tiene alguna pregunta sobre estos Términos, contáctenos en legal@ezentials.com."
     }
+  },
+  "filters": {
+    "sort_by": "Ordenar por",
+    "newest": "Novedades",
+    "price_asc": "Precio: ascendente",
+    "price_desc": "Precio: descendente",
+    "categories": "Categorías",
+    "price": "Precio",
+    "sizes": "Tallas",
+    "colors": "Colores"
   },
   "products": {
     "monarque_blazer": {

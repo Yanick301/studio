@@ -11,8 +11,7 @@ export default function AccessoriesPage() {
         <ShopPageLayout
             title={t('accessories_page.title')}
             description={t('accessories_page.description')}
-        >
-            <ProductGrid products={accessoryProducts} />
-        </ShopPageLayout>
+            products={accessoryProducts}
+        />
     );
 }

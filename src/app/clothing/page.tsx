@@ -12,8 +12,7 @@ export default function ClothingPage() {
         <ShopPageLayout
             title={t('clothing_page.title')}
             description={t('clothing_page.description')}
-        >
-            <ProductGrid products={clothingProducts} />
-        </ShopPageLayout>
+            products={clothingProducts}
+        />
     );
 }

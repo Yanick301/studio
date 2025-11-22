@@ -92,7 +92,10 @@
   },
   "categories": {
     "women": "Women",
-    "men": "Men"
+    "men": "Men",
+    "clothing": "Clothing",
+    "accessories": "Accessories",
+    "shoes": "Shoes"
   },
   "testimonial": {
     "lena": {
@@ -236,6 +239,7 @@
     "add_to_favorites": "Add to favorites",
     "favorited": "Favorited",
     "favorite": "Favorite",
+    "out_of_stock": "Out of Stock",
     "details_care": "Details & Care",
     "default_details": "Composition: 80% Satin, 20% Silk. Hand wash only. Do not tumble dry.",
     "shipping_returns": "Shipping & Returns",
@@ -302,7 +306,9 @@
     "error_title": "Error",
     "error_message": "An error occurred while generating recommendations.",
     "results_title": "Our Suggestions For You",
-    "browsing_history_example": "Viewed items: 'Elegant Evening Gown' (Clothing, Women), 'Linen Shirt' (Clothing, Men), 'Leather Handbag' (Accessories, Women). User appears to be interested in elegant and classic styles."
+    "browsing_history_default": "The user has no browsing history.",
+    "browsing_history_viewed": "Recently viewed products: {{products}}.",
+    "browsing_history_favorites": "Favorite products: {{products}}."
   },
   "privacy_policy": {
     "title": "Privacy Policy",
@@ -375,6 +381,16 @@
       "title": "Contact Us",
       "content": "If you have any questions about these Terms, please contact us at legal@ezentials.com."
     }
+  },
+  "filters": {
+    "sort_by": "Sort by",
+    "newest": "Newest",
+    "price_asc": "Price: Low to High",
+    "price_desc": "Price: High to Low",
+    "categories": "Categories",
+    "price": "Price",
+    "sizes": "Sizes",
+    "colors": "Colors"
   },
   "products": {
     "monarque_blazer": {

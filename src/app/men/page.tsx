@@ -12,8 +12,7 @@ export default function MenPage() {
         <ShopPageLayout
             title={t('men_page.title')}
             description={t('men_page.description')}
-        >
-            <ProductGrid products={menProducts} />
-        </ShopPageLayout>
+            products={menProducts}
+        />
     );
 }
