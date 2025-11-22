@@ -5,6 +5,7 @@
     "men": "Men",
     "clothing": "Clothing",
     "accessories": "Accessories",
+    "shoes": "Shoes",
     "ai_stylist": "AI Stylist"
   },
   "header": {
@@ -142,6 +143,10 @@
   "accessories_page": {
     "title": "Accessories",
     "description": "The final touch for a perfect style."
+  },
+  "shoes_page": {
+    "title": "Shoes",
+    "description": "Complete your look with our selection of luxury footwear."
   },
   "winter_page": {
     "title": "Winter Collection",
@@ -423,6 +428,126 @@
     "colors": "Colors"
   },
   "products": {
+    "robe_midi_soie_gucci": {
+        "name": "Gucci Silk Midi Dress",
+        "description": "Flowing silk dress with print, midi length, round neck, light long sleeves, ideal for evening or elegant event."
+    },
+    "blazer_croise_balmain": {
+        "name": "Balmain Crossed Blazer",
+        "description": "Structured blazer in wool blend, pronounced shoulder, gold buttons, chic and modern look."
+    },
+    "pull_col_roule_cachemire_loro_piana_femme": {
+        "name": "Loro Piana Cashmere Turtleneck",
+        "description": "Soft and thick knit, fitted cut, ideal for cold days."
+    },
+    "pantalon_large_laine_max_mara": {
+        "name": "Max Mara Wide-Leg Wool Pants",
+        "description": "Flowing cut, high waist, merino wool fabric, sophisticated look."
+    },
+    "jean_slim_premium_diesel": {
+        "name": "Diesel Premium Slim Jeans",
+        "description": "Stretch denim, fitted cut, high-end finish."
+    },
+    "chemisier_soie_imprimee_saint_laurent": {
+        "name": "Saint Laurent Printed Silk Blouse",
+        "description": "Flowing silk, subtle patterns, classic collar and long sleeves, very elegant."
+    },
+    "robe_courte_laine_prada": {
+        "name": "Prada Short Wool Dress",
+        "description": "Winter dress, straight cut, thick wool fabric, long sleeves, comfortable and chic."
+    },
+    "manteau_long_cachemire_max_mara": {
+        "name": "Max Mara Long Cashmere Coat",
+        "description": "Elegant cut, integrated belt, soft and warm wool."
+    },
+    "veste_courte_matelassee_moncler": {
+        "name": "Moncler Short Quilted Jacket",
+        "description": "Short down jacket, warm and light, casual chic style."
+    },
+    "pull_oversize_torsade_chloe": {
+        "name": "Chloé Oversized Cable-Knit Sweater",
+        "description": "Thick knit, wide cut, comfort and style."
+    },
+    "jupe_crayon_laine_hugo_boss": {
+        "name": "Hugo Boss Wool Pencil Skirt",
+        "description": "High waist, premium wool, elegant cut for office or evening."
+    },
+    "robe_longue_plissee_valentino": {
+        "name": "Valentino Long Pleated Dress",
+        "description": "Flowing fabric, delicate pleating, long sleeves, romantic look."
+    },
+    "chemise_coton_premium_burberry": {
+        "name": "Burberry Premium Cotton Shirt",
+        "description": "Thick cotton, classic cut, discreet logo, perfect for work or casual chic."
+    },
+    "robe_portefeuille_soie_dvf": {
+        "name": "Diane von Fürstenberg Silk Wrap Dress",
+        "description": "Flowing fabric, flattering wrap cut, 3/4 sleeves, timeless look."
+    },
+    "pantalon_tailleur_dior_femme": {
+        "name": "Dior Women's Tailored Pants",
+        "description": "Elegant straight cut, wool blend fabric, couture look."
+    },
+    "pull_col_bateau_ralph_lauren": {
+        "name": "Ralph Lauren Boat Neck Sweater",
+        "description": "Merino wool, classic cut, high-end finish, ideal for winter."
+    },
+    "cardigan_long_cachemire_cucinelli": {
+        "name": "Brunello Cucinelli Long Cashmere Cardigan",
+        "description": "Ultra-soft, long cut, refined metal buttons."
+    },
+    "robe_asymetrique_givenchy": {
+        "name": "Givenchy Asymmetrical Dress",
+        "description": "Original cut, flowing fabric, long sleeve, modern look."
+    },
+    "blouse_satinee_stella_mccartney": {
+        "name": "Stella McCartney Satin Blouse",
+        "description": "Soft satin, balloon sleeves, round neck, feminine and refined style."
+    },
+    "combinaison_pantalon_balenciaga": {
+        "name": "Balenciaga Jumpsuit",
+        "description": "Straight cut, premium fabric, minimalist and chic look."
+    },
+    "manteau_oversize_acne_studios": {
+        "name": "Acne Studios Oversized Coat",
+        "description": "Wide cut, wool blend, long sleeves, casual luxury style."
+    },
+    "robe_pull_cachemire_max_mara": {
+        "name": "Max Mara Cashmere Sweater Dress",
+        "description": "Thick knit, fitted cut, long sleeves, comfort and elegance."
+    },
+    "pantalon_cuir_saint_laurent": {
+        "name": "Saint Laurent Leather Pants",
+        "description": "Premium lambskin, slim fit, rock-chic look."
+    },
+    "jupe_plissee_midi_valentino": {
+        "name": "Valentino Midi Pleated Skirt",
+        "description": "Lightweight fabric, delicate pleating, high waist, guaranteed elegance."
+    },
+    "tshirt_brode_logo_gucci": {
+        "name": "Gucci Embroidered Logo T-shirt",
+        "description": "Premium cotton, discreet embroidered logo, fitted cut."
+    },
+    "pull_col_bateau_manches_ballon_chloe": {
+        "name": "Chloé Boat Neck Sweater with Balloon Sleeves",
+        "description": "Fine wool, slightly puffy sleeves, feminine and modern look."
+    },
+    "robe_chemise_oversize_balenciaga": {
+        "name": "Balenciaga Oversized Shirt Dress",
+        "description": "Thick cotton, loose cut, urban and chic style."
+    },
+    "pantalon_palazzo_laine_max_mara": {
+        "name": "Max Mara Wool Palazzo Pants",
+        "description": "Wide cut, high waist, merino wool fabric, sophisticated look."
+    },
+    "blazer_satin_saint_laurent": {
+        "name": "Saint Laurent Satin Blazer",
+        "description": "Fitted cut, soft satin, long sleeves, ideal for evening or office."
+    },
+    "robe_longue_velours_valentino": {
+        "name": "Valentino Long Velvet Dress",
+        "description": "Premium velvet, flowing cut, long sleeves, elegant and luxurious look."
+    },
     "tom_ford_slim_fit_shirt": {
       "name": "Tom Ford Slim Fit Shirt",
       "description": "Cotton poplin shirt, slim fit, Italian collar, mother-of-pearl buttons, luxury finish."
@@ -782,126 +907,6 @@
     "shine_night_clutch": {
       "name": "Shine Night Premium Evening Clutch",
       "description": "Small elegant clutch with a shiny effect."
-    },
-    "gucci_silk_midi_dress": {
-      "name": "Gucci Silk Midi Dress",
-      "description": "Flowing silk dress with print, midi length, round neck, light long sleeves, ideal for evening or elegant event."
-    },
-    "balmain_crossed_blazer": {
-      "name": "Balmain Crossed Blazer",
-      "description": "Structured blazer in wool blend, pronounced shoulder, gold buttons, chic and modern look."
-    },
-    "loro_piana_cashmere_turtleneck_women": {
-      "name": "Loro Piana Cashmere Turtleneck",
-      "description": "Soft and thick knit, fitted cut, ideal for cold days."
-    },
-    "max_mara_wide_leg_wool_pants": {
-      "name": "Max Mara Wide-Leg Wool Pants",
-      "description": "Flowing cut, high waist, merino wool fabric, sophisticated look."
-    },
-    "diesel_premium_slim_jeans": {
-      "name": "Diesel Premium Slim Jeans",
-      "description": "Stretch denim, fitted cut, high-end finish."
-    },
-    "saint_laurent_printed_silk_blouse": {
-      "name": "Saint Laurent Printed Silk Blouse",
-      "description": "Flowing silk, subtle patterns, classic collar and long sleeves, very elegant."
-    },
-    "prada_short_wool_dress": {
-      "name": "Prada Short Wool Dress",
-      "description": "Winter dress, straight cut, thick wool fabric, long sleeves, comfortable and chic."
-    },
-    "max_mara_long_cashmere_coat": {
-      "name": "Max Mara Long Cashmere Coat",
-      "description": "Elegant cut, integrated belt, soft and warm wool."
-    },
-    "moncler_short_quilted_jacket": {
-      "name": "Moncler Short Quilted Jacket",
-      "description": "Short down jacket, warm and light, casual chic style."
-    },
-    "chloe_oversized_cable_knit_sweater": {
-      "name": "Chloé Oversized Cable-Knit Sweater",
-      "description": "Thick knit, wide cut, comfort and style."
-    },
-    "hugo_boss_wool_pencil_skirt": {
-      "name": "Hugo Boss Wool Pencil Skirt",
-      "description": "High waist, premium wool, elegant cut for office or evening."
-    },
-    "valentino_long_pleated_dress": {
-      "name": "Valentino Long Pleated Dress",
-      "description": "Flowing fabric, delicate pleating, long sleeves, romantic look."
-    },
-    "burberry_premium_cotton_shirt": {
-      "name": "Burberry Premium Cotton Shirt",
-      "description": "Thick cotton, classic cut, discreet logo, perfect for work or casual chic."
-    },
-    "dvf_silk_wrap_dress": {
-      "name": "Diane von Fürstenberg Silk Wrap Dress",
-      "description": "Flowing fabric, flattering wrap cut, 3/4 sleeves, timeless look."
-    },
-    "dior_tailored_pants_women": {
-      "name": "Dior Women's Tailored Pants",
-      "description": "Elegant straight cut, wool blend fabric, couture look."
-    },
-    "ralph_lauren_boat_neck_sweater": {
-      "name": "Ralph Lauren Boat Neck Sweater",
-      "description": "Merino wool, classic cut, high-end finish, ideal for winter."
-    },
-    "cucinelli_long_cashmere_cardigan": {
-      "name": "Brunello Cucinelli Long Cashmere Cardigan",
-      "description": "Ultra-soft, long cut, refined metal buttons."
-    },
-    "givenchy_asymmetrical_dress": {
-      "name": "Givenchy Asymmetrical Dress",
-      "description": "Original cut, flowing fabric, long sleeve, modern look."
-    },
-    "stella_mccartney_satin_blouse": {
-      "name": "Stella McCartney Satin Blouse",
-      "description": "Soft satin, balloon sleeves, round neck, feminine and refined style."
-    },
-    "balenciaga_jumpsuit": {
-      "name": "Balenciaga Jumpsuit",
-      "description": "Straight cut, premium fabric, minimalist and chic look."
-    },
-    "acne_studios_oversized_coat": {
-      "name": "Acne Studios Oversized Coat",
-      "description": "Wide cut, wool blend, long sleeves, casual luxury style."
-    },
-    "max_mara_cashmere_sweater_dress": {
-      "name": "Max Mara Cashmere Sweater Dress",
-      "description": "Thick knit, fitted cut, long sleeves, comfort and elegance."
-    },
-    "saint_laurent_leather_pants": {
-      "name": "Saint Laurent Leather Pants",
-      "description": "Premium lambskin, slim fit, rock-chic look."
-    },
-    "valentino_midi_pleated_skirt": {
-      "name": "Valentino Midi Pleated Skirt",
-      "description": "Lightweight fabric, delicate pleating, high waist, guaranteed elegance."
-    },
-    "gucci_embroidered_logo_tshirt": {
-      "name": "Gucci Embroidered Logo T-shirt",
-      "description": "Premium cotton, discreet embroidered logo, fitted cut."
-    },
-    "chloe_boat_neck_sweater": {
-      "name": "Chloé Boat Neck Sweater with Balloon Sleeves",
-      "description": "Fine wool, slightly puffy sleeves, feminine and modern look."
-    },
-    "balenciaga_oversized_shirt_dress": {
-      "name": "Balenciaga Oversized Shirt Dress",
-      "description": "Thick cotton, loose cut, urban and chic style."
-    },
-    "max_mara_wool_palazzo_pants": {
-      "name": "Max Mara Wool Palazzo Pants",
-      "description": "Wide cut, high waist, merino wool fabric, sophisticated look."
-    },
-    "saint_laurent_satin_blazer": {
-      "name": "Saint Laurent Satin Blazer",
-      "description": "Fitted cut, soft satin, long sleeves, ideal for evening or office."
-    },
-    "valentino_long_velvet_dress": {
-      "name": "Valentino Long Velvet Dress",
-      "description": "Premium velvet, flowing cut, long sleeves, elegant and luxurious look."
     }
   }
 }

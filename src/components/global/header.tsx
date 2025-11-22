@@ -27,6 +27,7 @@ export function Header() {
     { href: '/men', label: t('nav.men') },
     { href: '/clothing', label: t('nav.clothing') },
     { href: '/accessories', label: t('nav.accessories') },
+    { href: '/shoes', label: t('nav.shoes') },
     { href: '/recommendations', label: t('nav.ai_stylist') },
   ];
 

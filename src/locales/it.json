@@ -5,6 +5,7 @@
     "men": "Uomini",
     "clothing": "Abbigliamento",
     "accessories": "Accessori",
+    "shoes": "Scarpe",
     "ai_stylist": "Stilista AI"
   },
   "header": {
@@ -142,6 +143,10 @@
   "accessories_page": {
     "title": "Accessori",
     "description": "Il tocco finale per uno stile perfetto."
+  },
+  "shoes_page": {
+    "title": "Scarpe",
+    "description": "Completa il tuo look con la nostra selezione di calzature di lusso."
   },
    "winter_page": {
     "title": "Collezione Invernale",
@@ -423,6 +428,126 @@
     "colors": "Colori"
   },
   "products": {
+    "robe_midi_soie_gucci": {
+        "name": "Abito midi in seta Gucci",
+        "description": "Abito in seta fluido con stampa, lunghezza midi, girocollo, maniche lunghe e leggere, ideale per eventi serali o eleganti."
+    },
+    "blazer_croise_balmain": {
+        "name": "Blazer incrociato Balmain",
+        "description": "Blazer strutturato in misto lana, spalla pronunciata, bottoni dorati, look chic e moderno."
+    },
+    "pull_col_roule_cachemire_loro_piana_femme": {
+        "name": "Dolcevita in cashmere Loro Piana",
+        "description": "Maglia morbida e spessa, taglio aderente, ideale per le giornate fredde."
+    },
+    "pantalon_large_laine_max_mara": {
+        "name": "Pantaloni larghi in lana Max Mara",
+        "description": "Taglio fluido, vita alta, tessuto in lana merino, look sofisticato."
+    },
+    "jean_slim_premium_diesel": {
+        "name": "Jeans slim premium Diesel",
+        "description": "Denim elasticizzato, taglio aderente, finitura di alta gamma."
+    },
+    "chemisier_soie_imprimee_saint_laurent": {
+        "name": "Blusa in seta stampata Saint Laurent",
+        "description": "Seta fluida, motivi discreti, colletto classico e maniche lunghe, molto elegante."
+    },
+    "robe_courte_laine_prada": {
+        "name": "Abito corto in lana Prada",
+        "description": "Abito invernale, taglio dritto, tessuto in lana spessa, maniche lunghe, comodo e chic."
+    },
+    "manteau_long_cachemire_max_mara": {
+        "name": "Cappotto lungo in cashmere Max Mara",
+        "description": "Taglio elegante, cintura integrata, lana morbida e calda."
+    },
+    "veste_courte_matelassee_moncler": {
+        "name": "Giacca corta trapuntata Moncler",
+        "description": "Piumino corto, caldo e leggero, stile casual chic."
+    },
+    "pull_oversize_torsade_chloe": {
+        "name": "Maglione oversize a trecce Chloé",
+        "description": "Maglia spessa, taglio ampio, comfort e stile."
+    },
+    "jupe_crayon_laine_hugo_boss": {
+        "name": "Gonna a tubino in lana Hugo Boss",
+        "description": "Vita alta, lana premium, taglio elegante per ufficio o sera."
+    },
+    "robe_longue_plissee_valentino": {
+        "name": "Abito lungo plissettato Valentino",
+        "description": "Tessuto fluido, plissettatura delicata, maniche lunghe, look romantico."
+    },
+    "chemise_coton_premium_burberry": {
+        "name": "Camicia in cotone premium Burberry",
+        "description": "Cotone spesso, taglio classico, logo discreto, perfetta per il lavoro o un look casual chic."
+    },
+    "robe_portefeuille_soie_dvf": {
+        "name": "Abito a portafoglio in seta Diane von Fürstenberg",
+        "description": "Tessuto fluido, taglio a portafoglio lusinghiero, maniche a 3/4, look senza tempo."
+    },
+    "pantalon_tailleur_dior_femme": {
+        "name": "Pantaloni sartoriali da donna Dior",
+        "description": "Taglio dritto elegante, tessuto in misto lana, look sartoriale."
+    },
+    "pull_col_bateau_ralph_lauren": {
+        "name": "Maglione a barchetta Ralph Lauren",
+        "description": "Lana merino, taglio classico, finitura di alta gamma, ideale per l'inverno."
+    },
+    "cardigan_long_cachemire_cucinelli": {
+        "name": "Cardigan lungo in cashmere Brunello Cucinelli",
+        "description": "Ultra morbido, taglio lungo, bottoni in metallo raffinati."
+    },
+    "robe_asymetrique_givenchy": {
+        "name": "Abito asimmetrico Givenchy",
+        "description": "Taglio originale, tessuto fluido, manica lunga, look moderno."
+    },
+    "blouse_satinee_stella_mccartney": {
+        "name": "Blusa in raso Stella McCartney",
+        "description": "Raso morbido, maniche a palloncino, girocollo, stile femminile e raffinato."
+    },
+    "combinaison_pantalon_balenciaga": {
+        "name": "Tuta Balenciaga",
+        "description": "Taglio dritto, tessuto premium, look minimalista e chic."
+    },
+    "manteau_oversize_acne_studios": {
+        "name": "Cappotto oversize Acne Studios",
+        "description": "Taglio ampio, misto lana, maniche lunghe, stile casual di lusso."
+    },
+    "robe_pull_cachemire_max_mara": {
+        "name": "Abito maglione in cashmere Max Mara",
+        "description": "Maglia spessa, taglio aderente, maniche lunghe, comfort ed eleganza."
+    },
+    "pantalon_cuir_saint_laurent": {
+        "name": "Pantaloni in pelle Saint Laurent",
+        "description": "Pelle di agnello premium, vestibilità slim, look rock-chic."
+    },
+    "jupe_plissee_midi_valentino": {
+        "name": "Gonna midi plissettata Valentino",
+        "description": "Tessuto leggero, plissettatura delicata, vita alta, eleganza garantita."
+    },
+    "tshirt_brode_logo_gucci": {
+        "name": "T-shirt con logo ricamato Gucci",
+        "description": "Cotone premium, logo ricamato discreto, taglio aderente."
+    },
+    "pull_col_bateau_manches_ballon_chloe": {
+        "name": "Maglione a barchetta con maniche a palloncino Chloé",
+        "description": "Lana fine, maniche leggermente a sbuffo, look femminile e moderno."
+    },
+    "robe_chemise_oversize_balenciaga": {
+        "name": "Abito a camicia oversize Balenciaga",
+        "description": "Cotone spesso, taglio ampio, stile urbano e chic."
+    },
+    "pantalon_palazzo_laine_max_mara": {
+        "name": "Pantaloni palazzo in lana Max Mara",
+        "description": "Taglio ampio, vita alta, tessuto in lana merino, look sofisticato."
+    },
+    "blazer_satin_saint_laurent": {
+        "name": "Blazer in raso Saint Laurent",
+        "description": "Taglio aderente, raso morbido, maniche lunghe, ideale per la sera o l'ufficio."
+    },
+    "robe_longue_velours_valentino": {
+        "name": "Abito lungo in velluto Valentino",
+        "description": "Velluto premium, taglio fluido, maniche lunghe, look elegante e lussuoso."
+    },
     "tom_ford_slim_fit_shirt": {
       "name": "Camicia slim fit di Tom Ford",
       "description": "Camicia in popeline di cotone, vestibilità slim, collo italiano, bottoni in madreperla, finitura di lusso."
@@ -782,126 +907,6 @@
     "shine_night_clutch": {
       "name": "Pochette da sera – Shine Night Premium",
       "description": "Piccola ed elegante pochette con effetto lucido."
-    },
-    "gucci_silk_midi_dress": {
-      "name": "Abito midi in seta Gucci",
-      "description": "Abito in seta fluido con stampa, lunghezza midi, girocollo, maniche lunghe e leggere, ideale per eventi serali o eleganti."
-    },
-    "balmain_crossed_blazer": {
-      "name": "Blazer incrociato Balmain",
-      "description": "Blazer strutturato in misto lana, spalla pronunciata, bottoni dorati, look chic e moderno."
-    },
-    "loro_piana_cashmere_turtleneck_women": {
-      "name": "Dolcevita in cashmere Loro Piana",
-      "description": "Maglia morbida e spessa, taglio aderente, ideale per le giornate fredde."
-    },
-    "max_mara_wide_leg_wool_pants": {
-      "name": "Pantaloni larghi in lana Max Mara",
-      "description": "Taglio fluido, vita alta, tessuto in lana merino, look sofisticato."
-    },
-    "diesel_premium_slim_jeans": {
-      "name": "Jeans slim premium Diesel",
-      "description": "Denim elasticizzato, taglio aderente, finitura di alta gamma."
-    },
-    "saint_laurent_printed_silk_blouse": {
-      "name": "Blusa in seta stampata Saint Laurent",
-      "description": "Seta fluida, motivi discreti, colletto classico e maniche lunghe, molto elegante."
-    },
-    "prada_short_wool_dress": {
-      "name": "Abito corto in lana Prada",
-      "description": "Abito invernale, taglio dritto, tessuto in lana spessa, maniche lunghe, comodo e chic."
-    },
-    "max_mara_long_cashmere_coat": {
-      "name": "Cappotto lungo in cashmere Max Mara",
-      "description": "Taglio elegante, cintura integrata, lana morbida e calda."
-    },
-    "moncler_short_quilted_jacket": {
-      "name": "Giacca corta trapuntata Moncler",
-      "description": "Piumino corto, caldo e leggero, stile casual chic."
-    },
-    "chloe_oversized_cable_knit_sweater": {
-      "name": "Maglione oversize a trecce Chloé",
-      "description": "Maglia spessa, taglio ampio, comfort e stile."
-    },
-    "hugo_boss_wool_pencil_skirt": {
-      "name": "Gonna a tubino in lana Hugo Boss",
-      "description": "Vita alta, lana premium, taglio elegante per ufficio o sera."
-    },
-    "valentino_long_pleated_dress": {
-      "name": "Abito lungo plissettato Valentino",
-      "description": "Tessuto fluido, plissettatura delicata, maniche lunghe, look romantico."
-    },
-    "burberry_premium_cotton_shirt": {
-      "name": "Camicia in cotone premium Burberry",
-      "description": "Cotone spesso, taglio classico, logo discreto, perfetta per il lavoro o un look casual chic."
-    },
-    "dvf_silk_wrap_dress": {
-      "name": "Abito a portafoglio in seta Diane von Fürstenberg",
-      "description": "Tessuto fluido, taglio a portafoglio lusinghiero, maniche a 3/4, look senza tempo."
-    },
-    "dior_tailored_pants_women": {
-      "name": "Pantaloni sartoriali da donna Dior",
-      "description": "Taglio dritto elegante, tessuto in misto lana, look sartoriale."
-    },
-    "ralph_lauren_boat_neck_sweater": {
-      "name": "Maglione a barchetta Ralph Lauren",
-      "description": "Lana merino, taglio classico, finitura di alta gamma, ideale per l'inverno."
-    },
-    "cucinelli_long_cashmere_cardigan": {
-      "name": "Cardigan lungo in cashmere Brunello Cucinelli",
-      "description": "Ultra morbido, taglio lungo, bottoni in metallo raffinati."
-    },
-    "givenchy_asymmetrical_dress": {
-      "name": "Abito asimmetrico Givenchy",
-      "description": "Taglio originale, tessuto fluido, manica lunga, look moderno."
-    },
-    "stella_mccartney_satin_blouse": {
-      "name": "Blusa in raso Stella McCartney",
-      "description": "Raso morbido, maniche a palloncino, girocollo, stile femminile e raffinato."
-    },
-    "balenciaga_jumpsuit": {
-      "name": "Tuta Balenciaga",
-      "description": "Taglio dritto, tessuto premium, look minimalista e chic."
-    },
-    "acne_studios_oversized_coat": {
-      "name": "Cappotto oversize Acne Studios",
-      "description": "Taglio ampio, misto lana, maniche lunghe, stile casual di lusso."
-    },
-    "max_mara_cashmere_sweater_dress": {
-      "name": "Abito maglione in cashmere Max Mara",
-      "description": "Maglia spessa, taglio aderente, maniche lunghe, comfort ed eleganza."
-    },
-    "saint_laurent_leather_pants": {
-      "name": "Pantaloni in pelle Saint Laurent",
-      "description": "Pelle di agnello premium, vestibilità slim, look rock-chic."
-    },
-    "valentino_midi_pleated_skirt": {
-      "name": "Gonna midi plissettata Valentino",
-      "description": "Tessuto leggero, plissettatura delicata, vita alta, eleganza garantita."
-    },
-    "gucci_embroidered_logo_tshirt": {
-      "name": "T-shirt con logo ricamato Gucci",
-      "description": "Cotone premium, logo ricamato discreto, taglio aderente."
-    },
-    "chloe_boat_neck_sweater": {
-      "name": "Maglione a barchetta con maniche a palloncino Chloé",
-      "description": "Lana fine, maniche leggermente a sbuffo, look femminile e moderno."
-    },
-    "balenciaga_oversized_shirt_dress": {
-      "name": "Abito a camicia oversize Balenciaga",
-      "description": "Cotone spesso, taglio ampio, stile urbano e chic."
-    },
-    "max_mara_wool_palazzo_pants": {
-      "name": "Pantaloni palazzo in lana Max Mara",
-      "description": "Taglio ampio, vita alta, tessuto in lana merino, look sofisticato."
-    },
-    "saint_laurent_satin_blazer": {
-      "name": "Blazer in raso Saint Laurent",
-      "description": "Taglio aderente, raso morbido, maniche lunghe, ideale per la sera o l'ufficio."
-    },
-    "valentino_long_velvet_dress": {
-      "name": "Abito lungo in velluto Valentino",
-      "description": "Velluto premium, taglio fluido, maniche lunghe, look elegante e lussuoso."
     }
   }
 }
