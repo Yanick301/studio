@@ -112,7 +112,7 @@ export default function ContactPage() {
               <Mail className="h-6 w-6 text-primary" />
               <div>
                 <h4 className="font-semibold">Email</h4>
-                <a href="mailto:service@ezentials.com" className="text-muted-foreground hover:text-primary">service@ezentials.com</a>
+                <a href="mailto:ezcentials@gmail.com" className="text-muted-foreground hover:text-primary">ezcentials@gmail.com</a>
               </div>
             </div>
              <div className="flex items-center gap-4">
