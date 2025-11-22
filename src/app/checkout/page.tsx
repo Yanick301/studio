@@ -7,9 +7,8 @@ import { ShopPageLayout } from "@/components/products/shop-page-layout";
 import { useTranslation } from "@/hooks/use-translation";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
-import { Label } from "@/components/ui/label";
 import { Separator } from "@/components/ui/separator";
-import { Lock } from "lucide-react";
+import { Lock, Loader2 } from "lucide-react";
 import { useCart } from '@/contexts/cart-context';
 import {
   Form,
@@ -20,35 +19,52 @@ import {
   FormMessage,
 } from "@/components/ui/form";
 import { toast } from '@/hooks/use-toast';
+import { CardElement, useStripe, useElements } from '@stripe/react-stripe-js';
+import { useState } from 'react';
+import { StripeCardElementOptions } from '@stripe/stripe-js';
 
-const checkoutSchema = z.object({
+const shippingSchema = z.object({
   fullName: z.string().min(2, { message: "Le nom complet est requis." }),
   address: z.string().min(5, { message: "L'adresse est requise." }),
   city: z.string().min(2, { message: "La ville est requise." }),
   zip: z.string().min(3, { message: "Le code postal est requis." }),
   country: z.string().min(2, { message: "Le pays est requis." }),
-  cardNumber: z.string().regex(/^(?:\d{4} ?){3}\d{4}$/, { message: "Numéro de carte invalide." }),
-  expiryDate: z.string().regex(/^(0[1-9]|1[0-2])\/?([0-9]{2})$/, { message: "Date MM/AA invalide." }),
-  cvc: z.string().regex(/^\d{3,4}$/, { message: "CVC invalide." }),
 });
 
-type CheckoutFormValues = z.infer<typeof checkoutSchema>;
+type ShippingFormValues = z.infer<typeof shippingSchema>;
+
+const cardElementOptions: StripeCardElementOptions = {
+    style: {
+      base: {
+        fontSize: '16px',
+        color: '#424770',
+        '::placeholder': {
+          color: '#aab7c4',
+        },
+      },
+      invalid: {
+        color: '#9e2146',
+      },
+    },
+};
+
 
 export default function CheckoutPage() {
     const { t } = useTranslation();
-    const { cart } = useCart();
+    const { cart, clearCart } = useCart();
+    const stripe = useStripe();
+    const elements = useElements();
+    const [isProcessing, setIsProcessing] = useState(false);
+    const [errorMessage, setErrorMessage] = useState<string | null>(null);
     
-    const form = useForm<CheckoutFormValues>({
-        resolver: zodResolver(checkoutSchema),
+    const form = useForm<ShippingFormValues>({
+        resolver: zodResolver(shippingSchema),
         defaultValues: {
             fullName: '',
             address: '',
             city: '',
             zip: '',
             country: '',
-            cardNumber: '',
-            expiryDate: '',
-            cvc: '',
         },
     });
 
@@ -56,13 +72,97 @@ export default function CheckoutPage() {
     const shipping = 0;
     const total = subtotal + shipping;
 
-    const onSubmit: SubmitHandler<CheckoutFormValues> = (data) => {
-        console.log("Form data submitted:", data);
+    const onSubmit: SubmitHandler<ShippingFormValues> = async (data) => {
+        if (!stripe || !elements) {
+          // Stripe.js has not yet loaded.
+          // Make sure to disable form submission until Stripe.js has loaded.
+          return;
+        }
+
+        setIsProcessing(true);
+        setErrorMessage(null);
+
+        const cardElement = elements.getElement(CardElement);
+
+        if (!cardElement) {
+             setIsProcessing(false);
+             setErrorMessage("L'élément de carte n'a pas été trouvé. Veuillez rafraîchir la page.");
+             return;
+        }
+
+        const { error, paymentMethod } = await stripe.createPaymentMethod({
+            type: 'card',
+            card: cardElement,
+            billing_details: {
+                name: data.fullName,
+                address: {
+                    line1: data.address,
+                    city: data.city,
+                    postal_code: data.zip,
+                    country: data.country,
+                }
+            },
+        });
+
+        if (error) {
+            setErrorMessage(error.message || "Une erreur est survenue lors de la création du moyen de paiement.");
+            setIsProcessing(false);
+            return;
+        }
+
+        // =================================================================
+        // ÉTAPE CÔTÉ SERVEUR (À IMPLÉMENTER)
+        // =================================================================
+        // Ici, vous enverriez paymentMethod.id à votre backend.
+        // Votre backend créerait et confirmerait un PaymentIntent Stripe.
+        // Exemple d'appel à une API que vous créeriez :
+        /*
+        const response = await fetch('/api/create-payment-intent', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+                paymentMethodId: paymentMethod.id,
+                amount: Math.round(total * 100), // Montant en centimes
+                cart: cart,
+            }),
+        });
+
+        const paymentResult = await response.json();
+
+        if (paymentResult.error) {
+            setErrorMessage(paymentResult.error);
+            setIsProcessing(false);
+            return;
+        } 
+        
+        // Gérer la redirection 3D Secure si nécessaire
+        if (paymentResult.requiresAction) {
+             const { error: errorAction } = await stripe.handleNextAction(paymentResult.clientSecret);
+             if (errorAction) {
+                setErrorMessage(errorAction.message || "Une erreur d'authentification est survenue.");
+                setIsProcessing(false);
+                return;
+             }
+        }
+        */
+        // =================================================================
+        // FIN DE L'ÉTAPE CÔTÉ SERVEUR
+        // =================================================================
+        
+        // Simulation d'un paiement réussi pour l'instant
+        console.log("PaymentMethod créé:", paymentMethod);
+        
+        // Simulating a delay for the backend call
+        await new Promise(resolve => setTimeout(resolve, 1500));
+
         toast({
             title: "Paiement réussi !",
             description: "Votre commande a été passée avec succès.",
         });
-        // Here you would typically process the payment with Stripe/PayPal
+        
+        clearCart();
+        setIsProcessing(false);
+        // router.push('/confirmation-commande'); // Rediriger vers une page de confirmation
     };
 
     return (
@@ -141,43 +241,10 @@ export default function CheckoutPage() {
 
                         <div>
                             <h2 className="text-2xl font-semibold mb-4">{t('checkout_page.payment_details')}</h2>
-                            <div className="space-y-4">
-                                <FormField
-                                    control={form.control}
-                                    name="cardNumber"
-                                    render={({ field }) => (
-                                        <FormItem>
-                                            <FormLabel>{t('checkout_page.card_number')}</FormLabel>
-                                            <FormControl><Input placeholder="0000 0000 0000 0000" {...field} /></FormControl>
-                                            <FormMessage />
-                                        </FormItem>
-                                    )}
-                                />
-                                <div className="grid grid-cols-2 gap-4">
-                                    <FormField
-                                        control={form.control}
-                                        name="expiryDate"
-                                        render={({ field }) => (
-                                            <FormItem>
-                                                <FormLabel>{t('checkout_page.expiry_date')}</FormLabel>
-                                                <FormControl><Input placeholder="MM/AA" {...field} /></FormControl>
-                                                <FormMessage />
-                                            </FormItem>
-                                        )}
-                                    />
-                                    <FormField
-                                        control={form.control}
-                                        name="cvc"
-                                        render={({ field }) => (
-                                            <FormItem>
-                                                <FormLabel>{t('checkout_page.cvc')}</FormLabel>
-                                                <FormControl><Input placeholder="CVC" {...field} /></FormControl>
-                                                <FormMessage />
-                                            </FormItem>
-                                        )}
-                                    />
-                                </div>
+                            <div className="p-4 border rounded-md bg-muted/20">
+                               <CardElement options={cardElementOptions} />
                             </div>
+                             {errorMessage && <p className="text-sm text-destructive mt-2">{errorMessage}</p>}
                         </div>
                     </div>
 
@@ -208,8 +275,9 @@ export default function CheckoutPage() {
                                 <span>{total.toFixed(2)} €</span>
                             </div>
                         </div>
-                        <Button type="submit" className="w-full mt-8" size="lg">
-                            <Lock className="mr-2 h-4 w-4" /> {t('checkout_page.pay_now')}
+                        <Button type="submit" className="w-full mt-8" size="lg" disabled={!stripe || isProcessing || cart.length === 0}>
+                            {isProcessing ? <Loader2 className="mr-2 h-4 w-4 animate-spin" /> : <Lock className="mr-2 h-4 w-4" />}
+                            {isProcessing ? 'Traitement...' : `${t('checkout_page.pay_now')} ${total.toFixed(2)} €`}
                         </Button>
                         <p className="text-xs text-muted-foreground mt-4 text-center">{t('checkout_page.secure_payment')}</p>
                     </div>

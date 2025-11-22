@@ -6,6 +6,7 @@ import { Toaster } from "@/components/ui/toaster";
 import { TranslationProvider } from '@/contexts/translation-context';
 import { FirebaseClientProvider } from '@/firebase/client-provider';
 import { CartProvider } from '@/contexts/cart-context';
+import { StripeProvider } from '@/contexts/stripe-provider';
 
 
 export const metadata: Metadata = {
@@ -28,14 +29,16 @@ export default function RootLayout({
       <body className="font-body antialiased">
         <FirebaseClientProvider>
           <TranslationProvider>
-            <CartProvider>
-              <div className="flex flex-col min-h-screen">
-                <Header />
-                <main className="flex-grow">{children}</main>
-                <Footer />
-              </div>
-              <Toaster />
-            </CartProvider>
+            <StripeProvider>
+              <CartProvider>
+                <div className="flex flex-col min-h-screen">
+                  <Header />
+                  <main className="flex-grow">{children}</main>
+                  <Footer />
+                </div>
+                <Toaster />
+              </CartProvider>
+            </StripeProvider>
           </TranslationProvider>
         </FirebaseClientProvider>
       </body>
