@@ -100,43 +100,8 @@ export default function Home() {
         </div>
       </div>
       
-      {/* Trending Products Section */}
-      <section className="py-16 md:py-24 bg-card">
-        <div className="container">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold font-headline">{t('home.trending_products')}</h2>
-            <p className="mt-2 text-muted-foreground text-lg">{t('home.trending_description')}</p>
-          </div>
-          <Carousel
-            opts={{
-              align: "start",
-              loop: true,
-            }}
-            className="w-full"
-          >
-            <CarouselContent>
-              {trendingProducts.map((product) => (
-                <CarouselItem key={product.id} className="sm:basis-1/2 lg:basis-1/3 xl:basis-1/4">
-                  <div className="p-1">
-                    <ProductCard product={product} />
-                  </div>
-                </CarouselItem>
-              ))}
-            </CarouselContent>
-            <CarouselPrevious className="hidden lg:flex" />
-            <CarouselNext className="hidden lg:flex" />
-          </Carousel>
-          <div className="text-center mt-12">
-            <Button asChild variant="outline">
-              <Link href="/products">{t('home.view_all_products')} <ArrowRight className="ml-2 h-4 w-4" /></Link>
-            </Button>
-          </div>
-        </div>
-      </section>
-
-
-      {/* Maison Categories Section */}
-      <section className="py-16 md:py-24 bg-background">
+       {/* Maison Categories Section */}
+       <section className="py-16 md:py-24 bg-background">
         <div className="container">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold font-headline">{t('home.maison_menu.title')}</h2>
@@ -169,6 +134,28 @@ export default function Home() {
             <CarouselPrevious className="hidden lg:flex" />
             <CarouselNext className="hidden lg:flex" />
           </Carousel>
+        </div>
+      </section>
+
+      {/* Trending Products Section */}
+      <section className="py-16 md:py-24 bg-card">
+        <div className="container">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold font-headline">{t('home.trending_products')}</h2>
+            <p className="mt-2 text-muted-foreground text-lg">{t('home.trending_description')}</p>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+            {trendingProducts.map((product, index) => (
+              <div key={product.id} className="animate-fade-in-up" style={{ animationDelay: `${index * 100}ms`}}>
+                 <ProductCard product={product} />
+              </div>
+            ))}
+          </div>
+          <div className="text-center mt-12">
+            <Button asChild variant="outline">
+              <Link href="/products">{t('home.view_all_products')} <ArrowRight className="ml-2 h-4 w-4" /></Link>
+            </Button>
+          </div>
         </div>
       </section>
       

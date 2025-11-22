@@ -375,434 +375,434 @@
   },
   "products": {
     "monarque_blazer": {
-      "name": "Blazer Croisé 'Le Monarque' en Laine Vierge",
-      "description": "Pièce maîtresse de l'élégance masculine, ce blazer à la coupe croisée et structurée est confectionné dans une laine vierge italienne de prestige. Son allure affirmée et sophistiquée en fait un incontournable des vestiaires raffinés.",
-      "details": "Laine vierge Super 120s d'Italie. Doublure en cupro respirant pour un confort optimal. Boutons en corne véritable, gage d'authenticité. Nettoyage à sec uniquement."
+      "name": "Blazer Croisé 'Le Monarque'",
+      "description": "Pièce maîtresse de l'élégance masculine. Confectionné dans une laine vierge italienne, sa coupe croisée et structurée offre une allure affirmée et sophistiquée.",
+      "details": "Laine vierge Super 120s d'Italie. Doublure en cupro respirant. Boutons en corne véritable. Nettoyage à sec uniquement."
     },
     "aquila_suit": {
-      "name": "Costume 'Aquila' 3 Pièces en Cachemire",
-      "description": "Un costume d'exception pour les grandes occasions. Le mélange de laine et de cachemire confère à ce trois-pièces un tombé parfait et un lustre subtil, signature d'un luxe discret et assuré.",
-      "details": "Mélange 85% laine, 15% cachemire. Ensemble comprenant veste, gilet et pantalon. Finitions entièrement réalisées à la main par nos maîtres tailleurs."
+      "name": "Costume 'Héritage' en Laine et Soie",
+      "description": "Un costume d'exception pour les grandes occasions. Le mélange de laine et de soie confère à ce trois-pièces un tombé parfait et un lustre subtil, signature d'un luxe discret.",
+      "details": "Mélange 85% laine, 15% soie. Ensemble comprenant veste, gilet et pantalon. Finitions entièrement réalisées à la main par nos maîtres tailleurs."
     },
     "pur_shirt": {
-      "name": "Chemise 'Pureté' en Coton d'Égypte",
-      "description": "La chemise blanche, réinventée dans sa plus pure expression. Tissée dans un coton d'Égypte d'une douceur exceptionnelle, elle présente un col français et des hirondelles de renfort pour une durabilité accrue.",
-      "details": "100% Coton d'Égypte. Col français et poignets mousquetaires pour une élégance formelle. Boutons en nacre d'Australie. Coupe ajustée."
+      "name": "Chemise 'L'Essentielle' en Coton Pima",
+      "description": "La chemise blanche, réinventée. Tissée dans un coton Pima péruvien d'une douceur exceptionnelle, elle présente un col français et des hirondelles de renfort pour une durabilité accrue.",
+      "details": "100% Coton Pima du Pérou. Col français, poignets mousquetaires. Boutons en nacre d'Australie. Coupe ajustée."
     },
     "nord_coat": {
-      "name": "Manteau Long 'Nordique' en Cachemire Mélangé",
-      "description": "L'élégance scandinave par excellence. Ce manteau long en cachemire mélangé, à la coupe minimaliste, vous enveloppe de chaleur et de douceur. Un investissement pour toute une vie.",
-      "details": "Mélange de cachemire de Mongolie et de laine. Non doublé pour une légèreté incomparable. Col tailleur et poches passepoilées pour une ligne épurée."
-    },
-    "soir_blazer": {
-      "name": "Blazer 'Soirée' en Velours Côtelé",
-      "description": "L'alternative chic au blazer traditionnel. Ce blazer en velours côtelé de soie offre une texture riche et un confort inégalé, parfait pour une élégance décontractée en soirée.",
-      "details": "Velours de soie et coton. Doublure en satin de soie. Coupe ajustée mais confortable. Deux poches plaquées et une poche poitrine."
-    },
-    "silence_turtleneck": {
-      "name": "Col Roulé 'Silence' en Mérinos",
-      "description": "Une caresse sur la peau. Ce col roulé, tricoté dans un fil de laine mérinos extra-fine, est d'un confort absolu et d'une polyvalence sans faille. L'essentiel de l'hiver.",
-      "details": "100% Laine Mérinos extra-fine. Tricotage jauge fine pour une douceur maximale. Bords-côtes aux poignets et à la taille pour un ajustement parfait."
-    },
-    "cache_chino": {
-      "name": "Pantalon Chino 'Flâneur' Tailoring",
-      "description": "L'alternative décontractée au pantalon de costume. Notre chino est coupé dans une gabardine de coton stretch pour un confort optimal, avec une coupe ajustée et des finitions tailleur.",
-      "details": "Gabardine de coton stretch de qualité supérieure. Fermeture à agrafe et zip pour une finition nette. Poches italiennes et poches arrière passepoilées."
-    },
-    "forge_jeans": {
-      "name": "Jean Brut 'La Forge' en Selvedge",
-      "description": "L'authenticité d'un vrai jean. Taillé dans une toile selvedge japonaise de 14.5oz, ce jean brut se patinera avec le temps pour devenir une pièce unique, la vôtre.",
-      "details": "Denim selvedge japonais 14.5oz. Coupe droite classique intemporelle. Braguette à boutons siglés. Ourlets réalisés en point de chaînette."
-    },
-    "atlas_parka": {
-      "name": "Parka 'Atlas' Technique Imperméable",
-      "description": "La performance avec style. Cette parka est fabriquée dans un tissu technique japonais triple couche, imperméable et respirant, avec des coutures thermosoudées pour une protection totale.",
-      "details": "Tissu technique japonais triple couche imperméable et respirant. Coutures entièrement thermosoudées. Capuche amovible pour plus de polyvalence."
-    },
-    "cuiron_jacket": {
-      "name": "Veste en Cuir 'Cuiron' d'Agneau",
-      "description": "Une icône réinventée. Ce blouson de motard est taillé dans un cuir d'agneau plongé d'une souplesse exceptionnelle qui se patinera superbement avec le temps.",
-      "details": "Cuir d'agneau plongé de première qualité. Zips Riri et détails en palladium brossé. Doublure en satin matelassé pour plus de confort."
-    },
-    "pluie_royale_trench": {
-      "name": "Trench-Coat 'Pluie Royale' en Coton Ciré",
-      "description": "Un classique indémodable revisité. Notre trench est confectionné dans une gabardine de coton ciré britannique, avec tous les détails traditionnels : bavolets, ceinture et pattes d'épaule.",
-      "details": "Gabardine de coton ciré déperlante. Doublure à carreaux signature. Boutons en corne véritable. Coupe classique et fonctionnelle."
-    },
-    "breeze_vest": {
-      "name": "Gilet Matelassé 'Breeze' Léger",
-      "description": "La pièce de mi-saison idéale. Ultra-léger, ce gilet sans manches est garni d'un duvet d'oie de haute qualité pour une chaleur ciblée sans volume.",
-      "details": "Tissu micro-ripstop japonais déperlant. Garnissage en duvet d'oie 90/10. Peut se replier dans sa propre poche pour un transport facile."
-    },
-    "azur_shirt": {
-      "name": "Chemise en Lin Lavé 'Azur'",
-      "description": "L'élégance estivale par excellence. Tissé dans le meilleur lin irlandais, ce chemisier offre une fraîcheur et une texture uniques, qui s'embellissent à chaque lavage.",
-      "details": "100% Lin irlandais de la maison Baird McNutt. Coupe décontractée. Boutons en nacre. Lavé pour une douceur immédiate."
-    },
-    "nocturne_tuxedo": {
-      "name": "Costume Smoking 'Nocturne' en Satin",
-      "description": "Pour les moments inoubliables. Ce smoking est coupé dans un grain de poudre traditionnel avec un revers en satin de soie. La quintessence de l'élégance formelle.",
-      "details": "Laine grain de poudre. Revers et passepoils en satin de soie. Pantalon avec bande de satin latérale. Coupe ajustée."
-    },
-    "rivage_shorts": {
-      "name": "Short Tailoring 'Rivage' en Laine Légère",
-      "description": "Le chic décontracté pour l'été. Ce bermuda à pinces est taillé dans une toile de laine et viscose pour un tombé impeccable et une résistance au froissage.",
-      "details": "Mélange laine légère et viscose. Taille haute avec doubles pinces. Fermeture par agrafe et zip pour une finition propre."
-    },
-    "heritage_cardigan": {
-      "name": "Cardigan Boutonné 'Héritage' en Cachemire",
-      "description": "Une pièce polyvalente, entre formel et décontracté. Ce cardigan à col châle est tricoté dans une laine mérinos extra-fine, avec des boutons en cuir tressé.",
-      "details": "100% Laine Mérinos extra-fine. Col châle enveloppant. Poches plaquées pratiques. Boutons en cuir tressé à la main."
-    },
-    "folio_shirt": {
-      "name": "Chemise 'Folio' à Motif Imprimé de Luxe",
-      "description": "Une touche d'audace. Cette chemise à manches courtes présente un imprimé floral exclusif sur une viscose fluide et légère, parfaite pour les beaux jours.",
-      "details": "100% Viscose fluide. Imprimé exclusif EZENTIALS. Col cubain pour une allure décontractée. Coupe droite et confortable."
-    },
-    "ete_palais_suit": {
-      "name": "Costume 'Été-Palais' en Lin et Soie",
-      "description": "L'élégance estivale à l'italienne. La structure déconstruite et le mélange lin-soie rendent ce costume incroyablement léger et respirant, sans sacrifier le style.",
-      "details": "Mélange Lin et Soie. Veste non doublée, épaules naturelles. Poches plaquées pour une allure décontractée."
-    },
-    "atelier_sweatshirt": {
-      "name": "Sweat-shirt 'Atelier' Premium",
-      "description": "Le confort élevé au rang d'art. Fabriqué en coton bouclé japonais, ce sweatshirt présente une coupe légèrement oversize et des coutures plates pour un confort absolu.",
-      "details": "Coton bouclé (French Terry) japonais. Coutures plates pour éviter les frottements. Bords-côtes robustes et durables."
-    },
-    "verite_bomber": {
-      "name": "Bomber en Satin 'Vérité'",
-      "description": "Un luxe tactile. Ce bomber est confectionné dans un daim de chèvre velouté, offrant une alternative sophistiquée au cuir classique. Doublure en soie.",
-      "details": "Daim de chèvre de première qualité. Fermeture éclair Riri à double sens. Bords-côtes en laine et cachemire pour un ajustement parfait."
-    },
-    "elan_polo": {
-      "name": "Polo en Piqué de Coton 'Élan' Supima",
-      "description": "Le polo, perfectionné. Tricoté dans le très rare coton Supima, ce polo offre une douceur et une brillance soyeuse inégalées. Col et patte de boutonnage côtelés.",
-      "details": "100% Coton Supima. Patte à deux boutons en nacre. Fentes latérales pour plus d'aisance."
-    },
-    "nuage_hoodie": {
-      "name": "Hoodie en Cachemire-Coton 'Nuage'",
-      "description": "Le summum du loungewear de luxe. Ce hoodie est tricoté en double face de pur cachemire, offrant une douceur aussi exquise à l'intérieur qu'à l'extérieur.",
-      "details": "100% Cachemire double face. Capuche doublée pour plus de chaleur. Cordon de serrage avec embouts en métal siglés."
-    },
-    "business_suit": {
-      "name": "Costume 'Business' en Laine Tropicale",
-      "description": "Le costume du voyageur par excellence. La laine tropicale à tissage aéré est naturellement infroissable et respirante, idéale pour rester impeccable toute la journée.",
-      "details": "Laine tropicale haute torsion. Construction semi-entoilée. Doublure partielle pour une respirabilité maximale."
-    },
-    "expedition_parka": {
-      "name": "Parka Fourrée 'Expédition' en Duvet Technique",
-      "description": "La protection ultime contre les éléments. Extérieur en coton Ventile®, une matière naturelle imperméable, et garnissage généreux en duvet d'oie 850 cuin.",
-      "details": "Coton Ventile® imperméable. Garnissage en duvet d'oie 850 Fill Power. Capuche bordée de fourrure de coyote amovible (source éthique)."
-    },
-    "metro_jumpsuit": {
-      "name": "Combinaison-Tailleur 'Métro' Casual",
-      "description": "Une déclaration de style moderne. Cette combinaison-pantalon d'inspiration workwear est taillée dans une toile de laine souple pour un look à la fois chic et décontracté.",
-      "details": "Toile de laine légère. Fermeture éclair dissimulée. Ceinture assortie. Multiples poches fonctionnelles."
+      "name": "Manteau 'Stockholm' en Cachemire",
+      "description": "L'élégance scandinave à son paroxysme. Ce manteau long à la coupe minimaliste en pur cachemire vous enveloppe de chaleur et de douceur. Un investissement pour la vie.",
+      "details": "100% Cachemire de Mongolie. Non doublé pour une légèreté incomparable. Col à revers cranté et poches passepoilées."
     },
     "elegance_dress": {
-      "name": "Robe Longue 'Élégance' en Soie",
+      "name": "Robe 'Céleste' en Crêpe de Soie",
       "description": "Une ode à la féminité. Cette robe longue en crêpe de soie pure flotte à chaque pas. Son décolleté drapé et son dos nu subtil en font une pièce inoubliable.",
-      "details": "100% Crêpe de Soie. Coupe fluide et biais. Doublure en soie. Nettoyage à sec par un spécialiste uniquement."
+      "details": "100% Crêpe de Soie. Coupe fluide et en biais. Doublure en soie. Nettoyage à sec par un spécialiste uniquement."
     },
     "madame_suit": {
-      "name": "Tailleur-Jupe 'Madame' en Laine",
+      "name": "Tailleur 'Signature' en Tweed",
       "description": "L'incarnation du chic parisien. Une veste courte et une jupe droite confectionnées dans un tweed français exclusif, rehaussées de boutons bijoux.",
       "details": "Tweed français exclusif. Veste courte et jupe droite. Doublure intégrale en satin de soie. Boutons plaqués or."
     },
     "rosee_blouse": {
-      "name": "Blouse 'Rosée' en Dentelle de Calais",
+      "name": "Blouse 'Jardin Secret' en Dentelle de Calais",
       "description": "Un trésor de délicatesse. Réalisée en authentique dentelle de Calais-Caudry®, cette blouse à col montant est un chef-d'œuvre de l'artisanat français.",
       "details": "Authentique Dentelle de Calais-Caudry®. Livrée avec un caraco en soie assorti. Boutonnage dos par de petits boutons recouverts."
     },
     "velours_coat": {
-      "name": "Manteau 'Velours' en Cachemire Double-Face",
+      "name": "Manteau 'Étreinte' en Alpaga Suri",
       "description": "Un cocon de douceur luxueux. Le poil long et soyeux de l'alpaga Suri confère à ce manteau peignoir une chaleur et une légèreté exceptionnelles. Ceinture assortie.",
       "details": "100% Alpaga Suri du Pérou. Non doublé, finitions cousues main. Coupe peignoir avec ceinture amovible."
     },
+    "sculpt_dress": {
+      "name": "Robe 'Architecturale' en Jersey Technique",
+      "description": "Une seconde peau sculpturale. Cette robe fourreau midi en jersey technique italien épouse et magnifie les formes sans jamais contraindre. Une pièce moderne et puissante.",
+      "details": "Jersey technique haute performance d'Italie. Coupe fourreau, longueur midi. Fermeture par zip invisible au dos."
+    },
+    "forge_jeans": {
+      "name": "Jean Droit 'Le Brut' en Selvedge Japonais",
+      "description": "L'authenticité d'un vrai jean. Taillé dans une toile selvedge japonaise de 14.5oz, ce jean brut se patinera avec le temps pour devenir une pièce unique, la vôtre.",
+      "details": "Denim selvedge japonais 14.5oz. Coupe droite classique. Braguette à boutons. Ourlets réalisés en point de chaînette."
+    },
+    "ezential_bag": {
+      "name": "Sac 'Le Quotidien' en Cuir Taurillon",
+      "description": "Le luxe fonctionnel. Ce sac porté épaule en cuir de taurillon français est aussi souple que résistant. Ses multiples compartiments en font le partenaire idéal du quotidien.",
+      "details": "Cuir de Taurillon de France. Doublure en suédine. Pièces métalliques finition palladium. Bandoulière ajustable."
+    },
+    "eclipse_heels": {
+      "name": "Escarpin 'Vertige' 105mm en Daim",
+      "description": "La quintessence du stiletto. Une cambrure parfaite et un talon de 10,5 cm qui allonge la jambe à l'infini. Réalisé en daim de chevreau noir intense.",
+      "details": "100% Daim de chevreau italien. Talon de 10,5 cm. Semelle intérieure et extérieure en cuir."
+    },
+    "souverain_oxfords": {
+      "name": "Richelieu 'L'Ambassadeur' One-Cut",
+      "description": "L'élégance à son paroxysme. Ce soulier richelieu est réalisé d'une seule pièce de cuir de veau, une prouesse technique. Patiné à la main dans nos ateliers.",
+      "details": "Construction One-Cut. Cuir de veau français. Cousu Blake. Patine à la main sur demande."
+    },
+    "soir_blazer": {
+      "name": "Veste de Smoking 'Nocturne'",
+      "description": "L'élégance du soir. Une veste de smoking en velours de soie avec un col châle en satin. La pièce maîtresse de votre garde-robe formelle.",
+      "details": "Velours de soie et satin. Col châle. Un bouton recouvert de satin. Doublure en jacquard."
+    },
+    "silence_turtleneck": {
+      "name": "Col Roulé 'Silence' en Cachemire et Soie",
+      "description": "Une caresse sur la peau. Ce col roulé, tricoté dans un mélange ultraléger de cachemire et de soie, est d'un confort absolu et d'une polyvalence sans faille.",
+      "details": "70% Cachemire, 30% Soie. Tricot jauge fine. Bords-côtes aux poignets et à la taille."
+    },
+    "cache_chino": {
+      "name": "Chino 'Le Flâneur' en Gabardine de Coton",
+      "description": "L'alternative décontractée au pantalon de costume. Notre chino est coupé dans une gabardine de coton stretch pour un confort optimal, avec une coupe ajustée et des finitions tailleur.",
+      "details": "Gabardine de coton stretch. Fermeture à agrafe et zip. Poches italiennes. Coupe ajustée."
+    },
+    "atlas_parka": {
+      "name": "Parka 'Explorateur' Technique",
+      "description": "La performance avec style. Cette parka est fabriquée dans un tissu technique japonais triple couche, imperméable et respirant. Coutures thermosoudées.",
+      "details": "Tissu technique japonais triple couche. Coutures thermosoudées. Capuche amovible. Multiples poches sécurisées."
+    },
+    "cuiron_jacket": {
+      "name": "Veste 'Rebelle' en Cuir d'Agneau Plongé",
+      "description": "Une icône réinventée. Ce blouson de motard est taillé dans un cuir d'agneau plongé d'une souplesse exceptionnelle qui se patinera superbement avec le temps.",
+      "details": "Cuir d'agneau plongé. Zips Riri et détails en palladium. Doublure en satin matelassé."
+    },
+    "pluie_royale_trench": {
+      "name": "Trench-coat 'Westminster'",
+      "description": "Un classique indémodable. Notre trench est confectionné dans une gabardine de coton imperméable, avec tous les détails traditionnels : bavolets, ceinture et pattes d'épaule.",
+      "details": "Gabardine de coton déperlante. Doublure à carreaux signature. Boutons en corne. Coupe classique."
+    },
+    "breeze_vest": {
+      "name": "Gilet Matelassé 'Zéphyr'",
+      "description": "La pièce de mi-saison idéale. Ultra-léger, ce gilet sans manches est garni d'un duvet d'oie de haute qualité pour une chaleur ciblée sans volume.",
+      "details": "Tissu micro-ripstop japonais. Garnissage en duvet d'oie 90/10. Se replie dans sa propre poche."
+    },
+    "azur_shirt": {
+      "name": "Chemise 'Riviera' en Lin Irlandais",
+      "description": "L'élégance estivale par excellence. Tissée dans le meilleur lin irlandais, cette chemise offre une fraîcheur et une texture uniques, qui s'embellissent à chaque lavage.",
+      "details": "100% Lin irlandais. Coupe décontractée. Boutons en nacre. Lavé pour une douceur supplémentaire."
+    },
+    "nocturne_tuxedo": {
+      "name": "Smoking 'Grand Soir' en Barathea",
+      "description": "Pour les moments inoubliables. Ce smoking est coupé dans une laine barathea traditionnelle avec un revers en satin de soie. La quintessence de l'élégance formelle.",
+      "details": "Laine barathea. Revers et passepoils en satin de soie. Pantalon avec bande de satin latérale."
+    },
+    "rivage_shorts": {
+      "name": "Bermuda 'Capri' en Toile de Lin",
+      "description": "Le chic décontracté pour l'été. Ce bermuda à pinces est taillé dans un mélange de lin et viscose pour un tombé impeccable et une résistance au froissage.",
+      "details": "Mélange lin et viscose. Taille haute avec pinces. Fermeture à agrafe et zip."
+    },
+    "heritage_cardigan": {
+      "name": "Cardigan 'Clubhouse' en Laine Mérinos",
+      "description": "Une pièce polyvalente, entre formel et décontracté. Ce cardigan à col châle est tricoté dans une laine mérinos extra-fine, avec des boutons en cuir tressé.",
+      "details": "100% Laine Mérinos extra-fine. Col châle. Poches plaquées. Boutons en cuir tressé."
+    },
+    "folio_shirt": {
+      "name": "Chemise 'Jardin d'Hiver' en Viscose",
+      "description": "Une touche d'audace. Cette chemise à manches courtes présente un imprimé floral exclusif sur une viscose fluide et légère, parfaite pour les beaux jours.",
+      "details": "100% Viscose fluide. Imprimé exclusif. Col cubain. Coupe droite."
+    },
+    "ete_palais_suit": {
+      "name": "Costume d'Été 'Sprezzatura' en Lin et Coton",
+      "description": "L'élégance estivale à l'italienne. La structure déconstruite et le mélange lin-coton rendent ce costume incroyablement léger et respirant, sans sacrifier le style.",
+      "details": "Mélange Lin et Coton. Veste non doublée, épaules naturelles. Poches plaquées."
+    },
+    "atelier_sweatshirt": {
+      "name": "Sweat-shirt 'L'Artiste' en Coton Loopback",
+      "description": "Le confort élevé au rang d'art. Fabriqué en coton loopback japonais (French Terry), ce sweat-shirt présente une coupe légèrement oversize et des coutures plates pour un confort absolu.",
+      "details": "Coton loopback japonais (French Terry). Coutures plates. Bords-côtes robustes."
+    },
+    "verite_bomber": {
+      "name": "Bomber 'Aviateur' en Daim de Chèvre",
+      "description": "Un luxe tactile. Ce bomber est confectionné dans un daim de chèvre velouté, offrant une alternative sophistiquée au cuir classique. Doublure en soie.",
+      "details": "Daim de chèvre. Fermeture éclair Riri à double sens. Bords-côtes en laine et cachemire."
+    },
+    "elan_polo": {
+      "name": "Polo 'Le Sportif' en Piqué de Coton Sea Island",
+      "description": "Le polo, perfectionné. Tricoté dans le très rare coton Sea Island, ce polo offre une douceur et une brillance soyeuse inégalées. Col et patte de boutonnage côtelés.",
+      "details": "100% Coton Sea Island. Patte à deux boutons en nacre. Fentes latérales."
+    },
+    "nuage_hoodie": {
+      "name": "Hoodie 'Cocon' en Cachemire Double-Face",
+      "description": "Le summum du loungewear de luxe. Ce hoodie est tricoté en pur cachemire double face, offrant une douceur aussi exquise à l'intérieur qu'à l'extérieur.",
+      "details": "100% Cachemire double face. Capuche doublée. Cordon de serrage avec embouts en métal."
+    },
+    "business_suit": {
+      "name": "Costume 'Affaires' en Laine Fresco",
+      "description": "Le costume du voyageur par excellence. La laine Fresco à tissage aéré est naturellement infroissable et respirante, idéale pour rester impeccable toute la journée.",
+      "details": "Laine Fresco haute torsion. Construction semi-entoilée. Doublure partielle pour la respirabilité."
+    },
+    "expedition_parka": {
+      "name": "Parka 'Arctique' en Ventile et Duvet",
+      "description": "La protection ultime contre les éléments. Extérieur en coton Ventile®, une matière naturelle imperméable, et garnissage généreux en duvet d'oie 850 cuin.",
+      "details": "Coton Ventile® imperméable. Garnissage en duvet d'oie 850 Fill Power. Capuche bordée de fourrure de coyote amovible (source éthique)."
+    },
+    "metro_jumpsuit": {
+      "name": "Combinaison 'Urbaine' en Toile de Laine",
+      "description": "Une déclaration de style moderne. Cette combinaison-pantalon d'inspiration workwear est taillée dans une toile de laine souple pour un look à la fois chic et décontracté.",
+      "details": "Toile de laine légère. Fermeture éclair dissimulée. Ceinture assortie. Multiples poches fonctionnelles."
+    },
     "constellation_dress": {
-      "name": "Robe de Soirée 'Constellation' Brodée",
+      "name": "Robe de Soirée 'Nuit Étoilée'",
       "description": "Capturez la lumière. Entièrement brodée à la main de perles et de cristaux sur un tulle de soie, cette robe du soir est une véritable œuvre d'art.",
       "details": "Tulle de soie brodé main de perles et cristaux. Demande des centaines d'heures de travail. Pièce unique sur commande."
     },
     "lueur_top": {
-      "name": "Top en Satin Drapé 'Lueur'",
+      "name": "Top 'Drapé Divin' en Satin de Soie",
       "description": "La simplicité magnifiée. Un simple top en satin de soie épais, avec un décolleté bénitier qui tombe en cascade avec une grâce infinie.",
       "details": "100% Satin de soie lourd. Coupe en biais pour un drapé parfait. Fines bretelles."
     },
     "etoile_jeans": {
-      "name": "Jean Skinny 'Étoile' Premium",
+      "name": "Jean Slim 'La Parisienne'",
       "description": "Le jean slim parfait. Coupé dans un denim stretch italien de haute qualité, il sculpte la jambe sans la comprimer, pour une silhouette élancée et confortable.",
       "details": "Denim stretch italien. Taille mi-haute. Délavage subtil fait à la main."
     },
-    "sculpt_dress": {
-      "name": "Robe Midi 'Sculpture' en Crêpe",
-      "description": "Une seconde peau sculpturale. Ce fourreau midi en jersey technique italien épouse et magnifie les formes sans jamais contraindre. Une pièce moderne et puissante.",
-      "details": "Jersey technique haute performance d'Italie. Coupe fourreau, longueur midi. Fermeture par zip invisible au dos."
-    },
     "noir_chic_jumpsuit": {
-      "name": "Combinaison-Pantalon 'Noir-Chic' en Soie",
+      "name": "Combinaison 'St-Germain' en Crêpe",
       "description": "L'alternative moderne à la petite robe noire. Une combinaison-pantalon à la coupe impeccable en crêpe lourd, avec des jambes larges et une taille marquée.",
       "details": "Crêpe envers satin. Jambes larges. Ceinture amovible. Décolleté cache-cœur."
     },
     "ballet_skirt": {
-      "name": "Jupe Plissée 'Ballet' de Luxe",
+      "name": "Jupe 'Opéra' en Tulle Plissé Soleil",
       "description": "Légèreté et mouvement. Cette jupe longue est confectionnée à partir de plusieurs couches de tulle plissé soleil, créant un volume aérien et poétique.",
       "details": "Tulle fin plissé soleil. Ceinture en gros-grain. Doublure en crêpe de soie."
     },
     "seraphine_sweater": {
-      "name": "Pull 'Séraphine' Cachemire Col Bateau",
+      "name": "Pull 'Sérénité' en Cachemire Ajouré",
       "description": "Un tricot d'une finesse exquise. Ce pull à col bateau est réalisé dans un cachemire ultraléger avec un délicat travail de jours, révélant subtilement la peau.",
       "details": "100% Cachemire 2 fils. Tricot ajouré. Coupe légèrement ample."
     },
     "chic_urbain_jacket": {
-      "name": "Veste Tailleur 'Chic-Urbain' en Tweed",
+      "name": "Veste 'Rive Gauche' en Tweed Bouclé",
       "description": "Un intemporel du chic français. Tissée dans une bouclette de laine et coton, cette veste courte se distingue par ses galons tressés et ses boutons bijoux.",
       "details": "Tweed bouclette. Quatre poches plaquées. Galons tressés main. Doublure en soie."
     },
     "veloute_dress": {
-      "name": "Robe Cocktail 'Velouté' Satinée",
+      "name": "Robe 'Carrosse' en Velours de Soie",
       "description": "Pour une entrée spectaculaire. Cette robe longue en velours de soie dévoré joue avec la transparence pour un effet glamour et mystérieux. Fendue haut sur la cuisse.",
       "details": "Velours de soie dévoré. Doublure partielle. Fente latérale. Bretelles fines croisées dans le dos."
     },
     "poeme_blouse": {
-      "name": "Chemisier 'Poème' en Soie Imprimée",
+      "name": "Chemisier 'Impressionniste' en Twill de Soie",
       "description": "Une toile de maître à porter. Ce chemisier est imprimé d'un motif floral exclusif sur un somptueux twill de soie, avec un col lavallière à nouer.",
       "details": "100% Twill de Soie. Imprimé exclusif. Col lavallière. Poignets boutonnés."
     },
     "palace_coat": {
-      "name": "Manteau 'Palace' en Fourrure Synthétique",
+      "name": "Manteau 'Majestueux' en Fausse Fourrure",
       "description": "Le glamour hollywoodien. Un manteau opulent en fausse fourrure d'une qualité et d'une douceur bluffantes. Volume oversize et grand col châle.",
       "details": "Fausse fourrure de haute qualité. Coupe oversize. Fermeture par crochets invisibles. Doublure satinée."
     },
     "soutien_briefs": {
-      "name": "Culotte Taille Haute 'Soutien' Sculptante",
+      "name": "Body 'Seconde Peau' en Microfibre",
       "description": "L'invisible perfection. Ce body sans coutures en microfibre ultra-fine lisse et sculpte la silhouette en toute discrétion sous les vêtements les plus ajustés.",
       "details": "Microfibre technique sans coutures. Effet sculptant léger. Fermeture par pressions à l'entrejambe."
     },
     "maison_cardigan": {
-      "name": "Gilet Long 'Maison' en Tricot",
+      "name": "Gilet 'Dimanche' en Côtes Anglaises",
       "description": "Le compagnon idéal de vos moments de détente. Un long cardigan enveloppant, tricoté en grosse maille anglaise dans un mélange de laine et d'alpaga.",
       "details": "Mélange laine et alpaga. Tricot en côtes anglaises. Sans boutonnage. Poches plaquées."
     },
     "matin_dress": {
-      "name": "Robe-Chemise 'Matin' en Popeline",
+      "name": "Robe-Chemise 'Week-end' en Popeline",
       "description": "Le chic sans effort. Une robe-chemise à la coupe parfaite, en popeline de coton stretch, à ceinturer pour marquer la taille ou à porter droite pour un look plus décontracté.",
       "details": "Popeline de coton stretch. Ceinture amovible. Poches dissimulées dans les coutures."
     },
     "ete_rive_shorts": {
-      "name": "Short Tailleur 'Été-Rive' Satiné",
+      "name": "Short 'Saint-Tropez' en Satin Duchesse",
       "description": "Une allure couture pour l'été. Ce short taille haute à pinces est coupé dans un satin duchesse qui lui confère une tenue et un lustre exceptionnels.",
       "details": "Satin duchesse. Taille haute et pinces. Poches italiennes. Revers."
     },
     "nuit_opera_pyjamas": {
-      "name": "Ensemble Pyjama 'Nuit-Opéra' en Soie et Dentelle",
+      "name": "Ensemble Pyjama 'Rêverie' en Soie et Dentelle",
       "description": "Même la nuit mérite l'élégance. Un ensemble caraco et short en satin de soie, délicatement incrusté de dentelle de Calais sur le décolleté et le bas.",
       "details": "Satin de soie et dentelle de Calais. Bretelles réglables. Short avec taille élastiquée."
     },
     "pluie_de_paris_trench": {
-      "name": "Trench Fin 'Pluie-de-Paris' Double",
+      "name": "Trench 'Parisienne' en Gabardine Fluide",
       "description": "Une version moderne et féminine du trench-coat. Sa gabardine de coton fluide et sa coupe souple lui confèrent une allure moins stricte, plus contemporaine.",
       "details": "Gabardine de coton et Tencel. Non doublé pour plus de fluidité. Bavolet et ceinture amovible."
     },
     "executive_dress": {
-      "name": "Robe Fourreau 'Executive' en Laine",
+      "name": "Robe 'Working Girl' en Laine Froide",
       "description": "L'uniforme de la femme de pouvoir. Cette robe fourreau est taillée dans une laine froide infroissable, avec un décolleté bateau et des manches 3/4.",
       "details": "Laine froide Super 110s. Coupe ajustée. Entièrement doublée. Fente d'aisance au dos."
     },
     "sculpture_top": {
-      "name": "Top Bustier 'Sculpture' Structuré",
+      "name": "Bustier 'Gala' en Faille de Soie",
       "description": "Une pièce architecturale. Ce bustier est structuré par des baleines internes et coupé dans une faille de soie rigide pour une silhouette de haute couture.",
       "details": "Faille de soie. Structure interne avec baleines. Zip au dos."
     },
     "voyage_parka": {
-      "name": "Parka Légère 'Voyage' Imperméable",
+      "name": "Cape de Pluie 'Brume' en Nylon Technique",
       "description": "L'élégance sous la pluie. Une cape ample et ultra-légère en nylon technique japonais, qui se replie dans une petite pochette. Parfaite pour voyager.",
       "details": "Nylon technique japonais imperméable. Coutures étanches. Capuche et coupe ample."
     },
     "aube_dress": {
-      "name": "Robe Cocktail 'Aube' Asymétrique",
+      "name": "Robe Asymétrique 'Aurore'",
       "description": "Une sculpture de tissu. Cette robe de cocktail en crêpe joue sur les drapés et une coupe asymétrique à une épaule pour un effet spectaculaire et moderne.",
       "details": "Crêpe envers satin. Coupe asymétrique. Drapé réalisé à la main."
     },
-    "ezential_bag": {
-      "name": "Sac Porté Épaule 'L'Essentiel' en Cuir Grainé",
-      "description": "Le luxe fonctionnel au quotidien. Ce sac en cuir de taurillon français est aussi souple que résistant, avec de multiples compartiments pour une organisation parfaite.",
-      "details": "Cuir de Taurillon de France. Doublure en suédine. Pièces métalliques finition palladium. Bandoulière ajustable pour un porté épaule ou croisé."
-    },
     "lumi_clutch": {
-      "name": "Clutch de Soirée 'Lumière' en Satin et Perles",
+      "name": "Minaudière 'Joyau' Sertie de Strass",
       "description": "Plus qu'un sac, un bijou. Cette minaudière rigide est entièrement recouverte de cristaux Swarovski, capturant la lumière à chaque mouvement.",
-      "details": "Structure en laiton. Cristaux Swarovski authentiques. Fermoir bijou. Chaînette amovible pour un porté épaule."
+      "details": "Structure en laiton. Cristaux Swarovski. Fermoir bijou. Chaînette amovible."
     },
     "carte_prime_holder": {
-      "name": "Porte-Carte 'Le Premier' en Cuir Noble",
+      "name": "Porte-Cartes 'Le Minimaliste' en Cuir Epsom",
       "description": "L'essentiel, avec élégance. Réalisé en cuir de veau Epsom, connu pour sa résistance, ce porte-cartes fin se glisse dans n'importe quelle poche.",
-      "details": "Cuir de veau Epsom. Trois fentes pour cartes et un compartiment central. Bords peints à la main pour une finition parfaite."
+      "details": "Cuir de veau Epsom. Trois fentes pour cartes. Compartiment central. Bords peints à la main."
     },
     "finesse_belt": {
-      "name": "Ceinture 'Finesse' en Cuir Exotique",
-      "description": "Le détail qui change tout. Une ceinture fine en véritable cuir de lézard, avec une boucle discrète en laiton palladié. Un luxe subtil et raffiné.",
-      "details": "Cuir de lézard véritable. Doublure en veau. Boucle en laiton finition palladium, conçue pour durer."
+      "name": "Ceinture 'L'Allure' en Cuir de Lézard",
+      "description": "Le détail qui change tout. Une ceinture fine en véritable cuir de lézard, avec une boucle discrète en laiton palladié. Un luxe subtil.",
+      "details": "Cuir de lézard véritable. Doublure en veau. Boucle en laiton finition palladium."
     },
     "minit_bag": {
-      "name": "Sac Bandoulière 'Mignon' en Peau de Pêche",
+      "name": "Micro-Sac 'Le Charmeur' en Daim de Chèvre",
       "description": "Le petit sac qui a tout d'un grand. Assez grand pour l'essentiel (téléphone, cartes, rouge à lèvres), ce sac en cuir de chèvre velouté est l'accessoire parfait du soir.",
-      "details": "Cuir de chèvre velours. Bandoulière chaîne et cuir pour un double porté. Fermoir magnétique discret."
+      "details": "Cuir de chèvre velours. Bandoulière chaîne et cuir. Fermoir magnétique."
     },
     "horizon_sunglasses": {
-      "name": "Lunettes de Soleil 'Horizon' Aviateur en Métal",
+      "name": "Lunettes de Soleil 'Aviateur' en Titane et Or",
       "description": "Une icône revisitée. Monture ultra-légère en titane japonais, avec des détails plaqués or 18 carats. Verres polarisants pour une vision parfaite.",
-      "details": "Monture en titane. Plaquage or 18 carats. Verres polarisants avec traitement antireflet pour un confort visuel optimal."
+      "details": "Monture en titane. Plaquage or 18 carats. Verres polarisants avec traitement antireflet."
     },
     "nuit_scarf": {
-      "name": "Écharpe 'Nuit Douce' 70x200 en Cachemire",
+      "name": "Étole 'Douce Nuit' en Cachemire et Soie",
       "description": "Une écharpe d'une légèreté et d'une douceur incroyables. Le mélange de cachemire et de soie lui donne un tombé fluide et une chaleur délicate.",
-      "details": "70% Cachemire, 30% Soie. Tissage très fin. Bords à franges délicates. Dimensions généreuses de 70x200cm."
+      "details": "70% Cachemire, 30% Soie. Tissage très fin. Bords à franges délicates. Dimensions : 70x200cm."
     },
     "organize_pouch": {
-      "name": "Pochette Tech 'L'Organisé' en Cuir",
+      "name": "Pochette Tech 'Le Nomade' en Cuir",
       "description": "Organisez vos essentiels technologiques avec style. Cette trousse en cuir souple est conçue pour accueillir vos câbles, chargeurs et autres petits accessoires.",
-      "details": "Cuir de veau souple. Compartiments élastiqués pour un maintien parfait. Doublure en microfibre pour protéger vos appareils."
+      "details": "Cuir de veau souple. Compartiments élastiqués. Doublure en microfibre."
     },
     "reflet_jewelry_set": {
-      "name": "Coffret Bijoux 'Reflet' en Argent et Topaze",
+      "name": "Parure 'Goutte de Rosée' en Topaze",
       "description": "Un ensemble collier et boucles d'oreilles d'une finesse absolue, mettant en valeur des topazes bleues taillées en poire sur une monture en or blanc.",
-      "details": "Or blanc 18 carats. Topazes bleues 'Swiss Blue' de première qualité. Chaîne forçat fine et élégante."
+      "details": "Or blanc 18 carats. Topazes bleues 'Swiss Blue'. Chaîne forçat."
     },
     "anchor_bracelet": {
-      "name": "Bracelet 'Ancrage' en Cuir et Acier",
+      "name": "Bracelet 'L'Ancre' en Cuir Tressé",
       "description": "Un bijou masculin décontracté. Ce bracelet est composé de cuir de veau tressé et d'un fermoir en forme d'ancre marine en acier inoxydable brossé.",
-      "details": "Cuir de veau tressé. Fermoir ancre en acier 316L inoxydable. Fait main en Italie."
+      "details": "Cuir de veau tressé. Fermoir ancre en acier 316L. Fait main en Italie."
     },
     "etoile_earrings": {
-      "name": "Boucles d'Oreilles 'Étoile' en Or Blanc et Diamants",
-      "description": "L'éclat pur. Chaque boucle d'oreille est sertie d'un diamant de 0.25 carat, monté sur or gris pour une brillance maximale. Un classique intemporel.",
-      "details": "Or gris 18 carats. Deux diamants de 0.25ct chacun, qualité G/VS. Système de fermeture sécurisé."
+      "name": "Puces d'Oreilles 'Diamant Solitaire'",
+      "description": "L'éclat pur. Chaque boucle d'oreille est sertie d'un diamant de 0.25 carat, monté sur or blanc pour une brillance maximale. Un classique intemporel.",
+      "details": "Or blanc 18 carats. Deux diamants de 0.25ct chacun, qualité G/VS. Système de fermeture sécurisé."
     },
     "ocean_necklace": {
-      "name": "Collier Pendentif 'Océan' en Perle",
+      "name": "Collier 'Perle Noire' de Tahiti",
       "description": "La beauté brute et naturelle d'une perle noire de Tahiti, simplement suspendue à une fine chaîne en or rose. Chaque perle est unique.",
       "details": "Or rose 18 carats. Perle noire de Tahiti, grade AAA, diamètre 9-10mm."
     },
     "sync_watch": {
-      "name": "Montre Connectée 'Synchrone' de Luxe",
+      "name": "Montre Automatique 'Horizon Connecté'",
       "description": "Le meilleur des deux mondes. Une montre au mouvement automatique suisse, logée dans un boîtier en titane avec un module de notifications discret et intégré.",
-      "details": "Mouvement automatique suisse. Boîtier en titane grade 5. Verre saphir inrayable. Bracelet interchangeable."
+      "details": "Mouvement automatique suisse. Boîtier en titane grade 5. Verre saphir. Bracelet interchangeable."
     },
     "pluie_chic_umbrella": {
-      "name": "Parapluie Long 'Pluie-Chic' en Bois et Tissu Technique",
+      "name": "Parapluie 'Le Gentleman' en Bois d'Érable",
       "description": "Affrontez la pluie avec panache. Un mât unique en bois d'érable, une large toile déperlante et une ouverture manuelle traditionnelle pour ce parapluie d'exception.",
       "details": "Mât et poignée en bois d'érable massif. Toile en polyester haute densité. Fabriqué en France."
     },
     "travel_safe_wallet": {
-      "name": "Porte-valeurs de Voyage 'Travel-Safe'",
+      "name": "Portefeuille de Voyage 'Le Globetrotter'",
       "description": "Organisez votre voyage. Conçu pour contenir un passeport, des cartes d'embarquement, des devises et des cartes de crédit dans un format élégant en cuir.",
-      "details": "Cuir de veau pleine fleur. Protection RFID pour sécuriser vos cartes. Multiples compartiments pour une organisation optimale."
+      "details": "Cuir de veau pleine fleur. Protection RFID. Multiples compartiments."
     },
     "riviera_hat": {
-      "name": "Chapeau 'Riviera' à Large Bord en Paille Tressée",
-      "description": "L'accessoire estival par excellence. Tressée à la main en Équateur, cette capeline en paille de Panama protège du soleil avec une élégance inégalée. Ruban en gros-grain.",
-      "details": "Authentique paille de Toquilla (Panama). Tressage fin et régulier. Ruban en gros-grain interchangeable."
+      "name": "Chapeau 'Côte d'Azur' en Paille de Panama",
+      "description": "L'accessoire estival par excellence. Tressé à la main en Équateur, ce chapeau en paille de Panama protège du soleil avec une élégance inégalée. Ruban en gros-grain.",
+      "details": "Authentique paille de Toquilla (Panama). Tressage fin. Ruban en gros-grain interchangeable."
     },
     "smart_gloves": {
-      "name": "Gants 'Smart' Touchscreen en Cuir et Cachemire",
+      "name": "Gants 'Tactiles' en Pécari Doublés Cachemire",
       "description": "Le luxe au bout des doigts. Confectionnés dans le très rare cuir de pécari et doublés de cachemire, ces gants sont compatibles avec les écrans tactiles.",
-      "details": "Cuir de pécari. Doublure 100% cachemire pour une chaleur incomparable. Technologie compatible écran tactile sur tous les doigts."
+      "details": "Cuir de pécari. Doublure 100% cachemire. Technologie compatible écran tactile."
     },
     "ceremony_bowtie": {
-      "name": "Nœud Papillon 'Cérémonie' en Soie Tissée",
+      "name": "Nœud Papillon 'Black Tie' en Faille de Soie",
       "description": "L'accessoire indispensable de la tenue de soirée. Ce nœud papillon à nouer soi-même est taillé dans une précieuse faille de soie noire.",
-      "details": "100% Soie Faille. À nouer pour un rendu authentique. Taille ajustable pour un confort parfait."
+      "details": "100% Soie Faille. À nouer soi-même. Taille ajustable."
     },
     "coin_purse": {
-      "name": "Porte-Monnaie 'Coin' à Fermoir en Cuir",
+      "name": "Porte-Monnaie 'Le Collectionneur' à Fermoir",
       "description": "Un charme rétro. Ce porte-monnaie en cuir de veau souple se ferme par un fermoir métallique classique. Idéal pour votre monnaie ou vos petits secrets.",
-      "details": "Cuir de veau souple. Fermoir en laiton vieilli. Doublure en agneau pour une touche de luxe."
+      "details": "Cuir de veau souple. Fermoir en laiton vieilli. Doublure en agneau."
     },
     "flora_brooch": {
-      "name": "Broche 'Flora' en Or et Émaux",
+      "name": "Broche 'Fleur de Lys' en Émail",
       "description": "Une touche de poésie. Cette broche, représentant une fleur de lys stylisée, est réalisée en émail plique-à-jour, une technique rappelant le vitrail.",
-      "details": "Argent 925 plaqué or. Émail plique-à-jour, entièrement fait main. Une véritable pièce d'art."
+      "details": "Argent 925 plaqué or. Émail plique-à-jour. Fait main."
     },
     "luxband_headband": {
-      "name": "Bandeau 'Luxband' en Soie Imprimée",
+      "name": "Bandeau 'Muse' en Twill de Soie",
       "description": "Un accessoire polyvalent. À porter dans les cheveux, autour du cou ou noué à votre sac, ce bandeau en twill de soie est imprimé d'un motif exclusif.",
       "details": "100% Twill de Soie. Imprimé sur les deux faces. Dimensions : 6 x 105 cm."
     },
     "lecteur_glasses": {
-      "name": "Lunettes de Lecture 'Lecteur' en Acétate",
+      "name": "Lunettes de Lecture 'L'Intellectuel'",
       "description": "Lire avec style. Monture en acétate de cellulose italien, avec des verres de haute qualité traités anti-reflets et anti-lumière bleue.",
-      "details": "Acétate de cellulose Mazzucchelli. Verres traités anti-reflets et anti-lumière bleue. Charnières rivetées pour une durabilité accrue."
+      "details": "Acétate de cellulose Mazzucchelli. Verres traités anti-reflets et anti-lumière bleue. Charnières rivetées."
     },
     "charme_bag_charm": {
-      "name": "Bijou de Sac 'Charme' en Cuir et Métal",
+      "name": "Bijou de Sac 'Le Grimoire'",
       "description": "Personnalisez votre sac. Ce bijou de sac représente un minuscule livre en cuir avec des pages en laiton, suspendu à un mousqueton siglé.",
-      "details": "Cuir et laiton. Mousqueton en acier gravé pour une accroche facile et sûre."
+      "details": "Cuir et laiton. Mousqueton en acier gravé."
     },
     "portfolio_laptop_case": {
-      "name": "Housse d'Ordinateur 'Portfolio' en Cuir",
+      "name": "Porte-Documents 'Le Ministre' en Cuir",
       "description": "Transportez votre ordinateur et vos documents avec élégance. Ce porte-document fin en cuir de veau est légèrement matelassé pour une protection optimale.",
-      "details": "Cuir de veau. Compartiment principal matelassé pour ordinateur 13 pouces. Poche extérieure pour un accès rapide."
+      "details": "Cuir de veau. Compartiment principal matelassé pour ordinateur 13 pouces. Poche extérieure."
     },
     "keygold_keychain": {
-      "name": "Porte-Clés 'Keygold' Bijou en Cuir",
+      "name": "Porte-Clés 'Le Gardien' en Cuir et Laiton",
       "description": "Un objet du quotidien transformé en bijou. Une lanière de cuir de veau grainé associée à des pièces massives en laiton brossé.",
-      "details": "Cuir de veau et laiton massif. Anneau brisé et mousqueton pour une utilisation polyvalente."
-    },
-    "eclipse_heels": {
-      "name": "Escarpins 'Éclipse' en Cuir Verni, Talon 9cm",
-      "description": "La quintessence du stiletto. Une cambrure parfaite et un talon de 9 cm qui allonge la jambe à l'infini. Réalisé en cuir verni noir intense.",
-      "details": "Cuir de veau verni italien. Talon de 9 cm. Semelle intérieure et extérieure en cuir pour un confort durable."
+      "details": "Cuir de veau et laiton massif. Anneau brisé et mousqueton."
     },
     "serenite_sandals": {
-      "name": "Sandales 'Sérénité' à Bride Cheville en Cuir",
+      "name": "Sandales Plates 'La Balade' en Cuir",
       "description": "L'élégance minimaliste pour l'été. Ces sandales plates à fines brides en cuir de veau sont le symbole d'un chic décontracté et intemporel.",
-      "details": "Cuir de veau. Semelle intérieure matelassée pour un confort de marche optimal. Fabriquées en Italie."
+      "details": "Cuir de veau. Semelle intérieure matelassée. Fabriquées en Italie."
     },
     "paris_boots": {
-      "name": "Bottines 'Paris' en Cuir Suédé à Talon Carré",
+      "name": "Bottines 'Rive Gauche' en Daim",
       "description": "La bottine parfaite pour tous les jours. Un talon bloc confortable de 6 cm, une forme amande élégante et un cuir de chèvre suédé souple. Le chic parisien.",
-      "details": "Cuir de chèvre suédé. Talon bloc de 6 cm. Fermeture par zip latéral pour un enfilage facile."
+      "details": "Daim de chèvre. Talon bloc de 6 cm. Fermeture par zip latéral."
     },
     "diva_mules": {
-      "name": "Mules 'Diva' en Satin à Talon Sculpté",
-      "description": "Pour les soirées où tout est permis. Ces mules à bout pointu en satin sont ornées d'une boucle carrée spectaculaire en cristaux.",
-      "details": "Satin duchesse. Boucle en cristaux Swarovski. Petit talon de 2 cm pour un confort stylé."
+      "name": "Mules 'Palazzo' en Satin et Cristaux",
+      "description": "Pour les soirées où tout est permis. Ces mules à bout pointu en satin sont ornées d'une spectaculaire boucle carrée en cristaux.",
+      "details": "Satin duchesse. Boucle en cristaux Swarovski. Petit talon de 2 cm."
     },
     "street_luxe_derby": {
-      "name": "Derby 'Street-Luxe' à Plateforme Chunky",
+      "name": "Derby 'Avant-Garde' à Plateforme",
       "description": "Un classique bousculé. Le derby traditionnel est monté sur une semelle plateforme crantée en micro-gomme ultra-légère, pour un look audacieux.",
-      "details": "Cuir de veau poli. Semelle plateforme en micro-gomme. Doublure en cuir pour une respirabilité maximale."
-    },
-    "souverain_oxfords": {
-      "name": "Richelieu 'Souverain' Cousu Main en Cuir Patiné",
-      "description": "L'élégance à son paroxysme. Ce richelieu est réalisé d'une seule pièce de cuir de veau, une prouesse technique. Patine réalisée à la main dans nos ateliers.",
-      "details": "Construction One-Cut. Cuir de veau français. Cousu Blake. Patine à la main sur demande."
+      "details": "Cuir de veau poli. Semelle plateforme en micro-gomme. Doublure en cuir."
     },
     "elite_derby": {
-      "name": "Derby 'Élite' en Cuir Grainé",
+      "name": "Derby 'Le Consul' à Boucle",
       "description": "Une alternative originale au derby à lacets. Ce modèle à boucle unique (Monk Strap) en cuir de veau grainé est à la fois formel et plein de caractère.",
-      "details": "Cuir de veau grainé. Cousu Goodyear pour une longévité accrue. Boucle en laiton."
+      "details": "Cuir de veau grainé. Cousu Goodyear. Boucle en laiton."
     },
     "club_loafer": {
-      "name": "Mocassin 'Club' à Glands en Suédine",
+      "name": "Mocassin 'Le Yachtsman' en Daim",
       "description": "Le compagnon idéal des week-ends ensoleillés. Ce mocassin souple en daim est monté sur une semelle à picots en gomme pour une flexibilité et un confort inégalés.",
-      "details": "Daim de veau hydrofuge. Semelle à picots en gomme. Fabrication tubulaire pour plus de souplesse."
+      "details": "Daim de veau hydrofuge. Semelle à picots en gomme. Fabrication tubulaire."
     },
     "tradition_brogues": {
-      "name": "Brogues 'Tradition' Perforées Full-Brogue",
+      "name": "Richelieu 'Héritage' Full Brogue",
       "description": "Un pilier de l'élégance britannique. Ce richelieu se distingue par ses perforations décoratives ('broguing') sur l'ensemble de la chaussure. Un caractère affirmé.",
       "details": "Cuir de veau 'box-calf'. Perforations full brogue. Cousu Goodyear sur semelle en cuir."
     },
     "citadin_boots": {
-      "name": "Bottines Chelsea 'Citadin' en Cuir",
+      "name": "Bottine Chelsea 'Le Citadin'",
       "description": "Polyvalence et style. Une forme épurée, un cuir de veau lisse et des bandes élastiques robustes font de cette bottine Chelsea un indispensable du vestiaire masculin.",
-      "details": "Cuir de veau lisse. Cousu Blake pour la finesse. Bandes élastiques latérales pour un enfilage aisé."
+      "details": "Cuir de veau lisse. Cousu Blake. Bandes élastiques latérales."
     },
     "runway_sneakers": {
-      "name": "Baskets 'Runway' de Luxe en Cuir et Nubuck",
+      "name": "Baskets 'Le Minimaliste' en Cuir",
       "description": "La sneaker de luxe épurée. Confectionnée en Italie à partir d'un cuir de veau lisse, sa silhouette minimaliste s'accorde avec toutes les tenues, du costume au jean.",
-      "details": "Cuir de veau italien. Doublure intégrale en cuir. Semelle en gomme cousue pour une meilleure durabilité."
+      "details": "Cuir de veau italien. Doublure intégrale en cuir. Semelle en gomme cousue."
     }
   }
 }
