@@ -88,7 +88,10 @@
         "description": "Manteaux chauds, cachemires doux et superpositions élégantes pour le froid.",
         "cta": "Explorer la Collection"
       }
-    }
+    },
+    "winter_offers_title": "Offres d'Hiver Exclusives",
+    "winter_offers_desc": "Profitez de réductions jusqu'à -30% sur une sélection d'articles de notre collection hiver.",
+    "winter_offers_cta": "J'en profite"
   },
   "categories": {
     "women": "Femmes",
@@ -898,3 +901,4 @@
 }
 
     
+

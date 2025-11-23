@@ -88,7 +88,10 @@
         "description": "Cappotti caldi, morbido cashmere e strati eleganti per il freddo.",
         "cta": "Esplora la Collezione"
       }
-    }
+    },
+    "winter_offers_title": "Offerte Invernali Esclusive",
+    "winter_offers_desc": "Goditi sconti fino al -30% su una selezione di articoli della nostra collezione invernale.",
+    "winter_offers_cta": "Sono interessato"
   },
   "categories": {
     "women": "Donne",
@@ -898,3 +901,4 @@
 }
 
     
+

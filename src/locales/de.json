@@ -88,7 +88,10 @@
         "description": "Warme Mäntel, weicher Kaschmir und elegante Schichten für die Kälte.",
         "cta": "Kollektion entdecken"
       }
-    }
+    },
+    "winter_offers_title": "Exklusive Winterangebote",
+    "winter_offers_desc": "Profitieren Sie von Rabatten bis zu -30% auf eine Auswahl von Artikeln aus unserer Winterkollektion.",
+    "winter_offers_cta": "Ich profitiere davon"
   },
   "categories": {
     "women": "Damen",
@@ -898,3 +901,4 @@
 }
 
     
+

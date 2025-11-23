@@ -88,7 +88,10 @@
         "description": "Abrigos cálidos, cachemira suave y capas elegantes para el frío.",
         "cta": "Explorar la Colección"
       }
-    }
+    },
+    "winter_offers_title": "Ofertas Exclusivas de Invierno",
+    "winter_offers_desc": "Disfruta de descuentos de hasta -30% en una selección de artículos de nuestra colección de invierno.",
+    "winter_offers_cta": "Me interesa"
   },
   "categories": {
     "women": "Mujeres",
@@ -898,3 +901,4 @@
 }
 
     
+

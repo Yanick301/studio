@@ -161,10 +161,10 @@ export default function Home() {
 
           <div className="mb-12 bg-gradient-to-r from-primary/80 to-primary rounded-lg p-8 text-center text-primary-foreground shadow-lg">
               <Snowflake className="mx-auto h-12 w-12 mb-4 animate-pulse" />
-              <h3 className="text-3xl font-bold font-headline">Offres d'Hiver Exclusives</h3>
-              <p className="mt-2 max-w-2xl mx-auto">Profitez de réductions jusqu'à -30% sur une sélection d'articles de notre collection hiver.</p>
+              <h3 className="text-3xl font-bold font-headline">{t('home.winter_offers_title')}</h3>
+              <p className="mt-2 max-w-2xl mx-auto">{t('home.winter_offers_desc')}</p>
               <Button asChild variant="secondary" className="mt-6">
-                <Link href="/winter">J'en profite</Link>
+                <Link href="/winter">{t('home.winter_offers_cta')}</Link>
               </Button>
           </div>
 
