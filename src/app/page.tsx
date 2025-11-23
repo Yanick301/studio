@@ -30,10 +30,6 @@ export default function Home() {
       )
   ).slice(0, 8);
   
-  const brandNames = [
-    "Versace", "Gucci", "Prada", "Dior", "Chanel", "Balenciaga", "Louis Vuitton"
-  ];
-
   const maisonCategories = [
     {
       href: "/men",
@@ -98,21 +94,6 @@ export default function Home() {
           </Button>
         </div>
       </section>
-
-      {/* Brand Names Section */}
-      <div className="bg-card py-8 md:py-12">
-        <div className="container">
-          <div className="relative overflow-hidden group">
-            <div className="flex animate-marquee-infinite group-hover:[animation-play-state:paused]">
-              {[...brandNames, ...brandNames].map((name, index) => (
-                <div key={index} className="flex-shrink-0 mx-8">
-                  <span className="text-2xl font-headline text-muted-foreground tracking-widest">{name}</span>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </div>
       
        {/* Maison Categories Section */}
        <section className="py-16 md:py-24 bg-background">
