@@ -4,51 +4,69 @@ import { Logo } from '@/components/global/logo';
 import { Github, Twitter, Facebook, Instagram } from 'lucide-react';
 import Link from 'next/link';
 import { useTranslation } from '@/hooks/use-translation';
+import { Separator } from '@/components/ui/separator';
 
 export function Footer() {
   const { t } = useTranslation();
 
+  const socialLinks = [
+    { name: 'Twitter', href: '#', icon: Twitter },
+    { name: 'Facebook', href: '#', icon: Facebook },
+    { name: 'Instagram', href: '#', icon: Instagram },
+  ];
+
   return (
-    <footer className="border-t bg-card">
-      <div className="container py-12">
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
-          <div className="flex flex-col gap-4">
-            <Logo />
-            <p className="text-sm text-muted-foreground max-w-xs">{t('footer.tagline')}</p>
-            <div className="flex gap-4 mt-2">
-              <Link href="#" aria-label="Twitter"><Twitter className="w-5 h-5 text-muted-foreground hover:text-foreground transition-colors" /></Link>
-              <Link href="#" aria-label="Facebook"><Facebook className="w-5 h-5 text-muted-foreground hover:text-foreground transition-colors" /></Link>
-              <Link href="#" aria-label="Instagram"><Instagram className="w-5 h-5 text-muted-foreground hover:text-foreground transition-colors" /></Link>
-            </div>
-          </div>
-          <div className="sm:col-start-2 md:col-start-auto">
-            <h3 className="font-semibold mb-4">{t('footer.shop')}</h3>
-            <ul className="space-y-3">
-              <li><Link href="/women" className="text-sm text-muted-foreground hover:text-foreground transition-colors">{t('nav.women')}</Link></li>
-              <li><Link href="/men" className="text-sm text-muted-foreground hover:text-foreground transition-colors">{t('nav.men')}</Link></li>
-              <li><Link href="/clothing" className="text-sm text-muted-foreground hover:text-foreground transition-colors">{t('nav.clothing')}</Link></li>
-              <li><Link href="/accessories" className="text-sm text-muted-foreground hover:text-foreground transition-colors">{t('nav.accessories')}</Link></li>
+    <footer className="border-t bg-card text-card-foreground">
+      <div className="container py-12 md:py-16">
+        <div className="flex flex-col items-center text-center">
+          <Logo />
+          <p className="mt-4 max-w-md text-muted-foreground">{t('footer.tagline')}</p>
+        </div>
+
+        <div className="my-12 grid grid-cols-1 gap-8 text-center sm:grid-cols-3 sm:text-left">
+          <div>
+            <h3 className="font-semibold">{t('footer.shop')}</h3>
+            <ul className="mt-4 space-y-3">
+              <li><Link href="/women" className="text-sm text-muted-foreground hover:text-foreground">{t('nav.women')}</Link></li>
+              <li><Link href="/men" className="text-sm text-muted-foreground hover:text-foreground">{t('nav.men')}</Link></li>
+              <li><Link href="/clothing" className="text-sm text-muted-foreground hover:text-foreground">{t('nav.clothing')}</Link></li>
+              <li><Link href="/accessories" className="text-sm text-muted-foreground hover:text-foreground">{t('nav.accessories')}</Link></li>
             </ul>
           </div>
           <div>
-            <h3 className="font-semibold mb-4">{t('footer.help')}</h3>
-            <ul className="space-y-3">
-              <li><Link href="/faq" className="text-sm text-muted-foreground hover:text-foreground transition-colors">{t('footer.contact')}</Link></li>
-              <li><Link href="/account/orders" className="text-sm text-muted-foreground hover:text-foreground transition-colors">{t('footer.order_tracking')}</Link></li>
-              <li><Link href="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors">{t('footer.returns')}</Link></li>
-              <li><Link href="/faq" className="text-sm text-muted-foreground hover:text-foreground transition-colors">{t('footer.faq')}</Link></li>
+            <h3 className="font-semibold">{t('footer.help')}</h3>
+            <ul className="mt-4 space-y-3">
+              <li><Link href="/contact" className="text-sm text-muted-foreground hover:text-foreground">{t('footer.contact')}</Link></li>
+              <li><Link href="/account/orders" className="text-sm text-muted-foreground hover:text-foreground">{t('footer.order_tracking')}</Link></li>
+              <li><Link href="/faq" className="text-sm text-muted-foreground hover:text-foreground">{t('footer.returns')}</Link></li>
+              <li><Link href="/faq" className="text-sm text-muted-foreground hover:text-foreground">{t('footer.faq')}</Link></li>
             </ul>
           </div>
           <div>
-            <h3 className="font-semibold mb-4">{t('footer.legal')}</h3>
-            <ul className="space-y-3">
-              <li><Link href="/terms" className="text-sm text-muted-foreground hover:text-foreground transition-colors">{t('footer.terms')}</Link></li>
-              <li><Link href="/privacy" className="text-sm text-muted-foreground hover:text-foreground transition-colors">{t('footer.privacy')}</Link></li>
+            <h3 className="font-semibold">{t('footer.legal')}</h3>
+            <ul className="mt-4 space-y-3">
+              <li><Link href="/terms" className="text-sm text-muted-foreground hover:text-foreground">{t('footer.terms')}</Link></li>
+              <li><Link href="/privacy" className="text-sm text-muted-foreground hover:text-foreground">{t('footer.privacy')}</Link></li>
             </ul>
           </div>
         </div>
-        <div className="mt-12 border-t pt-8 text-center text-sm text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} EZENTIALS. {t('footer.rights_reserved')}</p>
+
+        <Separator />
+
+        <div className="mt-8 flex flex-col items-center justify-between gap-6 sm:flex-row">
+          <p className="text-sm text-muted-foreground">
+            &copy; {new Date().getFullYear()} EZENTIALS. {t('footer.rights_reserved')}
+          </p>
+          <div className="flex gap-4">
+            {socialLinks.map((social) => {
+              const Icon = social.icon;
+              return (
+                <Link key={social.name} href={social.href} aria-label={social.name}>
+                  <Icon className="h-5 w-5 text-muted-foreground transition-colors hover:text-foreground" />
+                </Link>
+              );
+            })}
+          </div>
         </div>
       </div>
     </footer>
