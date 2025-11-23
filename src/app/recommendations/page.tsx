@@ -83,8 +83,7 @@ export default function RecommendationsPage() {
 
             // Enrich recommendations with full product objects
             const enriched = result.recommendations.map(rec => {
-                const productNameKey = rec.productName; // This is the translation key, e.g., "products.monarque_blazer.name"
-                const foundProduct = allProducts.find(p => t(p.name) === t(productNameKey));
+                const foundProduct = allProducts.find(p => p.slug === rec.slug);
                 return {
                     ...rec,
                     product: foundProduct,

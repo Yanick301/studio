@@ -28,12 +28,13 @@ export type PersonalizedOutfitRecommendationsInput = z.infer<
 const RecommendedProductSchema = z.object({
   productName: z.string().describe("The name of the recommended product."),
   reasoning: z.string().describe("A brief explanation of why this product is recommended for the user."),
+  slug: z.string().describe("The URL slug of the recommended product. For example, for a product named 'Chemise Slim Fit Tom Ford', the slug would be 'chemise-slim-fit-tom-ford'.")
 });
 
 const PersonalizedOutfitRecommendationsOutputSchema = z.object({
   recommendations: z
     .array(RecommendedProductSchema)
-    .describe('A list of personalized outfit recommendations, including the product name and the reasoning.'),
+    .describe('A list of personalized outfit recommendations, including the product name, the reasoning, and the product slug.'),
 });
 export type PersonalizedOutfitRecommendationsOutput = z.infer<
   typeof PersonalizedOutfitRecommendationsOutputSchema
@@ -63,7 +64,7 @@ User's Browsing History:
 User's Style Preferences:
 "{{{stylePreferences}}}"
 
-Generate a list of recommended products with your reasoning for each.`,
+Generate a list of recommended products with your reasoning for each. You must include the product slug.`,
 });
 
 const personalizedOutfitRecommendationsFlow = ai.defineFlow(

@@ -1435,7 +1435,7 @@
       "slug": "pochette-soiree-shine-night-premium",
       "description": "products.shine_night_clutch.description",
       "price": 125,
-      "imageUrl": "/product-images/accessories/pochette-soire-shine-night-premium.jpg",
+      "imageUrl": "/product-images/accessories/pochette-soiree-shine-night-premium.jpg",
       "imageHint": "evening clutch bag",
       "width": 900,
       "height": 900,
@@ -1923,7 +1923,7 @@
     {
       "id": "w-81",
       "name": "products.isabel_marant_quilted_overshirt.name",
-      "slug": "surchemise-matlassee-isabel-marant",
+      "slug": "surchemise-matelassee-isabel-marant",
       "description": "products.isabel_marant_quilted_overshirt.description",
       "price": 420,
       "imageUrl": "/product-images/winter/surchemise-matlassee-isabel-marant.jpg",
