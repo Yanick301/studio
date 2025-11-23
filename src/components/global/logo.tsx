@@ -1,11 +1,17 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export function Logo() {
   return (
     <Link href="/" className="flex items-center gap-2 group" aria-label="EZENTIALS Home">
-      <span className="font-headline text-2xl font-bold tracking-tight text-primary group-hover:text-primary/90 transition-colors">
-        EZENTIALS
-      </span>
+      <Image 
+        src="/homepage/logo.png" 
+        alt="EZENTIALS Logo" 
+        width={140} 
+        height={40} 
+        className="object-contain"
+        priority
+      />
     </Link>
   );
 }
