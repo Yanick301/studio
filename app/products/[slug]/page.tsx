@@ -23,11 +23,7 @@ import { Skeleton } from '@/components/ui/skeleton';
 import { useRecentlyViewed } from '@/hooks/use-recently-viewed';
 import { ProductCard } from '@/components/products/product-card';
 
-type PageProps = {
-  params: { slug: string };
-};
-
-export default function ProductDetailPage({ params }: PageProps) {
+export default function ProductDetailPage({ params }: { params: { slug: string } }) {
   const { t } = useTranslation();
   const product = products.find((p) => p.slug === params.slug);
   const { toast } = useToast();
