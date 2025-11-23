@@ -1,6 +1,6 @@
 'use client';
 
-import { products } from "@/lib/data";
+import products from "@/lib/placeholder-image.json";
 import { ShopPageLayout } from "@/components/products/shop-page-layout";
 import { useTranslation } from "@/hooks/use-translation";
 
