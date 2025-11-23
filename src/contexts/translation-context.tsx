@@ -38,6 +38,7 @@ export const TranslationProvider = ({ children }: { children: ReactNode }) => {
       setLanguageState(storedLang);
       document.documentElement.lang = storedLang;
     } else {
+      setLanguageState('de');
       document.documentElement.lang = 'de';
     }
   }, []);
