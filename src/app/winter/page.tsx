@@ -8,14 +8,16 @@ import { Product } from "@/lib/definitions";
 export default function WinterPage() {
     const { t } = useTranslation();
 
-    const winterKeywords = ['coat', 'sweater', 'gloves', 'scarf', 'parka', 'hoodie', 'turtleneck', 'cardigan', 'down jacket'];
+    const winterKeywords = ['coat', 'sweater', 'parka', 'hoodie', 'turtleneck', 'cardigan', 'down jacket'];
     
     const winterProducts = products.filter(p => 
-        p.tags?.includes('winter') ||
-        winterKeywords.some(keyword => 
-            t(p.name).toLowerCase().includes(keyword) || 
-            t(p.description).toLowerCase().includes(keyword) ||
-            p.imageHint.toLowerCase().includes(keyword)
+        p.category === 'clothing' && (
+            p.tags?.includes('winter') ||
+            winterKeywords.some(keyword => 
+                t(p.name).toLowerCase().includes(keyword) || 
+                t(p.description).toLowerCase().includes(keyword) ||
+                p.imageHint.toLowerCase().includes(keyword)
+            )
         )
     );
     
