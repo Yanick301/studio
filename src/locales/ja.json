@@ -5,8 +5,7 @@
     "men": "メンズ",
     "clothing": "ウェア",
     "accessories": "アクセサリー",
-    "shoes": "シューズ",
-    "ai_stylist": "AIスタイリスト"
+    "shoes": "シューズ"
   },
   "header": {
     "toggle_menu": "メニューを開閉",
@@ -331,19 +330,6 @@
     "error_email_in_use": "このメールアドレスは既に使用されています。",
     "error_generic": "アカウントの作成中にエラーが発生しました。",
     "google_signup": "Googleで登録"
-  },
-  "ai_stylist": {
-    "title": "あなたのパーソナルAIスタイリスト",
-    "description": "あなたのスタイルを記述すれば、閲覧履歴に基づいてカスタムセレクションをキュレートします。",
-    "form_label": "現在のスタイルの好みや希望は何ですか？",
-    "form_placeholder": "例：ミニマリストスタイル、ニュートラルカラー、リネンやコットンのような天然素材が好きです。夏の結婚式用の服装を探しています...",
-    "button_text": "おすすめを入手する",
-    "error_title": "エラー",
-    "error_message": "おすすめの生成中にエラーが発生しました。",
-    "results_title": "あなたへのおすすめ",
-    "browsing_history_default": "ユーザーには閲覧履歴がありません。",
-    "browsing_history_viewed": "最近閲覧した商品：{{products}}。",
-    "browsing_history_favorites": "お気に入りの商品：{{products}}。"
   },
   "privacy_policy": {
     "title": "プライバシーポリシー",

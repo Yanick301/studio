@@ -5,8 +5,7 @@
     "men": "Men",
     "clothing": "Clothing",
     "accessories": "Accessories",
-    "shoes": "Shoes",
-    "ai_stylist": "AI Stylist"
+    "shoes": "Shoes"
   },
   "header": {
     "toggle_menu": "Toggle menu",
@@ -331,19 +330,6 @@
     "error_email_in_use": "This email address is already in use.",
     "error_generic": "An error occurred while creating the account.",
     "google_signup": "Sign up with Google"
-  },
-  "ai_stylist": {
-    "title": "Your Personal AI Stylist",
-    "description": "Describe your style, and we'll curate a custom selection for you, inspired by your browsing habits.",
-    "form_label": "What are your current style preferences and desires?",
-    "form_placeholder": "e.g., I like a minimalist style, neutral colors, and natural materials like linen and cotton. I'm looking for an outfit for a summer wedding...",
-    "button_text": "Get My Recommendations",
-    "error_title": "Error",
-    "error_message": "An error occurred while generating recommendations.",
-    "results_title": "Our Suggestions For You",
-    "browsing_history_default": "The user has no browsing history.",
-    "browsing_history_viewed": "Recently viewed products: {{products}}.",
-    "browsing_history_favorites": "Favorite products: {{products}}."
   },
   "privacy_policy": {
     "title": "Privacy Policy",

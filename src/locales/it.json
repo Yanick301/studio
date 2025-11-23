@@ -5,8 +5,7 @@
     "men": "Uomini",
     "clothing": "Abbigliamento",
     "accessories": "Accessori",
-    "shoes": "Scarpe",
-    "ai_stylist": "Stilista AI"
+    "shoes": "Scarpe"
   },
   "header": {
     "toggle_menu": "Attiva/disattiva menu",
@@ -331,19 +330,6 @@
     "error_email_in_use": "Questo indirizzo email è già in uso.",
     "error_generic": "Si è verificato un errore durante la creazione dell'account.",
     "google_signup": "Registrati con Google"
-  },
-  "ai_stylist": {
-    "title": "Il Tuo Stilista Personale AI",
-    "description": "Descrivi il tuo stile e noi cureremo una selezione personalizzata per te, ispirata alle tue abitudini di navigazione.",
-    "form_label": "Quali sono le tue attuali preferenze e desideri di stile?",
-    "form_placeholder": "es. Mi piace uno stile minimalista, colori neutri e materiali naturali come lino e cotone. Sto cercando un outfit per un matrimonio estivo...",
-    "button_text": "Ottieni i Miei Consigli",
-    "error_title": "Errore",
-    "error_message": "Si è verificato un errore durante la generazione dei consigli.",
-    "results_title": "I Nostri Suggerimenti Per Te",
-    "browsing_history_default": "L'utente non ha una cronologia di navigazione.",
-    "browsing_history_viewed": "Prodotti visualizzati di recente: {{products}}.",
-    "browsing_history_favorites": "Prodotti preferiti: {{products}}."
   },
   "privacy_policy": {
     "title": "Informativa sulla Privacy",
@@ -814,7 +800,7 @@
     },
     "titan_steel_watch": {
       "name": "Orologio cronografo – Titan Steel Pro",
-      "description": "Orologio massiccio con effetto premium, cronografo preciso, bracciale in acciaio rinforzato. Molto resistente e lussuoso."
+      "description": "Orologio massiccio coneffetto premium, cronografo preciso, bracciale in acciaio rinforzato. Molto resistente e lussuoso."
     },
     "nordic_luxe_beanie": {
       "name": "Berretto in lana a trecce nero – Nordic Luxe",

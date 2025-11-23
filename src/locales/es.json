@@ -5,8 +5,7 @@
     "men": "Hombres",
     "clothing": "Ropa",
     "accessories": "Accesorios",
-    "shoes": "Zapatos",
-    "ai_stylist": "Estilista IA"
+    "shoes": "Zapatos"
   },
   "header": {
     "toggle_menu": "Alternar menú",
@@ -331,19 +330,6 @@
     "error_email_in_use": "Esta dirección de correo electrónico ya está en uso.",
     "error_generic": "Se ha producido un error al crear la cuenta.",
     "google_signup": "Registrarse con Google"
-  },
-  "ai_stylist": {
-    "title": "Tu Estilista Personal de IA",
-    "description": "Describe tu estilo y crearemos una selección personalizada para ti, inspirada en tus hábitos de navegación.",
-    "form_label": "¿Cuáles son tus preferencias y deseos de estilo actuales?",
-    "form_placeholder": "p. ej., me gusta un estilo minimalista, colores neutros y materiales naturales como el lino y el algodón. Busco un atuendo para una boda de verano...",
-    "button_text": "Obtener Mis Recomendaciones",
-    "error_title": "Error",
-    "error_message": "Se ha producido un error al generar las recomendaciones.",
-    "results_title": "Nuestras Sugerencias Para Ti",
-    "browsing_history_default": "El usuario no tiene historial de navegación.",
-    "browsing_history_viewed": "Productos vistos recientemente: {{products}}.",
-    "browsing_history_favorites": "Productos favoritos: {{products}}."
   },
   "privacy_policy": {
     "title": "Política de Privacidad",

@@ -5,8 +5,7 @@
     "men": "Hommes",
     "clothing": "Vêtements",
     "accessories": "Accessoires",
-    "shoes": "Chaussures",
-    "ai_stylist": "Styliste IA"
+    "shoes": "Chaussures"
   },
   "header": {
     "toggle_menu": "Basculer le menu",
@@ -331,19 +330,6 @@
     "error_email_in_use": "Cette adresse e-mail est déjà utilisée.",
     "error_generic": "Une erreur s'est produite lors de la création du compte.",
     "google_signup": "S'inscrire avec Google"
-  },
-  "ai_stylist": {
-    "title": "Votre Styliste Personnel IA",
-    "description": "Décrivez votre style et nous vous préparerons une sélection sur mesure, inspirée par votre navigation.",
-    "form_label": "Quelles sont vos préférences et envies de style actuelles ?",
-    "form_placeholder": "ex: J'aime un style minimaliste, les couleurs neutres et les matières naturelles comme le lin et le coton. Je cherche une tenue pour un mariage en été...",
-    "button_text": "Obtenir Mes Recommandations",
-    "error_title": "Erreur",
-    "error_message": "Une erreur s'est produite lors de la génération des recommandations.",
-    "results_title": "Nos Suggestions Pour Vous",
-    "browsing_history_default": "L'utilisateur n'a pas d'historique de navigation.",
-    "browsing_history_viewed": "Produits récemment consultés : {{products}}.",
-    "browsing_history_favorites": "Produits favoris : {{products}}."
   },
   "privacy_policy": {
     "title": "Politique de Confidentialité",
