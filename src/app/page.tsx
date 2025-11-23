@@ -8,13 +8,25 @@ import { products } from '@/lib/data';
 import { testimonials } from '@/lib/data';
 import { Card, CardContent } from '@/components/ui/card';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
-import { ArrowRight, Lock, Feather, Gem } from 'lucide-react';
+import { ArrowRight, Lock, Feather, Gem, Snowflake } from 'lucide-react';
 import { useTranslation } from '@/hooks/use-translation';
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+import { Product } from '@/lib/definitions';
+
 
 export default function Home() {
   const { t } = useTranslation();
-  const trendingProducts = products.filter(p => p.isTrending).slice(0, 10);
+  
+  const winterKeywords = ['coat', 'sweater', 'gloves', 'scarf', 'parka', 'hoodie', 'turtleneck', 'cardigan', 'down jacket'];
+    
+  const winterProducts = products.filter(p => 
+      p.tags?.includes('winter') ||
+      winterKeywords.some(keyword => 
+          t(p.name).toLowerCase().includes(keyword) || 
+          t(p.description).toLowerCase().includes(keyword) ||
+          p.imageHint.toLowerCase().includes(keyword)
+      )
+  ).slice(0, 8);
   
   const brandNames = [
     "Versace", "Gucci", "Prada", "Dior", "Chanel", "Balenciaga", "Louis Vuitton"
@@ -137,15 +149,25 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Trending Products Section */}
+      {/* Winter Products Section */}
       <section className="py-16 md:py-24 bg-card">
         <div className="container">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold font-headline">{t('home.trending_products')}</h2>
-            <p className="mt-2 text-muted-foreground text-lg">{t('home.trending_description')}</p>
+            <h2 className="text-3xl md:text-4xl font-bold font-headline">{t('winter_page.title')}</h2>
+            <p className="mt-2 text-muted-foreground text-lg">{t('winter_page.description')}</p>
           </div>
+
+          <div className="mb-12 bg-gradient-to-r from-primary/80 to-primary rounded-lg p-8 text-center text-primary-foreground shadow-lg">
+              <Snowflake className="mx-auto h-12 w-12 mb-4 animate-pulse" />
+              <h3 className="text-3xl font-bold font-headline">Offres d'Hiver Exclusives</h3>
+              <p className="mt-2 max-w-2xl mx-auto">Profitez de réductions jusqu'à -30% sur une sélection d'articles de notre collection hiver.</p>
+              <Button asChild variant="secondary" className="mt-6">
+                <Link href="/winter">J'en profite</Link>
+              </Button>
+          </div>
+
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
-            {trendingProducts.map((product, index) => (
+            {winterProducts.map((product, index) => (
               <div key={product.id} className="animate-fade-in-up" style={{ animationDelay: `${index * 100}ms`}}>
                  <ProductCard product={product} />
               </div>
@@ -153,7 +175,7 @@ export default function Home() {
           </div>
           <div className="text-center mt-12">
             <Button asChild variant="outline">
-              <Link href="/products">{t('home.view_all_products')} <ArrowRight className="ml-2 h-4 w-4" /></Link>
+              <Link href="/winter">{t('home.view_all_products')} <ArrowRight className="ml-2 h-4 w-4" /></Link>
             </Button>
           </div>
         </div>
