@@ -26,7 +26,7 @@ export function Footer() {
   const socialLinks = [
     { name: 'Twitter', href: '#', icon: Twitter },
     { name: 'Facebook', href: '#', icon: Facebook },
-    { name: 'Instagram', href: '#', icon: Instagram },
+    { name: 'Instagram', href: 'https://www.instagram.com/ezcentials_?igsh=MWQ2aTR6OWgyYnpvag%3D&utm_source=qr', icon: Instagram },
     { name: 'Snapchat', href: 'https://snapchat.com/t/qez0Z1z0', icon: SnapchatIcon },
   ];
 
