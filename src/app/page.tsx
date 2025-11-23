@@ -33,7 +33,7 @@ export default function Home() {
   const maisonCategories = [
     {
       href: "/men",
-      image: "/homepage/maison-tailoring.jpg",
+      image: "/homepage/maisontail.jpg",
       imageHint: "man white t-shirt",
       subtitle: 'home.maison_menu.tailoring.subtitle',
       title: 'home.maison_menu.tailoring.title',
